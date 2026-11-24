@@ -1,0 +1,7648 @@
+{
+  "status": "HOLDING",
+  "not_live_holding": true,
+  "window": {
+    "start": "2025-11-15",
+    "end": "2026-11-15",
+    "label": "1y_to_today"
+  },
+  "levels_held": [
+    "P1",
+    "P2C",
+    "P2D",
+    "P2E",
+    "P2F"
+  ],
+  "results": {
+    "P1|PROVEN15_PLUS_CONFIRM_T30": {
+      "level": "P1",
+      "desk": "PROVEN15_PLUS_CONFIRM_T30",
+      "candidate_tag": "PROVEN15_PLUS_CONFIRM_T30",
+      "accuracy_range": "ACC_RANGE_100_100",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 28,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 1249.0,
+      "wins": 28,
+      "losses": 0,
+      "buy": 8,
+      "sell": 20,
+      "call_days": 28,
+      "first_day": "2025-12-11",
+      "last_day": "2026-10-29",
+      "months": [
+        {
+          "month": "2025-12",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 115.0
+        },
+        {
+          "month": "2026-01",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0,
+          "points": 95.0
+        },
+        {
+          "month": "2026-02",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 108.0
+        },
+        {
+          "month": "2026-04",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 46.0
+        },
+        {
+          "month": "2026-05",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 30.0
+        },
+        {
+          "month": "2026-06",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0,
+          "points": 115.0
+        },
+        {
+          "month": "2026-07",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 34.0
+        },
+        {
+          "month": "2026-08",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 98.0
+        },
+        {
+          "month": "2026-09",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 197.0
+        },
+        {
+          "month": "2026-10",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 411.0
+        }
+      ]
+    },
+    "P1|ACC100_MULTI_V1": {
+      "level": "P1",
+      "desk": "ACC100_MULTI_V1",
+      "candidate_tag": "ACC100_MULTI_V1",
+      "accuracy_range": "ACC_RANGE_96_100",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 34,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 1399.0,
+      "wins": 34,
+      "losses": 0,
+      "buy": 14,
+      "sell": 20,
+      "call_days": 34,
+      "first_day": "2025-12-11",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-12",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 115.0
+        },
+        {
+          "month": "2026-01",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0,
+          "points": 95.0
+        },
+        {
+          "month": "2026-02",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-03",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 30.0
+        },
+        {
+          "month": "2026-04",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 46.0
+        },
+        {
+          "month": "2026-05",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 30.0
+        },
+        {
+          "month": "2026-06",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 165.0
+        },
+        {
+          "month": "2026-07",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0,
+          "points": 64.0
+        },
+        {
+          "month": "2026-08",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 98.0
+        },
+        {
+          "month": "2026-09",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 197.0
+        },
+        {
+          "month": "2026-10",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 411.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC100_MULTI_V2": {
+      "level": "P1",
+      "desk": "ACC100_MULTI_V2",
+      "candidate_tag": "ACC100_MULTI_V2",
+      "accuracy_range": "ACC_RANGE_97_100",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 47,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 1779.0,
+      "wins": 47,
+      "losses": 0,
+      "buy": 17,
+      "sell": 30,
+      "call_days": 47,
+      "first_day": "2025-12-01",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-12",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 185.0
+        },
+        {
+          "month": "2026-01",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 135.0
+        },
+        {
+          "month": "2026-02",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-03",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 110.0
+        },
+        {
+          "month": "2026-04",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 46.0
+        },
+        {
+          "month": "2026-05",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 85.0
+        },
+        {
+          "month": "2026-06",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 197.0
+        },
+        {
+          "month": "2026-07",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 84.0
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-09",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 230.0
+        },
+        {
+          "month": "2026-10",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 411.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC100_MULTI_V3": {
+      "level": "P1",
+      "desk": "ACC100_MULTI_V3",
+      "candidate_tag": "ACC100_MULTI_V3",
+      "accuracy_range": "ACC_RANGE_97_100",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 49,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 1834.0,
+      "wins": 49,
+      "losses": 0,
+      "buy": 18,
+      "sell": 31,
+      "call_days": 49,
+      "first_day": "2025-12-01",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-12",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 185.0
+        },
+        {
+          "month": "2026-01",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 135.0
+        },
+        {
+          "month": "2026-02",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-03",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 110.0
+        },
+        {
+          "month": "2026-04",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 46.0
+        },
+        {
+          "month": "2026-05",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0
+        },
+        {
+          "month": "2026-06",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 217.0
+        },
+        {
+          "month": "2026-07",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 84.0
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-09",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 230.0
+        },
+        {
+          "month": "2026-10",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 411.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC100_MULTI_V4": {
+      "level": "P1",
+      "desk": "ACC100_MULTI_V4",
+      "candidate_tag": "ACC100_MULTI_V4",
+      "accuracy_range": "ACC_RANGE_97_100",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 50,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 1874.0,
+      "wins": 50,
+      "losses": 0,
+      "buy": 18,
+      "sell": 32,
+      "call_days": 50,
+      "first_day": "2025-12-01",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-12",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 225.0
+        },
+        {
+          "month": "2026-01",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 135.0
+        },
+        {
+          "month": "2026-02",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-03",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 110.0
+        },
+        {
+          "month": "2026-04",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 46.0
+        },
+        {
+          "month": "2026-05",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0
+        },
+        {
+          "month": "2026-06",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 217.0
+        },
+        {
+          "month": "2026-07",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 84.0
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-09",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 230.0
+        },
+        {
+          "month": "2026-10",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 411.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC100_MULTI_V5": {
+      "level": "P1",
+      "desk": "ACC100_MULTI_V5",
+      "candidate_tag": "ACC100_MULTI_V5",
+      "accuracy_range": "ACC_RANGE_98_100",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 54,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 2015.0,
+      "wins": 54,
+      "losses": 0,
+      "buy": 20,
+      "sell": 34,
+      "call_days": 54,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 40.0
+        },
+        {
+          "month": "2025-12",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 225.0
+        },
+        {
+          "month": "2026-01",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 135.0
+        },
+        {
+          "month": "2026-02",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-03",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 161.0
+        },
+        {
+          "month": "2026-04",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0,
+          "points": 66.0
+        },
+        {
+          "month": "2026-05",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0
+        },
+        {
+          "month": "2026-06",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 217.0
+        },
+        {
+          "month": "2026-07",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 114.0
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-09",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 230.0
+        },
+        {
+          "month": "2026-10",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 411.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC_WIDE_P92": {
+      "level": "P1",
+      "desk": "ACC_WIDE_P92",
+      "candidate_tag": "ACC_WIDE_P92",
+      "accuracy_range": "ACC_RANGE_91_100",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 52,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 1949.0,
+      "wins": 52,
+      "losses": 0,
+      "buy": 19,
+      "sell": 33,
+      "call_days": 52,
+      "first_day": "2025-12-01",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-12",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 225.0
+        },
+        {
+          "month": "2026-01",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 135.0
+        },
+        {
+          "month": "2026-02",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-03",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 110.0
+        },
+        {
+          "month": "2026-04",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0,
+          "points": 86.0
+        },
+        {
+          "month": "2026-05",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0
+        },
+        {
+          "month": "2026-06",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 252.0
+        },
+        {
+          "month": "2026-07",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 84.0
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-09",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 230.0
+        },
+        {
+          "month": "2026-10",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 411.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC_WIDE_P90": {
+      "level": "P1",
+      "desk": "ACC_WIDE_P90",
+      "candidate_tag": "ACC_WIDE_P90",
+      "accuracy_range": "ACC_RANGE_89_96",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 65,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 2486.0,
+      "wins": 65,
+      "losses": 0,
+      "buy": 32,
+      "sell": 33,
+      "call_days": 65,
+      "first_day": "2025-12-01",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-12",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 294.0
+        },
+        {
+          "month": "2026-01",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 213.0
+        },
+        {
+          "month": "2026-02",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 189.0
+        },
+        {
+          "month": "2026-03",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 110.0
+        },
+        {
+          "month": "2026-04",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 192.0
+        },
+        {
+          "month": "2026-05",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 168.0
+        },
+        {
+          "month": "2026-06",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 252.0
+        },
+        {
+          "month": "2026-07",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 170.0
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-09",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 294.0
+        },
+        {
+          "month": "2026-10",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 456.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC_WIDE_P85": {
+      "level": "P1",
+      "desk": "ACC_WIDE_P85",
+      "candidate_tag": "ACC_WIDE_P85",
+      "accuracy_range": "ACC_RANGE_84_90",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 86,
+      "hit_pct": 94.19,
+      "perfect": false,
+      "points": 2948.0,
+      "wins": 81,
+      "losses": 5,
+      "buy": 40,
+      "sell": 46,
+      "call_days": 86,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 100.0
+        },
+        {
+          "month": "2025-12",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 324.0
+        },
+        {
+          "month": "2026-01",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 198.0
+        },
+        {
+          "month": "2026-03",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 161.0
+        },
+        {
+          "month": "2026-04",
+          "n": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1,
+          "points": 202.0
+        },
+        {
+          "month": "2026-05",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 277.0
+        },
+        {
+          "month": "2026-06",
+          "n": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1,
+          "points": 252.0
+        },
+        {
+          "month": "2026-07",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 230.0
+        },
+        {
+          "month": "2026-08",
+          "n": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1,
+          "points": 118.0
+        },
+        {
+          "month": "2026-09",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 334.0
+        },
+        {
+          "month": "2026-10",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 487.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC_WIDE_P85B": {
+      "level": "P1",
+      "desk": "ACC_WIDE_P85B",
+      "candidate_tag": "ACC_WIDE_P85B",
+      "accuracy_range": "ACC_RANGE_81_89",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 98,
+      "hit_pct": 93.88,
+      "perfect": false,
+      "points": 3282.0,
+      "wins": 92,
+      "losses": 6,
+      "buy": 43,
+      "sell": 55,
+      "call_days": 98,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 359.0
+        },
+        {
+          "month": "2026-01",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 198.0
+        },
+        {
+          "month": "2026-03",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 161.0
+        },
+        {
+          "month": "2026-04",
+          "n": 8,
+          "hit_pct": 75.0,
+          "wins": 6,
+          "losses": 2,
+          "points": 187.0
+        },
+        {
+          "month": "2026-05",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 277.0
+        },
+        {
+          "month": "2026-06",
+          "n": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1,
+          "points": 252.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 325.0
+        },
+        {
+          "month": "2026-08",
+          "n": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1,
+          "points": 118.0
+        },
+        {
+          "month": "2026-09",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 409.0
+        },
+        {
+          "month": "2026-10",
+          "n": 13,
+          "hit_pct": 92.31,
+          "wins": 12,
+          "losses": 1,
+          "points": 597.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC_WIDE_P80": {
+      "level": "P1",
+      "desk": "ACC_WIDE_P80",
+      "candidate_tag": "ACC_WIDE_P80",
+      "accuracy_range": "ACC_RANGE_76_85",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 108,
+      "hit_pct": 90.74,
+      "perfect": false,
+      "points": 3367.0,
+      "wins": 98,
+      "losses": 10,
+      "buy": 48,
+      "sell": 60,
+      "call_days": 108,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 359.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 198.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 227.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 11,
+          "hit_pct": 72.73,
+          "wins": 8,
+          "losses": 3,
+          "points": 186.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 325.0
+        },
+        {
+          "month": "2026-08",
+          "n": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1,
+          "points": 148.0
+        },
+        {
+          "month": "2026-09",
+          "n": 13,
+          "hit_pct": 92.31,
+          "wins": 12,
+          "losses": 1,
+          "points": 420.0
+        },
+        {
+          "month": "2026-10",
+          "n": 13,
+          "hit_pct": 92.31,
+          "wins": 12,
+          "losses": 1,
+          "points": 597.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC_WIDE_P75": {
+      "level": "P1",
+      "desk": "ACC_WIDE_P75",
+      "candidate_tag": "ACC_WIDE_P75",
+      "accuracy_range": "ACC_RANGE_75_83",
+      "mode": "day",
+      "status": "LOCKED",
+      "n": 116,
+      "hit_pct": 88.79,
+      "perfect": false,
+      "points": 3422.0,
+      "wins": 103,
+      "losses": 13,
+      "buy": 49,
+      "sell": 67,
+      "call_days": 116,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 424.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 198.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-04",
+          "n": 10,
+          "hit_pct": 70.0,
+          "wins": 7,
+          "losses": 3,
+          "points": 187.0
+        },
+        {
+          "month": "2026-05",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 347.0
+        },
+        {
+          "month": "2026-06",
+          "n": 12,
+          "hit_pct": 75.0,
+          "wins": 9,
+          "losses": 3,
+          "points": 216.0
+        },
+        {
+          "month": "2026-07",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 285.0
+        },
+        {
+          "month": "2026-08",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 188.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2,
+          "points": 380.0
+        },
+        {
+          "month": "2026-10",
+          "n": 13,
+          "hit_pct": 92.31,
+          "wins": 12,
+          "losses": 1,
+          "points": 597.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC_WIDE_P80_CAP2": {
+      "level": "P1",
+      "desk": "ACC_WIDE_P80_CAP2",
+      "candidate_tag": "ACC_WIDE_P80_CAP2",
+      "accuracy_range": "ACC_RANGE_77_87",
+      "mode": "cap2",
+      "status": "LOCKED",
+      "n": 193,
+      "hit_pct": 94.3,
+      "perfect": false,
+      "points": 6635.0,
+      "wins": 182,
+      "losses": 11,
+      "buy": 83,
+      "sell": 110,
+      "call_days": 108,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 198.0
+        },
+        {
+          "month": "2025-12",
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 606.0
+        },
+        {
+          "month": "2026-01",
+          "n": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1,
+          "points": 466.0
+        },
+        {
+          "month": "2026-02",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 467.0
+        },
+        {
+          "month": "2026-03",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 417.0
+        },
+        {
+          "month": "2026-04",
+          "n": 15,
+          "hit_pct": 86.67,
+          "wins": 13,
+          "losses": 2,
+          "points": 479.0
+        },
+        {
+          "month": "2026-05",
+          "n": 15,
+          "hit_pct": 100.0,
+          "wins": 15,
+          "losses": 0,
+          "points": 607.0
+        },
+        {
+          "month": "2026-06",
+          "n": 20,
+          "hit_pct": 80.0,
+          "wins": 16,
+          "losses": 4,
+          "points": 453.0
+        },
+        {
+          "month": "2026-07",
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 645.0
+        },
+        {
+          "month": "2026-08",
+          "n": 12,
+          "hit_pct": 91.67,
+          "wins": 11,
+          "losses": 1,
+          "points": 306.0
+        },
+        {
+          "month": "2026-09",
+          "n": 23,
+          "hit_pct": 95.65,
+          "wins": 22,
+          "losses": 1,
+          "points": 797.0
+        },
+        {
+          "month": "2026-10",
+          "n": 24,
+          "hit_pct": 95.83,
+          "wins": 23,
+          "losses": 1,
+          "points": 1174.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P1|ACC_WIDE_P75_CAP2": {
+      "level": "P1",
+      "desk": "ACC_WIDE_P75_CAP2",
+      "candidate_tag": "ACC_WIDE_P75_CAP2",
+      "accuracy_range": "ACC_RANGE_75_84",
+      "mode": "cap2",
+      "status": "LOCKED",
+      "n": 218,
+      "hit_pct": 90.37,
+      "perfect": false,
+      "points": 6820.0,
+      "wins": 197,
+      "losses": 21,
+      "buy": 90,
+      "sell": 128,
+      "call_days": 116,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 278.0
+        },
+        {
+          "month": "2025-12",
+          "n": 22,
+          "hit_pct": 95.45,
+          "wins": 21,
+          "losses": 1,
+          "points": 711.0
+        },
+        {
+          "month": "2026-01",
+          "n": 16,
+          "hit_pct": 87.5,
+          "wins": 14,
+          "losses": 2,
+          "points": 476.0
+        },
+        {
+          "month": "2026-02",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 467.0
+        },
+        {
+          "month": "2026-03",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 417.0
+        },
+        {
+          "month": "2026-04",
+          "n": 19,
+          "hit_pct": 73.68,
+          "wins": 14,
+          "losses": 5,
+          "points": 409.0
+        },
+        {
+          "month": "2026-05",
+          "n": 16,
+          "hit_pct": 100.0,
+          "wins": 16,
+          "losses": 0,
+          "points": 647.0
+        },
+        {
+          "month": "2026-06",
+          "n": 22,
+          "hit_pct": 81.82,
+          "wins": 18,
+          "losses": 4,
+          "points": 518.0
+        },
+        {
+          "month": "2026-07",
+          "n": 21,
+          "hit_pct": 90.48,
+          "wins": 19,
+          "losses": 2,
+          "points": 565.0
+        },
+        {
+          "month": "2026-08",
+          "n": 15,
+          "hit_pct": 80.0,
+          "wins": 12,
+          "losses": 3,
+          "points": 271.0
+        },
+        {
+          "month": "2026-09",
+          "n": 26,
+          "hit_pct": 92.31,
+          "wins": 24,
+          "losses": 2,
+          "points": 827.0
+        },
+        {
+          "month": "2026-10",
+          "n": 25,
+          "hit_pct": 96.0,
+          "wins": 24,
+          "losses": 1,
+          "points": 1214.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2C|ACC100_MULTI_V8": {
+      "level": "P2C",
+      "desk": "ACC100_MULTI_V5",
+      "base_desk": "ACC100_MULTI_V5",
+      "candidate_tag": "ACC100_MULTI_V8",
+      "accuracy_range": "ACC_RANGE_98_100",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 52,
+      "n": 73,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 2636.0,
+      "wins": 73,
+      "losses": 0,
+      "buy": 29,
+      "sell": 44,
+      "call_days": 73,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 114.0
+        },
+        {
+          "month": "2025-12",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 255.0
+        },
+        {
+          "month": "2026-01",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 166.0
+        },
+        {
+          "month": "2026-02",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 198.0
+        },
+        {
+          "month": "2026-03",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 161.0
+        },
+        {
+          "month": "2026-04",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 146.0
+        },
+        {
+          "month": "2026-05",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0
+        },
+        {
+          "month": "2026-06",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 257.0
+        },
+        {
+          "month": "2026-07",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 235.0
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-09",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 315.0
+        },
+        {
+          "month": "2026-10",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 521.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2C|ACC_WIDE_P92_P2C": {
+      "level": "P2C",
+      "desk": "ACC_WIDE_P92",
+      "base_desk": "ACC_WIDE_P92",
+      "candidate_tag": "ACC_WIDE_P92_P2C",
+      "accuracy_range": "ACC_RANGE_91_100",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 52,
+      "n": 73,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 2631.0,
+      "wins": 73,
+      "losses": 0,
+      "buy": 29,
+      "sell": 44,
+      "call_days": 73,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 94.0
+        },
+        {
+          "month": "2025-12",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 255.0
+        },
+        {
+          "month": "2026-01",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 166.0
+        },
+        {
+          "month": "2026-02",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 198.0
+        },
+        {
+          "month": "2026-03",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 161.0
+        },
+        {
+          "month": "2026-04",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 146.0
+        },
+        {
+          "month": "2026-05",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0
+        },
+        {
+          "month": "2026-06",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 272.0
+        },
+        {
+          "month": "2026-07",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 235.0
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-09",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 315.0
+        },
+        {
+          "month": "2026-10",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 521.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2C|ACC_WIDE_P90_P2C": {
+      "level": "P2C",
+      "desk": "ACC_WIDE_P90",
+      "base_desk": "ACC_WIDE_P90",
+      "candidate_tag": "ACC_WIDE_P90_P2C",
+      "accuracy_range": "ACC_RANGE_89_96",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 49,
+      "n": 83,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3135.0,
+      "wins": 83,
+      "losses": 0,
+      "buy": 36,
+      "sell": 47,
+      "call_days": 83,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 109.0
+        },
+        {
+          "month": "2025-12",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 324.0
+        },
+        {
+          "month": "2026-01",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 213.0
+        },
+        {
+          "month": "2026-02",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 224.0
+        },
+        {
+          "month": "2026-03",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 161.0
+        },
+        {
+          "month": "2026-04",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 252.0
+        },
+        {
+          "month": "2026-05",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 237.0
+        },
+        {
+          "month": "2026-06",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 272.0
+        },
+        {
+          "month": "2026-07",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 235.0
+        },
+        {
+          "month": "2026-08",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 163.0
+        },
+        {
+          "month": "2026-09",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 394.0
+        },
+        {
+          "month": "2026-10",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 531.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2C|ACC_WIDE_P85_P2C": {
+      "level": "P2C",
+      "desk": "ACC_WIDE_P85",
+      "base_desk": "ACC_WIDE_P85",
+      "candidate_tag": "ACC_WIDE_P85_P2C",
+      "accuracy_range": "ACC_RANGE_84_90",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 48,
+      "n": 108,
+      "hit_pct": 94.44,
+      "perfect": false,
+      "points": 3592.0,
+      "wins": 102,
+      "losses": 6,
+      "buy": 48,
+      "sell": 60,
+      "call_days": 108,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1,
+          "points": 210.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 191.0
+        },
+        {
+          "month": "2026-04",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 257.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 292.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 330.0
+        },
+        {
+          "month": "2026-08",
+          "n": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1,
+          "points": 153.0
+        },
+        {
+          "month": "2026-09",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 399.0
+        },
+        {
+          "month": "2026-10",
+          "n": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1,
+          "points": 607.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2C|ACC_WIDE_P85B_P2C": {
+      "level": "P2C",
+      "desk": "ACC_WIDE_P85B",
+      "base_desk": "ACC_WIDE_P85B",
+      "candidate_tag": "ACC_WIDE_P85B_P2C",
+      "accuracy_range": "ACC_RANGE_81_89",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 40,
+      "n": 111,
+      "hit_pct": 93.69,
+      "perfect": false,
+      "points": 3627.0,
+      "wins": 104,
+      "losses": 7,
+      "buy": 49,
+      "sell": 62,
+      "call_days": 111,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 154.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1,
+          "points": 210.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 191.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 227.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 292.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 325.0
+        },
+        {
+          "month": "2026-08",
+          "n": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1,
+          "points": 153.0
+        },
+        {
+          "month": "2026-09",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 409.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2C|ACC_WIDE_P80_P2C": {
+      "level": "P2C",
+      "desk": "ACC_WIDE_P80",
+      "base_desk": "ACC_WIDE_P80",
+      "candidate_tag": "ACC_WIDE_P80_P2C",
+      "accuracy_range": "ACC_RANGE_76_85",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 26,
+      "n": 119,
+      "hit_pct": 90.76,
+      "perfect": false,
+      "points": 3652.0,
+      "wins": 108,
+      "losses": 11,
+      "buy": 53,
+      "sell": 66,
+      "call_days": 119,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 184.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 80.0,
+          "wins": 8,
+          "losses": 2,
+          "points": 203.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 227.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 12,
+          "hit_pct": 75.0,
+          "wins": 9,
+          "losses": 3,
+          "points": 226.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 325.0
+        },
+        {
+          "month": "2026-08",
+          "n": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1,
+          "points": 218.0
+        },
+        {
+          "month": "2026-09",
+          "n": 13,
+          "hit_pct": 92.31,
+          "wins": 12,
+          "losses": 1,
+          "points": 420.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2C|ACC_WIDE_P75_P2C": {
+      "level": "P2C",
+      "desk": "ACC_WIDE_P75",
+      "base_desk": "ACC_WIDE_P75",
+      "candidate_tag": "ACC_WIDE_P75_P2C",
+      "accuracy_range": "ACC_RANGE_75_83",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 21,
+      "n": 125,
+      "hit_pct": 88.8,
+      "perfect": false,
+      "points": 3622.0,
+      "wins": 111,
+      "losses": 14,
+      "buy": 54,
+      "sell": 71,
+      "call_days": 125,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 184.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 424.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-04",
+          "n": 10,
+          "hit_pct": 70.0,
+          "wins": 7,
+          "losses": 3,
+          "points": 187.0
+        },
+        {
+          "month": "2026-05",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 347.0
+        },
+        {
+          "month": "2026-06",
+          "n": 13,
+          "hit_pct": 76.92,
+          "wins": 10,
+          "losses": 3,
+          "points": 256.0
+        },
+        {
+          "month": "2026-07",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 250.0
+        },
+        {
+          "month": "2026-08",
+          "n": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1,
+          "points": 218.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2,
+          "points": 380.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2C|ACC100_MULTI_V5_CAP2_P2C": {
+      "level": "P2C",
+      "desk": "ACC100_MULTI_V5_CAP2",
+      "base_desk": "ACC100_MULTI_V5",
+      "candidate_tag": "ACC100_MULTI_V5_CAP2_P2C",
+      "accuracy_range": "ACC_RANGE_98_100",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 51,
+      "n": 97,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3345.0,
+      "wins": 97,
+      "losses": 0,
+      "buy": 34,
+      "sell": 63,
+      "call_days": 73,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 315.0
+        },
+        {
+          "month": "2026-01",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 226.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 287.0
+        },
+        {
+          "month": "2026-03",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 256.0
+        },
+        {
+          "month": "2026-04",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 181.0
+        },
+        {
+          "month": "2026-05",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 177.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 312.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 100.0,
+          "wins": 14,
+          "losses": 0,
+          "points": 473.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 551.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2C|ACC_WIDE_P92_CAP2_P2C": {
+      "level": "P2C",
+      "desk": "ACC_WIDE_P92_CAP2",
+      "base_desk": "ACC_WIDE_P92",
+      "candidate_tag": "ACC_WIDE_P92_CAP2_P2C",
+      "accuracy_range": "ACC_RANGE_91_100",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 51,
+      "n": 97,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3360.0,
+      "wins": 97,
+      "losses": 0,
+      "buy": 34,
+      "sell": 63,
+      "call_days": 73,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 315.0
+        },
+        {
+          "month": "2026-01",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 226.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 287.0
+        },
+        {
+          "month": "2026-03",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 256.0
+        },
+        {
+          "month": "2026-04",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 181.0
+        },
+        {
+          "month": "2026-05",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 177.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 327.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 100.0,
+          "wins": 14,
+          "losses": 0,
+          "points": 473.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 551.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2C|ACC_WIDE_P90_CAP2_P2C": {
+      "level": "P2C",
+      "desk": "ACC_WIDE_P90_CAP2",
+      "base_desk": "ACC_WIDE_P90",
+      "candidate_tag": "ACC_WIDE_P90_CAP2_P2C",
+      "accuracy_range": "ACC_RANGE_89_96",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 47,
+      "n": 114,
+      "hit_pct": 99.12,
+      "perfect": false,
+      "points": 3975.0,
+      "wins": 113,
+      "losses": 1,
+      "buy": 44,
+      "sell": 70,
+      "call_days": 83,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 129.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 91.67,
+          "wins": 11,
+          "losses": 1,
+          "points": 339.0
+        },
+        {
+          "month": "2026-01",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 284.0
+        },
+        {
+          "month": "2026-02",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 328.0
+        },
+        {
+          "month": "2026-03",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 256.0
+        },
+        {
+          "month": "2026-04",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 322.0
+        },
+        {
+          "month": "2026-05",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 329.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 332.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 183.0
+        },
+        {
+          "month": "2026-09",
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 627.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 561.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC100_MULTI_V9": {
+      "level": "P2D",
+      "desk": "ACC100_MULTI_V5",
+      "base_desk": "ACC100_MULTI_V5",
+      "candidate_tag": "ACC100_MULTI_V9",
+      "accuracy_range": "ACC_RANGE_98_100",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 76,
+      "n": 79,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 2831.0,
+      "wins": 79,
+      "losses": 0,
+      "buy": 31,
+      "sell": 48,
+      "call_days": 79,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 114.0
+        },
+        {
+          "month": "2025-12",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 320.0
+        },
+        {
+          "month": "2026-01",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-02",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 198.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 196.0
+        },
+        {
+          "month": "2026-04",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 176.0
+        },
+        {
+          "month": "2026-05",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0
+        },
+        {
+          "month": "2026-06",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 257.0
+        },
+        {
+          "month": "2026-07",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 235.0
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-09",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 315.0
+        },
+        {
+          "month": "2026-10",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 521.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC_WIDE_P92_P2D": {
+      "level": "P2D",
+      "desk": "ACC_WIDE_P92",
+      "base_desk": "ACC_WIDE_P92",
+      "candidate_tag": "ACC_WIDE_P92_P2D",
+      "accuracy_range": "ACC_RANGE_91_100",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 73,
+      "n": 79,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 2826.0,
+      "wins": 79,
+      "losses": 0,
+      "buy": 31,
+      "sell": 48,
+      "call_days": 79,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 94.0
+        },
+        {
+          "month": "2025-12",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 320.0
+        },
+        {
+          "month": "2026-01",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-02",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 198.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 196.0
+        },
+        {
+          "month": "2026-04",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 176.0
+        },
+        {
+          "month": "2026-05",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0
+        },
+        {
+          "month": "2026-06",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 272.0
+        },
+        {
+          "month": "2026-07",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 235.0
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 128.0
+        },
+        {
+          "month": "2026-09",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 315.0
+        },
+        {
+          "month": "2026-10",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 521.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC_WIDE_P90_P2D": {
+      "level": "P2D",
+      "desk": "ACC_WIDE_P90",
+      "base_desk": "ACC_WIDE_P90",
+      "candidate_tag": "ACC_WIDE_P90_P2D",
+      "accuracy_range": "ACC_RANGE_89_96",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 69,
+      "n": 90,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3380.0,
+      "wins": 90,
+      "losses": 0,
+      "buy": 39,
+      "sell": 51,
+      "call_days": 90,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 109.0
+        },
+        {
+          "month": "2025-12",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 389.0
+        },
+        {
+          "month": "2026-01",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 248.0
+        },
+        {
+          "month": "2026-02",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 224.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 196.0
+        },
+        {
+          "month": "2026-04",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 292.0
+        },
+        {
+          "month": "2026-05",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 267.0
+        },
+        {
+          "month": "2026-06",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 312.0
+        },
+        {
+          "month": "2026-07",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 235.0
+        },
+        {
+          "month": "2026-08",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 163.0
+        },
+        {
+          "month": "2026-09",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 394.0
+        },
+        {
+          "month": "2026-10",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 531.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC_WIDE_P85_P2D": {
+      "level": "P2D",
+      "desk": "ACC_WIDE_P85",
+      "base_desk": "ACC_WIDE_P85",
+      "candidate_tag": "ACC_WIDE_P85_P2D",
+      "accuracy_range": "ACC_RANGE_84_90",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 66,
+      "n": 111,
+      "hit_pct": 93.69,
+      "perfect": false,
+      "points": 3622.0,
+      "wins": 104,
+      "losses": 7,
+      "buy": 48,
+      "sell": 63,
+      "call_days": 111,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 240.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 191.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 222.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 292.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 330.0
+        },
+        {
+          "month": "2026-08",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 188.0
+        },
+        {
+          "month": "2026-09",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 399.0
+        },
+        {
+          "month": "2026-10",
+          "n": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1,
+          "points": 607.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC_WIDE_P85B_P2D": {
+      "level": "P2D",
+      "desk": "ACC_WIDE_P85B",
+      "base_desk": "ACC_WIDE_P85B",
+      "candidate_tag": "ACC_WIDE_P85B_P2D",
+      "accuracy_range": "ACC_RANGE_81_89",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 58,
+      "n": 113,
+      "hit_pct": 93.81,
+      "perfect": false,
+      "points": 3692.0,
+      "wins": 106,
+      "losses": 7,
+      "buy": 49,
+      "sell": 64,
+      "call_days": 113,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 154.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 240.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 191.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 227.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 292.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 325.0
+        },
+        {
+          "month": "2026-08",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 188.0
+        },
+        {
+          "month": "2026-09",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 409.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC_WIDE_P80_P2D": {
+      "level": "P2D",
+      "desk": "ACC_WIDE_P80",
+      "base_desk": "ACC_WIDE_P80",
+      "candidate_tag": "ACC_WIDE_P80_P2D",
+      "accuracy_range": "ACC_RANGE_76_85",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 47,
+      "n": 120,
+      "hit_pct": 90.0,
+      "perfect": false,
+      "points": 3617.0,
+      "wins": 108,
+      "losses": 12,
+      "buy": 54,
+      "sell": 66,
+      "call_days": 120,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 184.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 80.0,
+          "wins": 8,
+          "losses": 2,
+          "points": 203.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 227.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 12,
+          "hit_pct": 75.0,
+          "wins": 9,
+          "losses": 3,
+          "points": 226.0
+        },
+        {
+          "month": "2026-07",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 290.0
+        },
+        {
+          "month": "2026-08",
+          "n": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1,
+          "points": 218.0
+        },
+        {
+          "month": "2026-09",
+          "n": 13,
+          "hit_pct": 92.31,
+          "wins": 12,
+          "losses": 1,
+          "points": 420.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC_WIDE_P75_P2D": {
+      "level": "P2D",
+      "desk": "ACC_WIDE_P75",
+      "base_desk": "ACC_WIDE_P75",
+      "candidate_tag": "ACC_WIDE_P75_P2D",
+      "accuracy_range": "ACC_RANGE_75_83",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 31,
+      "n": 125,
+      "hit_pct": 88.8,
+      "perfect": false,
+      "points": 3622.0,
+      "wins": 111,
+      "losses": 14,
+      "buy": 54,
+      "sell": 71,
+      "call_days": 125,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 184.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 424.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-04",
+          "n": 10,
+          "hit_pct": 70.0,
+          "wins": 7,
+          "losses": 3,
+          "points": 187.0
+        },
+        {
+          "month": "2026-05",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 347.0
+        },
+        {
+          "month": "2026-06",
+          "n": 13,
+          "hit_pct": 76.92,
+          "wins": 10,
+          "losses": 3,
+          "points": 256.0
+        },
+        {
+          "month": "2026-07",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 250.0
+        },
+        {
+          "month": "2026-08",
+          "n": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1,
+          "points": 218.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2,
+          "points": 380.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC100_MULTI_V5_CAP2_P2D": {
+      "level": "P2D",
+      "desk": "ACC100_MULTI_V5_CAP2",
+      "base_desk": "ACC100_MULTI_V5",
+      "candidate_tag": "ACC100_MULTI_V5_CAP2_P2D",
+      "accuracy_range": "ACC_RANGE_98_100",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 87,
+      "n": 106,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3666.0,
+      "wins": 106,
+      "losses": 0,
+      "buy": 37,
+      "sell": 69,
+      "call_days": 80,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 380.0
+        },
+        {
+          "month": "2026-01",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 333.0
+        },
+        {
+          "month": "2026-02",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 341.0
+        },
+        {
+          "month": "2026-03",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 291.0
+        },
+        {
+          "month": "2026-04",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 211.0
+        },
+        {
+          "month": "2026-05",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 207.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 312.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 100.0,
+          "wins": 14,
+          "losses": 0,
+          "points": 473.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 551.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC_WIDE_P92_CAP2_P2D": {
+      "level": "P2D",
+      "desk": "ACC_WIDE_P92_CAP2",
+      "base_desk": "ACC_WIDE_P92",
+      "candidate_tag": "ACC_WIDE_P92_CAP2_P2D",
+      "accuracy_range": "ACC_RANGE_91_100",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 87,
+      "n": 105,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3641.0,
+      "wins": 105,
+      "losses": 0,
+      "buy": 37,
+      "sell": 68,
+      "call_days": 80,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 380.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 293.0
+        },
+        {
+          "month": "2026-02",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 341.0
+        },
+        {
+          "month": "2026-03",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 291.0
+        },
+        {
+          "month": "2026-04",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 211.0
+        },
+        {
+          "month": "2026-05",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 207.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 327.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 100.0,
+          "wins": 14,
+          "losses": 0,
+          "points": 473.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 551.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC_WIDE_P90_CAP2_P2D": {
+      "level": "P2D",
+      "desk": "ACC_WIDE_P90_CAP2",
+      "base_desk": "ACC_WIDE_P90",
+      "candidate_tag": "ACC_WIDE_P90_CAP2_P2D",
+      "accuracy_range": "ACC_RANGE_89_96",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 78,
+      "n": 124,
+      "hit_pct": 99.19,
+      "perfect": false,
+      "points": 4356.0,
+      "wins": 123,
+      "losses": 1,
+      "buy": 49,
+      "sell": 75,
+      "call_days": 91,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 129.0
+        },
+        {
+          "month": "2025-12",
+          "n": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1,
+          "points": 414.0
+        },
+        {
+          "month": "2026-01",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 351.0
+        },
+        {
+          "month": "2026-02",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 382.0
+        },
+        {
+          "month": "2026-03",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 291.0
+        },
+        {
+          "month": "2026-04",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 392.0
+        },
+        {
+          "month": "2026-05",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 359.0
+        },
+        {
+          "month": "2026-06",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 372.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 193.0
+        },
+        {
+          "month": "2026-09",
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 627.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 561.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC_WIDE_P85_CAP2_P2D": {
+      "level": "P2D",
+      "desk": "ACC_WIDE_P85_CAP2",
+      "base_desk": "ACC_WIDE_P85",
+      "candidate_tag": "ACC_WIDE_P85_CAP2_P2D",
+      "accuracy_range": "ACC_RANGE_84_90",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 52,
+      "n": 161,
+      "hit_pct": 91.93,
+      "perfect": false,
+      "points": 4946.0,
+      "wins": 148,
+      "losses": 13,
+      "buy": 63,
+      "sell": 98,
+      "call_days": 111,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 154.0
+        },
+        {
+          "month": "2025-12",
+          "n": 19,
+          "hit_pct": 94.74,
+          "wins": 18,
+          "losses": 1,
+          "points": 608.0
+        },
+        {
+          "month": "2026-01",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 366.0
+        },
+        {
+          "month": "2026-02",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 407.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 271.0
+        },
+        {
+          "month": "2026-04",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 327.0
+        },
+        {
+          "month": "2026-05",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 459.0
+        },
+        {
+          "month": "2026-06",
+          "n": 16,
+          "hit_pct": 75.0,
+          "wins": 12,
+          "losses": 4,
+          "points": 287.0
+        },
+        {
+          "month": "2026-07",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 390.0
+        },
+        {
+          "month": "2026-08",
+          "n": 10,
+          "hit_pct": 80.0,
+          "wins": 8,
+          "losses": 2,
+          "points": 198.0
+        },
+        {
+          "month": "2026-09",
+          "n": 20,
+          "hit_pct": 100.0,
+          "wins": 20,
+          "losses": 0,
+          "points": 697.0
+        },
+        {
+          "month": "2026-10",
+          "n": 18,
+          "hit_pct": 94.44,
+          "wins": 17,
+          "losses": 1,
+          "points": 762.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2D|ACC_WIDE_P85B_CAP2_P2D": {
+      "level": "P2D",
+      "desk": "ACC_WIDE_P85B_CAP2",
+      "base_desk": "ACC_WIDE_P85B",
+      "candidate_tag": "ACC_WIDE_P85B_CAP2_P2D",
+      "accuracy_range": "ACC_RANGE_81_89",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 44,
+      "n": 162,
+      "hit_pct": 91.98,
+      "perfect": false,
+      "points": 4886.0,
+      "wins": 149,
+      "losses": 13,
+      "buy": 65,
+      "sell": 97,
+      "call_days": 112,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 154.0
+        },
+        {
+          "month": "2025-12",
+          "n": 19,
+          "hit_pct": 94.74,
+          "wins": 18,
+          "losses": 1,
+          "points": 613.0
+        },
+        {
+          "month": "2026-01",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 346.0
+        },
+        {
+          "month": "2026-02",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 417.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 80.0,
+          "wins": 8,
+          "losses": 2,
+          "points": 206.0
+        },
+        {
+          "month": "2026-04",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 327.0
+        },
+        {
+          "month": "2026-05",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 424.0
+        },
+        {
+          "month": "2026-06",
+          "n": 16,
+          "hit_pct": 75.0,
+          "wins": 12,
+          "losses": 4,
+          "points": 282.0
+        },
+        {
+          "month": "2026-07",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 390.0
+        },
+        {
+          "month": "2026-08",
+          "n": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1,
+          "points": 218.0
+        },
+        {
+          "month": "2026-09",
+          "n": 20,
+          "hit_pct": 100.0,
+          "wins": 20,
+          "losses": 0,
+          "points": 682.0
+        },
+        {
+          "month": "2026-10",
+          "n": 20,
+          "hit_pct": 95.0,
+          "wins": 19,
+          "losses": 1,
+          "points": 807.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC100_MULTI_V10": {
+      "level": "P2E",
+      "desk": "ACC100_MULTI_V5",
+      "base_desk": "ACC100_MULTI_V5",
+      "candidate_tag": "ACC100_MULTI_V10",
+      "accuracy_range": "ACC_RANGE_98_100",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 98,
+      "n": 85,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3021.0,
+      "wins": 85,
+      "losses": 0,
+      "buy": 33,
+      "sell": 52,
+      "call_days": 85,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 114.0
+        },
+        {
+          "month": "2025-12",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 320.0
+        },
+        {
+          "month": "2026-01",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-02",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 233.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 196.0
+        },
+        {
+          "month": "2026-04",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 176.0
+        },
+        {
+          "month": "2026-05",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 190.0
+        },
+        {
+          "month": "2026-06",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 277.0
+        },
+        {
+          "month": "2026-07",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 235.0
+        },
+        {
+          "month": "2026-08",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-09",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 335.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 576.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P92_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P92",
+      "base_desk": "ACC_WIDE_P92",
+      "candidate_tag": "ACC_WIDE_P92_P2E",
+      "accuracy_range": "ACC_RANGE_91_100",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 94,
+      "n": 85,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3016.0,
+      "wins": 85,
+      "losses": 0,
+      "buy": 33,
+      "sell": 52,
+      "call_days": 85,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 94.0
+        },
+        {
+          "month": "2025-12",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 320.0
+        },
+        {
+          "month": "2026-01",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-02",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 233.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 196.0
+        },
+        {
+          "month": "2026-04",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 176.0
+        },
+        {
+          "month": "2026-05",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 190.0
+        },
+        {
+          "month": "2026-06",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 292.0
+        },
+        {
+          "month": "2026-07",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 235.0
+        },
+        {
+          "month": "2026-08",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-09",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 335.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 576.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P90_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P90",
+      "base_desk": "ACC_WIDE_P90",
+      "candidate_tag": "ACC_WIDE_P90_P2E",
+      "accuracy_range": "ACC_RANGE_89_96",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 89,
+      "n": 97,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3592.0,
+      "wins": 97,
+      "losses": 0,
+      "buy": 41,
+      "sell": 56,
+      "call_days": 97,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 109.0
+        },
+        {
+          "month": "2025-12",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 389.0
+        },
+        {
+          "month": "2026-01",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 280.0
+        },
+        {
+          "month": "2026-02",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 259.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 196.0
+        },
+        {
+          "month": "2026-04",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 292.0
+        },
+        {
+          "month": "2026-05",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 267.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 332.0
+        },
+        {
+          "month": "2026-07",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 235.0
+        },
+        {
+          "month": "2026-08",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0
+        },
+        {
+          "month": "2026-09",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 414.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 586.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P85_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P85",
+      "base_desk": "ACC_WIDE_P85",
+      "candidate_tag": "ACC_WIDE_P85_P2E",
+      "accuracy_range": "ACC_RANGE_84_90",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 81,
+      "n": 114,
+      "hit_pct": 92.98,
+      "perfect": false,
+      "points": 3622.0,
+      "wins": 106,
+      "losses": 8,
+      "buy": 48,
+      "sell": 66,
+      "call_days": 114,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 240.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 191.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 222.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 272.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 330.0
+        },
+        {
+          "month": "2026-08",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 188.0
+        },
+        {
+          "month": "2026-09",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 419.0
+        },
+        {
+          "month": "2026-10",
+          "n": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1,
+          "points": 607.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P85B_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P85B",
+      "base_desk": "ACC_WIDE_P85B",
+      "candidate_tag": "ACC_WIDE_P85B_P2E",
+      "accuracy_range": "ACC_RANGE_81_89",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 75,
+      "n": 116,
+      "hit_pct": 93.1,
+      "perfect": false,
+      "points": 3712.0,
+      "wins": 108,
+      "losses": 8,
+      "buy": 49,
+      "sell": 67,
+      "call_days": 116,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 154.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 240.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 191.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 227.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 292.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 325.0
+        },
+        {
+          "month": "2026-08",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 188.0
+        },
+        {
+          "month": "2026-09",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P80_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P80",
+      "base_desk": "ACC_WIDE_P80",
+      "candidate_tag": "ACC_WIDE_P80_P2E",
+      "accuracy_range": "ACC_RANGE_76_85",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 59,
+      "n": 123,
+      "hit_pct": 90.24,
+      "perfect": false,
+      "points": 3687.0,
+      "wins": 111,
+      "losses": 12,
+      "buy": 54,
+      "sell": 69,
+      "call_days": 123,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 184.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 80.0,
+          "wins": 8,
+          "losses": 2,
+          "points": 203.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 227.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 13,
+          "hit_pct": 76.92,
+          "wins": 10,
+          "losses": 3,
+          "points": 246.0
+        },
+        {
+          "month": "2026-07",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 290.0
+        },
+        {
+          "month": "2026-08",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 248.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1,
+          "points": 440.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P75_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P75",
+      "base_desk": "ACC_WIDE_P75",
+      "candidate_tag": "ACC_WIDE_P75_P2E",
+      "accuracy_range": "ACC_RANGE_75_83",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 39,
+      "n": 127,
+      "hit_pct": 88.98,
+      "perfect": false,
+      "points": 3692.0,
+      "wins": 113,
+      "losses": 14,
+      "buy": 54,
+      "sell": 73,
+      "call_days": 127,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 184.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 424.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-04",
+          "n": 10,
+          "hit_pct": 70.0,
+          "wins": 7,
+          "losses": 3,
+          "points": 187.0
+        },
+        {
+          "month": "2026-05",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 347.0
+        },
+        {
+          "month": "2026-06",
+          "n": 13,
+          "hit_pct": 76.92,
+          "wins": 10,
+          "losses": 3,
+          "points": 256.0
+        },
+        {
+          "month": "2026-07",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 250.0
+        },
+        {
+          "month": "2026-08",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 288.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2,
+          "points": 380.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC100_MULTI_V5_CAP2_P2E": {
+      "level": "P2E",
+      "desk": "ACC100_MULTI_V5_CAP2",
+      "base_desk": "ACC100_MULTI_V5",
+      "candidate_tag": "ACC100_MULTI_V5_CAP2_P2E",
+      "accuracy_range": "ACC_RANGE_98_100",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 117,
+      "n": 123,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 4171.0,
+      "wins": 123,
+      "losses": 0,
+      "buy": 42,
+      "sell": 81,
+      "call_days": 86,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 430.0
+        },
+        {
+          "month": "2026-01",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 333.0
+        },
+        {
+          "month": "2026-02",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 376.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 326.0
+        },
+        {
+          "month": "2026-04",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 231.0
+        },
+        {
+          "month": "2026-05",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 282.0
+        },
+        {
+          "month": "2026-06",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 402.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 198.0
+        },
+        {
+          "month": "2026-09",
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 548.0
+        },
+        {
+          "month": "2026-10",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 626.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P92_CAP2_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P92_CAP2",
+      "base_desk": "ACC_WIDE_P92",
+      "candidate_tag": "ACC_WIDE_P92_CAP2_P2E",
+      "accuracy_range": "ACC_RANGE_91_100",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 117,
+      "n": 122,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 4146.0,
+      "wins": 122,
+      "losses": 0,
+      "buy": 42,
+      "sell": 80,
+      "call_days": 86,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 430.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 293.0
+        },
+        {
+          "month": "2026-02",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 376.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 326.0
+        },
+        {
+          "month": "2026-04",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 231.0
+        },
+        {
+          "month": "2026-05",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 282.0
+        },
+        {
+          "month": "2026-06",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 417.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 198.0
+        },
+        {
+          "month": "2026-09",
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 548.0
+        },
+        {
+          "month": "2026-10",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 626.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P90_CAP2_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P90_CAP2",
+      "base_desk": "ACC_WIDE_P90",
+      "candidate_tag": "ACC_WIDE_P90_CAP2_P2E",
+      "accuracy_range": "ACC_RANGE_89_96",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 107,
+      "n": 138,
+      "hit_pct": 99.28,
+      "perfect": false,
+      "points": 4771.0,
+      "wins": 137,
+      "losses": 1,
+      "buy": 53,
+      "sell": 85,
+      "call_days": 97,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 129.0
+        },
+        {
+          "month": "2025-12",
+          "n": 16,
+          "hit_pct": 93.75,
+          "wins": 15,
+          "losses": 1,
+          "points": 464.0
+        },
+        {
+          "month": "2026-01",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 351.0
+        },
+        {
+          "month": "2026-02",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 427.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 326.0
+        },
+        {
+          "month": "2026-04",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 377.0
+        },
+        {
+          "month": "2026-05",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 359.0
+        },
+        {
+          "month": "2026-06",
+          "n": 14,
+          "hit_pct": 100.0,
+          "wins": 14,
+          "losses": 0,
+          "points": 462.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0
+        },
+        {
+          "month": "2026-09",
+          "n": 21,
+          "hit_pct": 100.0,
+          "wins": 21,
+          "losses": 0,
+          "points": 682.0
+        },
+        {
+          "month": "2026-10",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 636.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P85_CAP2_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P85_CAP2",
+      "base_desk": "ACC_WIDE_P85",
+      "candidate_tag": "ACC_WIDE_P85_CAP2_P2E",
+      "accuracy_range": "ACC_RANGE_84_90",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 74,
+      "n": 168,
+      "hit_pct": 91.07,
+      "perfect": false,
+      "points": 5021.0,
+      "wins": 153,
+      "losses": 15,
+      "buy": 65,
+      "sell": 103,
+      "call_days": 114,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 154.0
+        },
+        {
+          "month": "2025-12",
+          "n": 20,
+          "hit_pct": 95.0,
+          "wins": 19,
+          "losses": 1,
+          "points": 628.0
+        },
+        {
+          "month": "2026-01",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 366.0
+        },
+        {
+          "month": "2026-02",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 407.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 271.0
+        },
+        {
+          "month": "2026-04",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 327.0
+        },
+        {
+          "month": "2026-05",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 459.0
+        },
+        {
+          "month": "2026-06",
+          "n": 19,
+          "hit_pct": 68.42,
+          "wins": 13,
+          "losses": 6,
+          "points": 247.0
+        },
+        {
+          "month": "2026-07",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 390.0
+        },
+        {
+          "month": "2026-08",
+          "n": 11,
+          "hit_pct": 81.82,
+          "wins": 9,
+          "losses": 2,
+          "points": 218.0
+        },
+        {
+          "month": "2026-09",
+          "n": 21,
+          "hit_pct": 100.0,
+          "wins": 21,
+          "losses": 0,
+          "points": 717.0
+        },
+        {
+          "month": "2026-10",
+          "n": 19,
+          "hit_pct": 94.74,
+          "wins": 18,
+          "losses": 1,
+          "points": 817.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P85B_CAP2_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P85B_CAP2",
+      "base_desk": "ACC_WIDE_P85B",
+      "candidate_tag": "ACC_WIDE_P85B_CAP2_P2E",
+      "accuracy_range": "ACC_RANGE_81_89",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 63,
+      "n": 169,
+      "hit_pct": 91.72,
+      "perfect": false,
+      "points": 5021.0,
+      "wins": 155,
+      "losses": 14,
+      "buy": 67,
+      "sell": 102,
+      "call_days": 114,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 154.0
+        },
+        {
+          "month": "2025-12",
+          "n": 20,
+          "hit_pct": 95.0,
+          "wins": 19,
+          "losses": 1,
+          "points": 633.0
+        },
+        {
+          "month": "2026-01",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 346.0
+        },
+        {
+          "month": "2026-02",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 417.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 80.0,
+          "wins": 8,
+          "losses": 2,
+          "points": 206.0
+        },
+        {
+          "month": "2026-04",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 327.0
+        },
+        {
+          "month": "2026-05",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 424.0
+        },
+        {
+          "month": "2026-06",
+          "n": 18,
+          "hit_pct": 72.22,
+          "wins": 13,
+          "losses": 5,
+          "points": 262.0
+        },
+        {
+          "month": "2026-07",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 430.0
+        },
+        {
+          "month": "2026-08",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 238.0
+        },
+        {
+          "month": "2026-09",
+          "n": 21,
+          "hit_pct": 100.0,
+          "wins": 21,
+          "losses": 0,
+          "points": 702.0
+        },
+        {
+          "month": "2026-10",
+          "n": 21,
+          "hit_pct": 95.24,
+          "wins": 20,
+          "losses": 1,
+          "points": 862.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2E|ACC_WIDE_P80_CAP2_P2E": {
+      "level": "P2E",
+      "desk": "ACC_WIDE_P80_CAP2",
+      "base_desk": "ACC_WIDE_P80",
+      "candidate_tag": "ACC_WIDE_P80_CAP2_P2E",
+      "accuracy_range": "ACC_RANGE_76_85",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 80,
+      "n": 193,
+      "hit_pct": 87.56,
+      "perfect": false,
+      "points": 5260.0,
+      "wins": 169,
+      "losses": 24,
+      "buy": 75,
+      "sell": 118,
+      "call_days": 124,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 204.0
+        },
+        {
+          "month": "2025-12",
+          "n": 22,
+          "hit_pct": 90.91,
+          "wins": 20,
+          "losses": 2,
+          "points": 643.0
+        },
+        {
+          "month": "2026-01",
+          "n": 14,
+          "hit_pct": 78.57,
+          "wins": 11,
+          "losses": 3,
+          "points": 335.0
+        },
+        {
+          "month": "2026-02",
+          "n": 18,
+          "hit_pct": 83.33,
+          "wins": 15,
+          "losses": 3,
+          "points": 387.0
+        },
+        {
+          "month": "2026-03",
+          "n": 11,
+          "hit_pct": 72.73,
+          "wins": 8,
+          "losses": 3,
+          "points": 186.0
+        },
+        {
+          "month": "2026-04",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 312.0
+        },
+        {
+          "month": "2026-05",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 484.0
+        },
+        {
+          "month": "2026-06",
+          "n": 19,
+          "hit_pct": 73.68,
+          "wins": 14,
+          "losses": 5,
+          "points": 296.0
+        },
+        {
+          "month": "2026-07",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 430.0
+        },
+        {
+          "month": "2026-08",
+          "n": 13,
+          "hit_pct": 92.31,
+          "wins": 12,
+          "losses": 1,
+          "points": 318.0
+        },
+        {
+          "month": "2026-09",
+          "n": 24,
+          "hit_pct": 91.67,
+          "wins": 22,
+          "losses": 2,
+          "points": 738.0
+        },
+        {
+          "month": "2026-10",
+          "n": 24,
+          "hit_pct": 91.67,
+          "wins": 22,
+          "losses": 2,
+          "points": 907.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC100_MULTI_V11": {
+      "level": "P2F",
+      "desk": "ACC100_MULTI_V5",
+      "base_desk": "ACC100_MULTI_V5",
+      "candidate_tag": "ACC100_MULTI_V11",
+      "accuracy_range": "ACC_RANGE_98_100",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 151,
+      "n": 86,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3051.0,
+      "wins": 86,
+      "losses": 0,
+      "buy": 33,
+      "sell": 53,
+      "call_days": 86,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 114.0
+        },
+        {
+          "month": "2025-12",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 320.0
+        },
+        {
+          "month": "2026-01",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-02",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 233.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 196.0
+        },
+        {
+          "month": "2026-04",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 176.0
+        },
+        {
+          "month": "2026-05",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 190.0
+        },
+        {
+          "month": "2026-06",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 277.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-09",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 335.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 576.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC_WIDE_P92_P2F": {
+      "level": "P2F",
+      "desk": "ACC_WIDE_P92",
+      "base_desk": "ACC_WIDE_P92",
+      "candidate_tag": "ACC_WIDE_P92_P2F",
+      "accuracy_range": "ACC_RANGE_91_100",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 146,
+      "n": 86,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3046.0,
+      "wins": 86,
+      "losses": 0,
+      "buy": 33,
+      "sell": 53,
+      "call_days": 86,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 94.0
+        },
+        {
+          "month": "2025-12",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 320.0
+        },
+        {
+          "month": "2026-01",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-02",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 233.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 196.0
+        },
+        {
+          "month": "2026-04",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 176.0
+        },
+        {
+          "month": "2026-05",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 190.0
+        },
+        {
+          "month": "2026-06",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 292.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 148.0
+        },
+        {
+          "month": "2026-09",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 335.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 576.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC_WIDE_P90_P2F": {
+      "level": "P2F",
+      "desk": "ACC_WIDE_P90",
+      "base_desk": "ACC_WIDE_P90",
+      "candidate_tag": "ACC_WIDE_P90_P2F",
+      "accuracy_range": "ACC_RANGE_89_96",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 134,
+      "n": 98,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 3622.0,
+      "wins": 98,
+      "losses": 0,
+      "buy": 41,
+      "sell": 57,
+      "call_days": 98,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 109.0
+        },
+        {
+          "month": "2025-12",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 389.0
+        },
+        {
+          "month": "2026-01",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 280.0
+        },
+        {
+          "month": "2026-02",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 259.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 196.0
+        },
+        {
+          "month": "2026-04",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 292.0
+        },
+        {
+          "month": "2026-05",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 267.0
+        },
+        {
+          "month": "2026-06",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 332.0
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 265.0
+        },
+        {
+          "month": "2026-08",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0
+        },
+        {
+          "month": "2026-09",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 414.0
+        },
+        {
+          "month": "2026-10",
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 586.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC_WIDE_P85_P2F": {
+      "level": "P2F",
+      "desk": "ACC_WIDE_P85",
+      "base_desk": "ACC_WIDE_P85",
+      "candidate_tag": "ACC_WIDE_P85_P2F",
+      "accuracy_range": "ACC_RANGE_84_90",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 92,
+      "n": 114,
+      "hit_pct": 92.98,
+      "perfect": false,
+      "points": 3622.0,
+      "wins": 106,
+      "losses": 8,
+      "buy": 48,
+      "sell": 66,
+      "call_days": 114,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 240.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 191.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 222.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 272.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 330.0
+        },
+        {
+          "month": "2026-08",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 188.0
+        },
+        {
+          "month": "2026-09",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 419.0
+        },
+        {
+          "month": "2026-10",
+          "n": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1,
+          "points": 607.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC_WIDE_P85B_P2F": {
+      "level": "P2F",
+      "desk": "ACC_WIDE_P85B",
+      "base_desk": "ACC_WIDE_P85B",
+      "candidate_tag": "ACC_WIDE_P85B_P2F",
+      "accuracy_range": "ACC_RANGE_81_89",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 93,
+      "n": 116,
+      "hit_pct": 93.1,
+      "perfect": false,
+      "points": 3712.0,
+      "wins": 108,
+      "losses": 8,
+      "buy": 49,
+      "sell": 67,
+      "call_days": 116,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 154.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 240.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 191.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 227.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 292.0
+        },
+        {
+          "month": "2026-07",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 325.0
+        },
+        {
+          "month": "2026-08",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 188.0
+        },
+        {
+          "month": "2026-09",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC_WIDE_P80_P2F": {
+      "level": "P2F",
+      "desk": "ACC_WIDE_P80",
+      "base_desk": "ACC_WIDE_P80",
+      "candidate_tag": "ACC_WIDE_P80_P2F",
+      "accuracy_range": "ACC_RANGE_76_85",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 71,
+      "n": 123,
+      "hit_pct": 90.24,
+      "perfect": false,
+      "points": 3687.0,
+      "wins": 111,
+      "losses": 12,
+      "buy": 54,
+      "sell": 69,
+      "call_days": 123,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 184.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 429.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 80.0,
+          "wins": 8,
+          "losses": 2,
+          "points": 203.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-04",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2,
+          "points": 227.0
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 307.0
+        },
+        {
+          "month": "2026-06",
+          "n": 13,
+          "hit_pct": 76.92,
+          "wins": 10,
+          "losses": 3,
+          "points": 246.0
+        },
+        {
+          "month": "2026-07",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 290.0
+        },
+        {
+          "month": "2026-08",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 248.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1,
+          "points": 440.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC_WIDE_P75_P2F": {
+      "level": "P2F",
+      "desk": "ACC_WIDE_P75",
+      "base_desk": "ACC_WIDE_P75",
+      "candidate_tag": "ACC_WIDE_P75_P2F",
+      "accuracy_range": "ACC_RANGE_75_83",
+      "mode": "day",
+      "status": "HELD",
+      "streams": 48,
+      "n": 127,
+      "hit_pct": 88.98,
+      "perfect": false,
+      "points": 3692.0,
+      "wins": 113,
+      "losses": 14,
+      "buy": 54,
+      "sell": 73,
+      "call_days": 127,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 184.0
+        },
+        {
+          "month": "2025-12",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 424.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1,
+          "points": 245.0
+        },
+        {
+          "month": "2026-02",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 263.0
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 201.0
+        },
+        {
+          "month": "2026-04",
+          "n": 10,
+          "hit_pct": 70.0,
+          "wins": 7,
+          "losses": 3,
+          "points": 187.0
+        },
+        {
+          "month": "2026-05",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 347.0
+        },
+        {
+          "month": "2026-06",
+          "n": 13,
+          "hit_pct": 76.92,
+          "wins": 10,
+          "losses": 3,
+          "points": 256.0
+        },
+        {
+          "month": "2026-07",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 250.0
+        },
+        {
+          "month": "2026-08",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 288.0
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2,
+          "points": 380.0
+        },
+        {
+          "month": "2026-10",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 647.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC100_MULTI_V5_CAP2_P2F": {
+      "level": "P2F",
+      "desk": "ACC100_MULTI_V5_CAP2",
+      "base_desk": "ACC100_MULTI_V5",
+      "candidate_tag": "ACC100_MULTI_V5_CAP2_P2F",
+      "accuracy_range": "ACC_RANGE_98_100",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 186,
+      "n": 124,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 4201.0,
+      "wins": 124,
+      "losses": 0,
+      "buy": 42,
+      "sell": 82,
+      "call_days": 87,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 430.0
+        },
+        {
+          "month": "2026-01",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 333.0
+        },
+        {
+          "month": "2026-02",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 376.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 326.0
+        },
+        {
+          "month": "2026-04",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 231.0
+        },
+        {
+          "month": "2026-05",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 282.0
+        },
+        {
+          "month": "2026-06",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 402.0
+        },
+        {
+          "month": "2026-07",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 295.0
+        },
+        {
+          "month": "2026-08",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 198.0
+        },
+        {
+          "month": "2026-09",
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 548.0
+        },
+        {
+          "month": "2026-10",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 626.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC_WIDE_P92_CAP2_P2F": {
+      "level": "P2F",
+      "desk": "ACC_WIDE_P92_CAP2",
+      "base_desk": "ACC_WIDE_P92",
+      "candidate_tag": "ACC_WIDE_P92_CAP2_P2F",
+      "accuracy_range": "ACC_RANGE_91_100",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 185,
+      "n": 123,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 4176.0,
+      "wins": 123,
+      "losses": 0,
+      "buy": 42,
+      "sell": 81,
+      "call_days": 87,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 134.0
+        },
+        {
+          "month": "2025-12",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 430.0
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 293.0
+        },
+        {
+          "month": "2026-02",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 376.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 326.0
+        },
+        {
+          "month": "2026-04",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 231.0
+        },
+        {
+          "month": "2026-05",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 282.0
+        },
+        {
+          "month": "2026-06",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 417.0
+        },
+        {
+          "month": "2026-07",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 295.0
+        },
+        {
+          "month": "2026-08",
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 198.0
+        },
+        {
+          "month": "2026-09",
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 548.0
+        },
+        {
+          "month": "2026-10",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 626.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC_WIDE_P90_CAP2_P2F": {
+      "level": "P2F",
+      "desk": "ACC_WIDE_P90_CAP2",
+      "base_desk": "ACC_WIDE_P90",
+      "candidate_tag": "ACC_WIDE_P90_CAP2_P2F",
+      "accuracy_range": "ACC_RANGE_89_96",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 169,
+      "n": 139,
+      "hit_pct": 99.28,
+      "perfect": false,
+      "points": 4801.0,
+      "wins": 138,
+      "losses": 1,
+      "buy": 53,
+      "sell": 86,
+      "call_days": 98,
+      "first_day": "2025-11-19",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 129.0
+        },
+        {
+          "month": "2025-12",
+          "n": 16,
+          "hit_pct": 93.75,
+          "wins": 15,
+          "losses": 1,
+          "points": 464.0
+        },
+        {
+          "month": "2026-01",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 351.0
+        },
+        {
+          "month": "2026-02",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 427.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 326.0
+        },
+        {
+          "month": "2026-04",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 377.0
+        },
+        {
+          "month": "2026-05",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 359.0
+        },
+        {
+          "month": "2026-06",
+          "n": 14,
+          "hit_pct": 100.0,
+          "wins": 14,
+          "losses": 0,
+          "points": 462.0
+        },
+        {
+          "month": "2026-07",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 295.0
+        },
+        {
+          "month": "2026-08",
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0
+        },
+        {
+          "month": "2026-09",
+          "n": 21,
+          "hit_pct": 100.0,
+          "wins": 21,
+          "losses": 0,
+          "points": 682.0
+        },
+        {
+          "month": "2026-10",
+          "n": 13,
+          "hit_pct": 100.0,
+          "wins": 13,
+          "losses": 0,
+          "points": 636.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "P2F|ACC_WIDE_P85_CAP2_P2F": {
+      "level": "P2F",
+      "desk": "ACC_WIDE_P85_CAP2",
+      "base_desk": "ACC_WIDE_P85",
+      "candidate_tag": "ACC_WIDE_P85_CAP2_P2F",
+      "accuracy_range": "ACC_RANGE_84_90",
+      "mode": "cap2",
+      "status": "HELD",
+      "streams": 90,
+      "n": 169,
+      "hit_pct": 91.12,
+      "perfect": false,
+      "points": 5061.0,
+      "wins": 154,
+      "losses": 15,
+      "buy": 65,
+      "sell": 104,
+      "call_days": 114,
+      "first_day": "2025-11-17",
+      "last_day": "2026-11-06",
+      "months": [
+        {
+          "month": "2025-11",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 154.0
+        },
+        {
+          "month": "2025-12",
+          "n": 20,
+          "hit_pct": 95.0,
+          "wins": 19,
+          "losses": 1,
+          "points": 628.0
+        },
+        {
+          "month": "2026-01",
+          "n": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1,
+          "points": 366.0
+        },
+        {
+          "month": "2026-02",
+          "n": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1,
+          "points": 407.0
+        },
+        {
+          "month": "2026-03",
+          "n": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1,
+          "points": 271.0
+        },
+        {
+          "month": "2026-04",
+          "n": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2,
+          "points": 327.0
+        },
+        {
+          "month": "2026-05",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 459.0
+        },
+        {
+          "month": "2026-06",
+          "n": 19,
+          "hit_pct": 68.42,
+          "wins": 13,
+          "losses": 6,
+          "points": 247.0
+        },
+        {
+          "month": "2026-07",
+          "n": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0,
+          "points": 390.0
+        },
+        {
+          "month": "2026-08",
+          "n": 11,
+          "hit_pct": 81.82,
+          "wins": 9,
+          "losses": 2,
+          "points": 218.0
+        },
+        {
+          "month": "2026-09",
+          "n": 22,
+          "hit_pct": 100.0,
+          "wins": 22,
+          "losses": 0,
+          "points": 757.0
+        },
+        {
+          "month": "2026-10",
+          "n": 19,
+          "hit_pct": 94.74,
+          "wins": 18,
+          "losses": 1,
+          "points": 817.0
+        },
+        {
+          "month": "2026-11",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 20.0
+        }
+      ]
+    },
+    "LIVE|AGREE_15M_ANY5": {
+      "level": "LIVE",
+      "desk": "AGREE_15M_ANY5",
+      "candidate_tag": "AGREE_15M_ANY5",
+      "accuracy_range": "LIVE_AGREE",
+      "mode": "agree",
+      "status": "FINALIZED",
+      "n": 34,
+      "hit_pct": 70.59,
+      "perfect": false,
+      "points": 330.0,
+      "wins": 24,
+      "losses": 10,
+      "buy": 6,
+      "sell": 28,
+      "call_days": 34,
+      "first_day": "2025-12-17",
+      "last_day": "2026-10-23",
+      "months": [
+        {
+          "month": "2025-12",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 30.0
+        },
+        {
+          "month": "2026-01",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 70.0
+        },
+        {
+          "month": "2026-02",
+          "n": 5,
+          "hit_pct": 60.0,
+          "wins": 3,
+          "losses": 2,
+          "points": 20.0
+        },
+        {
+          "month": "2026-03",
+          "n": 3,
+          "hit_pct": 66.67,
+          "wins": 2,
+          "losses": 1,
+          "points": 20.0
+        },
+        {
+          "month": "2026-04",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0,
+          "points": 40.0
+        },
+        {
+          "month": "2026-05",
+          "n": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1,
+          "points": 60.0
+        },
+        {
+          "month": "2026-06",
+          "n": 4,
+          "hit_pct": 25.0,
+          "wins": 1,
+          "losses": 3,
+          "points": -40.0
+        },
+        {
+          "month": "2026-07",
+          "n": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1,
+          "points": 0.0
+        },
+        {
+          "month": "2026-08",
+          "n": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1,
+          "points": -20.0
+        },
+        {
+          "month": "2026-09",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 110.0
+        },
+        {
+          "month": "2026-10",
+          "n": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1,
+          "points": 40.0
+        }
+      ]
+    }
+  },
+  "elapsed_s": 1.8
+}

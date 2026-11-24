@@ -1,0 +1,61 @@
+{
+  "oracle_win": {
+    "label": "oracle_win",
+    "n": 185,
+    "macd_turn": 69.7,
+    "di_ok": 69.7,
+    "vwap_with": 76.2,
+    "adx_trend": 99.5,
+    "rsi_ok": 40.0,
+    "rsi_pull": 13.5,
+    "stoch_ok": 49.2,
+    "ind_basic": 24.3,
+    "ind_strict": 5.4,
+    "ind_strict3": 3.8,
+    "ind_pull": 0.0,
+    "avg_rsi": 52.7,
+    "avg_adx": 49.5
+  },
+  "early_loss": {
+    "label": "early_loss",
+    "n": 185,
+    "macd_turn": 28.6,
+    "di_ok": 24.3,
+    "vwap_with": 67.6,
+    "adx_trend": 98.9,
+    "rsi_ok": 34.6,
+    "rsi_pull": 17.8,
+    "stoch_ok": 80.5,
+    "ind_basic": 13.0,
+    "ind_strict": 2.7,
+    "ind_strict3": 1.6,
+    "ind_pull": 1.1,
+    "avg_rsi": 53.6,
+    "avg_adx": 51.2
+  },
+  "best": {
+    "name": "adx_trend_m2_k1",
+    "hold": {
+      "n": 61,
+      "wins": 39,
+      "hit": 63.93,
+      "days": 61,
+      "cover": 96.8,
+      "cpd": 0.968,
+      "avg_sl": 30.31,
+      "avg_t1": 12.0,
+      "all_win": false
+    },
+    "train": {
+      "n": 183,
+      "wins": 183,
+      "hit": 100.0,
+      "days": 183,
+      "cover": 98.9,
+      "cpd": 0.989,
+      "avg_sl": 30.16,
+      "avg_t1": 12.0,
+      "all_win": true
+    }
+  }
+}

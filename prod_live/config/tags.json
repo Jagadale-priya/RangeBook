@@ -1,0 +1,2395 @@
+{
+  "STACK_PLUS_CROWN_HTF_CAP2": {
+    "status": "FINALIZED",
+    "kind": "volume_desk",
+    "members": [
+      "PROVEN_100",
+      "GOOD_PROD2",
+      "CHAMPION",
+      "CROWN_DUAL_HTF"
+    ],
+    "priority": [
+      "proven_100",
+      "good_prod2",
+      "champion",
+      "crown_5m"
+    ],
+    "day_cap": 2,
+    "same_side": true,
+    "nse_mid": false,
+    "htf_gate": "crown_only",
+    "lane": "LIVE"
+  },
+  "AGREE_15M_ANY5": {
+    "status": "FINALIZED",
+    "kind": "accurate_tag",
+    "accurate_tag": "AGREE_15M_ANY5",
+    "15m": "GOOD_PROD2",
+    "5m": [
+      "PROVEN_100",
+      "CHAMPION",
+      "CROWN_DUAL_HTF"
+    ],
+    "entry": "5m_best_p_t1",
+    "agree": "same_day_same_side",
+    "lane": "LIVE"
+  },
+  "STACK_PLUS_AGREE_15M_ANY5": {
+    "status": "FINALIZED",
+    "kind": "desk_combo",
+    "members": [
+      "STACK_PLUS_CROWN_HTF_CAP2",
+      "AGREE_15M_ANY5"
+    ],
+    "merge": "additive",
+    "dedupe": [
+      "day",
+      "side",
+      "hm"
+    ],
+    "lane": "LIVE"
+  },
+  "PROVEN_100": {
+    "track": "proven_100",
+    "priority": 0,
+    "lane": "LIVE",
+    "status": "FINALIZED"
+  },
+  "GOOD_PROD2": {
+    "track": "good_prod2",
+    "priority": 1,
+    "model": "prod2_15m",
+    "lane": "LIVE",
+    "status": "FINALIZED"
+  },
+  "CHAMPION": {
+    "track": "champion",
+    "priority": 2,
+    "floors": {
+      "BUY": 0.55,
+      "SELL": 0.58
+    },
+    "lane": "LIVE",
+    "status": "FINALIZED"
+  },
+  "CROWN_DUAL_HTF": {
+    "track": "crown_5m",
+    "priority": 3,
+    "requires": "HTF_ACTIVE_DAY",
+    "lane": "LIVE",
+    "status": "FINALIZED"
+  },
+  "HTF_ACTIVE_DAY": {
+    "kind": "day_gate",
+    "rule": "prior Volume >= P40 OR prior range% >= median (~252 lookback)",
+    "lane": "LIVE",
+    "status": "FINALIZED"
+  },
+  "EMPTY_FILL_FADE1030_GAP055_T35": {
+    "status": "HOLDING",
+    "kind": "empty_fill",
+    "track": "empty_fade_gap055_t35",
+    "priority": 5,
+    "requires": "stack_silent_day",
+    "gap_min_pct": 0.55,
+    "entry_hm": "10:30",
+    "side": "fade_open",
+    "risk": 35.0,
+    "accurate_tag": null,
+    "note": "Never stamp AGREE_15M_ANY5. Holding V2 vs T25.",
+    "lane": "HOLDING",
+    "not_live": true
+  },
+  "STACK_PLUS_EMPTY_FILL_GAP055_T35": {
+    "status": "HOLDING",
+    "kind": "holding_desk",
+    "members": [
+      "STACK_PLUS_CROWN_HTF_CAP2",
+      "EMPTY_FILL_FADE1030_GAP055_T35"
+    ],
+    "merge": "stack_then_empty_fill_on_silent",
+    "day_cap": 2,
+    "same_side": true,
+    "accurate_channel": "AGREE_15M_ANY5",
+    "not_live": true,
+    "lane": "HOLDING"
+  },
+  "CONFIRM_DUAL15_DUAL5_TIME30": {
+    "status": "HOLDING",
+    "kind": "confirm_accurate",
+    "gate": "15m_dual_any",
+    "entry": "5m_dual_replay",
+    "tol_min": 30,
+    "agree": "same_day_same_side_clock",
+    "accurate_tag": "CONFIRM_DUAL15_DUAL5_TIME30",
+    "research_3y": {
+      "n": 11,
+      "hit_pct": 100.0
+    },
+    "note": "Not a 5m proven pack. Research dual replay on 5m.",
+    "lane": "HOLDING",
+    "not_live": true
+  },
+  "PROVEN15_PLUS_CONFIRM_T30": {
+    "status": "HOLDING",
+    "kind": "holding_accurate_desk",
+    "members": [
+      "PROVEN_100",
+      "CONFIRM_DUAL15_DUAL5_TIME30"
+    ],
+    "merge": "proven_then_confirm_on_non_proven_days",
+    "research_3y": {
+      "n": 49,
+      "hit_pct": 100.0,
+      "points": 2070.0
+    },
+    "not_live": true,
+    "logic_module": "logic/accurate_desks.py",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_100_100",
+    "accuracy_lo": 100.0,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "accurate_tag": "PROVEN15_PLUS_CONFIRM_T30",
+    "keep": true
+  },
+  "ACC100_CROWN_BUY_AM1130_T20": {
+    "status": "HOLDING",
+    "kind": "acc100_stream",
+    "channel": "crown_5m",
+    "side": "BUY",
+    "hm": [
+      "09:15",
+      "11:30"
+    ],
+    "pick": "first_of_day",
+    "risk": 20.0,
+    "note": "Path T20 only \u2014 T25 breaks ~83%",
+    "research_3y": {
+      "n": 12,
+      "hit_pct": 100.0,
+      "points": 240.0
+    },
+    "lane": "HOLDING",
+    "not_live": true
+  },
+  "ACC100_GOOD_BUY_LATEMID_GAP045_T30": {
+    "status": "HOLDING",
+    "kind": "acc100_stream",
+    "channel": "good_prod2",
+    "side": "BUY",
+    "hm": [
+      "10:30",
+      "14:00"
+    ],
+    "gap_abs_min": 0.45,
+    "pick": "first_of_day",
+    "risk": 30.0,
+    "note": "Fixed T30 path brackets \u2014 native prod2 brackets not 100%",
+    "research_3y": {
+      "n": 9,
+      "hit_pct": 100.0,
+      "points": 270.0
+    },
+    "lane": "HOLDING",
+    "not_live": true
+  },
+  "ACC100_MULTI_V1": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_accurate_desk",
+    "members": [
+      "PROVEN_100",
+      "CONFIRM_DUAL15_DUAL5_TIME30",
+      "ACC100_CROWN_BUY_AM1130_T20",
+      "ACC100_GOOD_BUY_LATEMID_GAP045_T30"
+    ],
+    "merge": "day_dedupe_proven_then_confirm_then_crown_then_good",
+    "research_3y": {
+      "n": 70,
+      "hit_pct": 100.0,
+      "points": 2580.0
+    },
+    "research_1y": {
+      "n": 31,
+      "hit_pct": 100.0
+    },
+    "not_live": true,
+    "logic_module": "logic/accurate_desks.py",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_96_100",
+    "accuracy_lo": 96.62,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "accurate_tag": "ACC100_MULTI_V1"
+  },
+  "ACC100_MULTI_V2": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_accurate_desk",
+    "contains": "ACC100_MULTI_V1",
+    "expand_streams": [
+      "ACC100_GOOD_T40_MID_GAP040",
+      "ACC100_CROWN_T20_PM_HTF_GAPDN055",
+      "ACC100_CROWN_T20_SELL_P62_PM",
+      "ACC100_CHAMP_BUY_P70_AM1130",
+      "ACC100_GOOD_T30_P57_AM1130",
+      "ACC100_CROWN_T35_AM1130_HTF_P55",
+      "ACC100_CROWN_T40_SELL_AM11_GAP040",
+      "ACC100_GOOD_T35_SELL_MID_HTF_GAPUP045",
+      "ACC100_GOOD_T35_BUY_P55_MID",
+      "ACC100_CROWN_T20_P60_AM1130_FIRST"
+    ],
+    "research_3y": {
+      "n": 118,
+      "hit_pct": 100.0,
+      "points": 4041.0
+    },
+    "research_5y": {
+      "n": 171,
+      "hit_pct": 100.0,
+      "points": 5827.0
+    },
+    "research_10y": {
+      "n": 227,
+      "hit_pct": 97.8,
+      "perfect": false
+    },
+    "research_1y": {
+      "n": 46,
+      "hit_pct": 100.0
+    },
+    "research_nov": {
+      "n": 1,
+      "hit_pct": 100.0
+    },
+    "not_live": true,
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC100_EXPAND_FROM_V1.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_97_100",
+    "accuracy_lo": 97.8,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "accurate_tag": "ACC100_MULTI_V2"
+  },
+  "ACC100_MULTI_V3": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_accurate_desk",
+    "contains": [
+      "ACC100_MULTI_V1",
+      "ACC100_MULTI_V2"
+    ],
+    "expand_streams": [
+      "ACC100_GOOD_T40_BUY_LATEMID_HTF_GAPUP040",
+      "ACC100_CROWN_T20_P60_PM_HTF_GAP035",
+      "ACC100_CHAMP_BUY_P85",
+      "ACC100_GOOD_T35_SELL_P55_LATEMID_GAP035",
+      "ACC100_CROWN_T30_BUY_P57_MID_GAPDN040"
+    ],
+    "research_3y": {
+      "n": 122,
+      "hit_pct": 100.0,
+      "points": 4146.0
+    },
+    "research_5y": {
+      "n": 181,
+      "hit_pct": 100.0,
+      "points": 6154.0
+    },
+    "research_1y": {
+      "n": 49,
+      "hit_pct": 100.0
+    },
+    "not_live": true,
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC100_EXPAND_FROM_V2.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_97_100",
+    "accuracy_lo": 97.9,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "accurate_tag": "ACC100_MULTI_V3"
+  },
+  "ACC100_MULTI_V4": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_accurate_desk",
+    "contains": [
+      "ACC100_MULTI_V1",
+      "ACC100_MULTI_V2",
+      "ACC100_MULTI_V3"
+    ],
+    "expand_streams": [
+      "ACC100_GOOD_T40_SELL_AM1230_GAP055",
+      "ACC100_CHAMP_BUY_P70_ALL",
+      "ACC100_GOOD_T40_SELL_AM1230_GAP040",
+      "ACC100_GOOD_T40_BOTH_P57_MID"
+    ],
+    "research_3y": {
+      "n": 123,
+      "hit_pct": 100.0,
+      "points": 4186.0
+    },
+    "research_5y": {
+      "n": 182,
+      "hit_pct": 100.0,
+      "points": 6194.0
+    },
+    "research_1y": {
+      "n": 50,
+      "hit_pct": 100.0
+    },
+    "not_live": true,
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC_MULTI_TIER_EXPAND.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_97_100",
+    "accuracy_lo": 97.92,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "accurate_tag": "ACC100_MULTI_V4"
+  },
+  "ACC_WIDE_P92": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_wide_desk",
+    "floor_pct": 92,
+    "contains": "ACC100_MULTI_V4",
+    "research_3y": {
+      "n": 131,
+      "hit_pct": 99.24
+    },
+    "research_5y": {
+      "n": 199,
+      "hit_pct": 97.49
+    },
+    "research_1y": {
+      "n": 52,
+      "hit_pct": 100.0
+    },
+    "not_live": true,
+    "note": "Volume desk for later filter \u2014 not 100%",
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC_MULTI_TIER_EXPAND.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_91_100",
+    "accuracy_lo": 91.1,
+    "accuracy_hi": 99.24,
+    "accuracy_band": "B_HIGH_90",
+    "accurate_tag": "ACC_WIDE_P92"
+  },
+  "ACC_WIDE_P90": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_wide_desk",
+    "floor_pct": 90,
+    "contains": "ACC_WIDE_P92",
+    "research_3y": {
+      "n": 174,
+      "hit_pct": 95.4
+    },
+    "research_5y": {
+      "n": 259,
+      "hit_pct": 94.98
+    },
+    "research_1y": {
+      "n": 65,
+      "hit_pct": 100.0
+    },
+    "not_live": true,
+    "note": "Volume desk for later filter \u2014 not 100%",
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC_MULTI_TIER_EXPAND.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_89_96",
+    "accuracy_lo": 89.88,
+    "accuracy_hi": 95.4,
+    "accuracy_band": "B_HIGH_90",
+    "accurate_tag": "ACC_WIDE_P90"
+  },
+  "ACC_WIDE_P85": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_wide_desk",
+    "floor_pct": 85,
+    "contains": "ACC_WIDE_P90",
+    "research_3y": {
+      "n": 223,
+      "hit_pct": 89.69
+    },
+    "research_5y": {
+      "n": 326,
+      "hit_pct": 89.88
+    },
+    "research_1y": {
+      "n": 86,
+      "hit_pct": 94.19
+    },
+    "not_live": true,
+    "note": "Volume desk for later filter \u2014 not 100%",
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC_MULTI_TIER_EXPAND.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_84_90",
+    "accuracy_lo": 84.0,
+    "accuracy_hi": 89.88,
+    "accuracy_band": "C_MID_85",
+    "accurate_tag": "ACC_WIDE_P85"
+  },
+  "ACC100_MULTI_V5": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_accurate_desk",
+    "contains": [
+      "ACC100_MULTI_V1",
+      "ACC100_MULTI_V2",
+      "ACC100_MULTI_V3",
+      "ACC100_MULTI_V4"
+    ],
+    "note": "Adds dual15 + more good/crown 100% streams",
+    "research_3y": {
+      "n": 141,
+      "hit_pct": 100.0,
+      "points": 4866.0
+    },
+    "research_5y": {
+      "n": 202,
+      "hit_pct": 100.0,
+      "points": 6982.0
+    },
+    "research_1y": {
+      "n": 54,
+      "hit_pct": 100.0
+    },
+    "not_live": true,
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC_MULTI_TIER_EXPAND2.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_98_100",
+    "accuracy_lo": 98.17,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "accurate_tag": "ACC100_MULTI_V5"
+  },
+  "ACC_WIDE_P85B": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_wide_desk",
+    "floor_pct": 85,
+    "contains": "ACC_WIDE_P85",
+    "research_3y": {
+      "n": 250,
+      "hit_pct": 88.4
+    },
+    "research_5y": {
+      "n": 364,
+      "hit_pct": 88.19
+    },
+    "not_live": true,
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC_MULTI_TIER_EXPAND2.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_81_89",
+    "accuracy_lo": 81.1,
+    "accuracy_hi": 88.4,
+    "accuracy_band": "C_MID_85",
+    "accurate_tag": "ACC_WIDE_P85B"
+  },
+  "ACC_WIDE_P80": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_wide_desk",
+    "floor_pct": 80,
+    "contains": "ACC_WIDE_P85B",
+    "research_3y": {
+      "n": 301,
+      "hit_pct": 84.72
+    },
+    "research_5y": {
+      "n": 442,
+      "hit_pct": 83.48
+    },
+    "not_live": true,
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC_MULTI_TIER_EXPAND2.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_76_85",
+    "accuracy_lo": 76.63,
+    "accuracy_hi": 84.72,
+    "accuracy_band": "D_VOL_80",
+    "accurate_tag": "ACC_WIDE_P80"
+  },
+  "ACC_WIDE_P75": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_wide_desk",
+    "floor_pct": 75,
+    "contains": "ACC_WIDE_P80",
+    "research_3y": {
+      "n": 347,
+      "hit_pct": 82.71
+    },
+    "research_5y": {
+      "n": 514,
+      "hit_pct": 81.71
+    },
+    "not_live": true,
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC_MULTI_TIER_EXPAND2.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_75_83",
+    "accuracy_lo": 75.15,
+    "accuracy_hi": 82.71,
+    "accuracy_band": "E_VOL_75",
+    "accurate_tag": "ACC_WIDE_P75"
+  },
+  "ACC_WIDE_P80_CAP2": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_wide_desk",
+    "floor_pct": 80,
+    "day_cap": 2,
+    "research_3y": {
+      "n": 525,
+      "hit_pct": 86.29
+    },
+    "research_5y": {
+      "n": 770,
+      "hit_pct": 84.94
+    },
+    "not_live": true,
+    "note": "Day-cap2 volume for later filter",
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC_MULTI_TIER_EXPAND2.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_77_87",
+    "accuracy_lo": 77.7,
+    "accuracy_hi": 86.29,
+    "accuracy_band": "D_VOL_80",
+    "accurate_tag": "ACC_WIDE_P80_CAP2"
+  },
+  "ACC_WIDE_P75_CAP2": {
+    "status": "HOLDING",
+    "keep": true,
+    "kind": "holding_wide_desk",
+    "floor_pct": 75,
+    "day_cap": 2,
+    "research_3y": {
+      "n": 626,
+      "hit_pct": 83.39
+    },
+    "research_5y": {
+      "n": 933,
+      "hit_pct": 82.21
+    },
+    "not_live": true,
+    "note": "Widest day-cap2 volume for later filter",
+    "logic_module": "logic/accurate_desks.py",
+    "report": "reports/1y/ACC_MULTI_TIER_EXPAND2.md",
+    "lane": "HOLDING",
+    "accuracy_range": "ACC_RANGE_75_84",
+    "accuracy_lo": 75.5,
+    "accuracy_hi": 83.39,
+    "accuracy_band": "E_VOL_75",
+    "accurate_tag": "ACC_WIDE_P75_CAP2"
+  },
+  "ACC_RANGE_100_100": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 100.0,
+    "accuracy_hi": 100.0,
+    "band": "A_PERFECT_3Y5Y",
+    "desks": [
+      "PROVEN15_PLUS_CONFIRM_T30"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_96_100": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 96.62,
+    "accuracy_hi": 100.0,
+    "band": "A_PERFECT_3Y5Y",
+    "desks": [
+      "ACC100_MULTI_V1"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_97_100": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 97.8,
+    "accuracy_hi": 100.0,
+    "band": "A_PERFECT_3Y5Y",
+    "desks": [
+      "ACC100_MULTI_V2",
+      "ACC100_MULTI_V3",
+      "ACC100_MULTI_V4"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_98_100": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 98.17,
+    "accuracy_hi": 100.0,
+    "band": "A_PERFECT_3Y5Y",
+    "desks": [
+      "ACC100_MULTI_V10",
+      "ACC100_MULTI_V11",
+      "ACC100_MULTI_V5",
+      "ACC100_MULTI_V5_CAP2_P2C",
+      "ACC100_MULTI_V5_CAP2_P2D",
+      "ACC100_MULTI_V5_CAP2_P2E",
+      "ACC100_MULTI_V5_CAP2_P2F",
+      "ACC100_MULTI_V8",
+      "ACC100_MULTI_V9"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_91_100": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 91.1,
+    "accuracy_hi": 99.24,
+    "band": "B_HIGH_90",
+    "desks": [
+      "ACC_WIDE_P92",
+      "ACC_WIDE_P92_CAP2_P2C",
+      "ACC_WIDE_P92_CAP2_P2D",
+      "ACC_WIDE_P92_CAP2_P2E",
+      "ACC_WIDE_P92_CAP2_P2F",
+      "ACC_WIDE_P92_P2C",
+      "ACC_WIDE_P92_P2D",
+      "ACC_WIDE_P92_P2E",
+      "ACC_WIDE_P92_P2F"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_89_96": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 89.88,
+    "accuracy_hi": 95.4,
+    "band": "B_HIGH_90",
+    "desks": [
+      "ACC_WIDE_P90",
+      "ACC_WIDE_P90_CAP2_P2C",
+      "ACC_WIDE_P90_CAP2_P2D",
+      "ACC_WIDE_P90_CAP2_P2E",
+      "ACC_WIDE_P90_CAP2_P2F",
+      "ACC_WIDE_P90_P2C",
+      "ACC_WIDE_P90_P2D",
+      "ACC_WIDE_P90_P2E",
+      "ACC_WIDE_P90_P2F"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_84_90": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 84.0,
+    "accuracy_hi": 89.88,
+    "band": "C_MID_85",
+    "desks": [
+      "ACC_WIDE_P85",
+      "ACC_WIDE_P85_CAP2_P2D",
+      "ACC_WIDE_P85_CAP2_P2E",
+      "ACC_WIDE_P85_CAP2_P2F",
+      "ACC_WIDE_P85_P2C",
+      "ACC_WIDE_P85_P2D",
+      "ACC_WIDE_P85_P2E",
+      "ACC_WIDE_P85_P2F"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_81_89": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 81.1,
+    "accuracy_hi": 88.4,
+    "band": "C_MID_85",
+    "desks": [
+      "ACC_WIDE_P85B",
+      "ACC_WIDE_P85B_CAP2_P2D",
+      "ACC_WIDE_P85B_CAP2_P2E",
+      "ACC_WIDE_P85B_P2C",
+      "ACC_WIDE_P85B_P2D",
+      "ACC_WIDE_P85B_P2E",
+      "ACC_WIDE_P85B_P2F"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_76_85": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 76.63,
+    "accuracy_hi": 84.72,
+    "band": "D_VOL_80",
+    "desks": [
+      "ACC_WIDE_P80",
+      "ACC_WIDE_P80_P2C",
+      "ACC_WIDE_P80_P2D",
+      "ACC_WIDE_P80_P2E",
+      "ACC_WIDE_P80_P2F"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_77_87": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 77.7,
+    "accuracy_hi": 86.29,
+    "band": "D_VOL_80",
+    "desks": [
+      "ACC_WIDE_P80_CAP2",
+      "ACC_WIDE_P80_CAP2_P2E"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_75_83": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 75.15,
+    "accuracy_hi": 82.71,
+    "band": "E_VOL_75",
+    "desks": [
+      "ACC_WIDE_P75",
+      "ACC_WIDE_P75_P2C",
+      "ACC_WIDE_P75_P2D",
+      "ACC_WIDE_P75_P2E",
+      "ACC_WIDE_P75_P2F"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_RANGE_75_84": {
+    "lane": "HOLDING",
+    "kind": "accuracy_range_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "accuracy_lo": 75.5,
+    "accuracy_hi": 83.39,
+    "band": "E_VOL_75",
+    "desks": [
+      "ACC_WIDE_P75_CAP2"
+    ],
+    "note": "Derived from min/max hit across 3y/5y/10y research"
+  },
+  "ACC_BAND_A_PERFECT_3Y5Y": {
+    "lane": "HOLDING",
+    "kind": "accuracy_band_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "band": "A_PERFECT_3Y5Y",
+    "desks": [
+      "ACC100_MULTI_V1",
+      "ACC100_MULTI_V10",
+      "ACC100_MULTI_V11",
+      "ACC100_MULTI_V2",
+      "ACC100_MULTI_V3",
+      "ACC100_MULTI_V4",
+      "ACC100_MULTI_V5",
+      "ACC100_MULTI_V5_CAP2_P2C",
+      "ACC100_MULTI_V5_CAP2_P2D",
+      "ACC100_MULTI_V5_CAP2_P2E",
+      "ACC100_MULTI_V5_CAP2_P2F",
+      "ACC100_MULTI_V8",
+      "ACC100_MULTI_V9",
+      "PROVEN15_PLUS_CONFIRM_T30"
+    ],
+    "logic_module": "logic/accurate_desks.py"
+  },
+  "ACC_BAND_B_HIGH_90": {
+    "lane": "HOLDING",
+    "kind": "accuracy_band_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "band": "B_HIGH_90",
+    "desks": [
+      "ACC_WIDE_P90",
+      "ACC_WIDE_P90_CAP2_P2C",
+      "ACC_WIDE_P90_CAP2_P2D",
+      "ACC_WIDE_P90_CAP2_P2E",
+      "ACC_WIDE_P90_CAP2_P2F",
+      "ACC_WIDE_P90_P2C",
+      "ACC_WIDE_P90_P2D",
+      "ACC_WIDE_P90_P2E",
+      "ACC_WIDE_P90_P2F",
+      "ACC_WIDE_P92",
+      "ACC_WIDE_P92_CAP2_P2C",
+      "ACC_WIDE_P92_CAP2_P2D",
+      "ACC_WIDE_P92_CAP2_P2E",
+      "ACC_WIDE_P92_CAP2_P2F",
+      "ACC_WIDE_P92_P2C",
+      "ACC_WIDE_P92_P2D",
+      "ACC_WIDE_P92_P2E",
+      "ACC_WIDE_P92_P2F"
+    ],
+    "logic_module": "logic/accurate_desks.py"
+  },
+  "ACC_BAND_C_MID_85": {
+    "lane": "HOLDING",
+    "kind": "accuracy_band_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "band": "C_MID_85",
+    "desks": [
+      "ACC_WIDE_P85",
+      "ACC_WIDE_P85B",
+      "ACC_WIDE_P85B_CAP2_P2D",
+      "ACC_WIDE_P85B_CAP2_P2E",
+      "ACC_WIDE_P85B_P2C",
+      "ACC_WIDE_P85B_P2D",
+      "ACC_WIDE_P85B_P2E",
+      "ACC_WIDE_P85B_P2F",
+      "ACC_WIDE_P85_CAP2_P2D",
+      "ACC_WIDE_P85_CAP2_P2E",
+      "ACC_WIDE_P85_CAP2_P2F",
+      "ACC_WIDE_P85_P2C",
+      "ACC_WIDE_P85_P2D",
+      "ACC_WIDE_P85_P2E",
+      "ACC_WIDE_P85_P2F"
+    ],
+    "logic_module": "logic/accurate_desks.py"
+  },
+  "ACC_BAND_D_VOL_80": {
+    "lane": "HOLDING",
+    "kind": "accuracy_band_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "band": "D_VOL_80",
+    "desks": [
+      "ACC_WIDE_P80",
+      "ACC_WIDE_P80_CAP2",
+      "ACC_WIDE_P80_CAP2_P2E",
+      "ACC_WIDE_P80_P2C",
+      "ACC_WIDE_P80_P2D",
+      "ACC_WIDE_P80_P2E",
+      "ACC_WIDE_P80_P2F"
+    ],
+    "logic_module": "logic/accurate_desks.py"
+  },
+  "ACC_BAND_E_VOL_75": {
+    "lane": "HOLDING",
+    "kind": "accuracy_band_tag",
+    "status": "HOLDING",
+    "not_live": true,
+    "band": "E_VOL_75",
+    "desks": [
+      "ACC_WIDE_P75",
+      "ACC_WIDE_P75_CAP2",
+      "ACC_WIDE_P75_P2C",
+      "ACC_WIDE_P75_P2D",
+      "ACC_WIDE_P75_P2E",
+      "ACC_WIDE_P75_P2F"
+    ],
+    "logic_module": "logic/accurate_desks.py"
+  },
+  "ACC100_MULTI_V8": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC100_MULTI_V8",
+    "desk_tag": "ACC100_MULTI_V8",
+    "logic_level": "P2C",
+    "base_desk": "ACC100_MULTI_V5",
+    "mode": "day",
+    "floor_pct": 100.0,
+    "research_3y": {
+      "n": 199,
+      "hit_pct": 100.0
+    },
+    "stream_count": 52,
+    "logic": "Phase-1 base \u222a greedily added path-true stream tags (P2/P2b/P2c) keeping floor \u00b7 base=`ACC100_MULTI_V5` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_98_100",
+    "accuracy_range": "ACC_RANGE_98_100",
+    "accuracy_lo": 98.17,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "tags": [
+      "ACC100_MULTI_V8",
+      "ACC_RANGE_98_100",
+      "ACC_BAND_A_PERFECT_3Y5Y",
+      "ACC_FLOOR_100",
+      "LOGIC_P2C"
+    ],
+    "recipes": "prod_live/holding_accurate/recipes.json"
+  },
+  "ACC_WIDE_P92_P2C": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P92_P2C",
+    "desk_tag": "ACC_WIDE_P92_P2C",
+    "logic_level": "P2C",
+    "base_desk": "ACC_WIDE_P92",
+    "mode": "day",
+    "floor_pct": 99.24,
+    "research_3y": {
+      "n": 203,
+      "hit_pct": 99.5074
+    },
+    "stream_count": 52,
+    "logic": "Phase-1 base \u222a greedily added path-true stream tags (P2/P2b/P2c) keeping floor \u00b7 base=`ACC_WIDE_P92` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_91_100",
+    "accuracy_range": "ACC_RANGE_91_100",
+    "accuracy_lo": 91.1,
+    "accuracy_hi": 99.24,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P92_P2C",
+      "ACC_RANGE_91_100",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_99p24",
+      "LOGIC_P2C"
+    ],
+    "recipes": "prod_live/holding_accurate/recipes.json"
+  },
+  "ACC_WIDE_P90_P2C": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P90_P2C",
+    "desk_tag": "ACC_WIDE_P90_P2C",
+    "logic_level": "P2C",
+    "base_desk": "ACC_WIDE_P90",
+    "mode": "day",
+    "floor_pct": 95.4,
+    "research_3y": {
+      "n": 237,
+      "hit_pct": 95.7806
+    },
+    "stream_count": 49,
+    "logic": "Phase-1 base \u222a greedily added path-true stream tags (P2/P2b/P2c) keeping floor \u00b7 base=`ACC_WIDE_P90` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_89_96",
+    "accuracy_range": "ACC_RANGE_89_96",
+    "accuracy_lo": 89.88,
+    "accuracy_hi": 95.4,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P90_P2C",
+      "ACC_RANGE_89_96",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_95p4",
+      "LOGIC_P2C"
+    ],
+    "recipes": "prod_live/holding_accurate/recipes.json"
+  },
+  "ACC_WIDE_P85_P2C": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85_P2C",
+    "desk_tag": "ACC_WIDE_P85_P2C",
+    "logic_level": "P2C",
+    "base_desk": "ACC_WIDE_P85",
+    "mode": "day",
+    "floor_pct": 89.69,
+    "research_3y": {
+      "n": 293,
+      "hit_pct": 89.7611
+    },
+    "stream_count": 48,
+    "logic": "Phase-1 base \u222a greedily added path-true stream tags (P2/P2b/P2c) keeping floor \u00b7 base=`ACC_WIDE_P85` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_84_90",
+    "accuracy_range": "ACC_RANGE_84_90",
+    "accuracy_lo": 84.0,
+    "accuracy_hi": 89.88,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85_P2C",
+      "ACC_RANGE_84_90",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_89p69",
+      "LOGIC_P2C"
+    ],
+    "recipes": "prod_live/holding_accurate/recipes.json"
+  },
+  "ACC_WIDE_P85B_P2C": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85B_P2C",
+    "desk_tag": "ACC_WIDE_P85B_P2C",
+    "logic_level": "P2C",
+    "base_desk": "ACC_WIDE_P85B",
+    "mode": "day",
+    "floor_pct": 88.4,
+    "research_3y": {
+      "n": 303,
+      "hit_pct": 88.4488
+    },
+    "stream_count": 40,
+    "logic": "Phase-1 base \u222a greedily added path-true stream tags (P2/P2b/P2c) keeping floor \u00b7 base=`ACC_WIDE_P85B` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_81_89",
+    "accuracy_range": "ACC_RANGE_81_89",
+    "accuracy_lo": 81.1,
+    "accuracy_hi": 88.4,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85B_P2C",
+      "ACC_RANGE_81_89",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_88p4",
+      "LOGIC_P2C"
+    ],
+    "recipes": "prod_live/holding_accurate/recipes.json"
+  },
+  "ACC_WIDE_P80_P2C": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P80_P2C",
+    "desk_tag": "ACC_WIDE_P80_P2C",
+    "logic_level": "P2C",
+    "base_desk": "ACC_WIDE_P80",
+    "mode": "day",
+    "floor_pct": 84.72,
+    "research_3y": {
+      "n": 341,
+      "hit_pct": 84.7507
+    },
+    "stream_count": 26,
+    "logic": "Phase-1 base \u222a greedily added path-true stream tags (P2/P2b/P2c) keeping floor \u00b7 base=`ACC_WIDE_P80` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_76_85",
+    "accuracy_range": "ACC_RANGE_76_85",
+    "accuracy_lo": 76.63,
+    "accuracy_hi": 84.72,
+    "accuracy_band": "D_VOL_80",
+    "tags": [
+      "ACC_WIDE_P80_P2C",
+      "ACC_RANGE_76_85",
+      "ACC_BAND_D_VOL_80",
+      "ACC_FLOOR_84p72",
+      "LOGIC_P2C"
+    ],
+    "recipes": "prod_live/holding_accurate/recipes.json"
+  },
+  "ACC_WIDE_P75_P2C": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P75_P2C",
+    "desk_tag": "ACC_WIDE_P75_P2C",
+    "logic_level": "P2C",
+    "base_desk": "ACC_WIDE_P75",
+    "mode": "day",
+    "floor_pct": 82.71,
+    "research_3y": {
+      "n": 372,
+      "hit_pct": 82.7957
+    },
+    "stream_count": 21,
+    "logic": "Phase-1 base \u222a greedily added path-true stream tags (P2/P2b/P2c) keeping floor \u00b7 base=`ACC_WIDE_P75` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_75_83",
+    "accuracy_range": "ACC_RANGE_75_83",
+    "accuracy_lo": 75.15,
+    "accuracy_hi": 82.71,
+    "accuracy_band": "E_VOL_75",
+    "tags": [
+      "ACC_WIDE_P75_P2C",
+      "ACC_RANGE_75_83",
+      "ACC_BAND_E_VOL_75",
+      "ACC_FLOOR_82p71",
+      "LOGIC_P2C"
+    ],
+    "recipes": "prod_live/holding_accurate/recipes.json"
+  },
+  "ACC100_MULTI_V5_CAP2_P2C": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC100_MULTI_V5_CAP2_P2C",
+    "desk_tag": "ACC100_MULTI_V5_CAP2_P2C",
+    "logic_level": "P2C",
+    "base_desk": "ACC100_MULTI_V5_CAP2",
+    "mode": "cap2",
+    "floor_pct": 100.0,
+    "research_3y": {
+      "n": 256,
+      "hit_pct": 100.0
+    },
+    "stream_count": 51,
+    "logic": "Phase-1 base \u222a greedily added path-true stream tags (P2/P2b/P2c) keeping floor \u00b7 base=`ACC100_MULTI_V5_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_98_100",
+    "accuracy_range": "ACC_RANGE_98_100",
+    "accuracy_lo": 98.17,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "tags": [
+      "ACC100_MULTI_V5_CAP2_P2C",
+      "ACC_RANGE_98_100",
+      "ACC_BAND_A_PERFECT_3Y5Y",
+      "ACC_FLOOR_100",
+      "LOGIC_P2C"
+    ],
+    "recipes": "prod_live/holding_accurate/recipes.json"
+  },
+  "ACC_WIDE_P92_CAP2_P2C": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P92_CAP2_P2C",
+    "desk_tag": "ACC_WIDE_P92_CAP2_P2C",
+    "logic_level": "P2C",
+    "base_desk": "ACC_WIDE_P92_CAP2",
+    "mode": "cap2",
+    "floor_pct": 99.24,
+    "research_3y": {
+      "n": 261,
+      "hit_pct": 99.6169
+    },
+    "stream_count": 51,
+    "logic": "Phase-1 base \u222a greedily added path-true stream tags (P2/P2b/P2c) keeping floor \u00b7 base=`ACC_WIDE_P92_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_91_100",
+    "accuracy_range": "ACC_RANGE_91_100",
+    "accuracy_lo": 91.1,
+    "accuracy_hi": 99.24,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P92_CAP2_P2C",
+      "ACC_RANGE_91_100",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_99p24",
+      "LOGIC_P2C"
+    ],
+    "recipes": "prod_live/holding_accurate/recipes.json"
+  },
+  "ACC_WIDE_P90_CAP2_P2C": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P90_CAP2_P2C",
+    "desk_tag": "ACC_WIDE_P90_CAP2_P2C",
+    "logic_level": "P2C",
+    "base_desk": "ACC_WIDE_P90_CAP2",
+    "mode": "cap2",
+    "floor_pct": 95.4,
+    "research_3y": {
+      "n": 309,
+      "hit_pct": 96.1165
+    },
+    "stream_count": 47,
+    "logic": "Phase-1 base \u222a greedily added path-true stream tags (P2/P2b/P2c) keeping floor \u00b7 base=`ACC_WIDE_P90_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_89_96",
+    "accuracy_range": "ACC_RANGE_89_96",
+    "accuracy_lo": 89.88,
+    "accuracy_hi": 95.4,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P90_CAP2_P2C",
+      "ACC_RANGE_89_96",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_95p4",
+      "LOGIC_P2C"
+    ],
+    "recipes": "prod_live/holding_accurate/recipes.json"
+  },
+  "ACC100_MULTI_V9": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC100_MULTI_V9",
+    "desk_tag": "ACC100_MULTI_V9",
+    "logic_level": "P2D",
+    "base_desk": "ACC100_MULTI_V5",
+    "mode": "day",
+    "floor_pct": 100.0,
+    "research_3y": {
+      "n": 216,
+      "hit_pct": 100.0
+    },
+    "stream_count": 76,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC100_MULTI_V5` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_98_100",
+    "accuracy_range": "ACC_RANGE_98_100",
+    "accuracy_lo": 98.17,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "tags": [
+      "ACC100_MULTI_V9",
+      "ACC_RANGE_98_100",
+      "ACC_BAND_A_PERFECT_3Y5Y",
+      "ACC_FLOOR_100",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC_WIDE_P92_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P92_P2D",
+    "desk_tag": "ACC_WIDE_P92_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC_WIDE_P92",
+    "mode": "day",
+    "floor_pct": 99.24,
+    "research_3y": {
+      "n": 220,
+      "hit_pct": 99.5455
+    },
+    "stream_count": 73,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC_WIDE_P92` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_91_100",
+    "accuracy_range": "ACC_RANGE_91_100",
+    "accuracy_lo": 91.1,
+    "accuracy_hi": 99.24,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P92_P2D",
+      "ACC_RANGE_91_100",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_99p24",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC_WIDE_P90_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P90_P2D",
+    "desk_tag": "ACC_WIDE_P90_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC_WIDE_P90",
+    "mode": "day",
+    "floor_pct": 95.4,
+    "research_3y": {
+      "n": 253,
+      "hit_pct": 96.0474
+    },
+    "stream_count": 69,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC_WIDE_P90` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_89_96",
+    "accuracy_range": "ACC_RANGE_89_96",
+    "accuracy_lo": 89.88,
+    "accuracy_hi": 95.4,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P90_P2D",
+      "ACC_RANGE_89_96",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_95p4",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC_WIDE_P85_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85_P2D",
+    "desk_tag": "ACC_WIDE_P85_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC_WIDE_P85",
+    "mode": "day",
+    "floor_pct": 89.69,
+    "research_3y": {
+      "n": 305,
+      "hit_pct": 89.8361
+    },
+    "stream_count": 66,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC_WIDE_P85` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_84_90",
+    "accuracy_range": "ACC_RANGE_84_90",
+    "accuracy_lo": 84.0,
+    "accuracy_hi": 89.88,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85_P2D",
+      "ACC_RANGE_84_90",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_89p69",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC_WIDE_P85B_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85B_P2D",
+    "desk_tag": "ACC_WIDE_P85B_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC_WIDE_P85B",
+    "mode": "day",
+    "floor_pct": 88.4,
+    "research_3y": {
+      "n": 314,
+      "hit_pct": 88.535
+    },
+    "stream_count": 58,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC_WIDE_P85B` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_81_89",
+    "accuracy_range": "ACC_RANGE_81_89",
+    "accuracy_lo": 81.1,
+    "accuracy_hi": 88.4,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85B_P2D",
+      "ACC_RANGE_81_89",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_88p4",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC_WIDE_P80_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P80_P2D",
+    "desk_tag": "ACC_WIDE_P80_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC_WIDE_P80",
+    "mode": "day",
+    "floor_pct": 84.72,
+    "research_3y": {
+      "n": 350,
+      "hit_pct": 84.8571
+    },
+    "stream_count": 47,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC_WIDE_P80` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_76_85",
+    "accuracy_range": "ACC_RANGE_76_85",
+    "accuracy_lo": 76.63,
+    "accuracy_hi": 84.72,
+    "accuracy_band": "D_VOL_80",
+    "tags": [
+      "ACC_WIDE_P80_P2D",
+      "ACC_RANGE_76_85",
+      "ACC_BAND_D_VOL_80",
+      "ACC_FLOOR_84p72",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC_WIDE_P75_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P75_P2D",
+    "desk_tag": "ACC_WIDE_P75_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC_WIDE_P75",
+    "mode": "day",
+    "floor_pct": 82.71,
+    "research_3y": {
+      "n": 376,
+      "hit_pct": 82.7128
+    },
+    "stream_count": 31,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC_WIDE_P75` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_75_83",
+    "accuracy_range": "ACC_RANGE_75_83",
+    "accuracy_lo": 75.15,
+    "accuracy_hi": 82.71,
+    "accuracy_band": "E_VOL_75",
+    "tags": [
+      "ACC_WIDE_P75_P2D",
+      "ACC_RANGE_75_83",
+      "ACC_BAND_E_VOL_75",
+      "ACC_FLOOR_82p71",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC100_MULTI_V5_CAP2_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC100_MULTI_V5_CAP2_P2D",
+    "desk_tag": "ACC100_MULTI_V5_CAP2_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC100_MULTI_V5_CAP2",
+    "mode": "cap2",
+    "floor_pct": 100.0,
+    "research_3y": {
+      "n": 281,
+      "hit_pct": 100.0
+    },
+    "stream_count": 87,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC100_MULTI_V5_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_98_100",
+    "accuracy_range": "ACC_RANGE_98_100",
+    "accuracy_lo": 98.17,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "tags": [
+      "ACC100_MULTI_V5_CAP2_P2D",
+      "ACC_RANGE_98_100",
+      "ACC_BAND_A_PERFECT_3Y5Y",
+      "ACC_FLOOR_100",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC_WIDE_P92_CAP2_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P92_CAP2_P2D",
+    "desk_tag": "ACC_WIDE_P92_CAP2_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC_WIDE_P92_CAP2",
+    "mode": "cap2",
+    "floor_pct": 99.24,
+    "research_3y": {
+      "n": 286,
+      "hit_pct": 99.6503
+    },
+    "stream_count": 87,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC_WIDE_P92_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_91_100",
+    "accuracy_range": "ACC_RANGE_91_100",
+    "accuracy_lo": 91.1,
+    "accuracy_hi": 99.24,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P92_CAP2_P2D",
+      "ACC_RANGE_91_100",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_99p24",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC_WIDE_P90_CAP2_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P90_CAP2_P2D",
+    "desk_tag": "ACC_WIDE_P90_CAP2_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC_WIDE_P90_CAP2",
+    "mode": "cap2",
+    "floor_pct": 95.4,
+    "research_3y": {
+      "n": 334,
+      "hit_pct": 96.4072
+    },
+    "stream_count": 78,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC_WIDE_P90_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_89_96",
+    "accuracy_range": "ACC_RANGE_89_96",
+    "accuracy_lo": 89.88,
+    "accuracy_hi": 95.4,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P90_CAP2_P2D",
+      "ACC_RANGE_89_96",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_95p4",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC_WIDE_P85_CAP2_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85_CAP2_P2D",
+    "desk_tag": "ACC_WIDE_P85_CAP2_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC_WIDE_P85_CAP2",
+    "mode": "cap2",
+    "floor_pct": 89.69,
+    "research_3y": {
+      "n": 424,
+      "hit_pct": 89.8585
+    },
+    "stream_count": 52,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC_WIDE_P85_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_84_90",
+    "accuracy_range": "ACC_RANGE_84_90",
+    "accuracy_lo": 84.0,
+    "accuracy_hi": 89.88,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85_CAP2_P2D",
+      "ACC_RANGE_84_90",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_89p69",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC_WIDE_P85B_CAP2_P2D": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85B_CAP2_P2D",
+    "desk_tag": "ACC_WIDE_P85B_CAP2_P2D",
+    "logic_level": "P2D",
+    "base_desk": "ACC_WIDE_P85B_CAP2",
+    "mode": "cap2",
+    "floor_pct": 88.4,
+    "research_3y": {
+      "n": 435,
+      "hit_pct": 88.5057
+    },
+    "stream_count": 44,
+    "logic": "P2C seed \u222a denser mine \u00b7 same floor \u00b7 more calls \u00b7 base=`ACC_WIDE_P85B_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_81_89",
+    "accuracy_range": "ACC_RANGE_81_89",
+    "accuracy_lo": 81.1,
+    "accuracy_hi": 88.4,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85B_CAP2_P2D",
+      "ACC_RANGE_81_89",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_88p4",
+      "LOGIC_P2D"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2d/recipes_research.json"
+  },
+  "ACC100_MULTI_V10": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC100_MULTI_V10",
+    "desk_tag": "ACC100_MULTI_V10",
+    "logic_level": "P2E",
+    "base_desk": "ACC100_MULTI_V5",
+    "mode": "day",
+    "floor_pct": 100.0,
+    "research_3y": {
+      "n": 241,
+      "hit_pct": 100.0
+    },
+    "stream_count": 98,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC100_MULTI_V5` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_98_100",
+    "accuracy_range": "ACC_RANGE_98_100",
+    "accuracy_lo": 98.17,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "tags": [
+      "ACC100_MULTI_V10",
+      "ACC_RANGE_98_100",
+      "ACC_BAND_A_PERFECT_3Y5Y",
+      "ACC_FLOOR_100",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P92_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P92_P2E",
+    "desk_tag": "ACC_WIDE_P92_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P92",
+    "mode": "day",
+    "floor_pct": 99.24,
+    "research_3y": {
+      "n": 243,
+      "hit_pct": 99.5885
+    },
+    "stream_count": 94,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P92` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_91_100",
+    "accuracy_range": "ACC_RANGE_91_100",
+    "accuracy_lo": 91.1,
+    "accuracy_hi": 99.24,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P92_P2E",
+      "ACC_RANGE_91_100",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_99p24",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P90_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P90_P2E",
+    "desk_tag": "ACC_WIDE_P90_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P90",
+    "mode": "day",
+    "floor_pct": 95.4,
+    "research_3y": {
+      "n": 274,
+      "hit_pct": 96.3504
+    },
+    "stream_count": 89,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P90` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_89_96",
+    "accuracy_range": "ACC_RANGE_89_96",
+    "accuracy_lo": 89.88,
+    "accuracy_hi": 95.4,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P90_P2E",
+      "ACC_RANGE_89_96",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_95p4",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P85_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85_P2E",
+    "desk_tag": "ACC_WIDE_P85_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P85",
+    "mode": "day",
+    "floor_pct": 89.69,
+    "research_3y": {
+      "n": 317,
+      "hit_pct": 89.9054
+    },
+    "stream_count": 81,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P85` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_84_90",
+    "accuracy_range": "ACC_RANGE_84_90",
+    "accuracy_lo": 84.0,
+    "accuracy_hi": 89.88,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85_P2E",
+      "ACC_RANGE_84_90",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_89p69",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P85B_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85B_P2E",
+    "desk_tag": "ACC_WIDE_P85B_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P85B",
+    "mode": "day",
+    "floor_pct": 88.4,
+    "research_3y": {
+      "n": 329,
+      "hit_pct": 88.4498
+    },
+    "stream_count": 75,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P85B` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_81_89",
+    "accuracy_range": "ACC_RANGE_81_89",
+    "accuracy_lo": 81.1,
+    "accuracy_hi": 88.4,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85B_P2E",
+      "ACC_RANGE_81_89",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_88p4",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P80_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P80_P2E",
+    "desk_tag": "ACC_WIDE_P80_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P80",
+    "mode": "day",
+    "floor_pct": 84.72,
+    "research_3y": {
+      "n": 360,
+      "hit_pct": 84.7222
+    },
+    "stream_count": 59,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P80` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_76_85",
+    "accuracy_range": "ACC_RANGE_76_85",
+    "accuracy_lo": 76.63,
+    "accuracy_hi": 84.72,
+    "accuracy_band": "D_VOL_80",
+    "tags": [
+      "ACC_WIDE_P80_P2E",
+      "ACC_RANGE_76_85",
+      "ACC_BAND_D_VOL_80",
+      "ACC_FLOOR_84p72",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P75_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P75_P2E",
+    "desk_tag": "ACC_WIDE_P75_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P75",
+    "mode": "day",
+    "floor_pct": 82.71,
+    "research_3y": {
+      "n": 382,
+      "hit_pct": 82.7225
+    },
+    "stream_count": 39,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P75` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_75_83",
+    "accuracy_range": "ACC_RANGE_75_83",
+    "accuracy_lo": 75.15,
+    "accuracy_hi": 82.71,
+    "accuracy_band": "E_VOL_75",
+    "tags": [
+      "ACC_WIDE_P75_P2E",
+      "ACC_RANGE_75_83",
+      "ACC_BAND_E_VOL_75",
+      "ACC_FLOOR_82p71",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC100_MULTI_V5_CAP2_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC100_MULTI_V5_CAP2_P2E",
+    "desk_tag": "ACC100_MULTI_V5_CAP2_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC100_MULTI_V5_CAP2",
+    "mode": "cap2",
+    "floor_pct": 100.0,
+    "research_3y": {
+      "n": 325,
+      "hit_pct": 100.0
+    },
+    "stream_count": 117,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC100_MULTI_V5_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_98_100",
+    "accuracy_range": "ACC_RANGE_98_100",
+    "accuracy_lo": 98.17,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "tags": [
+      "ACC100_MULTI_V5_CAP2_P2E",
+      "ACC_RANGE_98_100",
+      "ACC_BAND_A_PERFECT_3Y5Y",
+      "ACC_FLOOR_100",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P92_CAP2_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P92_CAP2_P2E",
+    "desk_tag": "ACC_WIDE_P92_CAP2_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P92_CAP2",
+    "mode": "cap2",
+    "floor_pct": 99.24,
+    "research_3y": {
+      "n": 327,
+      "hit_pct": 99.6942
+    },
+    "stream_count": 117,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P92_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_91_100",
+    "accuracy_range": "ACC_RANGE_91_100",
+    "accuracy_lo": 91.1,
+    "accuracy_hi": 99.24,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P92_CAP2_P2E",
+      "ACC_RANGE_91_100",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_99p24",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P90_CAP2_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P90_CAP2_P2E",
+    "desk_tag": "ACC_WIDE_P90_CAP2_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P90_CAP2",
+    "mode": "cap2",
+    "floor_pct": 95.4,
+    "research_3y": {
+      "n": 370,
+      "hit_pct": 96.7568
+    },
+    "stream_count": 107,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P90_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_89_96",
+    "accuracy_range": "ACC_RANGE_89_96",
+    "accuracy_lo": 89.88,
+    "accuracy_hi": 95.4,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P90_CAP2_P2E",
+      "ACC_RANGE_89_96",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_95p4",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P85_CAP2_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85_CAP2_P2E",
+    "desk_tag": "ACC_WIDE_P85_CAP2_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P85_CAP2",
+    "mode": "cap2",
+    "floor_pct": 89.69,
+    "research_3y": {
+      "n": 447,
+      "hit_pct": 89.7092
+    },
+    "stream_count": 74,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P85_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_84_90",
+    "accuracy_range": "ACC_RANGE_84_90",
+    "accuracy_lo": 84.0,
+    "accuracy_hi": 89.88,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85_CAP2_P2E",
+      "ACC_RANGE_84_90",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_89p69",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P85B_CAP2_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85B_CAP2_P2E",
+    "desk_tag": "ACC_WIDE_P85B_CAP2_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P85B_CAP2",
+    "mode": "cap2",
+    "floor_pct": 88.4,
+    "research_3y": {
+      "n": 459,
+      "hit_pct": 88.4532
+    },
+    "stream_count": 63,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P85B_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_81_89",
+    "accuracy_range": "ACC_RANGE_81_89",
+    "accuracy_lo": 81.1,
+    "accuracy_hi": 88.4,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85B_CAP2_P2E",
+      "ACC_RANGE_81_89",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_88p4",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC_WIDE_P80_CAP2_P2E": {
+    "status": "HELD",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P80_CAP2_P2E",
+    "desk_tag": "ACC_WIDE_P80_CAP2_P2E",
+    "logic_level": "P2E",
+    "base_desk": "ACC_WIDE_P80_CAP2",
+    "mode": "cap2",
+    "floor_pct": 84.72,
+    "research_3y": {
+      "n": 521,
+      "hit_pct": 84.8369
+    },
+    "stream_count": 80,
+    "logic": "P2D seed \u222a last/second picks \u00b7 cross-CF \u00b7 day_side \u00b7 same floor \u00b7 base=`ACC_WIDE_P80_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": true,
+    "lane": "HOLDING",
+    "accuracy_tag": "ACC_RANGE_77_87",
+    "accuracy_range": "ACC_RANGE_77_87",
+    "accuracy_lo": 77.7,
+    "accuracy_hi": 86.29,
+    "accuracy_band": "D_VOL_80",
+    "tags": [
+      "ACC_WIDE_P80_CAP2_P2E",
+      "ACC_RANGE_77_87",
+      "ACC_BAND_D_VOL_80",
+      "ACC_FLOOR_84p72",
+      "LOGIC_P2E"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2e/recipes_research.json"
+  },
+  "ACC100_MULTI_V11": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC100_MULTI_V11",
+    "desk_tag": "ACC100_MULTI_V11",
+    "logic_level": "P2F",
+    "base_desk": "ACC100_MULTI_V5",
+    "mode": "day",
+    "floor_pct": 100.0,
+    "research_3y": {
+      "n": 291,
+      "hit_pct": 100.0
+    },
+    "stream_count": 151,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC100_MULTI_V5` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_98_100",
+    "accuracy_range": "ACC_RANGE_98_100",
+    "accuracy_lo": 98.17,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "tags": [
+      "ACC100_MULTI_V11",
+      "ACC_RANGE_98_100",
+      "ACC_BAND_A_PERFECT_3Y5Y",
+      "ACC_FLOOR_100",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  },
+  "ACC_WIDE_P92_P2F": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P92_P2F",
+    "desk_tag": "ACC_WIDE_P92_P2F",
+    "logic_level": "P2F",
+    "base_desk": "ACC_WIDE_P92",
+    "mode": "day",
+    "floor_pct": 99.24,
+    "research_3y": {
+      "n": 292,
+      "hit_pct": 99.6575
+    },
+    "stream_count": 146,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC_WIDE_P92` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_91_100",
+    "accuracy_range": "ACC_RANGE_91_100",
+    "accuracy_lo": 91.1,
+    "accuracy_hi": 99.24,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P92_P2F",
+      "ACC_RANGE_91_100",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_99p24",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  },
+  "ACC_WIDE_P90_P2F": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P90_P2F",
+    "desk_tag": "ACC_WIDE_P90_P2F",
+    "logic_level": "P2F",
+    "base_desk": "ACC_WIDE_P90",
+    "mode": "day",
+    "floor_pct": 95.4,
+    "research_3y": {
+      "n": 303,
+      "hit_pct": 96.6997
+    },
+    "stream_count": 134,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC_WIDE_P90` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_89_96",
+    "accuracy_range": "ACC_RANGE_89_96",
+    "accuracy_lo": 89.88,
+    "accuracy_hi": 95.4,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P90_P2F",
+      "ACC_RANGE_89_96",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_95p4",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  },
+  "ACC_WIDE_P85_P2F": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85_P2F",
+    "desk_tag": "ACC_WIDE_P85_P2F",
+    "logic_level": "P2F",
+    "base_desk": "ACC_WIDE_P85",
+    "mode": "day",
+    "floor_pct": 89.69,
+    "research_3y": {
+      "n": 326,
+      "hit_pct": 89.8773
+    },
+    "stream_count": 92,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC_WIDE_P85` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_84_90",
+    "accuracy_range": "ACC_RANGE_84_90",
+    "accuracy_lo": 84.0,
+    "accuracy_hi": 89.88,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85_P2F",
+      "ACC_RANGE_84_90",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_89p69",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  },
+  "ACC_WIDE_P85B_P2F": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85B_P2F",
+    "desk_tag": "ACC_WIDE_P85B_P2F",
+    "logic_level": "P2F",
+    "base_desk": "ACC_WIDE_P85B",
+    "mode": "day",
+    "floor_pct": 88.4,
+    "research_3y": {
+      "n": 342,
+      "hit_pct": 88.5965
+    },
+    "stream_count": 93,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC_WIDE_P85B` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_81_89",
+    "accuracy_range": "ACC_RANGE_81_89",
+    "accuracy_lo": 81.1,
+    "accuracy_hi": 88.4,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85B_P2F",
+      "ACC_RANGE_81_89",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_88p4",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  },
+  "ACC_WIDE_P80_P2F": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P80_P2F",
+    "desk_tag": "ACC_WIDE_P80_P2F",
+    "logic_level": "P2F",
+    "base_desk": "ACC_WIDE_P80",
+    "mode": "day",
+    "floor_pct": 84.72,
+    "research_3y": {
+      "n": 375,
+      "hit_pct": 84.8
+    },
+    "stream_count": 71,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC_WIDE_P80` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_76_85",
+    "accuracy_range": "ACC_RANGE_76_85",
+    "accuracy_lo": 76.63,
+    "accuracy_hi": 84.72,
+    "accuracy_band": "D_VOL_80",
+    "tags": [
+      "ACC_WIDE_P80_P2F",
+      "ACC_RANGE_76_85",
+      "ACC_BAND_D_VOL_80",
+      "ACC_FLOOR_84p72",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  },
+  "ACC_WIDE_P75_P2F": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P75_P2F",
+    "desk_tag": "ACC_WIDE_P75_P2F",
+    "logic_level": "P2F",
+    "base_desk": "ACC_WIDE_P75",
+    "mode": "day",
+    "floor_pct": 82.71,
+    "research_3y": {
+      "n": 386,
+      "hit_pct": 82.9016
+    },
+    "stream_count": 48,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC_WIDE_P75` \u00b7 mode=day \u00b7 merge=1 call/day",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_75_83",
+    "accuracy_range": "ACC_RANGE_75_83",
+    "accuracy_lo": 75.15,
+    "accuracy_hi": 82.71,
+    "accuracy_band": "E_VOL_75",
+    "tags": [
+      "ACC_WIDE_P75_P2F",
+      "ACC_RANGE_75_83",
+      "ACC_BAND_E_VOL_75",
+      "ACC_FLOOR_82p71",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  },
+  "ACC100_MULTI_V5_CAP2_P2F": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC100_MULTI_V5_CAP2_P2F",
+    "desk_tag": "ACC100_MULTI_V5_CAP2_P2F",
+    "logic_level": "P2F",
+    "base_desk": "ACC100_MULTI_V5_CAP2",
+    "mode": "cap2",
+    "floor_pct": 100.0,
+    "research_3y": {
+      "n": 417,
+      "hit_pct": 100.0
+    },
+    "stream_count": 186,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC100_MULTI_V5_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_98_100",
+    "accuracy_range": "ACC_RANGE_98_100",
+    "accuracy_lo": 98.17,
+    "accuracy_hi": 100.0,
+    "accuracy_band": "A_PERFECT_3Y5Y",
+    "tags": [
+      "ACC100_MULTI_V5_CAP2_P2F",
+      "ACC_RANGE_98_100",
+      "ACC_BAND_A_PERFECT_3Y5Y",
+      "ACC_FLOOR_100",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  },
+  "ACC_WIDE_P92_CAP2_P2F": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P92_CAP2_P2F",
+    "desk_tag": "ACC_WIDE_P92_CAP2_P2F",
+    "logic_level": "P2F",
+    "base_desk": "ACC_WIDE_P92_CAP2",
+    "mode": "cap2",
+    "floor_pct": 99.24,
+    "research_3y": {
+      "n": 418,
+      "hit_pct": 99.7608
+    },
+    "stream_count": 185,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC_WIDE_P92_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_91_100",
+    "accuracy_range": "ACC_RANGE_91_100",
+    "accuracy_lo": 91.1,
+    "accuracy_hi": 99.24,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P92_CAP2_P2F",
+      "ACC_RANGE_91_100",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_99p24",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  },
+  "ACC_WIDE_P90_CAP2_P2F": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P90_CAP2_P2F",
+    "desk_tag": "ACC_WIDE_P90_CAP2_P2F",
+    "logic_level": "P2F",
+    "base_desk": "ACC_WIDE_P90_CAP2",
+    "mode": "cap2",
+    "floor_pct": 95.4,
+    "research_3y": {
+      "n": 434,
+      "hit_pct": 97.235
+    },
+    "stream_count": 169,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC_WIDE_P90_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_89_96",
+    "accuracy_range": "ACC_RANGE_89_96",
+    "accuracy_lo": 89.88,
+    "accuracy_hi": 95.4,
+    "accuracy_band": "B_HIGH_90",
+    "tags": [
+      "ACC_WIDE_P90_CAP2_P2F",
+      "ACC_RANGE_89_96",
+      "ACC_BAND_B_HIGH_90",
+      "ACC_FLOOR_95p4",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  },
+  "ACC_WIDE_P85_CAP2_P2F": {
+    "status": "PROMOTED",
+    "keep": true,
+    "kind": "holding_accurate_tag",
+    "accurate_tag": "ACC_WIDE_P85_CAP2_P2F",
+    "desk_tag": "ACC_WIDE_P85_CAP2_P2F",
+    "logic_level": "P2F",
+    "base_desk": "ACC_WIDE_P85_CAP2",
+    "mode": "cap2",
+    "floor_pct": 89.69,
+    "research_3y": {
+      "n": 472,
+      "hit_pct": 89.8305
+    },
+    "stream_count": 90,
+    "logic": "P2E seed \u222a micro-bands \u00b7 weekday \u00b7 mid pick \u00b7 triple-CF \u00b7 same floor (latest) \u00b7 base=`ACC_WIDE_P85_CAP2` \u00b7 mode=cap2 \u00b7 merge=cap2\u22642 same-side",
+    "not_live": false,
+    "lane": "LIVE",
+    "accuracy_tag": "ACC_RANGE_84_90",
+    "accuracy_range": "ACC_RANGE_84_90",
+    "accuracy_lo": 84.0,
+    "accuracy_hi": 89.88,
+    "accuracy_band": "C_MID_85",
+    "tags": [
+      "ACC_WIDE_P85_CAP2_P2F",
+      "ACC_RANGE_84_90",
+      "ACC_BAND_C_MID_85",
+      "ACC_FLOOR_89p69",
+      "LOGIC_P2F"
+    ],
+    "recipes": "prod_live/holding_accurate/phase2f/recipes_research.json",
+    "promoted": true
+  }
+}

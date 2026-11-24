@@ -1,0 +1,136 @@
+{
+  "symbol": "SENSEX",
+  "version": "day1_t50",
+  "locked_clip": {
+    "sl": 50.0,
+    "t1": 50.0
+  },
+  "policy": {
+    "name": "day1_b0.45_s0.48_borNone_c",
+    "buy_min_p": 0.45,
+    "sell_min_p": 0.48,
+    "buy_first_only": true,
+    "sell_first_only": true,
+    "allow_sell_cont": true,
+    "cont_sell_min_p": 0.48,
+    "cont_min_or_ext": 0.05,
+    "cont_max_or_ext": 0.8,
+    "cont_max_mins": 900,
+    "buy_max_or_ext": null,
+    "buy_regimes": [
+      "range",
+      "mixed",
+      "trend",
+      "volatile"
+    ]
+  },
+  "mode": "day1",
+  "desks": {
+    "champ_plus": {
+      "desk": "SENSEX_DAY1_T50SL50",
+      "accurate_tag": "SENSEX_DAY1_T50SL50",
+      "accuracy_tag": "ACC_RANGE_78_84",
+      "accuracy_lo": 78.31,
+      "accuracy_hi": 83.87,
+      "windows": {
+        "1y": {
+          "n": 145,
+          "hit_pct": 81.38,
+          "coverage_pct": 58.2,
+          "sessions": 249,
+          "start": "2025-11-19",
+          "end": "2026-11-19"
+        },
+        "3y": {
+          "n": 355,
+          "hit_pct": 78.31,
+          "coverage_pct": 56.9,
+          "sessions": 624,
+          "start": "2023-11-20",
+          "end": "2026-11-19"
+        },
+        "3m": {
+          "n": 31,
+          "hit_pct": 83.87,
+          "coverage_pct": 48.4,
+          "sessions": 64,
+          "start": "2026-08-19",
+          "end": "2026-11-19"
+        }
+      },
+      "n_held": 355,
+      "brackets": {
+        "sl": 50.0,
+        "target": 50.0
+      },
+      "cap": 1
+    }
+  },
+  "book": {
+    "1y": {
+      "n": 145,
+      "hit_pct": 81.38,
+      "coverage_pct": 58.2
+    },
+    "3y": {
+      "n": 355,
+      "hit_pct": 78.31,
+      "coverage_pct": 56.9
+    },
+    "5y": {
+      "n": 355,
+      "hit_pct": 78.31,
+      "coverage_pct": 56.9
+    }
+  },
+  "expected": {
+    "1y": {
+      "n": 145,
+      "hit_pct": 81.38
+    },
+    "3y": {
+      "n": 355,
+      "hit_pct": 78.31
+    },
+    "5y": {
+      "n": 355,
+      "hit_pct": 78.31
+    }
+  },
+  "calls_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/sensex_final/champ_plus_t50_sl50_calls.json",
+  "picks": {
+    "cov>=95": {
+      "name": null,
+      "1y": null
+    },
+    "cov>=90": {
+      "name": null,
+      "1y": null
+    },
+    "cov>=85": {
+      "name": null,
+      "1y": null
+    },
+    "cov>=80": {
+      "name": null,
+      "1y": null
+    },
+    "cov>=70": {
+      "name": null,
+      "1y": null
+    },
+    "cov>=60": {
+      "name": null,
+      "1y": null
+    },
+    "cov>=50": {
+      "name": "day1_ultra_loose",
+      "1y": {
+        "n": 139,
+        "hit_pct": 84.17,
+        "coverage_pct": 55.8
+      }
+    }
+  },
+  "elapsed_s": 243.3
+}

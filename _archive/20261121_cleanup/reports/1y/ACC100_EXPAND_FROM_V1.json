@@ -1,0 +1,118 @@
+{
+  "held_v1_n": 70,
+  "v1_check": {
+    "n": 70,
+    "hit_pct": 100.0,
+    "wins": 70,
+    "losses": 0,
+    "points": 2580.0,
+    "days": 70,
+    "by_track": {
+      "champion": {
+        "n": 6,
+        "hit_pct": 100.0,
+        "points": 198.0
+      },
+      "crown_5m": {
+        "n": 12,
+        "hit_pct": 100.0,
+        "points": 240.0
+      },
+      "good_prod2": {
+        "n": 9,
+        "hit_pct": 100.0,
+        "points": 270.0
+      },
+      "proven_100": {
+        "n": 43,
+        "hit_pct": 100.0,
+        "points": 1872.0
+      }
+    }
+  },
+  "result": {
+    "n_3y": 112,
+    "hit_3y": 100.0,
+    "points_3y": 3861.0,
+    "n_1y": 46,
+    "hit_1y": 100.0,
+    "n_nov": 1,
+    "hit_nov": 100.0,
+    "delta_vs_v1": 42
+  },
+  "added_streams": [
+    {
+      "tag": "GD_40_BOTH_p55_mid_any_g040_raw",
+      "new_n": 8,
+      "desk_n": 77,
+      "stream_n": 12,
+      "stream_points": 320.0
+    },
+    {
+      "tag": "CR_T20_BOTH_p0_pm_htf_gdn055_first",
+      "new_n": 7,
+      "desk_n": 84,
+      "stream_n": 9,
+      "stream_points": 140.0
+    },
+    {
+      "tag": "CR_T20_SELL_p62_pm_any_nogap_raw",
+      "new_n": 6,
+      "desk_n": 90,
+      "stream_n": 6,
+      "stream_points": 120.0
+    },
+    {
+      "tag": "CH_BUY_p70_am1130_nogap_raw",
+      "new_n": 6,
+      "desk_n": 96,
+      "stream_n": 6,
+      "stream_points": 211.0
+    },
+    {
+      "tag": "GD_30_BOTH_p57_am1130_any_nogap_raw",
+      "new_n": 5,
+      "desk_n": 101,
+      "stream_n": 5,
+      "stream_points": 150.0
+    },
+    {
+      "tag": "CR_T35_BOTH_p55_am1130_htf_nogap_first",
+      "new_n": 4,
+      "desk_n": 105,
+      "stream_n": 10,
+      "stream_points": 140.0
+    },
+    {
+      "tag": "CR_T40_SELL_p0_am11_any_g040_raw",
+      "new_n": 3,
+      "desk_n": 107,
+      "stream_n": 5,
+      "stream_points": 120.0
+    },
+    {
+      "tag": "GD_35_SELL_p0_mid_htf_gup045_raw",
+      "new_n": 2,
+      "desk_n": 109,
+      "stream_n": 5,
+      "stream_points": 70.0
+    },
+    {
+      "tag": "GD_35_BUY_p55_mid_any_nogap_raw",
+      "new_n": 2,
+      "desk_n": 111,
+      "stream_n": 6,
+      "stream_points": 70.0
+    },
+    {
+      "tag": "CR_T20_BOTH_p60_am1130_any_nogap_first",
+      "new_n": 1,
+      "desk_n": 112,
+      "stream_n": 7,
+      "stream_points": 20.0
+    }
+  ],
+  "streams_mined": 107,
+  "leftovers_top": [],
+  "elapsed_s": 33.2
+}

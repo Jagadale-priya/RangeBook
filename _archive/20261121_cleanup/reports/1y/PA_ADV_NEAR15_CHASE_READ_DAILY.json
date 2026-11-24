@@ -1,0 +1,599 @@
+{
+  "cfg": {
+    "name": "adv_near15_chase_read",
+    "sr_gate": "adv_near_wall",
+    "near_wall_max_R": 1.5,
+    "sl_kill_mode": "chase_v1",
+    "candle_entry_mode": "read_v3"
+  },
+  "live_lock": "adv_near_wall_10",
+  "days": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
+  ],
+  "totals": {
+    "n": 24,
+    "hit": 91.67,
+    "sum": 319.65,
+    "avgR": 0.86
+  },
+  "daily": [
+    {
+      "day": "2026-10-26",
+      "n": 1,
+      "hit": 100.0,
+      "sum": 42.0,
+      "avgR": 2.205,
+      "wins": 1,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "13:09",
+          "side": "BUY",
+          "setup": "BREAK_HOLD",
+          "entry": 22611.0,
+          "sl": 22591.95,
+          "risk": 19.05,
+          "pts": 42.0,
+          "R": 2.205,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": true,
+          "reason": "close 22611.0 > swing_hi 22607.1 \u00b7 SL under prev_low=22592.7/swing_lo=22592.7 \u00b7 sr_adv_near_wall distR=0.67 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-27",
+      "n": 4,
+      "hit": 75.0,
+      "sum": 40.9,
+      "avgR": 0.719,
+      "wins": 3,
+      "hard_sl": 1,
+      "calls": [
+        {
+          "hm": "10:10",
+          "side": "BUY",
+          "setup": "OR_RETEST",
+          "entry": 22781.3,
+          "sl": 22761.6,
+          "risk": 19.7,
+          "pts": -19.7,
+          "R": -1.0,
+          "win": false,
+          "exit": "sl",
+          "hit_1R": false,
+          "hit_2R": false,
+          "reason": "retest OR_hi 22767.5 after break \u00b7 SL under prev_low=22768.0/swing_lo=22762.3 \u00b7 sr_adv_near_wall distR=1.18 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "10:33",
+          "side": "BUY",
+          "setup": "BREAK_HOLD",
+          "entry": 22738.75,
+          "sl": 22719.25,
+          "risk": 19.5,
+          "pts": 14.75,
+          "R": 0.756,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "close 22738.8 > swing_hi 22732.8 \u00b7 SL under prev_low=22721.5/swing_lo=22720.0 \u00b7 sr_adv_near_wall distR=0.69 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "11:47",
+          "side": "BUY",
+          "setup": "SWEEP_RECLAIM",
+          "entry": 22756.55,
+          "sl": 22744.1,
+          "risk": 12.45,
+          "pts": 5.8,
+          "R": 0.466,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "swept 22743.9 < prev_lo 22744.8, reclaim close \u00b7 SL under prev_low=22744.8/swing_lo=22744.8 \u00b7 sr_adv_near_wall distR=0.93 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "12:36",
+          "side": "BUY",
+          "setup": "OR_RETEST",
+          "entry": 22774.7,
+          "sl": 22759.6,
+          "risk": 15.1,
+          "pts": 40.05,
+          "R": 2.652,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": true,
+          "reason": "retest OR_hi 22767.5 after break \u00b7 SL under prev_low=22766.4/swing_lo=22760.3 \u00b7 sr_adv_near_wall distR=0.58 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-28",
+      "n": 0,
+      "hit": null,
+      "sum": 0,
+      "avgR": null,
+      "calls": []
+    },
+    {
+      "day": "2026-10-29",
+      "n": 0,
+      "hit": null,
+      "sum": 0,
+      "avgR": null,
+      "calls": []
+    },
+    {
+      "day": "2026-10-30",
+      "n": 1,
+      "hit": 100.0,
+      "sum": 10.3,
+      "avgR": 0.572,
+      "wins": 1,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "12:18",
+          "side": "BUY",
+          "setup": "BREAK_HOLD",
+          "entry": 23089.55,
+          "sl": 23071.55,
+          "risk": 18.0,
+          "pts": 10.3,
+          "R": 0.572,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "close 23089.5 > swing_hi 23085.7 \u00b7 SL under prev_low=23078.2/swing_lo=23072.3 \u00b7 sr_adv_near_wall distR=0.64 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-02",
+      "n": 2,
+      "hit": 100.0,
+      "sum": 33.8,
+      "avgR": 1.095,
+      "wins": 2,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "10:03",
+          "side": "BUY",
+          "setup": "SWEEP_RECLAIM",
+          "entry": 23302.15,
+          "sl": 23291.1,
+          "risk": 11.05,
+          "pts": 14.1,
+          "R": 1.276,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "swept 23290.6 < prev_lo 23293.0, reclaim close \u00b7 SL under prev_low=23293.0/swing_lo=23291.8 \u00b7 sr_adv_near_wall distR=1.34 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "12:09",
+          "side": "BUY",
+          "setup": "OR_RETEST",
+          "entry": 23322.55,
+          "sl": 23301.0,
+          "risk": 21.55,
+          "pts": 19.7,
+          "R": 0.914,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "retest OR_hi 23317.0 after break \u00b7 SL under prev_low=23309.3/swing_lo=23301.8 \u00b7 sr_adv_near_wall distR=0.58 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-03",
+      "n": 0,
+      "hit": null,
+      "sum": 0,
+      "avgR": null,
+      "calls": []
+    },
+    {
+      "day": "2026-11-04",
+      "n": 0,
+      "hit": null,
+      "sum": 0,
+      "avgR": null,
+      "calls": []
+    },
+    {
+      "day": "2026-11-05",
+      "n": 0,
+      "hit": null,
+      "sum": 0,
+      "avgR": null,
+      "calls": []
+    },
+    {
+      "day": "2026-11-06",
+      "n": 1,
+      "hit": 100.0,
+      "sum": 13.2,
+      "avgR": 0.822,
+      "wins": 1,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "11:53",
+          "side": "BUY",
+          "setup": "OR_RETEST",
+          "entry": 24597.1,
+          "sl": 24581.05,
+          "risk": 16.05,
+          "pts": 13.2,
+          "R": 0.822,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "retest OR_hi 24582.0 after break \u00b7 SL under prev_low=24581.8/swing_lo=24581.8 \u00b7 sr_adv_near_wall distR=1.09 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-08",
+      "n": 0,
+      "hit": null,
+      "sum": 0,
+      "avgR": null,
+      "calls": []
+    },
+    {
+      "day": "2026-11-09",
+      "n": 1,
+      "hit": 100.0,
+      "sum": 11.3,
+      "avgR": 0.751,
+      "wins": 1,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "13:06",
+          "side": "SELL",
+          "setup": "SWEEP_RECLAIM",
+          "entry": 24953.2,
+          "sl": 24968.25,
+          "risk": 15.05,
+          "pts": 11.3,
+          "R": 0.751,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "swept 24966.0 > prev_hi 24963.7, reclaim close \u00b7 SL above prev_high=24963.7/swing_hi=24967.5 \u00b7 sr_adv_near_wall distR=0.95 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-11",
+      "n": 0,
+      "hit": null,
+      "sum": 0,
+      "avgR": null,
+      "calls": []
+    },
+    {
+      "day": "2026-11-12",
+      "n": 1,
+      "hit": 100.0,
+      "sum": 10.4,
+      "avgR": 0.605,
+      "wins": 1,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "09:57",
+          "side": "BUY",
+          "setup": "OR_RETEST",
+          "entry": 25361.2,
+          "sl": 25344.0,
+          "risk": 17.2,
+          "pts": 10.4,
+          "R": 0.605,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "retest OR_hi 25355.8 after break \u00b7 SL under prev_low=25348.5/swing_lo=25344.8 \u00b7 sr_adv_near_wall distR=0.70 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-13",
+      "n": 1,
+      "hit": 100.0,
+      "sum": 9.0,
+      "avgR": 0.429,
+      "wins": 1,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "10:31",
+          "side": "BUY",
+          "setup": "BREAK_HOLD",
+          "entry": 25207.45,
+          "sl": 25186.45,
+          "risk": 21.0,
+          "pts": 9.0,
+          "R": 0.429,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "close 25207.5 > swing_hi 25203.7 \u00b7 SL under prev_low=25192.7/swing_lo=25187.2 \u00b7 sr_adv_near_wall distR=0.76 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-16",
+      "n": 4,
+      "hit": 100.0,
+      "sum": 52.0,
+      "avgR": 1.025,
+      "wins": 4,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "11:06",
+          "side": "SELL",
+          "setup": "SWEEP_RECLAIM",
+          "entry": 25241.3,
+          "sl": 25248.75,
+          "risk": 7.45,
+          "pts": 10.55,
+          "R": 1.416,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": true,
+          "reason": "swept 25249.2 > prev_hi 25248.0, reclaim close \u00b7 SL above prev_high=25248.0/swing_hi=25248.0 \u00b7 sr_adv_near_wall distR=0.95 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "12:07",
+          "side": "BUY",
+          "setup": "BREAK_HOLD",
+          "entry": 25262.15,
+          "sl": 25241.5,
+          "risk": 20.65,
+          "pts": 24.4,
+          "R": 1.182,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "close 25262.2 > swing_hi 25259.4 \u00b7 SL under prev_low=25248.6/swing_lo=25242.2 \u00b7 sr_adv_near_wall distR=0.71 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "13:26",
+          "side": "SELL",
+          "setup": "SWEEP_RECLAIM",
+          "entry": 25249.0,
+          "sl": 25259.45,
+          "risk": 10.45,
+          "pts": 10.0,
+          "R": 0.957,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "swept 25255.6 > prev_hi 25254.0, reclaim close \u00b7 SL above prev_high=25254.0/swing_hi=25258.7 \u00b7 sr_adv_near_wall distR=1.41 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "13:44",
+          "side": "SELL",
+          "setup": "BREAK_HOLD",
+          "entry": 25243.35,
+          "sl": 25256.3,
+          "risk": 12.95,
+          "pts": 7.05,
+          "R": 0.544,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "close 25243.3 < swing_lo 25245.7 \u00b7 SL above prev_high=25254.5/swing_hi=25255.5 \u00b7 sr_adv_near_wall distR=0.89 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-17",
+      "n": 2,
+      "hit": 50.0,
+      "sum": -10.2,
+      "avgR": -0.161,
+      "wins": 1,
+      "hard_sl": 1,
+      "calls": [
+        {
+          "hm": "12:12",
+          "side": "BUY",
+          "setup": "BREAK_HOLD",
+          "entry": 25493.25,
+          "sl": 25473.8,
+          "risk": 19.45,
+          "pts": -19.45,
+          "R": -1.0,
+          "win": false,
+          "exit": "sl",
+          "hit_1R": false,
+          "hit_2R": false,
+          "reason": "close 25493.2 > swing_hi 25491.1 \u00b7 SL under prev_low=25481.8/swing_lo=25474.5 \u00b7 sr_adv_near_wall distR=0.34 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "14:18",
+          "side": "BUY",
+          "setup": "SWEEP_RECLAIM",
+          "entry": 25451.15,
+          "sl": 25437.5,
+          "risk": 13.65,
+          "pts": 9.25,
+          "R": 0.678,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "swept 25436.8 < prev_lo 25438.2, reclaim close \u00b7 SL under prev_low=25438.2/swing_lo=25438.2 \u00b7 sr_adv_near_wall distR=1.33 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-18",
+      "n": 4,
+      "hit": 100.0,
+      "sum": 75.95,
+      "avgR": 1.088,
+      "wins": 4,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "10:39",
+          "side": "SELL",
+          "setup": "SWEEP_RECLAIM",
+          "entry": 25245.4,
+          "sl": 25264.9,
+          "risk": 19.5,
+          "pts": 17.4,
+          "R": 0.892,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "swept 25251.7 > prev_hi 25249.8, reclaim close \u00b7 SL above prev_high=25249.8/swing_hi=25264.2 \u00b7 sr_adv_near_wall distR=0.69 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "11:35",
+          "side": "SELL",
+          "setup": "SWEEP_RECLAIM",
+          "entry": 25262.1,
+          "sl": 25282.65,
+          "risk": 20.55,
+          "pts": 20.9,
+          "R": 1.017,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "swept 25272.8 > prev_hi 25271.4, reclaim close \u00b7 SL above prev_high=25271.4/swing_hi=25281.9 \u00b7 sr_adv_near_wall distR=0.61 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "11:52",
+          "side": "SELL",
+          "setup": "SWEEP_RECLAIM",
+          "entry": 25253.05,
+          "sl": 25264.0,
+          "risk": 10.95,
+          "pts": 15.85,
+          "R": 1.447,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": true,
+          "reason": "swept 25259.5 > prev_hi 25258.0, reclaim close \u00b7 SL above prev_high=25258.0/swing_hi=25263.2 \u00b7 sr_adv_near_wall distR=0.89 \u00b7 candle_ok_read_v3"
+        },
+        {
+          "hm": "13:00",
+          "side": "SELL",
+          "setup": "BREAK_HOLD",
+          "entry": 25180.95,
+          "sl": 25202.85,
+          "risk": 21.9,
+          "pts": 21.8,
+          "R": 0.995,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "close 25181.0 < swing_lo 25184.5 \u00b7 SL above prev_high=25201.9/swing_hi=25202.1 \u00b7 sr_adv_near_wall distR=0.45 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-19",
+      "n": 1,
+      "hit": 100.0,
+      "sum": 4.35,
+      "avgR": 0.378,
+      "wins": 1,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "10:05",
+          "side": "BUY",
+          "setup": "OR_RETEST",
+          "entry": 25275.1,
+          "sl": 25263.6,
+          "risk": 11.5,
+          "pts": 4.35,
+          "R": 0.378,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": false,
+          "reason": "retest OR_hi 25255.6 after break \u00b7 SL under prev_low=25264.3/swing_lo=25264.3 \u00b7 sr_adv_near_wall distR=0.50 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "n": 1,
+      "hit": 100.0,
+      "sum": 26.65,
+      "avgR": 1.681,
+      "wins": 1,
+      "hard_sl": 0,
+      "calls": [
+        {
+          "hm": "10:21",
+          "side": "BUY",
+          "setup": "SWEEP_RECLAIM",
+          "entry": 25500.05,
+          "sl": 25484.2,
+          "risk": 15.85,
+          "pts": 26.65,
+          "R": 1.681,
+          "win": true,
+          "exit": "trail_sl",
+          "hit_1R": true,
+          "hit_2R": true,
+          "reason": "swept 25476.8 < prev_lo 25485.0, reclaim close \u00b7 SL under prev_low=25485.0/swing_lo=25485.0 \u00b7 sr_adv_near_wall distR=0.90 \u00b7 candle_ok_read_v3"
+        }
+      ]
+    }
+  ]
+}

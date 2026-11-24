@@ -1,0 +1,460 @@
+{
+  "window": [
+    "2026-10-05",
+    "2026-11-16"
+  ],
+  "n_events": 241,
+  "baseline": {
+    "n": 241,
+    "hit": 56.85,
+    "w": 137,
+    "l": 104,
+    "avg_pts": 84.18,
+    "cover_days": 25
+  },
+  "rows": [
+    {
+      "name": "ALL retests",
+      "n": 241,
+      "hit": 56.85,
+      "w": 137,
+      "l": 104,
+      "avg_pts": 84.18,
+      "cover_days": 25
+    },
+    {
+      "name": "RESISTANCE only",
+      "n": 93,
+      "hit": 50.54,
+      "w": 47,
+      "l": 46,
+      "avg_pts": 82.7,
+      "cover_days": 23
+    },
+    {
+      "name": "SUPPORT only",
+      "n": 103,
+      "hit": 51.46,
+      "w": 53,
+      "l": 50,
+      "avg_pts": 85.24,
+      "cover_days": 22
+    },
+    {
+      "name": "n_hist\u22653",
+      "n": 167,
+      "hit": 59.28,
+      "w": 99,
+      "l": 68,
+      "avg_pts": 82.94,
+      "cover_days": 22
+    },
+    {
+      "name": "n_hist\u22654",
+      "n": 117,
+      "hit": 58.97,
+      "w": 69,
+      "l": 48,
+      "avg_pts": 86.08,
+      "cover_days": 17
+    },
+    {
+      "name": "n_hist\u22655",
+      "n": 77,
+      "hit": 58.44,
+      "w": 45,
+      "l": 32,
+      "avg_pts": 88.69,
+      "cover_days": 12
+    },
+    {
+      "name": "days\u22653",
+      "n": 111,
+      "hit": 56.76,
+      "w": 63,
+      "l": 48,
+      "avg_pts": 87.62,
+      "cover_days": 14
+    },
+    {
+      "name": "days\u22654",
+      "n": 64,
+      "hit": 57.81,
+      "w": 37,
+      "l": 27,
+      "avg_pts": 93.36,
+      "cover_days": 10
+    },
+    {
+      "name": "avg_pts\u226560",
+      "n": 141,
+      "hit": 61.7,
+      "w": 87,
+      "l": 54,
+      "avg_pts": 83.61,
+      "cover_days": 23
+    },
+    {
+      "name": "avg_pts\u226580",
+      "n": 80,
+      "hit": 61.25,
+      "w": 49,
+      "l": 31,
+      "avg_pts": 74.43,
+      "cover_days": 18
+    },
+    {
+      "name": "leave\u22652ATR",
+      "n": 239,
+      "hit": 56.9,
+      "w": 136,
+      "l": 103,
+      "avg_pts": 83.88,
+      "cover_days": 25
+    },
+    {
+      "name": "fresh_1d",
+      "n": 210,
+      "hit": 55.71,
+      "w": 117,
+      "l": 93,
+      "avg_pts": 85.09,
+      "cover_days": 25
+    },
+    {
+      "name": "fresh_2d",
+      "n": 219,
+      "hit": 54.79,
+      "w": 120,
+      "l": 99,
+      "avg_pts": 84.57,
+      "cover_days": 25
+    },
+    {
+      "name": "near_sess_ext",
+      "n": 83,
+      "hit": 49.4,
+      "w": 41,
+      "l": 42,
+      "avg_pts": 89.59,
+      "cover_days": 21
+    },
+    {
+      "name": "near_PDH",
+      "n": 26,
+      "hit": 50.0,
+      "w": 13,
+      "l": 13,
+      "avg_pts": 72.97,
+      "cover_days": 11
+    },
+    {
+      "name": "near_PDL",
+      "n": 8,
+      "hit": 37.5,
+      "w": 3,
+      "l": 5,
+      "avg_pts": 75.09,
+      "cover_days": 6
+    },
+    {
+      "name": "morning",
+      "n": 136,
+      "hit": 59.56,
+      "w": 81,
+      "l": 55,
+      "avg_pts": 91.12,
+      "cover_days": 23
+    },
+    {
+      "name": "afternoon",
+      "n": 34,
+      "hit": 52.94,
+      "w": 18,
+      "l": 16,
+      "avg_pts": 85.38,
+      "cover_days": 15
+    },
+    {
+      "name": "RES + n\u22653",
+      "n": 69,
+      "hit": 52.17,
+      "w": 36,
+      "l": 33,
+      "avg_pts": 78.04,
+      "cover_days": 19
+    },
+    {
+      "name": "RES + n\u22654",
+      "n": 43,
+      "hit": 48.84,
+      "w": 21,
+      "l": 22,
+      "avg_pts": 78.56,
+      "cover_days": 13
+    },
+    {
+      "name": "RES + n\u22655",
+      "n": 29,
+      "hit": 48.28,
+      "w": 14,
+      "l": 15,
+      "avg_pts": 78.88,
+      "cover_days": 8
+    },
+    {
+      "name": "RES + days\u22653",
+      "n": 45,
+      "hit": 44.44,
+      "w": 20,
+      "l": 25,
+      "avg_pts": 76.15,
+      "cover_days": 12
+    },
+    {
+      "name": "RES + avg\u226560",
+      "n": 67,
+      "hit": 53.73,
+      "w": 36,
+      "l": 31,
+      "avg_pts": 80.05,
+      "cover_days": 21
+    },
+    {
+      "name": "RES + avg\u226580",
+      "n": 36,
+      "hit": 58.33,
+      "w": 21,
+      "l": 15,
+      "avg_pts": 76.58,
+      "cover_days": 15
+    },
+    {
+      "name": "RES + leave\u22652ATR",
+      "n": 92,
+      "hit": 51.09,
+      "w": 47,
+      "l": 45,
+      "avg_pts": 82.7,
+      "cover_days": 23
+    },
+    {
+      "name": "RES + near_ext",
+      "n": 31,
+      "hit": 51.61,
+      "w": 16,
+      "l": 15,
+      "avg_pts": 88.5,
+      "cover_days": 13
+    },
+    {
+      "name": "RES + near_PDH",
+      "n": 19,
+      "hit": 42.11,
+      "w": 8,
+      "l": 11,
+      "avg_pts": 73.33,
+      "cover_days": 8
+    },
+    {
+      "name": "RES + fresh_1d",
+      "n": 79,
+      "hit": 49.37,
+      "w": 39,
+      "l": 40,
+      "avg_pts": 83.88,
+      "cover_days": 23
+    },
+    {
+      "name": "RES + n\u22653 + avg\u226560",
+      "n": 51,
+      "hit": 52.94,
+      "w": 27,
+      "l": 24,
+      "avg_pts": 77.49,
+      "cover_days": 15
+    },
+    {
+      "name": "RES + n\u22653 + leave\u22652ATR",
+      "n": 68,
+      "hit": 52.94,
+      "w": 36,
+      "l": 32,
+      "avg_pts": 78.04,
+      "cover_days": 19
+    },
+    {
+      "name": "RES + n\u22654 + leave\u22652ATR",
+      "n": 42,
+      "hit": 50.0,
+      "w": 21,
+      "l": 21,
+      "avg_pts": 78.56,
+      "cover_days": 13
+    },
+    {
+      "name": "RES + n\u22653 + days\u22653",
+      "n": 45,
+      "hit": 44.44,
+      "w": 20,
+      "l": 25,
+      "avg_pts": 76.15,
+      "cover_days": 12
+    },
+    {
+      "name": "RES + n\u22654 + days\u22653 + avg\u226560",
+      "n": 35,
+      "hit": 54.29,
+      "w": 19,
+      "l": 16,
+      "avg_pts": 77.82,
+      "cover_days": 9
+    },
+    {
+      "name": "RES + n\u22653 + fresh_1d + leave\u22652ATR",
+      "n": 60,
+      "hit": 53.33,
+      "w": 32,
+      "l": 28,
+      "avg_pts": 76.7,
+      "cover_days": 19
+    },
+    {
+      "name": "RES + n\u22655 + leave\u22652ATR",
+      "n": 28,
+      "hit": 50.0,
+      "w": 14,
+      "l": 14,
+      "avg_pts": 78.88,
+      "cover_days": 8
+    },
+    {
+      "name": "SUP + n\u22654",
+      "n": 58,
+      "hit": 58.62,
+      "w": 34,
+      "l": 24,
+      "avg_pts": 92.31,
+      "cover_days": 15
+    },
+    {
+      "name": "SUP + n\u22655",
+      "n": 44,
+      "hit": 61.36,
+      "w": 27,
+      "l": 17,
+      "avg_pts": 89.25,
+      "cover_days": 11
+    },
+    {
+      "name": "SUP + near_ext",
+      "n": 37,
+      "hit": 32.43,
+      "w": 12,
+      "l": 25,
+      "avg_pts": 75.09,
+      "cover_days": 10
+    },
+    {
+      "name": "SUP + n\u22653 + leave\u22652ATR",
+      "n": 82,
+      "hit": 59.76,
+      "w": 49,
+      "l": 33,
+      "avg_pts": 86.73,
+      "cover_days": 21
+    },
+    {
+      "name": "SUP + n\u22654 + leave\u22652ATR + avg\u226560",
+      "n": 30,
+      "hit": 56.67,
+      "w": 17,
+      "l": 13,
+      "avg_pts": 94.18,
+      "cover_days": 9
+    },
+    {
+      "name": "SUP + n\u22653 + near_ext",
+      "n": 29,
+      "hit": 37.93,
+      "w": 11,
+      "l": 18,
+      "avg_pts": 75.15,
+      "cover_days": 9
+    },
+    {
+      "name": "any + n\u22655 + leave\u22652ATR + avg\u226580",
+      "n": 33,
+      "hit": 54.55,
+      "w": 18,
+      "l": 15,
+      "avg_pts": 65.32,
+      "cover_days": 9
+    },
+    {
+      "name": "any + n\u22654 + days\u22653 + leave\u22652ATR",
+      "n": 100,
+      "hit": 57.0,
+      "w": 57,
+      "l": 43,
+      "avg_pts": 88.48,
+      "cover_days": 14
+    },
+    {
+      "name": "any + n\u22655 + days\u22653 + leave\u22652ATR",
+      "n": 75,
+      "hit": 58.67,
+      "w": 44,
+      "l": 31,
+      "avg_pts": 87.87,
+      "cover_days": 12
+    },
+    {
+      "name": "RES + morning + n\u22653",
+      "n": 38,
+      "hit": 60.53,
+      "w": 23,
+      "l": 15,
+      "avg_pts": 86.14,
+      "cover_days": 14
+    },
+    {
+      "name": "RES + n\u22653 + avg\u226570 + leave\u22652ATR",
+      "n": 38,
+      "hit": 52.63,
+      "w": 20,
+      "l": 18,
+      "avg_pts": 63.89,
+      "cover_days": 14
+    },
+    {
+      "name": "RES + n\u22654 + avg\u226570 + leave\u22652ATR",
+      "n": 27,
+      "hit": 55.56,
+      "w": 15,
+      "l": 12,
+      "avg_pts": 63.1,
+      "cover_days": 9
+    },
+    {
+      "name": "RES + days\u22654 + leave\u22652ATR",
+      "n": 23,
+      "hit": 47.83,
+      "w": 11,
+      "l": 12,
+      "avg_pts": 75.86,
+      "cover_days": 7
+    },
+    {
+      "name": "RES + n\u22653 + near_PDH + leave\u22652ATR",
+      "n": 11,
+      "hit": 27.27,
+      "w": 3,
+      "l": 8,
+      "avg_pts": 67.74,
+      "cover_days": 5
+    }
+  ],
+  "ge80": [],
+  "ge75": []
+}

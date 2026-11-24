@@ -1,0 +1,58 @@
+{
+  "window": {
+    "start": "2025-11-15",
+    "end": "2026-11-15"
+  },
+  "overall": "PASS",
+  "desks": {
+    "ACC100_MULTI_V5_CAP2_P2F": {
+      "n": 124,
+      "hit_pct": 100.0,
+      "expected": {
+        "n": 124,
+        "hit_pct": 100.0
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "cap2"
+    },
+    "ACC_WIDE_P92_CAP2_P2F": {
+      "n": 123,
+      "hit_pct": 100.0,
+      "expected": {
+        "n": 123,
+        "hit_pct": 100.0
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "cap2"
+    },
+    "ACC_WIDE_P90_CAP2_P2F": {
+      "n": 139,
+      "hit_pct": 99.28,
+      "expected": {
+        "n": 139,
+        "hit_pct": 99.28
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "cap2"
+    },
+    "ACC_WIDE_P85_CAP2_P2F": {
+      "n": 169,
+      "hit_pct": 91.12,
+      "expected": {
+        "n": 169,
+        "hit_pct": 91.12
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "cap2"
+    }
+  },
+  "fails": []
+}

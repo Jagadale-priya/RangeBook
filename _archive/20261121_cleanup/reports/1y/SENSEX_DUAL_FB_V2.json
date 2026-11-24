@@ -1,0 +1,347 @@
+{
+  "symbol": "SENSEX",
+  "version": "dual_fb_v2_t50",
+  "locked_clip": {
+    "sl": 50.0,
+    "t1": 50.0
+  },
+  "policy": {
+    "name": "DUAL_FB_V2_P45_EXT_LT5_FB_BREAK",
+    "mode": "dual_fb_v2",
+    "selector": "p45_ext_lt5_fb_break",
+    "combine": "same hm+side \u2192 1 call with dual+fallback tags",
+    "mutual_block": false,
+    "clip_sl": 50.0,
+    "clip_t1": 50.0,
+    "prior_locked": {
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_hit": 72.62
+    }
+  },
+  "desks": {
+    "champ_plus": {
+      "desk": "SENSEX_DUAL_FB_V2_T50",
+      "accurate_tag": "SENSEX_DUAL_FB_V2_T50",
+      "accuracy_tag": "ACC_RANGE_72_79",
+      "accuracy_lo": 72.69,
+      "accuracy_hi": 79.3,
+      "windows": {
+        "1y": {
+          "n": 909,
+          "sessions": 249,
+          "days_with_call": 214,
+          "coverage_pct": 85.9,
+          "hit_pct": 76.13,
+          "wins": 692,
+          "losses": 217,
+          "dual_only": 786,
+          "fallback_only": 97,
+          "combined": 26,
+          "avg_calls_per_day": 4.25
+        },
+        "3m": {
+          "n": 227,
+          "sessions": 64,
+          "days_with_call": 53,
+          "coverage_pct": 82.8,
+          "hit_pct": 79.3,
+          "wins": 180,
+          "losses": 47,
+          "dual_only": 195,
+          "fallback_only": 29,
+          "combined": 3,
+          "avg_calls_per_day": 4.28
+        },
+        "3y": {
+          "n": 2358,
+          "sessions": 624,
+          "days_with_call": 534,
+          "coverage_pct": 85.6,
+          "hit_pct": 72.69,
+          "wins": 1714,
+          "losses": 644,
+          "dual_only": 2013,
+          "fallback_only": 273,
+          "combined": 72,
+          "avg_calls_per_day": 4.42
+        }
+      },
+      "n_held": 2358,
+      "brackets": {
+        "sl": 50.0,
+        "target": 50.0
+      },
+      "cap": 99
+    }
+  },
+  "book": {
+    "1y": {
+      "n": 909,
+      "hit_pct": 76.13,
+      "coverage_pct": 85.9
+    },
+    "3y": {
+      "n": 2358,
+      "hit_pct": 72.69,
+      "coverage_pct": 85.6
+    },
+    "5y": {
+      "n": 2358,
+      "hit_pct": 72.69,
+      "coverage_pct": 85.6
+    }
+  },
+  "expected": {
+    "1y": {
+      "n": 909,
+      "hit_pct": 76.13
+    },
+    "3y": {
+      "n": 2358,
+      "hit_pct": 72.69
+    },
+    "5y": {
+      "n": 2358,
+      "hit_pct": 72.69
+    }
+  },
+  "calls_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/sensex_final/champ_plus_t50_sl50_calls.json",
+  "variants": [
+    {
+      "name": "locked_p45_fb_break",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2370,
+      "3y_hit": 72.62,
+      "3m_n": 227,
+      "3m_hit": 79.3
+    },
+    {
+      "name": "dual_only_p45",
+      "1y_n": 812,
+      "1y_hit": 79.8,
+      "3y_n": 2097,
+      "3y_hit": 77.3,
+      "3m_n": 198,
+      "3m_hit": 83.33
+    },
+    {
+      "name": "p45_fb_break_w20",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2370,
+      "3y_hit": 72.62,
+      "3m_n": 227,
+      "3m_hit": 79.3
+    },
+    {
+      "name": "p45_fb_break_w40",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2370,
+      "3y_hit": 72.62,
+      "3m_n": 227,
+      "3m_hit": 79.3
+    },
+    {
+      "name": "p45_fb_break_w60",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2370,
+      "3y_hit": 72.62,
+      "3m_n": 227,
+      "3m_hit": 79.3
+    },
+    {
+      "name": "p45_fb_break_bf05",
+      "1y_n": 895,
+      "1y_hit": 76.42,
+      "3y_n": 2344,
+      "3y_hit": 72.99,
+      "3m_n": 223,
+      "3m_hit": 79.37
+    },
+    {
+      "name": "p45_fb_break_bf10",
+      "1y_n": 890,
+      "1y_hit": 76.63,
+      "3y_n": 2326,
+      "3y_hit": 73.3,
+      "3m_n": 223,
+      "3m_hit": 79.37
+    },
+    {
+      "name": "p45_fb_break_bf20",
+      "1y_n": 871,
+      "1y_hit": 77.38,
+      "3y_n": 2293,
+      "3y_hit": 73.79,
+      "3m_n": 215,
+      "3m_hit": 80.0
+    },
+    {
+      "name": "p45_fb_break_w40_bf10",
+      "1y_n": 890,
+      "1y_hit": 76.63,
+      "3y_n": 2326,
+      "3y_hit": 73.3,
+      "3m_n": 223,
+      "3m_hit": 79.37
+    },
+    {
+      "name": "p45_fb_agree",
+      "1y_n": 898,
+      "1y_hit": 76.61,
+      "3y_n": 2335,
+      "3y_hit": 73.23,
+      "3m_n": 223,
+      "3m_hit": 80.27
+    },
+    {
+      "name": "p45_fb_fill",
+      "1y_n": 849,
+      "1y_hit": 78.33,
+      "3y_n": 2194,
+      "3y_hit": 75.39,
+      "3m_n": 212,
+      "3m_hit": 81.13
+    },
+    {
+      "name": "p45_first_or_p55_fb_break",
+      "1y_n": 853,
+      "1y_hit": 76.08,
+      "3y_n": 2236,
+      "3y_hit": 72.81,
+      "3m_n": 217,
+      "3m_hit": 78.8
+    },
+    {
+      "name": "p45_first_or_p52c_fb_break",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2370,
+      "3y_hit": 72.62,
+      "3m_n": 227,
+      "3m_hit": 79.3
+    },
+    {
+      "name": "p45_am_fb_break",
+      "1y_n": 456,
+      "1y_hit": 73.03,
+      "3y_n": 1213,
+      "3y_hit": 67.68,
+      "3m_n": 113,
+      "3m_hit": 79.65
+    },
+    {
+      "name": "p45_no_vol_fb_break",
+      "1y_n": 884,
+      "1y_hit": 76.13,
+      "3y_n": 2259,
+      "3y_hit": 72.47,
+      "3m_n": 224,
+      "3m_hit": 79.02
+    },
+    {
+      "name": "p45_ext_lt5_fb_break",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2358,
+      "3y_hit": 72.69,
+      "3m_n": 227,
+      "3m_hit": 79.3
+    },
+    {
+      "name": "p45_ext_lt2_fb_break",
+      "1y_n": 856,
+      "1y_hit": 75.7,
+      "3y_n": 2199,
+      "3y_hit": 72.12,
+      "3m_n": 206,
+      "3m_hit": 78.64
+    },
+    {
+      "name": "p45_mins_lt900_fb_break",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2370,
+      "3y_hit": 72.62,
+      "3m_n": 227,
+      "3m_hit": 79.3
+    },
+    {
+      "name": "p45_first_fb_break",
+      "1y_n": 224,
+      "1y_hit": 67.86,
+      "3y_n": 599,
+      "3y_hit": 60.27,
+      "3m_n": 55,
+      "3m_hit": 74.55
+    },
+    {
+      "name": "p45_fb_mid_quality",
+      "1y_n": 924,
+      "1y_hit": 75.43,
+      "3y_n": 2353,
+      "3y_hit": 73.57,
+      "3m_n": 228,
+      "3m_hit": 78.51
+    },
+    {
+      "name": "union_am_break_plus_hi",
+      "1y_n": 872,
+      "1y_hit": 76.38,
+      "3y_n": 2279,
+      "3y_hit": 72.84,
+      "3m_n": 219,
+      "3m_hit": 79.0
+    },
+    {
+      "name": "p45_strong_fb",
+      "1y_n": 890,
+      "1y_hit": 76.63,
+      "3y_n": 2326,
+      "3y_hit": 73.3,
+      "3m_n": 223,
+      "3m_hit": 79.37
+    },
+    {
+      "name": "p45_extlt5_fb_w20",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2358,
+      "3y_hit": 72.69,
+      "3m_n": 227,
+      "3m_hit": 79.3
+    },
+    {
+      "name": "p45_novol_fb_w30_bf05",
+      "1y_n": 870,
+      "1y_hit": 76.44,
+      "3y_n": 2233,
+      "3y_hit": 72.86,
+      "3m_n": 220,
+      "3m_hit": 79.09
+    },
+    {
+      "name": "first_or_p55_fb_w40_bf05",
+      "1y_n": 839,
+      "1y_hit": 76.4,
+      "3y_n": 2210,
+      "3y_hit": 73.21,
+      "3m_n": 213,
+      "3m_hit": 78.87
+    },
+    {
+      "name": "p45_fb_break_plus_widemid50",
+      "1y_n": 975,
+      "1y_hit": 73.44,
+      "3y_n": 2528,
+      "3y_hit": 70.29,
+      "3m_n": 248,
+      "3m_hit": 75.81
+    }
+  ],
+  "elapsed_s": 542.0
+}

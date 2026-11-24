@@ -1,0 +1,135 @@
+{
+  "generated": "2026-11-21T19:01:18",
+  "end": "2026-11-21",
+  "desks": {
+    "nifty": "CHAMP_PLUS_T30SL30_CAP6",
+    "sensex": "SENSEX_DUAL_FB_BF20_T50",
+    "brackets": {
+      "nifty": "\u00b130",
+      "sensex": "\u00b150"
+    }
+  },
+  "nifty": {
+    "1y": {
+      "start": "2025-11-21",
+      "end": "2026-11-21",
+      "n": 466,
+      "wins": 354,
+      "losses": 112,
+      "hit_pct": 75.97,
+      "points": 7273.6,
+      "sessions": 241,
+      "buy_n": 200,
+      "sell_n": 266
+    },
+    "3y": {
+      "start": "2023-11-21",
+      "end": "2026-11-21",
+      "n": 1369,
+      "wins": 1083,
+      "losses": 286,
+      "hit_pct": 79.11,
+      "points": 23936.5,
+      "sessions": 716,
+      "buy_n": 600,
+      "sell_n": 769
+    },
+    "5y": {
+      "start": "2021-11-21",
+      "end": "2026-11-21",
+      "n": 2099,
+      "wins": 1662,
+      "losses": 437,
+      "hit_pct": 79.18,
+      "points": 36697.0,
+      "sessions": 1203,
+      "buy_n": 925,
+      "sell_n": 1174
+    },
+    "6m": {
+      "start": "2026-05-21",
+      "end": "2026-11-21",
+      "n": 236,
+      "wins": 178,
+      "losses": 58,
+      "hit_pct": 75.42,
+      "points": 3593.7,
+      "sessions": 121,
+      "buy_n": 107,
+      "sell_n": 129
+    }
+  },
+  "sensex": {
+    "1y": {
+      "start": "2025-11-21",
+      "end": "2026-11-21",
+      "n": 845,
+      "wins": 660,
+      "losses": 185,
+      "hit_pct": 78.11,
+      "points": 23750.0,
+      "sessions": 197,
+      "buy_n": 112,
+      "sell_n": 733
+    },
+    "3y": {
+      "start": "2023-11-21",
+      "end": "2026-11-21",
+      "n": 2230,
+      "wins": 1662,
+      "losses": 568,
+      "hit_pct": 74.53,
+      "points": 54658.6,
+      "sessions": 504,
+      "buy_n": 275,
+      "sell_n": 1955
+    },
+    "5y": {
+      "start": "2021-11-21",
+      "end": "2026-11-21",
+      "n": 2230,
+      "wins": 1662,
+      "losses": 568,
+      "hit_pct": 74.53,
+      "points": 54658.6,
+      "sessions": 504,
+      "buy_n": 275,
+      "sell_n": 1955
+    },
+    "6m": {
+      "start": "2026-05-21",
+      "end": "2026-11-21",
+      "n": 420,
+      "wins": 334,
+      "losses": 86,
+      "hit_pct": 79.52,
+      "points": 12400.0,
+      "sessions": 99,
+      "buy_n": 69,
+      "sell_n": 351
+    }
+  },
+  "pool_agg": {
+    "nifty": {
+      "n": 2105,
+      "wins": 1666,
+      "losses": 439,
+      "hit_pct": 79.14,
+      "points": 36757.0,
+      "sessions": 1206,
+      "buy_n": 927,
+      "sell_n": 1178
+    },
+    "sensex": {
+      "n": 2293,
+      "wins": 1693,
+      "losses": 600,
+      "hit_pct": 73.83,
+      "points": 54608.6,
+      "sessions": 504,
+      "buy_n": 329,
+      "sell_n": 1964
+    }
+  },
+  "elapsed_s": 7.5
+}

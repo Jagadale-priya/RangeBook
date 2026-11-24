@@ -1,0 +1,25 @@
+{
+  "verdict": "No frozen new rule holds 85% on the last year. The strongest earlier-year rule with at least 20 calls was 32 @ 68.75% and scored 21 @ 47.62% on the last year (reclaim_BUY_open_aligned_mid_fast_any).",
+  "brackets": [
+    {
+      "sl": 25.0,
+      "t1": 30.0,
+      "best_pre": 36,
+      "best_pre_hit": 63.89,
+      "best_test_n": 16,
+      "best_test_hit": 62.5,
+      "rule": "confirm2_BUY_am_aligned30_any_any_any",
+      "frontier": []
+    },
+    {
+      "sl": 30.0,
+      "t1": 30.0,
+      "best_pre": 32,
+      "best_pre_hit": 68.75,
+      "best_test_n": 21,
+      "best_test_hit": 47.62,
+      "rule": "reclaim_BUY_open_aligned_mid_fast_any",
+      "frontier": []
+    }
+  ]
+}

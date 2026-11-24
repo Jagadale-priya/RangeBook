@@ -1,0 +1,263 @@
+{
+  "passed": true,
+  "golden": {
+    "window": {
+      "start": "2025-10-24",
+      "end": "2026-10-23",
+      "sessions": 217
+    },
+    "live_stack": {
+      "n": 229,
+      "hit_pct": 75.11,
+      "wins": 172,
+      "losses": 57
+    },
+    "accurate": {
+      "n": 54,
+      "hit_pct": 90.74,
+      "wins": 49,
+      "losses": 5
+    },
+    "other": {
+      "n": 175,
+      "hit_pct": 70.29
+    },
+    "monthly": [
+      {
+        "month": "2025-10",
+        "n": 9,
+        "hit_pct": 66.67,
+        "accurate_n": 3,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 1
+      },
+      {
+        "month": "2025-11",
+        "n": 17,
+        "hit_pct": 76.47,
+        "accurate_n": 1,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 6
+      },
+      {
+        "month": "2025-12",
+        "n": 21,
+        "hit_pct": 80.95,
+        "accurate_n": 4,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 7
+      },
+      {
+        "month": "2026-01",
+        "n": 19,
+        "hit_pct": 73.68,
+        "accurate_n": 6,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 5
+      },
+      {
+        "month": "2026-02",
+        "n": 22,
+        "hit_pct": 63.64,
+        "accurate_n": 5,
+        "accurate_hit_pct": 80.0,
+        "days_no_call": 5
+      },
+      {
+        "month": "2026-03",
+        "n": 11,
+        "hit_pct": 72.73,
+        "accurate_n": 3,
+        "accurate_hit_pct": 66.67,
+        "days_no_call": 11
+      },
+      {
+        "month": "2026-04",
+        "n": 14,
+        "hit_pct": 57.14,
+        "accurate_n": 2,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 6
+      },
+      {
+        "month": "2026-05",
+        "n": 15,
+        "hit_pct": 80.0,
+        "accurate_n": 6,
+        "accurate_hit_pct": 83.33,
+        "days_no_call": 8
+      },
+      {
+        "month": "2026-06",
+        "n": 22,
+        "hit_pct": 72.73,
+        "accurate_n": 6,
+        "accurate_hit_pct": 66.67,
+        "days_no_call": 8
+      },
+      {
+        "month": "2026-07",
+        "n": 18,
+        "hit_pct": 72.22,
+        "accurate_n": 4,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 6
+      },
+      {
+        "month": "2026-08",
+        "n": 18,
+        "hit_pct": 77.78,
+        "accurate_n": 4,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 4
+      },
+      {
+        "month": "2026-09",
+        "n": 21,
+        "hit_pct": 71.43,
+        "accurate_n": 5,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 5
+      },
+      {
+        "month": "2026-10",
+        "n": 22,
+        "hit_pct": 100.0,
+        "accurate_n": 5,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 1
+      }
+    ]
+  },
+  "got": {
+    "window": {
+      "start": "2025-10-24",
+      "end": "2026-10-23",
+      "sessions": 217
+    },
+    "live_stack": {
+      "n": 229,
+      "hit_pct": 75.11,
+      "wins": 172,
+      "losses": 57
+    },
+    "accurate": {
+      "n": 54,
+      "hit_pct": 90.74,
+      "wins": 49,
+      "losses": 5
+    },
+    "other": {
+      "n": 175,
+      "hit_pct": 70.29
+    },
+    "monthly": [
+      {
+        "month": "2025-10",
+        "n": 9,
+        "hit_pct": 66.67,
+        "accurate_n": 3,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 1
+      },
+      {
+        "month": "2025-11",
+        "n": 17,
+        "hit_pct": 76.47,
+        "accurate_n": 1,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 6
+      },
+      {
+        "month": "2025-12",
+        "n": 21,
+        "hit_pct": 80.95,
+        "accurate_n": 4,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 7
+      },
+      {
+        "month": "2026-01",
+        "n": 19,
+        "hit_pct": 73.68,
+        "accurate_n": 6,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 5
+      },
+      {
+        "month": "2026-02",
+        "n": 22,
+        "hit_pct": 63.64,
+        "accurate_n": 5,
+        "accurate_hit_pct": 80.0,
+        "days_no_call": 5
+      },
+      {
+        "month": "2026-03",
+        "n": 11,
+        "hit_pct": 72.73,
+        "accurate_n": 3,
+        "accurate_hit_pct": 66.67,
+        "days_no_call": 11
+      },
+      {
+        "month": "2026-04",
+        "n": 14,
+        "hit_pct": 57.14,
+        "accurate_n": 2,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 6
+      },
+      {
+        "month": "2026-05",
+        "n": 15,
+        "hit_pct": 80.0,
+        "accurate_n": 6,
+        "accurate_hit_pct": 83.33,
+        "days_no_call": 8
+      },
+      {
+        "month": "2026-06",
+        "n": 22,
+        "hit_pct": 72.73,
+        "accurate_n": 6,
+        "accurate_hit_pct": 66.67,
+        "days_no_call": 8
+      },
+      {
+        "month": "2026-07",
+        "n": 18,
+        "hit_pct": 72.22,
+        "accurate_n": 4,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 6
+      },
+      {
+        "month": "2026-08",
+        "n": 18,
+        "hit_pct": 77.78,
+        "accurate_n": 4,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 4
+      },
+      {
+        "month": "2026-09",
+        "n": 21,
+        "hit_pct": 71.43,
+        "accurate_n": 5,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 5
+      },
+      {
+        "month": "2026-10",
+        "n": 22,
+        "hit_pct": 100.0,
+        "accurate_n": 5,
+        "accurate_hit_pct": 100.0,
+        "days_no_call": 1
+      }
+    ]
+  },
+  "mismatches": [],
+  "note": "Final hold = STACK_PLUS_CROWN_HTF_CAP2 + AGREE stamps from live pool/prod2. OR-break UI reconstruction (177@67%) is NOT this book \u2014 do not use it for match."
+}

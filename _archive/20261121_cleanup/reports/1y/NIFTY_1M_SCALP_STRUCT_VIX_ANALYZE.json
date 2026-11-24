@@ -1,0 +1,2128 @@
+{
+  "insights": [
+    {
+      "t1": 10.0,
+      "n_win": 5000,
+      "n_loss": 5000,
+      "win_close_ok": 62.4,
+      "loss_close_ok": 57.8,
+      "win_strong": 32.0,
+      "loss_strong": 24.0,
+      "win_very_strong": 11.2,
+      "loss_very_strong": 7.4,
+      "win_adv_lo": 43.2,
+      "loss_adv_lo": 39.2,
+      "win_vix": {
+        "NORMAL": 3188,
+        "LOW": 1079,
+        "ELEVATED": 478,
+        "HIGH": 180,
+        "UNK": 75
+      },
+      "loss_vix": {
+        "NORMAL": 3058,
+        "LOW": 1193,
+        "ELEVATED": 496,
+        "HIGH": 170,
+        "UNK": 83
+      },
+      "win_struct2": {
+        "break_hi_hold": 1477,
+        "break_lo_hold": 1406,
+        "hold_above_lo": 739,
+        "hold_under_hi": 729,
+        "cut_lo": 192
+      },
+      "loss_struct2": {
+        "break_hi_hold": 1672,
+        "break_lo_hold": 1466,
+        "hold_under_hi": 630,
+        "hold_above_lo": 626,
+        "cut_lo": 167
+      },
+      "win_stair": {
+        "LH_LL": 1919,
+        "HH_HL": 1757,
+        "inside": 772,
+        "outside": 501,
+        "mixed": 51
+      },
+      "win_family": {
+        "runs": 2179,
+        "engulf": 1184,
+        "belt_maru": 869,
+        "other": 291,
+        "three": 221,
+        "kick": 186
+      }
+    },
+    {
+      "t1": 15.0,
+      "n_win": 5000,
+      "n_loss": 5000,
+      "win_close_ok": 63.0,
+      "loss_close_ok": 57.6,
+      "win_strong": 32.5,
+      "loss_strong": 25.2,
+      "win_very_strong": 11.1,
+      "loss_very_strong": 8.0,
+      "win_adv_lo": 44.6,
+      "loss_adv_lo": 40.0,
+      "win_vix": {
+        "NORMAL": 3203,
+        "LOW": 1152,
+        "ELEVATED": 427,
+        "HIGH": 156,
+        "UNK": 62
+      },
+      "loss_vix": {
+        "NORMAL": 2990,
+        "LOW": 1230,
+        "ELEVATED": 518,
+        "HIGH": 177,
+        "UNK": 85
+      },
+      "win_struct2": {
+        "break_lo_hold": 1401,
+        "break_hi_hold": 1401,
+        "hold_above_lo": 764,
+        "hold_under_hi": 727,
+        "cut_lo": 223
+      },
+      "loss_struct2": {
+        "break_hi_hold": 1646,
+        "break_lo_hold": 1442,
+        "hold_under_hi": 646,
+        "hold_above_lo": 644,
+        "cut_lo": 166
+      },
+      "win_stair": {
+        "LH_LL": 1953,
+        "HH_HL": 1722,
+        "inside": 768,
+        "outside": 507,
+        "mixed": 50
+      },
+      "win_family": {
+        "runs": 2161,
+        "engulf": 1245,
+        "belt_maru": 857,
+        "other": 311,
+        "three": 185,
+        "kick": 168
+      }
+    },
+    {
+      "t1": 20.0,
+      "n_win": 5000,
+      "n_loss": 5000,
+      "win_close_ok": 63.4,
+      "loss_close_ok": 58.2,
+      "win_strong": 32.9,
+      "loss_strong": 25.6,
+      "win_very_strong": 11.1,
+      "loss_very_strong": 8.3,
+      "win_adv_lo": 45.0,
+      "loss_adv_lo": 40.0,
+      "win_vix": {
+        "NORMAL": 3434,
+        "LOW": 1000,
+        "ELEVATED": 376,
+        "HIGH": 137,
+        "UNK": 53
+      },
+      "loss_vix": {
+        "NORMAL": 2929,
+        "LOW": 1267,
+        "ELEVATED": 531,
+        "HIGH": 186,
+        "UNK": 87
+      },
+      "win_struct2": {
+        "break_lo_hold": 1377,
+        "break_hi_hold": 1360,
+        "hold_above_lo": 786,
+        "hold_under_hi": 773,
+        "cut_lo": 224
+      },
+      "loss_struct2": {
+        "break_hi_hold": 1626,
+        "break_lo_hold": 1475,
+        "hold_above_lo": 652,
+        "hold_under_hi": 640,
+        "break_hi": 161
+      },
+      "win_stair": {
+        "LH_LL": 1969,
+        "HH_HL": 1740,
+        "inside": 759,
+        "outside": 478,
+        "mixed": 54
+      },
+      "win_family": {
+        "runs": 2152,
+        "engulf": 1223,
+        "belt_maru": 873,
+        "other": 338,
+        "three": 171,
+        "kick": 166
+      }
+    }
+  ],
+  "lift_t10": {
+    "_BASE_": {
+      "n": 18798,
+      "wins": 8784,
+      "hit": 46.73,
+      "days": 496,
+      "cpd": 37.9
+    },
+    "primary": [
+      {
+        "value": "three_soldiers",
+        "n": 207,
+        "wins": 118,
+        "hit": 57.0,
+        "days": 149,
+        "cpd": 1.39,
+        "lift": 10.27
+      },
+      {
+        "value": "marubozu_bull",
+        "n": 2253,
+        "wins": 1256,
+        "hit": 55.75,
+        "days": 482,
+        "cpd": 4.67,
+        "lift": 9.02
+      },
+      {
+        "value": "marubozu_bear",
+        "n": 2280,
+        "wins": 1253,
+        "hit": 54.96,
+        "days": 484,
+        "cpd": 4.71,
+        "lift": 8.23
+      },
+      {
+        "value": "morning_star",
+        "n": 276,
+        "wins": 151,
+        "hit": 54.71,
+        "days": 210,
+        "cpd": 1.31,
+        "lift": 7.98
+      },
+      {
+        "value": "evening_star",
+        "n": 276,
+        "wins": 146,
+        "hit": 52.9,
+        "days": 214,
+        "cpd": 1.29,
+        "lift": 6.17
+      },
+      {
+        "value": "dark_cloud",
+        "n": 283,
+        "wins": 146,
+        "hit": 51.59,
+        "days": 209,
+        "cpd": 1.35,
+        "lift": 4.86
+      },
+      {
+        "value": "three_crows",
+        "n": 164,
+        "wins": 83,
+        "hit": 50.61,
+        "days": 120,
+        "cpd": 1.37,
+        "lift": 3.88
+      },
+      {
+        "value": "belt_bull",
+        "n": 3020,
+        "wins": 1516,
+        "hit": 50.2,
+        "days": 489,
+        "cpd": 6.18,
+        "lift": 3.47
+      }
+    ],
+    "family": [
+      {
+        "value": "stars",
+        "n": 568,
+        "wins": 302,
+        "hit": 53.17,
+        "days": 333,
+        "cpd": 1.71,
+        "lift": 6.44
+      },
+      {
+        "value": "belt_maru",
+        "n": 7844,
+        "wins": 4128,
+        "hit": 52.63,
+        "days": 494,
+        "cpd": 15.88,
+        "lift": 5.9
+      },
+      {
+        "value": "three",
+        "n": 5854,
+        "wins": 2888,
+        "hit": 49.33,
+        "days": 495,
+        "cpd": 11.83,
+        "lift": 2.6
+      },
+      {
+        "value": "runs",
+        "n": 15370,
+        "wins": 7210,
+        "hit": 46.91,
+        "days": 496,
+        "cpd": 30.99,
+        "lift": 0.18
+      },
+      {
+        "value": "engulf",
+        "n": 9583,
+        "wins": 4412,
+        "hit": 46.04,
+        "days": 496,
+        "cpd": 19.32,
+        "lift": -0.69
+      },
+      {
+        "value": "kick",
+        "n": 1991,
+        "wins": 875,
+        "hit": 43.95,
+        "days": 484,
+        "cpd": 4.11,
+        "lift": -2.78
+      },
+      {
+        "value": "other",
+        "n": 3611,
+        "wins": 1541,
+        "hit": 42.68,
+        "days": 495,
+        "cpd": 7.29,
+        "lift": -4.05
+      }
+    ],
+    "decision": [
+      {
+        "value": "BUY",
+        "n": 14972,
+        "wins": 7115,
+        "hit": 47.52,
+        "days": 496,
+        "cpd": 30.19,
+        "lift": 0.79
+      },
+      {
+        "value": "SELL",
+        "n": 14778,
+        "wins": 6915,
+        "hit": 46.79,
+        "days": 496,
+        "cpd": 29.79,
+        "lift": 0.06
+      }
+    ],
+    "close_zone": [
+      {
+        "value": "near_low",
+        "n": 12105,
+        "wins": 5926,
+        "hit": 48.95,
+        "days": 496,
+        "cpd": 24.41,
+        "lift": 2.22
+      },
+      {
+        "value": "near_high",
+        "n": 12273,
+        "wins": 6000,
+        "hit": 48.89,
+        "days": 496,
+        "cpd": 24.74,
+        "lift": 2.16
+      },
+      {
+        "value": "mid",
+        "n": 14138,
+        "wins": 6312,
+        "hit": 44.65,
+        "days": 496,
+        "cpd": 28.5,
+        "lift": -2.08
+      }
+    ],
+    "close_ok": [
+      {
+        "value": 1,
+        "n": 16358,
+        "wins": 7962,
+        "hit": 48.67,
+        "days": 496,
+        "cpd": 32.98,
+        "lift": 1.94
+      },
+      {
+        "value": 0,
+        "n": 14397,
+        "wins": 6403,
+        "hit": 44.47,
+        "days": 496,
+        "cpd": 29.03,
+        "lift": -2.26
+      }
+    ],
+    "struct2": [
+      {
+        "value": "break_hi_hold",
+        "n": 12342,
+        "wins": 6133,
+        "hit": 49.69,
+        "days": 495,
+        "cpd": 24.93,
+        "lift": 2.96
+      },
+      {
+        "value": "break_lo_hold",
+        "n": 12113,
+        "wins": 5893,
+        "hit": 48.65,
+        "days": 495,
+        "cpd": 24.47,
+        "lift": 1.92
+      },
+      {
+        "value": "hold_above_lo",
+        "n": 6953,
+        "wins": 3183,
+        "hit": 45.78,
+        "days": 496,
+        "cpd": 14.02,
+        "lift": -0.95
+      },
+      {
+        "value": "hold_under_hi",
+        "n": 6940,
+        "wins": 3123,
+        "hit": 45.0,
+        "days": 496,
+        "cpd": 13.99,
+        "lift": -1.73
+      },
+      {
+        "value": "break_lo",
+        "n": 2277,
+        "wins": 1013,
+        "hit": 44.49,
+        "days": 492,
+        "cpd": 4.63,
+        "lift": -2.24
+      },
+      {
+        "value": "break_hi",
+        "n": 2391,
+        "wins": 1041,
+        "hit": 43.54,
+        "days": 489,
+        "cpd": 4.89,
+        "lift": -3.19
+      },
+      {
+        "value": "cut_hi",
+        "n": 1960,
+        "wins": 851,
+        "hit": 43.42,
+        "days": 476,
+        "cpd": 4.12,
+        "lift": -3.31
+      },
+      {
+        "value": "cut_lo",
+        "n": 2167,
+        "wins": 937,
+        "hit": 43.24,
+        "days": 485,
+        "cpd": 4.47,
+        "lift": -3.49
+      }
+    ],
+    "stack2": [
+      {
+        "value": "dn_dn",
+        "n": 9774,
+        "wins": 4698,
+        "hit": 48.07,
+        "days": 496,
+        "cpd": 19.71,
+        "lift": 1.34
+      },
+      {
+        "value": "dn_up",
+        "n": 12821,
+        "wins": 6117,
+        "hit": 47.71,
+        "days": 496,
+        "cpd": 25.85,
+        "lift": 0.98
+      },
+      {
+        "value": "up_dn",
+        "n": 12701,
+        "wins": 6018,
+        "hit": 47.38,
+        "days": 496,
+        "cpd": 25.61,
+        "lift": 0.65
+      },
+      {
+        "value": "up_up",
+        "n": 9969,
+        "wins": 4720,
+        "hit": 47.35,
+        "days": 496,
+        "cpd": 20.1,
+        "lift": 0.62
+      },
+      {
+        "value": "doji_dn",
+        "n": 171,
+        "wins": 69,
+        "hit": 40.35,
+        "days": 149,
+        "cpd": 1.15,
+        "lift": -6.38
+      },
+      {
+        "value": "doji_up",
+        "n": 204,
+        "wins": 78,
+        "hit": 38.24,
+        "days": 170,
+        "cpd": 1.2,
+        "lift": -8.49
+      }
+    ],
+    "stair": [
+      {
+        "value": "outside",
+        "n": 6078,
+        "wins": 3004,
+        "hit": 49.42,
+        "days": 495,
+        "cpd": 12.28,
+        "lift": 2.69
+      },
+      {
+        "value": "LH_LL",
+        "n": 13533,
+        "wins": 6440,
+        "hit": 47.59,
+        "days": 496,
+        "cpd": 27.28,
+        "lift": 0.86
+      },
+      {
+        "value": "HH_HL",
+        "n": 13624,
+        "wins": 6466,
+        "hit": 47.46,
+        "days": 496,
+        "cpd": 27.47,
+        "lift": 0.73
+      },
+      {
+        "value": "inside",
+        "n": 8001,
+        "wins": 3683,
+        "hit": 46.03,
+        "days": 495,
+        "cpd": 16.16,
+        "lift": -0.7
+      },
+      {
+        "value": "mixed",
+        "n": 923,
+        "wins": 418,
+        "hit": 45.29,
+        "days": 416,
+        "cpd": 2.22,
+        "lift": -1.44
+      }
+    ],
+    "engulf_p1": [
+      {
+        "value": 1,
+        "n": 16897,
+        "wins": 8018,
+        "hit": 47.45,
+        "days": 496,
+        "cpd": 34.07,
+        "lift": 0.72
+      },
+      {
+        "value": 0,
+        "n": 14858,
+        "wins": 6964,
+        "hit": 46.87,
+        "days": 496,
+        "cpd": 29.96,
+        "lift": 0.14
+      }
+    ],
+    "broke_swing_fav": [
+      {
+        "value": 1,
+        "n": 17349,
+        "wins": 8337,
+        "hit": 48.05,
+        "days": 496,
+        "cpd": 34.98,
+        "lift": 1.32
+      },
+      {
+        "value": 0,
+        "n": 12056,
+        "wins": 5395,
+        "hit": 44.75,
+        "days": 496,
+        "cpd": 24.31,
+        "lift": -1.98
+      }
+    ],
+    "adv_bin": [
+      {
+        "value": "adv_lo",
+        "n": 14123,
+        "wins": 7092,
+        "hit": 50.22,
+        "days": 496,
+        "cpd": 28.47,
+        "lift": 3.49
+      },
+      {
+        "value": "adv_mid",
+        "n": 11804,
+        "wins": 5475,
+        "hit": 46.38,
+        "days": 496,
+        "cpd": 23.8,
+        "lift": -0.35
+      },
+      {
+        "value": "adv_hi",
+        "n": 13160,
+        "wins": 5844,
+        "hit": 44.41,
+        "days": 496,
+        "cpd": 26.53,
+        "lift": -2.32
+      }
+    ],
+    "body_bin": [
+      {
+        "value": "b70+",
+        "n": 12916,
+        "wins": 6786,
+        "hit": 52.54,
+        "days": 496,
+        "cpd": 26.04,
+        "lift": 5.81
+      },
+      {
+        "value": "b55+",
+        "n": 10266,
+        "wins": 4859,
+        "hit": 47.33,
+        "days": 495,
+        "cpd": 20.74,
+        "lift": 0.6
+      },
+      {
+        "value": "b45+",
+        "n": 7336,
+        "wins": 3372,
+        "hit": 45.97,
+        "days": 496,
+        "cpd": 14.79,
+        "lift": -0.76
+      },
+      {
+        "value": "b<45",
+        "n": 13262,
+        "wins": 5725,
+        "hit": 43.17,
+        "days": 496,
+        "cpd": 26.74,
+        "lift": -3.56
+      }
+    ],
+    "vix_regime": [
+      {
+        "value": "HIGH",
+        "n": 249,
+        "wins": 128,
+        "hit": 51.41,
+        "days": 7,
+        "cpd": 35.57,
+        "lift": 4.68
+      },
+      {
+        "value": "UNK",
+        "n": 174,
+        "wins": 86,
+        "hit": 49.43,
+        "days": 6,
+        "cpd": 29.0,
+        "lift": 2.7
+      },
+      {
+        "value": "ELEVATED",
+        "n": 1695,
+        "wins": 833,
+        "hit": 49.14,
+        "days": 46,
+        "cpd": 36.85,
+        "lift": 2.41
+      },
+      {
+        "value": "NORMAL",
+        "n": 9914,
+        "wins": 4636,
+        "hit": 46.76,
+        "days": 260,
+        "cpd": 38.13,
+        "lift": 0.03
+      },
+      {
+        "value": "LOW",
+        "n": 6766,
+        "wins": 3101,
+        "hit": 45.83,
+        "days": 177,
+        "cpd": 38.23,
+        "lift": -0.9
+      }
+    ],
+    "strong": [
+      {
+        "value": 1,
+        "n": 11454,
+        "wins": 5869,
+        "hit": 51.24,
+        "days": 496,
+        "cpd": 23.09,
+        "lift": 4.51
+      },
+      {
+        "value": 0,
+        "n": 17468,
+        "wins": 8019,
+        "hit": 45.91,
+        "days": 496,
+        "cpd": 35.22,
+        "lift": -0.82
+      }
+    ],
+    "very_strong": [
+      {
+        "value": 1,
+        "n": 5621,
+        "wins": 3032,
+        "hit": 53.94,
+        "days": 495,
+        "cpd": 11.36,
+        "lift": 7.21
+      },
+      {
+        "value": 0,
+        "n": 18385,
+        "wins": 8582,
+        "hit": 46.68,
+        "days": 496,
+        "cpd": 37.07,
+        "lift": -0.05
+      }
+    ],
+    "pat_class": [
+      {
+        "value": "strong_pat",
+        "n": 14231,
+        "wins": 6920,
+        "hit": 48.63,
+        "days": 496,
+        "cpd": 28.69,
+        "lift": 1.9
+      },
+      {
+        "value": "weak_pat",
+        "n": 15977,
+        "wins": 7377,
+        "hit": 46.17,
+        "days": 496,
+        "cpd": 32.21,
+        "lift": -0.56
+      }
+    ],
+    "pre_regime": [
+      {
+        "value": "reversal",
+        "n": 13400,
+        "wins": 6397,
+        "hit": 47.74,
+        "days": 496,
+        "cpd": 27.02,
+        "lift": 1.01
+      },
+      {
+        "value": "continuation",
+        "n": 13895,
+        "wins": 6596,
+        "hit": 47.47,
+        "days": 496,
+        "cpd": 28.01,
+        "lift": 0.74
+      },
+      {
+        "value": "balanced",
+        "n": 10107,
+        "wins": 4713,
+        "hit": 46.63,
+        "days": 495,
+        "cpd": 20.42,
+        "lift": -0.1
+      }
+    ],
+    "clock": [
+      {
+        "value": "early",
+        "n": 3908,
+        "wins": 2017,
+        "hit": 51.61,
+        "days": 495,
+        "cpd": 7.89,
+        "lift": 4.88
+      },
+      {
+        "value": "late",
+        "n": 3521,
+        "wins": 1621,
+        "hit": 46.04,
+        "days": 494,
+        "cpd": 7.13,
+        "lift": -0.69
+      },
+      {
+        "value": "morning",
+        "n": 5123,
+        "wins": 2358,
+        "hit": 46.03,
+        "days": 495,
+        "cpd": 10.35,
+        "lift": -0.7
+      },
+      {
+        "value": "midday",
+        "n": 6771,
+        "wins": 3031,
+        "hit": 44.76,
+        "days": 496,
+        "cpd": 13.65,
+        "lift": -1.97
+      }
+    ],
+    "align_session": [
+      {
+        "value": 1,
+        "n": 15199,
+        "wins": 7309,
+        "hit": 48.09,
+        "days": 496,
+        "cpd": 30.64,
+        "lift": 1.36
+      },
+      {
+        "value": 0,
+        "n": 14552,
+        "wins": 6744,
+        "hit": 46.34,
+        "days": 496,
+        "cpd": 29.34,
+        "lift": -0.39
+      }
+    ],
+    "slbin": [
+      {
+        "value": "sl16-20",
+        "n": 5645,
+        "wins": 3544,
+        "hit": 62.78,
+        "days": 494,
+        "cpd": 11.43,
+        "lift": 16.05
+      },
+      {
+        "value": "sl12-16",
+        "n": 8651,
+        "wins": 4902,
+        "hit": 56.66,
+        "days": 495,
+        "cpd": 17.48,
+        "lift": 9.93
+      },
+      {
+        "value": "sl8-12",
+        "n": 12201,
+        "wins": 6037,
+        "hit": 49.48,
+        "days": 496,
+        "cpd": 24.6,
+        "lift": 2.75
+      },
+      {
+        "value": "sl4-8",
+        "n": 13370,
+        "wins": 5114,
+        "hit": 38.25,
+        "days": 496,
+        "cpd": 26.96,
+        "lift": -8.48
+      }
+    ]
+  },
+  "tags": {
+    "T10_prev": {
+      "balanced": [
+        {
+          "tag": "strong=1|struct2=break_lo|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 113,
+            "wins": 72,
+            "hit": 63.72,
+            "days": 92,
+            "cpd": 1.23
+          },
+          "hold": {
+            "n": 64,
+            "wins": 49,
+            "hit": 76.56,
+            "days": 47,
+            "cpd": 1.36
+          },
+          "fwd": {
+            "n": 5,
+            "wins": 3,
+            "hit": 60.0,
+            "days": 2,
+            "cpd": 2.5
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "very_strong=1|vix_regime=ELEVATED|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 149,
+            "wins": 104,
+            "hit": 69.8,
+            "days": 43,
+            "cpd": 3.47
+          },
+          "hold": {
+            "n": 173,
+            "wins": 123,
+            "hit": 71.1,
+            "days": 37,
+            "cpd": 4.68
+          },
+          "fwd": {
+            "n": 12,
+            "wins": 10,
+            "hit": 83.33,
+            "days": 3,
+            "cpd": 4.0
+          },
+          "dims": [
+            "very_strong",
+            "vix_regime",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=break_hi_hold|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 1303,
+            "wins": 867,
+            "hit": 66.54,
+            "days": 442,
+            "cpd": 2.95
+          },
+          "hold": {
+            "n": 515,
+            "wins": 338,
+            "hit": 65.63,
+            "days": 158,
+            "cpd": 3.26
+          },
+          "fwd": {
+            "n": 12,
+            "wins": 5,
+            "hit": 41.67,
+            "days": 4,
+            "cpd": 3.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=hold_under_hi|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 222,
+            "wins": 146,
+            "hit": 65.77,
+            "days": 159,
+            "cpd": 1.4
+          },
+          "hold": {
+            "n": 118,
+            "wins": 76,
+            "hit": 64.41,
+            "days": 68,
+            "cpd": 1.74
+          },
+          "fwd": {
+            "n": 7,
+            "wins": 6,
+            "hit": 85.71,
+            "days": 3,
+            "cpd": 2.33
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "very_strong=1|vix_regime=NORMAL|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 787,
+            "wins": 500,
+            "hit": 63.53,
+            "days": 245,
+            "cpd": 3.21
+          },
+          "hold": {
+            "n": 264,
+            "wins": 169,
+            "hit": 64.02,
+            "days": 72,
+            "cpd": 3.67
+          },
+          "fwd": {
+            "n": 7,
+            "wins": 2,
+            "hit": 28.57,
+            "days": 1,
+            "cpd": 7.0
+          },
+          "dims": [
+            "very_strong",
+            "vix_regime",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=break_lo_hold|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 1235,
+            "wins": 789,
+            "hit": 63.89,
+            "days": 447,
+            "cpd": 2.76
+          },
+          "hold": {
+            "n": 694,
+            "wins": 440,
+            "hit": 63.4,
+            "days": 196,
+            "cpd": 3.54
+          },
+          "fwd": {
+            "n": 28,
+            "wins": 18,
+            "hit": 64.29,
+            "days": 5,
+            "cpd": 5.6
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "very_strong=1|vix_regime=LOW|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 420,
+            "wins": 274,
+            "hit": 65.24,
+            "days": 159,
+            "cpd": 2.64
+          },
+          "hold": {
+            "n": 163,
+            "wins": 102,
+            "hit": 62.58,
+            "days": 61,
+            "cpd": 2.67
+          },
+          "fwd": {
+            "n": 0,
+            "wins": 0,
+            "hit": 0.0,
+            "cpd": 0.0,
+            "days": 0
+          },
+          "dims": [
+            "very_strong",
+            "vix_regime",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=hold_above_lo|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 233,
+            "wins": 155,
+            "hit": 66.52,
+            "days": 177,
+            "cpd": 1.32
+          },
+          "hold": {
+            "n": 117,
+            "wins": 73,
+            "hit": 62.39,
+            "days": 70,
+            "cpd": 1.67
+          },
+          "fwd": {
+            "n": 2,
+            "wins": 1,
+            "hit": 50.0,
+            "days": 2,
+            "cpd": 1.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=hold_under_hi|slbin=sl12-16",
+          "kind": "combo",
+          "analyze": {
+            "n": 438,
+            "wins": 277,
+            "hit": 63.24,
+            "days": 254,
+            "cpd": 1.72
+          },
+          "hold": {
+            "n": 216,
+            "wins": 129,
+            "hit": 59.72,
+            "days": 120,
+            "cpd": 1.8
+          },
+          "fwd": {
+            "n": 14,
+            "wins": 9,
+            "hit": 64.29,
+            "days": 5,
+            "cpd": 2.8
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "close_ok=1|struct2=break_lo_hold|vix_regime=HIGH",
+          "kind": "combo",
+          "analyze": {
+            "n": 98,
+            "wins": 59,
+            "hit": 60.2,
+            "days": 7,
+            "cpd": 14.0
+          },
+          "hold": {
+            "n": 166,
+            "wins": 96,
+            "hit": 57.83,
+            "days": 13,
+            "cpd": 12.77
+          },
+          "fwd": {
+            "n": 0,
+            "wins": 0,
+            "hit": 0.0,
+            "cpd": 0.0,
+            "days": 0
+          },
+          "dims": [
+            "close_ok",
+            "struct2",
+            "vix_regime"
+          ]
+        },
+        {
+          "tag": "strong=1|vix_regime=ELEVATED|clock=early",
+          "kind": "combo",
+          "analyze": {
+            "n": 188,
+            "wins": 115,
+            "hit": 61.17,
+            "days": 45,
+            "cpd": 4.18
+          },
+          "hold": {
+            "n": 175,
+            "wins": 101,
+            "hit": 57.71,
+            "days": 40,
+            "cpd": 4.38
+          },
+          "fwd": {
+            "n": 14,
+            "wins": 5,
+            "hit": 35.71,
+            "days": 3,
+            "cpd": 4.67
+          },
+          "dims": [
+            "strong",
+            "vix_regime",
+            "clock"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=cut_hi|slbin=sl12-16",
+          "kind": "combo",
+          "analyze": {
+            "n": 101,
+            "wins": 63,
+            "hit": 62.38,
+            "days": 95,
+            "cpd": 1.06
+          },
+          "hold": {
+            "n": 82,
+            "wins": 47,
+            "hit": 57.32,
+            "days": 60,
+            "cpd": 1.37
+          },
+          "fwd": {
+            "n": 2,
+            "wins": 2,
+            "hit": 100.0,
+            "days": 2,
+            "cpd": 1.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "very_strong=1|struct2=break_hi_hold|vix_regime=ELEVATED",
+          "kind": "combo",
+          "analyze": {
+            "n": 193,
+            "wins": 122,
+            "hit": 63.21,
+            "days": 32,
+            "cpd": 6.03
+          },
+          "hold": {
+            "n": 195,
+            "wins": 111,
+            "hit": 56.92,
+            "days": 28,
+            "cpd": 6.96
+          },
+          "fwd": {
+            "n": 1,
+            "wins": 0,
+            "hit": 0.0,
+            "days": 1,
+            "cpd": 1.0
+          },
+          "dims": [
+            "very_strong",
+            "struct2",
+            "vix_regime"
+          ]
+        },
+        {
+          "tag": "very_strong=1|vix_regime=ELEVATED|slbin=sl12-16",
+          "kind": "combo",
+          "analyze": {
+            "n": 154,
+            "wins": 96,
+            "hit": 62.34,
+            "days": 42,
+            "cpd": 3.67
+          },
+          "hold": {
+            "n": 199,
+            "wins": 110,
+            "hit": 55.28,
+            "days": 38,
+            "cpd": 5.24
+          },
+          "fwd": {
+            "n": 15,
+            "wins": 9,
+            "hit": 60.0,
+            "days": 3,
+            "cpd": 5.0
+          },
+          "dims": [
+            "very_strong",
+            "vix_regime",
+            "slbin"
+          ]
+        }
+      ],
+      "near100": [],
+      "high70": []
+    },
+    "T10_swing2": {
+      "balanced": [
+        {
+          "tag": "strong=1|struct2=break_lo|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 113,
+            "wins": 73,
+            "hit": 64.6,
+            "days": 92,
+            "cpd": 1.23
+          },
+          "hold": {
+            "n": 64,
+            "wins": 51,
+            "hit": 79.69,
+            "days": 47,
+            "cpd": 1.36
+          },
+          "fwd": {
+            "n": 5,
+            "wins": 3,
+            "hit": 60.0,
+            "days": 2,
+            "cpd": 2.5
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "very_strong=1|vix_regime=ELEVATED|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 149,
+            "wins": 106,
+            "hit": 71.14,
+            "days": 43,
+            "cpd": 3.47
+          },
+          "hold": {
+            "n": 173,
+            "wins": 126,
+            "hit": 72.83,
+            "days": 37,
+            "cpd": 4.68
+          },
+          "fwd": {
+            "n": 12,
+            "wins": 10,
+            "hit": 83.33,
+            "days": 3,
+            "cpd": 4.0
+          },
+          "dims": [
+            "very_strong",
+            "vix_regime",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=break_hi_hold|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 1303,
+            "wins": 897,
+            "hit": 68.84,
+            "days": 442,
+            "cpd": 2.95
+          },
+          "hold": {
+            "n": 515,
+            "wins": 356,
+            "hit": 69.13,
+            "days": 158,
+            "cpd": 3.26
+          },
+          "fwd": {
+            "n": 12,
+            "wins": 5,
+            "hit": 41.67,
+            "days": 4,
+            "cpd": 3.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "very_strong=1|vix_regime=NORMAL|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 787,
+            "wins": 518,
+            "hit": 65.82,
+            "days": 245,
+            "cpd": 3.21
+          },
+          "hold": {
+            "n": 264,
+            "wins": 176,
+            "hit": 66.67,
+            "days": 72,
+            "cpd": 3.67
+          },
+          "fwd": {
+            "n": 7,
+            "wins": 2,
+            "hit": 28.57,
+            "days": 1,
+            "cpd": 7.0
+          },
+          "dims": [
+            "very_strong",
+            "vix_regime",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "primary=marubozu_bull|close_zone=near_high|stair=HH_HL",
+          "kind": "combo",
+          "analyze": {
+            "n": 961,
+            "wins": 617,
+            "hit": 64.2,
+            "days": 411,
+            "cpd": 2.34
+          },
+          "hold": {
+            "n": 336,
+            "wins": 224,
+            "hit": 66.67,
+            "days": 143,
+            "cpd": 2.35
+          },
+          "fwd": {
+            "n": 4,
+            "wins": 2,
+            "hit": 50.0,
+            "days": 2,
+            "cpd": 2.0
+          },
+          "dims": [
+            "primary",
+            "close_zone",
+            "stair"
+          ]
+        },
+        {
+          "tag": "very_strong=1|struct2=break_lo_hold|vix_regime=ELEVATED",
+          "kind": "combo",
+          "analyze": {
+            "n": 107,
+            "wins": 65,
+            "hit": 60.75,
+            "days": 27,
+            "cpd": 3.96
+          },
+          "hold": {
+            "n": 148,
+            "wins": 97,
+            "hit": 65.54,
+            "days": 26,
+            "cpd": 5.69
+          },
+          "fwd": {
+            "n": 14,
+            "wins": 9,
+            "hit": 64.29,
+            "days": 3,
+            "cpd": 4.67
+          },
+          "dims": [
+            "very_strong",
+            "struct2",
+            "vix_regime"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=break_lo_hold|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 1235,
+            "wins": 812,
+            "hit": 65.75,
+            "days": 447,
+            "cpd": 2.76
+          },
+          "hold": {
+            "n": 694,
+            "wins": 452,
+            "hit": 65.13,
+            "days": 196,
+            "cpd": 3.54
+          },
+          "fwd": {
+            "n": 28,
+            "wins": 18,
+            "hit": 64.29,
+            "days": 5,
+            "cpd": 5.6
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "very_strong=1|vix_regime=NORMAL|slbin=sl12-16",
+          "kind": "combo",
+          "analyze": {
+            "n": 1028,
+            "wins": 641,
+            "hit": 62.35,
+            "days": 247,
+            "cpd": 4.16
+          },
+          "hold": {
+            "n": 335,
+            "wins": 218,
+            "hit": 65.07,
+            "days": 78,
+            "cpd": 4.29
+          },
+          "fwd": {
+            "n": 5,
+            "wins": 4,
+            "hit": 80.0,
+            "days": 1,
+            "cpd": 5.0
+          },
+          "dims": [
+            "very_strong",
+            "vix_regime",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "very_strong=1|vix_regime=LOW|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 420,
+            "wins": 284,
+            "hit": 67.62,
+            "days": 159,
+            "cpd": 2.64
+          },
+          "hold": {
+            "n": 163,
+            "wins": 106,
+            "hit": 65.03,
+            "days": 61,
+            "cpd": 2.67
+          },
+          "fwd": {
+            "n": 0,
+            "wins": 0,
+            "hit": 0.0,
+            "cpd": 0.0,
+            "days": 0
+          },
+          "dims": [
+            "very_strong",
+            "vix_regime",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "very_strong=1|struct2=break_hi_hold|vix_regime=NORMAL",
+          "kind": "combo",
+          "analyze": {
+            "n": 955,
+            "wins": 573,
+            "hit": 60.0,
+            "days": 170,
+            "cpd": 5.62
+          },
+          "hold": {
+            "n": 262,
+            "wins": 169,
+            "hit": 64.5,
+            "days": 56,
+            "cpd": 4.68
+          },
+          "fwd": {
+            "n": 1,
+            "wins": 0,
+            "hit": 0.0,
+            "days": 1,
+            "cpd": 1.0
+          },
+          "dims": [
+            "very_strong",
+            "struct2",
+            "vix_regime"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=hold_under_hi|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 222,
+            "wins": 147,
+            "hit": 66.22,
+            "days": 159,
+            "cpd": 1.4
+          },
+          "hold": {
+            "n": 118,
+            "wins": 76,
+            "hit": 64.41,
+            "days": 68,
+            "cpd": 1.74
+          },
+          "fwd": {
+            "n": 7,
+            "wins": 6,
+            "hit": 85.71,
+            "days": 3,
+            "cpd": 2.33
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=hold_above_lo|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 233,
+            "wins": 157,
+            "hit": 67.38,
+            "days": 177,
+            "cpd": 1.32
+          },
+          "hold": {
+            "n": 117,
+            "wins": 75,
+            "hit": 64.1,
+            "days": 70,
+            "cpd": 1.67
+          },
+          "fwd": {
+            "n": 2,
+            "wins": 1,
+            "hit": 50.0,
+            "days": 2,
+            "cpd": 1.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=break_hi|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 102,
+            "wins": 62,
+            "hit": 60.78,
+            "days": 93,
+            "cpd": 1.1
+          },
+          "hold": {
+            "n": 39,
+            "wins": 25,
+            "hit": 64.1,
+            "days": 33,
+            "cpd": 1.18
+          },
+          "fwd": {
+            "n": 0,
+            "wins": 0,
+            "hit": 0.0,
+            "cpd": 0.0,
+            "days": 0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=break_hi|slbin=sl12-16",
+          "kind": "combo",
+          "analyze": {
+            "n": 169,
+            "wins": 106,
+            "hit": 62.72,
+            "days": 139,
+            "cpd": 1.22
+          },
+          "hold": {
+            "n": 58,
+            "wins": 37,
+            "hit": 63.79,
+            "days": 41,
+            "cpd": 1.41
+          },
+          "fwd": {
+            "n": 1,
+            "wins": 1,
+            "hit": 100.0,
+            "days": 1,
+            "cpd": 1.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "primary=marubozu_bear|close_zone=near_low|stair=LH_LL",
+          "kind": "combo",
+          "analyze": {
+            "n": 952,
+            "wins": 578,
+            "hit": 60.71,
+            "days": 415,
+            "cpd": 2.29
+          },
+          "hold": {
+            "n": 506,
+            "wins": 322,
+            "hit": 63.64,
+            "days": 176,
+            "cpd": 2.88
+          },
+          "fwd": {
+            "n": 13,
+            "wins": 9,
+            "hit": 69.23,
+            "days": 5,
+            "cpd": 2.6
+          },
+          "dims": [
+            "primary",
+            "close_zone",
+            "stair"
+          ]
+        }
+      ],
+      "near100": [],
+      "high70": [
+        {
+          "tag": "very_strong=1|vix_regime=ELEVATED|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 149,
+            "wins": 106,
+            "hit": 71.14,
+            "days": 43,
+            "cpd": 3.47
+          },
+          "hold": {
+            "n": 173,
+            "wins": 126,
+            "hit": 72.83,
+            "days": 37,
+            "cpd": 4.68
+          },
+          "fwd": {
+            "n": 12,
+            "wins": 10,
+            "hit": 83.33,
+            "days": 3,
+            "cpd": 4.0
+          },
+          "dims": [
+            "very_strong",
+            "vix_regime",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "family=belt_maru|close_ok=1|vix_regime=HIGH",
+          "kind": "combo",
+          "analyze": {
+            "n": 69,
+            "wins": 49,
+            "hit": 71.01,
+            "days": 7,
+            "cpd": 9.86
+          },
+          "hold": {
+            "n": 146,
+            "wins": 82,
+            "hit": 56.16,
+            "days": 13,
+            "cpd": 11.23
+          },
+          "fwd": {
+            "n": 0,
+            "wins": 0,
+            "hit": 0.0,
+            "cpd": 0.0,
+            "days": 0
+          },
+          "dims": [
+            "family",
+            "close_ok",
+            "vix_regime"
+          ]
+        }
+      ]
+    },
+    "T10_sig": {
+      "balanced": [
+        {
+          "tag": "strong=1|struct2=break_lo|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 113,
+            "wins": 72,
+            "hit": 63.72,
+            "days": 92,
+            "cpd": 1.23
+          },
+          "hold": {
+            "n": 64,
+            "wins": 52,
+            "hit": 81.25,
+            "days": 47,
+            "cpd": 1.36
+          },
+          "fwd": {
+            "n": 5,
+            "wins": 4,
+            "hit": 80.0,
+            "days": 2,
+            "cpd": 2.5
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=break_hi|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 102,
+            "wins": 62,
+            "hit": 60.78,
+            "days": 93,
+            "cpd": 1.1
+          },
+          "hold": {
+            "n": 39,
+            "wins": 26,
+            "hit": 66.67,
+            "days": 33,
+            "cpd": 1.18
+          },
+          "fwd": {
+            "n": 0,
+            "wins": 0,
+            "hit": 0.0,
+            "cpd": 0.0,
+            "days": 0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=break_hi|slbin=sl12-16",
+          "kind": "combo",
+          "analyze": {
+            "n": 169,
+            "wins": 103,
+            "hit": 60.95,
+            "days": 139,
+            "cpd": 1.22
+          },
+          "hold": {
+            "n": 58,
+            "wins": 37,
+            "hit": 63.79,
+            "days": 41,
+            "cpd": 1.41
+          },
+          "fwd": {
+            "n": 1,
+            "wins": 1,
+            "hit": 100.0,
+            "days": 1,
+            "cpd": 1.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "very_strong=1|vix_regime=ELEVATED|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 149,
+            "wins": 95,
+            "hit": 63.76,
+            "days": 43,
+            "cpd": 3.47
+          },
+          "hold": {
+            "n": 173,
+            "wins": 110,
+            "hit": 63.58,
+            "days": 37,
+            "cpd": 4.68
+          },
+          "fwd": {
+            "n": 12,
+            "wins": 10,
+            "hit": 83.33,
+            "days": 3,
+            "cpd": 4.0
+          },
+          "dims": [
+            "very_strong",
+            "vix_regime",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=cut_lo|slbin=sl12-16",
+          "kind": "combo",
+          "analyze": {
+            "n": 108,
+            "wins": 65,
+            "hit": 60.19,
+            "days": 87,
+            "cpd": 1.24
+          },
+          "hold": {
+            "n": 50,
+            "wins": 31,
+            "hit": 62.0,
+            "days": 35,
+            "cpd": 1.43
+          },
+          "fwd": {
+            "n": 2,
+            "wins": 1,
+            "hit": 50.0,
+            "days": 2,
+            "cpd": 1.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=cut_hi|slbin=sl12-16",
+          "kind": "combo",
+          "analyze": {
+            "n": 101,
+            "wins": 66,
+            "hit": 65.35,
+            "days": 95,
+            "cpd": 1.06
+          },
+          "hold": {
+            "n": 82,
+            "wins": 47,
+            "hit": 57.32,
+            "days": 60,
+            "cpd": 1.37
+          },
+          "fwd": {
+            "n": 2,
+            "wins": 2,
+            "hit": 100.0,
+            "days": 2,
+            "cpd": 1.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        },
+        {
+          "tag": "strong=1|struct2=hold_above_lo|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 233,
+            "wins": 142,
+            "hit": 60.94,
+            "days": 177,
+            "cpd": 1.32
+          },
+          "hold": {
+            "n": 117,
+            "wins": 66,
+            "hit": 56.41,
+            "days": 70,
+            "cpd": 1.67
+          },
+          "fwd": {
+            "n": 2,
+            "wins": 1,
+            "hit": 50.0,
+            "days": 2,
+            "cpd": 1.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        }
+      ],
+      "near100": [],
+      "high70": []
+    },
+    "T15_prev": {
+      "balanced": [],
+      "near100": [],
+      "high70": []
+    },
+    "T15_swing2": {
+      "balanced": [
+        {
+          "tag": "strong=1|struct2=break_hi_hold|slbin=sl16-20",
+          "kind": "combo",
+          "analyze": {
+            "n": 1303,
+            "wins": 787,
+            "hit": 60.4,
+            "days": 442,
+            "cpd": 2.95
+          },
+          "hold": {
+            "n": 515,
+            "wins": 312,
+            "hit": 60.58,
+            "days": 158,
+            "cpd": 3.26
+          },
+          "fwd": {
+            "n": 12,
+            "wins": 5,
+            "hit": 41.67,
+            "days": 4,
+            "cpd": 3.0
+          },
+          "dims": [
+            "strong",
+            "struct2",
+            "slbin"
+          ]
+        }
+      ],
+      "near100": [],
+      "high70": []
+    },
+    "T15_sig": {
+      "balanced": [],
+      "near100": [],
+      "high70": []
+    },
+    "T20_prev": {
+      "balanced": [],
+      "near100": [],
+      "high70": []
+    },
+    "T20_swing2": {
+      "balanced": [],
+      "near100": [],
+      "high70": []
+    },
+    "T20_sig": {
+      "balanced": [],
+      "near100": [],
+      "high70": []
+    }
+  },
+  "elapsed_s": 668.3
+}

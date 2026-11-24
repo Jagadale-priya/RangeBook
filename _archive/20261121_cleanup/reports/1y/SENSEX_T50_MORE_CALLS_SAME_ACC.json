@@ -1,0 +1,1678 @@
+{
+  "clip": {
+    "sl": 50.0,
+    "t1": 50.0
+  },
+  "floors": {
+    "1y": 86.0,
+    "3y": 80.0,
+    "near_1y": 85.0,
+    "near_3y": 79.0
+  },
+  "elapsed_s": 1070.5,
+  "tried": 6936,
+  "held": {
+    "name": "HELD_WIDE",
+    "buy_min_p": 0.55,
+    "sell_min_p": 0.7,
+    "buy_max_or_ext": 0.15,
+    "sell_max_or_ext": null,
+    "max_mins": null,
+    "allow_sell_cont": false,
+    "buy_regimes_n": 4,
+    "cap": 3,
+    "mode": "cap",
+    "rank": "max_p",
+    "n_1y": 36,
+    "hit_1y": 86.11,
+    "n_3y": 55,
+    "hit_3y": 80.0,
+    "n_3m": 12,
+    "hit_3m": 100.0,
+    "expect_1y": 36.11,
+    "side_1y": {
+      "BUY": 11,
+      "SELL": 25
+    }
+  },
+  "held_by_month_1y": {
+    "2025-12": {
+      "n": 1,
+      "settled": 1,
+      "hit_pct": 100.0,
+      "wins": 1,
+      "losses": 0
+    },
+    "2026-01": {
+      "n": 4,
+      "settled": 4,
+      "hit_pct": 100.0,
+      "wins": 4,
+      "losses": 0
+    },
+    "2026-02": {
+      "n": 4,
+      "settled": 4,
+      "hit_pct": 50.0,
+      "wins": 2,
+      "losses": 2
+    },
+    "2026-03": {
+      "n": 1,
+      "settled": 1,
+      "hit_pct": 0.0,
+      "wins": 0,
+      "losses": 1
+    },
+    "2026-04": {
+      "n": 2,
+      "settled": 2,
+      "hit_pct": 50.0,
+      "wins": 1,
+      "losses": 1
+    },
+    "2026-05": {
+      "n": 3,
+      "settled": 3,
+      "hit_pct": 100.0,
+      "wins": 3,
+      "losses": 0
+    },
+    "2026-06": {
+      "n": 5,
+      "settled": 5,
+      "hit_pct": 80.0,
+      "wins": 4,
+      "losses": 1
+    },
+    "2026-07": {
+      "n": 1,
+      "settled": 1,
+      "hit_pct": 100.0,
+      "wins": 1,
+      "losses": 0
+    },
+    "2026-08": {
+      "n": 6,
+      "settled": 6,
+      "hit_pct": 100.0,
+      "wins": 6,
+      "losses": 0
+    },
+    "2026-09": {
+      "n": 3,
+      "settled": 3,
+      "hit_pct": 100.0,
+      "wins": 3,
+      "losses": 0
+    },
+    "2026-10": {
+      "n": 6,
+      "settled": 6,
+      "hit_pct": 100.0,
+      "wins": 6,
+      "losses": 0
+    }
+  },
+  "n_same_acc": 1886,
+  "n_near": 884,
+  "best_same_acc": {
+    "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r4_C2_max_p",
+    "buy_min_p": 0.55,
+    "sell_min_p": 0.62,
+    "buy_max_or_ext": 0.1,
+    "sell_max_or_ext": null,
+    "max_mins": null,
+    "allow_sell_cont": false,
+    "buy_regimes_n": 4,
+    "cap": 2,
+    "mode": "cap",
+    "rank": "max_p",
+    "n_1y": 61,
+    "hit_1y": 86.89,
+    "n_3y": 138,
+    "hit_3y": 80.43,
+    "n_3m": 15,
+    "hit_3m": 100.0,
+    "expect_1y": 36.89,
+    "side_1y": {
+      "BUY": 6,
+      "SELL": 55
+    }
+  },
+  "best_near": {
+    "name": "b0.5_s0.62_bor0.1_sorNone_m750_r4_C2_max_p",
+    "buy_min_p": 0.5,
+    "sell_min_p": 0.62,
+    "buy_max_or_ext": 0.1,
+    "sell_max_or_ext": null,
+    "max_mins": 750,
+    "allow_sell_cont": false,
+    "buy_regimes_n": 4,
+    "cap": 2,
+    "mode": "cap",
+    "rank": "max_p",
+    "n_1y": 61,
+    "hit_1y": 85.25,
+    "n_3y": 140,
+    "hit_3y": 79.29,
+    "n_3m": 14,
+    "hit_3m": 100.0,
+    "expect_1y": 35.25,
+    "side_1y": {
+      "BUY": 8,
+      "SELL": 53
+    }
+  },
+  "best_quality_same_acc": {
+    "name": "b0.58_s0.65_bor0.15_sorNone_m750_r4_C2_max_p",
+    "buy_min_p": 0.58,
+    "sell_min_p": 0.65,
+    "buy_max_or_ext": 0.15,
+    "sell_max_or_ext": null,
+    "max_mins": 750,
+    "allow_sell_cont": false,
+    "buy_regimes_n": 4,
+    "cap": 2,
+    "mode": "cap",
+    "rank": "max_p",
+    "n_1y": 37,
+    "hit_1y": 91.89,
+    "n_3y": 64,
+    "hit_3y": 82.81,
+    "n_3m": 10,
+    "hit_3m": 100.0,
+    "expect_1y": 41.89,
+    "side_1y": {
+      "BUY": 3,
+      "SELL": 34
+    }
+  },
+  "top_same_acc": [
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r4_C2_max_p",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 61,
+      "hit_1y": 86.89,
+      "n_3y": 138,
+      "hit_3y": 80.43,
+      "n_3m": 15,
+      "hit_3m": 100.0,
+      "expect_1y": 36.89,
+      "side_1y": {
+        "BUY": 6,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r4_C2_earliest",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 61,
+      "hit_1y": 86.89,
+      "n_3y": 138,
+      "hit_3y": 80.43,
+      "n_3m": 15,
+      "hit_3m": 100.0,
+      "expect_1y": 36.89,
+      "side_1y": {
+        "BUY": 6,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r4_C3_max_p",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 61,
+      "hit_1y": 86.89,
+      "n_3y": 138,
+      "hit_3y": 80.43,
+      "n_3m": 15,
+      "hit_3m": 100.0,
+      "expect_1y": 36.89,
+      "side_1y": {
+        "BUY": 6,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r4_C3_earliest",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 61,
+      "hit_1y": 86.89,
+      "n_3y": 138,
+      "hit_3y": 80.43,
+      "n_3m": 15,
+      "hit_3m": 100.0,
+      "expect_1y": 36.89,
+      "side_1y": {
+        "BUY": 6,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r4_C4_max_p",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 4,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 61,
+      "hit_1y": 86.89,
+      "n_3y": 138,
+      "hit_3y": 80.43,
+      "n_3m": 15,
+      "hit_3m": 100.0,
+      "expect_1y": 36.89,
+      "side_1y": {
+        "BUY": 6,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r4_C4_earliest",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 4,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 61,
+      "hit_1y": 86.89,
+      "n_3y": 138,
+      "hit_3y": 80.43,
+      "n_3m": 15,
+      "hit_3m": 100.0,
+      "expect_1y": 36.89,
+      "side_1y": {
+        "BUY": 6,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "UNION_1+2_C3",
+      "buy_min_p": null,
+      "sell_min_p": null,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": null,
+      "buy_regimes_n": 0,
+      "cap": 3,
+      "mode": "union",
+      "rank": "max_p",
+      "n_1y": 61,
+      "hit_1y": 86.89,
+      "n_3y": 138,
+      "hit_3y": 80.43,
+      "n_3m": 15,
+      "hit_3m": 100.0,
+      "expect_1y": 36.89,
+      "side_1y": {
+        "BUY": 6,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "UNION_1+2_C4",
+      "buy_min_p": null,
+      "sell_min_p": null,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": null,
+      "buy_regimes_n": 0,
+      "cap": 4,
+      "mode": "union",
+      "rank": "max_p",
+      "n_1y": 61,
+      "hit_1y": 86.89,
+      "n_3y": 138,
+      "hit_3y": 80.43,
+      "n_3m": 15,
+      "hit_3m": 100.0,
+      "expect_1y": 36.89,
+      "side_1y": {
+        "BUY": 6,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_m840_r4_C2_max_p",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 840,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 59,
+      "hit_1y": 86.44,
+      "n_3y": 136,
+      "hit_3y": 80.15,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 36.44,
+      "side_1y": {
+        "BUY": 5,
+        "SELL": 54
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_m840_r4_C2_earliest",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 840,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 59,
+      "hit_1y": 86.44,
+      "n_3y": 136,
+      "hit_3y": 80.15,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 36.44,
+      "side_1y": {
+        "BUY": 5,
+        "SELL": 54
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_m840_r4_C3_max_p",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 840,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 59,
+      "hit_1y": 86.44,
+      "n_3y": 136,
+      "hit_3y": 80.15,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 36.44,
+      "side_1y": {
+        "BUY": 5,
+        "SELL": 54
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_m840_r4_C3_earliest",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 840,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 59,
+      "hit_1y": 86.44,
+      "n_3y": 136,
+      "hit_3y": 80.15,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 36.44,
+      "side_1y": {
+        "BUY": 5,
+        "SELL": 54
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_m840_r4_C4_max_p",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 840,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 4,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 59,
+      "hit_1y": 86.44,
+      "n_3y": 136,
+      "hit_3y": 80.15,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 36.44,
+      "side_1y": {
+        "BUY": 5,
+        "SELL": 54
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_m840_r4_C4_earliest",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 840,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 4,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 59,
+      "hit_1y": 86.44,
+      "n_3y": 136,
+      "hit_3y": 80.15,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 36.44,
+      "side_1y": {
+        "BUY": 5,
+        "SELL": 54
+      }
+    },
+    {
+      "name": "UNION_7+8_C3",
+      "buy_min_p": null,
+      "sell_min_p": null,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": null,
+      "buy_regimes_n": 0,
+      "cap": 3,
+      "mode": "union",
+      "rank": "max_p",
+      "n_1y": 59,
+      "hit_1y": 86.44,
+      "n_3y": 136,
+      "hit_3y": 80.15,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 36.44,
+      "side_1y": {
+        "BUY": 5,
+        "SELL": 54
+      }
+    },
+    {
+      "name": "UNION_7+8_C4",
+      "buy_min_p": null,
+      "sell_min_p": null,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": null,
+      "buy_regimes_n": 0,
+      "cap": 4,
+      "mode": "union",
+      "rank": "max_p",
+      "n_1y": 59,
+      "hit_1y": 86.44,
+      "n_3y": 136,
+      "hit_3y": 80.15,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 36.44,
+      "side_1y": {
+        "BUY": 5,
+        "SELL": 54
+      }
+    },
+    {
+      "name": "b0.58_s0.62_bor0.15_sorNone_mNone_r4_C2_max_p",
+      "buy_min_p": 0.58,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.15,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 58,
+      "hit_1y": 86.21,
+      "n_3y": 133,
+      "hit_3y": 80.45,
+      "n_3m": 13,
+      "hit_3m": 100.0,
+      "expect_1y": 36.21,
+      "side_1y": {
+        "BUY": 3,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.58_s0.62_bor0.15_sorNone_mNone_r4_C2_earliest",
+      "buy_min_p": 0.58,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.15,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 58,
+      "hit_1y": 86.21,
+      "n_3y": 133,
+      "hit_3y": 80.45,
+      "n_3m": 13,
+      "hit_3m": 100.0,
+      "expect_1y": 36.21,
+      "side_1y": {
+        "BUY": 3,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.58_s0.62_bor0.15_sorNone_mNone_r4_C3_max_p",
+      "buy_min_p": 0.58,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.15,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 58,
+      "hit_1y": 86.21,
+      "n_3y": 133,
+      "hit_3y": 80.45,
+      "n_3m": 13,
+      "hit_3m": 100.0,
+      "expect_1y": 36.21,
+      "side_1y": {
+        "BUY": 3,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.58_s0.62_bor0.15_sorNone_mNone_r4_C3_earliest",
+      "buy_min_p": 0.58,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.15,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 58,
+      "hit_1y": 86.21,
+      "n_3y": 133,
+      "hit_3y": 80.45,
+      "n_3m": 13,
+      "hit_3m": 100.0,
+      "expect_1y": 36.21,
+      "side_1y": {
+        "BUY": 3,
+        "SELL": 55
+      }
+    }
+  ],
+  "top_near": [
+    {
+      "name": "b0.5_s0.62_bor0.1_sorNone_m750_r4_C2_max_p",
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 750,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 61,
+      "hit_1y": 85.25,
+      "n_3y": 140,
+      "hit_3y": 79.29,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.25,
+      "side_1y": {
+        "BUY": 8,
+        "SELL": 53
+      }
+    },
+    {
+      "name": "b0.5_s0.62_bor0.1_sorNone_m750_r4_C2_earliest",
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 750,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 61,
+      "hit_1y": 85.25,
+      "n_3y": 140,
+      "hit_3y": 79.29,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.25,
+      "side_1y": {
+        "BUY": 8,
+        "SELL": 53
+      }
+    },
+    {
+      "name": "b0.5_s0.62_bor0.1_sorNone_m750_r4_C3_max_p",
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 750,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 61,
+      "hit_1y": 85.25,
+      "n_3y": 140,
+      "hit_3y": 79.29,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.25,
+      "side_1y": {
+        "BUY": 8,
+        "SELL": 53
+      }
+    },
+    {
+      "name": "b0.5_s0.62_bor0.1_sorNone_m750_r4_C3_earliest",
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 750,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 61,
+      "hit_1y": 85.25,
+      "n_3y": 140,
+      "hit_3y": 79.29,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.25,
+      "side_1y": {
+        "BUY": 8,
+        "SELL": 53
+      }
+    },
+    {
+      "name": "b0.5_s0.62_bor0.1_sorNone_m750_r4_C4_max_p",
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 750,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 4,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 61,
+      "hit_1y": 85.25,
+      "n_3y": 140,
+      "hit_3y": 79.29,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.25,
+      "side_1y": {
+        "BUY": 8,
+        "SELL": 53
+      }
+    },
+    {
+      "name": "b0.5_s0.62_bor0.1_sorNone_m750_r4_C4_earliest",
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": 750,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 4,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 61,
+      "hit_1y": 85.25,
+      "n_3y": 140,
+      "hit_3y": 79.29,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.25,
+      "side_1y": {
+        "BUY": 8,
+        "SELL": 53
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r2_C2_max_p",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 2,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 57,
+      "hit_1y": 85.96,
+      "n_3y": 133,
+      "hit_3y": 79.7,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.96,
+      "side_1y": {
+        "BUY": 2,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r2_C2_earliest",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 2,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 57,
+      "hit_1y": 85.96,
+      "n_3y": 133,
+      "hit_3y": 79.7,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.96,
+      "side_1y": {
+        "BUY": 2,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r2_C3_max_p",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 2,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 57,
+      "hit_1y": 85.96,
+      "n_3y": 133,
+      "hit_3y": 79.7,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.96,
+      "side_1y": {
+        "BUY": 2,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r2_C3_earliest",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 2,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 57,
+      "hit_1y": 85.96,
+      "n_3y": 133,
+      "hit_3y": 79.7,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.96,
+      "side_1y": {
+        "BUY": 2,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r2_C4_max_p",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 2,
+      "cap": 4,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 57,
+      "hit_1y": 85.96,
+      "n_3y": 133,
+      "hit_3y": 79.7,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.96,
+      "side_1y": {
+        "BUY": 2,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.55_s0.62_bor0.1_sorNone_mNone_r2_C4_earliest",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 2,
+      "cap": 4,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 57,
+      "hit_1y": 85.96,
+      "n_3y": 133,
+      "hit_3y": 79.7,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 35.96,
+      "side_1y": {
+        "BUY": 2,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.58_s0.62_bor0.1_sorNone_mNone_r4_C2_max_p",
+      "buy_min_p": 0.58,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 57,
+      "hit_1y": 85.96,
+      "n_3y": 131,
+      "hit_3y": 80.15,
+      "n_3m": 13,
+      "hit_3m": 100.0,
+      "expect_1y": 35.96,
+      "side_1y": {
+        "BUY": 2,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.58_s0.62_bor0.1_sorNone_mNone_r4_C2_earliest",
+      "buy_min_p": 0.58,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 2,
+      "mode": "cap",
+      "rank": "earliest",
+      "n_1y": 57,
+      "hit_1y": 85.96,
+      "n_3y": 131,
+      "hit_3y": 80.15,
+      "n_3m": 13,
+      "hit_3m": 100.0,
+      "expect_1y": 35.96,
+      "side_1y": {
+        "BUY": 2,
+        "SELL": 55
+      }
+    },
+    {
+      "name": "b0.58_s0.62_bor0.1_sorNone_mNone_r4_C3_max_p",
+      "buy_min_p": 0.58,
+      "sell_min_p": 0.62,
+      "buy_max_or_ext": 0.1,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "allow_sell_cont": false,
+      "buy_regimes_n": 4,
+      "cap": 3,
+      "mode": "cap",
+      "rank": "max_p",
+      "n_1y": 57,
+      "hit_1y": 85.96,
+      "n_3y": 131,
+      "hit_3y": 80.15,
+      "n_3m": 13,
+      "hit_3m": 100.0,
+      "expect_1y": 35.96,
+      "side_1y": {
+        "BUY": 2,
+        "SELL": 55
+      }
+    }
+  ],
+  "best_same_calls_1y": [
+    {
+      "day": "2025-11-20",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-01",
+      "hm": "10:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-02",
+      "hm": "11:45",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-03",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -50.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2025-12-10",
+      "hm": "12:15",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-16",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-17",
+      "hm": "10:00",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-09",
+      "hm": "10:45",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-20",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-22",
+      "hm": "10:15",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-23",
+      "hm": "11:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-29",
+      "hm": "13:00",
+      "decision": "BUY",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-01",
+      "hm": "12:00",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -50.0,
+      "outcome": "same_bar_both"
+    },
+    {
+      "day": "2026-02-19",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": false,
+      "points": -50.0,
+      "outcome": "same_bar_both"
+    },
+    {
+      "day": "2026-02-24",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-25",
+      "hm": "12:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-26",
+      "hm": "11:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-27",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-06",
+      "hm": "12:15",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-11",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-13",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-30",
+      "hm": "13:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": false,
+      "points": -50.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2026-04-16",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-04-22",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": false,
+      "points": -50.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2026-04-24",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-06",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.7105,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-14",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-19",
+      "hm": "14:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-21",
+      "hm": "10:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-29",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -50.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2026-06-01",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-02",
+      "hm": "09:30",
+      "decision": "BUY",
+      "p_t1": 0.95,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-03",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": false,
+      "points": -50.0,
+      "outcome": "same_bar_both"
+    },
+    {
+      "day": "2026-06-05",
+      "hm": "10:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-09",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-11",
+      "hm": "09:30",
+      "decision": "BUY",
+      "p_t1": 0.95,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-15",
+      "hm": "12:00",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-29",
+      "hm": "11:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-06",
+      "hm": "09:30",
+      "decision": "BUY",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-08",
+      "hm": "12:00",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-22",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -50.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2026-07-23",
+      "hm": "12:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-04",
+      "hm": "10:15",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-11",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-12",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.7493,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-17",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-24",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-25",
+      "hm": "14:30",
+      "decision": "BUY",
+      "p_t1": 0.568,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-26",
+      "hm": "10:15",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-27",
+      "hm": "10:00",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-31",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-07",
+      "hm": "10:00",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-15",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-18",
+      "hm": "14:00",
+      "decision": "BUY",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-01",
+      "hm": "12:15",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-05",
+      "hm": "10:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-08",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-12",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-19",
+      "hm": "11:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "10:00",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    }
+  ],
+  "best_same_by_month_1y": {
+    "2025-11": {
+      "n": 1,
+      "settled": 1,
+      "hit_pct": 100.0,
+      "wins": 1,
+      "losses": 0
+    },
+    "2025-12": {
+      "n": 6,
+      "settled": 6,
+      "hit_pct": 83.33,
+      "wins": 5,
+      "losses": 1
+    },
+    "2026-01": {
+      "n": 5,
+      "settled": 5,
+      "hit_pct": 100.0,
+      "wins": 5,
+      "losses": 0
+    },
+    "2026-02": {
+      "n": 6,
+      "settled": 6,
+      "hit_pct": 66.67,
+      "wins": 4,
+      "losses": 2
+    },
+    "2026-03": {
+      "n": 4,
+      "settled": 4,
+      "hit_pct": 75.0,
+      "wins": 3,
+      "losses": 1
+    },
+    "2026-04": {
+      "n": 3,
+      "settled": 3,
+      "hit_pct": 66.67,
+      "wins": 2,
+      "losses": 1
+    },
+    "2026-05": {
+      "n": 5,
+      "settled": 5,
+      "hit_pct": 80.0,
+      "wins": 4,
+      "losses": 1
+    },
+    "2026-06": {
+      "n": 8,
+      "settled": 8,
+      "hit_pct": 87.5,
+      "wins": 7,
+      "losses": 1
+    },
+    "2026-07": {
+      "n": 4,
+      "settled": 4,
+      "hit_pct": 75.0,
+      "wins": 3,
+      "losses": 1
+    },
+    "2026-08": {
+      "n": 9,
+      "settled": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0
+    },
+    "2026-09": {
+      "n": 3,
+      "settled": 3,
+      "hit_pct": 100.0,
+      "wins": 3,
+      "losses": 0
+    },
+    "2026-10": {
+      "n": 7,
+      "settled": 7,
+      "hit_pct": 100.0,
+      "wins": 7,
+      "losses": 0
+    }
+  },
+  "delta_vs_held": {
+    "dn_1y": 25,
+    "dhit_1y": 0.78,
+    "dn_3m": 3,
+    "dhit_3m": 0.0
+  }
+}

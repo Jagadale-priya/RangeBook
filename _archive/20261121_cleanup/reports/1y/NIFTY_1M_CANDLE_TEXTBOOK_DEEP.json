@@ -1,0 +1,1335 @@
+{
+  "meta": {
+    "bars": 461926,
+    "n_patterns": 55,
+    "id_integrity_pct": 100.0,
+    "n_ana": 1478,
+    "n_test": 746,
+    "n_both100": 0,
+    "union_n": 0,
+    "sources": [
+      "https://raw.githubusercontent.com/cm45t3r/candlestick/master/docs/PATTERNS.md",
+      "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/candlestick-pattern-dictionary",
+      "https://ta-lib.github.io/ta-lib-python/func_groups/pattern_recognition.html"
+    ],
+    "research_only": true,
+    "not_live": true
+  },
+  "verify": {
+    "by_pattern": {
+      "doji": {
+        "n": 39711,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "dragonfly_doji": {
+        "n": 3150,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "gravestone_doji": {
+        "n": 3168,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "long_legged_doji": {
+        "n": 17453,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "marubozu": {
+        "n": 42493,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "marubozu_bull": {
+        "n": 21393,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "marubozu_bear": {
+        "n": 21100,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "spinning_top": {
+        "n": 69597,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "high_wave": {
+        "n": 17281,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "hammer": {
+        "n": 11459,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "hanging_man": {
+        "n": 10982,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "inv_hammer": {
+        "n": 10109,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "shooting_star": {
+        "n": 4807,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "belt_bull": {
+        "n": 34856,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "belt_bear": {
+        "n": 32235,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "long_line": {
+        "n": 122664,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "short_line": {
+        "n": 40774,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "bull_engulf": {
+        "n": 26231,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "bear_engulf": {
+        "n": 24512,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "bull_harami": {
+        "n": 25886,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "bear_harami": {
+        "n": 27924,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "harami_cross": {
+        "n": 9445,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "piercing": {
+        "n": 1736,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "dark_cloud": {
+        "n": 1523,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "tweezer_bot": {
+        "n": 1875,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "tweezer_top": {
+        "n": 1829,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "bull_kicker": {
+        "n": 4164,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "bear_kicker": {
+        "n": 4228,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "matching_low": {
+        "n": 922,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "inside_bar": {
+        "n": 60544,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "outside_bar": {
+        "n": 43323,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "sep_lines_bull": {
+        "n": 1005,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "sep_lines_bear": {
+        "n": 1070,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "counterattack": {
+        "n": 5,
+        "checked": 5,
+        "pass": 5,
+        "pct": 100.0
+      },
+      "morning_star": {
+        "n": 1162,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "evening_star": {
+        "n": 1055,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "morning_doji_star": {
+        "n": 544,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "evening_doji_star": {
+        "n": 504,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "three_soldiers": {
+        "n": 1208,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "three_crows": {
+        "n": 1120,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "three_inside_up": {
+        "n": 7622,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "three_inside_dn": {
+        "n": 7911,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "three_outside_up": {
+        "n": 12966,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "three_outside_dn": {
+        "n": 11977,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "tri_star_bull": {
+        "n": 183,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "tri_star_bear": {
+        "n": 172,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "stick_sandwich": {
+        "n": 625,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "abandoned_baby_bull": {
+        "n": 7,
+        "checked": 7,
+        "pass": 7,
+        "pct": 100.0
+      },
+      "abandoned_baby_bear": {
+        "n": 9,
+        "checked": 9,
+        "pass": 9,
+        "pct": 100.0
+      },
+      "rising_3_methods": {
+        "n": 2855,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "falling_3_methods": {
+        "n": 2482,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "bull_run2": {
+        "n": 117631,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "bear_run2": {
+        "n": 115554,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "bull_run3": {
+        "n": 59174,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      },
+      "bear_run3": {
+        "n": 57795,
+        "checked": 100,
+        "pass": 100,
+        "pct": 100.0
+      }
+    },
+    "overall_pct": 100.0,
+    "checked": 5221,
+    "pass": 5221
+  },
+  "census": {
+    "bars": 461926,
+    "bars_with_pattern": 434321,
+    "coverage_pct": 94.02,
+    "counts": {
+      "long_line": 122664,
+      "bull_run2": 117631,
+      "bear_run2": 115554,
+      "spinning_top": 69597,
+      "inside_bar": 60544,
+      "bull_run3": 59174,
+      "bear_run3": 57795,
+      "outside_bar": 43323,
+      "marubozu": 42493,
+      "short_line": 40774,
+      "doji": 39711,
+      "belt_bull": 34856,
+      "belt_bear": 32235,
+      "bear_harami": 27924,
+      "bull_engulf": 26231,
+      "bull_harami": 25886,
+      "bear_engulf": 24512,
+      "marubozu_bull": 21393,
+      "marubozu_bear": 21100,
+      "long_legged_doji": 17453,
+      "high_wave": 17281,
+      "three_outside_up": 12966,
+      "three_outside_dn": 11977,
+      "hammer": 11459,
+      "hanging_man": 10982,
+      "inv_hammer": 10109,
+      "harami_cross": 9445,
+      "three_inside_dn": 7911,
+      "three_inside_up": 7622,
+      "shooting_star": 4807,
+      "bear_kicker": 4228,
+      "bull_kicker": 4164,
+      "gravestone_doji": 3168,
+      "dragonfly_doji": 3150,
+      "rising_3_methods": 2855,
+      "falling_3_methods": 2482,
+      "tweezer_bot": 1875,
+      "tweezer_top": 1829,
+      "piercing": 1736,
+      "dark_cloud": 1523,
+      "three_soldiers": 1208,
+      "morning_star": 1162,
+      "three_crows": 1120,
+      "sep_lines_bear": 1070,
+      "evening_star": 1055,
+      "sep_lines_bull": 1005,
+      "matching_low": 922,
+      "stick_sandwich": 625,
+      "morning_doji_star": 544,
+      "evening_doji_star": 504,
+      "tri_star_bull": 183,
+      "tri_star_bear": 172,
+      "abandoned_baby_bear": 9,
+      "abandoned_baby_bull": 7,
+      "counterattack": 5
+    }
+  },
+  "both100": [],
+  "union100": {
+    "n": 0,
+    "wins": 0,
+    "hit_pct": 0.0,
+    "calls": []
+  },
+  "examples": [
+    {
+      "day": "2021-01-01",
+      "hm": "10:00",
+      "decision": "SELL",
+      "primary": "bear_engulf",
+      "patterns": [
+        "bear_engulf"
+      ],
+      "entry": 14026.8,
+      "mins": 600,
+      "clock": "early",
+      "or_width": 28.049999999999272,
+      "or_ext": -1.1390374331550708,
+      "atr": 3.482142857142857,
+      "body_frac": 0.8906249999999112,
+      "rsi_proxy": 50.0,
+      "mae": 10.400000000001455,
+      "mfe": 21.349999999998545,
+      "full_i": 45,
+      "families": {
+        "pat_wick": [
+          6.83,
+          5.0
+        ],
+        "atr_1_0_6": [
+          5.0,
+          5.0
+        ],
+        "atr_1_3_0_7": [
+          5.0,
+          5.0
+        ],
+        "or_frac": [
+          7.01,
+          5.0
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "bear_engulf"
+        ],
+        "bars": [
+          {
+            "hm": "09:58",
+            "o": 14031.1,
+            "h": 14032.3,
+            "l": 14029.1,
+            "c": 14032.3,
+            "body_frac": 0.375,
+            "role": "lead"
+          },
+          {
+            "hm": "09:59",
+            "o": 14032.35,
+            "h": 14033.3,
+            "l": 14031.1,
+            "c": 14032.4,
+            "body_frac": 0.023,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:00",
+            "o": 14032.5,
+            "h": 14033.2,
+            "l": 14026.8,
+            "c": 14026.8,
+            "body_frac": 0.891,
+            "role": "confirm"
+          }
+        ],
+        "trend5": -0.8
+      },
+      "trend5": -0.8000000000010914
+    },
+    {
+      "day": "2021-01-04",
+      "hm": "10:14",
+      "decision": "BUY",
+      "primary": "morning_star",
+      "patterns": [
+        "morning_star",
+        "morning_doji_star"
+      ],
+      "entry": 14086.55,
+      "mins": 614,
+      "clock": "early",
+      "or_width": 25.799999999999272,
+      "or_ext": -0.7693798449612761,
+      "atr": 4.942857142857065,
+      "body_frac": 0.6122448979592291,
+      "rsi_proxy": 50.0,
+      "mae": 129.9499999999989,
+      "mfe": 8.700000000000728,
+      "full_i": 434,
+      "families": {
+        "pat_wick": [
+          6.51,
+          5.0
+        ],
+        "atr_1_0_6": [
+          5.0,
+          5.0
+        ],
+        "atr_1_3_0_7": [
+          6.43,
+          5.0
+        ],
+        "or_frac": [
+          6.45,
+          5.0
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "morning_star",
+          "morning_doji_star"
+        ],
+        "bars": [
+          {
+            "hm": "10:12",
+            "o": 14088.55,
+            "h": 14088.9,
+            "l": 14080.35,
+            "c": 14083.35,
+            "body_frac": 0.608,
+            "role": "lead"
+          },
+          {
+            "hm": "10:13",
+            "o": 14082.75,
+            "h": 14087.15,
+            "l": 14082.2,
+            "c": 14083.15,
+            "body_frac": 0.081,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:14",
+            "o": 14083.55,
+            "h": 14086.55,
+            "l": 14081.65,
+            "c": 14086.55,
+            "body_frac": 0.612,
+            "role": "confirm"
+          }
+        ],
+        "trend5": -6.75
+      },
+      "trend5": -6.75
+    },
+    {
+      "day": "2021-01-05",
+      "hm": "10:18",
+      "decision": "BUY",
+      "primary": "hammer",
+      "patterns": [
+        "hammer"
+      ],
+      "entry": 14059.25,
+      "mins": 618,
+      "clock": "early",
+      "or_width": 64.5,
+      "or_ext": -0.8589147286821649,
+      "atr": 5.4178571428571685,
+      "body_frac": 0.311926605504679,
+      "rsi_proxy": 50.0,
+      "mae": 10.200000000000728,
+      "mfe": 95.45000000000073,
+      "full_i": 813,
+      "families": {
+        "pat_wick": [
+          5.51,
+          5.0
+        ],
+        "atr_1_0_6": [
+          5.42,
+          5.0
+        ],
+        "atr_1_3_0_7": [
+          7.04,
+          5.0
+        ],
+        "or_frac": [
+          16.12,
+          7.74
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "hammer"
+        ],
+        "bars": [
+          {
+            "hm": "10:16",
+            "o": 14064.25,
+            "h": 14065.5,
+            "l": 14061.8,
+            "c": 14061.8,
+            "body_frac": 0.662,
+            "role": "lead"
+          },
+          {
+            "hm": "10:17",
+            "o": 14061.6,
+            "h": 14061.85,
+            "l": 14056.75,
+            "c": 14056.75,
+            "body_frac": 0.951,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:18",
+            "o": 14057.55,
+            "h": 14059.45,
+            "l": 14054.0,
+            "c": 14059.25,
+            "body_frac": 0.312,
+            "role": "confirm"
+          }
+        ],
+        "trend5": -14.4
+      },
+      "trend5": -14.399999999999636
+    },
+    {
+      "day": "2021-01-07",
+      "hm": "10:00",
+      "decision": "BUY",
+      "primary": "hammer",
+      "patterns": [
+        "hammer"
+      ],
+      "entry": 14223.75,
+      "mins": 600,
+      "clock": "early",
+      "or_width": 34.75,
+      "or_ext": -0.8633093525179856,
+      "atr": 4.585714285714208,
+      "body_frac": 0.06410256410257008,
+      "rsi_proxy": 50.0,
+      "mae": 58.04999999999927,
+      "mfe": 0.8500000000003638,
+      "full_i": 1545,
+      "families": {
+        "pat_wick": [
+          5.25,
+          5.0
+        ],
+        "atr_1_0_6": [
+          5.0,
+          5.0
+        ],
+        "atr_1_3_0_7": [
+          5.96,
+          5.0
+        ],
+        "or_frac": [
+          8.69,
+          5.0
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "hammer"
+        ],
+        "bars": [
+          {
+            "hm": "09:58",
+            "o": 14226.35,
+            "h": 14229.75,
+            "l": 14225.9,
+            "c": 14228.25,
+            "body_frac": 0.494,
+            "role": "lead"
+          },
+          {
+            "hm": "09:59",
+            "o": 14228.75,
+            "h": 14228.75,
+            "l": 14223.3,
+            "c": 14223.45,
+            "body_frac": 0.972,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:00",
+            "o": 14223.5,
+            "h": 14223.75,
+            "l": 14219.85,
+            "c": 14223.75,
+            "body_frac": 0.064,
+            "role": "confirm"
+          }
+        ],
+        "trend5": -1.2
+      },
+      "trend5": -1.2000000000007276
+    },
+    {
+      "day": "2021-01-08",
+      "hm": "10:02",
+      "decision": "SELL",
+      "primary": "bear_engulf",
+      "patterns": [
+        "bear_engulf",
+        "belt_bear"
+      ],
+      "entry": 14241.15,
+      "mins": 602,
+      "clock": "early",
+      "or_width": 34.29999999999927,
+      "or_ext": -0.4970845481049456,
+      "atr": 4.4642857142853245,
+      "body_frac": 0.8431372549021147,
+      "rsi_proxy": 50.0,
+      "mae": 55.05000000000109,
+      "mfe": 2.6999999999989086,
+      "full_i": 1922,
+      "families": {
+        "pat_wick": [
+          5.25,
+          5.0
+        ],
+        "atr_1_0_6": [
+          5.0,
+          5.0
+        ],
+        "atr_1_3_0_7": [
+          5.8,
+          5.0
+        ],
+        "or_frac": [
+          8.57,
+          5.0
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "bear_engulf",
+          "belt_bear"
+        ],
+        "bars": [
+          {
+            "hm": "10:00",
+            "o": 14242.85,
+            "h": 14244.9,
+            "l": 14242.1,
+            "c": 14244.0,
+            "body_frac": 0.411,
+            "role": "lead"
+          },
+          {
+            "hm": "10:01",
+            "o": 14243.8,
+            "h": 14246.05,
+            "l": 14242.65,
+            "c": 14244.5,
+            "body_frac": 0.206,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:02",
+            "o": 14245.45,
+            "h": 14245.45,
+            "l": 14240.35,
+            "c": 14241.15,
+            "body_frac": 0.843,
+            "role": "confirm"
+          }
+        ],
+        "trend5": 1.6
+      },
+      "trend5": 1.6000000000003638
+    },
+    {
+      "day": "2021-01-11",
+      "hm": "10:03",
+      "decision": "SELL",
+      "primary": "bear_engulf",
+      "patterns": [
+        "bear_engulf",
+        "marubozu_bear",
+        "belt_bear"
+      ],
+      "entry": 14464.55,
+      "mins": 603,
+      "clock": "early",
+      "or_width": 69.14999999999964,
+      "or_ext": -0.8626174981923348,
+      "atr": 6.99999999999974,
+      "body_frac": 0.8947368421055318,
+      "rsi_proxy": 50.0,
+      "mae": 0.8500000000003638,
+      "mfe": 80.44999999999891,
+      "full_i": 2298,
+      "families": {
+        "pat_wick": [
+          6.61,
+          5.0
+        ],
+        "atr_1_0_6": [
+          7.0,
+          5.0
+        ],
+        "atr_1_3_0_7": [
+          9.1,
+          5.0
+        ],
+        "or_frac": [
+          17.29,
+          8.3
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "bear_engulf",
+          "marubozu_bear",
+          "belt_bear"
+        ],
+        "bars": [
+          {
+            "hm": "10:01",
+            "o": 14467.75,
+            "h": 14470.45,
+            "l": 14463.7,
+            "c": 14464.1,
+            "body_frac": 0.541,
+            "role": "lead"
+          },
+          {
+            "hm": "10:02",
+            "o": 14464.55,
+            "h": 14467.35,
+            "l": 14461.7,
+            "c": 14466.7,
+            "body_frac": 0.381,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:03",
+            "o": 14467.1,
+            "h": 14467.15,
+            "l": 14464.3,
+            "c": 14464.55,
+            "body_frac": 0.895,
+            "role": "confirm"
+          }
+        ],
+        "trend5": -5.5
+      },
+      "trend5": -5.5
+    },
+    {
+      "day": "2021-01-12",
+      "hm": "10:01",
+      "decision": "SELL",
+      "primary": "bear_engulf",
+      "patterns": [
+        "bear_engulf"
+      ],
+      "entry": 14471.6,
+      "mins": 601,
+      "clock": "early",
+      "or_width": 54.099999999998545,
+      "or_ext": -0.6589648798521367,
+      "atr": 5.410714285714156,
+      "body_frac": 0.5806451612903226,
+      "rsi_proxy": 50.0,
+      "mae": 53.850000000000364,
+      "mfe": 21.0,
+      "full_i": 2671,
+      "families": {
+        "pat_wick": [
+          8.14,
+          5.0
+        ],
+        "atr_1_0_6": [
+          5.41,
+          5.0
+        ],
+        "atr_1_3_0_7": [
+          7.03,
+          5.0
+        ],
+        "or_frac": [
+          13.52,
+          6.49
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "bear_engulf"
+        ],
+        "bars": [
+          {
+            "hm": "09:59",
+            "o": 14468.7,
+            "h": 14473.05,
+            "l": 14466.95,
+            "c": 14471.9,
+            "body_frac": 0.525,
+            "role": "lead"
+          },
+          {
+            "hm": "10:00",
+            "o": 14472.7,
+            "h": 14476.15,
+            "l": 14469.25,
+            "c": 14475.9,
+            "body_frac": 0.464,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:01",
+            "o": 14476.1,
+            "h": 14479.35,
+            "l": 14471.6,
+            "c": 14471.6,
+            "body_frac": 0.581,
+            "role": "confirm"
+          }
+        ],
+        "trend5": -3.85
+      },
+      "trend5": -3.850000000000364
+    },
+    {
+      "day": "2021-01-13",
+      "hm": "10:08",
+      "decision": "BUY",
+      "primary": "bull_engulf",
+      "patterns": [
+        "bull_engulf"
+      ],
+      "entry": 14631.0,
+      "mins": 608,
+      "clock": "early",
+      "or_width": 23.599999999998545,
+      "or_ext": -0.5211864406779674,
+      "atr": 4.853571428571221,
+      "body_frac": 0.4945054945055736,
+      "rsi_proxy": 50.0,
+      "mae": 104.25,
+      "mfe": 5.049999999999272,
+      "full_i": 3053,
+      "families": {
+        "pat_wick": [
+          5.25,
+          5.0
+        ],
+        "atr_1_0_6": [
+          5.0,
+          5.0
+        ],
+        "atr_1_3_0_7": [
+          6.31,
+          5.0
+        ],
+        "or_frac": [
+          5.9,
+          5.0
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "bull_engulf"
+        ],
+        "bars": [
+          {
+            "hm": "10:06",
+            "o": 14633.0,
+            "h": 14633.95,
+            "l": 14630.35,
+            "c": 14631.55,
+            "body_frac": 0.403,
+            "role": "lead"
+          },
+          {
+            "hm": "10:07",
+            "o": 14630.5,
+            "h": 14632.3,
+            "l": 14628.4,
+            "c": 14630.05,
+            "body_frac": 0.115,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:08",
+            "o": 14628.75,
+            "h": 14632.05,
+            "l": 14627.5,
+            "c": 14631.0,
+            "body_frac": 0.495,
+            "role": "confirm"
+          }
+        ],
+        "trend5": -5.55
+      },
+      "trend5": -5.549999999999272
+    },
+    {
+      "day": "2021-01-15",
+      "hm": "10:00",
+      "decision": "BUY",
+      "primary": "bull_engulf",
+      "patterns": [
+        "bull_engulf"
+      ],
+      "entry": 14547.65,
+      "mins": 600,
+      "clock": "early",
+      "or_width": 47.25,
+      "or_ext": -1.4497354497354498,
+      "atr": 10.889285714285636,
+      "body_frac": 0.5534351145038015,
+      "rsi_proxy": 50.0,
+      "mae": 101.44999999999891,
+      "mfe": 3.350000000000364,
+      "full_i": 3795,
+      "families": {
+        "pat_wick": [
+          10.39,
+          5.99
+        ],
+        "atr_1_0_6": [
+          10.89,
+          6.53
+        ],
+        "atr_1_3_0_7": [
+          14.16,
+          7.62
+        ],
+        "or_frac": [
+          11.81,
+          5.67
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "bull_engulf"
+        ],
+        "bars": [
+          {
+            "hm": "09:58",
+            "o": 14538.4,
+            "h": 14547.4,
+            "l": 14538.35,
+            "c": 14545.05,
+            "body_frac": 0.735,
+            "role": "lead"
+          },
+          {
+            "hm": "09:59",
+            "o": 14545.45,
+            "h": 14548.25,
+            "l": 14540.9,
+            "c": 14541.0,
+            "body_frac": 0.605,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:00",
+            "o": 14540.4,
+            "h": 14550.85,
+            "l": 14537.75,
+            "c": 14547.65,
+            "body_frac": 0.553,
+            "role": "confirm"
+          }
+        ],
+        "trend5": 17.7
+      },
+      "trend5": 17.69999999999891
+    },
+    {
+      "day": "2021-01-18",
+      "hm": "10:00",
+      "decision": "BUY",
+      "primary": "hammer",
+      "patterns": [
+        "hammer"
+      ],
+      "entry": 14326.0,
+      "mins": 600,
+      "clock": "early",
+      "or_width": 75.04999999999927,
+      "or_ext": -1.7175216522318573,
+      "atr": 10.549999999999793,
+      "body_frac": 0.22065727699534687,
+      "rsi_proxy": 50.0,
+      "mae": 61.70000000000073,
+      "mfe": 25.600000000000364,
+      "full_i": 4170,
+      "families": {
+        "pat_wick": [
+          10.76,
+          5.8
+        ],
+        "atr_1_0_6": [
+          10.55,
+          6.33
+        ],
+        "atr_1_3_0_7": [
+          13.71,
+          7.38
+        ],
+        "or_frac": [
+          18.76,
+          9.01
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "hammer"
+        ],
+        "bars": [
+          {
+            "hm": "09:58",
+            "o": 14337.55,
+            "h": 14343.75,
+            "l": 14336.35,
+            "c": 14340.0,
+            "body_frac": 0.331,
+            "role": "lead"
+          },
+          {
+            "hm": "09:59",
+            "o": 14339.85,
+            "h": 14340.4,
+            "l": 14320.8,
+            "c": 14321.55,
+            "body_frac": 0.934,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:00",
+            "o": 14323.65,
+            "h": 14326.4,
+            "l": 14315.75,
+            "c": 14326.0,
+            "body_frac": 0.221,
+            "role": "confirm"
+          }
+        ],
+        "trend5": -16.1
+      },
+      "trend5": -16.100000000000364
+    },
+    {
+      "day": "2021-01-18",
+      "hm": "10:01",
+      "decision": "SELL",
+      "primary": "bear_engulf",
+      "patterns": [
+        "bear_engulf"
+      ],
+      "entry": 14322.15,
+      "mins": 601,
+      "clock": "early",
+      "or_width": 75.04999999999927,
+      "or_ext": 0.7688207861425888,
+      "atr": 10.97857142857109,
+      "body_frac": 0.4256198347107649,
+      "rsi_proxy": 50.0,
+      "mae": 29.450000000000728,
+      "mfe": 57.850000000000364,
+      "full_i": 4171,
+      "families": {
+        "pat_wick": [
+          19.16,
+          6.71
+        ],
+        "atr_1_0_6": [
+          10.98,
+          6.59
+        ],
+        "atr_1_3_0_7": [
+          14.27,
+          7.68
+        ],
+        "or_frac": [
+          18.76,
+          9.01
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "bear_engulf"
+        ],
+        "bars": [
+          {
+            "hm": "09:59",
+            "o": 14339.85,
+            "h": 14340.4,
+            "l": 14320.8,
+            "c": 14321.55,
+            "body_frac": 0.934,
+            "role": "lead"
+          },
+          {
+            "hm": "10:00",
+            "o": 14323.65,
+            "h": 14326.4,
+            "l": 14315.75,
+            "c": 14326.0,
+            "body_frac": 0.221,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:01",
+            "o": 14327.3,
+            "h": 14330.8,
+            "l": 14318.7,
+            "c": 14322.15,
+            "body_frac": 0.426,
+            "role": "confirm"
+          }
+        ],
+        "trend5": -23.65
+      },
+      "trend5": -23.649999999999636
+    },
+    {
+      "day": "2021-01-19",
+      "hm": "10:02",
+      "decision": "BUY",
+      "primary": "bull_engulf",
+      "patterns": [
+        "bull_engulf",
+        "belt_bull"
+      ],
+      "entry": 14392.55,
+      "mins": 602,
+      "clock": "early",
+      "or_width": 50.0,
+      "or_ext": -0.5260000000000218,
+      "atr": 7.5714285714284415,
+      "body_frac": 0.6825396825396459,
+      "rsi_proxy": 50.0,
+      "mae": 1.4499999999989086,
+      "mfe": 84.95000000000073,
+      "full_i": 4547,
+      "families": {
+        "pat_wick": [
+          14.59,
+          5.11
+        ],
+        "atr_1_0_6": [
+          7.57,
+          5.0
+        ],
+        "atr_1_3_0_7": [
+          9.84,
+          5.3
+        ],
+        "or_frac": [
+          12.5,
+          6.0
+        ]
+      },
+      "formation": {
+        "patterns": [
+          "bull_engulf",
+          "belt_bull"
+        ],
+        "bars": [
+          {
+            "hm": "10:00",
+            "o": 14379.7,
+            "h": 14388.85,
+            "l": 14378.65,
+            "c": 14387.7,
+            "body_frac": 0.784,
+            "role": "lead"
+          },
+          {
+            "hm": "10:01",
+            "o": 14387.95,
+            "h": 14388.15,
+            "l": 14381.85,
+            "c": 14384.3,
+            "body_frac": 0.579,
+            "role": "star/mid"
+          },
+          {
+            "hm": "10:02",
+            "o": 14383.95,
+            "h": 14396.55,
+            "l": 14383.95,
+            "c": 14392.55,
+            "body_frac": 0.683,
+            "role": "confirm"
+          }
+        ],
+        "trend5": 15.05
+      },
+      "trend5": 15.049999999999272
+    }
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/cm45t3r/candlestick/master/docs/PATTERNS.md",
+    "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/candlestick-pattern-dictionary",
+    "https://ta-lib.github.io/ta-lib-python/func_groups/pattern_recognition.html"
+  ],
+  "refine_both100": [],
+  "refine_union": {
+    "n": 0,
+    "hit_pct": 0.0,
+    "calls": []
+  }
+}

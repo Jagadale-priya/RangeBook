@@ -1,0 +1,440 @@
+{
+  "baseline_wall": {
+    "win_wall_t1": 51.2,
+    "loss_wall_t1": 68.0
+  },
+  "windows": {
+    "last_1y": {
+      "schemes_t12": {
+        "HELD + clear_ATR": {
+          "n": 247,
+          "hit": 74.49,
+          "cover": 99.6,
+          "avg_pts": 1.14,
+          "total_pts": 280.75,
+          "med_pts": 12.0,
+          "pf": 1.15,
+          "avg_room_fav": 306.46
+        },
+        "HELD + clear_T1 (no wall <12)": {
+          "n": 247,
+          "hit": 73.28,
+          "cover": 99.6,
+          "avg_pts": 0.93,
+          "total_pts": 230.2,
+          "med_pts": 12.0,
+          "pf": 1.12,
+          "avg_room_fav": 325.19
+        },
+        "HELD + clear_T1 + not_bounce_only": {
+          "n": 247,
+          "hit": 73.28,
+          "cover": 99.6,
+          "avg_pts": 0.93,
+          "total_pts": 230.2,
+          "med_pts": 12.0,
+          "pf": 1.12,
+          "avg_room_fav": 325.19
+        },
+        "HELD + !into_wall + room_against\u22641ATR (backed)": {
+          "n": 247,
+          "hit": 72.87,
+          "cover": 99.6,
+          "avg_pts": 1.52,
+          "total_pts": 376.1,
+          "med_pts": 12.0,
+          "pf": 1.21,
+          "avg_room_fav": 301.28
+        },
+        "HELD + clear_1.5ATR": {
+          "n": 247,
+          "hit": 72.06,
+          "cover": 99.6,
+          "avg_pts": 0.34,
+          "total_pts": 83.95,
+          "med_pts": 12.0,
+          "pf": 1.04,
+          "avg_room_fav": 419.44
+        },
+        "HELD + clear_20": {
+          "n": 247,
+          "hit": 70.45,
+          "cover": 99.6,
+          "avg_pts": -0.13,
+          "total_pts": -32.05,
+          "med_pts": 12.0,
+          "pf": 0.98,
+          "avg_room_fav": 466.33
+        },
+        "HELD + room_fav\u226520": {
+          "n": 247,
+          "hit": 70.45,
+          "cover": 99.6,
+          "avg_pts": -0.13,
+          "total_pts": -32.05,
+          "med_pts": 12.0,
+          "pf": 0.98,
+          "avg_room_fav": 466.33
+        },
+        "HELD + bounce (near fav S/R)": {
+          "n": 247,
+          "hit": 70.04,
+          "cover": 99.6,
+          "avg_pts": -0.02,
+          "total_pts": -4.85,
+          "med_pts": 12.0,
+          "pf": 1.0,
+          "avg_room_fav": 135.4
+        },
+        "HELD + room_fav\u226515": {
+          "n": 247,
+          "hit": 69.64,
+          "cover": 99.6,
+          "avg_pts": -0.25,
+          "total_pts": -62.95,
+          "med_pts": 12.0,
+          "pf": 0.97,
+          "avg_room_fav": 383.46
+        },
+        "HELD only": {
+          "n": 247,
+          "hit": 69.64,
+          "cover": 99.6,
+          "avg_pts": -1.16,
+          "total_pts": -286.0,
+          "med_pts": 12.0,
+          "pf": 0.88,
+          "avg_room_fav": 169.42
+        },
+        "HELD + room_fav\u226525": {
+          "n": 246,
+          "hit": 69.51,
+          "cover": 99.19,
+          "avg_pts": -0.89,
+          "total_pts": -218.4,
+          "med_pts": 12.0,
+          "pf": 0.9,
+          "avg_room_fav": 524.66
+        },
+        "HELD + bounce + clear_T1": {
+          "n": 246,
+          "hit": 69.11,
+          "cover": 99.19,
+          "avg_pts": 0.44,
+          "total_pts": 108.2,
+          "med_pts": 12.0,
+          "pf": 1.06,
+          "avg_room_fav": 305.67
+        },
+        "HELD + clear_20 + bounce": {
+          "n": 242,
+          "hit": 68.18,
+          "cover": 97.58,
+          "avg_pts": 0.22,
+          "total_pts": 53.5,
+          "med_pts": 12.0,
+          "pf": 1.03,
+          "avg_room_fav": 447.63
+        },
+        "HELD + clear_30": {
+          "n": 246,
+          "hit": 67.48,
+          "cover": 99.19,
+          "avg_pts": -1.64,
+          "total_pts": -404.15,
+          "med_pts": 12.0,
+          "pf": 0.83,
+          "avg_room_fav": 549.03
+        }
+      }
+    },
+    "last_3m": {
+      "schemes_t12": {
+        "HELD + bounce (near fav S/R)": {
+          "n": 62,
+          "hit": 79.03,
+          "cover": 98.41,
+          "avg_pts": 4.26,
+          "total_pts": 263.95,
+          "med_pts": 12.0,
+          "pf": 1.81,
+          "avg_room_fav": 93.5
+        },
+        "HELD + clear_ATR": {
+          "n": 62,
+          "hit": 79.03,
+          "cover": 98.41,
+          "avg_pts": 3.42,
+          "total_pts": 212.15,
+          "med_pts": 12.0,
+          "pf": 1.56,
+          "avg_room_fav": 230.87
+        },
+        "HELD only": {
+          "n": 62,
+          "hit": 77.42,
+          "cover": 98.41,
+          "avg_pts": 3.89,
+          "total_pts": 241.05,
+          "med_pts": 12.0,
+          "pf": 1.72,
+          "avg_room_fav": 147.75
+        },
+        "HELD + !into_wall + room_against\u22641ATR (backed)": {
+          "n": 62,
+          "hit": 75.81,
+          "cover": 98.41,
+          "avg_pts": 3.98,
+          "total_pts": 246.95,
+          "med_pts": 12.0,
+          "pf": 1.78,
+          "avg_room_fav": 257.52
+        },
+        "HELD + clear_T1 (no wall <12)": {
+          "n": 62,
+          "hit": 75.81,
+          "cover": 98.41,
+          "avg_pts": 3.22,
+          "total_pts": 199.75,
+          "med_pts": 12.0,
+          "pf": 1.55,
+          "avg_room_fav": 274.66
+        },
+        "HELD + clear_T1 + not_bounce_only": {
+          "n": 62,
+          "hit": 75.81,
+          "cover": 98.41,
+          "avg_pts": 3.22,
+          "total_pts": 199.75,
+          "med_pts": 12.0,
+          "pf": 1.55,
+          "avg_room_fav": 274.66
+        },
+        "HELD + bounce + clear_T1": {
+          "n": 62,
+          "hit": 72.58,
+          "cover": 98.41,
+          "avg_pts": 2.21,
+          "total_pts": 136.85,
+          "med_pts": 12.0,
+          "pf": 1.34,
+          "avg_room_fav": 302.87
+        },
+        "HELD + clear_20": {
+          "n": 62,
+          "hit": 66.13,
+          "cover": 98.41,
+          "avg_pts": -0.96,
+          "total_pts": -59.75,
+          "med_pts": 12.0,
+          "pf": 0.89,
+          "avg_room_fav": 551.01
+        },
+        "HELD + room_fav\u226520": {
+          "n": 62,
+          "hit": 66.13,
+          "cover": 98.41,
+          "avg_pts": -0.96,
+          "total_pts": -59.75,
+          "med_pts": 12.0,
+          "pf": 0.89,
+          "avg_room_fav": 551.01
+        },
+        "HELD + clear_1.5ATR": {
+          "n": 62,
+          "hit": 66.13,
+          "cover": 98.41,
+          "avg_pts": -1.3,
+          "total_pts": -80.6,
+          "med_pts": 12.0,
+          "pf": 0.86,
+          "avg_room_fav": 454.32
+        },
+        "HELD + clear_20 + bounce": {
+          "n": 61,
+          "hit": 65.57,
+          "cover": 96.83,
+          "avg_pts": 0.15,
+          "total_pts": 9.35,
+          "med_pts": 12.0,
+          "pf": 1.02,
+          "avg_room_fav": 540.44
+        },
+        "HELD + room_fav\u226515": {
+          "n": 62,
+          "hit": 64.52,
+          "cover": 98.41,
+          "avg_pts": -1.42,
+          "total_pts": -88.1,
+          "med_pts": 12.0,
+          "pf": 0.84,
+          "avg_room_fav": 407.69
+        },
+        "HELD + room_fav\u226525": {
+          "n": 62,
+          "hit": 64.52,
+          "cover": 98.41,
+          "avg_pts": -2.27,
+          "total_pts": -140.5,
+          "med_pts": 12.0,
+          "pf": 0.77,
+          "avg_room_fav": 631.38
+        },
+        "HELD + clear_30": {
+          "n": 62,
+          "hit": 64.52,
+          "cover": 98.41,
+          "avg_pts": -2.71,
+          "total_pts": -168.1,
+          "med_pts": 12.0,
+          "pf": 0.74,
+          "avg_room_fav": 663.61
+        }
+      }
+    },
+    "last_1m": {
+      "schemes_t12": {
+        "HELD + clear_20 + bounce": {
+          "n": 19,
+          "hit": 84.21,
+          "cover": 95.0,
+          "avg_pts": 4.32,
+          "total_pts": 82.0,
+          "med_pts": 12.0,
+          "pf": 1.75,
+          "avg_room_fav": 546.91
+        },
+        "HELD + !into_wall + room_against\u22641ATR (backed)": {
+          "n": 19,
+          "hit": 78.95,
+          "cover": 95.0,
+          "avg_pts": 1.77,
+          "total_pts": 33.65,
+          "med_pts": 12.0,
+          "pf": 1.23,
+          "avg_room_fav": 239.76
+        },
+        "HELD only": {
+          "n": 19,
+          "hit": 78.95,
+          "cover": 95.0,
+          "avg_pts": 1.19,
+          "total_pts": 22.55,
+          "med_pts": 12.0,
+          "pf": 1.14,
+          "avg_room_fav": 125.46
+        },
+        "HELD + clear_20": {
+          "n": 19,
+          "hit": 78.95,
+          "cover": 95.0,
+          "avg_pts": 0.62,
+          "total_pts": 11.7,
+          "med_pts": 12.0,
+          "pf": 1.07,
+          "avg_room_fav": 554.41
+        },
+        "HELD + room_fav\u226520": {
+          "n": 19,
+          "hit": 78.95,
+          "cover": 95.0,
+          "avg_pts": 0.62,
+          "total_pts": 11.7,
+          "med_pts": 12.0,
+          "pf": 1.07,
+          "avg_room_fav": 554.41
+        },
+        "HELD + bounce (near fav S/R)": {
+          "n": 19,
+          "hit": 73.68,
+          "cover": 95.0,
+          "avg_pts": 1.01,
+          "total_pts": 19.15,
+          "med_pts": 12.0,
+          "pf": 1.13,
+          "avg_room_fav": 162.26
+        },
+        "HELD + bounce + clear_T1": {
+          "n": 19,
+          "hit": 73.68,
+          "cover": 95.0,
+          "avg_pts": -0.06,
+          "total_pts": -1.05,
+          "med_pts": 12.0,
+          "pf": 0.99,
+          "avg_room_fav": 338.33
+        },
+        "HELD + clear_T1 (no wall <12)": {
+          "n": 19,
+          "hit": 73.68,
+          "cover": 95.0,
+          "avg_pts": -0.7,
+          "total_pts": -13.3,
+          "med_pts": 12.0,
+          "pf": 0.93,
+          "avg_room_fav": 241.59
+        },
+        "HELD + clear_T1 + not_bounce_only": {
+          "n": 19,
+          "hit": 73.68,
+          "cover": 95.0,
+          "avg_pts": -0.7,
+          "total_pts": -13.3,
+          "med_pts": 12.0,
+          "pf": 0.93,
+          "avg_room_fav": 241.59
+        },
+        "HELD + room_fav\u226515": {
+          "n": 19,
+          "hit": 73.68,
+          "cover": 95.0,
+          "avg_pts": -0.7,
+          "total_pts": -13.3,
+          "med_pts": 12.0,
+          "pf": 0.93,
+          "avg_room_fav": 293.48
+        },
+        "HELD + clear_ATR": {
+          "n": 19,
+          "hit": 73.68,
+          "cover": 95.0,
+          "avg_pts": -1.39,
+          "total_pts": -26.45,
+          "med_pts": 12.0,
+          "pf": 0.86,
+          "avg_room_fav": 297.2
+        },
+        "HELD + clear_30": {
+          "n": 19,
+          "hit": 73.68,
+          "cover": 95.0,
+          "avg_pts": -1.78,
+          "total_pts": -33.85,
+          "med_pts": 12.0,
+          "pf": 0.83,
+          "avg_room_fav": 658.13
+        },
+        "HELD + room_fav\u226525": {
+          "n": 19,
+          "hit": 73.68,
+          "cover": 95.0,
+          "avg_pts": -1.78,
+          "total_pts": -33.85,
+          "med_pts": 12.0,
+          "pf": 0.83,
+          "avg_room_fav": 606.97
+        },
+        "HELD + clear_1.5ATR": {
+          "n": 19,
+          "hit": 68.42,
+          "cover": 95.0,
+          "avg_pts": -3.32,
+          "total_pts": -63.15,
+          "med_pts": 12.0,
+          "pf": 0.71,
+          "avg_room_fav": 555.38
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "window": {
+    "start": "2026-05-22",
+    "end": "2026-11-20",
+    "n": 126
+  },
+  "months": [
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11"
+  ],
+  "table": {
+    "pa_only": {
+      "months": {
+        "2026-05": {
+          "n": 22,
+          "hit_pct": 72.73,
+          "avg_R": 0.628,
+          "sum_pts": 239.55,
+          "hard_sl": 5,
+          "sessions": 5,
+          "avg_per_day": 4.4
+        },
+        "2026-06": {
+          "n": 130,
+          "hit_pct": 58.46,
+          "avg_R": 0.37,
+          "sum_pts": 627.7,
+          "hard_sl": 52,
+          "sessions": 21,
+          "avg_per_day": 6.19
+        },
+        "2026-07": {
+          "n": 145,
+          "hit_pct": 52.41,
+          "avg_R": 0.095,
+          "sum_pts": 185.25,
+          "hard_sl": 69,
+          "sessions": 23,
+          "avg_per_day": 6.3
+        },
+        "2026-08": {
+          "n": 164,
+          "hit_pct": 63.41,
+          "avg_R": 0.387,
+          "sum_pts": 693.4,
+          "hard_sl": 57,
+          "sessions": 21,
+          "avg_per_day": 7.81
+        },
+        "2026-09": {
+          "n": 148,
+          "hit_pct": 62.84,
+          "avg_R": 0.388,
+          "sum_pts": 708.25,
+          "hard_sl": 54,
+          "sessions": 21,
+          "avg_per_day": 7.05
+        },
+        "2026-10": {
+          "n": 105,
+          "hit_pct": 63.81,
+          "avg_R": 0.464,
+          "sum_pts": 652.45,
+          "hard_sl": 34,
+          "sessions": 20,
+          "avg_per_day": 5.25
+        },
+        "2026-11": {
+          "n": 69,
+          "hit_pct": 69.57,
+          "avg_R": 0.613,
+          "sum_pts": 598.3,
+          "hard_sl": 20,
+          "sessions": 15,
+          "avg_per_day": 4.6
+        }
+      },
+      "total_6m": {
+        "n": 783,
+        "hit_pct": 61.3,
+        "avg_R": 0.367,
+        "sum_pts": 3704.9,
+        "hard_sl": 291
+      }
+    },
+    "frvp_vah_break": {
+      "months": {
+        "2026-05": {
+          "n": 18,
+          "hit_pct": 77.78,
+          "avg_R": 0.772,
+          "sum_pts": 249.75,
+          "hard_sl": 4,
+          "sessions": 5,
+          "avg_per_day": 3.6
+        },
+        "2026-06": {
+          "n": 112,
+          "hit_pct": 59.82,
+          "avg_R": 0.381,
+          "sum_pts": 526.07,
+          "hard_sl": 44,
+          "sessions": 21,
+          "avg_per_day": 5.33
+        },
+        "2026-07": {
+          "n": 134,
+          "hit_pct": 48.51,
+          "avg_R": 0.021,
+          "sum_pts": 9.02,
+          "hard_sl": 69,
+          "sessions": 23,
+          "avg_per_day": 5.83
+        },
+        "2026-08": {
+          "n": 149,
+          "hit_pct": 61.07,
+          "avg_R": 0.338,
+          "sum_pts": 520.45,
+          "hard_sl": 54,
+          "sessions": 21,
+          "avg_per_day": 7.1
+        },
+        "2026-09": {
+          "n": 134,
+          "hit_pct": 61.94,
+          "avg_R": 0.356,
+          "sum_pts": 618.26,
+          "hard_sl": 50,
+          "sessions": 21,
+          "avg_per_day": 6.38
+        },
+        "2026-10": {
+          "n": 102,
+          "hit_pct": 61.76,
+          "avg_R": 0.388,
+          "sum_pts": 583.81,
+          "hard_sl": 35,
+          "sessions": 20,
+          "avg_per_day": 5.1
+        },
+        "2026-11": {
+          "n": 57,
+          "hit_pct": 71.93,
+          "avg_R": 0.556,
+          "sum_pts": 547.95,
+          "hard_sl": 15,
+          "sessions": 15,
+          "avg_per_day": 3.8
+        }
+      },
+      "total_6m": {
+        "n": 706,
+        "hit_pct": 60.06,
+        "avg_R": 0.324,
+        "sum_pts": 3055.31,
+        "hard_sl": 271
+      }
+    },
+    "frvp_no_exhaust": {
+      "months": {
+        "2026-05": {
+          "n": 18,
+          "hit_pct": 77.78,
+          "avg_R": 0.706,
+          "sum_pts": 242.7,
+          "hard_sl": 4,
+          "sessions": 5,
+          "avg_per_day": 3.6
+        },
+        "2026-06": {
+          "n": 104,
+          "hit_pct": 54.81,
+          "avg_R": 0.218,
+          "sum_pts": 312.74,
+          "hard_sl": 46,
+          "sessions": 21,
+          "avg_per_day": 4.95
+        },
+        "2026-07": {
+          "n": 120,
+          "hit_pct": 49.17,
+          "avg_R": -0.02,
+          "sum_pts": -78.09,
+          "hard_sl": 60,
+          "sessions": 23,
+          "avg_per_day": 5.22
+        },
+        "2026-08": {
+          "n": 141,
+          "hit_pct": 59.57,
+          "avg_R": 0.262,
+          "sum_pts": 413.91,
+          "hard_sl": 53,
+          "sessions": 21,
+          "avg_per_day": 6.71
+        },
+        "2026-09": {
+          "n": 126,
+          "hit_pct": 61.9,
+          "avg_R": 0.335,
+          "sum_pts": 557.81,
+          "hard_sl": 48,
+          "sessions": 21,
+          "avg_per_day": 6.0
+        },
+        "2026-10": {
+          "n": 94,
+          "hit_pct": 60.64,
+          "avg_R": 0.443,
+          "sum_pts": 627.11,
+          "hard_sl": 33,
+          "sessions": 20,
+          "avg_per_day": 4.7
+        },
+        "2026-11": {
+          "n": 50,
+          "hit_pct": 74.0,
+          "avg_R": 0.607,
+          "sum_pts": 532.05,
+          "hard_sl": 12,
+          "sessions": 15,
+          "avg_per_day": 3.33
+        }
+      },
+      "total_6m": {
+        "n": 653,
+        "hit_pct": 59.11,
+        "avg_R": 0.282,
+        "sum_pts": 2608.23,
+        "hard_sl": 256
+      }
+    },
+    "frvp_read_v3_pin": {
+      "months": {
+        "2026-05": {
+          "n": 13,
+          "hit_pct": 61.54,
+          "avg_R": 0.758,
+          "sum_pts": 112.4,
+          "hard_sl": 4,
+          "sessions": 5,
+          "avg_per_day": 2.6
+        },
+        "2026-06": {
+          "n": 75,
+          "hit_pct": 62.67,
+          "avg_R": 0.387,
+          "sum_pts": 443.3,
+          "hard_sl": 27,
+          "sessions": 21,
+          "avg_per_day": 3.57
+        },
+        "2026-07": {
+          "n": 88,
+          "hit_pct": 51.14,
+          "avg_R": 0.005,
+          "sum_pts": -19.42,
+          "hard_sl": 43,
+          "sessions": 23,
+          "avg_per_day": 3.83
+        },
+        "2026-08": {
+          "n": 108,
+          "hit_pct": 58.33,
+          "avg_R": 0.247,
+          "sum_pts": 278.35,
+          "hard_sl": 43,
+          "sessions": 21,
+          "avg_per_day": 5.14
+        },
+        "2026-09": {
+          "n": 100,
+          "hit_pct": 61.0,
+          "avg_R": 0.324,
+          "sum_pts": 507.14,
+          "hard_sl": 38,
+          "sessions": 21,
+          "avg_per_day": 4.76
+        },
+        "2026-10": {
+          "n": 64,
+          "hit_pct": 70.31,
+          "avg_R": 0.622,
+          "sum_pts": 581.71,
+          "hard_sl": 19,
+          "sessions": 20,
+          "avg_per_day": 3.2
+        },
+        "2026-11": {
+          "n": 34,
+          "hit_pct": 82.35,
+          "avg_R": 0.665,
+          "sum_pts": 383.45,
+          "hard_sl": 6,
+          "sessions": 15,
+          "avg_per_day": 2.27
+        }
+      },
+      "total_6m": {
+        "n": 482,
+        "hit_pct": 61.62,
+        "avg_R": 0.334,
+        "sum_pts": 2286.93,
+        "hard_sl": 180
+      }
+    },
+    "no_trap": {
+      "months": {
+        "2026-05": {
+          "n": 22,
+          "hit_pct": 72.73,
+          "avg_R": 0.63,
+          "sum_pts": 239.9,
+          "hard_sl": 5,
+          "sessions": 5,
+          "avg_per_day": 4.4
+        },
+        "2026-06": {
+          "n": 127,
+          "hit_pct": 60.63,
+          "avg_R": 0.397,
+          "sum_pts": 652.05,
+          "hard_sl": 49,
+          "sessions": 21,
+          "avg_per_day": 6.05
+        },
+        "2026-07": {
+          "n": 144,
+          "hit_pct": 52.08,
+          "avg_R": 0.078,
+          "sum_pts": 185.05,
+          "hard_sl": 67,
+          "sessions": 23,
+          "avg_per_day": 6.26
+        },
+        "2026-08": {
+          "n": 163,
+          "hit_pct": 63.8,
+          "avg_R": 0.355,
+          "sum_pts": 650.2,
+          "hard_sl": 58,
+          "sessions": 21,
+          "avg_per_day": 7.76
+        },
+        "2026-09": {
+          "n": 148,
+          "hit_pct": 63.51,
+          "avg_R": 0.386,
+          "sum_pts": 716.6,
+          "hard_sl": 53,
+          "sessions": 21,
+          "avg_per_day": 7.05
+        },
+        "2026-10": {
+          "n": 102,
+          "hit_pct": 67.65,
+          "avg_R": 0.505,
+          "sum_pts": 687.7,
+          "hard_sl": 32,
+          "sessions": 20,
+          "avg_per_day": 5.1
+        },
+        "2026-11": {
+          "n": 68,
+          "hit_pct": 69.12,
+          "avg_R": 0.489,
+          "sum_pts": 529.45,
+          "hard_sl": 20,
+          "sessions": 15,
+          "avg_per_day": 4.53
+        }
+      },
+      "total_6m": {
+        "n": 774,
+        "hit_pct": 62.27,
+        "avg_R": 0.356,
+        "sum_pts": 3660.95,
+        "hard_sl": 284
+      }
+    },
+    "pa_sr_full_v1": {
+      "months": {
+        "2026-05": {
+          "n": 11,
+          "hit_pct": 54.55,
+          "avg_R": 0.175,
+          "sum_pts": 39.2,
+          "hard_sl": 5,
+          "sessions": 5,
+          "avg_per_day": 2.2
+        },
+        "2026-06": {
+          "n": 61,
+          "hit_pct": 55.74,
+          "avg_R": 0.329,
+          "sum_pts": 215.25,
+          "hard_sl": 25,
+          "sessions": 21,
+          "avg_per_day": 2.9
+        },
+        "2026-07": {
+          "n": 70,
+          "hit_pct": 50.0,
+          "avg_R": 0.092,
+          "sum_pts": 88.35,
+          "hard_sl": 35,
+          "sessions": 23,
+          "avg_per_day": 3.04
+        },
+        "2026-08": {
+          "n": 89,
+          "hit_pct": 62.92,
+          "avg_R": 0.296,
+          "sum_pts": 317.75,
+          "hard_sl": 32,
+          "sessions": 21,
+          "avg_per_day": 4.24
+        },
+        "2026-09": {
+          "n": 80,
+          "hit_pct": 61.25,
+          "avg_R": 0.42,
+          "sum_pts": 415.75,
+          "hard_sl": 31,
+          "sessions": 21,
+          "avg_per_day": 3.81
+        },
+        "2026-10": {
+          "n": 48,
+          "hit_pct": 56.25,
+          "avg_R": 0.208,
+          "sum_pts": 126.1,
+          "hard_sl": 21,
+          "sessions": 20,
+          "avg_per_day": 2.4
+        },
+        "2026-11": {
+          "n": 29,
+          "hit_pct": 75.86,
+          "avg_R": 0.581,
+          "sum_pts": 271.75,
+          "hard_sl": 7,
+          "sessions": 15,
+          "avg_per_day": 1.93
+        }
+      },
+      "total_6m": {
+        "n": 388,
+        "hit_pct": 59.02,
+        "avg_R": 0.297,
+        "sum_pts": 1474.15,
+        "hard_sl": 156
+      }
+    },
+    "pa_sr_acc_mid": {
+      "months": {
+        "2026-05": {
+          "n": 9,
+          "hit_pct": 55.56,
+          "avg_R": 0.23,
+          "sum_pts": 42.2,
+          "hard_sl": 4,
+          "sessions": 5,
+          "avg_per_day": 1.8
+        },
+        "2026-06": {
+          "n": 42,
+          "hit_pct": 54.76,
+          "avg_R": 0.19,
+          "sum_pts": 127.15,
+          "hard_sl": 17,
+          "sessions": 21,
+          "avg_per_day": 2.0
+        },
+        "2026-07": {
+          "n": 47,
+          "hit_pct": 51.06,
+          "avg_R": 0.126,
+          "sum_pts": 138.1,
+          "hard_sl": 23,
+          "sessions": 23,
+          "avg_per_day": 2.04
+        },
+        "2026-08": {
+          "n": 67,
+          "hit_pct": 65.67,
+          "avg_R": 0.417,
+          "sum_pts": 378.2,
+          "hard_sl": 22,
+          "sessions": 21,
+          "avg_per_day": 3.19
+        },
+        "2026-09": {
+          "n": 57,
+          "hit_pct": 63.16,
+          "avg_R": 0.433,
+          "sum_pts": 277.85,
+          "hard_sl": 21,
+          "sessions": 21,
+          "avg_per_day": 2.71
+        },
+        "2026-10": {
+          "n": 30,
+          "hit_pct": 60.0,
+          "avg_R": 0.211,
+          "sum_pts": 120.4,
+          "hard_sl": 12,
+          "sessions": 20,
+          "avg_per_day": 1.5
+        },
+        "2026-11": {
+          "n": 20,
+          "hit_pct": 90.0,
+          "avg_R": 0.834,
+          "sum_pts": 281.95,
+          "hard_sl": 2,
+          "sessions": 15,
+          "avg_per_day": 1.33
+        }
+      },
+      "total_6m": {
+        "n": 272,
+        "hit_pct": 61.76,
+        "avg_R": 0.337,
+        "sum_pts": 1365.85,
+        "hard_sl": 101
+      }
+    },
+    "pa_sr_acc_mid_slkill": {
+      "months": {
+        "2026-05": {
+          "n": 6,
+          "hit_pct": 50.0,
+          "avg_R": 0.06,
+          "sum_pts": 4.3,
+          "hard_sl": 3,
+          "sessions": 5,
+          "avg_per_day": 1.2
+        },
+        "2026-06": {
+          "n": 22,
+          "hit_pct": 50.0,
+          "avg_R": -0.062,
+          "sum_pts": 0.35,
+          "hard_sl": 10,
+          "sessions": 21,
+          "avg_per_day": 1.05
+        },
+        "2026-07": {
+          "n": 34,
+          "hit_pct": 50.0,
+          "avg_R": 0.163,
+          "sum_pts": 104.75,
+          "hard_sl": 17,
+          "sessions": 23,
+          "avg_per_day": 1.48
+        },
+        "2026-08": {
+          "n": 42,
+          "hit_pct": 64.29,
+          "avg_R": 0.305,
+          "sum_pts": 189.35,
+          "hard_sl": 15,
+          "sessions": 21,
+          "avg_per_day": 2.0
+        },
+        "2026-09": {
+          "n": 33,
+          "hit_pct": 63.64,
+          "avg_R": 0.418,
+          "sum_pts": 176.7,
+          "hard_sl": 12,
+          "sessions": 21,
+          "avg_per_day": 1.57
+        },
+        "2026-10": {
+          "n": 23,
+          "hit_pct": 65.22,
+          "avg_R": 0.315,
+          "sum_pts": 121.2,
+          "hard_sl": 8,
+          "sessions": 20,
+          "avg_per_day": 1.15
+        },
+        "2026-11": {
+          "n": 18,
+          "hit_pct": 100.0,
+          "avg_R": 1.037,
+          "sum_pts": 319.7,
+          "hard_sl": 0,
+          "sessions": 15,
+          "avg_per_day": 1.2
+        }
+      },
+      "total_6m": {
+        "n": 178,
+        "hit_pct": 62.92,
+        "avg_R": 0.321,
+        "sum_pts": 916.35,
+        "hard_sl": 65
+      }
+    }
+  }
+}

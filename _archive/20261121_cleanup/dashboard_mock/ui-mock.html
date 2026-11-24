@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rangebook — design mock</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f3f7f6;
+      --card: #ffffff;
+      --text: #12312e;
+      --muted: #5c726e;
+      --border: #d5e4e0;
+      --accent: #0f766e;
+      --accent-ink: #ffffff;
+      --accent-soft: #e6f5f2;
+      --buy: #047857;
+      --buy-bg: #e7f6ef;
+      --hold: #b45309;
+      --hold-bg: #fff6e8;
+      --sell: #b91c1c;
+      --sell-bg: #fdecec;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      font-family: Inter, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      letter-spacing: -0.011em;
+    }
+    button, input { font: inherit; color: inherit; }
+    button { cursor: pointer; }
+    button:focus-visible, a:focus-visible, input:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    .app { height: 100%; display: flex; flex-direction: column; }
+    header {
+      height: 56px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 0 14px;
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .brand {
+      border: 0; background: transparent; padding: 6px 2px;
+      font-family: "Space Grotesk", Inter, sans-serif;
+      font-weight: 700; font-size: 18px; letter-spacing: -0.03em;
+    }
+    .indexes { display: flex; gap: 4px; background: var(--bg); padding: 3px; border-radius: 10px; }
+    .indexes button, .seg button, .rail button, .ghost, .primary {
+      border: 0; border-radius: 8px; background: transparent;
+    }
+    .indexes button { padding: 6px 10px; font-size: 13px; font-weight: 600; color: var(--muted); }
+    .indexes button[aria-pressed="true"] { background: var(--card); color: var(--text); }
+    .search {
+      margin-left: auto; width: 220px; height: 34px; border: 1px solid var(--border);
+      border-radius: 8px; padding: 0 10px; background: var(--bg);
+    }
+    .pill {
+      height: 28px; padding: 0 10px; border-radius: 999px; border: 1px solid var(--border);
+      background: var(--card); font-size: 12px; font-weight: 600;
+    }
+    .body { flex: 1; min-height: 0; display: flex; }
+    .rail {
+      width: 196px; flex-shrink: 0; background: var(--card);
+      border-right: 1px solid var(--border); padding: 8px 10px;
+      display: flex; flex-direction: column; gap: 2px; overflow: auto;
+    }
+    .rail .label {
+      margin: 12px 8px 4px; font-size: 11px; font-weight: 700;
+      letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
+    }
+    .rail button {
+      text-align: left; padding: 8px 10px; font-size: 14px; font-weight: 550; color: var(--text);
+    }
+    .rail button[aria-current="page"] { background: var(--accent-soft); color: var(--accent); }
+    .stage { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+    .view { flex: 1; min-height: 0; overflow: auto; padding: 16px; }
+    .view h1 {
+      margin: 0 0 12px; font-family: "Space Grotesk", Inter, sans-serif;
+      font-size: 22px; font-weight: 650;
+    }
+    .split { display: flex; min-height: 0; flex: 1; }
+    .chart-wrap { flex: 1; min-width: 0; display: flex; flex-direction: column; padding: 12px 12px 8px; }
+    .chart-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+    .chart-bar h1 { margin: 0; font-size: 20px; }
+    .seg { display: flex; gap: 2px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 2px; }
+    .seg button { padding: 4px 8px; font-size: 12px; font-weight: 650; color: var(--muted); }
+    .seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); }
+    .chart {
+      flex: 1; min-height: 280px; background: var(--card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 8px 8px 4px;
+    }
+    .chart svg { width: 100%; height: 100%; display: block; }
+    .ticket {
+      width: 292px; flex-shrink: 0; margin: 12px 12px 12px 0; background: var(--card);
+      border: 1px solid var(--border); border-radius: var(--radius); padding: 14px;
+      display: flex; flex-direction: column; gap: 10px;
+    }
+    .side {
+      display: inline-flex; align-items: center; height: 28px; padding: 0 10px;
+      border-radius: 999px; font-size: 12px; font-weight: 750; letter-spacing: 0.04em;
+    }
+    .side.buy { background: var(--buy-bg); color: var(--buy); }
+    .side.hold { background: var(--hold-bg); color: var(--hold); }
+    .px {
+      font-family: "Space Grotesk", Inter, sans-serif; font-size: 32px; font-weight: 650;
+      font-variant-numeric: tabular-nums; line-height: 1;
+    }
+    .meta { color: var(--muted); font-size: 13px; }
+    .levels { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+    .levels div { background: var(--bg); border-radius: 8px; padding: 8px; }
+    .levels span { display: block; color: var(--muted); font-size: 11px; font-weight: 650; }
+    .levels strong { font-variant-numeric: tabular-nums; font-size: 14px; }
+    .option {
+      border: 1px solid var(--border); border-radius: 10px; padding: 10px;
+    }
+    .primary {
+      background: var(--accent); color: var(--accent-ink); height: 36px; font-weight: 650;
+    }
+    .ghost { border: 1px solid var(--border); background: var(--card); height: 36px; }
+    .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-bottom: 14px; }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 12px 14px; text-align: left;
+    }
+    .card[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+    .card b { display: block; font-family: "Space Grotesk", Inter, sans-serif; font-size: 18px; margin-top: 4px; }
+    .card span { color: var(--muted); font-size: 12px; }
+    table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 13px; }
+    th { color: var(--muted); font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; }
+    tr:last-child td { border-bottom: 0; }
+    footer {
+      height: 32px; display: flex; align-items: center; gap: 16px; padding: 0 14px;
+      background: var(--card); border-top: 1px solid var(--border); color: var(--muted); font-size: 12px;
+    }
+    footer span:last-child { margin-left: auto; }
+    .note { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+    .hidden { display: none; }
+    @media (max-width: 900px) {
+      .rail { width: 52px; }
+      .rail .label, .rail button span { display: none; }
+      .ticket { width: 220px; }
+      .search { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <button class="brand" id="homeBrand" type="button">Rangebook</button>
+      <div class="indexes" role="group" aria-label="Index">
+        <button type="button" data-symbol="NIFTY" aria-pressed="true">Nifty</button>
+        <button type="button" data-symbol="BANKNIFTY" aria-pressed="false">Bank Nifty</button>
+        <button type="button" data-symbol="SENSEX" aria-pressed="false">Sensex</button>
+      </div>
+      <input class="search" type="search" placeholder="Search symbol" aria-label="Search symbol">
+      <button class="pill" type="button">Kite live</button>
+      <button class="pill" type="button" id="alertBtn" aria-haspopup="dialog" aria-expanded="false" aria-controls="alertPop">Alerts 2</button>
+    </header>
+    <div class="body">
+      <nav class="rail" id="rail" aria-label="Pages">
+        <div class="label">Trade</div>
+        <button type="button" data-page="desk"><span>Desk</span></button>
+        <button type="button" data-page="fno" aria-current="page"><span>F&amp;O</span></button>
+        <button type="button" data-page="stocks"><span>Stocks</span></button>
+        <button type="button" data-page="morning"><span>Morning</span></button>
+        <div class="label">Review</div>
+        <button type="button" data-page="today"><span>Today</span></button>
+        <button type="button" data-page="history"><span>History</span></button>
+        <button type="button" data-page="replay"><span>Replay</span></button>
+        <button type="button" data-page="news"><span>News</span></button>
+        <div class="label">System</div>
+        <button type="button" data-page="data"><span>Data</span></button>
+        <button type="button" data-page="settings"><span>Settings</span></button>
+      </nav>
+      <div class="stage">
+        <section class="split" id="page-fno">
+          <div class="chart-wrap">
+            <div class="chart-bar">
+              <h1 id="chartTitle">Nifty</h1>
+              <div class="seg" role="group" aria-label="Interval">
+                <button type="button" aria-pressed="false">5m</button>
+                <button type="button" aria-pressed="true">15m</button>
+                <button type="button" aria-pressed="false">Daily</button>
+              </div>
+              <span class="meta" style="margin-left:auto">S/R · EMA · VWAP</span>
+            </div>
+            <div class="chart" id="chartHost" tabindex="0" aria-label="Candle chart. Arrow keys move the sample view."></div>
+          </div>
+          <aside class="ticket" aria-label="Call">
+            <div><span class="side buy" id="sideBadge">BUY</span></div>
+            <div class="px" id="px">25,144</div>
+            <div class="meta" id="stateLine">First break · sample figure</div>
+            <div class="levels">
+              <div><span>Stop</span><strong id="lvSl">25,119</strong></div>
+              <div><span>Target</span><strong id="lvT1">25,174</strong></div>
+              <div><span>Runner</span><strong id="lvRun">25,204</strong></div>
+            </div>
+            <div class="option">
+              <div class="meta">Option guide</div>
+              <strong id="optName">25200 CE</strong>
+              <div class="meta" id="optNote">Buy the call. The order is placed in Kite.</div>
+            </div>
+            <button class="primary" type="button">Copy contract for Kite</button>
+            <button class="ghost" type="button" id="checkBtn">Checklist</button>
+          </aside>
+        </section>
+        <section class="view hidden" id="page-desk">
+          <h1>Desk</h1>
+          <p class="note">Three indexes, already watched. The open call is the card on F&amp;O.</p>
+          <div class="cards" id="deskCards"></div>
+          <table>
+            <thead><tr><th>Name</th><th>Morning brief</th></tr></thead>
+            <tbody>
+              <tr><td>Nifty</td><td>US flat, crude firmer. Wait for the opening range.</td></tr>
+              <tr><td>Bank Nifty</td><td>Banks quiet overnight.</td></tr>
+              <tr><td>Sensex</td><td>Same broad tape as Nifty.</td></tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="view hidden" id="page-stocks">
+          <h1>Stocks</h1>
+          <p class="note">Same frame as F&amp;O. One list, one decision, one Analyze button.</p>
+          <table>
+            <thead><tr><th>Symbol</th><th>List</th><th>Decision</th></tr></thead>
+            <tbody>
+              <tr><td>RELIANCE</td><td>List 1</td><td>HOLD</td></tr>
+              <tr><td>HDFCBANK</td><td>List 1</td><td>HOLD</td></tr>
+              <tr><td>ICICIBANK</td><td>List 1</td><td>HOLD</td></tr>
+              <tr><td>INFY</td><td>List 1</td><td>HOLD</td></tr>
+              <tr><td>TCS</td><td>List 1</td><td>HOLD</td></tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="view hidden" id="page-morning">
+          <h1>Morning</h1>
+          <p class="note">Filled before 9:15. Desk shows the short version of these rows.</p>
+          <table>
+            <thead><tr><th>Name</th><th>Overnight</th><th>Stance</th></tr></thead>
+            <tbody>
+              <tr><td>Nifty</td><td>US flat · crude up · rupee steady</td><td>Wait for the range</td></tr>
+              <tr><td>Bank Nifty</td><td>Banks unchanged</td><td>Wait for the range</td></tr>
+              <tr><td>Sensex</td><td>Same broad tape</td><td>Wait for the range</td></tr>
+              <tr><td>RELIANCE</td><td>Small gap</td><td>HOLD</td></tr>
+              <tr><td>INFY</td><td>US tech soft</td><td>HOLD</td></tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="view hidden" id="page-today">
+          <h1>Today</h1>
+          <table>
+            <thead><tr><th>Index</th><th>Side</th><th>State</th><th>Option</th></tr></thead>
+            <tbody>
+              <tr><td>Nifty</td><td>BUY</td><td>Open</td><td>25200 CE</td></tr>
+              <tr><td>Bank Nifty</td><td>—</td><td>No call</td><td>—</td></tr>
+              <tr><td>Sensex</td><td>—</td><td>No call</td><td>—</td></tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="view hidden" id="page-history">
+          <h1>History</h1>
+          <p class="note">Closed tickets only. Entry, stop, target, and the option that was named.</p>
+          <table>
+            <thead><tr><th>Day</th><th>Index</th><th>Side</th><th>Result</th></tr></thead>
+            <tbody>
+              <tr><td>12 Nov</td><td>Nifty</td><td>BUY</td><td>Target</td></tr>
+              <tr><td>11 Nov</td><td>Bank Nifty</td><td>SELL</td><td>Stop</td></tr>
+              <tr><td>10 Nov</td><td>Sensex</td><td>BUY</td><td>Target</td></tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="view hidden" id="page-replay">
+          <h1>Replay</h1>
+          <p class="note">Move to a saved 15-minute bar. The call is the one that could have been known at that bar.</p>
+          <div class="seg" id="replaySeg" role="group" aria-label="Replay bar">
+            <button type="button" aria-pressed="false">09:15</button>
+            <button type="button" aria-pressed="false">09:30</button>
+            <button type="button" aria-pressed="false">09:45</button>
+            <button type="button" aria-pressed="true">10:00</button>
+            <button type="button" aria-pressed="false">10:15</button>
+          </div>
+          <p id="replayRead" style="margin-top:14px;font-weight:650">10:00 · BUY · first close outside the range</p>
+        </section>
+        <section class="view hidden" id="page-news">
+          <h1>News</h1>
+          <table>
+            <thead><tr><th>When</th><th>Item</th></tr></thead>
+            <tbody>
+              <tr><td>Pre-open</td><td>Global: US flat, crude firmer</td></tr>
+              <tr><td>09:20</td><td>Nifty opening range set</td></tr>
+              <tr><td>10:05</td><td>First break on Nifty</td></tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="view hidden" id="page-data">
+          <h1>Data</h1>
+          <p class="note">15-minute bars carry open, high, low, and close. VIX, FII, and valuation stay one row per day.</p>
+          <table>
+            <thead><tr><th>Series</th><th>Step</th><th>Used on</th></tr></thead>
+            <tbody>
+              <tr><td>Nifty, Bank Nifty, Sensex</td><td>15m</td><td>Chart, call, replay</td></tr>
+              <tr><td>India VIX, heavyweights, US, crude, rupee, dollar</td><td>Daily</td><td>Morning and checklist</td></tr>
+              <tr><td>FII futures, put/call ratio</td><td>Daily</td><td>Checklist</td></tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="view hidden" id="page-settings">
+          <h1>Settings</h1>
+          <table>
+            <thead><tr><th>Item</th><th>Value</th></tr></thead>
+            <tbody>
+              <tr><td>Kite</td><td>Connected</td></tr>
+              <tr><td>Refresh</td><td>30 seconds</td></tr>
+              <tr><td>Watchlists</td><td>Up to five</td></tr>
+              <tr><td>Contract list</td><td>Sync from Zerodha</td></tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <span>Design mock</span>
+      <span>IST 13:11</span>
+      <span>Session closed</span>
+      <span>Source Kite</span>
+      <span>Last bar 15:15</span>
+      <span>Arrows move the chart · Esc closes the top panel</span>
+    </footer>
+    <div id="alertPop" role="dialog" aria-modal="true" aria-labelledby="alertTitle" hidden
+      style="position:fixed;top:64px;right:14px;width:280px;background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px">
+      <strong id="alertTitle">Alerts</strong>
+      <p class="meta">Nifty first break. Bank Nifty still inside the range.</p>
+      <button class="primary" type="button" id="alertClose" style="width:100%">Close</button>
+    </div>
+  </div>
+  <script>
+    const books = {
+      NIFTY: { name: "Nifty", side: "BUY", cls: "buy", state: "First break · sample figure", px: "25,144", sl: "25,119", t1: "25,174", run: "25,204", opt: "25200 CE", note: "Buy the call. The order is placed in Kite." },
+      BANKNIFTY: { name: "Bank Nifty", side: "HOLD", cls: "hold", state: "Inside the opening range · sample figure", px: "58,420", sl: "—", t1: "—", run: "—", opt: "None", note: "No option while the index is inside the opening range." },
+      SENSEX: { name: "Sensex", side: "HOLD", cls: "hold", state: "Inside the opening range · sample figure", px: "82,110", sl: "—", t1: "—", run: "—", opt: "None", note: "No option while the index is inside the opening range." }
+    };
+    let symbol = "NIFTY";
+    let page = "fno";
+    let shift = 0;
+
+    function draw() {
+      const host = document.getElementById("chartHost");
+      const w = 640, h = 320, pad = 28;
+      let price = 80;
+      const bars = [];
+      for (let i = 0; i < 32; i++) {
+        const drift = ((i * 5 + shift * 3) % 9) - 4;
+        const open = price;
+        const close = price + drift;
+        const high = Math.max(open, close) + 2;
+        const low = Math.min(open, close) - 2;
+        bars.push({ open, high, low, close });
+        price = close;
+      }
+      const hi = Math.max(...bars.map((b) => b.high));
+      const lo = Math.min(...bars.map((b) => b.low));
+      const span = hi - lo || 1;
+      const yOf = (p) => pad + ((hi - p) / span) * (h - pad * 2);
+      const bw = (w - pad * 2) / bars.length;
+      let body = "";
+      for (let g = 0; g < 4; g++) {
+        const y = pad + ((h - pad * 2) / 4) * g;
+        body += `<line x1="${pad}" y1="${y}" x2="${w - 8}" y2="${y}" stroke="#e6f0ed" stroke-width="1"/>`;
+      }
+      bars.forEach((b, i) => {
+        const x = pad + i * bw + bw / 2;
+        const up = b.close >= b.open;
+        const color = up ? "#0f766e" : "#b45309";
+        const top = yOf(Math.max(b.open, b.close));
+        const bot = yOf(Math.min(b.open, b.close));
+        body += `<line x1="${x}" y1="${yOf(b.high)}" x2="${x}" y2="${yOf(b.low)}" stroke="${color}" stroke-width="1.4"/>`;
+        body += `<rect x="${x - 5}" y="${top}" width="10" height="${Math.max(2, bot - top)}" fill="${color}"/>`;
+      });
+      host.innerHTML = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="Sample 15-minute candles">${body}</svg>`;
+    }
+
+    function paintDesk() {
+      const host = document.getElementById("deskCards");
+      host.innerHTML = Object.entries(books).map(([key, b]) => {
+        const on = key === symbol ? "true" : "false";
+        return `<button class="card" type="button" data-symbol="${key}" aria-pressed="${on}"><span>${b.name}</span><b class="${b.cls}">${b.side}</b><span>${b.state.replace(" · sample figure", "")}</span></button>`;
+      }).join("");
+    }
+
+    function paintBook() {
+      const b = books[symbol];
+      document.getElementById("chartTitle").textContent = b.name;
+      const badge = document.getElementById("sideBadge");
+      badge.textContent = b.side;
+      badge.className = "side " + b.cls;
+      document.getElementById("px").textContent = b.px;
+      document.getElementById("stateLine").textContent = b.state;
+      document.getElementById("lvSl").textContent = b.sl;
+      document.getElementById("lvT1").textContent = b.t1;
+      document.getElementById("lvRun").textContent = b.run;
+      document.getElementById("optName").textContent = b.opt;
+      document.getElementById("optNote").textContent = b.note;
+      document.querySelectorAll(".indexes button").forEach((btn) => {
+        btn.setAttribute("aria-pressed", btn.dataset.symbol === symbol ? "true" : "false");
+      });
+      paintDesk();
+    }
+
+    document.getElementById("deskCards").addEventListener("click", (event) => {
+      const btn = event.target.closest("button");
+      if (!btn) return;
+      symbol = btn.dataset.symbol;
+      paintBook();
+      draw();
+      show("fno");
+    });
+
+    function show(next) {
+      page = next;
+      document.querySelectorAll("[id^='page-']").forEach((el) => {
+        el.classList.toggle("hidden", el.id !== "page-" + next);
+      });
+      document.querySelectorAll(".rail button").forEach((btn) => {
+        if (btn.dataset.page === next) btn.setAttribute("aria-current", "page");
+        else btn.removeAttribute("aria-current");
+      });
+    }
+
+    document.getElementById("rail").addEventListener("click", (event) => {
+      const btn = event.target.closest("button");
+      if (btn && btn.dataset.page) show(btn.dataset.page);
+    });
+    document.getElementById("rail").addEventListener("keydown", (event) => {
+      const buttons = [...document.querySelectorAll(".rail button")];
+      const i = buttons.indexOf(document.activeElement);
+      if (i < 0) return;
+      if (event.key === "ArrowDown") { event.preventDefault(); buttons[Math.min(buttons.length - 1, i + 1)].focus(); }
+      if (event.key === "ArrowUp") { event.preventDefault(); buttons[Math.max(0, i - 1)].focus(); }
+      if (event.key === "Home") { event.preventDefault(); buttons[0].focus(); }
+      if (event.key === "End") { event.preventDefault(); buttons[buttons.length - 1].focus(); }
+    });
+    document.querySelector(".indexes").addEventListener("click", (event) => {
+      const btn = event.target.closest("button");
+      if (!btn) return;
+      symbol = btn.dataset.symbol;
+      paintBook();
+      draw();
+    });
+    document.getElementById("homeBrand").addEventListener("click", () => show("desk"));
+    document.getElementById("chartHost").addEventListener("keydown", (event) => {
+      if (event.key === "ArrowRight") shift += 1;
+      else if (event.key === "ArrowLeft") shift -= 1;
+      else return;
+      event.preventDefault();
+      draw();
+    });
+    const pop = document.getElementById("alertPop");
+    function closePop() {
+      pop.hidden = true;
+      document.getElementById("alertBtn").setAttribute("aria-expanded", "false");
+      document.getElementById("alertBtn").focus();
+    }
+    document.getElementById("alertBtn").addEventListener("click", () => {
+      pop.hidden = false;
+      document.getElementById("alertBtn").setAttribute("aria-expanded", "true");
+      document.getElementById("alertClose").focus();
+    });
+    document.getElementById("alertClose").addEventListener("click", closePop);
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !pop.hidden) closePop();
+    });
+    document.getElementById("replaySeg").addEventListener("click", (event) => {
+      const btn = event.target.closest("button");
+      if (!btn) return;
+      document.querySelectorAll("#replaySeg button").forEach((b) => b.setAttribute("aria-pressed", b === btn ? "true" : "false"));
+      document.getElementById("replayRead").textContent = btn.textContent + " · sample call at this bar";
+    });
+    paintBook();
+    draw();
+    show("fno");
+  </script>
+</body>
+</html>

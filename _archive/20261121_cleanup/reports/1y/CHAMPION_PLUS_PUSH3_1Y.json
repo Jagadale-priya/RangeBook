@@ -1,0 +1,70 @@
+{
+  "verdict": "PUSH3 OK \u2014 `cap3` **257@92.61%** (prior 91@93.41% \u00b7 +166). Still RESEARCH.",
+  "best_mode": "cap3",
+  "prior_n": 91,
+  "1y": {
+    "n": 257,
+    "hit_pct": 92.61,
+    "wins": 238,
+    "losses": 19,
+    "points": 7896.0,
+    "days": 174,
+    "by_track": {
+      "champion": {
+        "n": 35,
+        "hit_pct": 91.43,
+        "points": 1133.0
+      },
+      "dual10m": {
+        "n": 127,
+        "hit_pct": 92.91,
+        "points": 3270.0
+      },
+      "good_prod2": {
+        "n": 95,
+        "hit_pct": 92.63,
+        "points": 3493.0
+      }
+    }
+  },
+  "3y": {
+    "n": 410,
+    "hit_pct": 87.07,
+    "wins": 357,
+    "losses": 53,
+    "points": 11401.0,
+    "days": 316,
+    "by_track": {
+      "champion": {
+        "n": 91,
+        "hit_pct": 85.71,
+        "points": 2547.0
+      },
+      "dual10m": {
+        "n": 142,
+        "hit_pct": 90.85,
+        "points": 3480.0
+      },
+      "good_prod2": {
+        "n": 177,
+        "hit_pct": 84.75,
+        "points": 5374.0
+      }
+    }
+  },
+  "streams": [
+    "CP_GD40_BUY_p0_mid_any_g020_bestp",
+    "CP_GD40_BOTH_p55_mid_any_g015_first",
+    "CP_GDN_BOTH_p0_latemid_any_gdn025_mid",
+    "CP_GD40_SELL_p0_am1230_htf_gup025_bestp",
+    "CP_GDN_BUY_p0_latemid_any_nogap_raw",
+    "CP_GD40_SELL_p0_am1130_any_gup040_raw",
+    "CP_GDN_BOTH_p0_pm_htf_nogap_raw",
+    "CP_D10_BOTH_p55_open_any_gup025_raw",
+    "CP_D10_SELL_p0_pm_htf_gup040_raw",
+    "CP_GD40_BOTH_p0_latemid_htf_g020_mid",
+    "CP_D10_BOTH_p0_pm_any_gup040_raw"
+  ],
+  "ticket_adds": 164,
+  "elapsed_s": 241.4
+}

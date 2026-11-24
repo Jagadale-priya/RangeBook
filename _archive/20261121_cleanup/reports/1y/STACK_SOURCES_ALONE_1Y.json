@@ -1,0 +1,550 @@
+{
+  "window": {
+    "start": "2025-10-24",
+    "end": "2026-10-23"
+  },
+  "sources": {
+    "PROVEN_100": {
+      "definition": "Dual-15m **proven** tickets \u2014 historically perfect / locked OR-break + model lane. Highest stack priority (0).",
+      "raw": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "wins": 24,
+        "losses": 0,
+        "points": 1098.0,
+        "days": 24,
+        "by_track": {
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1098.0
+          }
+        }
+      },
+      "alone_cap2": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "wins": 24,
+        "losses": 0,
+        "points": 1098.0,
+        "days": 24,
+        "by_track": {
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1098.0
+          }
+        }
+      },
+      "in_full_stack": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "wins": 24,
+        "losses": 0,
+        "points": 1098.0,
+        "days": 24,
+        "by_track": {
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1098.0
+          }
+        }
+      },
+      "monthly_alone_cap2": [
+        {
+          "month": "2025-11",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2
+        },
+        {
+          "month": "2025-12",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3
+        },
+        {
+          "month": "2026-01",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1
+        },
+        {
+          "month": "2026-02",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2
+        },
+        {
+          "month": "2026-04",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1
+        },
+        {
+          "month": "2026-06",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2
+        },
+        {
+          "month": "2026-07",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1
+        },
+        {
+          "month": "2026-08",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3
+        },
+        {
+          "month": "2026-09",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4
+        },
+        {
+          "month": "2026-10",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5
+        }
+      ]
+    },
+    "GOOD_PROD2": {
+      "definition": "Prod2 **15m good** tickets from live session scoring. Volume backbone. Priority 1.",
+      "raw": {
+        "n": 127,
+        "hit_pct": 68.5,
+        "wins": 87,
+        "losses": 40,
+        "points": 2534.0,
+        "days": 99,
+        "by_track": {
+          "good_prod2": {
+            "n": 127,
+            "hit_pct": 68.5,
+            "points": 2534.0
+          }
+        }
+      },
+      "alone_cap2": {
+        "n": 126,
+        "hit_pct": 69.05,
+        "wins": 87,
+        "losses": 39,
+        "points": 2577.0,
+        "days": 99,
+        "by_track": {
+          "good_prod2": {
+            "n": 126,
+            "hit_pct": 69.05,
+            "points": 2577.0
+          }
+        }
+      },
+      "in_full_stack": {
+        "n": 75,
+        "hit_pct": 62.67,
+        "wins": 47,
+        "losses": 28,
+        "points": 923.0,
+        "days": 65,
+        "by_track": {
+          "good_prod2": {
+            "n": 75,
+            "hit_pct": 62.67,
+            "points": 923.0
+          }
+        }
+      },
+      "monthly_alone_cap2": [
+        {
+          "month": "2025-10",
+          "n": 6,
+          "hit_pct": 50.0,
+          "wins": 3
+        },
+        {
+          "month": "2025-11",
+          "n": 10,
+          "hit_pct": 70.0,
+          "wins": 7
+        },
+        {
+          "month": "2025-12",
+          "n": 16,
+          "hit_pct": 68.75,
+          "wins": 11
+        },
+        {
+          "month": "2026-01",
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8
+        },
+        {
+          "month": "2026-02",
+          "n": 9,
+          "hit_pct": 55.56,
+          "wins": 5
+        },
+        {
+          "month": "2026-03",
+          "n": 6,
+          "hit_pct": 83.33,
+          "wins": 5
+        },
+        {
+          "month": "2026-04",
+          "n": 8,
+          "hit_pct": 50.0,
+          "wins": 4
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 75.0,
+          "wins": 6
+        },
+        {
+          "month": "2026-06",
+          "n": 11,
+          "hit_pct": 72.73,
+          "wins": 8
+        },
+        {
+          "month": "2026-07",
+          "n": 9,
+          "hit_pct": 55.56,
+          "wins": 5
+        },
+        {
+          "month": "2026-08",
+          "n": 11,
+          "hit_pct": 54.55,
+          "wins": 6
+        },
+        {
+          "month": "2026-09",
+          "n": 14,
+          "hit_pct": 64.29,
+          "wins": 9
+        },
+        {
+          "month": "2026-10",
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10
+        }
+      ]
+    },
+    "CHAMPION": {
+      "definition": "Dual-15m **champion** tickets after champ floor filter. Priority 2.",
+      "raw": {
+        "n": 41,
+        "hit_pct": 92.68,
+        "wins": 38,
+        "losses": 3,
+        "points": 1419.0,
+        "days": 40,
+        "by_track": {
+          "champion": {
+            "n": 41,
+            "hit_pct": 92.68,
+            "points": 1419.0
+          }
+        }
+      },
+      "alone_cap2": {
+        "n": 40,
+        "hit_pct": 92.5,
+        "wins": 37,
+        "losses": 3,
+        "points": 1383.0,
+        "days": 40,
+        "by_track": {
+          "champion": {
+            "n": 40,
+            "hit_pct": 92.5,
+            "points": 1383.0
+          }
+        }
+      },
+      "in_full_stack": {
+        "n": 40,
+        "hit_pct": 92.5,
+        "wins": 37,
+        "losses": 3,
+        "points": 1383.0,
+        "days": 40,
+        "by_track": {
+          "champion": {
+            "n": 40,
+            "hit_pct": 92.5,
+            "points": 1383.0
+          }
+        }
+      },
+      "monthly_alone_cap2": [
+        {
+          "month": "2025-10",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1
+        },
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 66.67,
+          "wins": 2
+        },
+        {
+          "month": "2025-12",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4
+        },
+        {
+          "month": "2026-01",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4
+        },
+        {
+          "month": "2026-02",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4
+        },
+        {
+          "month": "2026-03",
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1
+        },
+        {
+          "month": "2026-04",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2
+        },
+        {
+          "month": "2026-05",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5
+        },
+        {
+          "month": "2026-06",
+          "n": 2,
+          "hit_pct": 50.0,
+          "wins": 1
+        },
+        {
+          "month": "2026-07",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5
+        },
+        {
+          "month": "2026-08",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3
+        },
+        {
+          "month": "2026-09",
+          "n": 4,
+          "hit_pct": 75.0,
+          "wins": 3
+        },
+        {
+          "month": "2026-10",
+          "n": 2,
+          "hit_pct": 100.0,
+          "wins": 2
+        }
+      ]
+    },
+    "CROWN_DUAL_HTF": {
+      "definition": "5m **crown** tickets, only on `HTF_ACTIVE_DAY`. Lowest priority (3); fill when higher tracks quiet.",
+      "raw": {
+        "n": 126,
+        "hit_pct": 73.81,
+        "wins": 93,
+        "losses": 33,
+        "points": 0.0,
+        "days": 68,
+        "by_track": {
+          "crown_5m": {
+            "n": 126,
+            "hit_pct": 73.81,
+            "points": 0.0
+          }
+        }
+      },
+      "alone_cap2": {
+        "n": 106,
+        "hit_pct": 70.75,
+        "wins": 75,
+        "losses": 31,
+        "points": 0.0,
+        "days": 68,
+        "by_track": {
+          "crown_5m": {
+            "n": 106,
+            "hit_pct": 70.75,
+            "points": 0.0
+          }
+        }
+      },
+      "in_full_stack": {
+        "n": 90,
+        "hit_pct": 71.11,
+        "wins": 64,
+        "losses": 26,
+        "points": 0.0,
+        "days": 67,
+        "by_track": {
+          "crown_5m": {
+            "n": 90,
+            "hit_pct": 71.11,
+            "points": 0.0
+          }
+        }
+      },
+      "monthly_alone_cap2": [
+        {
+          "month": "2025-10",
+          "n": 5,
+          "hit_pct": 80.0,
+          "wins": 4
+        },
+        {
+          "month": "2025-11",
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3
+        },
+        {
+          "month": "2025-12",
+          "n": 3,
+          "hit_pct": 66.67,
+          "wins": 2
+        },
+        {
+          "month": "2026-01",
+          "n": 14,
+          "hit_pct": 64.29,
+          "wins": 9
+        },
+        {
+          "month": "2026-02",
+          "n": 18,
+          "hit_pct": 61.11,
+          "wins": 11
+        },
+        {
+          "month": "2026-03",
+          "n": 7,
+          "hit_pct": 71.43,
+          "wins": 5
+        },
+        {
+          "month": "2026-04",
+          "n": 7,
+          "hit_pct": 57.14,
+          "wins": 4
+        },
+        {
+          "month": "2026-05",
+          "n": 8,
+          "hit_pct": 75.0,
+          "wins": 6
+        },
+        {
+          "month": "2026-06",
+          "n": 12,
+          "hit_pct": 58.33,
+          "wins": 7
+        },
+        {
+          "month": "2026-07",
+          "n": 8,
+          "hit_pct": 87.5,
+          "wins": 7
+        },
+        {
+          "month": "2026-08",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4
+        },
+        {
+          "month": "2026-09",
+          "n": 5,
+          "hit_pct": 40.0,
+          "wins": 2
+        },
+        {
+          "month": "2026-10",
+          "n": 12,
+          "hit_pct": 91.67,
+          "wins": 11
+        }
+      ]
+    }
+  },
+  "full_stack": {
+    "n": 229,
+    "hit_pct": 75.11,
+    "wins": 172,
+    "losses": 57,
+    "points": 3404.0,
+    "days": 147,
+    "by_track": {
+      "champion": {
+        "n": 40,
+        "hit_pct": 92.5,
+        "points": 1383.0
+      },
+      "crown_5m": {
+        "n": 90,
+        "hit_pct": 71.11,
+        "points": 0.0
+      },
+      "good_prod2": {
+        "n": 75,
+        "hit_pct": 62.67,
+        "points": 923.0
+      },
+      "proven_100": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "points": 1098.0
+      }
+    }
+  },
+  "stack_by_track": {
+    "champion": {
+      "n": 40,
+      "share_pct": 17.5
+    },
+    "crown_5m": {
+      "n": 90,
+      "share_pct": 39.3
+    },
+    "good_prod2": {
+      "n": 75,
+      "share_pct": 32.8
+    },
+    "proven_100": {
+      "n": 24,
+      "share_pct": 10.5
+    }
+  }
+}

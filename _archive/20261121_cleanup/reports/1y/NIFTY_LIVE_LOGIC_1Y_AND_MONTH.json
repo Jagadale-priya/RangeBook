@@ -1,0 +1,1102 @@
+{
+  "live_flags": {
+    "SUPPRESS_DUAL_LIST": "1",
+    "USE_DUAL_TRACK": "1",
+    "calls_board": "CHAMP_PLUS_T30SL30_CAP4",
+    "annotate": [
+      "P2F",
+      "P2G",
+      "CHAMP_PLUS"
+    ]
+  },
+  "data_end": "2026-11-16",
+  "1y": {
+    "window": {
+      "start": "2025-10-24",
+      "end": "2026-11-15"
+    },
+    "calls_board_champ_plus": {
+      "n": 377,
+      "settled": 375,
+      "wins": 372,
+      "losses": 3,
+      "hit_pct": 99.2,
+      "net_pts": 11070.0,
+      "tracks": {
+        "dual10m": 166,
+        "good_prod2": 82,
+        "crown_research": 61,
+        "champion": 41,
+        "proven_research": 21,
+        "dual5_research": 6
+      }
+    },
+    "champ_held_only": {
+      "n": 374,
+      "settled": 374,
+      "wins": 372,
+      "losses": 2,
+      "hit_pct": 99.47,
+      "net_pts": 11100.0,
+      "tracks": {
+        "dual10m": 163,
+        "good_prod2": 82,
+        "crown_research": 61,
+        "champion": 41,
+        "proven_research": 21,
+        "dual5_research": 6
+      }
+    },
+    "combine": {
+      "n_raw": 2359,
+      "n_ui": 449,
+      "n_multi": 228,
+      "blocked_distinct": 0,
+      "hit_pct_ui": 93.96,
+      "ui": {
+        "n": 449,
+        "settled": 447,
+        "wins": 420,
+        "losses": 27,
+        "hit_pct": 93.96,
+        "net_pts": 12230.0,
+        "tracks": {
+          "dual10m": 178,
+          "good_prod2": 93,
+          "crown_5m": 73,
+          "champion": 41,
+          "crown_research": 30,
+          "proven_100": 27,
+          "cf": 5,
+          "dual5_research": 1,
+          "cf3": 1
+        }
+      }
+    },
+    "by_month_champ": {
+      "2025-10": {
+        "n": 11,
+        "settled": 11,
+        "wins": 11,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 330.0,
+        "tracks": {
+          "dual10m": 5,
+          "good_prod2": 4,
+          "champion": 1,
+          "crown_research": 1
+        }
+      },
+      "2025-11": {
+        "n": 30,
+        "settled": 30,
+        "wins": 30,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 900.0,
+        "tracks": {
+          "dual10m": 13,
+          "good_prod2": 6,
+          "crown_research": 6,
+          "champion": 3,
+          "proven_research": 2
+        }
+      },
+      "2025-12": {
+        "n": 38,
+        "settled": 38,
+        "wins": 38,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 1140.0,
+        "tracks": {
+          "dual10m": 13,
+          "good_prod2": 12,
+          "champion": 5,
+          "crown_research": 4,
+          "proven_research": 3,
+          "dual5_research": 1
+        }
+      },
+      "2026-01": {
+        "n": 27,
+        "settled": 27,
+        "wins": 27,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 810.0,
+        "tracks": {
+          "dual10m": 12,
+          "crown_research": 5,
+          "champion": 4,
+          "good_prod2": 4,
+          "proven_research": 1,
+          "dual5_research": 1
+        }
+      },
+      "2026-02": {
+        "n": 33,
+        "settled": 33,
+        "wins": 33,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 990.0,
+        "tracks": {
+          "crown_research": 11,
+          "dual10m": 10,
+          "good_prod2": 5,
+          "champion": 4,
+          "proven_research": 2,
+          "dual5_research": 1
+        }
+      },
+      "2026-03": {
+        "n": 25,
+        "settled": 25,
+        "wins": 25,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 750.0,
+        "tracks": {
+          "dual10m": 14,
+          "crown_research": 5,
+          "good_prod2": 5,
+          "champion": 1
+        }
+      },
+      "2026-04": {
+        "n": 26,
+        "settled": 26,
+        "wins": 26,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 780.0,
+        "tracks": {
+          "dual10m": 14,
+          "crown_research": 5,
+          "good_prod2": 4,
+          "champion": 2,
+          "proven_research": 1
+        }
+      },
+      "2026-05": {
+        "n": 22,
+        "settled": 22,
+        "wins": 22,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 660.0,
+        "tracks": {
+          "dual10m": 10,
+          "champion": 5,
+          "good_prod2": 4,
+          "crown_research": 2,
+          "dual5_research": 1
+        }
+      },
+      "2026-06": {
+        "n": 31,
+        "settled": 31,
+        "wins": 31,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 930.0,
+        "tracks": {
+          "dual10m": 16,
+          "good_prod2": 8,
+          "crown_research": 5,
+          "champion": 2
+        }
+      },
+      "2026-07": {
+        "n": 26,
+        "settled": 26,
+        "wins": 26,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 780.0,
+        "tracks": {
+          "dual10m": 14,
+          "champion": 5,
+          "good_prod2": 5,
+          "proven_research": 1,
+          "crown_research": 1
+        }
+      },
+      "2026-08": {
+        "n": 24,
+        "settled": 24,
+        "wins": 24,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 720.0,
+        "tracks": {
+          "dual10m": 11,
+          "good_prod2": 6,
+          "champion": 3,
+          "crown_research": 2,
+          "proven_research": 2
+        }
+      },
+      "2026-09": {
+        "n": 43,
+        "settled": 43,
+        "wins": 42,
+        "losses": 1,
+        "hit_pct": 97.67,
+        "net_pts": 1230.0,
+        "tracks": {
+          "dual10m": 13,
+          "good_prod2": 10,
+          "crown_research": 10,
+          "champion": 4,
+          "proven_research": 4,
+          "dual5_research": 2
+        }
+      },
+      "2026-10": {
+        "n": 29,
+        "settled": 29,
+        "wins": 28,
+        "losses": 1,
+        "hit_pct": 96.55,
+        "net_pts": 810.0,
+        "tracks": {
+          "dual10m": 10,
+          "good_prod2": 9,
+          "proven_research": 5,
+          "crown_research": 3,
+          "champion": 2
+        }
+      },
+      "2026-11": {
+        "n": 12,
+        "settled": 10,
+        "wins": 9,
+        "losses": 1,
+        "hit_pct": 90.0,
+        "net_pts": 240.0,
+        "tracks": {
+          "dual10m": 11,
+          "crown_research": 1
+        }
+      }
+    },
+    "by_month_ui": {
+      "2025-10": {
+        "n": 14,
+        "settled": 14,
+        "wins": 13,
+        "losses": 1,
+        "hit_pct": 92.86,
+        "net_pts": 373.0,
+        "tracks": {
+          "dual10m": 5,
+          "good_prod2": 4,
+          "crown_5m": 3,
+          "champion": 1,
+          "crown_research": 1
+        }
+      },
+      "2025-11": {
+        "n": 31,
+        "settled": 31,
+        "wins": 31,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 945.0,
+        "tracks": {
+          "dual10m": 13,
+          "good_prod2": 6,
+          "crown_5m": 4,
+          "crown_research": 3,
+          "champion": 3,
+          "proven_100": 2
+        }
+      },
+      "2025-12": {
+        "n": 45,
+        "settled": 45,
+        "wins": 42,
+        "losses": 3,
+        "hit_pct": 93.33,
+        "net_pts": 1205.0,
+        "tracks": {
+          "dual10m": 14,
+          "good_prod2": 13,
+          "crown_5m": 6,
+          "champion": 5,
+          "proven_100": 4,
+          "crown_research": 2,
+          "dual5_research": 1
+        }
+      },
+      "2026-01": {
+        "n": 32,
+        "settled": 32,
+        "wins": 30,
+        "losses": 2,
+        "hit_pct": 93.75,
+        "net_pts": 898.0,
+        "tracks": {
+          "dual10m": 12,
+          "crown_5m": 6,
+          "good_prod2": 5,
+          "champion": 4,
+          "crown_research": 4,
+          "proven_100": 1
+        }
+      },
+      "2026-02": {
+        "n": 36,
+        "settled": 36,
+        "wins": 34,
+        "losses": 2,
+        "hit_pct": 94.44,
+        "net_pts": 956.0,
+        "tracks": {
+          "dual10m": 10,
+          "crown_5m": 9,
+          "good_prod2": 6,
+          "champion": 4,
+          "crown_research": 4,
+          "proven_100": 2,
+          "cf": 1
+        }
+      },
+      "2026-03": {
+        "n": 29,
+        "settled": 29,
+        "wins": 27,
+        "losses": 2,
+        "hit_pct": 93.1,
+        "net_pts": 766.0,
+        "tracks": {
+          "dual10m": 15,
+          "crown_5m": 7,
+          "good_prod2": 6,
+          "champion": 1
+        }
+      },
+      "2026-04": {
+        "n": 33,
+        "settled": 33,
+        "wins": 30,
+        "losses": 3,
+        "hit_pct": 90.91,
+        "net_pts": 816.0,
+        "tracks": {
+          "dual10m": 16,
+          "good_prod2": 6,
+          "crown_5m": 4,
+          "crown_research": 3,
+          "champion": 2,
+          "proven_100": 1,
+          "cf": 1
+        }
+      },
+      "2026-05": {
+        "n": 26,
+        "settled": 26,
+        "wins": 25,
+        "losses": 1,
+        "hit_pct": 96.15,
+        "net_pts": 742.0,
+        "tracks": {
+          "dual10m": 11,
+          "good_prod2": 6,
+          "crown_5m": 4,
+          "champion": 4,
+          "crown_research": 1
+        }
+      },
+      "2026-06": {
+        "n": 41,
+        "settled": 41,
+        "wins": 36,
+        "losses": 5,
+        "hit_pct": 87.8,
+        "net_pts": 932.0,
+        "tracks": {
+          "dual10m": 17,
+          "crown_5m": 11,
+          "good_prod2": 8,
+          "proven_100": 2,
+          "champion": 2,
+          "crown_research": 1
+        }
+      },
+      "2026-07": {
+        "n": 32,
+        "settled": 32,
+        "wins": 29,
+        "losses": 3,
+        "hit_pct": 90.62,
+        "net_pts": 800.0,
+        "tracks": {
+          "dual10m": 16,
+          "good_prod2": 6,
+          "champion": 4,
+          "crown_5m": 3,
+          "cf3": 1,
+          "proven_100": 1,
+          "crown_research": 1
+        }
+      },
+      "2026-08": {
+        "n": 30,
+        "settled": 30,
+        "wins": 29,
+        "losses": 1,
+        "hit_pct": 96.67,
+        "net_pts": 843.0,
+        "tracks": {
+          "dual10m": 12,
+          "good_prod2": 7,
+          "crown_5m": 4,
+          "proven_100": 3,
+          "champion": 3,
+          "crown_research": 1
+        }
+      },
+      "2026-09": {
+        "n": 50,
+        "settled": 50,
+        "wins": 49,
+        "losses": 1,
+        "hit_pct": 98.0,
+        "net_pts": 1478.0,
+        "tracks": {
+          "dual10m": 15,
+          "good_prod2": 10,
+          "champion": 6,
+          "crown_research": 6,
+          "crown_5m": 6,
+          "proven_100": 4,
+          "cf": 3
+        }
+      },
+      "2026-10": {
+        "n": 37,
+        "settled": 37,
+        "wins": 36,
+        "losses": 1,
+        "hit_pct": 97.3,
+        "net_pts": 1276.0,
+        "tracks": {
+          "dual10m": 10,
+          "good_prod2": 10,
+          "proven_100": 7,
+          "crown_5m": 5,
+          "crown_research": 3,
+          "champion": 2
+        }
+      },
+      "2026-11": {
+        "n": 13,
+        "settled": 11,
+        "wins": 9,
+        "losses": 2,
+        "hit_pct": 81.82,
+        "net_pts": 200.0,
+        "tracks": {
+          "dual10m": 12,
+          "crown_5m": 1
+        }
+      }
+    },
+    "p2f_day": {
+      "ACC100_MULTI_V11": {
+        "n": 95,
+        "settled": 95,
+        "wins": 95,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 3360.0,
+        "tracks": {
+          "crown_5m": 30,
+          "proven_100": 27,
+          "good_prod2": 20,
+          "champion": 16,
+          "cf": 1,
+          "cf3": 1
+        }
+      },
+      "ACC_WIDE_P92_P2F": {
+        "n": 94,
+        "settled": 94,
+        "wins": 94,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 3335.0,
+        "tracks": {
+          "crown_5m": 30,
+          "proven_100": 27,
+          "good_prod2": 19,
+          "champion": 16,
+          "cf": 1,
+          "cf3": 1
+        }
+      },
+      "ACC_WIDE_P90_P2F": {
+        "n": 106,
+        "settled": 106,
+        "wins": 106,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 3911.0,
+        "tracks": {
+          "proven_100": 27,
+          "champion": 27,
+          "crown_5m": 26,
+          "good_prod2": 24,
+          "cf": 1,
+          "cf3": 1
+        }
+      },
+      "ACC_WIDE_P85_P2F": {
+        "n": 121,
+        "settled": 121,
+        "wins": 113,
+        "losses": 8,
+        "hit_pct": 93.39,
+        "net_pts": 3901.0,
+        "tracks": {
+          "crown_5m": 34,
+          "champion": 30,
+          "good_prod2": 29,
+          "proven_100": 27,
+          "cf": 1
+        }
+      },
+      "ACC_WIDE_P85B_P2F": {
+        "n": 124,
+        "settled": 124,
+        "wins": 115,
+        "losses": 9,
+        "hit_pct": 92.74,
+        "net_pts": 3954.0,
+        "tracks": {
+          "crown_5m": 34,
+          "champion": 32,
+          "good_prod2": 30,
+          "proven_100": 27,
+          "cf": 1
+        }
+      },
+      "ACC_WIDE_P80_P2F": {
+        "n": 133,
+        "settled": 133,
+        "wins": 119,
+        "losses": 14,
+        "hit_pct": 89.47,
+        "net_pts": 3909.0,
+        "tracks": {
+          "crown_5m": 38,
+          "champion": 35,
+          "good_prod2": 32,
+          "proven_100": 27,
+          "cf": 1
+        }
+      },
+      "ACC_WIDE_P75_P2F": {
+        "n": 138,
+        "settled": 138,
+        "wins": 122,
+        "losses": 16,
+        "hit_pct": 88.41,
+        "net_pts": 3954.0,
+        "tracks": {
+          "crown_5m": 39,
+          "good_prod2": 37,
+          "champion": 35,
+          "proven_100": 27
+        }
+      }
+    },
+    "p2f_cap2": {
+      "ACC100_MULTI_V5_CAP2_P2F": {
+        "n": 134,
+        "settled": 134,
+        "wins": 134,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 4530.0,
+        "tracks": {
+          "crown_5m": 51,
+          "good_prod2": 29,
+          "proven_100": 27,
+          "champion": 23,
+          "cf": 3,
+          "cf3": 1
+        }
+      },
+      "ACC_WIDE_P92_CAP2_P2F": {
+        "n": 133,
+        "settled": 133,
+        "wins": 133,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 4505.0,
+        "tracks": {
+          "crown_5m": 51,
+          "good_prod2": 28,
+          "proven_100": 27,
+          "champion": 23,
+          "cf": 3,
+          "cf3": 1
+        }
+      },
+      "ACC_WIDE_P90_CAP2_P2F": {
+        "n": 149,
+        "settled": 149,
+        "wins": 148,
+        "losses": 1,
+        "hit_pct": 99.33,
+        "net_pts": 5130.0,
+        "tracks": {
+          "crown_5m": 48,
+          "champion": 36,
+          "good_prod2": 32,
+          "proven_100": 27,
+          "cf": 5,
+          "cf3": 1
+        }
+      },
+      "ACC_WIDE_P85_CAP2_P2F": {
+        "n": 180,
+        "settled": 180,
+        "wins": 163,
+        "losses": 17,
+        "hit_pct": 90.56,
+        "net_pts": 5328.0,
+        "tracks": {
+          "crown_5m": 62,
+          "good_prod2": 45,
+          "champion": 41,
+          "proven_100": 27,
+          "cf": 3,
+          "cf3": 2
+        }
+      }
+    },
+    "p2g": {
+      "ACC100_MULTI_V12_P2G_10M": {
+        "n": 65,
+        "settled": 65,
+        "wins": 65,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 2381.0,
+        "tracks": {
+          "proven_100": 26,
+          "good_prod2": 15,
+          "crown_5m": 14,
+          "champion": 8,
+          "dual10m": 2
+        }
+      },
+      "ACC_WIDE_P92_P2G_10M": {
+        "n": 36,
+        "settled": 36,
+        "wins": 36,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 1075.0,
+        "tracks": {
+          "good_prod2": 17,
+          "crown_5m": 15,
+          "dual10m": 2,
+          "champion": 2
+        }
+      },
+      "ACC_WIDE_P90_P2G_10M": {
+        "n": 80,
+        "settled": 80,
+        "wins": 80,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 3045.0,
+        "tracks": {
+          "proven_100": 26,
+          "champion": 19,
+          "good_prod2": 19,
+          "crown_5m": 14,
+          "dual10m": 2
+        }
+      },
+      "ACC_WIDE_P85_P2G_10M": {
+        "n": 65,
+        "settled": 65,
+        "wins": 62,
+        "losses": 3,
+        "hit_pct": 95.38,
+        "net_pts": 2102.0,
+        "tracks": {
+          "good_prod2": 25,
+          "champion": 19,
+          "crown_5m": 19,
+          "dual10m": 2
+        }
+      },
+      "ACC_WIDE_P85B_P2G_10M": {
+        "n": 111,
+        "settled": 111,
+        "wins": 104,
+        "losses": 7,
+        "hit_pct": 93.69,
+        "net_pts": 3664.0,
+        "tracks": {
+          "champion": 31,
+          "good_prod2": 27,
+          "proven_100": 26,
+          "crown_5m": 23,
+          "dual10m": 4
+        }
+      },
+      "ACC_WIDE_P80_P2G_10M": {
+        "n": 103,
+        "settled": 103,
+        "wins": 87,
+        "losses": 16,
+        "hit_pct": 84.47,
+        "net_pts": 2609.0,
+        "tracks": {
+          "good_prod2": 40,
+          "champion": 33,
+          "crown_5m": 16,
+          "dual10m": 14
+        }
+      },
+      "ACC_WIDE_P75_P2G_10M": {
+        "n": 115,
+        "settled": 115,
+        "wins": 96,
+        "losses": 19,
+        "hit_pct": 83.48,
+        "net_pts": 2783.0,
+        "tracks": {
+          "good_prod2": 38,
+          "champion": 35,
+          "dual10m": 23,
+          "crown_5m": 19
+        }
+      }
+    }
+  },
+  "month": {
+    "window": {
+      "start": "2026-11-01",
+      "end": "2026-11-16"
+    },
+    "calls_board_champ_plus": {
+      "n": 14,
+      "settled": 10,
+      "wins": 9,
+      "losses": 1,
+      "hit_pct": 90.0,
+      "net_pts": 240.0,
+      "tracks": {
+        "dual10m": 11,
+        "crown_research": 1,
+        "champion": 1,
+        "good_prod2": 1
+      }
+    },
+    "champ_held_only": {
+      "n": 9,
+      "settled": 9,
+      "wins": 9,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "net_pts": 270.0,
+      "tracks": {
+        "dual10m": 8,
+        "crown_research": 1
+      }
+    },
+    "combine": {
+      "n_raw": 35,
+      "n_ui": 15,
+      "n_multi": 3,
+      "blocked_distinct": 0,
+      "hit_pct_ui": 81.82,
+      "ui": {
+        "n": 15,
+        "settled": 11,
+        "wins": 9,
+        "losses": 2,
+        "hit_pct": 81.82,
+        "net_pts": 200.0,
+        "tracks": {
+          "dual10m": 12,
+          "crown_5m": 1,
+          "champion": 1,
+          "good_prod2": 1
+        }
+      }
+    },
+    "by_month_champ": {
+      "2026-11": {
+        "n": 14,
+        "settled": 10,
+        "wins": 9,
+        "losses": 1,
+        "hit_pct": 90.0,
+        "net_pts": 240.0,
+        "tracks": {
+          "dual10m": 11,
+          "crown_research": 1,
+          "champion": 1,
+          "good_prod2": 1
+        }
+      }
+    },
+    "by_month_ui": {
+      "2026-11": {
+        "n": 15,
+        "settled": 11,
+        "wins": 9,
+        "losses": 2,
+        "hit_pct": 81.82,
+        "net_pts": 200.0,
+        "tracks": {
+          "dual10m": 12,
+          "crown_5m": 1,
+          "champion": 1,
+          "good_prod2": 1
+        }
+      }
+    },
+    "p2f_day": {
+      "ACC100_MULTI_V11": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P92_P2F": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P90_P2F": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P85_P2F": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P85B_P2F": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P80_P2F": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P75_P2F": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      }
+    },
+    "p2f_cap2": {
+      "ACC100_MULTI_V5_CAP2_P2F": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P92_CAP2_P2F": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P90_CAP2_P2F": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P85_CAP2_P2F": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      }
+    },
+    "p2g": {
+      "ACC100_MULTI_V12_P2G_10M": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P92_P2G_10M": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P90_P2G_10M": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P85_P2G_10M": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P85B_P2G_10M": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P80_P2G_10M": {
+        "n": 1,
+        "settled": 1,
+        "wins": 1,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "net_pts": 20.0,
+        "tracks": {
+          "crown_5m": 1
+        }
+      },
+      "ACC_WIDE_P75_P2G_10M": {
+        "n": 4,
+        "settled": 4,
+        "wins": 3,
+        "losses": 1,
+        "hit_pct": 75.0,
+        "net_pts": 50.0,
+        "tracks": {
+          "dual10m": 3,
+          "crown_5m": 1
+        }
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "champ_held_1y_golden",
+      "ok": true,
+      "detail": "got 374@99.47 \u00b7 exp 374@99.47"
+    },
+    {
+      "name": "1y_blocked_0",
+      "ok": true,
+      "detail": "blocked=0"
+    },
+    {
+      "name": "month_blocked_0",
+      "ok": true,
+      "detail": "blocked=0"
+    },
+    {
+      "name": "p2f_day_1y_golden",
+      "ok": true,
+      "detail": "ACC100_MULTI_V11:86@100.0; ACC_WIDE_P92_P2F:86@100.0; ACC_WIDE_P90_P2F:98@100.0\u2026"
+    }
+  ],
+  "verdict": "PASS",
+  "elapsed_s": 66.0
+}

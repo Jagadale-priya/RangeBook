@@ -1,0 +1,241 @@
+{
+  "window": {
+    "start": "2025-11-20",
+    "end": "2026-11-20"
+  },
+  "held": {
+    "n": 343,
+    "wins": 341,
+    "losses": 2,
+    "hit_pct": 99.42,
+    "points": 10170.0
+  },
+  "results": [
+    {
+      "cap": 4,
+      "floor": 99.42,
+      "n": 415,
+      "hit_pct": 99.52,
+      "wins": 413,
+      "losses": 2,
+      "points": 12330.0,
+      "delta_n": 72,
+      "same_or_better_acc": true,
+      "meets_floor": true
+    },
+    {
+      "cap": 5,
+      "floor": 99.42,
+      "n": 429,
+      "hit_pct": 99.53,
+      "wins": 427,
+      "losses": 2,
+      "points": 12750.0,
+      "delta_n": 86,
+      "same_or_better_acc": true,
+      "meets_floor": true
+    },
+    {
+      "cap": 6,
+      "floor": 99.42,
+      "n": 433,
+      "hit_pct": 99.54,
+      "wins": 431,
+      "losses": 2,
+      "points": 12870.0,
+      "delta_n": 90,
+      "same_or_better_acc": true,
+      "meets_floor": true
+    },
+    {
+      "cap": 8,
+      "floor": 99.42,
+      "n": 433,
+      "hit_pct": 99.54,
+      "wins": 431,
+      "losses": 2,
+      "points": 12870.0,
+      "delta_n": 90,
+      "same_or_better_acc": true,
+      "meets_floor": true
+    },
+    {
+      "cap": 4,
+      "floor": 99.0,
+      "n": 417,
+      "hit_pct": 99.04,
+      "wins": 413,
+      "losses": 4,
+      "points": 12270.0,
+      "delta_n": 74,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 5,
+      "floor": 99.0,
+      "n": 431,
+      "hit_pct": 99.07,
+      "wins": 427,
+      "losses": 4,
+      "points": 12690.0,
+      "delta_n": 88,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 6,
+      "floor": 99.0,
+      "n": 435,
+      "hit_pct": 99.08,
+      "wins": 431,
+      "losses": 4,
+      "points": 12810.0,
+      "delta_n": 92,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 8,
+      "floor": 99.0,
+      "n": 435,
+      "hit_pct": 99.08,
+      "wins": 431,
+      "losses": 4,
+      "points": 12810.0,
+      "delta_n": 92,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 4,
+      "floor": 98.0,
+      "n": 421,
+      "hit_pct": 98.1,
+      "wins": 413,
+      "losses": 8,
+      "points": 12150.0,
+      "delta_n": 78,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 5,
+      "floor": 98.0,
+      "n": 435,
+      "hit_pct": 98.16,
+      "wins": 427,
+      "losses": 8,
+      "points": 12570.0,
+      "delta_n": 92,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 6,
+      "floor": 98.0,
+      "n": 439,
+      "hit_pct": 98.18,
+      "wins": 431,
+      "losses": 8,
+      "points": 12690.0,
+      "delta_n": 96,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 8,
+      "floor": 98.0,
+      "n": 439,
+      "hit_pct": 98.18,
+      "wins": 431,
+      "losses": 8,
+      "points": 12690.0,
+      "delta_n": 96,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 4,
+      "floor": 97.0,
+      "n": 425,
+      "hit_pct": 97.18,
+      "wins": 413,
+      "losses": 12,
+      "points": 12030.0,
+      "delta_n": 82,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 5,
+      "floor": 97.0,
+      "n": 440,
+      "hit_pct": 97.05,
+      "wins": 427,
+      "losses": 13,
+      "points": 12420.0,
+      "delta_n": 97,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 6,
+      "floor": 97.0,
+      "n": 444,
+      "hit_pct": 97.07,
+      "wins": 431,
+      "losses": 13,
+      "points": 12540.0,
+      "delta_n": 101,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    },
+    {
+      "cap": 8,
+      "floor": 97.0,
+      "n": 444,
+      "hit_pct": 97.07,
+      "wins": 431,
+      "losses": 13,
+      "points": 12540.0,
+      "delta_n": 101,
+      "same_or_better_acc": false,
+      "meets_floor": true
+    }
+  ],
+  "best_same_acc_floor_99": {
+    "cap": 6,
+    "floor": 99.0,
+    "n": 435,
+    "hit_pct": 99.08,
+    "wins": 431,
+    "losses": 4,
+    "points": 12810.0,
+    "delta_n": 92,
+    "same_or_better_acc": false,
+    "meets_floor": true
+  },
+  "best_held_floor_99_42": {
+    "cap": 6,
+    "floor": 99.42,
+    "n": 433,
+    "hit_pct": 99.54,
+    "wins": 431,
+    "losses": 2,
+    "points": 12870.0,
+    "delta_n": 90,
+    "same_or_better_acc": true,
+    "meets_floor": true
+  },
+  "quiet_day_win_cands": 10,
+  "if_add_quiet_wins_cap4": {
+    "n": 353,
+    "wins": 351,
+    "losses": 2,
+    "hit_pct": 99.43,
+    "points": 10470.0,
+    "delta_n": 10,
+    "note": "naive: add 1 win/day on quiet days at Cap4 \u2014 may drop hit%"
+  }
+}

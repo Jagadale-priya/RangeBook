@@ -1,0 +1,448 @@
+{
+  "oracle15_1cpd": {
+    "n": 22,
+    "hit": 100.0,
+    "cover": 100.0,
+    "w": 22,
+    "l": 0,
+    "avg_pts": 15.0
+  },
+  "oracle12_1cpd": {
+    "n": 22,
+    "hit": 100.0,
+    "cover": 100.0,
+    "w": 22,
+    "l": 0,
+    "avg_pts": 12.0
+  },
+  "blind": [
+    {
+      "name": "ALL textbook sess",
+      "1cpd": {
+        "n": 22,
+        "hit": 54.55,
+        "cover": 100.0,
+        "w": 12,
+        "l": 10,
+        "avg_pts": -0.91
+      },
+      "gap15": {
+        "n": 420,
+        "hit": 36.9,
+        "cover": 1909.09,
+        "w": 155,
+        "l": 265,
+        "avg_pts": -1.13
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD",
+      "1cpd": {
+        "n": 21,
+        "hit": 80.95,
+        "cover": 95.45,
+        "w": 17,
+        "l": 4,
+        "avg_pts": 4.65
+      },
+      "gap15": {
+        "n": 250,
+        "hit": 61.6,
+        "cover": 1136.36,
+        "w": 154,
+        "l": 96,
+        "avg_pts": 1.28
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme (code default)",
+      "1cpd": {
+        "n": 21,
+        "hit": 76.19,
+        "cover": 95.45,
+        "w": 16,
+        "l": 5,
+        "avg_pts": 4.93
+      },
+      "gap15": {
+        "n": 200,
+        "hit": 56.5,
+        "cover": 909.09,
+        "w": 113,
+        "l": 87,
+        "avg_pts": 1.23
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !ext_1atr",
+      "1cpd": {
+        "n": 21,
+        "hit": 76.19,
+        "cover": 95.45,
+        "w": 16,
+        "l": 5,
+        "avg_pts": 4.93
+      },
+      "gap15": {
+        "n": 201,
+        "hit": 56.72,
+        "cover": 913.64,
+        "w": 114,
+        "l": 87,
+        "avg_pts": 1.29
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !ext_2atr",
+      "1cpd": {
+        "n": 21,
+        "hit": 71.43,
+        "cover": 95.45,
+        "w": 15,
+        "l": 6,
+        "avg_pts": 6.32
+      },
+      "gap15": {
+        "n": 146,
+        "hit": 57.53,
+        "cover": 663.64,
+        "w": 84,
+        "l": 62,
+        "avg_pts": 2.43
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + clear_path",
+      "1cpd": {
+        "n": 21,
+        "hit": 71.43,
+        "cover": 95.45,
+        "w": 15,
+        "l": 6,
+        "avg_pts": 4.12
+      },
+      "gap15": {
+        "n": 67,
+        "hit": 65.67,
+        "cover": 304.55,
+        "w": 44,
+        "l": 23,
+        "avg_pts": 2.67
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + clear",
+      "1cpd": {
+        "n": 21,
+        "hit": 71.43,
+        "cover": 95.45,
+        "w": 15,
+        "l": 6,
+        "avg_pts": 4.12
+      },
+      "gap15": {
+        "n": 67,
+        "hit": 65.67,
+        "cover": 304.55,
+        "w": 44,
+        "l": 23,
+        "avg_pts": 2.67
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + AD",
+      "1cpd": {
+        "n": 21,
+        "hit": 85.71,
+        "cover": 95.45,
+        "w": 18,
+        "l": 3,
+        "avg_pts": 8.62
+      },
+      "gap15": {
+        "n": 160,
+        "hit": 61.25,
+        "cover": 727.27,
+        "w": 98,
+        "l": 62,
+        "avg_pts": 2.73
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + ctrl",
+      "1cpd": {
+        "n": 21,
+        "hit": 80.95,
+        "cover": 95.45,
+        "w": 17,
+        "l": 4,
+        "avg_pts": 5.18
+      },
+      "gap15": {
+        "n": 176,
+        "hit": 60.8,
+        "cover": 800.0,
+        "w": 107,
+        "l": 69,
+        "avg_pts": 2.55
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + clear + AD",
+      "1cpd": {
+        "n": 19,
+        "hit": 78.95,
+        "cover": 86.36,
+        "w": 15,
+        "l": 4,
+        "avg_pts": 7.26
+      },
+      "gap15": {
+        "n": 53,
+        "hit": 66.04,
+        "cover": 240.91,
+        "w": 35,
+        "l": 18,
+        "avg_pts": 2.59
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + clear + ctrl",
+      "1cpd": {
+        "n": 21,
+        "hit": 71.43,
+        "cover": 95.45,
+        "w": 15,
+        "l": 6,
+        "avg_pts": 3.64
+      },
+      "gap15": {
+        "n": 61,
+        "hit": 65.57,
+        "cover": 277.27,
+        "w": 40,
+        "l": 21,
+        "avg_pts": 2.58
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + clear + AD + ctrl",
+      "1cpd": {
+        "n": 19,
+        "hit": 78.95,
+        "cover": 86.36,
+        "w": 15,
+        "l": 4,
+        "avg_pts": 6.73
+      },
+      "gap15": {
+        "n": 50,
+        "hit": 66.0,
+        "cover": 227.27,
+        "w": 33,
+        "l": 17,
+        "avg_pts": 2.47
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + di8",
+      "1cpd": {
+        "n": 21,
+        "hit": 61.9,
+        "cover": 95.45,
+        "w": 13,
+        "l": 8,
+        "avg_pts": -1.16
+      },
+      "gap15": {
+        "n": 153,
+        "hit": 57.52,
+        "cover": 695.45,
+        "w": 88,
+        "l": 65,
+        "avg_pts": 0.84
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + clear + di8",
+      "1cpd": {
+        "n": 21,
+        "hit": 61.9,
+        "cover": 95.45,
+        "w": 13,
+        "l": 8,
+        "avg_pts": 0.97
+      },
+      "gap15": {
+        "n": 58,
+        "hit": 63.79,
+        "cover": 263.64,
+        "w": 37,
+        "l": 21,
+        "avg_pts": 1.46
+      },
+      "peek": false
+    },
+    {
+      "name": "TierAB + !extreme",
+      "1cpd": {
+        "n": 19,
+        "hit": 63.16,
+        "cover": 86.36,
+        "w": 12,
+        "l": 7,
+        "avg_pts": 1.41
+      },
+      "gap15": {
+        "n": 58,
+        "hit": 60.34,
+        "cover": 263.64,
+        "w": 35,
+        "l": 23,
+        "avg_pts": 2.52
+      },
+      "peek": false
+    },
+    {
+      "name": "TierAB + clear",
+      "1cpd": {
+        "n": 9,
+        "hit": 44.44,
+        "cover": 40.91,
+        "w": 4,
+        "l": 5,
+        "avg_pts": -5.03
+      },
+      "gap15": {
+        "n": 12,
+        "hit": 50.0,
+        "cover": 54.55,
+        "w": 6,
+        "l": 6,
+        "avg_pts": -3.03
+      },
+      "peek": false
+    },
+    {
+      "name": "TierA only",
+      "1cpd": {
+        "n": 10,
+        "hit": 70.0,
+        "cover": 45.45,
+        "w": 7,
+        "l": 3,
+        "avg_pts": 4.27
+      },
+      "gap15": {
+        "n": 16,
+        "hit": 68.75,
+        "cover": 72.73,
+        "w": 11,
+        "l": 5,
+        "avg_pts": 4.41
+      },
+      "peek": false
+    },
+    {
+      "name": "Oracle T15 (hindsight 1/day) [peek]",
+      "1cpd": {
+        "n": 22,
+        "hit": 100.0,
+        "cover": 100.0,
+        "w": 22,
+        "l": 0,
+        "avg_pts": 15.0
+      },
+      "gap15": {
+        "n": 314,
+        "hit": 100.0,
+        "cover": 1427.27,
+        "w": 314,
+        "l": 0,
+        "avg_pts": 15.0
+      },
+      "peek": true
+    }
+  ],
+  "lifts": [
+    {
+      "label": "not_extreme",
+      "n": 746,
+      "hit": 57.37,
+      "lift": -3.36
+    },
+    {
+      "label": "INTO extreme (bad)",
+      "n": 489,
+      "hit": 65.85,
+      "lift": 5.12
+    },
+    {
+      "label": "!ext_1atr",
+      "n": 748,
+      "hit": 57.35,
+      "lift": -3.38
+    },
+    {
+      "label": "clear_path",
+      "n": 162,
+      "hit": 61.73,
+      "lift": 1.0
+    },
+    {
+      "label": "ad_with",
+      "n": 994,
+      "hit": 62.17,
+      "lift": 1.44
+    },
+    {
+      "label": "ctrl",
+      "n": 922,
+      "hit": 61.71,
+      "lift": 0.98
+    },
+    {
+      "label": "di8",
+      "n": 996,
+      "hit": 62.15,
+      "lift": 1.42
+    },
+    {
+      "label": "not_extreme+clear",
+      "n": 162,
+      "hit": 61.73,
+      "lift": 1.0
+    },
+    {
+      "label": "not_extreme+clear+AD",
+      "n": 128,
+      "hit": 60.16,
+      "lift": -0.57
+    },
+    {
+      "label": "not_extreme+clear+ctrl",
+      "n": 126,
+      "hit": 60.32,
+      "lift": -0.41
+    }
+  ],
+  "extreme_on_wins": 375,
+  "extreme_on_loss": 187,
+  "window": [
+    "2026-10-15",
+    "2026-11-16"
+  ]
+}

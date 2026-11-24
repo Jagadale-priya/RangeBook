@@ -1,0 +1,787 @@
+{
+  "today": "2026-11-20",
+  "best": "v1",
+  "ranked": [
+    {
+      "name": "v1",
+      "score_last10": 146.871,
+      "score_full": 158.779,
+      "full": {
+        "n": 76,
+        "wins": 51,
+        "losses": 25,
+        "hit_pct": 67.11,
+        "avg_R": 0.461,
+        "avg_pts": 8.05,
+        "sum_pts": 611.9,
+        "hit_1R_pct": 69.74,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 27,
+            "hit": 74.1
+          },
+          "OR_RETEST": {
+            "n": 11,
+            "hit": 54.5
+          },
+          "SWEEP_RECLAIM": {
+            "n": 38,
+            "hit": 65.8
+          }
+        }
+      },
+      "last10": {
+        "n": 36,
+        "wins": 23,
+        "losses": 13,
+        "hit_pct": 63.89,
+        "avg_R": 0.402,
+        "avg_pts": 8.36,
+        "sum_pts": 301.05,
+        "hit_1R_pct": 63.89,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 14,
+            "hit": 78.6
+          },
+          "OR_RETEST": {
+            "n": 4,
+            "hit": 75.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 18,
+            "hit": 50.0
+          }
+        }
+      },
+      "today": {
+        "n": 4,
+        "wins": 2,
+        "losses": 2,
+        "hit_pct": 50.0,
+        "avg_R": 0.14,
+        "avg_pts": 6.95,
+        "sum_pts": 27.8,
+        "hit_1R_pct": 50.0,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 1,
+            "hit": 100.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 3,
+            "hit": 33.3
+          }
+        }
+      }
+    },
+    {
+      "name": "v2",
+      "score_last10": 115.427,
+      "score_full": 123.031,
+      "full": {
+        "n": 40,
+        "wins": 22,
+        "losses": 18,
+        "hit_pct": 55.0,
+        "avg_R": 0.29,
+        "avg_pts": 3.58,
+        "sum_pts": 143.15,
+        "hit_1R_pct": 57.5,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 17,
+            "hit": 58.8
+          },
+          "OR_RETEST": {
+            "n": 19,
+            "hit": 47.4
+          },
+          "SWEEP_RECLAIM": {
+            "n": 4,
+            "hit": 75.0
+          }
+        }
+      },
+      "last10": {
+        "n": 19,
+        "wins": 10,
+        "losses": 9,
+        "hit_pct": 52.63,
+        "avg_R": 0.245,
+        "avg_pts": 1.93,
+        "sum_pts": 36.7,
+        "hit_1R_pct": 52.63,
+        "hit_2R_pct": 26.32,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 9,
+            "hit": 33.3
+          },
+          "OR_RETEST": {
+            "n": 7,
+            "hit": 71.4
+          },
+          "SWEEP_RECLAIM": {
+            "n": 3,
+            "hit": 66.7
+          }
+        }
+      },
+      "today": {
+        "n": 2,
+        "wins": 1,
+        "losses": 1,
+        "hit_pct": 50.0,
+        "avg_R": 0.341,
+        "avg_pts": 3.95,
+        "sum_pts": 7.9,
+        "hit_1R_pct": 50.0,
+        "hit_2R_pct": 50.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 1,
+            "hit": 0.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 1,
+            "hit": 100.0
+          }
+        }
+      }
+    },
+    {
+      "name": "v2_soft_htf",
+      "score_last10": 115.427,
+      "score_full": 123.031,
+      "full": {
+        "n": 40,
+        "wins": 22,
+        "losses": 18,
+        "hit_pct": 55.0,
+        "avg_R": 0.29,
+        "avg_pts": 3.58,
+        "sum_pts": 143.15,
+        "hit_1R_pct": 57.5,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 17,
+            "hit": 58.8
+          },
+          "OR_RETEST": {
+            "n": 19,
+            "hit": 47.4
+          },
+          "SWEEP_RECLAIM": {
+            "n": 4,
+            "hit": 75.0
+          }
+        }
+      },
+      "last10": {
+        "n": 19,
+        "wins": 10,
+        "losses": 9,
+        "hit_pct": 52.63,
+        "avg_R": 0.245,
+        "avg_pts": 1.93,
+        "sum_pts": 36.7,
+        "hit_1R_pct": 52.63,
+        "hit_2R_pct": 26.32,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 9,
+            "hit": 33.3
+          },
+          "OR_RETEST": {
+            "n": 7,
+            "hit": 71.4
+          },
+          "SWEEP_RECLAIM": {
+            "n": 3,
+            "hit": 66.7
+          }
+        }
+      },
+      "today": {
+        "n": 2,
+        "wins": 1,
+        "losses": 1,
+        "hit_pct": 50.0,
+        "avg_R": 0.341,
+        "avg_pts": 3.95,
+        "sum_pts": 7.9,
+        "hit_1R_pct": 50.0,
+        "hit_2R_pct": 50.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 1,
+            "hit": 0.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 1,
+            "hit": 100.0
+          }
+        }
+      }
+    },
+    {
+      "name": "v2_minrisk7",
+      "score_last10": 115.427,
+      "score_full": 123.031,
+      "full": {
+        "n": 40,
+        "wins": 22,
+        "losses": 18,
+        "hit_pct": 55.0,
+        "avg_R": 0.29,
+        "avg_pts": 3.58,
+        "sum_pts": 143.15,
+        "hit_1R_pct": 57.5,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 17,
+            "hit": 58.8
+          },
+          "OR_RETEST": {
+            "n": 19,
+            "hit": 47.4
+          },
+          "SWEEP_RECLAIM": {
+            "n": 4,
+            "hit": 75.0
+          }
+        }
+      },
+      "last10": {
+        "n": 19,
+        "wins": 10,
+        "losses": 9,
+        "hit_pct": 52.63,
+        "avg_R": 0.245,
+        "avg_pts": 1.93,
+        "sum_pts": 36.7,
+        "hit_1R_pct": 52.63,
+        "hit_2R_pct": 26.32,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 9,
+            "hit": 33.3
+          },
+          "OR_RETEST": {
+            "n": 7,
+            "hit": 71.4
+          },
+          "SWEEP_RECLAIM": {
+            "n": 3,
+            "hit": 66.7
+          }
+        }
+      },
+      "today": {
+        "n": 2,
+        "wins": 1,
+        "losses": 1,
+        "hit_pct": 50.0,
+        "avg_R": 0.341,
+        "avg_pts": 3.95,
+        "sum_pts": 7.9,
+        "hit_1R_pct": 50.0,
+        "hit_2R_pct": 50.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 1,
+            "hit": 0.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 1,
+            "hit": 100.0
+          }
+        }
+      }
+    },
+    {
+      "name": "v2_nosweep",
+      "score_last10": 107.857,
+      "score_full": 116.205,
+      "full": {
+        "n": 36,
+        "wins": 19,
+        "losses": 17,
+        "hit_pct": 52.78,
+        "avg_R": 0.242,
+        "avg_pts": 2.68,
+        "sum_pts": 96.45,
+        "hit_1R_pct": 55.56,
+        "hit_2R_pct": 22.22,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 17,
+            "hit": 58.8
+          },
+          "OR_RETEST": {
+            "n": 19,
+            "hit": 47.4
+          }
+        }
+      },
+      "last10": {
+        "n": 16,
+        "wins": 8,
+        "losses": 8,
+        "hit_pct": 50.0,
+        "avg_R": 0.195,
+        "avg_pts": 0.36,
+        "sum_pts": 5.7,
+        "hit_1R_pct": 50.0,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 9,
+            "hit": 33.3
+          },
+          "OR_RETEST": {
+            "n": 7,
+            "hit": 71.4
+          }
+        }
+      },
+      "today": {
+        "n": 1,
+        "wins": 0,
+        "losses": 1,
+        "hit_pct": 0.0,
+        "avg_R": -1.0,
+        "avg_pts": -18.75,
+        "sum_pts": -18.75,
+        "hit_1R_pct": 0.0,
+        "hit_2R_pct": 0.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 1,
+            "hit": 0.0
+          }
+        }
+      }
+    },
+    {
+      "name": "v2_trail08",
+      "score_last10": 96.737,
+      "score_full": 112.509,
+      "full": {
+        "n": 40,
+        "wins": 21,
+        "losses": 19,
+        "hit_pct": 52.5,
+        "avg_R": 0.17,
+        "avg_pts": 1.77,
+        "sum_pts": 70.9,
+        "hit_1R_pct": 47.5,
+        "hit_2R_pct": 20.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 17,
+            "hit": 58.8
+          },
+          "OR_RETEST": {
+            "n": 19,
+            "hit": 42.1
+          },
+          "SWEEP_RECLAIM": {
+            "n": 4,
+            "hit": 75.0
+          }
+        }
+      },
+      "last10": {
+        "n": 19,
+        "wins": 9,
+        "losses": 10,
+        "hit_pct": 47.37,
+        "avg_R": 0.053,
+        "avg_pts": -0.65,
+        "sum_pts": -12.3,
+        "hit_1R_pct": 36.84,
+        "hit_2R_pct": 15.79,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 9,
+            "hit": 33.3
+          },
+          "OR_RETEST": {
+            "n": 7,
+            "hit": 57.1
+          },
+          "SWEEP_RECLAIM": {
+            "n": 3,
+            "hit": 66.7
+          }
+        }
+      },
+      "today": {
+        "n": 2,
+        "wins": 1,
+        "losses": 1,
+        "hit_pct": 50.0,
+        "avg_R": 0.341,
+        "avg_pts": 3.95,
+        "sum_pts": 7.9,
+        "hit_1R_pct": 50.0,
+        "hit_2R_pct": 50.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 1,
+            "hit": 0.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 1,
+            "hit": 100.0
+          }
+        }
+      }
+    },
+    {
+      "name": "v2_break_only",
+      "score_last10": 55.596,
+      "score_full": 133.3,
+      "full": {
+        "n": 20,
+        "wins": 12,
+        "losses": 8,
+        "hit_pct": 60.0,
+        "avg_R": 0.306,
+        "avg_pts": 5.3,
+        "sum_pts": 106.0,
+        "hit_1R_pct": 60.0,
+        "hit_2R_pct": 20.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 20,
+            "hit": 60.0
+          }
+        }
+      },
+      "last10": {
+        "n": 9,
+        "wins": 3,
+        "losses": 6,
+        "hit_pct": 33.33,
+        "avg_R": -0.264,
+        "avg_pts": -5.6,
+        "sum_pts": -50.4,
+        "hit_1R_pct": 33.33,
+        "hit_2R_pct": 11.11,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 9,
+            "hit": 33.3
+          }
+        }
+      },
+      "today": {
+        "n": 1,
+        "wins": 0,
+        "losses": 1,
+        "hit_pct": 0.0,
+        "avg_R": -1.0,
+        "avg_pts": -18.75,
+        "sum_pts": -18.75,
+        "hit_1R_pct": 0.0,
+        "hit_2R_pct": 0.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 1,
+            "hit": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "best_today_calls": [
+    {
+      "day": "2026-11-20",
+      "hm": "10:21",
+      "side": "BUY",
+      "setup": "SWEEP_RECLAIM",
+      "entry": 25500.05,
+      "stop_loss": 25484.2,
+      "risk": 15.85,
+      "reason": "swept 25476.8 < prev_lo 25485.0, reclaim close \u00b7 SL under prev_low=25485.0/swing_lo=25485.0",
+      "bar_i": 66,
+      "htf_bias": "up",
+      "logic_ver": "v2",
+      "cfg_name": "v1",
+      "exit_hm": "10:27",
+      "exit_px": 25526.7,
+      "exit_why": "trail_sl",
+      "pts": 26.65,
+      "R": 1.681,
+      "win": true,
+      "mfe": 41.7,
+      "mae": 2.45,
+      "hit_1R": true,
+      "hit_2R": true,
+      "hit_3R": false,
+      "live_fire": true,
+      "fired_at": "2026-11-20T21:51:57",
+      "desk": "PA_STRUCTURE_SL_LIVE",
+      "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+      "tags": [
+        "PA_STRUCTURE_SL_LIVE",
+        "PA_STRUCTURE_RESEARCH"
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "hm": "10:45",
+      "side": "SELL",
+      "setup": "SWEEP_RECLAIM",
+      "entry": 25546.25,
+      "stop_loss": 25552.7,
+      "risk": 6.45,
+      "reason": "swept 25555.1 > prev_hi 25552.0, reclaim close \u00b7 SL above prev_high=25552.0/swing_hi=25552.0",
+      "bar_i": 90,
+      "htf_bias": "down",
+      "logic_ver": "v2",
+      "cfg_name": "v1",
+      "exit_hm": "10:47",
+      "exit_px": 25552.7,
+      "exit_why": "sl",
+      "pts": -6.45,
+      "R": -1.0,
+      "win": false,
+      "mfe": 2.95,
+      "mae": 6.95,
+      "hit_1R": false,
+      "hit_2R": false,
+      "hit_3R": false,
+      "live_fire": true,
+      "fired_at": "2026-11-20T21:51:57",
+      "desk": "PA_STRUCTURE_SL_LIVE",
+      "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+      "tags": [
+        "PA_STRUCTURE_SL_LIVE",
+        "PA_STRUCTURE_RESEARCH"
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "hm": "10:58",
+      "side": "SELL",
+      "setup": "BREAK_HOLD",
+      "entry": 25552.1,
+      "stop_loss": 25572.7,
+      "risk": 20.6,
+      "reason": "close 25552.1 < swing_lo 25554.3 \u00b7 SL above prev_high=25571.8/swing_hi=25572.0",
+      "bar_i": 103,
+      "htf_bias": "down",
+      "logic_ver": "v2",
+      "cfg_name": "v1",
+      "exit_hm": "11:07",
+      "exit_px": 25534.0,
+      "exit_why": "trail_sl",
+      "pts": 18.1,
+      "R": 0.879,
+      "win": true,
+      "mfe": 34.25,
+      "mae": 4.1,
+      "hit_1R": true,
+      "hit_2R": false,
+      "hit_3R": false,
+      "live_fire": true,
+      "fired_at": "2026-11-20T21:51:57",
+      "desk": "PA_STRUCTURE_SL_LIVE",
+      "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+      "tags": [
+        "PA_STRUCTURE_SL_LIVE",
+        "PA_STRUCTURE_RESEARCH"
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "hm": "11:10",
+      "side": "SELL",
+      "setup": "SWEEP_RECLAIM",
+      "entry": 25525.65,
+      "stop_loss": 25536.15,
+      "risk": 10.5,
+      "reason": "swept 25535.1 > prev_hi 25533.4, reclaim close \u00b7 SL above prev_high=25533.4/swing_hi=25535.4",
+      "bar_i": 115,
+      "htf_bias": "down",
+      "logic_ver": "v2",
+      "cfg_name": "v1",
+      "exit_hm": "11:15",
+      "exit_px": 25536.15,
+      "exit_why": "sl",
+      "pts": -10.5,
+      "R": -1.0,
+      "win": false,
+      "mfe": 6.1,
+      "mae": 18.4,
+      "hit_1R": false,
+      "hit_2R": false,
+      "hit_3R": false,
+      "live_fire": true,
+      "fired_at": "2026-11-20T21:51:57",
+      "desk": "PA_STRUCTURE_SL_LIVE",
+      "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+      "tags": [
+        "PA_STRUCTURE_SL_LIVE",
+        "PA_STRUCTURE_RESEARCH"
+      ]
+    }
+  ],
+  "ledger": {
+    "n_added": 4,
+    "added": [
+      {
+        "day": "2026-11-20",
+        "hm": "10:21",
+        "side": "BUY",
+        "setup": "SWEEP_RECLAIM",
+        "entry": 25500.05,
+        "stop_loss": 25484.2,
+        "risk": 15.85,
+        "reason": "swept 25476.8 < prev_lo 25485.0, reclaim close \u00b7 SL under prev_low=25485.0/swing_lo=25485.0",
+        "bar_i": 66,
+        "htf_bias": "up",
+        "logic_ver": "v2",
+        "cfg_name": "v1",
+        "exit_hm": "10:27",
+        "exit_px": 25526.7,
+        "exit_why": "trail_sl",
+        "pts": 26.65,
+        "R": 1.681,
+        "win": true,
+        "mfe": 41.7,
+        "mae": 2.45,
+        "hit_1R": true,
+        "hit_2R": true,
+        "hit_3R": false,
+        "live_fire": true,
+        "fired_at": "2026-11-20T21:51:57",
+        "desk": "PA_STRUCTURE_SL_LIVE",
+        "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+        "tags": [
+          "PA_STRUCTURE_SL_LIVE",
+          "PA_STRUCTURE_RESEARCH"
+        ]
+      },
+      {
+        "day": "2026-11-20",
+        "hm": "10:45",
+        "side": "SELL",
+        "setup": "SWEEP_RECLAIM",
+        "entry": 25546.25,
+        "stop_loss": 25552.7,
+        "risk": 6.45,
+        "reason": "swept 25555.1 > prev_hi 25552.0, reclaim close \u00b7 SL above prev_high=25552.0/swing_hi=25552.0",
+        "bar_i": 90,
+        "htf_bias": "down",
+        "logic_ver": "v2",
+        "cfg_name": "v1",
+        "exit_hm": "10:47",
+        "exit_px": 25552.7,
+        "exit_why": "sl",
+        "pts": -6.45,
+        "R": -1.0,
+        "win": false,
+        "mfe": 2.95,
+        "mae": 6.95,
+        "hit_1R": false,
+        "hit_2R": false,
+        "hit_3R": false,
+        "live_fire": true,
+        "fired_at": "2026-11-20T21:51:57",
+        "desk": "PA_STRUCTURE_SL_LIVE",
+        "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+        "tags": [
+          "PA_STRUCTURE_SL_LIVE",
+          "PA_STRUCTURE_RESEARCH"
+        ]
+      },
+      {
+        "day": "2026-11-20",
+        "hm": "10:58",
+        "side": "SELL",
+        "setup": "BREAK_HOLD",
+        "entry": 25552.1,
+        "stop_loss": 25572.7,
+        "risk": 20.6,
+        "reason": "close 25552.1 < swing_lo 25554.3 \u00b7 SL above prev_high=25571.8/swing_hi=25572.0",
+        "bar_i": 103,
+        "htf_bias": "down",
+        "logic_ver": "v2",
+        "cfg_name": "v1",
+        "exit_hm": "11:07",
+        "exit_px": 25534.0,
+        "exit_why": "trail_sl",
+        "pts": 18.1,
+        "R": 0.879,
+        "win": true,
+        "mfe": 34.25,
+        "mae": 4.1,
+        "hit_1R": true,
+        "hit_2R": false,
+        "hit_3R": false,
+        "live_fire": true,
+        "fired_at": "2026-11-20T21:51:57",
+        "desk": "PA_STRUCTURE_SL_LIVE",
+        "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+        "tags": [
+          "PA_STRUCTURE_SL_LIVE",
+          "PA_STRUCTURE_RESEARCH"
+        ]
+      },
+      {
+        "day": "2026-11-20",
+        "hm": "11:10",
+        "side": "SELL",
+        "setup": "SWEEP_RECLAIM",
+        "entry": 25525.65,
+        "stop_loss": 25536.15,
+        "risk": 10.5,
+        "reason": "swept 25535.1 > prev_hi 25533.4, reclaim close \u00b7 SL above prev_high=25533.4/swing_hi=25535.4",
+        "bar_i": 115,
+        "htf_bias": "down",
+        "logic_ver": "v2",
+        "cfg_name": "v1",
+        "exit_hm": "11:15",
+        "exit_px": 25536.15,
+        "exit_why": "sl",
+        "pts": -10.5,
+        "R": -1.0,
+        "win": false,
+        "mfe": 6.1,
+        "mae": 18.4,
+        "hit_1R": false,
+        "hit_2R": false,
+        "hit_3R": false,
+        "live_fire": true,
+        "fired_at": "2026-11-20T21:51:57",
+        "desk": "PA_STRUCTURE_SL_LIVE",
+        "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+        "tags": [
+          "PA_STRUCTURE_SL_LIVE",
+          "PA_STRUCTURE_RESEARCH"
+        ]
+      }
+    ],
+    "n_total": 4
+  },
+  "improvements": [
+    "MIN_RISK 9 (cut tight-SL noise losses)",
+    "Strict HTF up/down only",
+    "OR-side align vs OR mid",
+    "Sweep depth/wick/reclaim quality",
+    "Break momentum 2-of-3",
+    "Side-flip + post-loss cooldown",
+    "Trade window 09:50\u201314:30 \u00b7 max 3/day"
+  ]
+}

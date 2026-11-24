@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "n_bars": 461926,
+    "n_days": 1235,
+    "n_tickets": 212,
+    "ticket_reasons": {
+      "clock": 1129,
+      "not_first": 407,
+      "ok": 212,
+      "noisy": 7,
+      "chase": 3,
+      "body": 1
+    },
+    "freeze": "2024-09-10",
+    "start": "2021-01-01",
+    "end": "2025-12-30",
+    "research_only": true,
+    "not_live": true
+  },
+  "session_summary": {
+    "n_sessions": 1234,
+    "up_day_rate": 48.54,
+    "mean_day_ret_pct": -0.0407,
+    "mean_range_pct": 1.0137,
+    "mean_or_width": 75.19,
+    "close_near_high_pct": 34.12,
+    "close_near_low_pct": 26.66,
+    "first_hour_up_then_up_close": 72.65,
+    "first_hour_dn_then_dn_close": 71.89,
+    "or_only_up_then_up_close": 91.27,
+    "or_only_dn_then_dn_close": 96.96,
+    "or_both_sides_pct": 43.11,
+    "gap_up_then_up_close": 50.32,
+    "gap_dn_then_dn_close": 41.77
+  },
+  "pattern_study": {
+    "patterns": [
+      {
+        "pattern": "marubozu",
+        "n_samples": 9621,
+        "dir_up_pct": 51.75,
+        "buy_t1_pct": 51.08,
+        "buy_n": 4928,
+        "sell_t1_pct": 51.59,
+        "sell_n": 4693,
+        "best_side": "SELL",
+        "best_edge": 1.59
+      },
+      {
+        "pattern": "bull_run3",
+        "n_samples": 8837,
+        "dir_up_pct": 51.92,
+        "buy_t1_pct": 51.45,
+        "buy_n": 8837,
+        "sell_t1_pct": null,
+        "sell_n": 0,
+        "best_side": "BUY",
+        "best_edge": 1.45
+      },
+      {
+        "pattern": "hammer",
+        "n_samples": 8384,
+        "dir_up_pct": 53.43,
+        "buy_t1_pct": 51.25,
+        "buy_n": 8384,
+        "sell_t1_pct": null,
+        "sell_n": 0,
+        "best_side": "BUY",
+        "best_edge": 1.25
+      },
+      {
+        "pattern": "bull_engulf",
+        "n_samples": 15732,
+        "dir_up_pct": 52.5,
+        "buy_t1_pct": 50.99,
+        "buy_n": 15732,
+        "sell_t1_pct": null,
+        "sell_n": 0,
+        "best_side": "BUY",
+        "best_edge": 0.99
+      },
+      {
+        "pattern": "inside",
+        "n_samples": 8981,
+        "dir_up_pct": 53.08,
+        "buy_t1_pct": 50.99,
+        "buy_n": 8981,
+        "sell_t1_pct": 48.98,
+        "sell_n": 8981,
+        "best_side": "BUY",
+        "best_edge": 0.99
+      },
+      {
+        "pattern": "bull_run2",
+        "n_samples": 8794,
+        "dir_up_pct": 52.08,
+        "buy_t1_pct": 50.94,
+        "buy_n": 8794,
+        "sell_t1_pct": null,
+        "sell_n": 0,
+        "best_side": "BUY",
+        "best_edge": 0.94
+      },
+      {
+        "pattern": "pin_bull",
+        "n_samples": 9223,
+        "dir_up_pct": 53.35,
+        "buy_t1_pct": 50.79,
+        "buy_n": 9223,
+        "sell_t1_pct": null,
+        "sell_n": 0,
+        "best_side": "BUY",
+        "best_edge": 0.79
+      },
+      {
+        "pattern": "bull_harami",
+        "n_samples": 14930,
+        "dir_up_pct": 52.75,
+        "buy_t1_pct": 50.67,
+        "buy_n": 14930,
+        "sell_t1_pct": null,
+        "sell_n": 0,
+        "best_side": "BUY",
+        "best_edge": 0.67
+      },
+      {
+        "pattern": "inv_hammer",
+        "n_samples": 8820,
+        "dir_up_pct": 51.56,
+        "buy_t1_pct": 50.6,
+        "buy_n": 8820,
+        "sell_t1_pct": 49.39,
+        "sell_n": 8820,
+        "best_side": "BUY",
+        "best_edge": 0.6
+      },
+      {
+        "pattern": "bear_engulf",
+        "n_samples": 14142,
+        "dir_up_pct": 52.58,
+        "buy_t1_pct": null,
+        "buy_n": 0,
+        "sell_t1_pct": 50.42,
+        "sell_n": 14142,
+        "best_side": "SELL",
+        "best_edge": 0.42
+      },
+      {
+        "pattern": "outside",
+        "n_samples": 8313,
+        "dir_up_pct": 51.91,
+        "buy_t1_pct": 50.39,
+        "buy_n": 8313,
+        "sell_t1_pct": 49.6,
+        "sell_n": 8313,
+        "best_side": "BUY",
+        "best_edge": 0.39
+      },
+      {
+        "pattern": "doji",
+        "n_samples": 11431,
+        "dir_up_pct": 51.68,
+        "buy_t1_pct": 50.24,
+        "buy_n": 11431,
+        "sell_t1_pct": 49.73,
+        "sell_n": 11431,
+        "best_side": "BUY",
+        "best_edge": 0.24
+      },
+      {
+        "pattern": "bear_harami",
+        "n_samples": 8275,
+        "dir_up_pct": 52.16,
+        "buy_t1_pct": null,
+        "buy_n": 0,
+        "sell_t1_pct": 49.91,
+        "sell_n": 8275,
+        "best_side": "SELL",
+        "best_edge": -0.09
+      },
+      {
+        "pattern": "shooting",
+        "n_samples": 4072,
+        "dir_up_pct": 52.08,
+        "buy_t1_pct": null,
+        "buy_n": 0,
+        "sell_t1_pct": 49.88,
+        "sell_n": 4072,
+        "best_side": "SELL",
+        "best_edge": -0.12
+      },
+      {
+        "pattern": "morning_star",
+        "n_samples": 9560,
+        "dir_up_pct": 50.94,
+        "buy_t1_pct": 49.65,
+        "buy_n": 9560,
+        "sell_t1_pct": null,
+        "sell_n": 0,
+        "best_side": "BUY",
+        "best_edge": -0.35
+      },
+      {
+        "pattern": "bear_run2",
+        "n_samples": 8513,
+        "dir_up_pct": 53.31,
+        "buy_t1_pct": null,
+        "buy_n": 0,
+        "sell_t1_pct": 49.65,
+        "sell_n": 8513,
+        "best_side": "SELL",
+        "best_edge": -0.35
+      },
+      {
+        "pattern": "bear_run3",
+        "n_samples": 8458,
+        "dir_up_pct": 52.79,
+        "buy_t1_pct": null,
+        "buy_n": 0,
+        "sell_t1_pct": 49.53,
+        "sell_n": 8458,
+        "best_side": "SELL",
+        "best_edge": -0.47
+      },
+      {
+        "pattern": "evening_star",
+        "n_samples": 9765,
+        "dir_up_pct": 52.72,
+        "buy_t1_pct": null,
+        "buy_n": 0,
+        "sell_t1_pct": 49.14,
+        "sell_n": 9765,
+        "best_side": "SELL",
+        "best_edge": -0.86
+      },
+      {
+        "pattern": "pin_bear",
+        "n_samples": 9429,
+        "dir_up_pct": 52.23,
+        "buy_t1_pct": null,
+        "buy_n": 0,
+        "sell_t1_pct": 49.13,
+        "sell_n": 9429,
+        "best_side": "SELL",
+        "best_edge": -0.87
+      },
+      {
+        "pattern": "hanging",
+        "n_samples": 4580,
+        "dir_up_pct": 53.22,
+        "buy_t1_pct": null,
+        "buy_n": 0,
+        "sell_t1_pct": 48.93,
+        "sell_n": 4580,
+        "best_side": "SELL",
+        "best_edge": -1.07
+      }
+    ],
+    "horizon_bars": 30,
+    "risk": 30.0
+  },
+  "heads": {
+    "BUY": {
+      "available": true,
+      "side": "BUY",
+      "flip": true,
+      "n_train": 88,
+      "n_cal": 14,
+      "params": {
+        "max_depth": 2,
+        "max_iter": 60,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.05
+      },
+      "select_log_loss": 0.6912,
+      "fit_auc": 0.788,
+      "calib_auc": 0.688,
+      "feature_names": [
+        "ret_1",
+        "ret_3",
+        "ret_6",
+        "rsi_14",
+        "body_frac",
+        "upper_frac",
+        "lower_frac",
+        "bar_range_pct",
+        "or_width",
+        "or_ext",
+        "mins_entry",
+        "first_break",
+        "gap_pct",
+        "session_chg",
+        "vwap_dist",
+        "atr_ratio",
+        "noise_vs_sl",
+        "pat_doji",
+        "pat_hammer",
+        "pat_shooting",
+        "pat_bull_engulf",
+        "pat_bear_engulf",
+        "pat_pin_bull",
+        "pat_pin_bear",
+        "pat_morning",
+        "pat_evening",
+        "pat_inside",
+        "pat_outside",
+        "pat_bull_run2",
+        "pat_bear_run2",
+        "pat_marubozu",
+        "score_bull_pats",
+        "score_bear_pats",
+        "side"
+      ],
+      "trainer": "nifty_1m_5y_candle_ml",
+      "research_only": true,
+      "not_live": true
+    },
+    "SELL": {
+      "available": true,
+      "side": "SELL",
+      "flip": true,
+      "n_train": 82,
+      "n_cal": 13,
+      "params": {
+        "max_depth": 2,
+        "max_iter": 60,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.05
+      },
+      "select_log_loss": 0.6909,
+      "fit_auc": 0.74,
+      "calib_auc": 0.738,
+      "feature_names": [
+        "ret_1",
+        "ret_3",
+        "ret_6",
+        "rsi_14",
+        "body_frac",
+        "upper_frac",
+        "lower_frac",
+        "bar_range_pct",
+        "or_width",
+        "or_ext",
+        "mins_entry",
+        "first_break",
+        "gap_pct",
+        "session_chg",
+        "vwap_dist",
+        "atr_ratio",
+        "noise_vs_sl",
+        "pat_doji",
+        "pat_hammer",
+        "pat_shooting",
+        "pat_bull_engulf",
+        "pat_bear_engulf",
+        "pat_pin_bull",
+        "pat_pin_bear",
+        "pat_morning",
+        "pat_evening",
+        "pat_inside",
+        "pat_outside",
+        "pat_bull_run2",
+        "pat_bear_run2",
+        "pat_marubozu",
+        "score_bull_pats",
+        "score_bear_pats",
+        "side"
+      ],
+      "trainer": "nifty_1m_5y_candle_ml",
+      "research_only": true,
+      "not_live": true
+    }
+  },
+  "books": {
+    "ALL_DU": {
+      "n": 42,
+      "wins": 29,
+      "hit_pct": 69.05
+    },
+    "P55": {
+      "n": 20,
+      "wins": 12,
+      "hit_pct": 60.0
+    },
+    "P58": {
+      "n": 12,
+      "wins": 9,
+      "hit_pct": 75.0
+    },
+    "P60": {
+      "n": 8,
+      "wins": 8,
+      "hit_pct": 100.0
+    },
+    "P62": {
+      "n": 5,
+      "wins": 5,
+      "hit_pct": 100.0
+    },
+    "P65": {
+      "n": 3,
+      "wins": 3,
+      "hit_pct": 100.0
+    },
+    "BUY_P55": {
+      "n": 12,
+      "wins": 6,
+      "hit_pct": 50.0
+    },
+    "SELL_P55": {
+      "n": 8,
+      "wins": 6,
+      "hit_pct": 75.0
+    },
+    "ALIGN_BULL_P55": {
+      "n": 11,
+      "wins": 5,
+      "hit_pct": 45.45
+    },
+    "ALIGN_BEAR_P55": {
+      "n": 7,
+      "wins": 5,
+      "hit_pct": 71.43
+    },
+    "SELL_mid_P52": {
+      "n": 2,
+      "wins": 1,
+      "hit_pct": 50.0
+    },
+    "PROVEN_P55": {
+      "n": 12,
+      "wins": 12,
+      "hit_pct": 100.0
+    },
+    "PROVEN_P58": {
+      "n": 9,
+      "wins": 9,
+      "hit_pct": 100.0
+    },
+    "PROVEN_P60": {
+      "n": 8,
+      "wins": 8,
+      "hit_pct": 100.0
+    }
+  },
+  "oos_agg": {
+    "n": 42,
+    "wins": 29,
+    "hit_pct": 69.05
+  }
+}

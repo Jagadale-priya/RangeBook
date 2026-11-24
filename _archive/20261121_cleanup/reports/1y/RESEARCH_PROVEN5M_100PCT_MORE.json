@@ -1,0 +1,378 @@
+{
+  "status": "RESEARCH",
+  "not_live": true,
+  "model": "dual5 (5m dual packs)",
+  "hard_floor": 100.0,
+  "path_trusted": true,
+  "window_end": "2026-11-15",
+  "streams_found": 0,
+  "top_streams": [],
+  "day_stream_tags": [],
+  "raw_stream_tags": [],
+  "books": {
+    "BASE_dual5_proven_raw_flags": {
+      "n_total_clip3y": 18,
+      "windows": {
+        "3y": {
+          "n": 18,
+          "hit_pct": 50.0,
+          "wins": 9,
+          "losses": 9,
+          "points": -23.0,
+          "days": 18,
+          "by_track": {
+            "proven_100_5m_raw": {
+              "n": 18,
+              "hit_pct": 50.0,
+              "points": -23.0
+            }
+          },
+          "start": "2023-11-16",
+          "end": "2026-11-15",
+          "perfect": false
+        },
+        "1y": {
+          "n": 5,
+          "hit_pct": 60.0,
+          "wins": 3,
+          "losses": 2,
+          "points": -27.0,
+          "days": 5,
+          "by_track": {
+            "proven_100_5m_raw": {
+              "n": 5,
+              "hit_pct": 60.0,
+              "points": -27.0
+            }
+          },
+          "start": "2025-11-15",
+          "end": "2026-11-15",
+          "perfect": false
+        },
+        "6m": {
+          "n": 3,
+          "hit_pct": 66.67,
+          "wins": 2,
+          "losses": 1,
+          "points": 32.0,
+          "days": 3,
+          "by_track": {
+            "proven_100_5m_raw": {
+              "n": 3,
+              "hit_pct": 66.67,
+              "points": 32.0
+            }
+          },
+          "start": "2026-05-16",
+          "end": "2026-11-15",
+          "perfect": false
+        },
+        "golden": {
+          "n": 6,
+          "hit_pct": 66.67,
+          "wins": 4,
+          "losses": 2,
+          "points": 3.0,
+          "days": 6,
+          "by_track": {
+            "proven_100_5m_raw": {
+              "n": 6,
+              "hit_pct": 66.67,
+              "points": 3.0
+            }
+          },
+          "start": "2025-10-24",
+          "end": "2026-10-23",
+          "perfect": false
+        }
+      },
+      "stream_tags": []
+    },
+    "BASE_dual5_any_path": {
+      "n_total_clip3y": 56,
+      "windows": {
+        "3y": {
+          "n": 56,
+          "hit_pct": 51.79,
+          "wins": 29,
+          "losses": 27,
+          "points": 70.0,
+          "days": 53,
+          "by_track": {
+            "champion_5m_raw": {
+              "n": 38,
+              "hit_pct": 52.63,
+              "points": 93.0
+            },
+            "proven_100_5m_raw": {
+              "n": 18,
+              "hit_pct": 50.0,
+              "points": -23.0
+            }
+          },
+          "start": "2023-11-16",
+          "end": "2026-11-15",
+          "perfect": false
+        },
+        "1y": {
+          "n": 24,
+          "hit_pct": 45.83,
+          "wins": 11,
+          "losses": 13,
+          "points": -66.0,
+          "days": 22,
+          "by_track": {
+            "champion_5m_raw": {
+              "n": 19,
+              "hit_pct": 42.11,
+              "points": -39.0
+            },
+            "proven_100_5m_raw": {
+              "n": 5,
+              "hit_pct": 60.0,
+              "points": -27.0
+            }
+          },
+          "start": "2025-11-15",
+          "end": "2026-11-15",
+          "perfect": false
+        },
+        "6m": {
+          "n": 12,
+          "hit_pct": 50.0,
+          "wins": 6,
+          "losses": 6,
+          "points": 33.0,
+          "days": 11,
+          "by_track": {
+            "champion_5m_raw": {
+              "n": 9,
+              "hit_pct": 44.44,
+              "points": 1.0
+            },
+            "proven_100_5m_raw": {
+              "n": 3,
+              "hit_pct": 66.67,
+              "points": 32.0
+            }
+          },
+          "start": "2026-05-16",
+          "end": "2026-11-15",
+          "perfect": false
+        },
+        "golden": {
+          "n": 23,
+          "hit_pct": 47.83,
+          "wins": 11,
+          "losses": 12,
+          "points": -47.0,
+          "days": 22,
+          "by_track": {
+            "champion_5m_raw": {
+              "n": 17,
+              "hit_pct": 41.18,
+              "points": -50.0
+            },
+            "proven_100_5m_raw": {
+              "n": 6,
+              "hit_pct": 66.67,
+              "points": 3.0
+            }
+          },
+          "start": "2025-10-24",
+          "end": "2026-10-23",
+          "perfect": false
+        }
+      },
+      "stream_tags": []
+    },
+    "BASE_dual15_proven": {
+      "n_total_clip3y": 41,
+      "windows": {
+        "3y": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100_15m": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "start": "2023-11-16",
+          "end": "2026-11-15",
+          "perfect": true
+        },
+        "1y": {
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100_15m": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "start": "2025-11-15",
+          "end": "2026-11-15",
+          "perfect": true
+        },
+        "6m": {
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100_15m": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "start": "2026-05-16",
+          "end": "2026-11-15",
+          "perfect": true
+        },
+        "golden": {
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1098.0,
+          "days": 24,
+          "by_track": {
+            "proven_100_15m": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1098.0
+            }
+          },
+          "start": "2025-10-24",
+          "end": "2026-10-23",
+          "perfect": true
+        }
+      },
+      "stream_tags": []
+    },
+    "D5_PROVEN100_DAY": {
+      "n_total_clip3y": 0,
+      "windows": {
+        "3y": {
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "start": "2023-11-16",
+          "end": "2026-11-15",
+          "perfect": true
+        },
+        "1y": {
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "start": "2025-11-15",
+          "end": "2026-11-15",
+          "perfect": true
+        },
+        "6m": {
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "start": "2026-05-16",
+          "end": "2026-11-15",
+          "perfect": true
+        },
+        "golden": {
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "start": "2025-10-24",
+          "end": "2026-10-23",
+          "perfect": true
+        }
+      },
+      "stream_tags": []
+    },
+    "D5_PROVEN100_RAW": {
+      "n_total_clip3y": 0,
+      "windows": {
+        "3y": {
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "start": "2023-11-16",
+          "end": "2026-11-15",
+          "perfect": true
+        },
+        "1y": {
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "start": "2025-11-15",
+          "end": "2026-11-15",
+          "perfect": true
+        },
+        "6m": {
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "start": "2026-05-16",
+          "end": "2026-11-15",
+          "perfect": true
+        },
+        "golden": {
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "start": "2025-10-24",
+          "end": "2026-10-23",
+          "perfect": true
+        }
+      },
+      "stream_tags": []
+    }
+  },
+  "verdict": "FAIL soft \u2014 could not grow a stable dual5-only 100% desk with more calls; keep dual15 proven for LIVE.",
+  "elapsed_s": 14.4
+}

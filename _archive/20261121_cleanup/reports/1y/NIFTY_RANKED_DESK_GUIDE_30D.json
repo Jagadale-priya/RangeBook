@@ -1,0 +1,848 @@
+{
+  "source": "csv+kite",
+  "window": {
+    "lo": "2026-10-19",
+    "hi": "2026-11-18",
+    "sessions": 22
+  },
+  "dual_meta": {
+    "stamped_breaks": 18,
+    "days_with_stamp": 15
+  },
+  "variants": {
+    "ranked": {
+      "summary": {
+        "minutes": 7945,
+        "sessions": 22,
+        "entries": 10,
+        "closed_calls": 10,
+        "hit_rate": 0.6,
+        "net_points": 80.0,
+        "wins": 6,
+        "losses": 4,
+        "by_desk": {
+          "proven_100": {
+            "n": 3,
+            "wins": 3,
+            "net": 87.0,
+            "hit_rate": 1.0
+          },
+          "champion": {
+            "n": 6,
+            "wins": 2,
+            "net": -26.0,
+            "hit_rate": 0.3333333333333333
+          },
+          "orb_accurate": {
+            "n": 1,
+            "wins": 1,
+            "net": 19.0,
+            "hit_rate": 1.0
+          }
+        },
+        "silent_sessions": 12,
+        "sessions_called": 10,
+        "sessions_silent": 12
+      },
+      "trades": [
+        {
+          "date": "2026-10-21",
+          "desk": "proven_100",
+          "side": "sell",
+          "entry_time": "2026-10-21 10:05:00",
+          "entry": 22989.05,
+          "stop": 23019.05,
+          "target": 22959.05,
+          "exit_time": "2026-10-21 10:08:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-23",
+          "desk": "champion",
+          "side": "sell",
+          "entry_time": "2026-10-23 09:35:00",
+          "entry": 22683.7,
+          "stop": 22703.7,
+          "target": 22653.7,
+          "exit_time": "2026-10-23 09:40:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-10-27",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-10-27 09:35:00",
+          "entry": 22717.5,
+          "stop": 22697.5,
+          "target": 22747.5,
+          "exit_time": "2026-10-27 09:40:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-28",
+          "desk": "proven_100",
+          "side": "buy",
+          "entry_time": "2026-10-28 12:35:00",
+          "entry": 22665.75,
+          "stop": 22635.75,
+          "target": 22695.75,
+          "exit_time": "2026-10-28 12:44:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-29",
+          "desk": "proven_100",
+          "side": "buy",
+          "entry_time": "2026-10-29 09:50:00",
+          "entry": 22733.15,
+          "stop": 22703.15,
+          "target": 22763.15,
+          "exit_time": "2026-10-29 09:53:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-30",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-10-30 11:05:00",
+          "entry": 22990.3,
+          "stop": 22970.3,
+          "target": 23020.3,
+          "exit_time": "2026-10-30 11:13:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-11-05",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-05 09:50:00",
+          "entry": 24413.05,
+          "stop": 24393.05,
+          "target": 24443.05,
+          "exit_time": "2026-11-05 10:02:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-13",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-13 10:35:00",
+          "entry": 25228.05,
+          "stop": 25208.05,
+          "target": 25258.05,
+          "exit_time": "2026-11-13 10:36:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-16",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-16 09:50:00",
+          "entry": 25315.2,
+          "stop": 25295.2,
+          "target": 25345.2,
+          "exit_time": "2026-11-16 10:02:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-17",
+          "desk": "orb_accurate",
+          "side": "buy",
+          "entry_time": "2026-11-17 09:50:00",
+          "entry": 25361.8,
+          "stop": 25346.05,
+          "target": 25381.8,
+          "exit_time": "2026-11-17 09:55:00",
+          "exit_reason": "target",
+          "points": 20.0,
+          "net": 19.0
+        }
+      ]
+    },
+    "orb_only": {
+      "summary": {
+        "minutes": 7945,
+        "sessions": 22,
+        "entries": 2,
+        "closed_calls": 2,
+        "hit_rate": 0.5,
+        "net_points": 2.4499999999999993,
+        "wins": 1,
+        "losses": 1,
+        "by_desk": {
+          "orb_accurate": {
+            "n": 2,
+            "wins": 1,
+            "net": 2.4499999999999993,
+            "hit_rate": 0.5
+          }
+        },
+        "silent_sessions": 20,
+        "sessions_called": 2,
+        "sessions_silent": 20
+      },
+      "trades": [
+        {
+          "date": "2026-11-05",
+          "desk": "orb_accurate",
+          "side": "buy",
+          "entry_time": "2026-11-05 10:20:00",
+          "entry": 24395.5,
+          "stop": 24379.95,
+          "target": 24415.5,
+          "exit_time": "2026-11-05 10:33:00",
+          "exit_reason": "stop",
+          "points": -15.55,
+          "net": -16.55
+        },
+        {
+          "date": "2026-11-17",
+          "desk": "orb_accurate",
+          "side": "buy",
+          "entry_time": "2026-11-17 09:50:00",
+          "entry": 25361.8,
+          "stop": 25346.05,
+          "target": 25381.8,
+          "exit_time": "2026-11-17 09:55:00",
+          "exit_reason": "target",
+          "points": 20.0,
+          "net": 19.0
+        }
+      ]
+    },
+    "proven_orb": {
+      "summary": {
+        "minutes": 7945,
+        "sessions": 22,
+        "entries": 5,
+        "closed_calls": 5,
+        "hit_rate": 0.8,
+        "net_points": 89.45,
+        "wins": 4,
+        "losses": 1,
+        "by_desk": {
+          "proven_100": {
+            "n": 3,
+            "wins": 3,
+            "net": 87.0,
+            "hit_rate": 1.0
+          },
+          "orb_accurate": {
+            "n": 2,
+            "wins": 1,
+            "net": 2.4499999999999993,
+            "hit_rate": 0.5
+          }
+        },
+        "silent_sessions": 17,
+        "sessions_called": 5,
+        "sessions_silent": 17
+      },
+      "trades": [
+        {
+          "date": "2026-10-21",
+          "desk": "proven_100",
+          "side": "sell",
+          "entry_time": "2026-10-21 10:05:00",
+          "entry": 22989.05,
+          "stop": 23019.05,
+          "target": 22959.05,
+          "exit_time": "2026-10-21 10:08:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-28",
+          "desk": "proven_100",
+          "side": "buy",
+          "entry_time": "2026-10-28 12:35:00",
+          "entry": 22665.75,
+          "stop": 22635.75,
+          "target": 22695.75,
+          "exit_time": "2026-10-28 12:44:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-29",
+          "desk": "proven_100",
+          "side": "buy",
+          "entry_time": "2026-10-29 09:50:00",
+          "entry": 22733.15,
+          "stop": 22703.15,
+          "target": 22763.15,
+          "exit_time": "2026-10-29 09:53:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-11-05",
+          "desk": "orb_accurate",
+          "side": "buy",
+          "entry_time": "2026-11-05 10:20:00",
+          "entry": 24395.5,
+          "stop": 24379.95,
+          "target": 24415.5,
+          "exit_time": "2026-11-05 10:33:00",
+          "exit_reason": "stop",
+          "points": -15.55,
+          "net": -16.55
+        },
+        {
+          "date": "2026-11-17",
+          "desk": "orb_accurate",
+          "side": "buy",
+          "entry_time": "2026-11-17 09:50:00",
+          "entry": 25361.8,
+          "stop": 25346.05,
+          "target": 25381.8,
+          "exit_time": "2026-11-17 09:55:00",
+          "exit_reason": "target",
+          "points": 20.0,
+          "net": 19.0
+        }
+      ]
+    },
+    "ranked_plus_trend_accurate": {
+      "summary": {
+        "minutes": 7945,
+        "sessions": 22,
+        "entries": 10,
+        "closed_calls": 10,
+        "hit_rate": 0.6,
+        "net_points": 80.0,
+        "wins": 6,
+        "losses": 4,
+        "by_desk": {
+          "proven_100": {
+            "n": 3,
+            "wins": 3,
+            "net": 87.0,
+            "hit_rate": 1.0
+          },
+          "champion": {
+            "n": 6,
+            "wins": 2,
+            "net": -26.0,
+            "hit_rate": 0.3333333333333333
+          },
+          "orb_accurate": {
+            "n": 1,
+            "wins": 1,
+            "net": 19.0,
+            "hit_rate": 1.0
+          }
+        },
+        "silent_sessions": 12,
+        "sessions_called": 10,
+        "sessions_silent": 12
+      },
+      "trades": [
+        {
+          "date": "2026-10-21",
+          "desk": "proven_100",
+          "side": "sell",
+          "entry_time": "2026-10-21 10:05:00",
+          "entry": 22989.05,
+          "stop": 23019.05,
+          "target": 22959.05,
+          "exit_time": "2026-10-21 10:08:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-23",
+          "desk": "champion",
+          "side": "sell",
+          "entry_time": "2026-10-23 09:35:00",
+          "entry": 22683.7,
+          "stop": 22703.7,
+          "target": 22653.7,
+          "exit_time": "2026-10-23 09:40:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-10-27",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-10-27 09:35:00",
+          "entry": 22717.5,
+          "stop": 22697.5,
+          "target": 22747.5,
+          "exit_time": "2026-10-27 09:40:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-28",
+          "desk": "proven_100",
+          "side": "buy",
+          "entry_time": "2026-10-28 12:35:00",
+          "entry": 22665.75,
+          "stop": 22635.75,
+          "target": 22695.75,
+          "exit_time": "2026-10-28 12:44:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-29",
+          "desk": "proven_100",
+          "side": "buy",
+          "entry_time": "2026-10-29 09:50:00",
+          "entry": 22733.15,
+          "stop": 22703.15,
+          "target": 22763.15,
+          "exit_time": "2026-10-29 09:53:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-30",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-10-30 11:05:00",
+          "entry": 22990.3,
+          "stop": 22970.3,
+          "target": 23020.3,
+          "exit_time": "2026-10-30 11:13:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-11-05",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-05 09:50:00",
+          "entry": 24413.05,
+          "stop": 24393.05,
+          "target": 24443.05,
+          "exit_time": "2026-11-05 10:02:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-13",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-13 10:35:00",
+          "entry": 25228.05,
+          "stop": 25208.05,
+          "target": 25258.05,
+          "exit_time": "2026-11-13 10:36:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-16",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-16 09:50:00",
+          "entry": 25315.2,
+          "stop": 25295.2,
+          "target": 25345.2,
+          "exit_time": "2026-11-16 10:02:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-17",
+          "desk": "orb_accurate",
+          "side": "buy",
+          "entry_time": "2026-11-17 09:50:00",
+          "entry": 25361.8,
+          "stop": 25346.05,
+          "target": 25381.8,
+          "exit_time": "2026-11-17 09:55:00",
+          "exit_reason": "target",
+          "points": 20.0,
+          "net": 19.0
+        }
+      ]
+    },
+    "ranked_plus_trend_baseline": {
+      "summary": {
+        "minutes": 7945,
+        "sessions": 22,
+        "entries": 10,
+        "closed_calls": 10,
+        "hit_rate": 0.6,
+        "net_points": 80.0,
+        "wins": 6,
+        "losses": 4,
+        "by_desk": {
+          "proven_100": {
+            "n": 3,
+            "wins": 3,
+            "net": 87.0,
+            "hit_rate": 1.0
+          },
+          "champion": {
+            "n": 6,
+            "wins": 2,
+            "net": -26.0,
+            "hit_rate": 0.3333333333333333
+          },
+          "orb_accurate": {
+            "n": 1,
+            "wins": 1,
+            "net": 19.0,
+            "hit_rate": 1.0
+          }
+        },
+        "silent_sessions": 12,
+        "sessions_called": 10,
+        "sessions_silent": 12
+      },
+      "trades": [
+        {
+          "date": "2026-10-21",
+          "desk": "proven_100",
+          "side": "sell",
+          "entry_time": "2026-10-21 10:05:00",
+          "entry": 22989.05,
+          "stop": 23019.05,
+          "target": 22959.05,
+          "exit_time": "2026-10-21 10:08:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-23",
+          "desk": "champion",
+          "side": "sell",
+          "entry_time": "2026-10-23 09:35:00",
+          "entry": 22683.7,
+          "stop": 22703.7,
+          "target": 22653.7,
+          "exit_time": "2026-10-23 09:40:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-10-27",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-10-27 09:35:00",
+          "entry": 22717.5,
+          "stop": 22697.5,
+          "target": 22747.5,
+          "exit_time": "2026-10-27 09:40:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-28",
+          "desk": "proven_100",
+          "side": "buy",
+          "entry_time": "2026-10-28 12:35:00",
+          "entry": 22665.75,
+          "stop": 22635.75,
+          "target": 22695.75,
+          "exit_time": "2026-10-28 12:44:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-29",
+          "desk": "proven_100",
+          "side": "buy",
+          "entry_time": "2026-10-29 09:50:00",
+          "entry": 22733.15,
+          "stop": 22703.15,
+          "target": 22763.15,
+          "exit_time": "2026-10-29 09:53:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-30",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-10-30 11:05:00",
+          "entry": 22990.3,
+          "stop": 22970.3,
+          "target": 23020.3,
+          "exit_time": "2026-10-30 11:13:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-11-05",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-05 09:50:00",
+          "entry": 24413.05,
+          "stop": 24393.05,
+          "target": 24443.05,
+          "exit_time": "2026-11-05 10:02:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-13",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-13 10:35:00",
+          "entry": 25228.05,
+          "stop": 25208.05,
+          "target": 25258.05,
+          "exit_time": "2026-11-13 10:36:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-16",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-16 09:50:00",
+          "entry": 25315.2,
+          "stop": 25295.2,
+          "target": 25345.2,
+          "exit_time": "2026-11-16 10:02:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-17",
+          "desk": "orb_accurate",
+          "side": "buy",
+          "entry_time": "2026-11-17 09:50:00",
+          "entry": 25361.8,
+          "stop": 25346.05,
+          "target": 25381.8,
+          "exit_time": "2026-11-17 09:55:00",
+          "exit_reason": "target",
+          "points": 20.0,
+          "net": 19.0
+        }
+      ]
+    },
+    "ranked_plus_state": {
+      "summary": {
+        "minutes": 7945,
+        "sessions": 22,
+        "entries": 11,
+        "closed_calls": 12,
+        "hit_rate": 0.5833333333333334,
+        "net_points": 86.4,
+        "wins": 7,
+        "losses": 5,
+        "by_desk": {
+          "proven_100": {
+            "n": 3,
+            "wins": 3,
+            "net": 87.0,
+            "hit_rate": 1.0
+          },
+          "champion": {
+            "n": 6,
+            "wins": 2,
+            "net": -26.0,
+            "hit_rate": 0.3333333333333333
+          },
+          "state_accurate": {
+            "n": 2,
+            "wins": 1,
+            "net": 6.399999999999999,
+            "hit_rate": 0.5
+          },
+          "orb_accurate": {
+            "n": 1,
+            "wins": 1,
+            "net": 19.0,
+            "hit_rate": 1.0
+          }
+        },
+        "silent_sessions": 10,
+        "sessions_called": 11,
+        "sessions_silent": 11
+      },
+      "trades": [
+        {
+          "date": "2026-10-21",
+          "desk": "proven_100",
+          "side": "sell",
+          "entry_time": "2026-10-21 10:05:00",
+          "entry": 22989.05,
+          "stop": 23019.05,
+          "target": 22959.05,
+          "exit_time": "2026-10-21 10:08:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-23",
+          "desk": "champion",
+          "side": "sell",
+          "entry_time": "2026-10-23 09:35:00",
+          "entry": 22683.7,
+          "stop": 22703.7,
+          "target": 22653.7,
+          "exit_time": "2026-10-23 09:40:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-10-27",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-10-27 09:35:00",
+          "entry": 22717.5,
+          "stop": 22697.5,
+          "target": 22747.5,
+          "exit_time": "2026-10-27 09:40:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-28",
+          "desk": "proven_100",
+          "side": "buy",
+          "entry_time": "2026-10-28 12:35:00",
+          "entry": 22665.75,
+          "stop": 22635.75,
+          "target": 22695.75,
+          "exit_time": "2026-10-28 12:44:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-29",
+          "desk": "proven_100",
+          "side": "buy",
+          "entry_time": "2026-10-29 09:50:00",
+          "entry": 22733.15,
+          "stop": 22703.15,
+          "target": 22763.15,
+          "exit_time": "2026-10-29 09:53:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-10-30",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-10-30 11:05:00",
+          "entry": 22990.3,
+          "stop": 22970.3,
+          "target": 23020.3,
+          "exit_time": "2026-10-30 11:13:00",
+          "exit_reason": "target",
+          "points": 30.0,
+          "net": 29.0
+        },
+        {
+          "date": "2026-11-05",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-05 09:50:00",
+          "entry": 24413.05,
+          "stop": 24393.05,
+          "target": 24443.05,
+          "exit_time": "2026-11-05 10:02:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-13",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-13 10:35:00",
+          "entry": 25228.05,
+          "stop": 25208.05,
+          "target": 25258.05,
+          "exit_time": "2026-11-13 10:36:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-16",
+          "desk": "champion",
+          "side": "buy",
+          "entry_time": "2026-11-16 09:50:00",
+          "entry": 25315.2,
+          "stop": 25295.2,
+          "target": 25345.2,
+          "exit_time": "2026-11-16 10:02:00",
+          "exit_reason": "stop",
+          "points": -20.0,
+          "net": -21.0
+        },
+        {
+          "date": "2026-11-17",
+          "desk": "orb_accurate",
+          "side": "buy",
+          "entry_time": "2026-11-17 09:50:00",
+          "entry": 25361.8,
+          "stop": 25346.05,
+          "target": 25381.8,
+          "exit_time": "2026-11-17 09:55:00",
+          "exit_reason": "target",
+          "points": 20.0,
+          "net": 19.0
+        },
+        {
+          "date": "2026-11-18",
+          "desk": "state_accurate",
+          "side": "buy",
+          "entry_time": "2026-11-18 11:21:00",
+          "entry": 25282.1,
+          "stop": 25270.1,
+          "target": 25302.5,
+          "exit_time": "2026-11-18 11:23:00",
+          "exit_reason": "stop",
+          "points": -12.0,
+          "net": -13.0
+        }
+      ]
+    }
+  }
+}

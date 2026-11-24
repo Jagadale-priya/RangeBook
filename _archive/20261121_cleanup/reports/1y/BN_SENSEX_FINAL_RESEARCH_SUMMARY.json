@@ -1,0 +1,142 @@
+{
+  "BANKNIFTY": {
+    "locked_clip": {
+      "sl": 75.0,
+      "t1": 75.0
+    },
+    "expected": {
+      "1y": {
+        "n": 27,
+        "hit_pct": 100.0
+      },
+      "3y": {
+        "n": 38,
+        "hit_pct": 92.11
+      },
+      "5y": {
+        "n": 38,
+        "hit_pct": 92.11
+      }
+    },
+    "desks": {
+      "proven": {
+        "desk": "BN_PROVEN100_T75SL60",
+        "accuracy_tag": "ACC_RANGE_100_100",
+        "windows": {
+          "1y": {
+            "n": 9,
+            "hit_pct": 100.0,
+            "start": "2025-10-24",
+            "end": "2026-11-15"
+          },
+          "3y": {
+            "n": 12,
+            "hit_pct": 100.0,
+            "start": "2023-11-16",
+            "end": "2026-11-15"
+          },
+          "5y": {
+            "n": 12,
+            "hit_pct": 100.0,
+            "start": "2021-11-16",
+            "end": "2026-11-15"
+          }
+        }
+      },
+      "champ_plus": {
+        "desk": "BN_CHAMP_PLUS_T75SL75_CAP3",
+        "accuracy_tag": "ACC_RANGE_92_100",
+        "windows": {
+          "1y": {
+            "n": 27,
+            "hit_pct": 100.0,
+            "start": "2025-10-24",
+            "end": "2026-11-15"
+          },
+          "3y": {
+            "n": 38,
+            "hit_pct": 92.11,
+            "start": "2023-11-16",
+            "end": "2026-11-15"
+          },
+          "5y": {
+            "n": 38,
+            "hit_pct": 92.11,
+            "start": "2021-11-16",
+            "end": "2026-11-15"
+          }
+        }
+      }
+    }
+  },
+  "SENSEX": {
+    "locked_clip": {
+      "sl": 100.0,
+      "t1": 100.0
+    },
+    "expected": {
+      "1y": {
+        "n": 39,
+        "hit_pct": 94.87
+      },
+      "3y": {
+        "n": 60,
+        "hit_pct": 95.0
+      },
+      "5y": {
+        "n": 60,
+        "hit_pct": 95.0
+      }
+    },
+    "desks": {
+      "proven": {
+        "desk": "SENSEX_PROVEN100_T100SL80",
+        "accuracy_tag": "ACC_RANGE_94_100",
+        "windows": {
+          "1y": {
+            "n": 11,
+            "hit_pct": 90.91,
+            "start": "2025-10-24",
+            "end": "2026-11-15"
+          },
+          "3y": {
+            "n": 17,
+            "hit_pct": 94.12,
+            "start": "2023-11-16",
+            "end": "2026-11-15"
+          },
+          "5y": {
+            "n": 17,
+            "hit_pct": 94.12,
+            "start": "2021-11-16",
+            "end": "2026-11-15"
+          }
+        }
+      },
+      "champ_plus": {
+        "desk": "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+        "accuracy_tag": "ACC_RANGE_94_95",
+        "windows": {
+          "1y": {
+            "n": 39,
+            "hit_pct": 94.87,
+            "start": "2025-10-24",
+            "end": "2026-11-15"
+          },
+          "3y": {
+            "n": 60,
+            "hit_pct": 95.0,
+            "start": "2023-11-16",
+            "end": "2026-11-15"
+          },
+          "5y": {
+            "n": 60,
+            "hit_pct": 95.0,
+            "start": "2021-11-16",
+            "end": "2026-11-15"
+          }
+        }
+      }
+    }
+  }
+}

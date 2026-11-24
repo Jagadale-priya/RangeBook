@@ -1,0 +1,1176 @@
+{
+  "meta": {
+    "cal_lo": "2025-07-02",
+    "cal_hi": "2026-08-05",
+    "test_lo": "2026-08-06",
+    "test_hi": "2026-11-06",
+    "n_cal": 2168,
+    "n_test": 512,
+    "n_both100": 24,
+    "union_n": 3,
+    "union_rr_n": 3,
+    "no_or_break": true,
+    "all_completions": true,
+    "research_only": true,
+    "not_live": true
+  },
+  "both100": [
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": null,
+        "clocks": null,
+        "min_body": 0.55,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 5,
+        "wins": 5,
+        "hit_pct": 100.0,
+        "avg_sl": 64.13,
+        "avg_t1": 42.41
+      },
+      "last3m": {
+        "n": 3,
+        "wins": 3,
+        "hit_pct": 100.0,
+        "avg_sl": 83.24,
+        "avg_t1": 38.91
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        },
+        {
+          "day": "2026-10-26",
+          "hm": "09:28",
+          "decision": "BUY",
+          "primary": "rising_3_methods",
+          "patterns": [
+            "rising_3_methods"
+          ],
+          "entry": 22430.3,
+          "sl": 103.01,
+          "t1": 21.43,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 24.784546805348796,
+          "body_frac": 0.6695464362850551
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": null,
+        "clocks": [
+          "early"
+        ],
+        "min_body": 0.55,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 5,
+        "wins": 5,
+        "hit_pct": 100.0,
+        "avg_sl": 64.13,
+        "avg_t1": 42.41
+      },
+      "last3m": {
+        "n": 3,
+        "wins": 3,
+        "hit_pct": 100.0,
+        "avg_sl": 83.24,
+        "avg_t1": 38.91
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        },
+        {
+          "day": "2026-10-26",
+          "hm": "09:28",
+          "decision": "BUY",
+          "primary": "rising_3_methods",
+          "patterns": [
+            "rising_3_methods"
+          ],
+          "entry": 22430.3,
+          "sl": 103.01,
+          "t1": 21.43,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 24.784546805348796,
+          "body_frac": 0.6695464362850551
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": null,
+        "clocks": [
+          "early",
+          "morning"
+        ],
+        "min_body": 0.55,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 5,
+        "wins": 5,
+        "hit_pct": 100.0,
+        "avg_sl": 64.13,
+        "avg_t1": 42.41
+      },
+      "last3m": {
+        "n": 3,
+        "wins": 3,
+        "hit_pct": 100.0,
+        "avg_sl": 83.24,
+        "avg_t1": 38.91
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        },
+        {
+          "day": "2026-10-26",
+          "hm": "09:28",
+          "decision": "BUY",
+          "primary": "rising_3_methods",
+          "patterns": [
+            "rising_3_methods"
+          ],
+          "entry": 22430.3,
+          "sl": 103.01,
+          "t1": 21.43,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 24.784546805348796,
+          "body_frac": 0.6695464362850551
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p90_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": null,
+        "clocks": null,
+        "min_body": 0.55,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 5,
+        "wins": 5,
+        "hit_pct": 100.0,
+        "avg_sl": 66.43,
+        "avg_t1": 42.41
+      },
+      "last3m": {
+        "n": 3,
+        "wins": 3,
+        "hit_pct": 100.0,
+        "avg_sl": 83.97,
+        "avg_t1": 38.91
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 84.71,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        },
+        {
+          "day": "2026-10-26",
+          "hm": "09:28",
+          "decision": "BUY",
+          "primary": "rising_3_methods",
+          "patterns": [
+            "rising_3_methods"
+          ],
+          "entry": 22430.3,
+          "sl": 103.01,
+          "t1": 21.43,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 24.784546805348796,
+          "body_frac": 0.6695464362850551
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p90_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": null,
+        "clocks": [
+          "early"
+        ],
+        "min_body": 0.55,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 5,
+        "wins": 5,
+        "hit_pct": 100.0,
+        "avg_sl": 66.43,
+        "avg_t1": 42.41
+      },
+      "last3m": {
+        "n": 3,
+        "wins": 3,
+        "hit_pct": 100.0,
+        "avg_sl": 83.97,
+        "avg_t1": 38.91
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 84.71,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        },
+        {
+          "day": "2026-10-26",
+          "hm": "09:28",
+          "decision": "BUY",
+          "primary": "rising_3_methods",
+          "patterns": [
+            "rising_3_methods"
+          ],
+          "entry": 22430.3,
+          "sl": 103.01,
+          "t1": 21.43,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 24.784546805348796,
+          "body_frac": 0.6695464362850551
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p90_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": null,
+        "clocks": [
+          "early",
+          "morning"
+        ],
+        "min_body": 0.55,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 5,
+        "wins": 5,
+        "hit_pct": 100.0,
+        "avg_sl": 66.43,
+        "avg_t1": 42.41
+      },
+      "last3m": {
+        "n": 3,
+        "wins": 3,
+        "hit_pct": 100.0,
+        "avg_sl": 83.97,
+        "avg_t1": 38.91
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 84.71,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        },
+        {
+          "day": "2026-10-26",
+          "hm": "09:28",
+          "decision": "BUY",
+          "primary": "rising_3_methods",
+          "patterns": [
+            "rising_3_methods"
+          ],
+          "entry": 22430.3,
+          "sl": 103.01,
+          "t1": 21.43,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 24.784546805348796,
+          "body_frac": 0.6695464362850551
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": "SELL",
+        "clocks": null,
+        "min_body": null,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 6,
+        "wins": 6,
+        "hit_pct": 100.0,
+        "avg_sl": 59.31,
+        "avg_t1": 47.65
+      },
+      "last3m": {
+        "n": 2,
+        "wins": 2,
+        "hit_pct": 100.0,
+        "avg_sl": 73.36,
+        "avg_t1": 47.65
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": "SELL",
+        "clocks": null,
+        "min_body": 0.35,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 6,
+        "wins": 6,
+        "hit_pct": 100.0,
+        "avg_sl": 59.31,
+        "avg_t1": 47.65
+      },
+      "last3m": {
+        "n": 2,
+        "wins": 2,
+        "hit_pct": 100.0,
+        "avg_sl": 73.36,
+        "avg_t1": 47.65
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": "SELL",
+        "clocks": null,
+        "min_body": 0.55
+      },
+      "calibrate": {
+        "n": 6,
+        "wins": 6,
+        "hit_pct": 100.0,
+        "avg_sl": 62.54,
+        "avg_t1": 47.65
+      },
+      "last3m": {
+        "n": 2,
+        "wins": 2,
+        "hit_pct": 100.0,
+        "avg_sl": 73.36,
+        "avg_t1": 47.65
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": "SELL",
+        "clocks": [
+          "early"
+        ],
+        "min_body": null,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 6,
+        "wins": 6,
+        "hit_pct": 100.0,
+        "avg_sl": 59.31,
+        "avg_t1": 47.65
+      },
+      "last3m": {
+        "n": 2,
+        "wins": 2,
+        "hit_pct": 100.0,
+        "avg_sl": 73.36,
+        "avg_t1": 47.65
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": "SELL",
+        "clocks": [
+          "early"
+        ],
+        "min_body": 0.35,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 6,
+        "wins": 6,
+        "hit_pct": 100.0,
+        "avg_sl": 59.31,
+        "avg_t1": 47.65
+      },
+      "last3m": {
+        "n": 2,
+        "wins": 2,
+        "hit_pct": 100.0,
+        "avg_sl": 73.36,
+        "avg_t1": 47.65
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": "SELL",
+        "clocks": [
+          "early"
+        ],
+        "min_body": 0.55
+      },
+      "calibrate": {
+        "n": 6,
+        "wins": 6,
+        "hit_pct": 100.0,
+        "avg_sl": 62.54,
+        "avg_t1": 47.65
+      },
+      "last3m": {
+        "n": 2,
+        "wins": 2,
+        "hit_pct": 100.0,
+        "avg_sl": 73.36,
+        "avg_t1": 47.65
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": "SELL",
+        "clocks": [
+          "early",
+          "morning"
+        ],
+        "min_body": null,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 6,
+        "wins": 6,
+        "hit_pct": 100.0,
+        "avg_sl": 59.31,
+        "avg_t1": 47.65
+      },
+      "last3m": {
+        "n": 2,
+        "wins": 2,
+        "hit_pct": 100.0,
+        "avg_sl": 73.36,
+        "avg_t1": 47.65
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": "SELL",
+        "clocks": [
+          "early",
+          "morning"
+        ],
+        "min_body": 0.35,
+        "rsi_lo": 20,
+        "rsi_hi": 50
+      },
+      "calibrate": {
+        "n": 6,
+        "wins": 6,
+        "hit_pct": 100.0,
+        "avg_sl": 59.31,
+        "avg_t1": 47.65
+      },
+      "last3m": {
+        "n": 2,
+        "wins": 2,
+        "hit_pct": 100.0,
+        "avg_sl": 73.36,
+        "avg_t1": 47.65
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        }
+      ]
+    },
+    {
+      "bracket": "mae_p85_30",
+      "filters": {
+        "primaries": [
+          "rising_3_methods",
+          "falling_3_methods"
+        ],
+        "side": "SELL",
+        "clocks": [
+          "early",
+          "morning"
+        ],
+        "min_body": 0.55
+      },
+      "calibrate": {
+        "n": 6,
+        "wins": 6,
+        "hit_pct": 100.0,
+        "avg_sl": 62.54,
+        "avg_t1": 47.65
+      },
+      "last3m": {
+        "n": 2,
+        "wins": 2,
+        "hit_pct": 100.0,
+        "avg_sl": 73.36,
+        "avg_t1": 47.65
+      },
+      "last3m_calls": [
+        {
+          "day": "2026-08-31",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 24071.9,
+          "sl": 64.19,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 35.005313496280934,
+          "body_frac": 0.7928571428570389
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:35",
+          "decision": "SELL",
+          "primary": "falling_3_methods",
+          "patterns": [
+            "falling_3_methods"
+          ],
+          "entry": 22667.8,
+          "sl": 82.53,
+          "t1": 47.65,
+          "clock": "early",
+          "win": true,
+          "rsi_14": 36.99820251647604,
+          "body_frac": 0.703539823008846
+        }
+      ]
+    }
+  ],
+  "union100": {
+    "n": 3,
+    "wins": 3,
+    "hit_pct": 100.0,
+    "calls": [
+      {
+        "day": "2026-08-31",
+        "hm": "09:23",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "patterns": [
+          "falling_3_methods"
+        ],
+        "entry": 24071.9,
+        "sl": 64.19,
+        "t1": 47.65,
+        "clock": "early",
+        "win": true,
+        "rsi_14": 35.005313496280934,
+        "body_frac": 0.7928571428570389
+      },
+      {
+        "day": "2026-10-23",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "patterns": [
+          "falling_3_methods"
+        ],
+        "entry": 22667.8,
+        "sl": 82.53,
+        "t1": 47.65,
+        "clock": "early",
+        "win": true,
+        "rsi_14": 36.99820251647604,
+        "body_frac": 0.703539823008846
+      },
+      {
+        "day": "2026-10-26",
+        "hm": "09:28",
+        "decision": "BUY",
+        "primary": "rising_3_methods",
+        "patterns": [
+          "rising_3_methods"
+        ],
+        "entry": 22430.3,
+        "sl": 103.01,
+        "t1": 21.43,
+        "clock": "early",
+        "win": true,
+        "rsi_14": 24.784546805348796,
+        "body_frac": 0.6695464362850551
+      }
+    ]
+  },
+  "union_rr": {
+    "n": 3,
+    "wins": 3,
+    "hit_pct": 100.0,
+    "calls": [
+      {
+        "day": "2026-08-31",
+        "hm": "09:23",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "patterns": [
+          "falling_3_methods"
+        ],
+        "entry": 24071.9,
+        "sl": 64.19,
+        "t1": 47.65,
+        "clock": "early",
+        "win": true,
+        "rsi_14": 35.005313496280934,
+        "body_frac": 0.7928571428570389
+      },
+      {
+        "day": "2026-10-23",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "patterns": [
+          "falling_3_methods"
+        ],
+        "entry": 22667.8,
+        "sl": 82.53,
+        "t1": 47.65,
+        "clock": "early",
+        "win": true,
+        "rsi_14": 36.99820251647604,
+        "body_frac": 0.703539823008846
+      },
+      {
+        "day": "2026-10-26",
+        "hm": "09:28",
+        "decision": "BUY",
+        "primary": "rising_3_methods",
+        "patterns": [
+          "rising_3_methods"
+        ],
+        "entry": 22430.3,
+        "sl": 103.01,
+        "t1": 21.43,
+        "clock": "early",
+        "win": true,
+        "rsi_14": 24.784546805348796,
+        "body_frac": 0.6695464362850551
+      }
+    ]
+  },
+  "near": [],
+  "no_or_break": true
+}

@@ -1,0 +1,198 @@
+{
+  "status": "RESEARCH",
+  "not_live": true,
+  "floor_1y": 92.5,
+  "window_1y": {
+    "start": "2025-10-24",
+    "end": "2026-10-23"
+  },
+  "results": {
+    "seed": {
+      "1y": {
+        "n": 41,
+        "hit_pct": 92.68,
+        "wins": 38,
+        "losses": 3,
+        "points": 1419.0,
+        "days": 40,
+        "by_track": {
+          "champion": {
+            "n": 41,
+            "hit_pct": 92.68,
+            "points": 1419.0
+          }
+        }
+      },
+      "3y": {
+        "n": 110,
+        "hit_pct": 83.64,
+        "wins": 92,
+        "losses": 18,
+        "points": 2895.0,
+        "days": 107,
+        "by_track": {
+          "champion": {
+            "n": 110,
+            "hit_pct": 83.64,
+            "points": 2895.0
+          }
+        }
+      }
+    },
+    "day": {
+      "ok": true,
+      "streams": [
+        "CP_GD40_BUY_p0_mid_any_g020_bestp",
+        "CP_GD40_BOTH_p55_mid_any_g015_first",
+        "CP_GD40_SELL_p0_am1230_any_gup025_bestp"
+      ],
+      "n_streams": 3,
+      "1y": {
+        "n": 65,
+        "hit_pct": 95.38,
+        "wins": 62,
+        "losses": 3,
+        "points": 2379.0,
+        "days": 64,
+        "by_track": {
+          "champion": {
+            "n": 41,
+            "hit_pct": 92.68,
+            "points": 1419.0
+          },
+          "good_prod2": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 960.0
+          }
+        }
+      },
+      "3y": {
+        "n": 179,
+        "hit_pct": 84.92,
+        "wins": 152,
+        "losses": 27,
+        "points": 4935.0,
+        "days": 176,
+        "by_track": {
+          "champion": {
+            "n": 110,
+            "hit_pct": 83.64,
+            "points": 2895.0
+          },
+          "good_prod2": {
+            "n": 69,
+            "hit_pct": 86.96,
+            "points": 2040.0
+          }
+        }
+      },
+      "delta_n_1y": 24
+    },
+    "cap2": {
+      "ok": true,
+      "streams": [
+        "CP_GD40_BOTH_p55_mid_any_g015_first",
+        "CP_GD40_BOTH_p0_am1230_htf_gup025_mid",
+        "CP_GD40_BOTH_p55_mid_any_g015_bestp",
+        "CP_GD40_BOTH_p0_am1130_any_gup040_raw"
+      ],
+      "n_streams": 4,
+      "1y": {
+        "n": 64,
+        "hit_pct": 95.31,
+        "wins": 61,
+        "losses": 3,
+        "points": 2293.0,
+        "days": 59,
+        "by_track": {
+          "champion": {
+            "n": 35,
+            "hit_pct": 91.43,
+            "points": 1133.0
+          },
+          "good_prod2": {
+            "n": 29,
+            "hit_pct": 100.0,
+            "points": 1160.0
+          }
+        }
+      },
+      "3y": {
+        "n": 178,
+        "hit_pct": 83.71,
+        "wins": 149,
+        "losses": 29,
+        "points": 4727.0,
+        "days": 169,
+        "by_track": {
+          "champion": {
+            "n": 92,
+            "hit_pct": 84.78,
+            "points": 2487.0
+          },
+          "good_prod2": {
+            "n": 86,
+            "hit_pct": 82.56,
+            "points": 2240.0
+          }
+        }
+      },
+      "delta_n_1y": 23
+    },
+    "cap3": {
+      "ok": true,
+      "streams": [
+        "CP_GD40_BOTH_p55_mid_any_g015_first",
+        "CP_GD40_BOTH_p0_am1230_htf_gup025_mid",
+        "CP_GD40_BOTH_p55_mid_any_g015_bestp",
+        "CP_GD40_BOTH_p0_am1130_any_gup040_raw"
+      ],
+      "n_streams": 4,
+      "1y": {
+        "n": 64,
+        "hit_pct": 95.31,
+        "wins": 61,
+        "losses": 3,
+        "points": 2293.0,
+        "days": 59,
+        "by_track": {
+          "champion": {
+            "n": 35,
+            "hit_pct": 91.43,
+            "points": 1133.0
+          },
+          "good_prod2": {
+            "n": 29,
+            "hit_pct": 100.0,
+            "points": 1160.0
+          }
+        }
+      },
+      "3y": {
+        "n": 178,
+        "hit_pct": 83.71,
+        "wins": 149,
+        "losses": 29,
+        "points": 4727.0,
+        "days": 169,
+        "by_track": {
+          "champion": {
+            "n": 92,
+            "hit_pct": 84.78,
+            "points": 2487.0
+          },
+          "good_prod2": {
+            "n": 86,
+            "hit_pct": 82.56,
+            "points": 2240.0
+          }
+        }
+      },
+      "delta_n_1y": 23
+    }
+  },
+  "best_mode": "day",
+  "verdict": "PUSH PARTIAL \u2014 `day` 65@95.38% vs seed 41 \u00b7 not above prior 69.",
+  "elapsed_s": 54.6
+}

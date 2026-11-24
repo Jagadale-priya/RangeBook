@@ -1,0 +1,445 @@
+{
+  "desk": "SENSEX_DUAL_FB_BF20_T50",
+  "logic": {
+    "dual": "p_t1>=0.45 all OR-break \u00b7 no or_ext \u00b7 sell cont",
+    "fallback": "OR break-only break_frac>=0.2",
+    "combine": "same hm+side \u2192 1 COMBINED call",
+    "clip": {
+      "sl": 50.0,
+      "t1": 50.0
+    },
+    "mutual_block": false
+  },
+  "requested_window": {
+    "start": "2015-01-01",
+    "end": "2020-12-31"
+  },
+  "data_window": {
+    "start": "2018-03-08",
+    "end": "2020-12-31"
+  },
+  "tape": "C:/Users/Priyanka/Agent/stock_signal_data/fno_validate/SENSEX_15m_12y.csv",
+  "tape_note": "15m_12y used (5m kite only covers 2024+). 2015-2017 unavailable in repo.",
+  "overall": {
+    "n": 2582,
+    "sessions": 697,
+    "days_with_call": 535,
+    "hit_pct": 49.26,
+    "wins": 1272,
+    "losses": 1310,
+    "dual_only": 2404,
+    "fallback_only": 125,
+    "combined": 53,
+    "points": -1900.0
+  },
+  "by_year": {
+    "2015": {
+      "n": 0,
+      "hit_pct": null,
+      "wins": 0,
+      "losses": 0,
+      "dual_only": 0,
+      "fallback_only": 0,
+      "combined": 0,
+      "points": 0,
+      "status": "no_data"
+    },
+    "2016": {
+      "n": 0,
+      "hit_pct": null,
+      "wins": 0,
+      "losses": 0,
+      "dual_only": 0,
+      "fallback_only": 0,
+      "combined": 0,
+      "points": 0,
+      "status": "no_data"
+    },
+    "2017": {
+      "n": 0,
+      "hit_pct": null,
+      "wins": 0,
+      "losses": 0,
+      "dual_only": 0,
+      "fallback_only": 0,
+      "combined": 0,
+      "points": 0,
+      "status": "no_data"
+    },
+    "2018": {
+      "n": 745,
+      "hit_pct": 47.52,
+      "wins": 354,
+      "losses": 391,
+      "dual_only": 688,
+      "fallback_only": 42,
+      "combined": 15,
+      "points": -1850.0,
+      "status": "tested"
+    },
+    "2019": {
+      "n": 929,
+      "hit_pct": 52.85,
+      "wins": 491,
+      "losses": 438,
+      "dual_only": 877,
+      "fallback_only": 35,
+      "combined": 17,
+      "points": 2650.0,
+      "status": "tested"
+    },
+    "2020": {
+      "n": 908,
+      "hit_pct": 47.03,
+      "wins": 427,
+      "losses": 481,
+      "dual_only": 839,
+      "fallback_only": 48,
+      "combined": 21,
+      "points": -2700.0,
+      "status": "tested"
+    }
+  },
+  "by_month": {
+    "2018-03": {
+      "n": 61,
+      "hit_pct": 57.38,
+      "wins": 35,
+      "losses": 26,
+      "dual_only": 59,
+      "fallback_only": 2,
+      "combined": 0,
+      "points": 450.0
+    },
+    "2018-04": {
+      "n": 48,
+      "hit_pct": 14.58,
+      "wins": 7,
+      "losses": 41,
+      "dual_only": 40,
+      "fallback_only": 6,
+      "combined": 2,
+      "points": -1700.0
+    },
+    "2018-05": {
+      "n": 98,
+      "hit_pct": 50.0,
+      "wins": 49,
+      "losses": 49,
+      "dual_only": 90,
+      "fallback_only": 5,
+      "combined": 3,
+      "points": 0.0
+    },
+    "2018-06": {
+      "n": 71,
+      "hit_pct": 54.93,
+      "wins": 39,
+      "losses": 32,
+      "dual_only": 65,
+      "fallback_only": 4,
+      "combined": 2,
+      "points": 350.0
+    },
+    "2018-07": {
+      "n": 61,
+      "hit_pct": 37.7,
+      "wins": 23,
+      "losses": 38,
+      "dual_only": 55,
+      "fallback_only": 6,
+      "combined": 0,
+      "points": -750.0
+    },
+    "2018-08": {
+      "n": 74,
+      "hit_pct": 36.49,
+      "wins": 27,
+      "losses": 47,
+      "dual_only": 68,
+      "fallback_only": 4,
+      "combined": 2,
+      "points": -1000.0
+    },
+    "2018-09": {
+      "n": 94,
+      "hit_pct": 60.64,
+      "wins": 57,
+      "losses": 37,
+      "dual_only": 93,
+      "fallback_only": 0,
+      "combined": 1,
+      "points": 1000.0
+    },
+    "2018-10": {
+      "n": 82,
+      "hit_pct": 47.56,
+      "wins": 39,
+      "losses": 43,
+      "dual_only": 76,
+      "fallback_only": 4,
+      "combined": 2,
+      "points": -200.0
+    },
+    "2018-11": {
+      "n": 74,
+      "hit_pct": 48.65,
+      "wins": 36,
+      "losses": 38,
+      "dual_only": 66,
+      "fallback_only": 5,
+      "combined": 3,
+      "points": -100.0
+    },
+    "2018-12": {
+      "n": 82,
+      "hit_pct": 51.22,
+      "wins": 42,
+      "losses": 40,
+      "dual_only": 76,
+      "fallback_only": 6,
+      "combined": 0,
+      "points": 100.0
+    },
+    "2019-01": {
+      "n": 75,
+      "hit_pct": 62.67,
+      "wins": 47,
+      "losses": 28,
+      "dual_only": 72,
+      "fallback_only": 3,
+      "combined": 0,
+      "points": 950.0
+    },
+    "2019-02": {
+      "n": 61,
+      "hit_pct": 49.18,
+      "wins": 30,
+      "losses": 31,
+      "dual_only": 55,
+      "fallback_only": 4,
+      "combined": 2,
+      "points": -50.0
+    },
+    "2019-03": {
+      "n": 55,
+      "hit_pct": 50.91,
+      "wins": 28,
+      "losses": 27,
+      "dual_only": 53,
+      "fallback_only": 2,
+      "combined": 0,
+      "points": 50.0
+    },
+    "2019-04": {
+      "n": 65,
+      "hit_pct": 50.77,
+      "wins": 33,
+      "losses": 32,
+      "dual_only": 60,
+      "fallback_only": 3,
+      "combined": 2,
+      "points": 50.0
+    },
+    "2019-05": {
+      "n": 71,
+      "hit_pct": 50.7,
+      "wins": 36,
+      "losses": 35,
+      "dual_only": 66,
+      "fallback_only": 3,
+      "combined": 2,
+      "points": 50.0
+    },
+    "2019-06": {
+      "n": 98,
+      "hit_pct": 59.18,
+      "wins": 58,
+      "losses": 40,
+      "dual_only": 95,
+      "fallback_only": 2,
+      "combined": 1,
+      "points": 900.0
+    },
+    "2019-07": {
+      "n": 81,
+      "hit_pct": 49.38,
+      "wins": 40,
+      "losses": 41,
+      "dual_only": 74,
+      "fallback_only": 3,
+      "combined": 4,
+      "points": -50.0
+    },
+    "2019-08": {
+      "n": 94,
+      "hit_pct": 54.26,
+      "wins": 51,
+      "losses": 43,
+      "dual_only": 91,
+      "fallback_only": 2,
+      "combined": 1,
+      "points": 400.0
+    },
+    "2019-09": {
+      "n": 86,
+      "hit_pct": 50.0,
+      "wins": 43,
+      "losses": 43,
+      "dual_only": 82,
+      "fallback_only": 2,
+      "combined": 2,
+      "points": 0.0
+    },
+    "2019-10": {
+      "n": 61,
+      "hit_pct": 59.02,
+      "wins": 36,
+      "losses": 25,
+      "dual_only": 56,
+      "fallback_only": 3,
+      "combined": 2,
+      "points": 550.0
+    },
+    "2019-11": {
+      "n": 80,
+      "hit_pct": 43.75,
+      "wins": 35,
+      "losses": 45,
+      "dual_only": 77,
+      "fallback_only": 2,
+      "combined": 1,
+      "points": -500.0
+    },
+    "2019-12": {
+      "n": 102,
+      "hit_pct": 52.94,
+      "wins": 54,
+      "losses": 48,
+      "dual_only": 96,
+      "fallback_only": 6,
+      "combined": 0,
+      "points": 300.0
+    },
+    "2020-01": {
+      "n": 103,
+      "hit_pct": 57.28,
+      "wins": 59,
+      "losses": 44,
+      "dual_only": 98,
+      "fallback_only": 4,
+      "combined": 1,
+      "points": 750.0
+    },
+    "2020-02": {
+      "n": 84,
+      "hit_pct": 51.19,
+      "wins": 43,
+      "losses": 41,
+      "dual_only": 81,
+      "fallback_only": 1,
+      "combined": 2,
+      "points": 100.0
+    },
+    "2020-03": {
+      "n": 79,
+      "hit_pct": 37.97,
+      "wins": 30,
+      "losses": 49,
+      "dual_only": 73,
+      "fallback_only": 2,
+      "combined": 4,
+      "points": -950.0
+    },
+    "2020-04": {
+      "n": 51,
+      "hit_pct": 49.02,
+      "wins": 25,
+      "losses": 26,
+      "dual_only": 46,
+      "fallback_only": 4,
+      "combined": 1,
+      "points": -50.0
+    },
+    "2020-05": {
+      "n": 79,
+      "hit_pct": 50.63,
+      "wins": 40,
+      "losses": 39,
+      "dual_only": 72,
+      "fallback_only": 6,
+      "combined": 1,
+      "points": 50.0
+    },
+    "2020-06": {
+      "n": 90,
+      "hit_pct": 44.44,
+      "wins": 40,
+      "losses": 50,
+      "dual_only": 84,
+      "fallback_only": 3,
+      "combined": 3,
+      "points": -500.0
+    },
+    "2020-07": {
+      "n": 70,
+      "hit_pct": 41.43,
+      "wins": 29,
+      "losses": 41,
+      "dual_only": 65,
+      "fallback_only": 5,
+      "combined": 0,
+      "points": -600.0
+    },
+    "2020-08": {
+      "n": 80,
+      "hit_pct": 50.0,
+      "wins": 40,
+      "losses": 40,
+      "dual_only": 75,
+      "fallback_only": 3,
+      "combined": 2,
+      "points": 0.0
+    },
+    "2020-09": {
+      "n": 78,
+      "hit_pct": 53.85,
+      "wins": 42,
+      "losses": 36,
+      "dual_only": 72,
+      "fallback_only": 4,
+      "combined": 2,
+      "points": 300.0
+    },
+    "2020-10": {
+      "n": 79,
+      "hit_pct": 43.04,
+      "wins": 34,
+      "losses": 45,
+      "dual_only": 72,
+      "fallback_only": 5,
+      "combined": 2,
+      "points": -550.0
+    },
+    "2020-11": {
+      "n": 55,
+      "hit_pct": 38.18,
+      "wins": 21,
+      "losses": 34,
+      "dual_only": 49,
+      "fallback_only": 6,
+      "combined": 0,
+      "points": -650.0
+    },
+    "2020-12": {
+      "n": 60,
+      "hit_pct": 40.0,
+      "wins": 24,
+      "losses": 36,
+      "dual_only": 52,
+      "fallback_only": 5,
+      "combined": 3,
+      "points": -600.0
+    }
+  }
+}

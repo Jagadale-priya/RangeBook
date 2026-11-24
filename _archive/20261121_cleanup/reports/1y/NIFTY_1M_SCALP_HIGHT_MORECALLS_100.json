@@ -1,0 +1,2499 @@
+{
+  "held": {
+    "n": 307,
+    "days": 64,
+    "cpd": 4.8,
+    "multi": 64,
+    "max": 11,
+    "avg_sl": 8.78
+  },
+  "by_t1": {
+    "15": {
+      "best_coverage": {
+        "kind": "micro_dense",
+        "t1": 15.0,
+        "sl_max": 20.0,
+        "gap": 5,
+        "n_micros": 77,
+        "cal": {
+          "n": 314,
+          "days": 182,
+          "zero": 89,
+          "cpd": 1.73,
+          "cpd_all": 1.16,
+          "multi": 87,
+          "min": 1,
+          "p50": 1,
+          "max": 6,
+          "avg_sl": 12.86,
+          "rr": 1.17,
+          "hist": {
+            "1": 95,
+            "2": 54,
+            "3": 24,
+            "4": 7,
+            "5": 1,
+            "6": 1
+          }
+        },
+        "l3m": {
+          "n": 103,
+          "days": 44,
+          "zero": 20,
+          "cpd": 2.34,
+          "cpd_all": 1.61,
+          "multi": 29,
+          "min": 1,
+          "p50": 2,
+          "max": 9,
+          "avg_sl": 12.52,
+          "rr": 1.2,
+          "hist": {
+            "1": 15,
+            "2": 15,
+            "3": 6,
+            "4": 5,
+            "5": 1,
+            "6": 1,
+            "9": 1
+          }
+        },
+        "l3m_calls": [
+          {
+            "day": "2026-08-07",
+            "hm": "14:03",
+            "decision": "SELL",
+            "primary": "belt_bear",
+            "st": "cap8",
+            "sl": 8.0,
+            "score": 4.5
+          },
+          {
+            "day": "2026-08-10",
+            "hm": "10:00",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "prev",
+            "sl": 6.95,
+            "score": 4.5
+          },
+          {
+            "day": "2026-08-11",
+            "hm": "13:27",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "cap20",
+            "sl": 19.15,
+            "score": 3.9
+          },
+          {
+            "day": "2026-08-11",
+            "hm": "13:49",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "sig",
+            "sl": 6.95,
+            "score": 4.1
+          },
+          {
+            "day": "2026-08-12",
+            "hm": "09:20",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 19.95,
+            "score": 3.2
+          },
+          {
+            "day": "2026-08-12",
+            "hm": "09:50",
+            "decision": "SELL",
+            "primary": "belt_bear",
+            "st": "p75",
+            "sl": 9.68,
+            "score": 2.9
+          },
+          {
+            "day": "2026-08-12",
+            "hm": "11:47",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "prev",
+            "sl": 8.3,
+            "score": 3.2
+          },
+          {
+            "day": "2026-08-18",
+            "hm": "09:55",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "prev",
+            "sl": 13.85,
+            "score": 1.7
+          },
+          {
+            "day": "2026-08-19",
+            "hm": "09:30",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "sig",
+            "sl": 10.35,
+            "score": 3.5
+          },
+          {
+            "day": "2026-08-24",
+            "hm": "09:30",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "cap8",
+            "sl": 7.6,
+            "score": 2.2
+          },
+          {
+            "day": "2026-08-25",
+            "hm": "09:44",
+            "decision": "SELL",
+            "primary": "belt_bear",
+            "st": "prev",
+            "sl": 11.5,
+            "score": 6.6
+          },
+          {
+            "day": "2026-08-25",
+            "hm": "10:54",
+            "decision": "SELL",
+            "primary": "belt_bear",
+            "st": "prev",
+            "sl": 11.5,
+            "score": 3.2
+          },
+          {
+            "day": "2026-08-25",
+            "hm": "12:19",
+            "decision": "SELL",
+            "primary": "falling_3_methods",
+            "st": "p75",
+            "sl": 4.0,
+            "score": 6.4
+          },
+          {
+            "day": "2026-08-25",
+            "hm": "13:12",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "prev",
+            "sl": 7.05,
+            "score": 6.6
+          },
+          {
+            "day": "2026-09-01",
+            "hm": "11:08",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "cap20",
+            "sl": 19.45,
+            "score": 6.6
+          },
+          {
+            "day": "2026-09-01",
+            "hm": "11:32",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "cap15",
+            "sl": 12.1,
+            "score": 1.9
+          },
+          {
+            "day": "2026-09-01",
+            "hm": "14:01",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "cap8",
+            "sl": 8.0,
+            "score": 0.5
+          },
+          {
+            "day": "2026-09-02",
+            "hm": "12:10",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "sig",
+            "sl": 5.65,
+            "score": 1.7
+          },
+          {
+            "day": "2026-09-03",
+            "hm": "13:20",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "prev",
+            "sl": 6.4,
+            "score": 6.6
+          },
+          {
+            "day": "2026-09-04",
+            "hm": "14:45",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "p75",
+            "sl": 4.69,
+            "score": 4.0
+          },
+          {
+            "day": "2026-09-07",
+            "hm": "09:58",
+            "decision": "SELL",
+            "primary": "evening_star",
+            "st": "prev",
+            "sl": 10.7,
+            "score": 6.6
+          },
+          {
+            "day": "2026-09-09",
+            "hm": "10:18",
+            "decision": "BUY",
+            "primary": "belt_bull",
+            "st": "prev",
+            "sl": 15.65,
+            "score": 2.2
+          },
+          {
+            "day": "2026-09-15",
+            "hm": "10:15",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "prev",
+            "sl": 16.45,
+            "score": 3.6
+          },
+          {
+            "day": "2026-09-15",
+            "hm": "11:15",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "cap10",
+            "sl": 10.0,
+            "score": 2.2
+          },
+          {
+            "day": "2026-09-16",
+            "hm": "12:31",
+            "decision": "BUY",
+            "primary": "marubozu_bull",
+            "st": "prev",
+            "sl": 12.45,
+            "score": 5.2
+          },
+          {
+            "day": "2026-09-17",
+            "hm": "09:38",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "sig",
+            "sl": 11.1,
+            "score": 1.3
+          },
+          {
+            "day": "2026-09-17",
+            "hm": "11:18",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 16.25,
+            "score": 3.5
+          },
+          {
+            "day": "2026-09-17",
+            "hm": "11:57",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "cap12",
+            "sl": 12.0,
+            "score": 5.3
+          },
+          {
+            "day": "2026-09-17",
+            "hm": "12:08",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "sig",
+            "sl": 4.45,
+            "score": 3.9
+          },
+          {
+            "day": "2026-09-21",
+            "hm": "09:26",
+            "decision": "BUY",
+            "primary": "three_outside_up",
+            "st": "prev",
+            "sl": 15.9,
+            "score": 1.7
+          },
+          {
+            "day": "2026-09-22",
+            "hm": "12:17",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "p75",
+            "sl": 6.94,
+            "score": 3.0
+          },
+          {
+            "day": "2026-09-24",
+            "hm": "09:47",
+            "decision": "SELL",
+            "primary": "three_outside_dn",
+            "st": "cap15",
+            "sl": 15.0,
+            "score": 4.4
+          },
+          {
+            "day": "2026-09-24",
+            "hm": "11:13",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "cap15",
+            "sl": 13.8,
+            "score": 5.8
+          },
+          {
+            "day": "2026-09-25",
+            "hm": "11:24",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "prev",
+            "sl": 16.75,
+            "score": 1.3
+          },
+          {
+            "day": "2026-09-25",
+            "hm": "12:58",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "min_ps",
+            "sl": 6.45,
+            "score": 5.0
+          },
+          {
+            "day": "2026-09-28",
+            "hm": "12:05",
+            "decision": "BUY",
+            "primary": "tweezer_bot",
+            "st": "cap12",
+            "sl": 12.0,
+            "score": 5.5
+          },
+          {
+            "day": "2026-09-28",
+            "hm": "13:02",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "prev",
+            "sl": 4.0,
+            "score": 6.6
+          },
+          {
+            "day": "2026-09-29",
+            "hm": "12:39",
+            "decision": "BUY",
+            "primary": "bull_engulf",
+            "st": "sig",
+            "sl": 11.5,
+            "score": 0.5
+          },
+          {
+            "day": "2026-09-29",
+            "hm": "12:56",
+            "decision": "BUY",
+            "primary": "three_outside_up",
+            "st": "cap20",
+            "sl": 19.45,
+            "score": 5.0
+          },
+          {
+            "day": "2026-09-30",
+            "hm": "09:43",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 13.35,
+            "score": 3.5
+          },
+          {
+            "day": "2026-09-30",
+            "hm": "12:35",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "sig",
+            "sl": 4.2,
+            "score": 3.9
+          },
+          {
+            "day": "2026-10-05",
+            "hm": "11:22",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "sig",
+            "sl": 8.25,
+            "score": 3.4
+          },
+          {
+            "day": "2026-10-05",
+            "hm": "11:30",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 19.6,
+            "score": 3.7
+          },
+          {
+            "day": "2026-10-06",
+            "hm": "14:41",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 18.95,
+            "score": 2.0
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "09:36",
+            "decision": "BUY",
+            "primary": "belt_bull",
+            "st": "cap12",
+            "sl": 12.0,
+            "score": 3.5
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "10:19",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "cap15",
+            "sl": 15.0,
+            "score": 3.9
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "11:02",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "prev",
+            "sl": 14.2,
+            "score": 3.2
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "11:40",
+            "decision": "BUY",
+            "primary": "bull_kicker",
+            "st": "min_ps",
+            "sl": 4.15,
+            "score": 3.2
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "12:22",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "prev",
+            "sl": 18.2,
+            "score": 5.6
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "13:01",
+            "decision": "BUY",
+            "primary": "marubozu_bull",
+            "st": "cap12",
+            "sl": 12.0,
+            "score": 3.6
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "13:26",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "sig",
+            "sl": 12.65,
+            "score": 5.2
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "14:04",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "min_ps",
+            "sl": 16.7,
+            "score": 4.0
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "14:56",
+            "decision": "SELL",
+            "primary": "belt_bear",
+            "st": "prev",
+            "sl": 18.95,
+            "score": 3.0
+          },
+          {
+            "day": "2026-10-09",
+            "hm": "10:54",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "cap8",
+            "sl": 8.0,
+            "score": 1.6
+          },
+          {
+            "day": "2026-10-09",
+            "hm": "13:34",
+            "decision": "BUY",
+            "primary": "belt_bull",
+            "st": "prev",
+            "sl": 12.25,
+            "score": 5.2
+          },
+          {
+            "day": "2026-10-09",
+            "hm": "14:35",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "p75",
+            "sl": 4.2,
+            "score": 4.0
+          },
+          {
+            "day": "2026-10-12",
+            "hm": "10:05",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "prev",
+            "sl": 16.9,
+            "score": 3.5
+          },
+          {
+            "day": "2026-10-12",
+            "hm": "13:18",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "cap20",
+            "sl": 17.7,
+            "score": 1.0
+          },
+          {
+            "day": "2026-10-12",
+            "hm": "14:21",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "sig",
+            "sl": 9.45,
+            "score": 1.5
+          },
+          {
+            "day": "2026-10-13",
+            "hm": "09:32",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "prev",
+            "sl": 15.25,
+            "score": 1.7
+          },
+          {
+            "day": "2026-10-13",
+            "hm": "14:49",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 14.95,
+            "score": 1.2
+          },
+          {
+            "day": "2026-10-14",
+            "hm": "09:49",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "sig",
+            "sl": 17.35,
+            "score": 1.3
+          },
+          {
+            "day": "2026-10-14",
+            "hm": "10:47",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "cap8",
+            "sl": 8.0,
+            "score": 0.1
+          },
+          {
+            "day": "2026-10-14",
+            "hm": "11:02",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "prev",
+            "sl": 17.8,
+            "score": 2.3
+          },
+          {
+            "day": "2026-10-14",
+            "hm": "11:48",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "cap20",
+            "sl": 16.7,
+            "score": 6.2
+          },
+          {
+            "day": "2026-10-14",
+            "hm": "14:34",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "cap8",
+            "sl": 8.0,
+            "score": 0.5
+          },
+          {
+            "day": "2026-10-16",
+            "hm": "11:00",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "cap12",
+            "sl": 12.0,
+            "score": 5.3
+          },
+          {
+            "day": "2026-10-19",
+            "hm": "11:37",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "sig",
+            "sl": 12.8,
+            "score": 4.5
+          },
+          {
+            "day": "2026-10-19",
+            "hm": "11:51",
+            "decision": "SELL",
+            "primary": "three_crows",
+            "st": "cap15",
+            "sl": 15.0,
+            "score": 3.1
+          },
+          {
+            "day": "2026-10-19",
+            "hm": "12:28",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "prev",
+            "sl": 13.6,
+            "score": 4.0
+          },
+          {
+            "day": "2026-10-21",
+            "hm": "11:02",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 12.15,
+            "score": 3.2
+          },
+          {
+            "day": "2026-10-21",
+            "hm": "11:33",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "prev",
+            "sl": 19.1,
+            "score": 3.5
+          },
+          {
+            "day": "2026-10-21",
+            "hm": "11:51",
+            "decision": "SELL",
+            "primary": "three_crows",
+            "st": "cap15",
+            "sl": 15.0,
+            "score": 3.1
+          },
+          {
+            "day": "2026-10-21",
+            "hm": "12:21",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "prev",
+            "sl": 18.3,
+            "score": 4.8
+          },
+          {
+            "day": "2026-10-21",
+            "hm": "13:38",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "sig",
+            "sl": 15.15,
+            "score": 1.9
+          },
+          {
+            "day": "2026-10-21",
+            "hm": "14:03",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "prev",
+            "sl": 10.4,
+            "score": 3.8
+          },
+          {
+            "day": "2026-10-22",
+            "hm": "09:38",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 18.9,
+            "score": 3.3
+          },
+          {
+            "day": "2026-10-22",
+            "hm": "10:08",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 20.0,
+            "score": 3.3
+          },
+          {
+            "day": "2026-10-22",
+            "hm": "11:02",
+            "decision": "BUY",
+            "primary": "belt_bull",
+            "st": "prev",
+            "sl": 14.85,
+            "score": 1.7
+          },
+          {
+            "day": "2026-10-22",
+            "hm": "12:49",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "cap20",
+            "sl": 19.7,
+            "score": 2.8
+          },
+          {
+            "day": "2026-10-23",
+            "hm": "09:55",
+            "decision": "SELL",
+            "primary": "three_outside_dn",
+            "st": "cap10",
+            "sl": 10.0,
+            "score": 5.8
+          },
+          {
+            "day": "2026-10-23",
+            "hm": "11:10",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 16.25,
+            "score": 3.3
+          },
+          {
+            "day": "2026-10-26",
+            "hm": "11:11",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "prev",
+            "sl": 15.25,
+            "score": 3.1
+          },
+          {
+            "day": "2026-10-26",
+            "hm": "12:31",
+            "decision": "BUY",
+            "primary": "belt_bull",
+            "st": "min_ps",
+            "sl": 9.8,
+            "score": 5.7
+          },
+          {
+            "day": "2026-10-27",
+            "hm": "10:12",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "sig",
+            "sl": 16.3,
+            "score": 1.7
+          },
+          {
+            "day": "2026-10-27",
+            "hm": "11:08",
+            "decision": "SELL",
+            "primary": "belt_bear",
+            "st": "sig",
+            "sl": 6.35,
+            "score": 6.5
+          },
+          {
+            "day": "2026-10-27",
+            "hm": "12:37",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "cap8",
+            "sl": 8.0,
+            "score": 3.5
+          },
+          {
+            "day": "2026-10-27",
+            "hm": "13:37",
+            "decision": "SELL",
+            "primary": "three_outside_dn",
+            "st": "prev",
+            "sl": 20.0,
+            "score": -0.3
+          },
+          {
+            "day": "2026-10-28",
+            "hm": "11:47",
+            "decision": "BUY",
+            "primary": "bull_kicker",
+            "st": "min_ps",
+            "sl": 5.45,
+            "score": 4.0
+          },
+          {
+            "day": "2026-10-28",
+            "hm": "12:10",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "cap20",
+            "sl": 16.3,
+            "score": 2.8
+          },
+          {
+            "day": "2026-10-29",
+            "hm": "10:39",
+            "decision": "BUY",
+            "primary": "tweezer_bot",
+            "st": "cap10",
+            "sl": 9.15,
+            "score": 3.4
+          },
+          {
+            "day": "2026-10-29",
+            "hm": "10:57",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "prev",
+            "sl": 12.15,
+            "score": 4.1
+          },
+          {
+            "day": "2026-11-02",
+            "hm": "10:08",
+            "decision": "BUY",
+            "primary": "bull_kicker",
+            "st": "prev",
+            "sl": 7.05,
+            "score": 5.6
+          },
+          {
+            "day": "2026-11-02",
+            "hm": "13:17",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "min_ps",
+            "sl": 6.95,
+            "score": 4.6
+          },
+          {
+            "day": "2026-11-02",
+            "hm": "13:51",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "min_ps",
+            "sl": 7.65,
+            "score": 5.0
+          },
+          {
+            "day": "2026-11-04",
+            "hm": "10:35",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "sig",
+            "sl": 8.5,
+            "score": 1.7
+          },
+          {
+            "day": "2026-11-04",
+            "hm": "14:43",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "prev",
+            "sl": 16.85,
+            "score": 4.3
+          },
+          {
+            "day": "2026-11-05",
+            "hm": "09:20",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "cap20",
+            "sl": 18.75,
+            "score": 2.1
+          },
+          {
+            "day": "2026-11-05",
+            "hm": "11:19",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 17.75,
+            "score": 3.5
+          },
+          {
+            "day": "2026-11-06",
+            "hm": "10:14",
+            "decision": "BUY",
+            "primary": "tweezer_bot",
+            "st": "prev",
+            "sl": 17.5,
+            "score": 5.7
+          },
+          {
+            "day": "2026-11-06",
+            "hm": "10:52",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "prev",
+            "sl": 14.25,
+            "score": 3.8
+          },
+          {
+            "day": "2026-11-06",
+            "hm": "12:09",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "prev",
+            "sl": 13.85,
+            "score": 2.4
+          },
+          {
+            "day": "2026-11-06",
+            "hm": "14:11",
+            "decision": "BUY",
+            "primary": "marubozu_bull",
+            "st": "prev",
+            "sl": 11.5,
+            "score": 3.3
+          }
+        ]
+      },
+      "best_calls": {
+        "kind": "micro_dense",
+        "t1": 15.0,
+        "sl_max": 20.0,
+        "gap": 5,
+        "cal": {
+          "n": 314,
+          "days": 182,
+          "zero": 89,
+          "cpd": 1.73,
+          "cpd_all": 1.16,
+          "multi": 87,
+          "min": 1,
+          "p50": 1,
+          "max": 6,
+          "avg_sl": 12.86,
+          "rr": 1.17,
+          "hist": {
+            "1": 95,
+            "2": 54,
+            "3": 24,
+            "4": 7,
+            "5": 1,
+            "6": 1
+          }
+        },
+        "l3m": {
+          "n": 103,
+          "days": 44,
+          "zero": 20,
+          "cpd": 2.34,
+          "cpd_all": 1.61,
+          "multi": 29,
+          "min": 1,
+          "p50": 2,
+          "max": 9,
+          "avg_sl": 12.52,
+          "rr": 1.2,
+          "hist": {
+            "1": 15,
+            "2": 15,
+            "3": 6,
+            "4": 5,
+            "5": 1,
+            "6": 1,
+            "9": 1
+          }
+        },
+        "n_micros": 77
+      },
+      "top10": [
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 5,
+          "l3m": {
+            "n": 103,
+            "days": 44,
+            "zero": 20,
+            "cpd": 2.34,
+            "cpd_all": 1.61,
+            "multi": 29,
+            "min": 1,
+            "p50": 2,
+            "max": 9,
+            "avg_sl": 12.52,
+            "rr": 1.2,
+            "hist": {
+              "1": 15,
+              "2": 15,
+              "3": 6,
+              "4": 5,
+              "5": 1,
+              "6": 1,
+              "9": 1
+            }
+          },
+          "rr": 1.2
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 8,
+          "l3m": {
+            "n": 102,
+            "days": 44,
+            "zero": 20,
+            "cpd": 2.32,
+            "cpd_all": 1.59,
+            "multi": 29,
+            "min": 1,
+            "p50": 2,
+            "max": 9,
+            "avg_sl": 12.47,
+            "rr": 1.2,
+            "hist": {
+              "1": 15,
+              "2": 15,
+              "3": 7,
+              "4": 4,
+              "5": 1,
+              "6": 1,
+              "9": 1
+            }
+          },
+          "rr": 1.2
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 10,
+          "l3m": {
+            "n": 101,
+            "days": 44,
+            "zero": 20,
+            "cpd": 2.3,
+            "cpd_all": 1.58,
+            "multi": 28,
+            "min": 1,
+            "p50": 2,
+            "max": 9,
+            "avg_sl": 12.51,
+            "rr": 1.2,
+            "hist": {
+              "1": 16,
+              "2": 14,
+              "3": 7,
+              "4": 4,
+              "5": 1,
+              "6": 1,
+              "9": 1
+            }
+          },
+          "rr": 1.2
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 12,
+          "l3m": {
+            "n": 99,
+            "days": 44,
+            "zero": 20,
+            "cpd": 2.25,
+            "cpd_all": 1.55,
+            "multi": 28,
+            "min": 1,
+            "p50": 2,
+            "max": 9,
+            "avg_sl": 12.6,
+            "rr": 1.19,
+            "hist": {
+              "1": 16,
+              "2": 15,
+              "3": 7,
+              "4": 3,
+              "5": 1,
+              "6": 1,
+              "9": 1
+            }
+          },
+          "rr": 1.19
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 5,
+          "l3m": {
+            "n": 66,
+            "days": 38,
+            "zero": 26,
+            "cpd": 1.74,
+            "cpd_all": 1.03,
+            "multi": 17,
+            "min": 1,
+            "p50": 1,
+            "max": 5,
+            "avg_sl": 9.99,
+            "rr": 1.5,
+            "hist": {
+              "1": 21,
+              "2": 11,
+              "3": 3,
+              "4": 1,
+              "5": 2
+            }
+          },
+          "rr": 1.5
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 8,
+          "l3m": {
+            "n": 66,
+            "days": 38,
+            "zero": 26,
+            "cpd": 1.74,
+            "cpd_all": 1.03,
+            "multi": 17,
+            "min": 1,
+            "p50": 1,
+            "max": 5,
+            "avg_sl": 9.99,
+            "rr": 1.5,
+            "hist": {
+              "1": 21,
+              "2": 11,
+              "3": 3,
+              "4": 1,
+              "5": 2
+            }
+          },
+          "rr": 1.5
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 10,
+          "l3m": {
+            "n": 65,
+            "days": 38,
+            "zero": 26,
+            "cpd": 1.71,
+            "cpd_all": 1.02,
+            "multi": 16,
+            "min": 1,
+            "p50": 1,
+            "max": 5,
+            "avg_sl": 9.96,
+            "rr": 1.51,
+            "hist": {
+              "1": 22,
+              "2": 10,
+              "3": 3,
+              "4": 1,
+              "5": 2
+            }
+          },
+          "rr": 1.51
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 12,
+          "l3m": {
+            "n": 64,
+            "days": 38,
+            "zero": 26,
+            "cpd": 1.68,
+            "cpd_all": 1.0,
+            "multi": 15,
+            "min": 1,
+            "p50": 1,
+            "max": 5,
+            "avg_sl": 9.93,
+            "rr": 1.51,
+            "hist": {
+              "1": 23,
+              "2": 9,
+              "3": 3,
+              "4": 1,
+              "5": 2
+            }
+          },
+          "rr": 1.51
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 10.0,
+          "gap": 5,
+          "l3m": {
+            "n": 49,
+            "days": 34,
+            "zero": 30,
+            "cpd": 1.44,
+            "cpd_all": 0.77,
+            "multi": 14,
+            "min": 1,
+            "p50": 1,
+            "max": 3,
+            "avg_sl": 7.79,
+            "rr": 1.93,
+            "hist": {
+              "1": 20,
+              "2": 13,
+              "3": 1
+            }
+          },
+          "rr": 1.93
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 10.0,
+          "gap": 8,
+          "l3m": {
+            "n": 49,
+            "days": 34,
+            "zero": 30,
+            "cpd": 1.44,
+            "cpd_all": 0.77,
+            "multi": 14,
+            "min": 1,
+            "p50": 1,
+            "max": 3,
+            "avg_sl": 7.79,
+            "rr": 1.93,
+            "hist": {
+              "1": 20,
+              "2": 13,
+              "3": 1
+            }
+          },
+          "rr": 1.93
+        }
+      ]
+    },
+    "20": {
+      "best_coverage": {
+        "kind": "micro_dense",
+        "t1": 20.0,
+        "sl_max": 20.0,
+        "gap": 5,
+        "n_micros": 38,
+        "cal": {
+          "n": 160,
+          "days": 123,
+          "zero": 148,
+          "cpd": 1.3,
+          "cpd_all": 0.59,
+          "multi": 29,
+          "min": 1,
+          "p50": 1,
+          "max": 3,
+          "avg_sl": 14.41,
+          "rr": 1.39,
+          "hist": {
+            "1": 94,
+            "2": 21,
+            "3": 8
+          }
+        },
+        "l3m": {
+          "n": 50,
+          "days": 29,
+          "zero": 35,
+          "cpd": 1.72,
+          "cpd_all": 0.78,
+          "multi": 13,
+          "min": 1,
+          "p50": 1,
+          "max": 6,
+          "avg_sl": 14.63,
+          "rr": 1.37,
+          "hist": {
+            "1": 16,
+            "2": 9,
+            "3": 2,
+            "4": 1,
+            "6": 1
+          }
+        },
+        "l3m_calls": [
+          {
+            "day": "2026-08-12",
+            "hm": "09:20",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 19.95,
+            "score": 3.2
+          },
+          {
+            "day": "2026-08-19",
+            "hm": "09:30",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "sig",
+            "sl": 10.35,
+            "score": 3.5
+          },
+          {
+            "day": "2026-08-25",
+            "hm": "09:44",
+            "decision": "SELL",
+            "primary": "belt_bear",
+            "st": "prev",
+            "sl": 11.5,
+            "score": 6.6
+          },
+          {
+            "day": "2026-08-25",
+            "hm": "12:19",
+            "decision": "SELL",
+            "primary": "falling_3_methods",
+            "st": "p75",
+            "sl": 4.0,
+            "score": 6.4
+          },
+          {
+            "day": "2026-09-01",
+            "hm": "11:08",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "cap20",
+            "sl": 19.45,
+            "score": 6.6
+          },
+          {
+            "day": "2026-09-01",
+            "hm": "14:01",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "cap8",
+            "sl": 8.0,
+            "score": 0.5
+          },
+          {
+            "day": "2026-09-07",
+            "hm": "09:58",
+            "decision": "SELL",
+            "primary": "evening_star",
+            "st": "prev",
+            "sl": 10.7,
+            "score": 6.6
+          },
+          {
+            "day": "2026-09-16",
+            "hm": "12:31",
+            "decision": "BUY",
+            "primary": "marubozu_bull",
+            "st": "prev",
+            "sl": 12.45,
+            "score": 5.2
+          },
+          {
+            "day": "2026-09-17",
+            "hm": "11:18",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 16.25,
+            "score": 3.5
+          },
+          {
+            "day": "2026-09-17",
+            "hm": "11:57",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "cap20",
+            "sl": 17.5,
+            "score": 5.3
+          },
+          {
+            "day": "2026-09-24",
+            "hm": "11:13",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "cap15",
+            "sl": 13.8,
+            "score": 5.8
+          },
+          {
+            "day": "2026-09-25",
+            "hm": "11:24",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "prev",
+            "sl": 16.75,
+            "score": 1.3
+          },
+          {
+            "day": "2026-09-28",
+            "hm": "12:05",
+            "decision": "BUY",
+            "primary": "tweezer_bot",
+            "st": "cap12",
+            "sl": 12.0,
+            "score": 5.5
+          },
+          {
+            "day": "2026-09-29",
+            "hm": "12:39",
+            "decision": "BUY",
+            "primary": "bull_engulf",
+            "st": "sig",
+            "sl": 11.5,
+            "score": 0.5
+          },
+          {
+            "day": "2026-09-29",
+            "hm": "12:56",
+            "decision": "BUY",
+            "primary": "three_outside_up",
+            "st": "cap20",
+            "sl": 19.45,
+            "score": 5.0
+          },
+          {
+            "day": "2026-10-05",
+            "hm": "11:22",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "sig",
+            "sl": 8.25,
+            "score": 3.4
+          },
+          {
+            "day": "2026-10-05",
+            "hm": "11:30",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 19.6,
+            "score": 3.7
+          },
+          {
+            "day": "2026-10-06",
+            "hm": "14:41",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 18.95,
+            "score": 2.0
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "09:36",
+            "decision": "BUY",
+            "primary": "belt_bull",
+            "st": "cap12",
+            "sl": 12.0,
+            "score": 3.5
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "10:19",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "cap15",
+            "sl": 15.0,
+            "score": 3.9
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "13:01",
+            "decision": "BUY",
+            "primary": "marubozu_bull",
+            "st": "cap12",
+            "sl": 12.0,
+            "score": 3.6
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "13:26",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "prev",
+            "sl": 18.25,
+            "score": 5.2
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "14:04",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "min_ps",
+            "sl": 16.7,
+            "score": 4.0
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "14:56",
+            "decision": "SELL",
+            "primary": "belt_bear",
+            "st": "prev",
+            "sl": 18.95,
+            "score": 3.0
+          },
+          {
+            "day": "2026-10-09",
+            "hm": "13:34",
+            "decision": "BUY",
+            "primary": "belt_bull",
+            "st": "prev",
+            "sl": 12.25,
+            "score": 5.2
+          },
+          {
+            "day": "2026-10-12",
+            "hm": "10:05",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "prev",
+            "sl": 16.9,
+            "score": 3.5
+          },
+          {
+            "day": "2026-10-12",
+            "hm": "14:21",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "sig",
+            "sl": 9.45,
+            "score": 1.5
+          },
+          {
+            "day": "2026-10-13",
+            "hm": "14:49",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 14.95,
+            "score": 1.2
+          },
+          {
+            "day": "2026-10-14",
+            "hm": "11:02",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "prev",
+            "sl": 17.8,
+            "score": 2.3
+          },
+          {
+            "day": "2026-10-14",
+            "hm": "11:48",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "cap20",
+            "sl": 16.7,
+            "score": 6.2
+          },
+          {
+            "day": "2026-10-14",
+            "hm": "14:34",
+            "decision": "SELL",
+            "primary": "bear_run3",
+            "st": "cap8",
+            "sl": 8.0,
+            "score": 0.5
+          },
+          {
+            "day": "2026-10-16",
+            "hm": "11:00",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "cap20",
+            "sl": 17.3,
+            "score": 5.3
+          },
+          {
+            "day": "2026-10-19",
+            "hm": "11:37",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "sig",
+            "sl": 12.8,
+            "score": 4.5
+          },
+          {
+            "day": "2026-10-19",
+            "hm": "11:51",
+            "decision": "SELL",
+            "primary": "three_crows",
+            "st": "cap15",
+            "sl": 15.0,
+            "score": 3.1
+          },
+          {
+            "day": "2026-10-21",
+            "hm": "11:51",
+            "decision": "SELL",
+            "primary": "three_crows",
+            "st": "cap15",
+            "sl": 15.0,
+            "score": 3.1
+          },
+          {
+            "day": "2026-10-21",
+            "hm": "13:38",
+            "decision": "SELL",
+            "primary": "bear_engulf",
+            "st": "sig",
+            "sl": 15.15,
+            "score": 1.9
+          },
+          {
+            "day": "2026-10-21",
+            "hm": "14:03",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "prev",
+            "sl": 10.4,
+            "score": 3.8
+          },
+          {
+            "day": "2026-10-22",
+            "hm": "09:38",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 18.9,
+            "score": 3.3
+          },
+          {
+            "day": "2026-10-22",
+            "hm": "10:08",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 20.0,
+            "score": 3.3
+          },
+          {
+            "day": "2026-10-22",
+            "hm": "11:02",
+            "decision": "BUY",
+            "primary": "belt_bull",
+            "st": "prev",
+            "sl": 14.85,
+            "score": 1.7
+          },
+          {
+            "day": "2026-10-22",
+            "hm": "12:49",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "cap20",
+            "sl": 19.7,
+            "score": 2.8
+          },
+          {
+            "day": "2026-10-23",
+            "hm": "11:10",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 16.25,
+            "score": 3.3
+          },
+          {
+            "day": "2026-10-27",
+            "hm": "11:08",
+            "decision": "SELL",
+            "primary": "belt_bear",
+            "st": "prev",
+            "sl": 11.45,
+            "score": 6.5
+          },
+          {
+            "day": "2026-10-28",
+            "hm": "12:10",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "cap20",
+            "sl": 16.3,
+            "score": 2.8
+          },
+          {
+            "day": "2026-10-29",
+            "hm": "10:39",
+            "decision": "BUY",
+            "primary": "tweezer_bot",
+            "st": "cap10",
+            "sl": 9.15,
+            "score": 3.4
+          },
+          {
+            "day": "2026-10-29",
+            "hm": "10:57",
+            "decision": "SELL",
+            "primary": "marubozu_bear",
+            "st": "prev",
+            "sl": 12.15,
+            "score": 4.1
+          },
+          {
+            "day": "2026-11-04",
+            "hm": "10:35",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "prev",
+            "sl": 15.35,
+            "score": 1.7
+          },
+          {
+            "day": "2026-11-04",
+            "hm": "14:43",
+            "decision": "BUY",
+            "primary": "bull_run2",
+            "st": "prev",
+            "sl": 16.85,
+            "score": 4.3
+          },
+          {
+            "day": "2026-11-05",
+            "hm": "11:19",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 17.75,
+            "score": 3.5
+          },
+          {
+            "day": "2026-11-06",
+            "hm": "10:14",
+            "decision": "BUY",
+            "primary": "tweezer_bot",
+            "st": "prev",
+            "sl": 17.5,
+            "score": 5.7
+          }
+        ]
+      },
+      "best_calls": {
+        "kind": "micro_dense",
+        "t1": 20.0,
+        "sl_max": 20.0,
+        "gap": 5,
+        "cal": {
+          "n": 160,
+          "days": 123,
+          "zero": 148,
+          "cpd": 1.3,
+          "cpd_all": 0.59,
+          "multi": 29,
+          "min": 1,
+          "p50": 1,
+          "max": 3,
+          "avg_sl": 14.41,
+          "rr": 1.39,
+          "hist": {
+            "1": 94,
+            "2": 21,
+            "3": 8
+          }
+        },
+        "l3m": {
+          "n": 50,
+          "days": 29,
+          "zero": 35,
+          "cpd": 1.72,
+          "cpd_all": 0.78,
+          "multi": 13,
+          "min": 1,
+          "p50": 1,
+          "max": 6,
+          "avg_sl": 14.63,
+          "rr": 1.37,
+          "hist": {
+            "1": 16,
+            "2": 9,
+            "3": 2,
+            "4": 1,
+            "6": 1
+          }
+        },
+        "n_micros": 38
+      },
+      "top10": [
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 5,
+          "l3m": {
+            "n": 50,
+            "days": 29,
+            "zero": 35,
+            "cpd": 1.72,
+            "cpd_all": 0.78,
+            "multi": 13,
+            "min": 1,
+            "p50": 1,
+            "max": 6,
+            "avg_sl": 14.63,
+            "rr": 1.37,
+            "hist": {
+              "1": 16,
+              "2": 9,
+              "3": 2,
+              "4": 1,
+              "6": 1
+            }
+          },
+          "rr": 1.37
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 8,
+          "l3m": {
+            "n": 49,
+            "days": 28,
+            "zero": 36,
+            "cpd": 1.75,
+            "cpd_all": 0.77,
+            "multi": 13,
+            "min": 1,
+            "p50": 1,
+            "max": 6,
+            "avg_sl": 14.57,
+            "rr": 1.37,
+            "hist": {
+              "1": 15,
+              "2": 9,
+              "3": 2,
+              "4": 1,
+              "6": 1
+            }
+          },
+          "rr": 1.37
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 10,
+          "l3m": {
+            "n": 48,
+            "days": 28,
+            "zero": 36,
+            "cpd": 1.71,
+            "cpd_all": 0.75,
+            "multi": 12,
+            "min": 1,
+            "p50": 1,
+            "max": 6,
+            "avg_sl": 14.7,
+            "rr": 1.36,
+            "hist": {
+              "1": 16,
+              "2": 8,
+              "3": 2,
+              "4": 1,
+              "6": 1
+            }
+          },
+          "rr": 1.36
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 12,
+          "l3m": {
+            "n": 48,
+            "days": 28,
+            "zero": 36,
+            "cpd": 1.71,
+            "cpd_all": 0.75,
+            "multi": 12,
+            "min": 1,
+            "p50": 1,
+            "max": 6,
+            "avg_sl": 14.7,
+            "rr": 1.36,
+            "hist": {
+              "1": 16,
+              "2": 8,
+              "3": 2,
+              "4": 1,
+              "6": 1
+            }
+          },
+          "rr": 1.36
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 5,
+          "l3m": {
+            "n": 26,
+            "days": 19,
+            "zero": 45,
+            "cpd": 1.37,
+            "cpd_all": 0.41,
+            "multi": 5,
+            "min": 1,
+            "p50": 1,
+            "max": 3,
+            "avg_sl": 11.53,
+            "rr": 1.74,
+            "hist": {
+              "1": 14,
+              "2": 3,
+              "3": 2
+            }
+          },
+          "rr": 1.74
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 8,
+          "l3m": {
+            "n": 26,
+            "days": 19,
+            "zero": 45,
+            "cpd": 1.37,
+            "cpd_all": 0.41,
+            "multi": 5,
+            "min": 1,
+            "p50": 1,
+            "max": 3,
+            "avg_sl": 11.53,
+            "rr": 1.74,
+            "hist": {
+              "1": 14,
+              "2": 3,
+              "3": 2
+            }
+          },
+          "rr": 1.74
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 10,
+          "l3m": {
+            "n": 25,
+            "days": 19,
+            "zero": 45,
+            "cpd": 1.32,
+            "cpd_all": 0.39,
+            "multi": 4,
+            "min": 1,
+            "p50": 1,
+            "max": 3,
+            "avg_sl": 11.53,
+            "rr": 1.73,
+            "hist": {
+              "1": 15,
+              "2": 2,
+              "3": 2
+            }
+          },
+          "rr": 1.73
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 12,
+          "l3m": {
+            "n": 25,
+            "days": 19,
+            "zero": 45,
+            "cpd": 1.32,
+            "cpd_all": 0.39,
+            "multi": 4,
+            "min": 1,
+            "p50": 1,
+            "max": 3,
+            "avg_sl": 11.53,
+            "rr": 1.73,
+            "hist": {
+              "1": 15,
+              "2": 2,
+              "3": 2
+            }
+          },
+          "rr": 1.73
+        },
+        {
+          "kind": "micro_strict",
+          "sl_max": 20.0,
+          "gap": 5,
+          "l3m": {
+            "n": 23,
+            "days": 17,
+            "zero": 47,
+            "cpd": 1.35,
+            "cpd_all": 0.36,
+            "multi": 4,
+            "min": 1,
+            "p50": 1,
+            "max": 3,
+            "avg_sl": 15.79,
+            "rr": 1.27,
+            "hist": {
+              "1": 13,
+              "2": 2,
+              "3": 2
+            }
+          },
+          "rr": 1.27
+        },
+        {
+          "kind": "micro_strict",
+          "sl_max": 20.0,
+          "gap": 8,
+          "l3m": {
+            "n": 23,
+            "days": 17,
+            "zero": 47,
+            "cpd": 1.35,
+            "cpd_all": 0.36,
+            "multi": 4,
+            "min": 1,
+            "p50": 1,
+            "max": 3,
+            "avg_sl": 15.79,
+            "rr": 1.27,
+            "hist": {
+              "1": 13,
+              "2": 2,
+              "3": 2
+            }
+          },
+          "rr": 1.27
+        }
+      ]
+    },
+    "25": {
+      "best_coverage": {
+        "kind": "micro_dense",
+        "t1": 25.0,
+        "sl_max": 20.0,
+        "gap": 5,
+        "n_micros": 7,
+        "cal": {
+          "n": 28,
+          "days": 26,
+          "zero": 245,
+          "cpd": 1.08,
+          "cpd_all": 0.1,
+          "multi": 2,
+          "min": 1,
+          "p50": 1,
+          "max": 2,
+          "avg_sl": 13.5,
+          "rr": 1.85,
+          "hist": {
+            "1": 24,
+            "2": 2
+          }
+        },
+        "l3m": {
+          "n": 10,
+          "days": 10,
+          "zero": 54,
+          "cpd": 1.0,
+          "cpd_all": 0.16,
+          "multi": 0,
+          "min": 1,
+          "p50": 1,
+          "max": 1,
+          "avg_sl": 14.26,
+          "rr": 1.75,
+          "hist": {
+            "1": 10
+          }
+        },
+        "l3m_calls": [
+          {
+            "day": "2026-08-25",
+            "hm": "12:19",
+            "decision": "SELL",
+            "primary": "falling_3_methods",
+            "st": "p75",
+            "sl": 4.0,
+            "score": 6.4
+          },
+          {
+            "day": "2026-09-17",
+            "hm": "11:57",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 17.5,
+            "score": 5.3
+          },
+          {
+            "day": "2026-09-24",
+            "hm": "11:13",
+            "decision": "SELL",
+            "primary": "bear_run2",
+            "st": "prev",
+            "sl": 13.8,
+            "score": 5.8
+          },
+          {
+            "day": "2026-09-28",
+            "hm": "12:05",
+            "decision": "BUY",
+            "primary": "tweezer_bot",
+            "st": "cap12",
+            "sl": 12.0,
+            "score": 5.5
+          },
+          {
+            "day": "2026-10-08",
+            "hm": "09:36",
+            "decision": "BUY",
+            "primary": "belt_bull",
+            "st": "cap12",
+            "sl": 12.0,
+            "score": 3.5
+          },
+          {
+            "day": "2026-10-16",
+            "hm": "11:00",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 17.3,
+            "score": 5.3
+          },
+          {
+            "day": "2026-10-19",
+            "hm": "11:51",
+            "decision": "SELL",
+            "primary": "three_crows",
+            "st": "cap15",
+            "sl": 15.0,
+            "score": 3.1
+          },
+          {
+            "day": "2026-10-21",
+            "hm": "11:51",
+            "decision": "SELL",
+            "primary": "three_crows",
+            "st": "cap15",
+            "sl": 15.0,
+            "score": 3.1
+          },
+          {
+            "day": "2026-10-22",
+            "hm": "12:49",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 19.7,
+            "score": 2.8
+          },
+          {
+            "day": "2026-10-28",
+            "hm": "12:10",
+            "decision": "BUY",
+            "primary": "bull_run3",
+            "st": "prev",
+            "sl": 16.3,
+            "score": 2.8
+          }
+        ]
+      },
+      "best_calls": {
+        "kind": "micro_dense",
+        "t1": 25.0,
+        "sl_max": 20.0,
+        "gap": 5,
+        "cal": {
+          "n": 28,
+          "days": 26,
+          "zero": 245,
+          "cpd": 1.08,
+          "cpd_all": 0.1,
+          "multi": 2,
+          "min": 1,
+          "p50": 1,
+          "max": 2,
+          "avg_sl": 13.5,
+          "rr": 1.85,
+          "hist": {
+            "1": 24,
+            "2": 2
+          }
+        },
+        "l3m": {
+          "n": 10,
+          "days": 10,
+          "zero": 54,
+          "cpd": 1.0,
+          "cpd_all": 0.16,
+          "multi": 0,
+          "min": 1,
+          "p50": 1,
+          "max": 1,
+          "avg_sl": 14.26,
+          "rr": 1.75,
+          "hist": {
+            "1": 10
+          }
+        },
+        "n_micros": 7
+      },
+      "top10": [
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 5,
+          "l3m": {
+            "n": 10,
+            "days": 10,
+            "zero": 54,
+            "cpd": 1.0,
+            "cpd_all": 0.16,
+            "multi": 0,
+            "min": 1,
+            "p50": 1,
+            "max": 1,
+            "avg_sl": 14.26,
+            "rr": 1.75,
+            "hist": {
+              "1": 10
+            }
+          },
+          "rr": 1.75
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 8,
+          "l3m": {
+            "n": 10,
+            "days": 10,
+            "zero": 54,
+            "cpd": 1.0,
+            "cpd_all": 0.16,
+            "multi": 0,
+            "min": 1,
+            "p50": 1,
+            "max": 1,
+            "avg_sl": 14.26,
+            "rr": 1.75,
+            "hist": {
+              "1": 10
+            }
+          },
+          "rr": 1.75
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 10,
+          "l3m": {
+            "n": 10,
+            "days": 10,
+            "zero": 54,
+            "cpd": 1.0,
+            "cpd_all": 0.16,
+            "multi": 0,
+            "min": 1,
+            "p50": 1,
+            "max": 1,
+            "avg_sl": 14.26,
+            "rr": 1.75,
+            "hist": {
+              "1": 10
+            }
+          },
+          "rr": 1.75
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 20.0,
+          "gap": 12,
+          "l3m": {
+            "n": 10,
+            "days": 10,
+            "zero": 54,
+            "cpd": 1.0,
+            "cpd_all": 0.16,
+            "multi": 0,
+            "min": 1,
+            "p50": 1,
+            "max": 1,
+            "avg_sl": 14.26,
+            "rr": 1.75,
+            "hist": {
+              "1": 10
+            }
+          },
+          "rr": 1.75
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 5,
+          "l3m": {
+            "n": 8,
+            "days": 8,
+            "zero": 56,
+            "cpd": 1.0,
+            "cpd_all": 0.12,
+            "multi": 0,
+            "min": 1,
+            "p50": 1,
+            "max": 1,
+            "avg_sl": 12.17,
+            "rr": 2.05,
+            "hist": {
+              "1": 8
+            }
+          },
+          "rr": 2.05
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 8,
+          "l3m": {
+            "n": 8,
+            "days": 8,
+            "zero": 56,
+            "cpd": 1.0,
+            "cpd_all": 0.12,
+            "multi": 0,
+            "min": 1,
+            "p50": 1,
+            "max": 1,
+            "avg_sl": 12.17,
+            "rr": 2.05,
+            "hist": {
+              "1": 8
+            }
+          },
+          "rr": 2.05
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 10,
+          "l3m": {
+            "n": 8,
+            "days": 8,
+            "zero": 56,
+            "cpd": 1.0,
+            "cpd_all": 0.12,
+            "multi": 0,
+            "min": 1,
+            "p50": 1,
+            "max": 1,
+            "avg_sl": 12.17,
+            "rr": 2.05,
+            "hist": {
+              "1": 8
+            }
+          },
+          "rr": 2.05
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 15.0,
+          "gap": 12,
+          "l3m": {
+            "n": 8,
+            "days": 8,
+            "zero": 56,
+            "cpd": 1.0,
+            "cpd_all": 0.12,
+            "multi": 0,
+            "min": 1,
+            "p50": 1,
+            "max": 1,
+            "avg_sl": 12.17,
+            "rr": 2.05,
+            "hist": {
+              "1": 8
+            }
+          },
+          "rr": 2.05
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 10.0,
+          "gap": 5,
+          "l3m": {
+            "n": 6,
+            "days": 6,
+            "zero": 58,
+            "cpd": 1.0,
+            "cpd_all": 0.09,
+            "multi": 0,
+            "min": 1,
+            "p50": 1,
+            "max": 1,
+            "avg_sl": 8.25,
+            "rr": 3.03,
+            "hist": {
+              "1": 6
+            }
+          },
+          "rr": 3.03
+        },
+        {
+          "kind": "micro_dense",
+          "sl_max": 10.0,
+          "gap": 8,
+          "l3m": {
+            "n": 6,
+            "days": 6,
+            "zero": 58,
+            "cpd": 1.0,
+            "cpd_all": 0.09,
+            "multi": 0,
+            "min": 1,
+            "p50": 1,
+            "max": 1,
+            "avg_sl": 8.25,
+            "rr": 3.03,
+            "hist": {
+              "1": 6
+            }
+          },
+          "rr": 3.03
+        }
+      ]
+    }
+  }
+}

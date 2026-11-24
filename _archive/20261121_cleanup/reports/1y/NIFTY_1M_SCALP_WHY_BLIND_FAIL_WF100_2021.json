@@ -1,0 +1,581 @@
+{
+  "constraints": {
+    "t1": 20.0,
+    "sl_max": 10.0,
+    "gap": 1
+  },
+  "data_hi": "2026-11-16",
+  "why_blind": {
+    "n": 400,
+    "n_win": 122,
+    "n_loss": 278,
+    "hit": 30.5,
+    "loss_mfe_ge20": 188,
+    "loss_mfe_ge20_pct": 67.6,
+    "avg_mae_win": 60.89,
+    "avg_mae_loss": 81.07,
+    "avg_mfe_win": 103.86,
+    "avg_mfe_loss": 64.31,
+    "fail_signals": [
+      {
+        "f": "vix_LOW",
+        "L": 34.9,
+        "W": 27.9,
+        "delta": 7.0
+      },
+      {
+        "f": "NOT close_ok",
+        "L": 34.2,
+        "W": 32.8,
+        "delta": 1.4
+      },
+      {
+        "f": "hm09",
+        "L": 20.9,
+        "W": 21.3,
+        "delta": -0.4
+      },
+      {
+        "f": "adv_hi",
+        "L": 24.1,
+        "W": 27.0,
+        "delta": -2.9
+      },
+      {
+        "f": "pre3_opp>=2",
+        "L": 47.8,
+        "W": 52.5,
+        "delta": -4.7
+      },
+      {
+        "f": "day_mid",
+        "L": 43.2,
+        "W": 48.4,
+        "delta": -5.2
+      }
+    ],
+    "loss_primary": [
+      [
+        "bear_engulf",
+        42
+      ],
+      [
+        "bear_run3",
+        37
+      ],
+      [
+        "bear_run2",
+        34
+      ],
+      [
+        "bull_run2",
+        20
+      ],
+      [
+        "bull_run3",
+        20
+      ],
+      [
+        "bull_engulf",
+        19
+      ]
+    ],
+    "win_primary": [
+      [
+        "bull_run2",
+        16
+      ],
+      [
+        "bear_run3",
+        15
+      ],
+      [
+        "bear_run2",
+        14
+      ],
+      [
+        "bear_engulf",
+        14
+      ],
+      [
+        "bull_run3",
+        12
+      ],
+      [
+        "bull_engulf",
+        11
+      ]
+    ],
+    "loss_pre3_UD": [
+      [
+        "DDU",
+        39
+      ],
+      [
+        "DDD",
+        39
+      ],
+      [
+        "DUU",
+        38
+      ],
+      [
+        "UUD",
+        38
+      ],
+      [
+        "DUD",
+        36
+      ],
+      [
+        "UDD",
+        33
+      ]
+    ],
+    "loss_vix": [
+      [
+        "LOW",
+        97
+      ],
+      [
+        "NORMAL",
+        94
+      ],
+      [
+        "ELEVATED",
+        63
+      ],
+      [
+        "HIGH",
+        22
+      ],
+      [
+        "UNK",
+        2
+      ]
+    ],
+    "why": [
+      "Train-locked fingerprints are rare geometries that were path-perfect in 2024-25 only.",
+      "On 2026 the same fingerprint reappears in a different tape; SL often prints first even when MFE later \u226520.",
+      "Fine keys overfit local history \u2192 high in-sample 100%, weak blind OOS.",
+      "Peeked DEEP looked 100% on 2026 because 2026 was used in the lock filter (not unknown)."
+    ]
+  },
+  "walk_forward": {
+    "2023": {
+      "train_years": [
+        2021,
+        2022
+      ],
+      "dense": {
+        "n_micros": 248,
+        "full": {
+          "n": 418,
+          "hit": 23.44,
+          "all_win": false,
+          "days": 202,
+          "cpd": 2.07,
+          "cpd_all": 1.71,
+          "cover": 82.4,
+          "avg_sl": 6.49
+        },
+        "one": {
+          "n": 202,
+          "hit": 22.28,
+          "cover": 82.4,
+          "all_win": false
+        }
+      },
+      "strict": {
+        "n_micros": 256,
+        "full": {
+          "n": 404,
+          "hit": 22.77,
+          "all_win": false,
+          "days": 198,
+          "cpd": 2.04,
+          "cpd_all": 1.65,
+          "cover": 80.8,
+          "avg_sl": 6.68
+        },
+        "one": {
+          "n": 198,
+          "hit": 24.75,
+          "cover": 80.8,
+          "all_win": false
+        }
+      }
+    },
+    "2024": {
+      "train_years": [
+        2021,
+        2022,
+        2023
+      ],
+      "dense": {
+        "n_micros": 382,
+        "full": {
+          "n": 467,
+          "hit": 30.62,
+          "all_win": false,
+          "days": 212,
+          "cpd": 2.2,
+          "cpd_all": 1.88,
+          "cover": 85.5,
+          "avg_sl": 7.17
+        },
+        "one": {
+          "n": 212,
+          "hit": 31.13,
+          "cover": 85.5,
+          "all_win": false
+        }
+      },
+      "strict": {
+        "n_micros": 385,
+        "full": {
+          "n": 472,
+          "hit": 28.6,
+          "all_win": false,
+          "days": 213,
+          "cpd": 2.22,
+          "cpd_all": 1.9,
+          "cover": 85.9,
+          "avg_sl": 7.17
+        },
+        "one": {
+          "n": 213,
+          "hit": 30.05,
+          "cover": 85.9,
+          "all_win": false
+        }
+      }
+    },
+    "2025": {
+      "train_years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "dense": {
+        "n_micros": 529,
+        "full": {
+          "n": 434,
+          "hit": 30.18,
+          "all_win": false,
+          "days": 207,
+          "cpd": 2.1,
+          "cpd_all": 1.74,
+          "cover": 83.1,
+          "avg_sl": 6.94
+        },
+        "one": {
+          "n": 207,
+          "hit": 33.82,
+          "cover": 83.1,
+          "all_win": false
+        }
+      },
+      "strict": {
+        "n_micros": 527,
+        "full": {
+          "n": 420,
+          "hit": 30.24,
+          "all_win": false,
+          "days": 204,
+          "cpd": 2.06,
+          "cpd_all": 1.69,
+          "cover": 81.9,
+          "avg_sl": 6.97
+        },
+        "one": {
+          "n": 204,
+          "hit": 33.82,
+          "cover": 81.9,
+          "all_win": false
+        }
+      }
+    },
+    "2026": {
+      "train_years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "dense": {
+        "n_micros": 658,
+        "full": {
+          "n": 335,
+          "hit": 30.45,
+          "all_win": false,
+          "days": 173,
+          "cpd": 1.94,
+          "cpd_all": 1.55,
+          "cover": 80.1,
+          "avg_sl": 7.32
+        },
+        "one": {
+          "n": 173,
+          "hit": 30.64,
+          "cover": 80.1,
+          "all_win": false
+        }
+      },
+      "strict": {
+        "n_micros": 656,
+        "full": {
+          "n": 338,
+          "hit": 30.77,
+          "all_win": false,
+          "days": 175,
+          "cpd": 1.93,
+          "cpd_all": 1.56,
+          "cover": 81.0,
+          "avg_sl": 7.33
+        },
+        "one": {
+          "n": 175,
+          "hit": 29.14,
+          "cover": 81.0,
+          "all_win": false
+        }
+      }
+    }
+  },
+  "atlas_min4y": {
+    "n_micros": 140,
+    "by_year": {
+      "2021": {
+        "full": {
+          "n": 119,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 89,
+          "cpd": 1.34,
+          "cpd_all": 0.48,
+          "cover": 36.0,
+          "avg_sl": 7.45
+        },
+        "one": {
+          "n": 89,
+          "hit": 100.0,
+          "cover": 36.0,
+          "all_win": true
+        },
+        "n_days": 247
+      },
+      "2022": {
+        "full": {
+          "n": 107,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 85,
+          "cpd": 1.26,
+          "cpd_all": 0.43,
+          "cover": 34.4,
+          "avg_sl": 7.64
+        },
+        "one": {
+          "n": 85,
+          "hit": 100.0,
+          "cover": 34.4,
+          "all_win": true
+        },
+        "n_days": 247
+      },
+      "2023": {
+        "full": {
+          "n": 98,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 79,
+          "cpd": 1.24,
+          "cpd_all": 0.4,
+          "cover": 32.2,
+          "avg_sl": 7.6
+        },
+        "one": {
+          "n": 79,
+          "hit": 100.0,
+          "cover": 32.2,
+          "all_win": true
+        },
+        "n_days": 245
+      },
+      "2024": {
+        "full": {
+          "n": 116,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 90,
+          "cpd": 1.29,
+          "cpd_all": 0.47,
+          "cover": 36.3,
+          "avg_sl": 8.11
+        },
+        "one": {
+          "n": 90,
+          "hit": 100.0,
+          "cover": 36.3,
+          "all_win": true
+        },
+        "n_days": 248
+      },
+      "2025": {
+        "full": {
+          "n": 106,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 88,
+          "cpd": 1.2,
+          "cpd_all": 0.43,
+          "cover": 35.3,
+          "avg_sl": 7.69
+        },
+        "one": {
+          "n": 88,
+          "hit": 100.0,
+          "cover": 35.3,
+          "all_win": true
+        },
+        "n_days": 249
+      },
+      "2026": {
+        "full": {
+          "n": 91,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 77,
+          "cpd": 1.18,
+          "cpd_all": 0.42,
+          "cover": 35.6,
+          "avg_sl": 8.05
+        },
+        "one": {
+          "n": 77,
+          "hit": 100.0,
+          "cover": 35.6,
+          "all_win": true
+        },
+        "n_days": 216
+      }
+    }
+  },
+  "atlas_every_year": {
+    "n_micros": 1,
+    "by_year": {
+      "2021": {
+        "full": {
+          "n": 1,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 1,
+          "cpd": 1.0,
+          "cpd_all": 0.0,
+          "cover": 0.4,
+          "avg_sl": 8.0
+        },
+        "one": {
+          "n": 1,
+          "hit": 100.0,
+          "cover": 0.4,
+          "all_win": true
+        }
+      },
+      "2022": {
+        "full": {
+          "n": 1,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 1,
+          "cpd": 1.0,
+          "cpd_all": 0.0,
+          "cover": 0.4,
+          "avg_sl": 7.45
+        },
+        "one": {
+          "n": 1,
+          "hit": 100.0,
+          "cover": 0.4,
+          "all_win": true
+        }
+      },
+      "2023": {
+        "full": {
+          "n": 1,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 1,
+          "cpd": 1.0,
+          "cpd_all": 0.0,
+          "cover": 0.4,
+          "avg_sl": 6.25
+        },
+        "one": {
+          "n": 1,
+          "hit": 100.0,
+          "cover": 0.4,
+          "all_win": true
+        }
+      },
+      "2024": {
+        "full": {
+          "n": 1,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 1,
+          "cpd": 1.0,
+          "cpd_all": 0.0,
+          "cover": 0.4,
+          "avg_sl": 8.0
+        },
+        "one": {
+          "n": 1,
+          "hit": 100.0,
+          "cover": 0.4,
+          "all_win": true
+        }
+      },
+      "2025": {
+        "full": {
+          "n": 1,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 1,
+          "cpd": 1.0,
+          "cpd_all": 0.0,
+          "cover": 0.4,
+          "avg_sl": 4.75
+        },
+        "one": {
+          "n": 1,
+          "hit": 100.0,
+          "cover": 0.4,
+          "all_win": true
+        }
+      },
+      "2026": {
+        "full": {
+          "n": 1,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 1,
+          "cpd": 1.0,
+          "cpd_all": 0.0,
+          "cover": 0.5,
+          "avg_sl": 8.0
+        },
+        "one": {
+          "n": 1,
+          "hit": 100.0,
+          "cover": 0.5,
+          "all_win": true
+        }
+      }
+    }
+  },
+  "elapsed_s": 4091.6
+}

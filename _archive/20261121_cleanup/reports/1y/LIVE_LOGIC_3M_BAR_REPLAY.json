@@ -1,0 +1,134 @@
+{
+  "window": {
+    "start": "2026-08-15",
+    "end": "2026-11-15"
+  },
+  "bars_replayed": 4542,
+  "champ_fire_events": 2,
+  "annotate_ok": 141,
+  "champ_held_3m": {
+    "n": 97,
+    "hit_pct": 97.94
+  },
+  "champ_full_3m": {
+    "n": 113,
+    "hit_pct": 93.69
+  },
+  "combine": {
+    "n_raw": 643,
+    "n_ui": 127,
+    "n_multi": 65,
+    "blocked_distinct": 0
+  },
+  "p2f_day_3m": {
+    "ACC100_MULTI_V11": {
+      "n": 25,
+      "hit_pct": 100.0
+    },
+    "ACC_WIDE_P92_P2F": {
+      "n": 25,
+      "hit_pct": 100.0
+    },
+    "ACC_WIDE_P90_P2F": {
+      "n": 28,
+      "hit_pct": 100.0
+    },
+    "ACC_WIDE_P85_P2F": {
+      "n": 32,
+      "hit_pct": 93.75
+    },
+    "ACC_WIDE_P85B_P2F": {
+      "n": 33,
+      "hit_pct": 93.94
+    },
+    "ACC_WIDE_P80_P2F": {
+      "n": 37,
+      "hit_pct": 91.89
+    },
+    "ACC_WIDE_P75_P2F": {
+      "n": 38,
+      "hit_pct": 89.47
+    }
+  },
+  "p2g_3m": {
+    "ACC100_MULTI_V12_P2G_10M": {
+      "n": 20,
+      "hit_pct": 100.0
+    },
+    "ACC_WIDE_P92_P2G_10M": {
+      "n": 9,
+      "hit_pct": 100.0
+    },
+    "ACC_WIDE_P90_P2G_10M": {
+      "n": 24,
+      "hit_pct": 100.0
+    },
+    "ACC_WIDE_P85_P2G_10M": {
+      "n": 17,
+      "hit_pct": 100.0
+    },
+    "ACC_WIDE_P85B_P2G_10M": {
+      "n": 31,
+      "hit_pct": 93.55
+    },
+    "ACC_WIDE_P80_P2G_10M": {
+      "n": 23,
+      "hit_pct": 91.3
+    },
+    "ACC_WIDE_P75_P2G_10M": {
+      "n": 29,
+      "hit_pct": 89.66
+    }
+  },
+  "p2f_brackets": {
+    "target": 30.0,
+    "sl": 30.0,
+    "risk": 30.0
+  },
+  "champ_brackets": {
+    "target": 30.0,
+    "sl": 30.0
+  },
+  "checks": [
+    {
+      "name": "blocked_distinct_0",
+      "ok": true,
+      "detail": "blocked=0"
+    },
+    {
+      "name": "no_missing_ui_keys",
+      "ok": true,
+      "detail": "missing=0 ui=127 raw_keys=127"
+    },
+    {
+      "name": "champ_held_preserved",
+      "ok": true,
+      "detail": "held_3m=97 full_3m=113 missing=0"
+    },
+    {
+      "name": "champ_brackets_t30_sl30",
+      "ok": true,
+      "detail": "bad_levels=0"
+    },
+    {
+      "name": "champ_tags",
+      "ok": true,
+      "detail": "bad_tag=0"
+    },
+    {
+      "name": "p2f_day_1y_golden",
+      "ok": true,
+      "detail": "ACC100_MULTI_V11:86@100.0; ACC_WIDE_P92_P2F:86@100.0; ACC_WIDE_P90_P2F:98@100.0\u2026"
+    },
+    {
+      "name": "p2f_cap2_1y_golden",
+      "ok": true,
+      "detail": "all cap2 desks match EXPECTED_1Y"
+    },
+    {
+      "name": "p2f_research_risk_30",
+      "ok": true,
+      "detail": "good_by_risk[30] n=879 \u00b7 points \u00b130 (target/SL)"
+    }
+  ]
+}

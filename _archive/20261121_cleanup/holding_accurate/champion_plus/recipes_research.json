@@ -1,0 +1,87 @@
+{
+  "status": "RESEARCH",
+  "desk": "CHAMPION_PLUS_CAP4_TICKETFILL",
+  "seed": "CHAMPION",
+  "floor_1y": 92.5,
+  "research_1y": {
+    "n": 340,
+    "hit_pct": 92.65,
+    "wins": 315,
+    "losses": 25,
+    "points": 950.0,
+    "days": 179,
+    "by_track": {
+      "champion": {
+        "n": 41,
+        "hit_pct": 92.68,
+        "points": 0.0
+      },
+      "crown_research": {
+        "n": 72,
+        "hit_pct": 100.0,
+        "points": 1280.0
+      },
+      "dual10m": {
+        "n": 128,
+        "hit_pct": 89.06,
+        "points": -180.0
+      },
+      "dual5_research": {
+        "n": 6,
+        "hit_pct": 100.0,
+        "points": 0.0
+      },
+      "good_prod2": {
+        "n": 69,
+        "hit_pct": 88.41,
+        "points": -150.0
+      },
+      "proven_research": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "points": 0.0
+      }
+    }
+  },
+  "research_3y": {
+    "n": 340,
+    "hit_pct": 92.65,
+    "wins": 315,
+    "losses": 25,
+    "points": 950.0,
+    "days": 179,
+    "by_track": {
+      "champion": {
+        "n": 41,
+        "hit_pct": 92.68,
+        "points": 0.0
+      },
+      "crown_research": {
+        "n": 72,
+        "hit_pct": 100.0,
+        "points": 1280.0
+      },
+      "dual10m": {
+        "n": 128,
+        "hit_pct": 89.06,
+        "points": -180.0
+      },
+      "dual5_research": {
+        "n": 6,
+        "hit_pct": 100.0,
+        "points": 0.0
+      },
+      "good_prod2": {
+        "n": 69,
+        "hit_pct": 88.41,
+        "points": -150.0
+      },
+      "proven_research": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "points": 0.0
+      }
+    }
+  },
+  "note": "Ticket-fill research; includes optional crown_research wins."
+}

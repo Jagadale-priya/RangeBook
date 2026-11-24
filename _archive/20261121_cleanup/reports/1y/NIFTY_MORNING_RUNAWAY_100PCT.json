@@ -1,0 +1,2658 @@
+{
+  "note": "Runaway / no-OR-retest morning BUY complementary to L5_u70_b80 limit lane",
+  "min_n": {
+    "1y": 5,
+    "3y": 8,
+    "5y": 10
+  },
+  "hold_100_all_n": 0,
+  "hold_100_1y_n": 4,
+  "best": {
+    "gate": "brk_sig_high_5_u120_b65-99_11:00_hi0_xe9999",
+    "params": {
+      "mode": "brk_sig_high_5",
+      "min_up": 120,
+      "min_body": 0.65,
+      "max_body": 9.0,
+      "top": 0.0,
+      "hmin": "09:45",
+      "hmax": "11:00",
+      "prior2": true,
+      "min_ext": 0,
+      "max_ext": 9999,
+      "min_day_hi_up": 0
+    },
+    "1y": {
+      "n": 6,
+      "wins": 6,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "strong_n": 6,
+      "no_retest_n": 3,
+      "calls": [
+        {
+          "d": "2025-11-26",
+          "sig": "09:45",
+          "entry_hm": "10:00",
+          "entry": 26087.25,
+          "out": "win",
+          "uplift": 234.5,
+          "body": 0.8618,
+          "mode": "brk_sig_high_5",
+          "revisited": false
+        },
+        {
+          "d": "2026-03-18",
+          "sig": "10:45",
+          "entry_hm": "11:00",
+          "entry": 23784.4,
+          "out": "win",
+          "uplift": 137.7,
+          "body": 0.852,
+          "mode": "brk_sig_high_5",
+          "revisited": false
+        },
+        {
+          "d": "2026-04-13",
+          "sig": "10:15",
+          "entry_hm": "10:50",
+          "entry": 23745.7,
+          "out": "win",
+          "uplift": 131.9,
+          "body": 0.6718,
+          "mode": "brk_sig_high_5",
+          "revisited": true
+        },
+        {
+          "d": "2026-04-21",
+          "sig": "09:45",
+          "entry_hm": "10:00",
+          "entry": 24516.95,
+          "out": "win",
+          "uplift": 125.4,
+          "body": 0.7328,
+          "mode": "brk_sig_high_5",
+          "revisited": true
+        },
+        {
+          "d": "2026-06-24",
+          "sig": "10:00",
+          "entry_hm": "10:20",
+          "entry": 23945.8,
+          "out": "win",
+          "uplift": 122.0,
+          "body": 0.9826,
+          "mode": "brk_sig_high_5",
+          "revisited": true
+        },
+        {
+          "d": "2026-10-15",
+          "sig": "09:45",
+          "entry_hm": "10:00",
+          "entry": 22858.4,
+          "out": "win",
+          "uplift": 178.7,
+          "body": 0.9476,
+          "mode": "brk_sig_high_5",
+          "revisited": false
+        }
+      ]
+    },
+    "3y": {
+      "n": 21,
+      "wins": 14,
+      "losses": 7,
+      "hit_pct": 66.67,
+      "strong_n": 20,
+      "no_retest_n": 7
+    },
+    "5y": {
+      "n": 27,
+      "wins": 15,
+      "losses": 12,
+      "hit_pct": 55.56,
+      "strong_n": 26,
+      "no_retest_n": 7
+    },
+    "hold_100_all": false,
+    "hold_100_1y": true
+  },
+  "top": [
+    {
+      "gate": "brk_sig_high_5_u120_b65-99_11:00_hi0_xe9999",
+      "1y": {
+        "n": 6,
+        "wins": 6,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 6,
+        "no_retest_n": 3,
+        "calls": [
+          {
+            "d": "2025-11-26",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 26087.25,
+            "out": "win",
+            "uplift": 234.5,
+            "body": 0.8618,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          },
+          {
+            "d": "2026-03-18",
+            "sig": "10:45",
+            "entry_hm": "11:00",
+            "entry": 23784.4,
+            "out": "win",
+            "uplift": 137.7,
+            "body": 0.852,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          },
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-06-24",
+            "sig": "10:00",
+            "entry_hm": "10:20",
+            "entry": 23945.8,
+            "out": "win",
+            "uplift": 122.0,
+            "body": 0.9826,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-10-15",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 22858.4,
+            "out": "win",
+            "uplift": 178.7,
+            "body": 0.9476,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          }
+        ]
+      },
+      "3y": {
+        "n": 21,
+        "wins": 14,
+        "hit_pct": 66.67
+      },
+      "5y": {
+        "n": 27,
+        "wins": 15,
+        "hit_pct": 55.56
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 9.0,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-99_11:00_hi0_xe150",
+      "1y": {
+        "n": 6,
+        "wins": 6,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 6,
+        "no_retest_n": 3,
+        "calls": [
+          {
+            "d": "2025-11-26",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 26087.25,
+            "out": "win",
+            "uplift": 234.5,
+            "body": 0.8618,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          },
+          {
+            "d": "2026-03-18",
+            "sig": "10:45",
+            "entry_hm": "11:00",
+            "entry": 23784.4,
+            "out": "win",
+            "uplift": 137.7,
+            "body": 0.852,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          },
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-06-24",
+            "sig": "10:00",
+            "entry_hm": "10:20",
+            "entry": 23945.8,
+            "out": "win",
+            "uplift": 122.0,
+            "body": 0.9826,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-10-15",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 22858.4,
+            "out": "win",
+            "uplift": 178.7,
+            "body": 0.9476,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          }
+        ]
+      },
+      "3y": {
+        "n": 21,
+        "wins": 14,
+        "hit_pct": 66.67
+      },
+      "5y": {
+        "n": 27,
+        "wins": 15,
+        "hit_pct": 55.56
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 9.0,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-99_11:00_hi120_xe9999",
+      "1y": {
+        "n": 6,
+        "wins": 6,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 6,
+        "no_retest_n": 3,
+        "calls": [
+          {
+            "d": "2025-11-26",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 26087.25,
+            "out": "win",
+            "uplift": 234.5,
+            "body": 0.8618,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          },
+          {
+            "d": "2026-03-18",
+            "sig": "10:45",
+            "entry_hm": "11:00",
+            "entry": 23784.4,
+            "out": "win",
+            "uplift": 137.7,
+            "body": 0.852,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          },
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-06-24",
+            "sig": "10:00",
+            "entry_hm": "10:20",
+            "entry": 23945.8,
+            "out": "win",
+            "uplift": 122.0,
+            "body": 0.9826,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-10-15",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 22858.4,
+            "out": "win",
+            "uplift": 178.7,
+            "body": 0.9476,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          }
+        ]
+      },
+      "3y": {
+        "n": 21,
+        "wins": 14,
+        "hit_pct": 66.67
+      },
+      "5y": {
+        "n": 27,
+        "wins": 15,
+        "hit_pct": 55.56
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 9.0,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-99_11:00_hi120_xe150",
+      "1y": {
+        "n": 6,
+        "wins": 6,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 6,
+        "no_retest_n": 3,
+        "calls": [
+          {
+            "d": "2025-11-26",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 26087.25,
+            "out": "win",
+            "uplift": 234.5,
+            "body": 0.8618,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          },
+          {
+            "d": "2026-03-18",
+            "sig": "10:45",
+            "entry_hm": "11:00",
+            "entry": 23784.4,
+            "out": "win",
+            "uplift": 137.7,
+            "body": 0.852,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          },
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-06-24",
+            "sig": "10:00",
+            "entry_hm": "10:20",
+            "entry": 23945.8,
+            "out": "win",
+            "uplift": 122.0,
+            "body": 0.9826,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-10-15",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 22858.4,
+            "out": "win",
+            "uplift": 178.7,
+            "body": 0.9476,
+            "mode": "brk_sig_high_5",
+            "revisited": false
+          }
+        ]
+      },
+      "3y": {
+        "n": 21,
+        "wins": 14,
+        "hit_pct": 66.67
+      },
+      "5y": {
+        "n": 27,
+        "wins": 15,
+        "hit_pct": 55.56
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 9.0,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u80_b65-75_11:00_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 80,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u80_b65-75_11:00_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 80,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u80_b65-75_11:30_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 80,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u80_b65-75_11:30_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 80,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u80_b65-75_12:00_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 80,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u80_b65-75_12:00_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 80,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u100_b65-75_11:00_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 100,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u100_b65-75_11:00_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 100,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u100_b65-75_11:30_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 100,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u100_b65-75_11:30_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 100,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u100_b65-75_12:00_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 100,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u100_b65-75_12:00_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 100,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_11:00_hi0_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_11:00_hi0_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_11:00_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_11:00_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_11:30_hi0_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_11:30_hi0_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_11:30_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_11:30_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_12:00_hi0_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_12:00_hi0_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_12:00_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-75_12:00_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "5y": {
+        "n": 6,
+        "wins": 5,
+        "hit_pct": 83.33
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.75,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_11:00_hi0_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_11:00_hi0_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_11:00_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_11:00_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_11:30_hi0_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_11:30_hi0_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_11:30_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_11:30_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_12:00_hi0_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_12:00_hi0_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 0
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_12:00_hi120_xe9999",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 9999,
+        "min_day_hi_up": 120
+      }
+    },
+    {
+      "gate": "brk_sig_high_5_u120_b65-85_12:00_hi120_xe150",
+      "1y": {
+        "n": 2,
+        "wins": 2,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "strong_n": 2,
+        "no_retest_n": 0,
+        "calls": [
+          {
+            "d": "2026-04-13",
+            "sig": "10:15",
+            "entry_hm": "10:50",
+            "entry": 23745.7,
+            "out": "win",
+            "uplift": 131.9,
+            "body": 0.6718,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          },
+          {
+            "d": "2026-04-21",
+            "sig": "09:45",
+            "entry_hm": "10:00",
+            "entry": 24516.95,
+            "out": "win",
+            "uplift": 125.4,
+            "body": 0.7328,
+            "mode": "brk_sig_high_5",
+            "revisited": true
+          }
+        ]
+      },
+      "3y": {
+        "n": 8,
+        "wins": 6,
+        "hit_pct": 75.0
+      },
+      "5y": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0
+      },
+      "all100": false,
+      "params": {
+        "mode": "brk_sig_high_5",
+        "min_up": 120,
+        "min_body": 0.65,
+        "max_body": 0.85,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior2": true,
+        "min_ext": 0,
+        "max_ext": 150,
+        "min_day_hi_up": 120
+      }
+    }
+  ]
+}

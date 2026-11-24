@@ -1,0 +1,360 @@
+{
+  "lift": {
+    "raw": {
+      "train": {
+        "n": 115084,
+        "wins": 32885,
+        "hit": 28.57
+      },
+      "unk2026": {
+        "n": 50990,
+        "wins": 15302,
+        "hit": 30.01
+      }
+    },
+    "ma_align": {
+      "train": {
+        "n": 60357,
+        "wins": 17137,
+        "hit": 28.39
+      },
+      "unk2026": {
+        "n": 27496,
+        "wins": 8258,
+        "hit": 30.03
+      }
+    },
+    "ma_stack_with": {
+      "train": {
+        "n": 48153,
+        "wins": 13728,
+        "hit": 28.51
+      },
+      "unk2026": {
+        "n": 22042,
+        "wins": 6642,
+        "hit": 30.13
+      }
+    },
+    "ma_hard": {
+      "train": {
+        "n": 42860,
+        "wins": 12207,
+        "hit": 28.48
+      },
+      "unk2026": {
+        "n": 19937,
+        "wins": 6039,
+        "hit": 30.29
+      }
+    },
+    "ma_pullback": {
+      "train": {
+        "n": 3673,
+        "wins": 883,
+        "hit": 24.04
+      },
+      "unk2026": {
+        "n": 1582,
+        "wins": 395,
+        "hit": 24.97
+      }
+    },
+    "ma_hard_close_ok": {
+      "train": {
+        "n": 24657,
+        "wins": 7540,
+        "hit": 30.58
+      },
+      "unk2026": {
+        "n": 11768,
+        "wins": 3840,
+        "hit": 32.63
+      }
+    },
+    "ma_pull_b70_advlo": {
+      "train": {
+        "n": 445,
+        "wins": 142,
+        "hit": 31.91
+      },
+      "unk2026": {
+        "n": 208,
+        "wins": 75,
+        "hit": 36.06
+      }
+    }
+  },
+  "books": {
+    "BLIND_DEEP_noMA": {
+      "n_micros": 253,
+      "train": {
+        "full": {
+          "n": 960,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 496,
+          "cpd": 1.94,
+          "cpd_all": 1.93,
+          "cover": 99.8,
+          "avg_sl": 7.12
+        },
+        "one": {
+          "n": 496,
+          "hit": 100.0,
+          "cover": 99.8,
+          "all_win": true
+        },
+        "n_days": 497
+      },
+      "unk2026": {
+        "full": {
+          "n": 406,
+          "hit": 30.3,
+          "all_win": false,
+          "days": 183,
+          "cpd": 2.22,
+          "cpd_all": 1.88,
+          "cover": 84.7,
+          "avg_sl": 7.25
+        },
+        "one": {
+          "n": 183,
+          "hit": 33.88,
+          "cover": 84.7,
+          "all_win": false
+        },
+        "n_days": 216
+      }
+    },
+    "BLIND_MA_keys": {
+      "n_micros": 250,
+      "train": {
+        "full": {
+          "n": 960,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 496,
+          "cpd": 1.94,
+          "cpd_all": 1.93,
+          "cover": 99.8,
+          "avg_sl": 7.16
+        },
+        "one": {
+          "n": 496,
+          "hit": 100.0,
+          "cover": 99.8,
+          "all_win": true
+        },
+        "n_days": 497
+      },
+      "unk2026": {
+        "full": {
+          "n": 417,
+          "hit": 29.74,
+          "all_win": false,
+          "days": 185,
+          "cpd": 2.25,
+          "cpd_all": 1.93,
+          "cover": 85.6,
+          "avg_sl": 7.29
+        },
+        "one": {
+          "n": 185,
+          "hit": 34.05,
+          "cover": 85.6,
+          "all_win": false
+        },
+        "n_days": 216
+      }
+    },
+    "BLIND_MA_align": {
+      "n_micros": 276,
+      "train": {
+        "full": {
+          "n": 929,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 495,
+          "cpd": 1.88,
+          "cpd_all": 1.87,
+          "cover": 99.6,
+          "avg_sl": 7.19
+        },
+        "one": {
+          "n": 495,
+          "hit": 100.0,
+          "cover": 99.6,
+          "all_win": true
+        },
+        "n_days": 497
+      },
+      "unk2026": {
+        "full": {
+          "n": 386,
+          "hit": 28.24,
+          "all_win": false,
+          "days": 184,
+          "cpd": 2.1,
+          "cpd_all": 1.79,
+          "cover": 85.2,
+          "avg_sl": 7.22
+        },
+        "one": {
+          "n": 184,
+          "hit": 29.35,
+          "cover": 85.2,
+          "all_win": false
+        },
+        "n_days": 216
+      }
+    },
+    "BLIND_MA_hard": {
+      "n_micros": 280,
+      "train": {
+        "full": {
+          "n": 892,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 489,
+          "cpd": 1.82,
+          "cpd_all": 1.79,
+          "cover": 98.4,
+          "avg_sl": 7.14
+        },
+        "one": {
+          "n": 489,
+          "hit": 100.0,
+          "cover": 98.4,
+          "all_win": true
+        },
+        "n_days": 497
+      },
+      "unk2026": {
+        "full": {
+          "n": 369,
+          "hit": 23.31,
+          "all_win": false,
+          "days": 176,
+          "cpd": 2.1,
+          "cpd_all": 1.71,
+          "cover": 81.5,
+          "avg_sl": 7.16
+        },
+        "one": {
+          "n": 176,
+          "hit": 23.3,
+          "cover": 81.5,
+          "all_win": false
+        },
+        "n_days": 216
+      }
+    },
+    "BLIND_MA_pull": {
+      "n_micros": 173,
+      "train": {
+        "full": {
+          "n": 355,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 280,
+          "cpd": 1.27,
+          "cpd_all": 0.71,
+          "cover": 56.3,
+          "avg_sl": 6.34
+        },
+        "one": {
+          "n": 280,
+          "hit": 100.0,
+          "cover": 56.3,
+          "all_win": true
+        },
+        "n_days": 497
+      },
+      "unk2026": {
+        "full": {
+          "n": 140,
+          "hit": 27.86,
+          "all_win": false,
+          "days": 102,
+          "cpd": 1.37,
+          "cpd_all": 0.65,
+          "cover": 47.2,
+          "avg_sl": 6.23
+        },
+        "one": {
+          "n": 102,
+          "hit": 27.45,
+          "cover": 47.2,
+          "all_win": false
+        },
+        "n_days": 216
+      }
+    },
+    "BLIND_MA_hard_close": {
+      "n_micros": 276,
+      "train": {
+        "full": {
+          "n": 825,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 481,
+          "cpd": 1.72,
+          "cpd_all": 1.66,
+          "cover": 96.8,
+          "avg_sl": 7.38
+        },
+        "one": {
+          "n": 481,
+          "hit": 100.0,
+          "cover": 96.8,
+          "all_win": true
+        },
+        "n_days": 497
+      },
+      "unk2026": {
+        "full": {
+          "n": 329,
+          "hit": 27.05,
+          "all_win": false,
+          "days": 166,
+          "cpd": 1.98,
+          "cpd_all": 1.52,
+          "cover": 76.9,
+          "avg_sl": 7.46
+        },
+        "one": {
+          "n": 166,
+          "hit": 26.51,
+          "cover": 76.9,
+          "all_win": false
+        },
+        "n_days": 216
+      }
+    },
+    "WF2026_MA_hard": {
+      "n_micros": 708,
+      "unk2026": {
+        "full": {
+          "n": 350,
+          "hit": 26.29,
+          "all_win": false,
+          "days": 174,
+          "cpd": 2.01,
+          "cpd_all": 1.62,
+          "cover": 80.6,
+          "avg_sl": 7.04
+        },
+        "one": {
+          "n": 174,
+          "hit": 25.29,
+          "cover": 80.6,
+          "all_win": false
+        },
+        "n_days": 216
+      }
+    }
+  },
+  "best_blind": "BLIND_DEEP_noMA",
+  "elapsed_s": 495.6
+}

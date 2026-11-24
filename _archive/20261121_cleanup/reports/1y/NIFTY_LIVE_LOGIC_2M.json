@@ -1,0 +1,878 @@
+{
+  "symbol": "NIFTY",
+  "start": "2026-09-15",
+  "end": "2026-11-13",
+  "n_sessions": 42,
+  "elapsed_sec": 895.4,
+  "flags": {
+    "ENABLE_EXTRA_TREES_SINGLE": "0",
+    "ENABLE_5M_CROWN": "1",
+    "USE_DUAL_TRACK": "1"
+  },
+  "dual15m": {
+    "score": {
+      "n": 13,
+      "settled": 13,
+      "wins": 9,
+      "losses": 4,
+      "hit_pct": 69.23,
+      "by_track": {
+        "proven_100": 8,
+        "champion": 5
+      },
+      "by_side": {
+        "SELL": 6,
+        "BUY": 7
+      }
+    },
+    "meta": {
+      "day_stats": {
+        "2026-09-15": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-09-15",
+              "hm": "09:30",
+              "decision": "SELL",
+              "track": "proven_100",
+              "entry": 23448.1,
+              "stop_loss": 23478.1,
+              "target_1": 23418.1,
+              "p_t1": 0.9167,
+              "accuracy_label": "Clean morning \u00b7 High conf \u00b7 Accuracy ~100% \u00b7 Priority \u00b7 Confident 100% proven",
+              "outcome": "t1_before_sl",
+              "result": "WIN"
+            }
+          ]
+        },
+        "2026-09-16": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-09-17": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-09-17",
+              "hm": "09:45",
+              "decision": "BUY",
+              "track": "champion",
+              "entry": 23284.5,
+              "stop_loss": 23254.5,
+              "target_1": 23314.5,
+              "p_t1": 0.95,
+              "accuracy_label": "Clean morning \u00b7 High conf \u00b7 Accuracy ~100% \u00b7 Priority \u00b7 High accuracy (~83% hit target)",
+              "outcome": "t1_before_sl",
+              "result": "WIN"
+            }
+          ]
+        },
+        "2026-09-18": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-09-21": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-09-22": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-09-23": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-09-23",
+              "hm": "10:45",
+              "decision": "BUY",
+              "track": "proven_100",
+              "entry": 23415.5,
+              "stop_loss": 23385.5,
+              "target_1": 23445.5,
+              "p_t1": 0.6829,
+              "accuracy_label": "Clean morning \u00b7 Accuracy 95\u2013100% \u00b7 Priority \u00b7 Confident 100% proven",
+              "outcome": "t1_before_sl",
+              "result": "WIN"
+            }
+          ]
+        },
+        "2026-09-24": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-09-24",
+              "hm": "11:45",
+              "decision": "SELL",
+              "track": "proven_100",
+              "entry": 23197.35,
+              "stop_loss": 23227.35,
+              "target_1": 23167.35,
+              "p_t1": 0.7656,
+              "accuracy_label": "Priority \u00b7 Confident 100% proven",
+              "outcome": "t1_before_sl",
+              "result": "WIN"
+            }
+          ]
+        },
+        "2026-09-25": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-09-25",
+              "hm": "14:15",
+              "decision": "BUY",
+              "track": "champion",
+              "entry": 23118.9,
+              "stop_loss": 23088.9,
+              "target_1": 23148.9,
+              "p_t1": 0.6829,
+              "accuracy_label": "Priority \u00b7 High accuracy (~83% hit target)",
+              "outcome": "sl_before_t1",
+              "result": "LOSS"
+            }
+          ]
+        },
+        "2026-09-28": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-09-29": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-09-29",
+              "hm": "09:30",
+              "decision": "SELL",
+              "track": "proven_100",
+              "entry": 22613.4,
+              "stop_loss": 22643.4,
+              "target_1": 22583.4,
+              "p_t1": 0.9167,
+              "accuracy_label": "Clean morning \u00b7 High conf \u00b7 Accuracy ~100% \u00b7 Priority \u00b7 Confident 100% proven",
+              "outcome": "t1_before_sl",
+              "result": "WIN"
+            }
+          ]
+        },
+        "2026-09-30": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-01": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-10-01",
+              "hm": "12:15",
+              "decision": "SELL",
+              "track": "proven_100",
+              "entry": 22471.1,
+              "stop_loss": 22501.1,
+              "target_1": 22441.1,
+              "p_t1": 0.9167,
+              "accuracy_label": "Priority \u00b7 Confident 100% proven",
+              "outcome": "t1_before_sl",
+              "result": "WIN"
+            }
+          ]
+        },
+        "2026-10-05": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-06": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-10-06",
+              "hm": "09:45",
+              "decision": "BUY",
+              "track": "champion",
+              "entry": 22658.15,
+              "stop_loss": 22628.15,
+              "target_1": 22688.15,
+              "p_t1": 0.6829,
+              "accuracy_label": "Clean morning \u00b7 Accuracy 95\u2013100% \u00b7 Priority \u00b7 High accuracy (~83% hit target)",
+              "outcome": "sl_before_t1",
+              "result": "LOSS"
+            }
+          ]
+        },
+        "2026-10-07": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-08": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-09": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-12": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-13": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-14": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-15": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-16": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-19": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-21": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-10-21",
+              "hm": "10:00",
+              "decision": "SELL",
+              "track": "proven_100",
+              "entry": 22949.15,
+              "stop_loss": 22979.15,
+              "target_1": 22919.15,
+              "p_t1": 0.9167,
+              "accuracy_label": "Clean morning \u00b7 High conf \u00b7 Accuracy ~100% \u00b7 Priority \u00b7 Confident 100% proven",
+              "outcome": "sl_before_t1",
+              "result": "LOSS"
+            }
+          ]
+        },
+        "2026-10-22": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-23": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-10-23",
+              "hm": "09:30",
+              "decision": "SELL",
+              "track": "champion",
+              "entry": 22689.7,
+              "stop_loss": 22719.7,
+              "target_1": 22659.7,
+              "p_t1": 0.9167,
+              "accuracy_label": "Clean morning \u00b7 High conf \u00b7 Accuracy ~100% \u00b7 Priority \u00b7 High accuracy (~83% hit target)",
+              "outcome": "t1_before_sl",
+              "result": "WIN"
+            }
+          ]
+        },
+        "2026-10-26": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-27": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-10-28": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-10-28",
+              "hm": "12:30",
+              "decision": "BUY",
+              "track": "proven_100",
+              "entry": 22696.25,
+              "stop_loss": 22666.25,
+              "target_1": 22726.25,
+              "p_t1": 0.6829,
+              "accuracy_label": "Priority \u00b7 Confident 100% proven",
+              "outcome": "t1_before_sl",
+              "result": "WIN"
+            }
+          ]
+        },
+        "2026-10-29": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-10-29",
+              "hm": "09:45",
+              "decision": "BUY",
+              "track": "proven_100",
+              "entry": 22746.8,
+              "stop_loss": 22716.8,
+              "target_1": 22776.8,
+              "p_t1": 0.6829,
+              "accuracy_label": "Clean morning \u00b7 Accuracy 95\u2013100% \u00b7 Priority \u00b7 Confident 100% proven",
+              "outcome": "t1_before_sl",
+              "result": "WIN"
+            }
+          ]
+        },
+        "2026-10-30": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-11-02": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-11-03": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-11-04": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-11-05": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-11-06": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-11-08": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-11-09": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-11-11": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-11-12": {
+          "calls": 0,
+          "detail": []
+        },
+        "2026-11-13": {
+          "calls": 1,
+          "detail": [
+            {
+              "channel": "dual15m",
+              "day": "2026-11-13",
+              "hm": "10:30",
+              "decision": "BUY",
+              "track": "champion",
+              "entry": 25229.45,
+              "stop_loss": 25199.45,
+              "target_1": 25259.45,
+              "p_t1": 0.6829,
+              "accuracy_label": "Clean morning \u00b7 Accuracy 95\u2013100% \u00b7 Priority \u00b7 High accuracy (~83% hit target)",
+              "outcome": "sl_before_t1",
+              "result": "LOSS"
+            }
+          ]
+        }
+      },
+      "reasons": {
+        "listed": 13,
+        "side_score_miss": 304,
+        "no_or_break": 310,
+        "gates_fail": 97
+      }
+    },
+    "calls": [
+      {
+        "channel": "dual15m",
+        "day": "2026-09-15",
+        "hm": "09:30",
+        "decision": "SELL",
+        "track": "proven_100",
+        "entry": 23448.1,
+        "stop_loss": 23478.1,
+        "target_1": 23418.1,
+        "p_t1": 0.9167,
+        "accuracy_label": "Clean morning \u00b7 High conf \u00b7 Accuracy ~100% \u00b7 Priority \u00b7 Confident 100% proven",
+        "outcome": "t1_before_sl",
+        "result": "WIN"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-09-17",
+        "hm": "09:45",
+        "decision": "BUY",
+        "track": "champion",
+        "entry": 23284.5,
+        "stop_loss": 23254.5,
+        "target_1": 23314.5,
+        "p_t1": 0.95,
+        "accuracy_label": "Clean morning \u00b7 High conf \u00b7 Accuracy ~100% \u00b7 Priority \u00b7 High accuracy (~83% hit target)",
+        "outcome": "t1_before_sl",
+        "result": "WIN"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-09-23",
+        "hm": "10:45",
+        "decision": "BUY",
+        "track": "proven_100",
+        "entry": 23415.5,
+        "stop_loss": 23385.5,
+        "target_1": 23445.5,
+        "p_t1": 0.6829,
+        "accuracy_label": "Clean morning \u00b7 Accuracy 95\u2013100% \u00b7 Priority \u00b7 Confident 100% proven",
+        "outcome": "t1_before_sl",
+        "result": "WIN"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-09-24",
+        "hm": "11:45",
+        "decision": "SELL",
+        "track": "proven_100",
+        "entry": 23197.35,
+        "stop_loss": 23227.35,
+        "target_1": 23167.35,
+        "p_t1": 0.7656,
+        "accuracy_label": "Priority \u00b7 Confident 100% proven",
+        "outcome": "t1_before_sl",
+        "result": "WIN"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-09-25",
+        "hm": "14:15",
+        "decision": "BUY",
+        "track": "champion",
+        "entry": 23118.9,
+        "stop_loss": 23088.9,
+        "target_1": 23148.9,
+        "p_t1": 0.6829,
+        "accuracy_label": "Priority \u00b7 High accuracy (~83% hit target)",
+        "outcome": "sl_before_t1",
+        "result": "LOSS"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-09-29",
+        "hm": "09:30",
+        "decision": "SELL",
+        "track": "proven_100",
+        "entry": 22613.4,
+        "stop_loss": 22643.4,
+        "target_1": 22583.4,
+        "p_t1": 0.9167,
+        "accuracy_label": "Clean morning \u00b7 High conf \u00b7 Accuracy ~100% \u00b7 Priority \u00b7 Confident 100% proven",
+        "outcome": "t1_before_sl",
+        "result": "WIN"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-10-01",
+        "hm": "12:15",
+        "decision": "SELL",
+        "track": "proven_100",
+        "entry": 22471.1,
+        "stop_loss": 22501.1,
+        "target_1": 22441.1,
+        "p_t1": 0.9167,
+        "accuracy_label": "Priority \u00b7 Confident 100% proven",
+        "outcome": "t1_before_sl",
+        "result": "WIN"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-10-06",
+        "hm": "09:45",
+        "decision": "BUY",
+        "track": "champion",
+        "entry": 22658.15,
+        "stop_loss": 22628.15,
+        "target_1": 22688.15,
+        "p_t1": 0.6829,
+        "accuracy_label": "Clean morning \u00b7 Accuracy 95\u2013100% \u00b7 Priority \u00b7 High accuracy (~83% hit target)",
+        "outcome": "sl_before_t1",
+        "result": "LOSS"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-10-21",
+        "hm": "10:00",
+        "decision": "SELL",
+        "track": "proven_100",
+        "entry": 22949.15,
+        "stop_loss": 22979.15,
+        "target_1": 22919.15,
+        "p_t1": 0.9167,
+        "accuracy_label": "Clean morning \u00b7 High conf \u00b7 Accuracy ~100% \u00b7 Priority \u00b7 Confident 100% proven",
+        "outcome": "sl_before_t1",
+        "result": "LOSS"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-10-23",
+        "hm": "09:30",
+        "decision": "SELL",
+        "track": "champion",
+        "entry": 22689.7,
+        "stop_loss": 22719.7,
+        "target_1": 22659.7,
+        "p_t1": 0.9167,
+        "accuracy_label": "Clean morning \u00b7 High conf \u00b7 Accuracy ~100% \u00b7 Priority \u00b7 High accuracy (~83% hit target)",
+        "outcome": "t1_before_sl",
+        "result": "WIN"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-10-28",
+        "hm": "12:30",
+        "decision": "BUY",
+        "track": "proven_100",
+        "entry": 22696.25,
+        "stop_loss": 22666.25,
+        "target_1": 22726.25,
+        "p_t1": 0.6829,
+        "accuracy_label": "Priority \u00b7 Confident 100% proven",
+        "outcome": "t1_before_sl",
+        "result": "WIN"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-10-29",
+        "hm": "09:45",
+        "decision": "BUY",
+        "track": "proven_100",
+        "entry": 22746.8,
+        "stop_loss": 22716.8,
+        "target_1": 22776.8,
+        "p_t1": 0.6829,
+        "accuracy_label": "Clean morning \u00b7 Accuracy 95\u2013100% \u00b7 Priority \u00b7 Confident 100% proven",
+        "outcome": "t1_before_sl",
+        "result": "WIN"
+      },
+      {
+        "channel": "dual15m",
+        "day": "2026-11-13",
+        "hm": "10:30",
+        "decision": "BUY",
+        "track": "champion",
+        "entry": 25229.45,
+        "stop_loss": 25199.45,
+        "target_1": 25259.45,
+        "p_t1": 0.6829,
+        "accuracy_label": "Clean morning \u00b7 Accuracy 95\u2013100% \u00b7 Priority \u00b7 High accuracy (~83% hit target)",
+        "outcome": "sl_before_t1",
+        "result": "LOSS"
+      }
+    ]
+  },
+  "crown5m": {
+    "score": {
+      "n": 0,
+      "settled": 0,
+      "wins": 0,
+      "losses": 0,
+      "hit_pct": null,
+      "by_track": {},
+      "by_side": {}
+    },
+    "meta": {
+      "reasons": {
+        "no_signal": 2585
+      }
+    },
+    "calls": []
+  },
+  "final_books": {
+    "available": true,
+    "champ": {
+      "n": 65,
+      "settled": 64,
+      "hit_pct": 95.31
+    },
+    "p2f_day": {
+      "ACC100_MULTI_V11": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P92_P2F": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P90_P2F": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P85_P2F": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P85B_P2F": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P80_P2F": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P75_P2F": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      }
+    },
+    "p2f_cap2": {
+      "ACC100_MULTI_V5_CAP2_P2F": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P92_CAP2_P2F": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P90_CAP2_P2F": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P85_CAP2_P2F": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      }
+    },
+    "p2g_10m": {
+      "ACC100_MULTI_V12_P2G_10M": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P92_P2G_10M": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P90_P2G_10M": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P85_P2G_10M": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P85B_P2G_10M": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P80_P2G_10M": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      },
+      "ACC_WIDE_P75_P2G_10M": {
+        "n": 0,
+        "settled": 0,
+        "hit_pct": null
+      }
+    },
+    "ui_combine": {
+      "n": 65,
+      "blocked_distinct": 0,
+      "hit": {
+        "n": 65,
+        "settled": 64,
+        "hit_pct": 95.31
+      }
+    },
+    "sample_ui": [
+      {
+        "day": "2026-09-15",
+        "hm": "09:30",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "proven_research",
+        "win": true
+      },
+      {
+        "day": "2026-09-15",
+        "hm": "09:50",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "dual10m",
+        "win": true
+      },
+      {
+        "day": "2026-09-15",
+        "hm": "10:15",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "good_prod2",
+        "win": true
+      },
+      {
+        "day": "2026-09-15",
+        "hm": "12:50",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "crown_research",
+        "win": true
+      },
+      {
+        "day": "2026-09-16",
+        "hm": "10:40",
+        "decision": "BUY",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "dual10m",
+        "win": true
+      },
+      {
+        "day": "2026-09-17",
+        "hm": "09:45",
+        "decision": "BUY",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "champion",
+        "win": true
+      },
+      {
+        "day": "2026-09-17",
+        "hm": "10:00",
+        "decision": "BUY",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "dual10m",
+        "win": true
+      },
+      {
+        "day": "2026-09-17",
+        "hm": "11:30",
+        "decision": "BUY",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "good_prod2",
+        "win": true
+      },
+      {
+        "day": "2026-09-21",
+        "hm": "11:50",
+        "decision": "BUY",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "dual10m",
+        "win": true
+      },
+      {
+        "day": "2026-09-22",
+        "hm": "10:30",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "dual10m",
+        "win": true
+      },
+      {
+        "day": "2026-09-22",
+        "hm": "11:25",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "crown_research",
+        "win": true
+      },
+      {
+        "day": "2026-09-22",
+        "hm": "11:30",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "good_prod2",
+        "win": true
+      },
+      {
+        "day": "2026-09-22",
+        "hm": "12:20",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "crown_research",
+        "win": true
+      },
+      {
+        "day": "2026-09-23",
+        "hm": "10:40",
+        "decision": "BUY",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "dual10m",
+        "win": true
+      },
+      {
+        "day": "2026-09-23",
+        "hm": "10:45",
+        "decision": "BUY",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "proven_research",
+        "win": true
+      },
+      {
+        "day": "2026-09-24",
+        "hm": "11:45",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "proven_research",
+        "win": true
+      },
+      {
+        "day": "2026-09-24",
+        "hm": "11:50",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "dual5_research",
+        "win": true
+      },
+      {
+        "day": "2026-09-24",
+        "hm": "13:05",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "crown_research",
+        "win": true
+      },
+      {
+        "day": "2026-09-25",
+        "hm": "14:15",
+        "decision": "BUY",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "champion",
+        "win": false
+      },
+      {
+        "day": "2026-09-28",
+        "hm": "10:00",
+        "decision": "SELL",
+        "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+        "track": "dual10m",
+        "win": true
+      }
+    ]
+  }
+}

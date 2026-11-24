@@ -1,0 +1,347 @@
+{
+  "why_47": {
+    "n_uncovered": 112,
+    "n_orphan_wins": 112,
+    "n_no_win": 0,
+    "polluted": 112,
+    "cleanable_on_dense_keys": 0,
+    "orphan_primary": [
+      [
+        "bear_run2",
+        20
+      ],
+      [
+        "bull_run2",
+        20
+      ],
+      [
+        "bear_engulf",
+        19
+      ],
+      [
+        "bull_engulf",
+        9
+      ],
+      [
+        "marubozu_bear",
+        6
+      ],
+      [
+        "bear_run3",
+        6
+      ],
+      [
+        "belt_bear",
+        5
+      ],
+      [
+        "bear_kicker",
+        4
+      ]
+    ],
+    "orphan_pre3_UD": [
+      [
+        "DUD",
+        23
+      ],
+      [
+        "UDU",
+        21
+      ],
+      [
+        "DDU",
+        17
+      ],
+      [
+        "UUU",
+        12
+      ],
+      [
+        "UUD",
+        12
+      ],
+      [
+        "DUU",
+        10
+      ],
+      [
+        "UDD",
+        10
+      ],
+      [
+        "DDD",
+        6
+      ]
+    ],
+    "orphan_hm": [
+      [
+        "09",
+        112
+      ]
+    ],
+    "orphan_vix": [
+      [
+        "LOW",
+        51
+      ],
+      [
+        "NORMAL",
+        39
+      ],
+      [
+        "ELEVATED",
+        15
+      ],
+      [
+        "HIGH",
+        7
+      ]
+    ],
+    "orphan_day_pos": [
+      [
+        "mid",
+        44
+      ],
+      [
+        "bot",
+        35
+      ],
+      [
+        "top",
+        33
+      ]
+    ],
+    "top_pollute_primary": [
+      [
+        "bear_run2",
+        20
+      ],
+      [
+        "bull_run2",
+        20
+      ],
+      [
+        "bear_engulf",
+        19
+      ],
+      [
+        "bull_engulf",
+        9
+      ],
+      [
+        "marubozu_bear",
+        6
+      ],
+      [
+        "bear_run3",
+        6
+      ],
+      [
+        "belt_bear",
+        5
+      ],
+      [
+        "bear_kicker",
+        4
+      ]
+    ]
+  },
+  "ceilings": {
+    "HOLD": {
+      "win_days": 210,
+      "all_days": 210
+    }
+  },
+  "books": {
+    "DENSE_BASE": {
+      "n_micros": 654,
+      "verify": {
+        "E2024": {
+          "n": 765,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 227,
+          "cpd": 3.37,
+          "cpd_all": 3.1,
+          "cover": 91.9,
+          "avg_sl": 7.59,
+          "one_per_day_n": 227,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 91.9,
+          "one_per_day_all_win": true
+        },
+        "E2025": {
+          "n": 729,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 228,
+          "cpd": 3.2,
+          "cpd_all": 2.93,
+          "cover": 91.6,
+          "avg_sl": 7.55,
+          "one_per_day_n": 228,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 91.6,
+          "one_per_day_all_win": true
+        },
+        "HOLD": {
+          "n": 147,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 98,
+          "cpd": 1.5,
+          "cpd_all": 0.7,
+          "cover": 46.7,
+          "avg_sl": 8.15,
+          "one_per_day_n": 98,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 46.7,
+          "one_per_day_all_win": true
+        },
+        "FWD": {
+          "n": 2,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 1,
+          "cpd": 2.0,
+          "cpd_all": 0.4,
+          "cover": 20.0,
+          "avg_sl": 8.32,
+          "one_per_day_n": 1,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 20.0,
+          "one_per_day_all_win": true
+        }
+      },
+      "all_win": true
+    },
+    "DEEP_1CPD": {
+      "n_micros": 344,
+      "verify": {
+        "E2024": {
+          "n": 485,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 247,
+          "cpd": 1.96,
+          "cpd_all": 1.96,
+          "cover": 100.0,
+          "avg_sl": 7.06,
+          "one_per_day_n": 247,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 100.0,
+          "one_per_day_all_win": true
+        },
+        "E2025": {
+          "n": 462,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 249,
+          "cpd": 1.86,
+          "cpd_all": 1.86,
+          "cover": 100.0,
+          "avg_sl": 7.09,
+          "one_per_day_n": 249,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 100.0,
+          "one_per_day_all_win": true
+        },
+        "HOLD": {
+          "n": 395,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 205,
+          "cpd": 1.93,
+          "cpd_all": 1.88,
+          "cover": 97.6,
+          "avg_sl": 7.33,
+          "one_per_day_n": 205,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 97.6,
+          "one_per_day_all_win": true
+        },
+        "FWD": {
+          "n": 5,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 4,
+          "cpd": 1.25,
+          "cpd_all": 1.0,
+          "cover": 80.0,
+          "avg_sl": 7.6,
+          "one_per_day_n": 4,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 80.0,
+          "one_per_day_all_win": true
+        }
+      },
+      "all_win": true
+    },
+    "DEEP_COVER": {
+      "n_micros": 350,
+      "verify": {
+        "E2024": {
+          "n": 589,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 247,
+          "cpd": 2.38,
+          "cpd_all": 2.38,
+          "cover": 100.0,
+          "avg_sl": 7.12,
+          "one_per_day_n": 247,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 100.0,
+          "one_per_day_all_win": true
+        },
+        "E2025": {
+          "n": 409,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 248,
+          "cpd": 1.65,
+          "cpd_all": 1.64,
+          "cover": 99.6,
+          "avg_sl": 7.0,
+          "one_per_day_n": 248,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 99.6,
+          "one_per_day_all_win": true
+        },
+        "HOLD": {
+          "n": 309,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 193,
+          "cpd": 1.6,
+          "cpd_all": 1.47,
+          "cover": 91.9,
+          "avg_sl": 7.44,
+          "one_per_day_n": 193,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 91.9,
+          "one_per_day_all_win": true
+        },
+        "FWD": {
+          "n": 4,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 4,
+          "cpd": 1.0,
+          "cpd_all": 0.8,
+          "cover": 80.0,
+          "avg_sl": 8.11,
+          "one_per_day_n": 4,
+          "one_per_day_hit": 100.0,
+          "one_per_day_cover": 80.0,
+          "one_per_day_all_win": true
+        }
+      },
+      "all_win": true
+    }
+  },
+  "best": "DEEP_1CPD",
+  "still_miss_days": 5,
+  "fp_rescuable": 0,
+  "elapsed_s": 192.4
+}

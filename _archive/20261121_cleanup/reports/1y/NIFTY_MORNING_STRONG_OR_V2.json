@@ -1,0 +1,818 @@
+{
+  "note": "Morning strong BUY v2 \u2014 retest/dip/synth + bracket sweep",
+  "min_gates": {
+    "freeze_n": 12,
+    "hold_n": 4,
+    "freeze_hit": 80.0,
+    "hold_hit": 75.0
+  },
+  "results": [
+    {
+      "gate": "synth_or5_up50_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 108,
+        "wins": 71,
+        "hit_pct": 65.74,
+        "open": 0,
+        "strong_n": 59
+      },
+      "holdout": {
+        "n": 11,
+        "wins": 9,
+        "hit_pct": 81.82,
+        "open": 0,
+        "strong_n": 7
+      },
+      "holdout_strong_catch_pct": 50.0,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "pass": false
+    },
+    {
+      "gate": "thrust2_up40_maxext30_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 56,
+        "wins": 15,
+        "hit_pct": 26.79,
+        "open": 0,
+        "strong_n": 24
+      },
+      "holdout": {
+        "n": 6,
+        "wins": 4,
+        "hit_pct": 66.67,
+        "open": 0,
+        "strong_n": 3
+      },
+      "holdout_strong_catch_pct": 21.4,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 3,
+      "pass": false
+    },
+    {
+      "gate": "synth_or5_up50_pm40",
+      "sl": 40.0,
+      "t1": 40.0,
+      "freeze": {
+        "n": 107,
+        "wins": 72,
+        "hit_pct": 67.29,
+        "open": 1,
+        "strong_n": 59
+      },
+      "holdout": {
+        "n": 11,
+        "wins": 7,
+        "hit_pct": 63.64,
+        "open": 0,
+        "strong_n": 7
+      },
+      "holdout_strong_catch_pct": 50.0,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "pass": false
+    },
+    {
+      "gate": "dip_hi80_dip35_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 89,
+        "wins": 43,
+        "hit_pct": 48.31,
+        "open": 1,
+        "strong_n": 59
+      },
+      "holdout": {
+        "n": 9,
+        "wins": 5,
+        "hit_pct": 55.56,
+        "open": 0,
+        "strong_n": 7
+      },
+      "holdout_strong_catch_pct": 50.0,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "pass": false
+    },
+    {
+      "gate": "retest25_imp60_pm50",
+      "sl": 50.0,
+      "t1": 50.0,
+      "freeze": {
+        "n": 157,
+        "wins": 61,
+        "hit_pct": 38.85,
+        "open": 9,
+        "strong_n": 92
+      },
+      "holdout": {
+        "n": 18,
+        "wins": 10,
+        "hit_pct": 55.56,
+        "open": 0,
+        "strong_n": 12
+      },
+      "holdout_strong_catch_pct": 85.7,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 12,
+      "pass": false
+    },
+    {
+      "gate": "retest25_imp60_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 166,
+        "wins": 49,
+        "hit_pct": 29.52,
+        "open": 0,
+        "strong_n": 92
+      },
+      "holdout": {
+        "n": 18,
+        "wins": 10,
+        "hit_pct": 55.56,
+        "open": 0,
+        "strong_n": 12
+      },
+      "holdout_strong_catch_pct": 85.7,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 12,
+      "pass": false
+    },
+    {
+      "gate": "retest15_imp40_pm60",
+      "sl": 60.0,
+      "t1": 60.0,
+      "freeze": {
+        "n": 167,
+        "wins": 68,
+        "hit_pct": 40.72,
+        "open": 14,
+        "strong_n": 92
+      },
+      "holdout": {
+        "n": 15,
+        "wins": 8,
+        "hit_pct": 53.33,
+        "open": 2,
+        "strong_n": 11
+      },
+      "holdout_strong_catch_pct": 78.6,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 11,
+      "pass": false
+    },
+    {
+      "gate": "retest25_imp60_pm60",
+      "sl": 60.0,
+      "t1": 60.0,
+      "freeze": {
+        "n": 152,
+        "wins": 60,
+        "hit_pct": 39.47,
+        "open": 14,
+        "strong_n": 92
+      },
+      "holdout": {
+        "n": 17,
+        "wins": 9,
+        "hit_pct": 52.94,
+        "open": 1,
+        "strong_n": 12
+      },
+      "holdout_strong_catch_pct": 85.7,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 12,
+      "pass": false
+    },
+    {
+      "gate": "synth_or5_up50_pm50",
+      "sl": 50.0,
+      "t1": 50.0,
+      "freeze": {
+        "n": 105,
+        "wins": 73,
+        "hit_pct": 69.52,
+        "open": 3,
+        "strong_n": 59
+      },
+      "holdout": {
+        "n": 10,
+        "wins": 5,
+        "hit_pct": 50.0,
+        "open": 1,
+        "strong_n": 7
+      },
+      "holdout_strong_catch_pct": 50.0,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "pass": false
+    },
+    {
+      "gate": "synth_or5_up50_pm60",
+      "sl": 60.0,
+      "t1": 60.0,
+      "freeze": {
+        "n": 99,
+        "wins": 64,
+        "hit_pct": 64.65,
+        "open": 9,
+        "strong_n": 59
+      },
+      "holdout": {
+        "n": 10,
+        "wins": 5,
+        "hit_pct": 50.0,
+        "open": 1,
+        "strong_n": 7
+      },
+      "holdout_strong_catch_pct": 50.0,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "pass": false
+    },
+    {
+      "gate": "dip_hi80_dip35_pm60",
+      "sl": 60.0,
+      "t1": 60.0,
+      "freeze": {
+        "n": 75,
+        "wins": 42,
+        "hit_pct": 56.0,
+        "open": 15,
+        "strong_n": 59
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 4,
+        "hit_pct": 50.0,
+        "open": 1,
+        "strong_n": 7
+      },
+      "holdout_strong_catch_pct": 50.0,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "pass": false
+    },
+    {
+      "gate": "dip_hi80_dip35_pm50",
+      "sl": 50.0,
+      "t1": 50.0,
+      "freeze": {
+        "n": 81,
+        "wins": 45,
+        "hit_pct": 55.56,
+        "open": 9,
+        "strong_n": 59
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 4,
+        "hit_pct": 50.0,
+        "open": 1,
+        "strong_n": 7
+      },
+      "holdout_strong_catch_pct": 50.0,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "pass": false
+    },
+    {
+      "gate": "dip_hi80_dip35_pm40",
+      "sl": 40.0,
+      "t1": 40.0,
+      "freeze": {
+        "n": 88,
+        "wins": 44,
+        "hit_pct": 50.0,
+        "open": 2,
+        "strong_n": 59
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 4,
+        "hit_pct": 50.0,
+        "open": 1,
+        "strong_n": 7
+      },
+      "holdout_strong_catch_pct": 50.0,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "pass": false
+    },
+    {
+      "gate": "cont_thrust2_up50_pm60",
+      "sl": 60.0,
+      "t1": 60.0,
+      "freeze": {
+        "n": 113,
+        "wins": 52,
+        "hit_pct": 46.02,
+        "open": 19,
+        "strong_n": 88
+      },
+      "holdout": {
+        "n": 14,
+        "wins": 7,
+        "hit_pct": 50.0,
+        "open": 1,
+        "strong_n": 10
+      },
+      "holdout_strong_catch_pct": 71.4,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 10,
+      "pass": false
+    },
+    {
+      "gate": "cont_thrust2_up50_pm50",
+      "sl": 50.0,
+      "t1": 50.0,
+      "freeze": {
+        "n": 120,
+        "wins": 54,
+        "hit_pct": 45.0,
+        "open": 12,
+        "strong_n": 88
+      },
+      "holdout": {
+        "n": 14,
+        "wins": 7,
+        "hit_pct": 50.0,
+        "open": 1,
+        "strong_n": 10
+      },
+      "holdout_strong_catch_pct": 71.4,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 10,
+      "pass": false
+    },
+    {
+      "gate": "retest20_imp80_pm50",
+      "sl": 50.0,
+      "t1": 50.0,
+      "freeze": {
+        "n": 122,
+        "wins": 50,
+        "hit_pct": 40.98,
+        "open": 8,
+        "strong_n": 83
+      },
+      "holdout": {
+        "n": 10,
+        "wins": 5,
+        "hit_pct": 50.0,
+        "open": 1,
+        "strong_n": 7
+      },
+      "holdout_strong_catch_pct": 50.0,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "pass": false
+    },
+    {
+      "gate": "thrust2_up60_body55_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 97,
+        "wins": 32,
+        "hit_pct": 32.99,
+        "open": 0,
+        "strong_n": 69
+      },
+      "holdout": {
+        "n": 12,
+        "wins": 6,
+        "hit_pct": 50.0,
+        "open": 0,
+        "strong_n": 9
+      },
+      "holdout_strong_catch_pct": 64.3,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 9,
+      "pass": false
+    },
+    {
+      "gate": "retest25_imp60_pm40",
+      "sl": 40.0,
+      "t1": 40.0,
+      "freeze": {
+        "n": 165,
+        "wins": 54,
+        "hit_pct": 32.73,
+        "open": 1,
+        "strong_n": 92
+      },
+      "holdout": {
+        "n": 18,
+        "wins": 9,
+        "hit_pct": 50.0,
+        "open": 0,
+        "strong_n": 12
+      },
+      "holdout_strong_catch_pct": 85.7,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 12,
+      "pass": false
+    },
+    {
+      "gate": "thrust2_up40_maxext20_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 32,
+        "wins": 9,
+        "hit_pct": 28.12,
+        "open": 0,
+        "strong_n": 15
+      },
+      "holdout": {
+        "n": 2,
+        "wins": 1,
+        "hit_pct": 50.0,
+        "open": 0,
+        "strong_n": 1
+      },
+      "holdout_strong_catch_pct": 7.1,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 1,
+      "pass": false
+    },
+    {
+      "gate": "thrust2_up40_maxext40_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 81,
+        "wins": 22,
+        "hit_pct": 27.16,
+        "open": 0,
+        "strong_n": 40
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 4,
+        "hit_pct": 50.0,
+        "open": 0,
+        "strong_n": 5
+      },
+      "holdout_strong_catch_pct": 35.7,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 5,
+      "pass": false
+    },
+    {
+      "gate": "retest15_imp40_pm50",
+      "sl": 50.0,
+      "t1": 50.0,
+      "freeze": {
+        "n": 173,
+        "wins": 69,
+        "hit_pct": 39.88,
+        "open": 8,
+        "strong_n": 92
+      },
+      "holdout": {
+        "n": 17,
+        "wins": 8,
+        "hit_pct": 47.06,
+        "open": 0,
+        "strong_n": 11
+      },
+      "holdout_strong_catch_pct": 78.6,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 11,
+      "pass": false
+    },
+    {
+      "gate": "retest15_imp40_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 181,
+        "wins": 56,
+        "hit_pct": 30.94,
+        "open": 0,
+        "strong_n": 92
+      },
+      "holdout": {
+        "n": 17,
+        "wins": 8,
+        "hit_pct": 47.06,
+        "open": 0,
+        "strong_n": 11
+      },
+      "holdout_strong_catch_pct": 78.6,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 11,
+      "pass": false
+    },
+    {
+      "gate": "retest12_imp50_top_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 160,
+        "wins": 47,
+        "hit_pct": 29.38,
+        "open": 0,
+        "strong_n": 84
+      },
+      "holdout": {
+        "n": 17,
+        "wins": 8,
+        "hit_pct": 47.06,
+        "open": 0,
+        "strong_n": 11
+      },
+      "holdout_strong_catch_pct": 78.6,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 11,
+      "pass": false
+    },
+    {
+      "gate": "thrust2_up50_close_pm50",
+      "sl": 50.0,
+      "t1": 50.0,
+      "freeze": {
+        "n": 151,
+        "wins": 64,
+        "hit_pct": 42.38,
+        "open": 9,
+        "strong_n": 94
+      },
+      "holdout": {
+        "n": 18,
+        "wins": 8,
+        "hit_pct": 44.44,
+        "open": 0,
+        "strong_n": 12
+      },
+      "holdout_strong_catch_pct": 85.7,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 12,
+      "pass": false
+    },
+    {
+      "gate": "cont_thrust2_up50_pm40",
+      "sl": 40.0,
+      "t1": 40.0,
+      "freeze": {
+        "n": 129,
+        "wins": 46,
+        "hit_pct": 35.66,
+        "open": 3,
+        "strong_n": 88
+      },
+      "holdout": {
+        "n": 14,
+        "wins": 6,
+        "hit_pct": 42.86,
+        "open": 1,
+        "strong_n": 10
+      },
+      "holdout_strong_catch_pct": 71.4,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 10,
+      "pass": false
+    },
+    {
+      "gate": "thrust2_up50_close_pm60",
+      "sl": 60.0,
+      "t1": 60.0,
+      "freeze": {
+        "n": 147,
+        "wins": 64,
+        "hit_pct": 43.54,
+        "open": 13,
+        "strong_n": 94
+      },
+      "holdout": {
+        "n": 17,
+        "wins": 7,
+        "hit_pct": 41.18,
+        "open": 1,
+        "strong_n": 12
+      },
+      "holdout_strong_catch_pct": 85.7,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 12,
+      "pass": false
+    },
+    {
+      "gate": "retest15_imp40_pm40",
+      "sl": 40.0,
+      "t1": 40.0,
+      "freeze": {
+        "n": 179,
+        "wins": 64,
+        "hit_pct": 35.75,
+        "open": 2,
+        "strong_n": 92
+      },
+      "holdout": {
+        "n": 17,
+        "wins": 7,
+        "hit_pct": 41.18,
+        "open": 0,
+        "strong_n": 11
+      },
+      "holdout_strong_catch_pct": 78.6,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 11,
+      "pass": false
+    },
+    {
+      "gate": "cont_thrust2_up50_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 131,
+        "wins": 40,
+        "hit_pct": 30.53,
+        "open": 1,
+        "strong_n": 88
+      },
+      "holdout": {
+        "n": 15,
+        "wins": 6,
+        "hit_pct": 40.0,
+        "open": 0,
+        "strong_n": 10
+      },
+      "holdout_strong_catch_pct": 71.4,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 10,
+      "pass": false
+    },
+    {
+      "gate": "thrust2_up50_close_pm40",
+      "sl": 40.0,
+      "t1": 40.0,
+      "freeze": {
+        "n": 158,
+        "wins": 54,
+        "hit_pct": 34.18,
+        "open": 2,
+        "strong_n": 94
+      },
+      "holdout": {
+        "n": 18,
+        "wins": 7,
+        "hit_pct": 38.89,
+        "open": 0,
+        "strong_n": 12
+      },
+      "holdout_strong_catch_pct": 85.7,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 12,
+      "pass": false
+    },
+    {
+      "gate": "thrust2_up50_close_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 160,
+        "wins": 45,
+        "hit_pct": 28.12,
+        "open": 0,
+        "strong_n": 94
+      },
+      "holdout": {
+        "n": 18,
+        "wins": 6,
+        "hit_pct": 33.33,
+        "open": 0,
+        "strong_n": 12
+      },
+      "holdout_strong_catch_pct": 85.7,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 12,
+      "pass": false
+    },
+    {
+      "gate": "dip_hi120_dip40_pm40",
+      "sl": 40.0,
+      "t1": 40.0,
+      "freeze": {
+        "n": 71,
+        "wins": 37,
+        "hit_pct": 52.11,
+        "open": 0,
+        "strong_n": 60
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 2,
+        "hit_pct": 28.57,
+        "open": 0,
+        "strong_n": 7
+      },
+      "holdout_strong_catch_pct": 50.0,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "pass": false
+    },
+    {
+      "gate": "dip_hi100_dip30_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 62,
+        "wins": 29,
+        "hit_pct": 46.77,
+        "open": 0,
+        "strong_n": 44
+      },
+      "holdout": {
+        "n": 4,
+        "wins": 1,
+        "hit_pct": 25.0,
+        "open": 0,
+        "strong_n": 3
+      },
+      "holdout_strong_catch_pct": 21.4,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 3,
+      "pass": false
+    },
+    {
+      "gate": "thrust2_up50_top70_pm30",
+      "sl": 30.0,
+      "t1": 30.0,
+      "freeze": {
+        "n": 143,
+        "wins": 37,
+        "hit_pct": 25.87,
+        "open": 0,
+        "strong_n": 89
+      },
+      "holdout": {
+        "n": 16,
+        "wins": 4,
+        "hit_pct": 25.0,
+        "open": 0,
+        "strong_n": 12
+      },
+      "holdout_strong_catch_pct": 85.7,
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 12,
+      "pass": false
+    }
+  ],
+  "best_pass": null,
+  "best_overall": {
+    "gate": "synth_or5_up50_pm30",
+    "sl": 30.0,
+    "t1": 30.0,
+    "freeze": {
+      "n": 108,
+      "wins": 71,
+      "hit_pct": 65.74,
+      "open": 0,
+      "strong_n": 59
+    },
+    "holdout": {
+      "n": 11,
+      "wins": 9,
+      "hit_pct": 81.82,
+      "open": 0,
+      "strong_n": 7
+    },
+    "holdout_strong_catch_pct": 50.0,
+    "holdout_strong_days": 14,
+    "holdout_strong_caught": 7,
+    "pass": false
+  },
+  "best_pm30": {
+    "gate": "synth_or5_up50_pm30",
+    "sl": 30.0,
+    "t1": 30.0,
+    "freeze": {
+      "n": 108,
+      "wins": 71,
+      "hit_pct": 65.74,
+      "open": 0,
+      "strong_n": 59
+    },
+    "holdout": {
+      "n": 11,
+      "wins": 9,
+      "hit_pct": 81.82,
+      "open": 0,
+      "strong_n": 7
+    },
+    "holdout_strong_catch_pct": 50.0,
+    "holdout_strong_days": 14,
+    "holdout_strong_caught": 7,
+    "pass": false
+  },
+  "best_eligible_70fz": null
+}

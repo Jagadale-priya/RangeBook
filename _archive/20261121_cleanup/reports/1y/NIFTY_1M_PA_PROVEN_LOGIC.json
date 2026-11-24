@@ -1,0 +1,615 @@
+{
+  "ok": true,
+  "research_only": true,
+  "window": {
+    "day_lo": "2025-12-26",
+    "day_hi": "2026-11-16",
+    "n_days": 220,
+    "oos_from": "2026-06-10"
+  },
+  "prove_rules": {
+    "PROVEN": "TRAIN+OOS: n\u226530, hit@3R\u226535.0%, exp_R\u22650.2, OOS t\u22651.5",
+    "PROMISING": "TRAIN+OOS: n\u226520, hit\u226532.0%, exp_R\u22650.1, both exp>0",
+    "else": "NOT_PROVEN",
+    "target": "3.0R path, hold\u226490m, 1/day"
+  },
+  "external_evidence": {
+    "bos_choch_alone": "\u2248 zero edge (s4u 9k+ trades PF~1.00)",
+    "choch_fvg": "barely +EV PF 1.03 (s4u)",
+    "best_chain": "liquidity sweep \u2192 CHoCH \u2192 retest: ~38.2%@3R PF1.16 +0.095R (s4u 2209 trades)",
+    "fvg_hold_vs_random": "FVG hold \u2248 random band on ES/NQ (TradingEdgeJournal)",
+    "fvg_mechanical": "Valid FVG retrace ~38% WR +0.29R on DXY daily (DoesItRepeat) with filters",
+    "urls": [
+      "https://s4u.pro/en/bos-choch-strategy/",
+      "https://doesitrepeat.com/blog/ict-fair-value-gap-backtest",
+      "https://tradingedgejournal.com/blog/do-fair-value-gaps-work/",
+      "https://doesitrepeat.com/blog/ict-strategy-guide-backtest"
+    ]
+  },
+  "books": [
+    {
+      "book": "A_choch_fvg_htf",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 217,
+        "hit": 28.11,
+        "exp_R": 0.135,
+        "t": 1.1,
+        "wins": 61,
+        "losses": 156,
+        "avg_pts": 0.85,
+        "cpd": 0.99
+      },
+      "train": {
+        "n": 109,
+        "hit": 26.61,
+        "exp_R": 0.085,
+        "t": 0.5,
+        "wins": 29,
+        "losses": 80,
+        "avg_pts": -0.05,
+        "cpd": 0.99
+      },
+      "oos": {
+        "n": 108,
+        "hit": 29.63,
+        "exp_R": 0.185,
+        "t": 1.05,
+        "wins": 32,
+        "losses": 76,
+        "avg_pts": 1.76,
+        "cpd": 0.98
+      }
+    },
+    {
+      "book": "A_choch_fvg_nohtf",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 219,
+        "hit": 22.37,
+        "exp_R": -0.105,
+        "t": -0.93,
+        "wins": 49,
+        "losses": 170,
+        "avg_pts": -0.67,
+        "cpd": 1.0
+      },
+      "train": {
+        "n": 110,
+        "hit": 19.09,
+        "exp_R": -0.236,
+        "t": -1.57,
+        "wins": 21,
+        "losses": 89,
+        "avg_pts": -1.63,
+        "cpd": 1.0
+      },
+      "oos": {
+        "n": 109,
+        "hit": 25.69,
+        "exp_R": 0.028,
+        "t": 0.16,
+        "wins": 28,
+        "losses": 81,
+        "avg_pts": 0.3,
+        "cpd": 0.99
+      }
+    },
+    {
+      "book": "A_fvg5",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 118,
+        "hit": 32.2,
+        "exp_R": 0.307,
+        "t": 1.78,
+        "wins": 38,
+        "losses": 80,
+        "avg_pts": 2.25,
+        "cpd": 0.54
+      },
+      "train": {
+        "n": 69,
+        "hit": 26.09,
+        "exp_R": 0.077,
+        "t": 0.36,
+        "wins": 18,
+        "losses": 51,
+        "avg_pts": 0.08,
+        "cpd": 0.63
+      },
+      "oos": {
+        "n": 49,
+        "hit": 40.82,
+        "exp_R": 0.633,
+        "t": 2.23,
+        "wins": 20,
+        "losses": 29,
+        "avg_pts": 5.31,
+        "cpd": 0.45
+      }
+    },
+    {
+      "book": "A_open_fvg4",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 88,
+        "hit": 30.68,
+        "exp_R": 0.253,
+        "t": 1.28,
+        "wins": 27,
+        "losses": 61,
+        "avg_pts": 1.93,
+        "cpd": 0.4
+      },
+      "train": {
+        "n": 52,
+        "hit": 25.0,
+        "exp_R": 0.044,
+        "t": 0.18,
+        "wins": 13,
+        "losses": 39,
+        "avg_pts": -0.15,
+        "cpd": 0.47
+      },
+      "oos": {
+        "n": 36,
+        "hit": 38.89,
+        "exp_R": 0.556,
+        "t": 1.69,
+        "wins": 14,
+        "losses": 22,
+        "avg_pts": 4.94,
+        "cpd": 0.33
+      }
+    },
+    {
+      "book": "A_open_only",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 119,
+        "hit": 31.93,
+        "exp_R": 0.296,
+        "t": 1.73,
+        "wins": 38,
+        "losses": 81,
+        "avg_pts": 1.84,
+        "cpd": 0.54
+      },
+      "train": {
+        "n": 62,
+        "hit": 29.03,
+        "exp_R": 0.198,
+        "t": 0.85,
+        "wins": 18,
+        "losses": 44,
+        "avg_pts": 0.61,
+        "cpd": 0.56
+      },
+      "oos": {
+        "n": 57,
+        "hit": 35.09,
+        "exp_R": 0.404,
+        "t": 1.58,
+        "wins": 20,
+        "losses": 37,
+        "avg_pts": 3.17,
+        "cpd": 0.52
+      }
+    },
+    {
+      "book": "A_risk5_25",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 173,
+        "hit": 31.21,
+        "exp_R": 0.262,
+        "t": 1.85,
+        "wins": 54,
+        "losses": 119,
+        "avg_pts": 1.57,
+        "cpd": 0.79
+      },
+      "train": {
+        "n": 90,
+        "hit": 27.78,
+        "exp_R": 0.136,
+        "t": 0.72,
+        "wins": 25,
+        "losses": 65,
+        "avg_pts": 0.31,
+        "cpd": 0.82
+      },
+      "oos": {
+        "n": 83,
+        "hit": 34.94,
+        "exp_R": 0.398,
+        "t": 1.89,
+        "wins": 29,
+        "losses": 54,
+        "avg_pts": 2.93,
+        "cpd": 0.75
+      }
+    },
+    {
+      "book": "B_choch_bos_fvg",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 218,
+        "hit": 26.15,
+        "exp_R": 0.046,
+        "t": 0.38,
+        "wins": 57,
+        "losses": 161,
+        "avg_pts": 0.2,
+        "cpd": 0.99
+      },
+      "train": {
+        "n": 109,
+        "hit": 27.52,
+        "exp_R": 0.101,
+        "t": 0.59,
+        "wins": 30,
+        "losses": 79,
+        "avg_pts": 0.58,
+        "cpd": 0.99
+      },
+      "oos": {
+        "n": 109,
+        "hit": 24.77,
+        "exp_R": -0.009,
+        "t": -0.06,
+        "wins": 27,
+        "losses": 82,
+        "avg_pts": -0.19,
+        "cpd": 0.99
+      }
+    },
+    {
+      "book": "C_bos_fvg",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 219,
+        "hit": 29.68,
+        "exp_R": 0.196,
+        "t": 1.58,
+        "wins": 65,
+        "losses": 154,
+        "avg_pts": 1.44,
+        "cpd": 1.0
+      },
+      "train": {
+        "n": 110,
+        "hit": 27.27,
+        "exp_R": 0.091,
+        "t": 0.53,
+        "wins": 30,
+        "losses": 80,
+        "avg_pts": 0.72,
+        "cpd": 1.0
+      },
+      "oos": {
+        "n": 109,
+        "hit": 32.11,
+        "exp_R": 0.302,
+        "t": 1.68,
+        "wins": 35,
+        "losses": 74,
+        "avg_pts": 2.16,
+        "cpd": 0.99
+      }
+    },
+    {
+      "book": "C_bos_fvg_disp",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 116,
+        "hit": 26.72,
+        "exp_R": 0.085,
+        "t": 0.52,
+        "wins": 31,
+        "losses": 85,
+        "avg_pts": 1.07,
+        "cpd": 0.53
+      },
+      "train": {
+        "n": 56,
+        "hit": 25.0,
+        "exp_R": 0.0,
+        "t": 0.0,
+        "wins": 14,
+        "losses": 42,
+        "avg_pts": 0.01,
+        "cpd": 0.51
+      },
+      "oos": {
+        "n": 60,
+        "hit": 28.33,
+        "exp_R": 0.165,
+        "t": 0.71,
+        "wins": 17,
+        "losses": 43,
+        "avg_pts": 2.05,
+        "cpd": 0.55
+      }
+    },
+    {
+      "book": "D_choch_retest",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 214,
+        "hit": 21.96,
+        "exp_R": -0.121,
+        "t": -1.07,
+        "wins": 47,
+        "losses": 167,
+        "avg_pts": -2.26,
+        "cpd": 0.97
+      },
+      "train": {
+        "n": 109,
+        "hit": 21.1,
+        "exp_R": -0.156,
+        "t": -0.99,
+        "wins": 23,
+        "losses": 86,
+        "avg_pts": -3.04,
+        "cpd": 0.99
+      },
+      "oos": {
+        "n": 105,
+        "hit": 22.86,
+        "exp_R": -0.086,
+        "t": -0.52,
+        "wins": 24,
+        "losses": 81,
+        "avg_pts": -1.46,
+        "cpd": 0.95
+      }
+    },
+    {
+      "book": "E2_sweep_choch_fvg",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 187,
+        "hit": 20.86,
+        "exp_R": -0.166,
+        "t": -1.39,
+        "wins": 39,
+        "losses": 148,
+        "avg_pts": -1.34,
+        "cpd": 0.85
+      },
+      "train": {
+        "n": 101,
+        "hit": 17.82,
+        "exp_R": -0.287,
+        "t": -1.88,
+        "wins": 18,
+        "losses": 83,
+        "avg_pts": -2.4,
+        "cpd": 0.92
+      },
+      "oos": {
+        "n": 86,
+        "hit": 24.42,
+        "exp_R": -0.023,
+        "t": -0.12,
+        "wins": 21,
+        "losses": 65,
+        "avg_pts": -0.08,
+        "cpd": 0.78
+      }
+    },
+    {
+      "book": "E_sweep_choch_retest",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 214,
+        "hit": 21.5,
+        "exp_R": -0.14,
+        "t": -1.25,
+        "wins": 46,
+        "losses": 168,
+        "avg_pts": -2.33,
+        "cpd": 0.97
+      },
+      "train": {
+        "n": 109,
+        "hit": 20.18,
+        "exp_R": -0.193,
+        "t": -1.25,
+        "wins": 22,
+        "losses": 87,
+        "avg_pts": -3.3,
+        "cpd": 0.99
+      },
+      "oos": {
+        "n": 105,
+        "hit": 22.86,
+        "exp_R": -0.086,
+        "t": -0.52,
+        "wins": 24,
+        "losses": 81,
+        "avg_pts": -1.32,
+        "cpd": 0.95
+      }
+    }
+  ],
+  "proven": [],
+  "promising": [],
+  "best": null,
+  "oos_rank_top": [
+    {
+      "book": "A_fvg5",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 118,
+        "hit": 32.2,
+        "exp_R": 0.307,
+        "t": 1.78,
+        "wins": 38,
+        "losses": 80,
+        "avg_pts": 2.25,
+        "cpd": 0.54
+      },
+      "train": {
+        "n": 69,
+        "hit": 26.09,
+        "exp_R": 0.077,
+        "t": 0.36,
+        "wins": 18,
+        "losses": 51,
+        "avg_pts": 0.08,
+        "cpd": 0.63
+      },
+      "oos": {
+        "n": 49,
+        "hit": 40.82,
+        "exp_R": 0.633,
+        "t": 2.23,
+        "wins": 20,
+        "losses": 29,
+        "avg_pts": 5.31,
+        "cpd": 0.45
+      }
+    },
+    {
+      "book": "A_open_fvg4",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 88,
+        "hit": 30.68,
+        "exp_R": 0.253,
+        "t": 1.28,
+        "wins": 27,
+        "losses": 61,
+        "avg_pts": 1.93,
+        "cpd": 0.4
+      },
+      "train": {
+        "n": 52,
+        "hit": 25.0,
+        "exp_R": 0.044,
+        "t": 0.18,
+        "wins": 13,
+        "losses": 39,
+        "avg_pts": -0.15,
+        "cpd": 0.47
+      },
+      "oos": {
+        "n": 36,
+        "hit": 38.89,
+        "exp_R": 0.556,
+        "t": 1.69,
+        "wins": 14,
+        "losses": 22,
+        "avg_pts": 4.94,
+        "cpd": 0.33
+      }
+    },
+    {
+      "book": "A_open_only",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 119,
+        "hit": 31.93,
+        "exp_R": 0.296,
+        "t": 1.73,
+        "wins": 38,
+        "losses": 81,
+        "avg_pts": 1.84,
+        "cpd": 0.54
+      },
+      "train": {
+        "n": 62,
+        "hit": 29.03,
+        "exp_R": 0.198,
+        "t": 0.85,
+        "wins": 18,
+        "losses": 44,
+        "avg_pts": 0.61,
+        "cpd": 0.56
+      },
+      "oos": {
+        "n": 57,
+        "hit": 35.09,
+        "exp_R": 0.404,
+        "t": 1.58,
+        "wins": 20,
+        "losses": 37,
+        "avg_pts": 3.17,
+        "cpd": 0.52
+      }
+    },
+    {
+      "book": "A_risk5_25",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 173,
+        "hit": 31.21,
+        "exp_R": 0.262,
+        "t": 1.85,
+        "wins": 54,
+        "losses": 119,
+        "avg_pts": 1.57,
+        "cpd": 0.79
+      },
+      "train": {
+        "n": 90,
+        "hit": 27.78,
+        "exp_R": 0.136,
+        "t": 0.72,
+        "wins": 25,
+        "losses": 65,
+        "avg_pts": 0.31,
+        "cpd": 0.82
+      },
+      "oos": {
+        "n": 83,
+        "hit": 34.94,
+        "exp_R": 0.398,
+        "t": 1.89,
+        "wins": 29,
+        "losses": 54,
+        "avg_pts": 2.93,
+        "cpd": 0.75
+      }
+    },
+    {
+      "book": "C_bos_fvg",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 219,
+        "hit": 29.68,
+        "exp_R": 0.196,
+        "t": 1.58,
+        "wins": 65,
+        "losses": 154,
+        "avg_pts": 1.44,
+        "cpd": 1.0
+      },
+      "train": {
+        "n": 110,
+        "hit": 27.27,
+        "exp_R": 0.091,
+        "t": 0.53,
+        "wins": 30,
+        "losses": 80,
+        "avg_pts": 0.72,
+        "cpd": 1.0
+      },
+      "oos": {
+        "n": 109,
+        "hit": 32.11,
+        "exp_R": 0.302,
+        "t": 1.68,
+        "wins": 35,
+        "losses": 74,
+        "avg_pts": 2.16,
+        "cpd": 0.99
+      }
+    }
+  ],
+  "took_sec": 14.8
+}

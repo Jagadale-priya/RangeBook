@@ -1,0 +1,1542 @@
+{
+  "proven": [
+    {
+      "t1": 18.0,
+      "name": "UNION_16_keys",
+      "key": null,
+      "train": {
+        "n": 46,
+        "wins": 46,
+        "hit": 100.0,
+        "days": 46,
+        "cover": 26.3,
+        "cpd": 0.263,
+        "avg_sl": 41.06,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 21,
+        "wins": 21,
+        "hit": 100.0,
+        "days": 21,
+        "cover": 28.8,
+        "cpd": 0.288,
+        "avg_sl": 36.71,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H8",
+      "key": "('H8', 'three', 'SELL', 'dn', 'flat', 'near_low', 'sl12-16')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 10.77,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 5.5,
+        "cpd": 0.055,
+        "avg_sl": 9.89,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H2",
+      "key": "('H2', 'hanging_man', 'SELL', 'bear', 'mid', '09', 'LOW')",
+      "train": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 2.3,
+        "cpd": 0.023,
+        "avg_sl": 22.79,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 4.1,
+        "cpd": 0.041,
+        "avg_sl": 17.6,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H6",
+      "key": "('H6', 'bull_kicker', 'BUY', 'up_dn_dn', 'with', '29', 'mid')",
+      "train": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 2.3,
+        "cpd": 0.023,
+        "avg_sl": 19.17,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 4.1,
+        "cpd": 0.041,
+        "avg_sl": 22.38,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H8",
+      "key": "('H8', 'runs', 'SELL', 'dn', 'dn', 'near_high', 'sl16-20')",
+      "train": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 2.3,
+        "cpd": 0.023,
+        "avg_sl": 122.12,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 4.1,
+        "cpd": 0.041,
+        "avg_sl": 38.03,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H4",
+      "key": "('H4', 'bull_kicker', 'BUY', False, True, 'r<75', 'b55+')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 14.56,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 2,
+        "wins": 2,
+        "hit": 100.0,
+        "days": 2,
+        "cover": 2.7,
+        "cpd": 0.027,
+        "avg_sl": 7.09,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H2",
+      "key": "('H2', 'three_soldiers', 'BUY', 'bull', 'ext', '09', 'NORMAL')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 66.43,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 2,
+        "wins": 2,
+        "hit": 100.0,
+        "days": 2,
+        "cover": 2.7,
+        "cpd": 0.027,
+        "avg_sl": 75.85,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H2",
+      "key": "('H2', 'bull_run3', 'BUY', 'bull', 'mid', '09', 'ELEVATED')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 32.13,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 2,
+        "wins": 2,
+        "hit": 100.0,
+        "days": 2,
+        "cover": 2.7,
+        "cpd": 0.027,
+        "avg_sl": 24.11,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H2",
+      "key": "('H2', 'hammer', 'BUY', 'bull', 'ext', '09', 'ELEVATED')",
+      "train": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 2.3,
+        "cpd": 0.023,
+        "avg_sl": 51.32,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 93.45,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H4",
+      "key": "('H4', 'bear_kicker', 'SELL', True, True, 'r<55', 'b55+')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 11.6,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 19.95,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H6",
+      "key": "('H6', 'belt_bull', 'BUY', 'up_up_up', 'mix', '29', 'bot')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 15.55,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 9.33,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H6",
+      "key": "('H6', 'belt_bull', 'BUY', 'up_up_up', 'with', '19', 'mid')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 42.86,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 129.62,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H2",
+      "key": "('H2', 'rising_3_methods', 'BUY', 'bull', 'ext', '09', 'LOW')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 46.55,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 55.52,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H6",
+      "key": "('H6', 'belt_bull', 'BUY', 'up_up_up', 'with', '27', 'mid')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 51.56,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 103.22,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H6",
+      "key": "('H6', 'marubozu_bear', 'SELL', 'up_up_dn', 'with', '24', 'mid')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 28.37,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 17.74,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H6",
+      "key": "('H6', 'marubozu_bull', 'BUY', 'up_dn_dn', 'with', '19', 'top')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 35.35,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 38.28,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 18.0,
+      "name": "key::H6",
+      "key": "('H6', 'marubozu_bull', 'BUY', 'up_dn_up', 'with', '19', 'mid')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 60.92,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 56.03,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "UNION_20_keys",
+      "key": null,
+      "train": {
+        "n": 57,
+        "wins": 57,
+        "hit": 100.0,
+        "days": 57,
+        "cover": 32.6,
+        "cpd": 0.326,
+        "avg_sl": 40.06,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 23,
+        "wins": 23,
+        "hit": 100.0,
+        "days": 23,
+        "cover": 31.5,
+        "cpd": 0.315,
+        "avg_sl": 36.77,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H8",
+      "key": "('H8', 'three', 'SELL', 'dn', 'flat', 'near_low', 'sl12-16')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 10.77,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 5.5,
+        "cpd": 0.055,
+        "avg_sl": 9.89,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H2",
+      "key": "('H2', 'hanging_man', 'SELL', 'bear', 'mid', '09', 'LOW')",
+      "train": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 2.3,
+        "cpd": 0.023,
+        "avg_sl": 22.79,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 4.1,
+        "cpd": 0.041,
+        "avg_sl": 17.6,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H6",
+      "key": "('H6', 'bull_kicker', 'BUY', 'up_dn_dn', 'with', '29', 'mid')",
+      "train": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 2.3,
+        "cpd": 0.023,
+        "avg_sl": 19.17,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 4.1,
+        "cpd": 0.041,
+        "avg_sl": 22.38,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H8",
+      "key": "('H8', 'runs', 'SELL', 'dn', 'dn', 'near_high', 'sl16-20')",
+      "train": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 2.3,
+        "cpd": 0.023,
+        "avg_sl": 122.12,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 4.1,
+        "cpd": 0.041,
+        "avg_sl": 38.03,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H4",
+      "key": "('H4', 'bull_kicker', 'BUY', False, True, 'r<75', 'b55+')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 14.56,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 2,
+        "wins": 2,
+        "hit": 100.0,
+        "days": 2,
+        "cover": 2.7,
+        "cpd": 0.027,
+        "avg_sl": 7.09,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H2",
+      "key": "('H2', 'three_soldiers', 'BUY', 'bull', 'ext', '09', 'NORMAL')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 66.43,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 2,
+        "wins": 2,
+        "hit": 100.0,
+        "days": 2,
+        "cover": 2.7,
+        "cpd": 0.027,
+        "avg_sl": 75.85,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H2",
+      "key": "('H2', 'bull_run3', 'BUY', 'bull', 'mid', '09', 'ELEVATED')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 32.13,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 2,
+        "wins": 2,
+        "hit": 100.0,
+        "days": 2,
+        "cover": 2.7,
+        "cpd": 0.027,
+        "avg_sl": 24.11,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H6",
+      "key": "('H6', 'tweezer_bot', 'BUY', 'up_dn_dn', 'with', '19', 'top')",
+      "train": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 2.3,
+        "cpd": 0.023,
+        "avg_sl": 39.47,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 52.63,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H6",
+      "key": "('H6', 'marubozu_bull', 'BUY', 'up_up_dn', 'with', '20', 'top')",
+      "train": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 2.3,
+        "cpd": 0.023,
+        "avg_sl": 17.53,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 34.09,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H2",
+      "key": "('H2', 'hammer', 'BUY', 'bull', 'ext', '09', 'ELEVATED')",
+      "train": {
+        "n": 4,
+        "wins": 4,
+        "hit": 100.0,
+        "days": 4,
+        "cover": 2.3,
+        "cpd": 0.023,
+        "avg_sl": 51.32,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 93.45,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H2",
+      "key": "('H2', 'marubozu_bear', 'SELL', 'bear', 'near', '12', 'LOW')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 5.65,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 7.34,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H4",
+      "key": "('H4', 'bear_kicker', 'SELL', True, True, 'r<55', 'b55+')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 11.6,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 19.95,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H6",
+      "key": "('H6', 'belt_bull', 'BUY', 'dn_up_up', 'with', '18', 'top')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 65.53,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 71.67,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H6",
+      "key": "('H6', 'belt_bull', 'BUY', 'up_up_up', 'mix', '29', 'bot')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 15.55,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 9.33,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H6",
+      "key": "('H6', 'belt_bull', 'BUY', 'up_up_up', 'with', '19', 'mid')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 42.86,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 129.62,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H2",
+      "key": "('H2', 'rising_3_methods', 'BUY', 'bull', 'ext', '09', 'LOW')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 46.55,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 55.52,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H6",
+      "key": "('H6', 'belt_bull', 'BUY', 'up_up_up', 'with', '27', 'mid')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 51.56,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 103.22,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H6",
+      "key": "('H6', 'marubozu_bear', 'SELL', 'up_up_dn', 'with', '24', 'mid')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 28.37,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 17.74,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H6",
+      "key": "('H6', 'marubozu_bull', 'BUY', 'up_dn_dn', 'with', '19', 'top')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 35.35,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 38.28,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    {
+      "t1": 15.0,
+      "name": "key::H6",
+      "key": "('H6', 'marubozu_bull', 'BUY', 'up_dn_up', 'with', '19', 'mid')",
+      "train": {
+        "n": 3,
+        "wins": 3,
+        "hit": 100.0,
+        "days": 3,
+        "cover": 1.7,
+        "cpd": 0.017,
+        "avg_sl": 60.92,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1,
+        "wins": 1,
+        "hit": 100.0,
+        "days": 1,
+        "cover": 1.4,
+        "cpd": 0.014,
+        "avg_sl": 56.03,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    }
+  ],
+  "near": [
+    {
+      "t1": 15.0,
+      "name": "purified_keys_min3",
+      "train": {
+        "n": 155,
+        "wins": 155,
+        "hit": 100.0,
+        "days": 155,
+        "cover": 88.6,
+        "cpd": 0.886,
+        "avg_sl": 39.41,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 63,
+        "wins": 39,
+        "hit": 61.9,
+        "days": 63,
+        "cover": 86.3,
+        "cpd": 0.863,
+        "avg_sl": 24.82,
+        "avg_t1": 15.0,
+        "all_win": false
+      },
+      "n_keys": 165
+    },
+    {
+      "t1": 18.0,
+      "name": "purified_keys_min3",
+      "train": {
+        "n": 135,
+        "wins": 135,
+        "hit": 100.0,
+        "days": 135,
+        "cover": 77.1,
+        "cpd": 0.771,
+        "avg_sl": 40.63,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 56,
+        "wins": 35,
+        "hit": 62.5,
+        "days": 56,
+        "cover": 76.7,
+        "cpd": 0.767,
+        "avg_sl": 23.89,
+        "avg_t1": 18.0,
+        "all_win": false
+      },
+      "n_keys": 119
+    }
+  ],
+  "oracle": {
+    "15.0": {
+      "train": {
+        "n": 175,
+        "wins": 175,
+        "hit": 100.0,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 60.53,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 73,
+        "wins": 73,
+        "hit": 100.0,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 50.82,
+        "avg_t1": 15.0,
+        "all_win": true
+      }
+    },
+    "18.0": {
+      "train": {
+        "n": 175,
+        "wins": 175,
+        "hit": 100.0,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 57.2,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 73,
+        "wins": 73,
+        "hit": 100.0,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 47.88,
+        "avg_t1": 18.0,
+        "all_win": true
+      }
+    }
+  },
+  "unions": {
+    "15.0": {
+      "n_keys": 20,
+      "train": {
+        "n": 57,
+        "wins": 57,
+        "hit": 100.0,
+        "days": 57,
+        "cover": 32.6,
+        "cpd": 0.326,
+        "avg_sl": 40.06,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 23,
+        "wins": 23,
+        "hit": 100.0,
+        "days": 23,
+        "cover": 31.5,
+        "cpd": 0.315,
+        "avg_sl": 36.77,
+        "avg_t1": 15.0,
+        "all_win": true
+      },
+      "ok": true,
+      "hold_calls": [
+        {
+          "day": "2026-08-04",
+          "hm": "12:21",
+          "decision": "SELL",
+          "primary": "marubozu_bear",
+          "win": true
+        },
+        {
+          "day": "2026-08-12",
+          "hm": "14:23",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "win": true
+        },
+        {
+          "day": "2026-08-14",
+          "hm": "09:26",
+          "decision": "SELL",
+          "primary": "hanging_man",
+          "win": true
+        },
+        {
+          "day": "2026-08-18",
+          "hm": "09:52",
+          "decision": "SELL",
+          "primary": "hanging_man",
+          "win": true
+        },
+        {
+          "day": "2026-08-26",
+          "hm": "09:23",
+          "decision": "BUY",
+          "primary": "rising_3_methods",
+          "win": true
+        },
+        {
+          "day": "2026-09-08",
+          "hm": "09:52",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "win": true
+        },
+        {
+          "day": "2026-09-15",
+          "hm": "14:45",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "win": true
+        },
+        {
+          "day": "2026-09-22",
+          "hm": "13:54",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "win": true
+        },
+        {
+          "day": "2026-09-24",
+          "hm": "09:59",
+          "decision": "SELL",
+          "primary": "hanging_man",
+          "win": true
+        },
+        {
+          "day": "2026-10-01",
+          "hm": "13:40",
+          "decision": "SELL",
+          "primary": "bear_kicker",
+          "win": true
+        },
+        {
+          "day": "2026-10-07",
+          "hm": "12:18",
+          "decision": "SELL",
+          "primary": "marubozu_bear",
+          "win": true
+        },
+        {
+          "day": "2026-10-09",
+          "hm": "10:25",
+          "decision": "BUY",
+          "primary": "marubozu_bull",
+          "win": true
+        },
+        {
+          "day": "2026-10-13",
+          "hm": "09:40",
+          "decision": "BUY",
+          "primary": "three_soldiers",
+          "win": true
+        },
+        {
+          "day": "2026-10-15",
+          "hm": "09:25",
+          "decision": "BUY",
+          "primary": "belt_bull",
+          "win": true
+        },
+        {
+          "day": "2026-10-19",
+          "hm": "14:43",
+          "decision": "BUY",
+          "primary": "belt_bull",
+          "win": true
+        },
+        {
+          "day": "2026-10-21",
+          "hm": "13:28",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "win": true
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "13:41",
+          "decision": "BUY",
+          "primary": "belt_bull",
+          "win": true
+        },
+        {
+          "day": "2026-10-27",
+          "hm": "09:35",
+          "decision": "BUY",
+          "primary": "bull_run3",
+          "win": true
+        },
+        {
+          "day": "2026-11-05",
+          "hm": "09:37",
+          "decision": "BUY",
+          "primary": "belt_bull",
+          "win": true
+        },
+        {
+          "day": "2026-11-09",
+          "hm": "14:43",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "win": true
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "13:21",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "win": true
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "09:24",
+          "decision": "BUY",
+          "primary": "hammer",
+          "win": true
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "09:30",
+          "decision": "BUY",
+          "primary": "marubozu_bull",
+          "win": true
+        }
+      ],
+      "keys": [
+        "('H6', 'belt_bull', 'BUY', 'up_up_up', 'mix', '29', 'bot')",
+        "('H6', 'belt_bull', 'BUY', 'up_up_up', 'with', '19', 'mid')",
+        "('H6', 'tweezer_bot', 'BUY', 'up_dn_dn', 'with', '19', 'top')",
+        "('H2', 'hammer', 'BUY', 'bull', 'ext', '09', 'ELEVATED')",
+        "('H6', 'marubozu_bear', 'SELL', 'up_up_dn', 'with', '24', 'mid')",
+        "('H4', 'bull_kicker', 'BUY', False, True, 'r<75', 'b55+')",
+        "('H2', 'rising_3_methods', 'BUY', 'bull', 'ext', '09', 'LOW')",
+        "('H2', 'bull_run3', 'BUY', 'bull', 'mid', '09', 'ELEVATED')",
+        "('H2', 'three_soldiers', 'BUY', 'bull', 'ext', '09', 'NORMAL')",
+        "('H8', 'runs', 'SELL', 'dn', 'dn', 'near_high', 'sl16-20')",
+        "('H6', 'belt_bull', 'BUY', 'up_up_up', 'with', '27', 'mid')",
+        "('H2', 'marubozu_bear', 'SELL', 'bear', 'near', '12', 'LOW')",
+        "('H6', 'bull_kicker', 'BUY', 'up_dn_dn', 'with', '29', 'mid')",
+        "('H6', 'marubozu_bull', 'BUY', 'up_up_dn', 'with', '20', 'top')",
+        "('H6', 'belt_bull', 'BUY', 'dn_up_up', 'with', '18', 'top')",
+        "('H6', 'marubozu_bull', 'BUY', 'up_dn_dn', 'with', '19', 'top')",
+        "('H6', 'marubozu_bull', 'BUY', 'up_dn_up', 'with', '19', 'mid')",
+        "('H8', 'three', 'SELL', 'dn', 'flat', 'near_low', 'sl12-16')",
+        "('H2', 'hanging_man', 'SELL', 'bear', 'mid', '09', 'LOW')",
+        "('H4', 'bear_kicker', 'SELL', True, True, 'r<55', 'b55+')"
+      ]
+    },
+    "18.0": {
+      "n_keys": 16,
+      "train": {
+        "n": 46,
+        "wins": 46,
+        "hit": 100.0,
+        "days": 46,
+        "cover": 26.3,
+        "cpd": 0.263,
+        "avg_sl": 41.06,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "hold": {
+        "n": 21,
+        "wins": 21,
+        "hit": 100.0,
+        "days": 21,
+        "cover": 28.8,
+        "cpd": 0.288,
+        "avg_sl": 36.71,
+        "avg_t1": 18.0,
+        "all_win": true
+      },
+      "ok": true,
+      "hold_calls": [
+        {
+          "day": "2026-08-12",
+          "hm": "14:23",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "win": true
+        },
+        {
+          "day": "2026-08-14",
+          "hm": "09:26",
+          "decision": "SELL",
+          "primary": "hanging_man",
+          "win": true
+        },
+        {
+          "day": "2026-08-18",
+          "hm": "09:52",
+          "decision": "SELL",
+          "primary": "hanging_man",
+          "win": true
+        },
+        {
+          "day": "2026-08-26",
+          "hm": "09:23",
+          "decision": "BUY",
+          "primary": "rising_3_methods",
+          "win": true
+        },
+        {
+          "day": "2026-09-08",
+          "hm": "09:52",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "win": true
+        },
+        {
+          "day": "2026-09-15",
+          "hm": "14:45",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "win": true
+        },
+        {
+          "day": "2026-09-22",
+          "hm": "13:54",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "win": true
+        },
+        {
+          "day": "2026-09-24",
+          "hm": "09:59",
+          "decision": "SELL",
+          "primary": "hanging_man",
+          "win": true
+        },
+        {
+          "day": "2026-10-01",
+          "hm": "13:40",
+          "decision": "SELL",
+          "primary": "bear_kicker",
+          "win": true
+        },
+        {
+          "day": "2026-10-07",
+          "hm": "12:18",
+          "decision": "SELL",
+          "primary": "marubozu_bear",
+          "win": true
+        },
+        {
+          "day": "2026-10-13",
+          "hm": "09:40",
+          "decision": "BUY",
+          "primary": "three_soldiers",
+          "win": true
+        },
+        {
+          "day": "2026-10-15",
+          "hm": "09:43",
+          "decision": "BUY",
+          "primary": "marubozu_bull",
+          "win": true
+        },
+        {
+          "day": "2026-10-19",
+          "hm": "14:43",
+          "decision": "BUY",
+          "primary": "belt_bull",
+          "win": true
+        },
+        {
+          "day": "2026-10-21",
+          "hm": "13:28",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "win": true
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "13:41",
+          "decision": "BUY",
+          "primary": "belt_bull",
+          "win": true
+        },
+        {
+          "day": "2026-10-27",
+          "hm": "09:35",
+          "decision": "BUY",
+          "primary": "bull_run3",
+          "win": true
+        },
+        {
+          "day": "2026-11-05",
+          "hm": "09:37",
+          "decision": "BUY",
+          "primary": "belt_bull",
+          "win": true
+        },
+        {
+          "day": "2026-11-09",
+          "hm": "14:43",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "win": true
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "13:21",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "win": true
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "09:24",
+          "decision": "BUY",
+          "primary": "hammer",
+          "win": true
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "09:30",
+          "decision": "BUY",
+          "primary": "marubozu_bull",
+          "win": true
+        }
+      ],
+      "keys": [
+        "('H2', 'hanging_man', 'SELL', 'bear', 'mid', '09', 'LOW')",
+        "('H6', 'belt_bull', 'BUY', 'up_up_up', 'mix', '29', 'bot')",
+        "('H6', 'belt_bull', 'BUY', 'up_up_up', 'with', '19', 'mid')",
+        "('H6', 'bull_kicker', 'BUY', 'up_dn_dn', 'with', '29', 'mid')",
+        "('H2', 'hammer', 'BUY', 'bull', 'ext', '09', 'ELEVATED')",
+        "('H4', 'bear_kicker', 'SELL', True, True, 'r<55', 'b55+')",
+        "('H6', 'marubozu_bear', 'SELL', 'up_up_dn', 'with', '24', 'mid')",
+        "('H4', 'bull_kicker', 'BUY', False, True, 'r<75', 'b55+')",
+        "('H6', 'marubozu_bull', 'BUY', 'up_dn_dn', 'with', '19', 'top')",
+        "('H6', 'belt_bull', 'BUY', 'up_up_up', 'with', '27', 'mid')",
+        "('H2', 'rising_3_methods', 'BUY', 'bull', 'ext', '09', 'LOW')",
+        "('H2', 'bull_run3', 'BUY', 'bull', 'mid', '09', 'ELEVATED')",
+        "('H6', 'marubozu_bull', 'BUY', 'up_dn_up', 'with', '19', 'mid')",
+        "('H2', 'three_soldiers', 'BUY', 'bull', 'ext', '09', 'NORMAL')",
+        "('H8', 'three', 'SELL', 'dn', 'flat', 'near_low', 'sl12-16')",
+        "('H8', 'runs', 'SELL', 'dn', 'dn', 'near_high', 'sl16-20')"
+      ]
+    }
+  }
+}

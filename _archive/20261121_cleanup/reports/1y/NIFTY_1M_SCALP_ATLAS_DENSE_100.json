@@ -1,0 +1,519 @@
+{
+  "baseline": {
+    "by_year": {
+      "2021": {
+        "n": 119,
+        "hit": 100.0,
+        "all_win": true,
+        "days": 89,
+        "cpd": 1.34,
+        "cpd_all": 0.48,
+        "cover": 36.0,
+        "avg_sl": 7.45
+      },
+      "2022": {
+        "n": 107,
+        "hit": 100.0,
+        "all_win": true,
+        "days": 85,
+        "cpd": 1.26,
+        "cpd_all": 0.43,
+        "cover": 34.4,
+        "avg_sl": 7.64
+      },
+      "2023": {
+        "n": 98,
+        "hit": 100.0,
+        "all_win": true,
+        "days": 79,
+        "cpd": 1.24,
+        "cpd_all": 0.4,
+        "cover": 32.2,
+        "avg_sl": 7.6
+      },
+      "2024": {
+        "n": 116,
+        "hit": 100.0,
+        "all_win": true,
+        "days": 90,
+        "cpd": 1.29,
+        "cpd_all": 0.47,
+        "cover": 36.3,
+        "avg_sl": 8.11
+      },
+      "2025": {
+        "n": 106,
+        "hit": 100.0,
+        "all_win": true,
+        "days": 88,
+        "cpd": 1.2,
+        "cpd_all": 0.43,
+        "cover": 35.3,
+        "avg_sl": 7.69
+      },
+      "2026": {
+        "n": 91,
+        "hit": 100.0,
+        "all_win": true,
+        "days": 77,
+        "cpd": 1.18,
+        "cpd_all": 0.42,
+        "cover": 35.6,
+        "avg_sl": 8.05
+      }
+    },
+    "total": 637,
+    "all_win": true,
+    "cover_all": 35.0,
+    "cpd_all": 0.439,
+    "avg_sl": 7.75
+  },
+  "variants": {
+    "DENSE_Y4": {
+      "n_micros": 146,
+      "min_years": 4,
+      "min_total": 2,
+      "verify": {
+        "by_year": {
+          "2021": {
+            "n": 123,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 91,
+            "cpd": 1.35,
+            "cpd_all": 0.5,
+            "cover": 36.8,
+            "avg_sl": 7.4
+          },
+          "2022": {
+            "n": 109,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 86,
+            "cpd": 1.27,
+            "cpd_all": 0.44,
+            "cover": 34.8,
+            "avg_sl": 7.66
+          },
+          "2023": {
+            "n": 104,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 83,
+            "cpd": 1.25,
+            "cpd_all": 0.42,
+            "cover": 33.9,
+            "avg_sl": 7.58
+          },
+          "2024": {
+            "n": 118,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 91,
+            "cpd": 1.3,
+            "cpd_all": 0.48,
+            "cover": 36.7,
+            "avg_sl": 8.08
+          },
+          "2025": {
+            "n": 111,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 92,
+            "cpd": 1.21,
+            "cpd_all": 0.45,
+            "cover": 36.9,
+            "avg_sl": 7.66
+          },
+          "2026": {
+            "n": 95,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 80,
+            "cpd": 1.19,
+            "cpd_all": 0.44,
+            "cover": 37.0,
+            "avg_sl": 8.05
+          }
+        },
+        "total": 660,
+        "all_win": true,
+        "cover_all": 36.0,
+        "cpd_all": 0.455,
+        "avg_sl": 7.73
+      }
+    },
+    "DENSE_Y3": {
+      "n_micros": 246,
+      "min_years": 3,
+      "min_total": 2,
+      "verify": {
+        "by_year": {
+          "2021": {
+            "n": 183,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 120,
+            "cpd": 1.52,
+            "cpd_all": 0.74,
+            "cover": 48.6,
+            "avg_sl": 7.2
+          },
+          "2022": {
+            "n": 175,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 130,
+            "cpd": 1.35,
+            "cpd_all": 0.71,
+            "cover": 52.6,
+            "avg_sl": 7.5
+          },
+          "2023": {
+            "n": 143,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 110,
+            "cpd": 1.3,
+            "cpd_all": 0.58,
+            "cover": 44.9,
+            "avg_sl": 7.36
+          },
+          "2024": {
+            "n": 164,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 115,
+            "cpd": 1.43,
+            "cpd_all": 0.66,
+            "cover": 46.4,
+            "avg_sl": 7.79
+          },
+          "2025": {
+            "n": 156,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 112,
+            "cpd": 1.39,
+            "cpd_all": 0.63,
+            "cover": 45.0,
+            "avg_sl": 7.52
+          },
+          "2026": {
+            "n": 165,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 120,
+            "cpd": 1.38,
+            "cpd_all": 0.76,
+            "cover": 55.6,
+            "avg_sl": 7.69
+          }
+        },
+        "total": 986,
+        "all_win": true,
+        "cover_all": 48.7,
+        "cpd_all": 0.679,
+        "avg_sl": 7.51
+      }
+    },
+    "DENSE_Y2": {
+      "n_micros": 1001,
+      "min_years": 2,
+      "min_total": 2,
+      "verify": {
+        "by_year": {
+          "2021": {
+            "n": 491,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 201,
+            "cpd": 2.44,
+            "cpd_all": 1.99,
+            "cover": 81.4,
+            "avg_sl": 6.85
+          },
+          "2022": {
+            "n": 496,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 210,
+            "cpd": 2.36,
+            "cpd_all": 2.01,
+            "cover": 85.0,
+            "avg_sl": 6.96
+          },
+          "2023": {
+            "n": 320,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 178,
+            "cpd": 1.8,
+            "cpd_all": 1.31,
+            "cover": 72.7,
+            "avg_sl": 6.74
+          },
+          "2024": {
+            "n": 399,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 188,
+            "cpd": 2.12,
+            "cpd_all": 1.61,
+            "cover": 75.8,
+            "avg_sl": 7.31
+          },
+          "2025": {
+            "n": 391,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 187,
+            "cpd": 2.09,
+            "cpd_all": 1.57,
+            "cover": 75.1,
+            "avg_sl": 7.18
+          },
+          "2026": {
+            "n": 408,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 179,
+            "cpd": 2.28,
+            "cpd_all": 1.89,
+            "cover": 82.9,
+            "avg_sl": 7.27
+          }
+        },
+        "total": 2505,
+        "all_win": true,
+        "cover_all": 78.7,
+        "cpd_all": 1.725,
+        "avg_sl": 7.05
+      }
+    },
+    "DENSE_Y3_m1": {
+      "n_micros": 246,
+      "min_years": 3,
+      "min_total": 1,
+      "verify": {
+        "by_year": {
+          "2021": {
+            "n": 183,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 120,
+            "cpd": 1.52,
+            "cpd_all": 0.74,
+            "cover": 48.6,
+            "avg_sl": 7.2
+          },
+          "2022": {
+            "n": 175,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 130,
+            "cpd": 1.35,
+            "cpd_all": 0.71,
+            "cover": 52.6,
+            "avg_sl": 7.5
+          },
+          "2023": {
+            "n": 143,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 110,
+            "cpd": 1.3,
+            "cpd_all": 0.58,
+            "cover": 44.9,
+            "avg_sl": 7.36
+          },
+          "2024": {
+            "n": 164,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 115,
+            "cpd": 1.43,
+            "cpd_all": 0.66,
+            "cover": 46.4,
+            "avg_sl": 7.79
+          },
+          "2025": {
+            "n": 156,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 112,
+            "cpd": 1.39,
+            "cpd_all": 0.63,
+            "cover": 45.0,
+            "avg_sl": 7.52
+          },
+          "2026": {
+            "n": 165,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 120,
+            "cpd": 1.38,
+            "cpd_all": 0.76,
+            "cover": 55.6,
+            "avg_sl": 7.69
+          }
+        },
+        "total": 986,
+        "all_win": true,
+        "cover_all": 48.7,
+        "cpd_all": 0.679,
+        "avg_sl": 7.51
+      }
+    },
+    "DENSE_Y2_m1": {
+      "n_micros": 1001,
+      "min_years": 2,
+      "min_total": 1,
+      "verify": {
+        "by_year": {
+          "2021": {
+            "n": 491,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 201,
+            "cpd": 2.44,
+            "cpd_all": 1.99,
+            "cover": 81.4,
+            "avg_sl": 6.85
+          },
+          "2022": {
+            "n": 496,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 210,
+            "cpd": 2.36,
+            "cpd_all": 2.01,
+            "cover": 85.0,
+            "avg_sl": 6.96
+          },
+          "2023": {
+            "n": 320,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 178,
+            "cpd": 1.8,
+            "cpd_all": 1.31,
+            "cover": 72.7,
+            "avg_sl": 6.74
+          },
+          "2024": {
+            "n": 399,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 188,
+            "cpd": 2.12,
+            "cpd_all": 1.61,
+            "cover": 75.8,
+            "avg_sl": 7.31
+          },
+          "2025": {
+            "n": 391,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 187,
+            "cpd": 2.09,
+            "cpd_all": 1.57,
+            "cover": 75.1,
+            "avg_sl": 7.18
+          },
+          "2026": {
+            "n": 408,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 179,
+            "cpd": 2.28,
+            "cpd_all": 1.89,
+            "cover": 82.9,
+            "avg_sl": 7.27
+          }
+        },
+        "total": 2505,
+        "all_win": true,
+        "cover_all": 78.7,
+        "cpd_all": 1.725,
+        "avg_sl": 7.05
+      }
+    },
+    "DENSE_Y4_m3": {
+      "n_micros": 146,
+      "min_years": 4,
+      "min_total": 3,
+      "verify": {
+        "by_year": {
+          "2021": {
+            "n": 123,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 91,
+            "cpd": 1.35,
+            "cpd_all": 0.5,
+            "cover": 36.8,
+            "avg_sl": 7.4
+          },
+          "2022": {
+            "n": 109,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 86,
+            "cpd": 1.27,
+            "cpd_all": 0.44,
+            "cover": 34.8,
+            "avg_sl": 7.66
+          },
+          "2023": {
+            "n": 104,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 83,
+            "cpd": 1.25,
+            "cpd_all": 0.42,
+            "cover": 33.9,
+            "avg_sl": 7.58
+          },
+          "2024": {
+            "n": 118,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 91,
+            "cpd": 1.3,
+            "cpd_all": 0.48,
+            "cover": 36.7,
+            "avg_sl": 8.08
+          },
+          "2025": {
+            "n": 111,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 92,
+            "cpd": 1.21,
+            "cpd_all": 0.45,
+            "cover": 36.9,
+            "avg_sl": 7.66
+          },
+          "2026": {
+            "n": 95,
+            "hit": 100.0,
+            "all_win": true,
+            "days": 80,
+            "cpd": 1.19,
+            "cpd_all": 0.44,
+            "cover": 37.0,
+            "avg_sl": 8.05
+          }
+        },
+        "total": 660,
+        "all_win": true,
+        "cover_all": 36.0,
+        "cpd_all": 0.455,
+        "avg_sl": 7.73
+      }
+    }
+  },
+  "best": "DENSE_Y2",
+  "elapsed_s": 915.3
+}

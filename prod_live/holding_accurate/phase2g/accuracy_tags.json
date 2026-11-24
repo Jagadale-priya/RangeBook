@@ -1,0 +1,397 @@
+{
+  "status": "RESEARCH",
+  "desks": {
+    "ACC100_MULTI_V12_P2G_10M": {
+      "accurate_tag": "ACC100_MULTI_V12_P2G_10M",
+      "desk_tag": "ACC100_MULTI_V12_P2G_10M",
+      "accuracy_tag": "ACC_RANGE_94_100",
+      "accuracy_range_tag": "ACC_RANGE_94_100",
+      "accuracy_lo": 94.51,
+      "accuracy_hi": 100.0,
+      "accuracy_band": "B_HIGH_90",
+      "floor": 100.0,
+      "floor_tag": "ACC_FLOOR_100",
+      "logic_level": "P2G",
+      "mode": "day",
+      "lane": "RESEARCH",
+      "not_live": true,
+      "dual_model": "10m_train",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      },
+      "ok_5y": false,
+      "base": "ACC100_MULTI_V5",
+      "measured": {
+        "extra_2y": {
+          "n": 91,
+          "hit_pct": 94.51
+        },
+        "3y": {
+          "n": 165,
+          "hit_pct": 100.0
+        },
+        "5y": {
+          "n": 256,
+          "hit_pct": 98.05
+        },
+        "1y": {
+          "n": 61,
+          "hit_pct": 100.0
+        }
+      },
+      "range_3y5y_only": {
+        "lo": 98.05,
+        "hi": 100.0
+      },
+      "prev_accuracy_tag_copied_from_p2f": "ACC_RANGE_98_100",
+      "range_covers_all_windows": true,
+      "tags": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_RANGE_94_100",
+        "ACC_BAND_B_HIGH_90",
+        "ACC_FLOOR_100",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 94.51\u2013100.00% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)"
+    },
+    "ACC_WIDE_P92_P2G_10M": {
+      "accurate_tag": "ACC_WIDE_P92_P2G_10M",
+      "desk_tag": "ACC_WIDE_P92_P2G_10M",
+      "accuracy_tag": "ACC_RANGE_83_100",
+      "accuracy_range_tag": "ACC_RANGE_83_100",
+      "accuracy_lo": 83.08,
+      "accuracy_hi": 100.0,
+      "accuracy_band": "D_VOL_80",
+      "floor": 99.24,
+      "floor_tag": "ACC_FLOOR_99p24",
+      "logic_level": "P2G",
+      "mode": "day",
+      "lane": "RESEARCH",
+      "not_live": true,
+      "dual_model": "10m_train",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      },
+      "ok_5y": false,
+      "base": "ACC_WIDE_P92",
+      "measured": {
+        "extra_2y": {
+          "n": 65,
+          "hit_pct": 83.08
+        },
+        "3y": {
+          "n": 109,
+          "hit_pct": 98.17
+        },
+        "5y": {
+          "n": 174,
+          "hit_pct": 92.53
+        },
+        "1y": {
+          "n": 34,
+          "hit_pct": 100.0
+        }
+      },
+      "range_3y5y_only": {
+        "lo": 92.53,
+        "hi": 98.17
+      },
+      "prev_accuracy_tag_copied_from_p2f": "ACC_RANGE_91_100",
+      "range_covers_all_windows": true,
+      "tags": [
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_RANGE_83_100",
+        "ACC_BAND_D_VOL_80",
+        "ACC_FLOOR_99p24",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 83.08\u2013100.00% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)"
+    },
+    "ACC_WIDE_P90_P2G_10M": {
+      "accurate_tag": "ACC_WIDE_P90_P2G_10M",
+      "desk_tag": "ACC_WIDE_P90_P2G_10M",
+      "accuracy_tag": "ACC_RANGE_92_100",
+      "accuracy_range_tag": "ACC_RANGE_92_100",
+      "accuracy_lo": 92.92,
+      "accuracy_hi": 100.0,
+      "accuracy_band": "B_HIGH_90",
+      "floor": 95.4,
+      "floor_tag": "ACC_FLOOR_95p4",
+      "logic_level": "P2G",
+      "mode": "day",
+      "lane": "RESEARCH",
+      "not_live": true,
+      "dual_model": "10m_train",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      },
+      "ok_5y": false,
+      "base": "ACC_WIDE_P90",
+      "measured": {
+        "extra_2y": {
+          "n": 113,
+          "hit_pct": 92.92
+        },
+        "3y": {
+          "n": 207,
+          "hit_pct": 95.65
+        },
+        "5y": {
+          "n": 320,
+          "hit_pct": 94.69
+        },
+        "1y": {
+          "n": 75,
+          "hit_pct": 100.0
+        }
+      },
+      "range_3y5y_only": {
+        "lo": 94.69,
+        "hi": 95.65
+      },
+      "prev_accuracy_tag_copied_from_p2f": "ACC_RANGE_89_96",
+      "range_covers_all_windows": true,
+      "tags": [
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_RANGE_92_100",
+        "ACC_BAND_B_HIGH_90",
+        "ACC_FLOOR_95p4",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 92.92\u2013100.00% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)"
+    },
+    "ACC_WIDE_P85_P2G_10M": {
+      "accurate_tag": "ACC_WIDE_P85_P2G_10M",
+      "desk_tag": "ACC_WIDE_P85_P2G_10M",
+      "accuracy_tag": "ACC_RANGE_86_97",
+      "accuracy_range_tag": "ACC_RANGE_86_97",
+      "accuracy_lo": 86.17,
+      "accuracy_hi": 96.72,
+      "accuracy_band": "C_MID_85",
+      "floor": 89.69,
+      "floor_tag": "ACC_FLOOR_89p69",
+      "logic_level": "P2G",
+      "mode": "day",
+      "lane": "RESEARCH",
+      "not_live": true,
+      "dual_model": "10m_train",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      },
+      "ok_5y": true,
+      "base": "ACC_WIDE_P85",
+      "measured": {
+        "extra_2y": {
+          "n": 94,
+          "hit_pct": 86.17
+        },
+        "3y": {
+          "n": 189,
+          "hit_pct": 92.06
+        },
+        "5y": {
+          "n": 283,
+          "hit_pct": 90.11
+        },
+        "1y": {
+          "n": 61,
+          "hit_pct": 96.72
+        }
+      },
+      "range_3y5y_only": {
+        "lo": 90.11,
+        "hi": 92.06
+      },
+      "prev_accuracy_tag_copied_from_p2f": "ACC_RANGE_84_90",
+      "range_covers_all_windows": true,
+      "tags": [
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_RANGE_86_97",
+        "ACC_BAND_C_MID_85",
+        "ACC_FLOOR_89p69",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 86.17\u201396.72% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)"
+    },
+    "ACC_WIDE_P85B_P2G_10M": {
+      "accurate_tag": "ACC_WIDE_P85B_P2G_10M",
+      "desk_tag": "ACC_WIDE_P85B_P2G_10M",
+      "accuracy_tag": "ACC_RANGE_88_95",
+      "accuracy_range_tag": "ACC_RANGE_88_95",
+      "accuracy_lo": 88.41,
+      "accuracy_hi": 94.23,
+      "accuracy_band": "C_MID_85",
+      "floor": 88.4,
+      "floor_tag": "ACC_FLOOR_88p4",
+      "logic_level": "P2G",
+      "mode": "day",
+      "lane": "RESEARCH",
+      "not_live": true,
+      "dual_model": "10m_train",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      },
+      "ok_5y": true,
+      "base": "ACC_WIDE_P85B",
+      "measured": {
+        "extra_2y": {
+          "n": 138,
+          "hit_pct": 88.41
+        },
+        "3y": {
+          "n": 280,
+          "hit_pct": 88.93
+        },
+        "5y": {
+          "n": 418,
+          "hit_pct": 88.76
+        },
+        "1y": {
+          "n": 104,
+          "hit_pct": 94.23
+        }
+      },
+      "range_3y5y_only": {
+        "lo": 88.76,
+        "hi": 88.93
+      },
+      "prev_accuracy_tag_copied_from_p2f": "ACC_RANGE_81_89",
+      "range_covers_all_windows": true,
+      "tags": [
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_RANGE_88_95",
+        "ACC_BAND_C_MID_85",
+        "ACC_FLOOR_88p4",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 88.41\u201394.23% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)"
+    },
+    "ACC_WIDE_P80_P2G_10M": {
+      "accurate_tag": "ACC_WIDE_P80_P2G_10M",
+      "desk_tag": "ACC_WIDE_P80_P2G_10M",
+      "accuracy_tag": "ACC_RANGE_81_85",
+      "accuracy_range_tag": "ACC_RANGE_81_85",
+      "accuracy_lo": 81.37,
+      "accuracy_hi": 84.81,
+      "accuracy_band": "D_VOL_80",
+      "floor": 84.72,
+      "floor_tag": "ACC_FLOOR_84p72",
+      "logic_level": "P2G",
+      "mode": "day",
+      "lane": "RESEARCH",
+      "not_live": true,
+      "dual_model": "10m_train",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      },
+      "ok_5y": false,
+      "base": "ACC_WIDE_P80",
+      "measured": {
+        "extra_2y": {
+          "n": 161,
+          "hit_pct": 81.37
+        },
+        "3y": {
+          "n": 270,
+          "hit_pct": 84.81
+        },
+        "5y": {
+          "n": 431,
+          "hit_pct": 83.53
+        },
+        "1y": {
+          "n": 98,
+          "hit_pct": 83.67
+        }
+      },
+      "range_3y5y_only": {
+        "lo": 83.53,
+        "hi": 84.81
+      },
+      "prev_accuracy_tag_copied_from_p2f": "ACC_RANGE_76_85",
+      "range_covers_all_windows": true,
+      "tags": [
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_RANGE_81_85",
+        "ACC_BAND_D_VOL_80",
+        "ACC_FLOOR_84p72",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 81.37\u201384.81% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)"
+    },
+    "ACC_WIDE_P75_P2G_10M": {
+      "accurate_tag": "ACC_WIDE_P75_P2G_10M",
+      "desk_tag": "ACC_WIDE_P75_P2G_10M",
+      "accuracy_tag": "ACC_RANGE_81_84",
+      "accuracy_range_tag": "ACC_RANGE_81_84",
+      "accuracy_lo": 81.46,
+      "accuracy_hi": 83.49,
+      "accuracy_band": "D_VOL_80",
+      "floor": 82.71,
+      "floor_tag": "ACC_FLOOR_82p71",
+      "logic_level": "P2G",
+      "mode": "day",
+      "lane": "RESEARCH",
+      "not_live": true,
+      "dual_model": "10m_train",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      },
+      "ok_5y": false,
+      "base": "ACC_WIDE_P75",
+      "measured": {
+        "extra_2y": {
+          "n": 178,
+          "hit_pct": 81.46
+        },
+        "3y": {
+          "n": 294,
+          "hit_pct": 82.99
+        },
+        "5y": {
+          "n": 472,
+          "hit_pct": 82.42
+        },
+        "1y": {
+          "n": 109,
+          "hit_pct": 83.49
+        }
+      },
+      "range_3y5y_only": {
+        "lo": 82.42,
+        "hi": 82.99
+      },
+      "prev_accuracy_tag_copied_from_p2f": "ACC_RANGE_75_83",
+      "range_covers_all_windows": true,
+      "tags": [
+        "ACC_WIDE_P75_P2G_10M",
+        "ACC_RANGE_81_84",
+        "ACC_BAND_D_VOL_80",
+        "ACC_FLOOR_82p71",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 81.46\u201383.49% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)"
+    }
+  }
+}

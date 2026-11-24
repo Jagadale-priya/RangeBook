@@ -1,0 +1,2777 @@
+{
+  "window_1y": {
+    "start": "2025-11-19",
+    "end": "2026-11-19"
+  },
+  "window_3y": {
+    "start": "2023-11-20",
+    "end": "2026-11-19"
+  },
+  "elapsed_s": 350.9,
+  "grid_unique": 10710,
+  "baselines": [
+    {
+      "n": 68,
+      "hit_pct": 94.12,
+      "expect_pts": 105.88,
+      "n_3y": 153,
+      "hit_3y": 88.89,
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "v2_locked",
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-12": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        },
+        "2026-01": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "n": 38,
+      "hit_pct": 94.74,
+      "expect_pts": 89.47,
+      "n_3y": 60,
+      "hit_3y": 95.0,
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.7,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "prior_070",
+      "by_month": {
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "n": 48,
+      "hit_pct": 97.92,
+      "expect_pts": 115.0,
+      "n_3y": 84,
+      "hit_3y": 92.86,
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "elite_065_t120",
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1
+        }
+      }
+    }
+  ],
+  "recommended": {
+    "n": 48,
+    "hit_pct": 100.0,
+    "expect_pts": 150.0,
+    "n_3y": 84,
+    "hit_3y": 94.05,
+    "clip": {
+      "sl": 150.0,
+      "t1": 150.0
+    },
+    "cap": 2,
+    "buy_min_p": 0.55,
+    "sell_min_p": 0.65,
+    "allow_sell_cont": false,
+    "buy_max_or_ext": null,
+    "sell_max_or_ext": null,
+    "max_mins": null,
+    "buy_regimes_n": 4,
+    "name": "b0.55_s0.65_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+    "by_month": {
+      "2025-12": {
+        "n": 3,
+        "settled": 3,
+        "hit_pct": 100.0,
+        "wins": 3,
+        "losses": 0
+      },
+      "2026-01": {
+        "n": 4,
+        "settled": 4,
+        "hit_pct": 100.0,
+        "wins": 4,
+        "losses": 0
+      },
+      "2026-02": {
+        "n": 4,
+        "settled": 4,
+        "hit_pct": 100.0,
+        "wins": 4,
+        "losses": 0
+      },
+      "2026-03": {
+        "n": 5,
+        "settled": 5,
+        "hit_pct": 100.0,
+        "wins": 5,
+        "losses": 0
+      },
+      "2026-04": {
+        "n": 4,
+        "settled": 4,
+        "hit_pct": 100.0,
+        "wins": 4,
+        "losses": 0
+      },
+      "2026-05": {
+        "n": 3,
+        "settled": 3,
+        "hit_pct": 100.0,
+        "wins": 3,
+        "losses": 0
+      },
+      "2026-06": {
+        "n": 6,
+        "settled": 6,
+        "hit_pct": 100.0,
+        "wins": 6,
+        "losses": 0
+      },
+      "2026-07": {
+        "n": 1,
+        "settled": 1,
+        "hit_pct": 100.0,
+        "wins": 1,
+        "losses": 0
+      },
+      "2026-08": {
+        "n": 7,
+        "settled": 7,
+        "hit_pct": 100.0,
+        "wins": 7,
+        "losses": 0
+      },
+      "2026-09": {
+        "n": 3,
+        "settled": 3,
+        "hit_pct": 100.0,
+        "wins": 3,
+        "losses": 0
+      },
+      "2026-10": {
+        "n": 8,
+        "settled": 8,
+        "hit_pct": 100.0,
+        "wins": 8,
+        "losses": 0
+      }
+    }
+  },
+  "picks": {
+    "best_hit_n15": {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": 84,
+      "hit_3y": 94.05,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        }
+      }
+    },
+    "best_hit_n20": {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": 84,
+      "hit_3y": 94.05,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        }
+      }
+    },
+    "best_hit_n30": {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": 84,
+      "hit_3y": 94.05,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        }
+      }
+    },
+    "best_hit_n40": {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": 84,
+      "hit_3y": 94.05,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        }
+      }
+    },
+    "best_hit_n50": {
+      "n": 62,
+      "hit_pct": 98.39,
+      "expect_pts": 145.16,
+      "n_3y": 116,
+      "hit_3y": 91.38,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.65_f_r4_T150SL150_C2",
+      "by_month": {
+        "2025-12": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        }
+      }
+    },
+    "best_hit_n60": {
+      "n": 62,
+      "hit_pct": 98.39,
+      "expect_pts": 145.16,
+      "n_3y": 116,
+      "hit_3y": 91.38,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.65_f_r4_T150SL150_C2",
+      "by_month": {
+        "2025-12": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        }
+      }
+    },
+    "max_n_hit90": {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": 185,
+      "hit_3y": 88.65,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.55_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-12": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        },
+        "2026-01": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 66.67,
+          "wins": 4,
+          "losses": 2
+        },
+        "2026-06": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        }
+      }
+    },
+    "max_n_hit92": {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": 185,
+      "hit_3y": 88.65,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.55_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-12": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        },
+        "2026-01": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 66.67,
+          "wins": 4,
+          "losses": 2
+        },
+        "2026-06": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        }
+      }
+    },
+    "max_n_hit94": {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": 185,
+      "hit_3y": 88.65,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.55_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-12": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        },
+        "2026-01": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 66.67,
+          "wins": 4,
+          "losses": 2
+        },
+        "2026-06": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        }
+      }
+    },
+    "max_n_hit95": {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": 185,
+      "hit_3y": 88.65,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.55_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-12": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        },
+        "2026-01": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 66.67,
+          "wins": 4,
+          "losses": 2
+        },
+        "2026-06": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        }
+      }
+    },
+    "max_n_hit96": {
+      "n": 62,
+      "hit_pct": 98.39,
+      "expect_pts": 145.16,
+      "n_3y": 116,
+      "hit_3y": 91.38,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.65_f_r4_T150SL150_C2",
+      "by_month": {
+        "2025-12": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        }
+      }
+    },
+    "max_n_hit97": {
+      "n": 62,
+      "hit_pct": 98.39,
+      "expect_pts": 145.16,
+      "n_3y": 116,
+      "hit_3y": 91.38,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.65_f_r4_T150SL150_C2",
+      "by_month": {
+        "2025-12": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        }
+      }
+    },
+    "best_expect_hit94_n20": {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": 84,
+      "hit_3y": 94.05,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        }
+      }
+    },
+    "best_expect_hit95_n20": {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": 84,
+      "hit_3y": 94.05,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        }
+      }
+    },
+    "best_expect_hit96_n20": {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": 84,
+      "hit_3y": 94.05,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "top_hit_n25": [
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.55_s0.65_f_r3_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C3_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.55_s0.65_f_r3_T150SL150_C3_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C4_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.55_s0.65_f_r3_T150SL150_C4_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.25,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_bor0.25_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.4,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_bor0.4_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.25,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.55_s0.65_f_r3_T150SL150_C2_bor0.25_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.4,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.55_s0.65_f_r3_T150SL150_C2_bor0.4_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.25,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C3_bor0.25_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.4,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C3_bor0.4_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.25,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.55_s0.65_f_r3_T150SL150_C3_bor0.25_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.4,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.55_s0.65_f_r3_T150SL150_C3_bor0.4_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.25,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C4_bor0.25_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.4,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C4_bor0.4_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.25,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.55_s0.65_f_r3_T150SL150_C4_bor0.25_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 48,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.4,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.55_s0.65_f_r3_T150SL150_C4_bor0.4_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 47,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": 0.6,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_borNone_sor0.6_mNone",
+      "by_month": null
+    },
+    {
+      "n": 47,
+      "hit_pct": 100.0,
+      "expect_pts": 150.0,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.65,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": 0.25,
+      "sell_max_or_ext": 0.6,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.55_s0.65_f_r4_T150SL150_C2_bor0.25_sor0.6_mNone",
+      "by_month": null
+    }
+  ],
+  "top_vol_hit94": [
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.55_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.55_f_r4_T150SL150_C3_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.55_f_r4_T150SL150_C4_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.58,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.58_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.58,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.58_f_r4_T150SL150_C3_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.58,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.58_f_r4_T150SL150_C4_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.6,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.6_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.6,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.6_f_r4_T150SL150_C3_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.6,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.6_f_r4_T150SL150_C4_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.62,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.62_f_r4_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.62,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.62_f_r4_T150SL150_C3_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 82,
+      "hit_pct": 95.12,
+      "expect_pts": 135.37,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.62,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 4,
+      "name": "b0.5_s0.62_f_r4_T150SL150_C4_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 81,
+      "hit_pct": 95.06,
+      "expect_pts": 135.19,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.5_s0.55_f_r3_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 81,
+      "hit_pct": 95.06,
+      "expect_pts": 135.19,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.5_s0.55_f_r3_T150SL150_C3_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 81,
+      "hit_pct": 95.06,
+      "expect_pts": 135.19,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.5_s0.55_f_r3_T150SL150_C4_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 81,
+      "hit_pct": 95.06,
+      "expect_pts": 135.19,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.58,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.5_s0.58_f_r3_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 81,
+      "hit_pct": 95.06,
+      "expect_pts": 135.19,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.58,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.5_s0.58_f_r3_T150SL150_C3_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 81,
+      "hit_pct": 95.06,
+      "expect_pts": 135.19,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 4,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.58,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.5_s0.58_f_r3_T150SL150_C4_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 81,
+      "hit_pct": 95.06,
+      "expect_pts": 135.19,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 2,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.6,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.5_s0.6_f_r3_T150SL150_C2_borNone_sorNone_mNone",
+      "by_month": null
+    },
+    {
+      "n": 81,
+      "hit_pct": 95.06,
+      "expect_pts": 135.19,
+      "n_3y": null,
+      "hit_3y": null,
+      "clip": {
+        "sl": 150.0,
+        "t1": 150.0
+      },
+      "cap": 3,
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.6,
+      "allow_sell_cont": false,
+      "buy_max_or_ext": null,
+      "sell_max_or_ext": null,
+      "max_mins": null,
+      "buy_regimes_n": 3,
+      "name": "b0.5_s0.6_f_r3_T150SL150_C3_borNone_sorNone_mNone",
+      "by_month": null
+    }
+  ],
+  "verdict": "Prefer highest 1y hit with N\u226530, first-only, and 3y hit not collapsing below ~88%. Volume via SELL-cont usually caps near 88\u201390%."
+}

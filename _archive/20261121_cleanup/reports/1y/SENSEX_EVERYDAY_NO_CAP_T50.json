@@ -1,0 +1,223 @@
+{
+  "symbol": "SENSEX",
+  "version": "everyday_t50_no_cap",
+  "locked_clip": {
+    "sl": 50.0,
+    "t1": 50.0
+  },
+  "policy": {
+    "name": "EVERYDAY_DUAL_ALL_PLUS_FALLBACK",
+    "mode": "everyday_no_cap",
+    "dual": "ALL dual OR-break cands (no max_per_day)",
+    "fallback": "OR break/mid at 09:45 only if dual silent that day",
+    "buy_min_p": 0.45,
+    "sell_min_p": 0.45,
+    "allow_sell_cont": true,
+    "buy_max_or_ext": null,
+    "max_per_day": null,
+    "clip_sl": 50.0,
+    "clip_t1": 50.0
+  },
+  "desks": {
+    "champ_plus": {
+      "desk": "SENSEX_EVERYDAY_T50SL50",
+      "accurate_tag": "SENSEX_EVERYDAY_T50SL50",
+      "accuracy_tag": "ACC_RANGE_74_80",
+      "accuracy_lo": 74.04,
+      "accuracy_hi": 79.82,
+      "windows": {
+        "1y": {
+          "n": 884,
+          "hit_pct": 76.7,
+          "coverage_pct": 100.0,
+          "sessions": 249,
+          "dual_n": 812,
+          "fallback_n": 72,
+          "avg_calls_per_day": 3.55,
+          "days_with_call": 249
+        },
+        "3m": {
+          "n": 223,
+          "hit_pct": 79.82,
+          "coverage_pct": 100.0,
+          "sessions": 64,
+          "dual_n": 198,
+          "fallback_n": 25,
+          "avg_calls_per_day": 3.48,
+          "days_with_call": 64
+        },
+        "3y": {
+          "n": 2284,
+          "hit_pct": 74.04,
+          "coverage_pct": 100.0,
+          "sessions": 624,
+          "dual_n": 2097,
+          "fallback_n": 187,
+          "avg_calls_per_day": 3.66,
+          "days_with_call": 624
+        }
+      },
+      "n_held": 2284,
+      "brackets": {
+        "sl": 50.0,
+        "target": 50.0
+      },
+      "cap": null
+    }
+  },
+  "book": {
+    "1y": {
+      "n": 884,
+      "hit_pct": 76.7,
+      "coverage_pct": 100.0
+    },
+    "3y": {
+      "n": 2284,
+      "hit_pct": 74.04,
+      "coverage_pct": 100.0
+    },
+    "5y": {
+      "n": 2284,
+      "hit_pct": 74.04,
+      "coverage_pct": 100.0
+    }
+  },
+  "expected": {
+    "1y": {
+      "n": 884,
+      "hit_pct": 76.7
+    },
+    "3y": {
+      "n": 2284,
+      "hit_pct": 74.04
+    },
+    "5y": {
+      "n": 2284,
+      "hit_pct": 74.04
+    }
+  },
+  "calls_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/sensex_final/champ_plus_t50_sl50_calls.json",
+  "by_month_3m": {
+    "2026-08": {
+      "n": 45,
+      "settled": 45,
+      "hit_pct": 80.0,
+      "wins": 36,
+      "losses": 9
+    },
+    "2026-09": {
+      "n": 81,
+      "settled": 81,
+      "hit_pct": 79.01,
+      "wins": 64,
+      "losses": 17
+    },
+    "2026-10": {
+      "n": 83,
+      "settled": 83,
+      "hit_pct": 84.34,
+      "wins": 70,
+      "losses": 13
+    },
+    "2026-11": {
+      "n": 14,
+      "settled": 14,
+      "hit_pct": 57.14,
+      "wins": 8,
+      "losses": 6
+    }
+  },
+  "by_month_1y": {
+    "2025-11": {
+      "n": 16,
+      "settled": 16,
+      "hit_pct": 81.25,
+      "wins": 13,
+      "losses": 3
+    },
+    "2025-12": {
+      "n": 100,
+      "settled": 100,
+      "hit_pct": 79.0,
+      "wins": 79,
+      "losses": 21
+    },
+    "2026-01": {
+      "n": 73,
+      "settled": 73,
+      "hit_pct": 78.08,
+      "wins": 57,
+      "losses": 16
+    },
+    "2026-02": {
+      "n": 88,
+      "settled": 88,
+      "hit_pct": 70.45,
+      "wins": 62,
+      "losses": 26
+    },
+    "2026-03": {
+      "n": 67,
+      "settled": 67,
+      "hit_pct": 74.63,
+      "wins": 50,
+      "losses": 17
+    },
+    "2026-04": {
+      "n": 67,
+      "settled": 67,
+      "hit_pct": 77.61,
+      "wins": 52,
+      "losses": 15
+    },
+    "2026-05": {
+      "n": 63,
+      "settled": 63,
+      "hit_pct": 66.67,
+      "wins": 42,
+      "losses": 21
+    },
+    "2026-06": {
+      "n": 81,
+      "settled": 81,
+      "hit_pct": 79.01,
+      "wins": 64,
+      "losses": 17
+    },
+    "2026-07": {
+      "n": 52,
+      "settled": 52,
+      "hit_pct": 75.0,
+      "wins": 39,
+      "losses": 13
+    },
+    "2026-08": {
+      "n": 99,
+      "settled": 99,
+      "hit_pct": 78.79,
+      "wins": 78,
+      "losses": 21
+    },
+    "2026-09": {
+      "n": 81,
+      "settled": 81,
+      "hit_pct": 79.01,
+      "wins": 64,
+      "losses": 17
+    },
+    "2026-10": {
+      "n": 83,
+      "settled": 83,
+      "hit_pct": 84.34,
+      "wins": 70,
+      "losses": 13
+    },
+    "2026-11": {
+      "n": 14,
+      "settled": 14,
+      "hit_pct": 57.14,
+      "wins": 8,
+      "losses": 6
+    }
+  }
+}

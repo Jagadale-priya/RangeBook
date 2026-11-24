@@ -1,0 +1,239 @@
+{
+  "generated": "2026-11-21T18:55:45",
+  "end": "2026-11-21",
+  "nifty": {
+    "acc100_gate": {
+      "cap": 1,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm_lo": "10:00",
+      "hm_hi": "14:00",
+      "max_or_ext": null,
+      "first_only": false,
+      "sides": null,
+      "buy_p": null,
+      "sell_p": null
+    },
+    "acc100": {
+      "1y": {
+        "start": "2025-11-21",
+        "end": "2026-11-21",
+        "n": 37,
+        "wins": 37,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "points": 1110.0,
+        "sessions": 37,
+        "buy_n": 11,
+        "sell_n": 26
+      },
+      "3y": {
+        "start": "2023-11-21",
+        "end": "2026-11-21",
+        "n": 94,
+        "wins": 92,
+        "losses": 2,
+        "hit_pct": 97.87,
+        "points": 2700.0,
+        "sessions": 94,
+        "buy_n": 41,
+        "sell_n": 53
+      },
+      "5y": {
+        "start": "2021-11-21",
+        "end": "2026-11-21",
+        "n": 138,
+        "wins": 129,
+        "losses": 9,
+        "hit_pct": 93.48,
+        "points": 3600.0,
+        "sessions": 138,
+        "buy_n": 57,
+        "sell_n": 81
+      },
+      "6m": {
+        "start": "2026-05-21",
+        "end": "2026-11-21",
+        "n": 19,
+        "wins": 19,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "points": 570.0,
+        "sessions": 19,
+        "buy_n": 5,
+        "sell_n": 14
+      }
+    },
+    "cap6": {
+      "1y": {
+        "start": "2025-11-21",
+        "end": "2026-11-21",
+        "n": 466,
+        "wins": 354,
+        "losses": 112,
+        "hit_pct": 75.97,
+        "points": 7273.6,
+        "sessions": 241,
+        "buy_n": 200,
+        "sell_n": 266
+      },
+      "3y": {
+        "start": "2023-11-21",
+        "end": "2026-11-21",
+        "n": 1369,
+        "wins": 1083,
+        "losses": 286,
+        "hit_pct": 79.11,
+        "points": 23936.5,
+        "sessions": 716,
+        "buy_n": 600,
+        "sell_n": 769
+      },
+      "5y": {
+        "start": "2021-11-21",
+        "end": "2026-11-21",
+        "n": 2099,
+        "wins": 1662,
+        "losses": 437,
+        "hit_pct": 79.18,
+        "points": 36697.0,
+        "sessions": 1203,
+        "buy_n": 925,
+        "sell_n": 1174
+      },
+      "6m": {
+        "start": "2026-05-21",
+        "end": "2026-11-21",
+        "n": 236,
+        "wins": 178,
+        "losses": 58,
+        "hit_pct": 75.42,
+        "points": 3593.7,
+        "sessions": 121,
+        "buy_n": 107,
+        "sell_n": 129
+      }
+    },
+    "desk": "NIFTY_ACC100_DENSE_WF"
+  },
+  "sensex": {
+    "acc100_gate": {
+      "cap": 1,
+      "pmin": 0.5,
+      "tracks": null,
+      "hm_lo": "10:00",
+      "hm_hi": "14:00",
+      "max_or_ext": null,
+      "first_only": true,
+      "sides": null,
+      "buy_p": null,
+      "sell_p": null
+    },
+    "acc100": {
+      "1y": {
+        "start": "2025-11-21",
+        "end": "2026-11-21",
+        "n": 48,
+        "wins": 45,
+        "losses": 3,
+        "hit_pct": 93.75,
+        "points": 2100.0,
+        "sessions": 48,
+        "buy_n": 11,
+        "sell_n": 37
+      },
+      "3y": {
+        "start": "2023-11-21",
+        "end": "2026-11-21",
+        "n": 116,
+        "wins": 100,
+        "losses": 16,
+        "hit_pct": 86.21,
+        "points": 4200.0,
+        "sessions": 116,
+        "buy_n": 22,
+        "sell_n": 94
+      },
+      "5y": {
+        "start": "2021-11-21",
+        "end": "2026-11-21",
+        "n": 116,
+        "wins": 100,
+        "losses": 16,
+        "hit_pct": 86.21,
+        "points": 4200.0,
+        "sessions": 116,
+        "buy_n": 22,
+        "sell_n": 94
+      },
+      "6m": {
+        "start": "2026-05-21",
+        "end": "2026-11-21",
+        "n": 22,
+        "wins": 22,
+        "losses": 0,
+        "hit_pct": 100.0,
+        "points": 1100.0,
+        "sessions": 22,
+        "buy_n": 5,
+        "sell_n": 17
+      }
+    },
+    "t50": {
+      "1y": {
+        "start": "2025-11-21",
+        "end": "2026-11-21",
+        "n": 61,
+        "wins": 42,
+        "losses": 19,
+        "hit_pct": 68.85,
+        "points": 1150.0,
+        "sessions": 59,
+        "buy_n": 41,
+        "sell_n": 20
+      },
+      "3y": {
+        "start": "2023-11-21",
+        "end": "2026-11-21",
+        "n": 164,
+        "wins": 89,
+        "losses": 75,
+        "hit_pct": 54.27,
+        "points": 700.0,
+        "sessions": 162,
+        "buy_n": 121,
+        "sell_n": 43
+      },
+      "5y": {
+        "start": "2021-11-21",
+        "end": "2026-11-21",
+        "n": 164,
+        "wins": 89,
+        "losses": 75,
+        "hit_pct": 54.27,
+        "points": 700.0,
+        "sessions": 162,
+        "buy_n": 121,
+        "sell_n": 43
+      },
+      "6m": {
+        "start": "2026-05-21",
+        "end": "2026-11-21",
+        "n": 42,
+        "wins": 30,
+        "losses": 12,
+        "hit_pct": 71.43,
+        "points": 900.0,
+        "sessions": 40,
+        "buy_n": 25,
+        "sell_n": 17
+      }
+    },
+    "desk": "SENSEX_ACC100_DENSE_WF"
+  },
+  "elapsed_s": 6.8
+}

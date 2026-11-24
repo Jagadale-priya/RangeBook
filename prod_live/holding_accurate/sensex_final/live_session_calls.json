@@ -1,0 +1,46 @@
+{
+  "calls": [
+    {
+      "day": "2026-11-20",
+      "hm": "10:01",
+      "decision": "BUY",
+      "side": "BUY",
+      "p_t1": 0.5085,
+      "track": "champion",
+      "live_fire": true,
+      "entry": 83076.95,
+      "stop_loss": 83026.95,
+      "target_1": 83126.95,
+      "t1_pts": 50.0,
+      "sl_pts": 50.0
+    },
+    {
+      "day": "2026-11-20",
+      "hm": "10:02",
+      "decision": "BUY",
+      "side": "BUY",
+      "p_t1": 0.5085,
+      "track": "champion",
+      "live_fire": true,
+      "entry": 83067.24,
+      "stop_loss": 83017.24,
+      "target_1": 83117.24,
+      "t1_pts": 50.0,
+      "sl_pts": 50.0
+    },
+    {
+      "day": "2026-11-20",
+      "hm": "09:45",
+      "decision": "BUY",
+      "side": "BUY",
+      "p_t1": 0.55,
+      "track": "or_fallback",
+      "live_fire": true,
+      "entry": 83048.95,
+      "stop_loss": 82998.95,
+      "target_1": 83098.95,
+      "t1_pts": 50.0,
+      "sl_pts": 50.0
+    }
+  ]
+}

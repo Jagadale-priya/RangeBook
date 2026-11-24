@@ -1,0 +1,166 @@
+{
+  "desk": "CHAMP_PLUS_T30SL30_CAP6",
+  "cap": 6,
+  "brackets": {
+    "target": 30.0,
+    "sl": 30.0
+  },
+  "floor_1y": 99.42,
+  "window_1y": {
+    "start": "2025-11-20",
+    "end": "2026-11-20"
+  },
+  "prior_cap4_1y": {
+    "n": 343,
+    "wins": 341,
+    "losses": 2,
+    "hit_pct": 99.42,
+    "points": 10170.0
+  },
+  "locked_cap6_1y": {
+    "n": 433,
+    "wins": 431,
+    "losses": 2,
+    "hit_pct": 99.54,
+    "points": 12870.0
+  },
+  "delta_n_1y": 90,
+  "windows": {
+    "1y": {
+      "n": 433,
+      "wins": 431,
+      "losses": 2,
+      "hit_pct": 99.54,
+      "points": 12870.0,
+      "start": "2025-11-20",
+      "end": "2026-11-20"
+    },
+    "3y": {
+      "n": 1117,
+      "wins": 1113,
+      "losses": 4,
+      "hit_pct": 99.64,
+      "points": 33270.0,
+      "start": "2023-11-20",
+      "end": "2026-11-20"
+    },
+    "5y": {
+      "n": 1779,
+      "wins": 1664,
+      "losses": 115,
+      "hit_pct": 93.54,
+      "points": 46470.0,
+      "start": "2021-11-16",
+      "end": "2026-11-20"
+    }
+  },
+  "monthly_1y": [
+    {
+      "month": "2025-11",
+      "n": 11,
+      "wins": 11,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 330.0
+    },
+    {
+      "month": "2025-12",
+      "n": 47,
+      "wins": 47,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 1410.0
+    },
+    {
+      "month": "2026-01",
+      "n": 37,
+      "wins": 37,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 1110.0
+    },
+    {
+      "month": "2026-02",
+      "n": 41,
+      "wins": 41,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 1230.0
+    },
+    {
+      "month": "2026-03",
+      "n": 28,
+      "wins": 28,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 840.0
+    },
+    {
+      "month": "2026-04",
+      "n": 28,
+      "wins": 28,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 840.0
+    },
+    {
+      "month": "2026-05",
+      "n": 29,
+      "wins": 29,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 870.0
+    },
+    {
+      "month": "2026-06",
+      "n": 42,
+      "wins": 42,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 1260.0
+    },
+    {
+      "month": "2026-07",
+      "n": 34,
+      "wins": 34,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 1020.0
+    },
+    {
+      "month": "2026-08",
+      "n": 30,
+      "wins": 30,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 900.0
+    },
+    {
+      "month": "2026-09",
+      "n": 51,
+      "wins": 50,
+      "losses": 1,
+      "hit_pct": 98.04,
+      "points": 1470.0
+    },
+    {
+      "month": "2026-10",
+      "n": 46,
+      "wins": 45,
+      "losses": 1,
+      "hit_pct": 97.83,
+      "points": 1320.0
+    },
+    {
+      "month": "2026-11",
+      "n": 9,
+      "wins": 9,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 270.0
+    }
+  ],
+  "backup": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/champion_plus/t30_sl30_5y_calls_cap4_backup.json",
+  "calls": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/champion_plus/t30_sl30_5y_calls.json",
+  "elapsed_s": 4.4
+}

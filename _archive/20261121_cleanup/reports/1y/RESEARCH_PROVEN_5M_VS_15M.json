@@ -1,0 +1,309 @@
+{
+  "status": "RESEARCH",
+  "not_live": true,
+  "question": "proven track from dual5 vs dual15",
+  "windows": {
+    "golden_1y": {
+      "start": "2025-10-24",
+      "end": "2026-10-23",
+      "proven15_standalone": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "wins": 24,
+        "losses": 0,
+        "points": 1098.0,
+        "days": 24,
+        "by_track": {
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1098.0
+          }
+        }
+      },
+      "proven5_standalone": {
+        "n": 6,
+        "hit_pct": 66.67,
+        "wins": 4,
+        "losses": 2,
+        "points": 3.0,
+        "days": 6,
+        "by_track": {
+          "proven_100": {
+            "n": 6,
+            "hit_pct": 66.67,
+            "points": 3.0
+          }
+        }
+      },
+      "stack_baseline_proven15": {
+        "n": 229,
+        "hit_pct": 75.11,
+        "wins": 172,
+        "losses": 57,
+        "points": 3404.0,
+        "days": 147,
+        "by_track": {
+          "champion": {
+            "n": 40,
+            "hit_pct": 92.5,
+            "points": 1383.0
+          },
+          "crown_5m": {
+            "n": 90,
+            "hit_pct": 71.11,
+            "points": 0.0
+          },
+          "good_prod2": {
+            "n": 75,
+            "hit_pct": 62.67,
+            "points": 923.0
+          },
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1098.0
+          }
+        },
+        "proven_n": 24,
+        "sess_n": 217
+      },
+      "stack_swap_proven5": {
+        "n": 223,
+        "hit_pct": 72.2,
+        "wins": 161,
+        "losses": 62,
+        "points": 2674.0,
+        "days": 147,
+        "by_track": {
+          "champion": {
+            "n": 40,
+            "hit_pct": 92.5,
+            "points": 1383.0
+          },
+          "crown_5m": {
+            "n": 95,
+            "hit_pct": 69.47,
+            "points": 0.0
+          },
+          "good_prod2": {
+            "n": 82,
+            "hit_pct": 65.85,
+            "points": 1288.0
+          },
+          "proven_100": {
+            "n": 6,
+            "hit_pct": 66.67,
+            "points": 3.0
+          }
+        },
+        "proven_n": 6,
+        "sess_n": 217
+      },
+      "delta_stack_hit": -2.91,
+      "delta_stack_n": -6
+    },
+    "holding_1y": {
+      "start": "2025-11-15",
+      "end": "2026-11-15",
+      "proven15_standalone": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "wins": 24,
+        "losses": 0,
+        "points": 1126.0,
+        "days": 24,
+        "by_track": {
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1126.0
+          }
+        }
+      },
+      "proven5_standalone": {
+        "n": 5,
+        "hit_pct": 60.0,
+        "wins": 3,
+        "losses": 2,
+        "points": -27.0,
+        "days": 5,
+        "by_track": {
+          "proven_100": {
+            "n": 5,
+            "hit_pct": 60.0,
+            "points": -27.0
+          }
+        }
+      },
+      "stack_baseline_proven15": {
+        "n": 212,
+        "hit_pct": 75.94,
+        "wins": 161,
+        "losses": 51,
+        "points": 3431.0,
+        "days": 137,
+        "by_track": {
+          "champion": {
+            "n": 38,
+            "hit_pct": 94.74,
+            "points": 1367.0
+          },
+          "crown_5m": {
+            "n": 83,
+            "hit_pct": 69.88,
+            "points": 0.0
+          },
+          "good_prod2": {
+            "n": 67,
+            "hit_pct": 64.18,
+            "points": 938.0
+          },
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1126.0
+          }
+        },
+        "proven_n": 24,
+        "sess_n": 202
+      },
+      "stack_swap_proven5": {
+        "n": 204,
+        "hit_pct": 72.55,
+        "wins": 148,
+        "losses": 56,
+        "points": 2561.0,
+        "days": 136,
+        "by_track": {
+          "champion": {
+            "n": 38,
+            "hit_pct": 94.74,
+            "points": 1367.0
+          },
+          "crown_5m": {
+            "n": 89,
+            "hit_pct": 68.54,
+            "points": 0.0
+          },
+          "good_prod2": {
+            "n": 72,
+            "hit_pct": 66.67,
+            "points": 1221.0
+          },
+          "proven_100": {
+            "n": 5,
+            "hit_pct": 60.0,
+            "points": -27.0
+          }
+        },
+        "proven_n": 5,
+        "sess_n": 202
+      },
+      "delta_stack_hit": -3.39,
+      "delta_stack_n": -8
+    },
+    "last_6m": {
+      "start": "2026-05-16",
+      "end": "2026-11-15",
+      "proven15_standalone": {
+        "n": 17,
+        "hit_pct": 100.0,
+        "wins": 17,
+        "losses": 0,
+        "points": 825.0,
+        "days": 17,
+        "by_track": {
+          "proven_100": {
+            "n": 17,
+            "hit_pct": 100.0,
+            "points": 825.0
+          }
+        }
+      },
+      "proven5_standalone": {
+        "n": 3,
+        "hit_pct": 66.67,
+        "wins": 2,
+        "losses": 1,
+        "points": 32.0,
+        "days": 3,
+        "by_track": {
+          "proven_100": {
+            "n": 3,
+            "hit_pct": 66.67,
+            "points": 32.0
+          }
+        }
+      },
+      "stack_baseline_proven15": {
+        "n": 114,
+        "hit_pct": 79.82,
+        "wins": 91,
+        "losses": 23,
+        "points": 2119.0,
+        "days": 72,
+        "by_track": {
+          "champion": {
+            "n": 20,
+            "hit_pct": 90.0,
+            "points": 610.0
+          },
+          "crown_5m": {
+            "n": 39,
+            "hit_pct": 79.49,
+            "points": 0.0
+          },
+          "good_prod2": {
+            "n": 38,
+            "hit_pct": 65.79,
+            "points": 684.0
+          },
+          "proven_100": {
+            "n": 17,
+            "hit_pct": 100.0,
+            "points": 825.0
+          }
+        },
+        "proven_n": 17,
+        "sess_n": 93
+      },
+      "stack_swap_proven5": {
+        "n": 108,
+        "hit_pct": 75.93,
+        "wins": 82,
+        "losses": 26,
+        "points": 1601.0,
+        "days": 70,
+        "by_track": {
+          "champion": {
+            "n": 20,
+            "hit_pct": 90.0,
+            "points": 610.0
+          },
+          "crown_5m": {
+            "n": 42,
+            "hit_pct": 76.19,
+            "points": 0.0
+          },
+          "good_prod2": {
+            "n": 43,
+            "hit_pct": 69.77,
+            "points": 959.0
+          },
+          "proven_100": {
+            "n": 3,
+            "hit_pct": 66.67,
+            "points": 32.0
+          }
+        },
+        "proven_n": 3,
+        "sess_n": 93
+      },
+      "delta_stack_hit": -3.89,
+      "delta_stack_n": -6
+    }
+  },
+  "verdict": "KEEP dual15 proven for LIVE \u2014 dual5 proven is weaker / thinner on locked windows.",
+  "elapsed_s": 0.4
+}

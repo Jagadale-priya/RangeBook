@@ -1,0 +1,2075 @@
+{
+  "union": {
+    "n_micros": 17,
+    "cal_n": 87,
+    "l3m_n": 29,
+    "cal_coverage_pct": 32.1,
+    "l3m_coverage_pct": 45.31,
+    "micros": [
+      {
+        "filter": {
+          "primaries": [
+            "three_outside_dn"
+          ],
+          "side": "SELL",
+          "regime": "reversal",
+          "align": 1,
+          "clocks": [
+            "early"
+          ],
+          "min_body": 0.45,
+          "max_sl_candle": 12.0,
+          "rsi_lo": 0,
+          "rsi_hi": 40
+        },
+        "cal_n": 7,
+        "l3m_n": 5,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "bull_kicker"
+          ],
+          "side": "BUY",
+          "regime": "reversal",
+          "align": 1,
+          "clocks": [
+            "late"
+          ],
+          "max_sl_candle": 12.0,
+          "rsi_lo": 40,
+          "rsi_hi": 60
+        },
+        "cal_n": 6,
+        "l3m_n": 4,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "three_outside_dn"
+          ],
+          "side": "SELL",
+          "regime": "balanced",
+          "align": 1,
+          "clocks": [
+            "early"
+          ],
+          "max_sl_candle": 12.0,
+          "rsi_lo": 0,
+          "rsi_hi": 40
+        },
+        "cal_n": 7,
+        "l3m_n": 3,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "hanging_man"
+          ],
+          "side": "SELL",
+          "regime": "continuation",
+          "align": 0,
+          "clocks": [
+            "early"
+          ],
+          "max_sl_candle": 12.0,
+          "rsi_lo": 40,
+          "rsi_hi": 60
+        },
+        "cal_n": 7,
+        "l3m_n": 2,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "bull_run2"
+          ],
+          "side": "BUY",
+          "regime": "reversal",
+          "align": 0,
+          "clocks": [
+            "late"
+          ],
+          "min_body": 0.45,
+          "max_sl_candle": 20.0,
+          "rsi_lo": 40,
+          "rsi_hi": 60
+        },
+        "cal_n": 4,
+        "l3m_n": 2,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "bull_kicker"
+          ],
+          "side": "BUY",
+          "regime": "continuation",
+          "align": 0,
+          "clocks": [
+            "early"
+          ],
+          "max_sl_candle": 12.0,
+          "rsi_lo": 60,
+          "rsi_hi": 100
+        },
+        "cal_n": 3,
+        "l3m_n": 2,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "bull_engulf"
+          ],
+          "side": "BUY",
+          "regime": "reversal",
+          "align": 0,
+          "clocks": [
+            "early"
+          ],
+          "min_body": 0.45,
+          "max_sl_candle": 20.0,
+          "rsi_lo": 40,
+          "rsi_hi": 60
+        },
+        "cal_n": 10,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "bull_run2"
+          ],
+          "side": "BUY",
+          "regime": "continuation",
+          "align": 0,
+          "clocks": [
+            "early"
+          ],
+          "min_body": 0.45,
+          "max_sl_candle": 15.0,
+          "rsi_lo": 60,
+          "rsi_hi": 100
+        },
+        "cal_n": 8,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "dark_cloud"
+          ],
+          "side": "SELL",
+          "regime": "reversal",
+          "align": 0,
+          "clocks": [
+            "early"
+          ],
+          "min_body": 0.45,
+          "max_sl_candle": 12.0,
+          "rsi_lo": 40,
+          "rsi_hi": 60
+        },
+        "cal_n": 5,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "three_soldiers"
+          ],
+          "side": "BUY",
+          "regime": "continuation",
+          "align": 1,
+          "clocks": [
+            "midday"
+          ],
+          "min_body": 0.45,
+          "max_sl_candle": 15.0,
+          "rsi_lo": 60,
+          "rsi_hi": 100
+        },
+        "cal_n": 5,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "hammer"
+          ],
+          "side": "BUY",
+          "regime": "balanced",
+          "align": 1,
+          "clocks": [
+            "morning"
+          ],
+          "max_sl_candle": 12.0,
+          "rsi_lo": 60,
+          "rsi_hi": 100
+        },
+        "cal_n": 4,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "bear_run2"
+          ],
+          "side": "SELL",
+          "regime": "continuation",
+          "align": 0,
+          "clocks": [
+            "midday"
+          ],
+          "min_body": 0.45,
+          "max_sl_candle": 15.0,
+          "rsi_lo": 0,
+          "rsi_hi": 40
+        },
+        "cal_n": 4,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "marubozu_bull"
+          ],
+          "side": "BUY",
+          "regime": "continuation",
+          "align": 0,
+          "clocks": [
+            "late"
+          ],
+          "min_body": 0.45,
+          "max_sl_candle": 15.0,
+          "rsi_lo": 60,
+          "rsi_hi": 100
+        },
+        "cal_n": 4,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "three_outside_dn"
+          ],
+          "side": "SELL",
+          "regime": "continuation",
+          "align": 0,
+          "clocks": [
+            "late"
+          ],
+          "min_body": 0.45,
+          "max_sl_candle": 15.0,
+          "rsi_lo": 40,
+          "rsi_hi": 60
+        },
+        "cal_n": 4,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "inv_hammer"
+          ],
+          "side": "BUY",
+          "regime": "balanced",
+          "align": 0,
+          "clocks": [
+            "late"
+          ],
+          "max_sl_candle": 12.0,
+          "rsi_lo": 0,
+          "rsi_hi": 40
+        },
+        "cal_n": 3,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "three_outside_up"
+          ],
+          "side": "BUY",
+          "regime": "balanced",
+          "align": 1,
+          "clocks": [
+            "early"
+          ],
+          "min_body": 0.45,
+          "max_sl_candle": 15.0,
+          "rsi_lo": 60,
+          "rsi_hi": 100
+        },
+        "cal_n": 3,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      },
+      {
+        "filter": {
+          "primaries": [
+            "bull_engulf"
+          ],
+          "side": "BUY",
+          "regime": "balanced",
+          "align": 0,
+          "clocks": [
+            "early"
+          ],
+          "max_sl_candle": 12.0,
+          "rsi_lo": 40,
+          "rsi_hi": 60
+        },
+        "cal_n": 3,
+        "l3m_n": 1,
+        "bracket": "fix20.0_8.0"
+      }
+    ],
+    "last3m_calls": [
+      {
+        "day": "2026-08-14",
+        "hm": "10:29",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24331.25,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "balanced",
+        "align_session": 1
+      },
+      {
+        "day": "2026-08-18",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "hanging_man",
+        "entry": 24232.3,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "continuation",
+        "align_session": 0
+      },
+      {
+        "day": "2026-08-20",
+        "hm": "12:48",
+        "decision": "BUY",
+        "primary": "three_soldiers",
+        "entry": 24245.15,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "continuation",
+        "align_session": 1
+      },
+      {
+        "day": "2026-08-21",
+        "hm": "09:31",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24220.8,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "balanced",
+        "align_session": 1
+      },
+      {
+        "day": "2026-08-24",
+        "hm": "09:40",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24280.85,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 1
+      },
+      {
+        "day": "2026-08-25",
+        "hm": "09:59",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24138.85,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 1
+      },
+      {
+        "day": "2026-08-26",
+        "hm": "09:21",
+        "decision": "BUY",
+        "primary": "three_outside_up",
+        "entry": 24344.1,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "balanced",
+        "align_session": 1
+      },
+      {
+        "day": "2026-08-31",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24052.0,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 1
+      },
+      {
+        "day": "2026-09-01",
+        "hm": "10:12",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 24037.6,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "continuation",
+        "align_session": 0
+      },
+      {
+        "day": "2026-09-03",
+        "hm": "10:07",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 23996.55,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "balanced",
+        "align_session": 1
+      },
+      {
+        "day": "2026-09-04",
+        "hm": "14:20",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23948.9,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 1
+      },
+      {
+        "day": "2026-09-09",
+        "hm": "09:56",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 23492.5,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 1
+      },
+      {
+        "day": "2026-09-17",
+        "hm": "14:01",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23269.35,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 1
+      },
+      {
+        "day": "2026-09-18",
+        "hm": "09:51",
+        "decision": "BUY",
+        "primary": "bull_engulf",
+        "entry": 23313.1,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "balanced",
+        "align_session": 0
+      },
+      {
+        "day": "2026-10-01",
+        "hm": "14:53",
+        "decision": "BUY",
+        "primary": "marubozu_bull",
+        "entry": 22401.5,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "continuation",
+        "align_session": 0
+      },
+      {
+        "day": "2026-10-05",
+        "hm": "14:27",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 22550.85,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 1
+      },
+      {
+        "day": "2026-10-06",
+        "hm": "11:13",
+        "decision": "BUY",
+        "primary": "hammer",
+        "entry": 22681.25,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "balanced",
+        "align_session": 1
+      },
+      {
+        "day": "2026-10-08",
+        "hm": "14:13",
+        "decision": "BUY",
+        "primary": "bull_run2",
+        "entry": 22228.9,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 0
+      },
+      {
+        "day": "2026-10-12",
+        "hm": "10:22",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 22485.95,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 1
+      },
+      {
+        "day": "2026-10-13",
+        "hm": "14:00",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 22552.95,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 1
+      },
+      {
+        "day": "2026-10-16",
+        "hm": "10:04",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23052.5,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "continuation",
+        "align_session": 0
+      },
+      {
+        "day": "2026-10-19",
+        "hm": "10:19",
+        "decision": "BUY",
+        "primary": "bull_engulf",
+        "entry": 23079.0,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 0
+      },
+      {
+        "day": "2026-10-21",
+        "hm": "10:27",
+        "decision": "BUY",
+        "primary": "bull_run2",
+        "entry": 22962.55,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "continuation",
+        "align_session": 0
+      },
+      {
+        "day": "2026-10-22",
+        "hm": "14:58",
+        "decision": "BUY",
+        "primary": "inv_hammer",
+        "entry": 22644.95,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "balanced",
+        "align_session": 0
+      },
+      {
+        "day": "2026-10-23",
+        "hm": "14:29",
+        "decision": "BUY",
+        "primary": "bull_run2",
+        "entry": 22546.85,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 0
+      },
+      {
+        "day": "2026-11-02",
+        "hm": "09:29",
+        "decision": "SELL",
+        "primary": "dark_cloud",
+        "entry": 23266.1,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "reversal",
+        "align_session": 0
+      },
+      {
+        "day": "2026-11-03",
+        "hm": "13:56",
+        "decision": "SELL",
+        "primary": "bear_run2",
+        "entry": 23709.45,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "continuation",
+        "align_session": 0
+      },
+      {
+        "day": "2026-11-04",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "hanging_man",
+        "entry": 23926.75,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "continuation",
+        "align_session": 0
+      },
+      {
+        "day": "2026-11-05",
+        "hm": "14:00",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24543.95,
+        "sl": 20.0,
+        "t1": 8.0,
+        "win": true,
+        "pre_regime": "continuation",
+        "align_session": 0
+      }
+    ]
+  },
+  "cascade": {
+    "calibrate": {
+      "n": 227,
+      "wins": 163,
+      "hit_pct": 71.81
+    },
+    "last3m": {
+      "n": 60,
+      "wins": 46,
+      "hit_pct": 76.67
+    },
+    "last3m_calls": [
+      {
+        "day": "2026-08-07",
+        "hm": "11:21",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 24570.65,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-10",
+        "hm": "09:30",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 24550.7,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-11",
+        "hm": "09:30",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 24483.8,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-12",
+        "hm": "10:15",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24360.2,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-08-13",
+        "hm": "09:28",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 24329.55,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-14",
+        "hm": "10:29",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24331.25,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-17",
+        "hm": "10:11",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24279.75,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-18",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "hanging_man",
+        "entry": 24232.3,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-19",
+        "hm": "09:24",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 24106.05,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-20",
+        "hm": "14:52",
+        "decision": "SELL",
+        "primary": "bear_engulf",
+        "entry": 24235.8,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-21",
+        "hm": "09:31",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24220.8,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-24",
+        "hm": "09:40",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24280.85,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-25",
+        "hm": "09:59",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24138.85,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-26",
+        "hm": "10:18",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 24318.45,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-27",
+        "hm": "09:29",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 24201.1,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-08-28",
+        "hm": "09:20",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 24112.05,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-08-31",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24052.0,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-01",
+        "hm": "14:42",
+        "decision": "BUY",
+        "primary": "bull_run2",
+        "entry": 23969.35,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-02",
+        "hm": "14:24",
+        "decision": "SELL",
+        "primary": "bear_engulf",
+        "entry": 23874.45,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-09-03",
+        "hm": "10:07",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 23996.55,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-04",
+        "hm": "14:20",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23948.9,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-07",
+        "hm": "09:26",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 23835.15,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-08",
+        "hm": "12:47",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 23653.6,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-09",
+        "hm": "09:56",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 23492.5,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-10",
+        "hm": "12:36",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 23445.85,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-11",
+        "hm": "10:20",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23294.25,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-15",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 23455.25,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-16",
+        "hm": "09:39",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 23151.3,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-17",
+        "hm": "14:01",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23269.35,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-18",
+        "hm": "10:24",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 23306.7,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-21",
+        "hm": "11:09",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23394.0,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-22",
+        "hm": "10:21",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 23448.0,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-23",
+        "hm": "10:44",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23412.8,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-24",
+        "hm": "12:34",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 23175.45,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-25",
+        "hm": "14:47",
+        "decision": "SELL",
+        "primary": "bear_engulf",
+        "entry": 23122.7,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-09-28",
+        "hm": "09:43",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 22860.85,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-09-29",
+        "hm": "09:26",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 22652.4,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-10-01",
+        "hm": "09:21",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 22540.75,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-10-05",
+        "hm": "14:27",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 22550.85,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-10-06",
+        "hm": "10:13",
+        "decision": "BUY",
+        "primary": "bull_run2",
+        "entry": 22642.5,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-10-07",
+        "hm": "09:26",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 22609.3,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-10-08",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 22495.45,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-10-09",
+        "hm": "12:13",
+        "decision": "SELL",
+        "primary": "marubozu_bear",
+        "entry": 22469.9,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-10-12",
+        "hm": "10:22",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 22485.95,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-10-13",
+        "hm": "14:00",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 22552.95,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-10-14",
+        "hm": "10:09",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 22680.55,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-10-16",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 22927.2,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-10-19",
+        "hm": "10:06",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 23052.7,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-10-21",
+        "hm": "10:05",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 22979.6,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-10-22",
+        "hm": "14:29",
+        "decision": "BUY",
+        "primary": "bull_engulf",
+        "entry": 22623.9,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-10-23",
+        "hm": "09:32",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 22700.6,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-10-26",
+        "hm": "09:20",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 22438.15,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-10-27",
+        "hm": "10:24",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 22699.6,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-10-28",
+        "hm": "14:14",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 22706.65,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-10-30",
+        "hm": "11:32",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23040.3,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-11-02",
+        "hm": "09:24",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 23254.2,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-11-03",
+        "hm": "11:45",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23671.55,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-11-04",
+        "hm": "09:35",
+        "decision": "SELL",
+        "primary": "hanging_man",
+        "entry": 23926.75,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      },
+      {
+        "day": "2026-11-05",
+        "hm": "10:12",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24367.15,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": false
+      },
+      {
+        "day": "2026-11-06",
+        "hm": "09:25",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 24475.95,
+        "sl": 20.0,
+        "t1": 10.0,
+        "win": true
+      }
+    ]
+  },
+  "scored": {
+    "tag": "near",
+    "thr": 25,
+    "calibrate": {
+      "n": 271,
+      "wins": 193,
+      "hit_pct": 71.22
+    },
+    "last3m": {
+      "n": 64,
+      "wins": 40,
+      "hit_pct": 62.5
+    },
+    "last3m_calls": [
+      {
+        "day": "2026-08-06",
+        "hm": "09:47",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 24656.55,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 98.27,
+        "win": false
+      },
+      {
+        "day": "2026-08-07",
+        "hm": "11:24",
+        "decision": "BUY",
+        "primary": "bull_run2",
+        "entry": 24576.25,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 91.78,
+        "win": true
+      },
+      {
+        "day": "2026-08-10",
+        "hm": "10:44",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 24603.65,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": true
+      },
+      {
+        "day": "2026-08-11",
+        "hm": "09:42",
+        "decision": "SELL",
+        "primary": "bear_engulf",
+        "entry": 24476.15,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.13,
+        "win": true
+      },
+      {
+        "day": "2026-08-12",
+        "hm": "11:52",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 24285.15,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 102.64,
+        "win": true
+      },
+      {
+        "day": "2026-08-13",
+        "hm": "10:30",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 24313.0,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": false
+      },
+      {
+        "day": "2026-08-14",
+        "hm": "09:29",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 24309.1,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": false
+      },
+      {
+        "day": "2026-08-17",
+        "hm": "09:58",
+        "decision": "SELL",
+        "primary": "bear_engulf",
+        "entry": 24289.25,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.13,
+        "win": true
+      },
+      {
+        "day": "2026-08-18",
+        "hm": "11:29",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 24182.3,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 102.64,
+        "win": false
+      },
+      {
+        "day": "2026-08-19",
+        "hm": "10:13",
+        "decision": "SELL",
+        "primary": "marubozu_bear",
+        "entry": 24085.3,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.85,
+        "win": true
+      },
+      {
+        "day": "2026-08-20",
+        "hm": "10:37",
+        "decision": "SELL",
+        "primary": "three_outside_dn",
+        "entry": 24202.1,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 93.07,
+        "win": false
+      },
+      {
+        "day": "2026-08-21",
+        "hm": "10:07",
+        "decision": "SELL",
+        "primary": "bear_run3",
+        "entry": 24232.1,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 96.69,
+        "win": false
+      },
+      {
+        "day": "2026-08-24",
+        "hm": "10:03",
+        "decision": "SELL",
+        "primary": "bear_engulf",
+        "entry": 24270.4,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.13,
+        "win": true
+      },
+      {
+        "day": "2026-08-25",
+        "hm": "09:38",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 24174.85,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": true
+      },
+      {
+        "day": "2026-08-26",
+        "hm": "09:24",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 24354.0,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": true
+      },
+      {
+        "day": "2026-08-27",
+        "hm": "10:51",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 24161.0,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": true
+      },
+      {
+        "day": "2026-08-28",
+        "hm": "11:57",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 24077.75,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": false
+      },
+      {
+        "day": "2026-08-31",
+        "hm": "11:11",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 23994.9,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 102.64,
+        "win": false
+      },
+      {
+        "day": "2026-09-01",
+        "hm": "09:47",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 24014.85,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": false
+      },
+      {
+        "day": "2026-09-02",
+        "hm": "11:24",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 23824.95,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 98.64,
+        "win": true
+      },
+      {
+        "day": "2026-09-03",
+        "hm": "09:39",
+        "decision": "BUY",
+        "primary": "three_outside_up",
+        "entry": 24006.1,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.38,
+        "win": true
+      },
+      {
+        "day": "2026-09-04",
+        "hm": "10:29",
+        "decision": "BUY",
+        "primary": "marubozu_bull",
+        "entry": 23964.75,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.04,
+        "win": true
+      },
+      {
+        "day": "2026-09-07",
+        "hm": "09:54",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 23817.15,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": true
+      },
+      {
+        "day": "2026-09-08",
+        "hm": "09:55",
+        "decision": "SELL",
+        "primary": "bear_engulf",
+        "entry": 23674.6,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.13,
+        "win": true
+      },
+      {
+        "day": "2026-09-09",
+        "hm": "11:51",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 23509.0,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": true
+      },
+      {
+        "day": "2026-09-10",
+        "hm": "10:02",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 23412.6,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": false
+      },
+      {
+        "day": "2026-09-11",
+        "hm": "09:41",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 23241.85,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": false
+      },
+      {
+        "day": "2026-09-15",
+        "hm": "10:49",
+        "decision": "SELL",
+        "primary": "marubozu_bear",
+        "entry": 23339.2,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.85,
+        "win": true
+      },
+      {
+        "day": "2026-09-16",
+        "hm": "10:34",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 23245.2,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": true
+      },
+      {
+        "day": "2026-09-17",
+        "hm": "10:10",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23316.15,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 98.27,
+        "win": false
+      },
+      {
+        "day": "2026-09-18",
+        "hm": "10:26",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 23304.2,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 102.64,
+        "win": true
+      },
+      {
+        "day": "2026-09-21",
+        "hm": "09:51",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23404.3,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 98.27,
+        "win": false
+      },
+      {
+        "day": "2026-09-22",
+        "hm": "10:32",
+        "decision": "SELL",
+        "primary": "marubozu_bear",
+        "entry": 23420.2,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.85,
+        "win": true
+      },
+      {
+        "day": "2026-09-23",
+        "hm": "09:47",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23386.45,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 98.27,
+        "win": false
+      },
+      {
+        "day": "2026-09-24",
+        "hm": "11:32",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 23204.45,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": true
+      },
+      {
+        "day": "2026-09-25",
+        "hm": "09:34",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 23111.45,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": false
+      },
+      {
+        "day": "2026-09-28",
+        "hm": "10:39",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 22830.55,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": true
+      },
+      {
+        "day": "2026-09-29",
+        "hm": "09:25",
+        "decision": "SELL",
+        "primary": "bear_run2",
+        "entry": 22660.0,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 96.76,
+        "win": true
+      },
+      {
+        "day": "2026-09-30",
+        "hm": "10:09",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 22739.0,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": true
+      },
+      {
+        "day": "2026-10-01",
+        "hm": "10:06",
+        "decision": "BUY",
+        "primary": "marubozu_bull",
+        "entry": 22606.8,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.04,
+        "win": false
+      },
+      {
+        "day": "2026-10-05",
+        "hm": "11:19",
+        "decision": "SELL",
+        "primary": "marubozu_bear",
+        "entry": 22482.45,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.85,
+        "win": true
+      },
+      {
+        "day": "2026-10-06",
+        "hm": "09:40",
+        "decision": "BUY",
+        "primary": "three_outside_up",
+        "entry": 22626.05,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.38,
+        "win": true
+      },
+      {
+        "day": "2026-10-07",
+        "hm": "09:34",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 22613.65,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": true
+      },
+      {
+        "day": "2026-10-08",
+        "hm": "10:18",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 22474.9,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 102.64,
+        "win": true
+      },
+      {
+        "day": "2026-10-09",
+        "hm": "09:42",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 22427.2,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": true
+      },
+      {
+        "day": "2026-10-12",
+        "hm": "10:18",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 22476.95,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 102.64,
+        "win": false
+      },
+      {
+        "day": "2026-10-13",
+        "hm": "09:47",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 22559.45,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": true
+      },
+      {
+        "day": "2026-10-14",
+        "hm": "10:41",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 22719.75,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": true
+      },
+      {
+        "day": "2026-10-15",
+        "hm": "10:22",
+        "decision": "BUY",
+        "primary": "three_soldiers",
+        "entry": 22910.3,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 98.57,
+        "win": true
+      },
+      {
+        "day": "2026-10-16",
+        "hm": "10:28",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 23143.9,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": false
+      },
+      {
+        "day": "2026-10-19",
+        "hm": "10:48",
+        "decision": "SELL",
+        "primary": "falling_3_methods",
+        "entry": 23030.5,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 98.64,
+        "win": false
+      },
+      {
+        "day": "2026-10-21",
+        "hm": "11:51",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 22810.8,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": false
+      },
+      {
+        "day": "2026-10-22",
+        "hm": "10:28",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 22734.45,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": false
+      },
+      {
+        "day": "2026-10-23",
+        "hm": "11:50",
+        "decision": "SELL",
+        "primary": "three_crows",
+        "entry": 22440.65,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 99.24,
+        "win": true
+      },
+      {
+        "day": "2026-10-26",
+        "hm": "10:08",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 22698.6,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 93.92,
+        "win": false
+      },
+      {
+        "day": "2026-10-27",
+        "hm": "10:33",
+        "decision": "BUY",
+        "primary": "marubozu_bull",
+        "entry": 22738.75,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.04,
+        "win": true
+      },
+      {
+        "day": "2026-10-28",
+        "hm": "10:20",
+        "decision": "SELL",
+        "primary": "bear_engulf",
+        "entry": 22513.75,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.13,
+        "win": true
+      },
+      {
+        "day": "2026-10-29",
+        "hm": "10:12",
+        "decision": "BUY",
+        "primary": "bull_run2",
+        "entry": 22793.4,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 95.78,
+        "win": true
+      },
+      {
+        "day": "2026-10-30",
+        "hm": "10:34",
+        "decision": "SELL",
+        "primary": "bear_engulf",
+        "entry": 22915.35,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.13,
+        "win": false
+      },
+      {
+        "day": "2026-11-02",
+        "hm": "10:26",
+        "decision": "BUY",
+        "primary": "bull_kicker",
+        "entry": 23331.35,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 98.27,
+        "win": true
+      },
+      {
+        "day": "2026-11-03",
+        "hm": "11:47",
+        "decision": "BUY",
+        "primary": "bull_run3",
+        "entry": 23685.15,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 96.16,
+        "win": true
+      },
+      {
+        "day": "2026-11-04",
+        "hm": "11:13",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 23816.05,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": true
+      },
+      {
+        "day": "2026-11-05",
+        "hm": "10:23",
+        "decision": "BUY",
+        "primary": "belt_bull",
+        "entry": 24401.15,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 97.92,
+        "win": false
+      },
+      {
+        "day": "2026-11-06",
+        "hm": "09:34",
+        "decision": "BUY",
+        "primary": "bull_run3",
+        "entry": 24546.2,
+        "sl": 20.0,
+        "t1": 10.0,
+        "score": 96.16,
+        "win": true
+      }
+    ],
+    "cal_miss": [
+      "2025-07-08",
+      "2025-07-10",
+      "2025-07-21",
+      "2025-07-31",
+      "2025-08-18",
+      "2025-08-19",
+      "2025-08-21",
+      "2025-08-22",
+      "2025-08-28",
+      "2025-09-02",
+      "2025-09-03",
+      "2025-09-04",
+      "2025-09-08",
+      "2025-09-11",
+      "2025-09-24",
+      "2025-09-25",
+      "2025-09-30",
+      "2025-10-08",
+      "2025-10-13",
+      "2025-10-14"
+    ],
+    "l3m_miss": [
+      "2026-08-06",
+      "2026-08-13",
+      "2026-08-14",
+      "2026-08-18",
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-28",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-10",
+      "2026-09-11",
+      "2026-09-17",
+      "2026-09-21",
+      "2026-09-23",
+      "2026-09-25",
+      "2026-10-01",
+      "2026-10-12",
+      "2026-10-16",
+      "2026-10-19",
+      "2026-10-21"
+    ]
+  },
+  "n_micros": 320,
+  "cal_lo": "2025-07-02",
+  "test_lo": "2026-08-06"
+}

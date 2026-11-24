@@ -1,0 +1,3301 @@
+{
+  "phase": "2f",
+  "phase1_held": true,
+  "phase2c_held": true,
+  "phase2e_seed": true,
+  "partial_note": "Seeded from salvaged P2e partial",
+  "window_end": "2026-11-13",
+  "streams_mined": 255020,
+  "perfect_streams": 111194,
+  "results": {
+    "ACC100_MULTI_V5": {
+      "mode": "day",
+      "floor": 100.0,
+      "phase1_3y": {
+        "n": 141,
+        "hit_pct": 100.0
+      },
+      "phase2e_3y_n": 241,
+      "baseline": {
+        "1y": {
+          "n": 54,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2015.0
+        },
+        "3y": {
+          "n": 141,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 4866.0
+        },
+        "5y": {
+          "n": 202,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 6982.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 88,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3130.0
+        },
+        "3y": {
+          "n": 241,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 8177.0
+        },
+        "5y": {
+          "n": 329,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 11259.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 110,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3919.0
+        },
+        "3y": {
+          "n": 291,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 10010.0
+        },
+        "5y": {
+          "n": 405,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 14076.0
+        }
+      },
+      "delta_vs_phase1_3y": 150,
+      "delta_vs_phase2e_3y": 50,
+      "added_streams_new": [
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_g029_wd_mtw_mid",
+          "new_n": 13,
+          "desk_n_3y": 243,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m945_any_nogap_wd_mf_mid",
+          "new_n": 12,
+          "desk_n_3y": 247,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1145_any_gup017_wd_all_raw",
+          "new_n": 9,
+          "desk_n_3y": 251,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD30_BUY_p51_m1045_any_nogap_wd_mf_mid",
+          "new_n": 8,
+          "desk_n_3y": 252,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1400_any_nogap_wd_mtw_mid",
+          "new_n": 8,
+          "desk_n_3y": 255,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1115_any_nogap_wd_all_raw",
+          "new_n": 8,
+          "desk_n_3y": 257,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1000_any_gup034_wd_wrf_mid",
+          "new_n": 6,
+          "desk_n_3y": 257,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p91_m920_any_nogap_wd_mtw_mid",
+          "new_n": 6,
+          "desk_n_3y": 258,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BUY_p51_core_any_gup023_wd_mf_mid",
+          "new_n": 5,
+          "desk_n_3y": 260,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD35_SELL_p54_all_any_gup013_wd_tt_first",
+          "new_n": 5,
+          "desk_n_3y": 263,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BUY_p67_m920_any_nogap_wd_tt_mid",
+          "new_n": 5,
+          "desk_n_3y": 263,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_gdn013_wd_mtw_mid",
+          "new_n": 4,
+          "desk_n_3y": 264,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1000_any_gdn023_wd_mf_mid",
+          "new_n": 4,
+          "desk_n_3y": 265,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p91_m1230_any_nogap_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 265,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BUY_p67_open2_any_nogap_wd_mf_mid",
+          "new_n": 4,
+          "desk_n_3y": 266,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1045_any_gdn013_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 266,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1115_any_g068_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 266,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1400_any_g013_wd_all_raw",
+          "new_n": 3,
+          "desk_n_3y": 266,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_tt_mid",
+          "new_n": 3,
+          "desk_n_3y": 267,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p51_core_htf_gdn023_wd_tt_mid",
+          "new_n": 3,
+          "desk_n_3y": 270,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_BOTH_p58_m1145_htf_nogap_wd_mf_mid",
+          "new_n": 3,
+          "desk_n_3y": 273,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1000_htf_gup034_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 274,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1020_any_g034_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 274,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1020_any_gup034_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 274,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD35_SELL_p54_m920_any_g013_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 275,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 275,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 275,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p91_m945_any_nogap_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 276,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BUY_p67_core_any_gup013_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 277,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BUY_p67_all_any_gdn023_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 277,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p54_m1145_any_gup017_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 279,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1000_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 279,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1230_any_gdn017_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 279,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1115_htf_gup023_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 279,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1115_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 279,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1020_any_gdn034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D5_BOTH_p67_all_htf_gdn017_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p91_open2_any_gup023_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p91_m1145_any_gup013_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m945_any_gdn013_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1020_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p58_m1400_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 281,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1145_any_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 282,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1115_any_nogap_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 283,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1315_htf_gdn013_wd_mf_first",
+          "new_n": 1,
+          "desk_n_3y": 284,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1115_htf_g034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 285,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_BUY_p56_m1115_htf_nogap_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 286,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_SELL_p56_m1430_any_gdn017_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_BUY_p54_core_any_gdn013_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 288,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_BUY_p51_core_any_gdn017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 289,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR20_BUY_p56_core_htf_g029_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 290,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "CF3_T100_gd40_cr30_ch",
+          "new_n": 1,
+          "desk_n_3y": 291,
+          "desk_hit_3y": 100.0
+        }
+      ],
+      "candidate_tag": "ACC100_MULTI_V11"
+    },
+    "ACC_WIDE_P92": {
+      "mode": "day",
+      "floor": 99.24,
+      "phase1_3y": {
+        "n": 131,
+        "hit_pct": 99.24
+      },
+      "phase2e_3y_n": 243,
+      "baseline": {
+        "1y": {
+          "n": 52,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 1949.0
+        },
+        "3y": {
+          "n": 131,
+          "hit_pct": 99.2366,
+          "perfect": false,
+          "points": 4411.0
+        },
+        "5y": {
+          "n": 199,
+          "hit_pct": 97.4874,
+          "perfect": false,
+          "points": 6469.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 88,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3125.0
+        },
+        "3y": {
+          "n": 243,
+          "hit_pct": 99.5885,
+          "perfect": false,
+          "points": 8192.0
+        },
+        "5y": {
+          "n": 337,
+          "hit_pct": 98.5163,
+          "perfect": false,
+          "points": 11188.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 110,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3914.0
+        },
+        "3y": {
+          "n": 292,
+          "hit_pct": 99.6575,
+          "perfect": false,
+          "points": 9985.0
+        },
+        "5y": {
+          "n": 410,
+          "hit_pct": 98.7805,
+          "perfect": false,
+          "points": 13885.0
+        }
+      },
+      "delta_vs_phase1_3y": 161,
+      "delta_vs_phase2e_3y": 49,
+      "added_streams_new": [
+        {
+          "tag": "F_D15_BOTH_p67_m945_any_nogap_wd_mf_mid",
+          "new_n": 12,
+          "desk_n_3y": 247,
+          "desk_hit_3y": 99.5951
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_gdn013_wd_mtw_mid",
+          "new_n": 10,
+          "desk_n_3y": 249,
+          "desk_hit_3y": 99.5984
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1145_any_gup017_wd_all_raw",
+          "new_n": 8,
+          "desk_n_3y": 253,
+          "desk_hit_3y": 99.6047
+        },
+        {
+          "tag": "F_GD30_BUY_p51_m1045_any_nogap_wd_mf_mid",
+          "new_n": 8,
+          "desk_n_3y": 254,
+          "desk_hit_3y": 99.6063
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1400_any_nogap_wd_mtw_mid",
+          "new_n": 8,
+          "desk_n_3y": 257,
+          "desk_hit_3y": 99.6109
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1115_any_nogap_wd_all_raw",
+          "new_n": 8,
+          "desk_n_3y": 259,
+          "desk_hit_3y": 99.6139
+        },
+        {
+          "tag": "F_D15_SELL_p91_m920_any_nogap_wd_mtw_mid",
+          "new_n": 6,
+          "desk_n_3y": 260,
+          "desk_hit_3y": 99.6154
+        },
+        {
+          "tag": "F_GD35_SELL_p54_all_any_gup013_wd_tt_first",
+          "new_n": 5,
+          "desk_n_3y": 263,
+          "desk_hit_3y": 99.6198
+        },
+        {
+          "tag": "F_D15_BUY_p67_m920_any_nogap_wd_tt_mid",
+          "new_n": 5,
+          "desk_n_3y": 263,
+          "desk_hit_3y": 99.6198
+        },
+        {
+          "tag": "F_GD40_BUY_p51_core_any_gup023_wd_mf_mid",
+          "new_n": 4,
+          "desk_n_3y": 265,
+          "desk_hit_3y": 99.6226
+        },
+        {
+          "tag": "F_D15_SELL_p91_m1230_any_nogap_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 265,
+          "desk_hit_3y": 99.6226
+        },
+        {
+          "tag": "F_D15_BUY_p67_open2_any_nogap_wd_mf_mid",
+          "new_n": 4,
+          "desk_n_3y": 266,
+          "desk_hit_3y": 99.6241
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_g029_wd_mtw_mid",
+          "new_n": 3,
+          "desk_n_3y": 267,
+          "desk_hit_3y": 99.6255
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1045_any_gdn013_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 267,
+          "desk_hit_3y": 99.6255
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1000_any_gdn023_wd_mf_mid",
+          "new_n": 3,
+          "desk_n_3y": 268,
+          "desk_hit_3y": 99.6269
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1400_any_g013_wd_all_raw",
+          "new_n": 3,
+          "desk_n_3y": 268,
+          "desk_hit_3y": 99.6269
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_tt_mid",
+          "new_n": 3,
+          "desk_n_3y": 269,
+          "desk_hit_3y": 99.6283
+        },
+        {
+          "tag": "F_CR40_SELL_p51_core_htf_gdn023_wd_tt_mid",
+          "new_n": 3,
+          "desk_n_3y": 272,
+          "desk_hit_3y": 99.6324
+        },
+        {
+          "tag": "F_CR30_BOTH_p58_m1145_htf_nogap_wd_mf_mid",
+          "new_n": 3,
+          "desk_n_3y": 275,
+          "desk_hit_3y": 99.6364
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1020_any_g034_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 275,
+          "desk_hit_3y": 99.6364
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1115_any_g068_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 275,
+          "desk_hit_3y": 99.6364
+        },
+        {
+          "tag": "F_GD35_SELL_p54_m920_any_g013_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 276,
+          "desk_hit_3y": 99.6377
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 276,
+          "desk_hit_3y": 99.6377
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 276,
+          "desk_hit_3y": 99.6377
+        },
+        {
+          "tag": "F_D15_SELL_p91_m945_any_nogap_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 277,
+          "desk_hit_3y": 99.639
+        },
+        {
+          "tag": "F_D15_BUY_p67_core_any_gup013_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 278,
+          "desk_hit_3y": 99.6403
+        },
+        {
+          "tag": "F_D15_BUY_p67_all_any_gdn023_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 278,
+          "desk_hit_3y": 99.6403
+        },
+        {
+          "tag": "F_CR40_SELL_p54_m1145_any_gup017_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 99.6429
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1000_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 99.6429
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1230_any_gdn017_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 99.6429
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1115_htf_gup023_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 99.6429
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1000_any_gup034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 99.6429
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1115_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 99.6429
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1020_any_gdn034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 281,
+          "desk_hit_3y": 99.6441
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1020_any_gup034_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 281,
+          "desk_hit_3y": 99.6441
+        },
+        {
+          "tag": "F_D5_BOTH_p67_all_htf_gdn017_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 281,
+          "desk_hit_3y": 99.6441
+        },
+        {
+          "tag": "F_D15_SELL_p91_open2_any_gup023_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 281,
+          "desk_hit_3y": 99.6441
+        },
+        {
+          "tag": "F_D15_SELL_p91_m1145_any_gup013_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 281,
+          "desk_hit_3y": 99.6441
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m945_any_gdn013_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 281,
+          "desk_hit_3y": 99.6441
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 281,
+          "desk_hit_3y": 99.6441
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1020_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 281,
+          "desk_hit_3y": 99.6441
+        },
+        {
+          "tag": "F_CR40_SELL_p58_m1400_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 282,
+          "desk_hit_3y": 99.6454
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1145_any_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 283,
+          "desk_hit_3y": 99.6466
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1115_any_nogap_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 284,
+          "desk_hit_3y": 99.6479
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1315_htf_gdn013_wd_mf_first",
+          "new_n": 1,
+          "desk_n_3y": 285,
+          "desk_hit_3y": 99.6491
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1115_htf_g034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 286,
+          "desk_hit_3y": 99.6503
+        },
+        {
+          "tag": "F_CR40_BUY_p56_m1115_htf_nogap_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 99.6516
+        },
+        {
+          "tag": "F_CR30_SELL_p56_m1430_any_gdn017_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 288,
+          "desk_hit_3y": 99.6528
+        },
+        {
+          "tag": "F_CR30_BUY_p54_core_any_gdn013_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 289,
+          "desk_hit_3y": 99.654
+        },
+        {
+          "tag": "F_CR30_BUY_p51_core_any_gdn017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 290,
+          "desk_hit_3y": 99.6552
+        },
+        {
+          "tag": "F_CR20_BUY_p56_core_htf_g029_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 291,
+          "desk_hit_3y": 99.6564
+        },
+        {
+          "tag": "CF3_T100_gd40_cr30_ch",
+          "new_n": 1,
+          "desk_n_3y": 292,
+          "desk_hit_3y": 99.6575
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P92_P2F"
+    },
+    "ACC_WIDE_P90": {
+      "mode": "day",
+      "floor": 95.4,
+      "phase1_3y": {
+        "n": 174,
+        "hit_pct": 95.4
+      },
+      "phase2e_3y_n": 274,
+      "baseline": {
+        "1y": {
+          "n": 65,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2486.0
+        },
+        "3y": {
+          "n": 174,
+          "hit_pct": 95.4023,
+          "perfect": false,
+          "points": 5661.0
+        },
+        "5y": {
+          "n": 259,
+          "hit_pct": 94.9807,
+          "perfect": false,
+          "points": 8279.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 97,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3600.0
+        },
+        "3y": {
+          "n": 274,
+          "hit_pct": 96.3504,
+          "perfect": false,
+          "points": 8872.0
+        },
+        "5y": {
+          "n": 381,
+          "hit_pct": 95.2756,
+          "perfect": false,
+          "points": 12076.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 112,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 4110.0
+        },
+        "3y": {
+          "n": 303,
+          "hit_pct": 96.6997,
+          "perfect": false,
+          "points": 9886.0
+        },
+        "5y": {
+          "n": 426,
+          "hit_pct": 95.7746,
+          "perfect": false,
+          "points": 13697.0
+        }
+      },
+      "delta_vs_phase1_3y": 129,
+      "delta_vs_phase2e_3y": 29,
+      "added_streams_new": [
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_gdn013_wd_mtw_mid",
+          "new_n": 10,
+          "desk_n_3y": 276,
+          "desk_hit_3y": 96.3768
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1400_any_nogap_wd_mtw_mid",
+          "new_n": 8,
+          "desk_n_3y": 279,
+          "desk_hit_3y": 96.4158
+        },
+        {
+          "tag": "F_D15_BOTH_p91_all_any_g013_wd_wrf_mid",
+          "new_n": 5,
+          "desk_n_3y": 279,
+          "desk_hit_3y": 96.4158
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_core_any_gup034_wd_mtw_mid",
+          "new_n": 4,
+          "desk_n_3y": 279,
+          "desk_hit_3y": 96.4158
+        },
+        {
+          "tag": "F_D15_SELL_p91_m945_any_nogap_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 96.4286
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 96.4286
+        },
+        {
+          "tag": "F_D15_SELL_p91_m920_any_nogap_wd_mtw_mid",
+          "new_n": 3,
+          "desk_n_3y": 280,
+          "desk_hit_3y": 96.4286
+        },
+        {
+          "tag": "F_CR40_SELL_p51_core_htf_gdn023_wd_tt_mid",
+          "new_n": 3,
+          "desk_n_3y": 283,
+          "desk_hit_3y": 96.4664
+        },
+        {
+          "tag": "F_CR30_BOTH_p58_m1145_htf_nogap_wd_mf_mid",
+          "new_n": 3,
+          "desk_n_3y": 286,
+          "desk_hit_3y": 96.5035
+        },
+        {
+          "tag": "F_GD40_BUY_p51_core_htf_gup023_wd_mf_mid",
+          "new_n": 2,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 96.5157
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1000_any_gdn023_wd_mf_mid",
+          "new_n": 2,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 96.5157
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1115_any_g068_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 96.5157
+        },
+        {
+          "tag": "F_GD35_SELL_p54_all_any_gup013_wd_tt_first",
+          "new_n": 2,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 96.5157
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 96.5157
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 96.5157
+        },
+        {
+          "tag": "F_D15_SELL_p91_m1230_any_nogap_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 96.5157
+        },
+        {
+          "tag": "F_D15_BUY_p67_all_any_gdn023_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 96.5157
+        },
+        {
+          "tag": "F_CR40_SELL_p54_m1145_any_gup017_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 289,
+          "desk_hit_3y": 96.5398
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1000_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 289,
+          "desk_hit_3y": 96.5398
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1230_any_gdn017_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 289,
+          "desk_hit_3y": 96.5398
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1115_htf_gup023_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 289,
+          "desk_hit_3y": 96.5398
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_htf_g029_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 290,
+          "desk_hit_3y": 96.5517
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1000_any_gup034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 290,
+          "desk_hit_3y": 96.5517
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1045_any_gdn013_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 290,
+          "desk_hit_3y": 96.5517
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1020_any_gdn034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 291,
+          "desk_hit_3y": 96.5636
+        },
+        {
+          "tag": "F_GD35_SELL_p54_m920_any_g013_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 291,
+          "desk_hit_3y": 96.5636
+        },
+        {
+          "tag": "F_GD30_BUY_p51_m1045_htf_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 292,
+          "desk_hit_3y": 96.5753
+        },
+        {
+          "tag": "F_D15_SELL_p91_m945_any_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 292,
+          "desk_hit_3y": 96.5753
+        },
+        {
+          "tag": "F_D15_SELL_p91_m1115_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 292,
+          "desk_hit_3y": 96.5753
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1400_any_g013_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 292,
+          "desk_hit_3y": 96.5753
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1230_any_gup013_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 293,
+          "desk_hit_3y": 96.587
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m930_any_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 293,
+          "desk_hit_3y": 96.587
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 293,
+          "desk_hit_3y": 96.587
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1020_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 293,
+          "desk_hit_3y": 96.587
+        },
+        {
+          "tag": "F_CR40_SELL_p58_m1400_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 294,
+          "desk_hit_3y": 96.5986
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1145_any_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 295,
+          "desk_hit_3y": 96.6102
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1315_htf_gdn013_wd_mf_first",
+          "new_n": 1,
+          "desk_n_3y": 296,
+          "desk_hit_3y": 96.6216
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1115_htf_g034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 297,
+          "desk_hit_3y": 96.633
+        },
+        {
+          "tag": "F_CR40_BUY_p56_m1115_htf_nogap_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 298,
+          "desk_hit_3y": 96.6443
+        },
+        {
+          "tag": "F_CR30_SELL_p56_m1430_any_gdn017_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 299,
+          "desk_hit_3y": 96.6555
+        },
+        {
+          "tag": "F_CR30_BUY_p54_core_any_gdn013_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 300,
+          "desk_hit_3y": 96.6667
+        },
+        {
+          "tag": "F_CR30_BUY_p51_core_any_gdn017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 301,
+          "desk_hit_3y": 96.6777
+        },
+        {
+          "tag": "F_CR20_BUY_p56_core_htf_g029_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 302,
+          "desk_hit_3y": 96.6887
+        },
+        {
+          "tag": "CF3_T100_gd40_cr30_ch",
+          "new_n": 1,
+          "desk_n_3y": 303,
+          "desk_hit_3y": 96.6997
+        },
+        {
+          "tag": "F_D15_SELL_p91_all_any_g013_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 303,
+          "desk_hit_3y": 96.6997
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P90_P2F"
+    },
+    "ACC_WIDE_P85": {
+      "mode": "day",
+      "floor": 89.69,
+      "phase1_3y": {
+        "n": 223,
+        "hit_pct": 89.69
+      },
+      "phase2e_3y_n": 317,
+      "baseline": {
+        "1y": {
+          "n": 86,
+          "hit_pct": 94.186,
+          "perfect": false,
+          "points": 2948.0
+        },
+        "3y": {
+          "n": 223,
+          "hit_pct": 89.6861,
+          "perfect": false,
+          "points": 6298.0
+        },
+        "5y": {
+          "n": 326,
+          "hit_pct": 89.8773,
+          "perfect": false,
+          "points": 9239.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 114,
+          "hit_pct": 92.9825,
+          "perfect": false,
+          "points": 3622.0
+        },
+        "3y": {
+          "n": 317,
+          "hit_pct": 89.9054,
+          "perfect": false,
+          "points": 8708.0
+        },
+        "5y": {
+          "n": 453,
+          "hit_pct": 88.521,
+          "perfect": false,
+          "points": 12179.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 116,
+          "hit_pct": 93.1034,
+          "perfect": false,
+          "points": 3692.0
+        },
+        "3y": {
+          "n": 326,
+          "hit_pct": 89.8773,
+          "perfect": false,
+          "points": 8972.0
+        },
+        "5y": {
+          "n": 482,
+          "hit_pct": 88.3817,
+          "perfect": false,
+          "points": 12982.0
+        }
+      },
+      "delta_vs_phase1_3y": 103,
+      "delta_vs_phase2e_3y": 9,
+      "added_streams_new": [
+        {
+          "tag": "F_GD40_SELL_p51_m945_any_gup013_wd_wrf_mid",
+          "new_n": 18,
+          "desk_n_3y": 321,
+          "desk_hit_3y": 89.7196
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_gdn013_wd_mtw_mid",
+          "new_n": 9,
+          "desk_n_3y": 323,
+          "desk_hit_3y": 89.7833
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1400_any_nogap_wd_mtw_mid",
+          "new_n": 6,
+          "desk_n_3y": 325,
+          "desk_hit_3y": 89.8462
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_core_any_gup023_wd_mf_mid",
+          "new_n": 4,
+          "desk_n_3y": 325,
+          "desk_hit_3y": 89.8462
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1000_any_nogap_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 326,
+          "desk_hit_3y": 89.8773
+        },
+        {
+          "tag": "F_GD40_BUY_p51_core_any_g029_wd_mf_mid",
+          "new_n": 2,
+          "desk_n_3y": 326,
+          "desk_hit_3y": 89.8773
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1020_any_gup017_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 326,
+          "desk_hit_3y": 89.8773
+        },
+        {
+          "tag": "F_GD30_SELL_p51_m1145_htf_g034_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 326,
+          "desk_hit_3y": 89.8773
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 326,
+          "desk_hit_3y": 89.8773
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 326,
+          "desk_hit_3y": 89.8773
+        },
+        {
+          "tag": "F_D15_BUY_p67_all_any_gdn023_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 326,
+          "desk_hit_3y": 89.8773
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P85_P2F"
+    },
+    "ACC_WIDE_P85B": {
+      "mode": "day",
+      "floor": 88.4,
+      "phase1_3y": {
+        "n": 250,
+        "hit_pct": 88.4
+      },
+      "phase2e_3y_n": 329,
+      "baseline": {
+        "1y": {
+          "n": 99,
+          "hit_pct": 92.9293,
+          "perfect": false,
+          "points": 3245.0
+        },
+        "3y": {
+          "n": 250,
+          "hit_pct": 88.4,
+          "perfect": false,
+          "points": 6748.0
+        },
+        "5y": {
+          "n": 364,
+          "hit_pct": 88.1868,
+          "perfect": false,
+          "points": 9833.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 117,
+          "hit_pct": 92.3077,
+          "perfect": false,
+          "points": 3675.0
+        },
+        "3y": {
+          "n": 329,
+          "hit_pct": 88.4498,
+          "perfect": false,
+          "points": 8740.0
+        },
+        "5y": {
+          "n": 471,
+          "hit_pct": 87.0488,
+          "perfect": false,
+          "points": 12235.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 121,
+          "hit_pct": 92.562,
+          "perfect": false,
+          "points": 3815.0
+        },
+        "3y": {
+          "n": 342,
+          "hit_pct": 88.5965,
+          "perfect": false,
+          "points": 9129.0
+        },
+        "5y": {
+          "n": 502,
+          "hit_pct": 86.8526,
+          "perfect": false,
+          "points": 13009.0
+        }
+      },
+      "delta_vs_phase1_3y": 92,
+      "delta_vs_phase2e_3y": 13,
+      "added_streams_new": [
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_gdn013_wd_mtw_mid",
+          "new_n": 8,
+          "desk_n_3y": 331,
+          "desk_hit_3y": 88.5196
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1400_any_nogap_wd_mtw_mid",
+          "new_n": 6,
+          "desk_n_3y": 333,
+          "desk_hit_3y": 88.5886
+        },
+        {
+          "tag": "F_GD35_BUY_p51_core_any_nogap_wd_mf_mid",
+          "new_n": 4,
+          "desk_n_3y": 334,
+          "desk_hit_3y": 88.6228
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m945_any_gup013_wd_wrf_mid",
+          "new_n": 14,
+          "desk_n_3y": 337,
+          "desk_hit_3y": 88.4273
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_core_any_gup023_wd_mf_mid",
+          "new_n": 3,
+          "desk_n_3y": 337,
+          "desk_hit_3y": 88.4273
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1020_any_gup017_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 337,
+          "desk_hit_3y": 88.4273
+        },
+        {
+          "tag": "F_GD30_SELL_p51_m1145_htf_g034_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 337,
+          "desk_hit_3y": 88.4273
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 337,
+          "desk_hit_3y": 88.4273
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 337,
+          "desk_hit_3y": 88.4273
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1000_any_nogap_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 337,
+          "desk_hit_3y": 88.4273
+        },
+        {
+          "tag": "F_D15_BUY_p67_core_any_nogap_wd_mf_mid",
+          "new_n": 2,
+          "desk_n_3y": 337,
+          "desk_hit_3y": 88.4273
+        },
+        {
+          "tag": "F_CR30_SELL_p54_m1230_htf_nogap_wd_wrf_first",
+          "new_n": 2,
+          "desk_n_3y": 339,
+          "desk_hit_3y": 88.4956
+        },
+        {
+          "tag": "F_GD40_SELL_p51_all_htf_gup034_wd_mf_first",
+          "new_n": 1,
+          "desk_n_3y": 339,
+          "desk_hit_3y": 88.4956
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1145_any_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 340,
+          "desk_hit_3y": 88.5294
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1315_htf_gdn013_wd_mf_first",
+          "new_n": 1,
+          "desk_n_3y": 341,
+          "desk_hit_3y": 88.563
+        },
+        {
+          "tag": "F_CR30_BUY_p54_core_any_gdn013_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 342,
+          "desk_hit_3y": 88.5965
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1045_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 342,
+          "desk_hit_3y": 88.5965
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1000_any_nogap_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 342,
+          "desk_hit_3y": 88.5965
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P85B_P2F"
+    },
+    "ACC_WIDE_P80": {
+      "mode": "day",
+      "floor": 84.72,
+      "phase1_3y": {
+        "n": 301,
+        "hit_pct": 84.72
+      },
+      "phase2e_3y_n": 360,
+      "baseline": {
+        "1y": {
+          "n": 109,
+          "hit_pct": 89.9083,
+          "perfect": false,
+          "points": 3330.0
+        },
+        "3y": {
+          "n": 301,
+          "hit_pct": 84.7176,
+          "perfect": false,
+          "points": 7400.0
+        },
+        "5y": {
+          "n": 442,
+          "hit_pct": 83.4842,
+          "perfect": false,
+          "points": 10595.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 123,
+          "hit_pct": 90.2439,
+          "perfect": false,
+          "points": 3685.0
+        },
+        "3y": {
+          "n": 359,
+          "hit_pct": 84.9582,
+          "perfect": false,
+          "points": 8817.0
+        },
+        "5y": {
+          "n": 528,
+          "hit_pct": 83.3333,
+          "perfect": false,
+          "points": 12587.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 127,
+          "hit_pct": 90.5512,
+          "perfect": false,
+          "points": 3805.0
+        },
+        "3y": {
+          "n": 375,
+          "hit_pct": 84.8,
+          "perfect": false,
+          "points": 9132.0
+        },
+        "5y": {
+          "n": 558,
+          "hit_pct": 83.1541,
+          "perfect": false,
+          "points": 13222.0
+        }
+      },
+      "delta_vs_phase1_3y": 74,
+      "delta_vs_phase2e_3y": 15,
+      "added_streams_new": [
+        {
+          "tag": "F_GD40_BUY_p51_all_any_gup023_wd_mf_mid",
+          "new_n": 10,
+          "desk_n_3y": 360,
+          "desk_hit_3y": 84.7222
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_g013_wd_mtw_mid",
+          "new_n": 9,
+          "desk_n_3y": 362,
+          "desk_hit_3y": 84.8066
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m920_htf_nogap_wd_tt_mid",
+          "new_n": 7,
+          "desk_n_3y": 365,
+          "desk_hit_3y": 84.9315
+        },
+        {
+          "tag": "F_GD40_BUY_p51_all_any_gup023_wd_mtw_mid",
+          "new_n": 7,
+          "desk_n_3y": 367,
+          "desk_hit_3y": 84.7411
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m945_any_gup013_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 368,
+          "desk_hit_3y": 84.7826
+        },
+        {
+          "tag": "F_CR20_SELL_p51_m1430_htf_nogap_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 372,
+          "desk_hit_3y": 84.9462
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 372,
+          "desk_hit_3y": 84.9462
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_core_any_gup017_wd_mf_mid",
+          "new_n": 2,
+          "desk_n_3y": 374,
+          "desk_hit_3y": 84.7594
+        },
+        {
+          "tag": "F_GD35_BUY_p51_core_any_nogap_wd_mf_mid",
+          "new_n": 2,
+          "desk_n_3y": 375,
+          "desk_hit_3y": 84.8
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 375,
+          "desk_hit_3y": 84.8
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1045_any_g017_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 375,
+          "desk_hit_3y": 84.8
+        },
+        {
+          "tag": "F_GD30_SELL_p54_m945_any_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 375,
+          "desk_hit_3y": 84.8
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P80_P2F"
+    },
+    "ACC_WIDE_P75": {
+      "mode": "day",
+      "floor": 82.71,
+      "phase1_3y": {
+        "n": 347,
+        "hit_pct": 82.71
+      },
+      "phase2e_3y_n": 382,
+      "baseline": {
+        "1y": {
+          "n": 116,
+          "hit_pct": 87.931,
+          "perfect": false,
+          "points": 3350.0
+        },
+        "3y": {
+          "n": 347,
+          "hit_pct": 82.7089,
+          "perfect": false,
+          "points": 8035.0
+        },
+        "5y": {
+          "n": 514,
+          "hit_pct": 81.7121,
+          "perfect": false,
+          "points": 11700.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 128,
+          "hit_pct": 88.2812,
+          "perfect": false,
+          "points": 3660.0
+        },
+        "3y": {
+          "n": 382,
+          "hit_pct": 82.7225,
+          "perfect": false,
+          "points": 8862.0
+        },
+        "5y": {
+          "n": 566,
+          "hit_pct": 81.2721,
+          "perfect": false,
+          "points": 12742.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 130,
+          "hit_pct": 88.4615,
+          "perfect": false,
+          "points": 3720.0
+        },
+        "3y": {
+          "n": 386,
+          "hit_pct": 82.9016,
+          "perfect": false,
+          "points": 8982.0
+        },
+        "5y": {
+          "n": 580,
+          "hit_pct": 81.2069,
+          "perfect": false,
+          "points": 13022.0
+        }
+      },
+      "delta_vs_phase1_3y": 39,
+      "delta_vs_phase2e_3y": 4,
+      "added_streams_new": [
+        {
+          "tag": "F_GD40_SELL_p51_m920_htf_nogap_wd_tt_mid",
+          "new_n": 6,
+          "desk_n_3y": 384,
+          "desk_hit_3y": 82.8125
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_g013_wd_mtw_mid",
+          "new_n": 4,
+          "desk_n_3y": 384,
+          "desk_hit_3y": 82.8125
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m945_any_gup013_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 384,
+          "desk_hit_3y": 82.8125
+        },
+        {
+          "tag": "F_GD40_BUY_p51_all_any_gup023_wd_mf_mid",
+          "new_n": 3,
+          "desk_n_3y": 384,
+          "desk_hit_3y": 82.8125
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 384,
+          "desk_hit_3y": 82.8125
+        },
+        {
+          "tag": "F_CR20_SELL_p51_m1430_htf_nogap_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 386,
+          "desk_hit_3y": 82.9016
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 386,
+          "desk_hit_3y": 82.9016
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_core_any_gup023_wd_all_mid",
+          "new_n": 1,
+          "desk_n_3y": 386,
+          "desk_hit_3y": 82.9016
+        },
+        {
+          "tag": "F_GD40_BUY_p51_all_any_gup023_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 386,
+          "desk_hit_3y": 82.9016
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P75_P2F"
+    },
+    "ACC100_MULTI_V5_CAP2": {
+      "mode": "cap2",
+      "floor": 100.0,
+      "phase2e_3y_n": 325,
+      "baseline": {
+        "1y": {
+          "n": 54,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2015.0
+        },
+        "3y": {
+          "n": 141,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 4866.0
+        },
+        "5y": {
+          "n": 202,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 6982.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 125,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 4240.0
+        },
+        "3y": {
+          "n": 325,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 10792.0
+        },
+        "5y": {
+          "n": 429,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 14446.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 161,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 5549.0
+        },
+        "3y": {
+          "n": 417,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 14112.0
+        },
+        "5y": {
+          "n": 552,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 18942.0
+        }
+      },
+      "delta_vs_phase1_3y": 276,
+      "delta_vs_phase2e_3y": 92,
+      "added_streams_new": [
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_g029_wd_mtw_mid",
+          "new_n": 16,
+          "desk_n_3y": 329,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1145_any_gup017_wd_all_raw",
+          "new_n": 14,
+          "desk_n_3y": 334,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m945_any_nogap_wd_mf_mid",
+          "new_n": 13,
+          "desk_n_3y": 339,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD30_BUY_p51_m1045_any_nogap_wd_mf_mid",
+          "new_n": 9,
+          "desk_n_3y": 341,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p91_m920_any_nogap_wd_mtw_mid",
+          "new_n": 8,
+          "desk_n_3y": 343,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1400_any_nogap_wd_mtw_mid",
+          "new_n": 8,
+          "desk_n_3y": 346,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1115_any_nogap_wd_all_raw",
+          "new_n": 8,
+          "desk_n_3y": 348,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1000_any_gup034_wd_wrf_mid",
+          "new_n": 7,
+          "desk_n_3y": 349,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1000_any_gdn023_wd_mf_mid",
+          "new_n": 7,
+          "desk_n_3y": 351,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD35_BOTH_p54_all_any_gup013_wd_tt_first",
+          "new_n": 6,
+          "desk_n_3y": 355,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_gdn013_wd_mtw_first",
+          "new_n": 5,
+          "desk_n_3y": 356,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BUY_p51_core_any_gup023_wd_mf_mid",
+          "new_n": 5,
+          "desk_n_3y": 358,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p91_core_any_gup013_wd_wrf_mid",
+          "new_n": 5,
+          "desk_n_3y": 359,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BUY_p67_m920_any_nogap_wd_tt_mid",
+          "new_n": 5,
+          "desk_n_3y": 359,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR35_SELL_p51_core_any_gdn013_wd_tt_mid",
+          "new_n": 5,
+          "desk_n_3y": 364,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_BUY_p58_core_htf_nogap_wd_mf_first",
+          "new_n": 5,
+          "desk_n_3y": 369,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1230_any_gdn017_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 371,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1045_any_gdn013_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 372,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BUY_p67_open2_any_nogap_wd_mf_mid",
+          "new_n": 4,
+          "desk_n_3y": 373,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1020_any_g029_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 373,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1115_any_g068_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 373,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 374,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p91_m945_any_nogap_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 375,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BUY_p67_all_any_gdn023_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 375,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_tt_mid",
+          "new_n": 3,
+          "desk_n_3y": 376,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1145_any_nogap_wd_mf_first",
+          "new_n": 3,
+          "desk_n_3y": 379,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1315_any_gdn013_wd_mf_first",
+          "new_n": 3,
+          "desk_n_3y": 382,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_SELL_p54_m1230_htf_nogap_wd_tt_first",
+          "new_n": 3,
+          "desk_n_3y": 385,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1000_htf_gup034_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 386,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1020_any_gup034_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 386,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD35_SELL_p54_m920_any_g013_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 387,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 387,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D5_BOTH_p67_all_htf_gdn017_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 388,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p91_m1230_any_nogap_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 388,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1000_any_g017_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 389,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1145_any_gup013_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 390,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p54_m1145_any_gup017_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 392,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1230_htf_gdn013_wd_wrf_first",
+          "new_n": 2,
+          "desk_n_3y": 394,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR20_SELL_p54_m1145_htf_g023_wd_wrf_first",
+          "new_n": 2,
+          "desk_n_3y": 396,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR20_SELL_p51_m1115_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 398,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1115_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 399,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1000_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 399,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p54_all_htf_gup017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 399,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1115_htf_gup023_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 399,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BUY_p54_m1045_htf_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 400,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1115_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 400,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1020_any_gdn034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 401,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D5_BUY_p67_open2_htf_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 402,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m945_any_g013_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 402,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p91_open2_any_gup023_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 402,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_SELL_p73_m1145_htf_nogap_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 403,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1400_any_g013_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 403,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m945_any_gdn013_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 403,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 403,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1020_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 403,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p58_m1400_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 404,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1115_any_nogap_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 405,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR40_BUY_p56_m1115_htf_nogap_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 406,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR35_BUY_p51_m1230_htf_gup023_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 407,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_SELL_p56_m1430_any_gdn017_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 408,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_SELL_p51_m1230_any_gup017_wd_wrf_first",
+          "new_n": 1,
+          "desk_n_3y": 409,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_BUY_p58_m1145_htf_g017_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 410,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_BUY_p54_core_any_gdn013_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 411,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_BUY_p51_m1230_htf_gdn017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 412,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR30_BUY_p51_core_any_gdn017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 413,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR20_SELL_p54_m1315_htf_gup034_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 414,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR20_SELL_p54_core_htf_gdn017_wd_mf_first",
+          "new_n": 1,
+          "desk_n_3y": 415,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "F_CR20_BUY_p56_core_htf_g029_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 416,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "CF3_T100_gd40_cr30_ch",
+          "new_n": 1,
+          "desk_n_3y": 417,
+          "desk_hit_3y": 100.0
+        }
+      ],
+      "candidate_tag": "ACC100_MULTI_V5_CAP2_P2F"
+    },
+    "ACC_WIDE_P92_CAP2": {
+      "mode": "cap2",
+      "floor": 99.24,
+      "phase2e_3y_n": 327,
+      "baseline": {
+        "1y": {
+          "n": 52,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 1949.0
+        },
+        "3y": {
+          "n": 131,
+          "hit_pct": 99.2366,
+          "perfect": false,
+          "points": 4411.0
+        },
+        "5y": {
+          "n": 199,
+          "hit_pct": 97.4874,
+          "perfect": false,
+          "points": 6469.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 125,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 4255.0
+        },
+        "3y": {
+          "n": 327,
+          "hit_pct": 99.6942,
+          "perfect": false,
+          "points": 10777.0
+        },
+        "5y": {
+          "n": 437,
+          "hit_pct": 98.8558,
+          "perfect": false,
+          "points": 14350.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 161,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 5564.0
+        },
+        "3y": {
+          "n": 418,
+          "hit_pct": 99.7608,
+          "perfect": false,
+          "points": 14057.0
+        },
+        "5y": {
+          "n": 557,
+          "hit_pct": 99.1023,
+          "perfect": false,
+          "points": 18726.0
+        }
+      },
+      "delta_vs_phase1_3y": 287,
+      "delta_vs_phase2e_3y": 91,
+      "added_streams_new": [
+        {
+          "tag": "F_D15_BOTH_p67_m945_any_nogap_wd_mf_mid",
+          "new_n": 13,
+          "desk_n_3y": 332,
+          "desk_hit_3y": 99.6988
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_gdn013_wd_mtw_mid",
+          "new_n": 12,
+          "desk_n_3y": 335,
+          "desk_hit_3y": 99.7015
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1145_any_gup017_wd_all_raw",
+          "new_n": 11,
+          "desk_n_3y": 340,
+          "desk_hit_3y": 99.7059
+        },
+        {
+          "tag": "F_GD30_BUY_p51_m1045_any_nogap_wd_mf_mid",
+          "new_n": 9,
+          "desk_n_3y": 342,
+          "desk_hit_3y": 99.7076
+        },
+        {
+          "tag": "F_D15_SELL_p91_m920_any_nogap_wd_mtw_mid",
+          "new_n": 8,
+          "desk_n_3y": 344,
+          "desk_hit_3y": 99.7093
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1400_any_nogap_wd_mtw_mid",
+          "new_n": 8,
+          "desk_n_3y": 347,
+          "desk_hit_3y": 99.7118
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1115_any_nogap_wd_all_raw",
+          "new_n": 8,
+          "desk_n_3y": 349,
+          "desk_hit_3y": 99.7135
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1000_any_gdn023_wd_mf_mid",
+          "new_n": 6,
+          "desk_n_3y": 351,
+          "desk_hit_3y": 99.7151
+        },
+        {
+          "tag": "F_GD35_BOTH_p54_all_any_gup013_wd_tt_first",
+          "new_n": 6,
+          "desk_n_3y": 355,
+          "desk_hit_3y": 99.7183
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_g029_wd_mtw_first",
+          "new_n": 5,
+          "desk_n_3y": 357,
+          "desk_hit_3y": 99.7199
+        },
+        {
+          "tag": "F_D15_SELL_p91_core_any_gup013_wd_wrf_mid",
+          "new_n": 5,
+          "desk_n_3y": 358,
+          "desk_hit_3y": 99.7207
+        },
+        {
+          "tag": "F_D15_BUY_p67_m920_any_nogap_wd_tt_mid",
+          "new_n": 5,
+          "desk_n_3y": 358,
+          "desk_hit_3y": 99.7207
+        },
+        {
+          "tag": "F_CR35_SELL_p51_core_any_gdn013_wd_tt_mid",
+          "new_n": 5,
+          "desk_n_3y": 363,
+          "desk_hit_3y": 99.7245
+        },
+        {
+          "tag": "F_CR30_BUY_p58_core_htf_nogap_wd_mf_first",
+          "new_n": 5,
+          "desk_n_3y": 368,
+          "desk_hit_3y": 99.7283
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1230_any_gdn017_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 370,
+          "desk_hit_3y": 99.7297
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1045_any_gdn013_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 371,
+          "desk_hit_3y": 99.7305
+        },
+        {
+          "tag": "F_GD40_BUY_p51_core_any_gup023_wd_mf_mid",
+          "new_n": 4,
+          "desk_n_3y": 373,
+          "desk_hit_3y": 99.7319
+        },
+        {
+          "tag": "F_D15_BUY_p67_open2_any_nogap_wd_mf_mid",
+          "new_n": 4,
+          "desk_n_3y": 374,
+          "desk_hit_3y": 99.7326
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1020_any_g029_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 374,
+          "desk_hit_3y": 99.7326
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 375,
+          "desk_hit_3y": 99.7333
+        },
+        {
+          "tag": "F_D15_SELL_p91_m945_any_nogap_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 376,
+          "desk_hit_3y": 99.734
+        },
+        {
+          "tag": "F_D15_BUY_p67_all_any_gdn023_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 376,
+          "desk_hit_3y": 99.734
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_tt_mid",
+          "new_n": 3,
+          "desk_n_3y": 377,
+          "desk_hit_3y": 99.7347
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1145_any_nogap_wd_mf_first",
+          "new_n": 3,
+          "desk_n_3y": 380,
+          "desk_hit_3y": 99.7368
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1315_any_gdn013_wd_mf_first",
+          "new_n": 3,
+          "desk_n_3y": 383,
+          "desk_hit_3y": 99.7389
+        },
+        {
+          "tag": "F_CR30_SELL_p54_m1230_htf_nogap_wd_tt_first",
+          "new_n": 3,
+          "desk_n_3y": 386,
+          "desk_hit_3y": 99.7409
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1115_htf_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 387,
+          "desk_hit_3y": 99.7416
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1000_any_gup034_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 388,
+          "desk_hit_3y": 99.7423
+        },
+        {
+          "tag": "F_GD35_SELL_p54_m920_any_g013_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 389,
+          "desk_hit_3y": 99.7429
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 389,
+          "desk_hit_3y": 99.7429
+        },
+        {
+          "tag": "F_D5_BOTH_p67_all_htf_gdn017_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 390,
+          "desk_hit_3y": 99.7436
+        },
+        {
+          "tag": "F_D15_SELL_p91_m1230_any_nogap_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 390,
+          "desk_hit_3y": 99.7436
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1000_any_g017_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 391,
+          "desk_hit_3y": 99.7442
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1145_any_gup013_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 392,
+          "desk_hit_3y": 99.7449
+        },
+        {
+          "tag": "F_CR40_SELL_p54_m1145_any_gup017_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 394,
+          "desk_hit_3y": 99.7462
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1230_htf_gdn013_wd_wrf_first",
+          "new_n": 2,
+          "desk_n_3y": 396,
+          "desk_hit_3y": 99.7475
+        },
+        {
+          "tag": "F_CR20_SELL_p54_m1145_htf_g023_wd_wrf_first",
+          "new_n": 2,
+          "desk_n_3y": 398,
+          "desk_hit_3y": 99.7487
+        },
+        {
+          "tag": "F_CR20_SELL_p51_m1115_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 400,
+          "desk_hit_3y": 99.75
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1000_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 400,
+          "desk_hit_3y": 99.75
+        },
+        {
+          "tag": "F_GD40_SELL_p54_all_htf_gup017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 400,
+          "desk_hit_3y": 99.75
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1115_htf_gup023_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 400,
+          "desk_hit_3y": 99.75
+        },
+        {
+          "tag": "F_GD40_BUY_p54_m1045_htf_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 401,
+          "desk_hit_3y": 99.7506
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1115_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 401,
+          "desk_hit_3y": 99.7506
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1020_any_gdn034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 402,
+          "desk_hit_3y": 99.7512
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1115_any_g068_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 402,
+          "desk_hit_3y": 99.7512
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1020_any_gup034_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 402,
+          "desk_hit_3y": 99.7512
+        },
+        {
+          "tag": "F_D5_BUY_p67_open2_htf_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 403,
+          "desk_hit_3y": 99.7519
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m945_any_g013_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 403,
+          "desk_hit_3y": 99.7519
+        },
+        {
+          "tag": "F_D15_SELL_p91_open2_any_gup023_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 403,
+          "desk_hit_3y": 99.7519
+        },
+        {
+          "tag": "F_D15_SELL_p73_m1145_htf_nogap_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 404,
+          "desk_hit_3y": 99.7525
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1400_any_g013_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 404,
+          "desk_hit_3y": 99.7525
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m945_any_gdn013_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 404,
+          "desk_hit_3y": 99.7525
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 404,
+          "desk_hit_3y": 99.7525
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1020_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 404,
+          "desk_hit_3y": 99.7525
+        },
+        {
+          "tag": "F_CR40_SELL_p58_m1400_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 405,
+          "desk_hit_3y": 99.7531
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1115_any_nogap_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 406,
+          "desk_hit_3y": 99.7537
+        },
+        {
+          "tag": "F_CR40_BUY_p56_m1115_htf_nogap_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 407,
+          "desk_hit_3y": 99.7543
+        },
+        {
+          "tag": "F_CR35_BUY_p51_m1230_htf_gup023_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 408,
+          "desk_hit_3y": 99.7549
+        },
+        {
+          "tag": "F_CR30_SELL_p56_m1430_any_gdn017_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 409,
+          "desk_hit_3y": 99.7555
+        },
+        {
+          "tag": "F_CR30_SELL_p51_m1230_any_gup017_wd_wrf_first",
+          "new_n": 1,
+          "desk_n_3y": 410,
+          "desk_hit_3y": 99.7561
+        },
+        {
+          "tag": "F_CR30_BUY_p58_m1145_htf_g017_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 411,
+          "desk_hit_3y": 99.7567
+        },
+        {
+          "tag": "F_CR30_BUY_p54_core_any_gdn013_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 412,
+          "desk_hit_3y": 99.7573
+        },
+        {
+          "tag": "F_CR30_BUY_p51_m1230_htf_gdn017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 413,
+          "desk_hit_3y": 99.7579
+        },
+        {
+          "tag": "F_CR30_BUY_p51_core_any_gdn017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 414,
+          "desk_hit_3y": 99.7585
+        },
+        {
+          "tag": "F_CR20_SELL_p54_m1315_htf_gup034_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 415,
+          "desk_hit_3y": 99.759
+        },
+        {
+          "tag": "F_CR20_SELL_p54_core_htf_gdn017_wd_mf_first",
+          "new_n": 1,
+          "desk_n_3y": 416,
+          "desk_hit_3y": 99.7596
+        },
+        {
+          "tag": "F_CR20_BUY_p56_core_htf_g029_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 417,
+          "desk_hit_3y": 99.7602
+        },
+        {
+          "tag": "CF3_T100_gd40_cr30_ch",
+          "new_n": 1,
+          "desk_n_3y": 418,
+          "desk_hit_3y": 99.7608
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P92_CAP2_P2F"
+    },
+    "ACC_WIDE_P90_CAP2": {
+      "mode": "cap2",
+      "floor": 95.4,
+      "phase2e_3y_n": 370,
+      "baseline": {
+        "1y": {
+          "n": 65,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2486.0
+        },
+        "3y": {
+          "n": 174,
+          "hit_pct": 95.4023,
+          "perfect": false,
+          "points": 5661.0
+        },
+        "5y": {
+          "n": 259,
+          "hit_pct": 94.9807,
+          "perfect": false,
+          "points": 8279.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 139,
+          "hit_pct": 99.2806,
+          "perfect": false,
+          "points": 4811.0
+        },
+        "3y": {
+          "n": 370,
+          "hit_pct": 96.7568,
+          "perfect": false,
+          "points": 11711.0
+        },
+        "5y": {
+          "n": 499,
+          "hit_pct": 95.1904,
+          "perfect": false,
+          "points": 15449.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 166,
+          "hit_pct": 99.3976,
+          "perfect": false,
+          "points": 5715.0
+        },
+        "3y": {
+          "n": 434,
+          "hit_pct": 97.235,
+          "perfect": false,
+          "points": 13881.0
+        },
+        "5y": {
+          "n": 584,
+          "hit_pct": 95.3767,
+          "perfect": false,
+          "points": 18224.0
+        }
+      },
+      "delta_vs_phase1_3y": 260,
+      "delta_vs_phase2e_3y": 64,
+      "added_streams_new": [
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_gdn013_wd_mtw_mid",
+          "new_n": 12,
+          "desk_n_3y": 373,
+          "desk_hit_3y": 96.7828
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1400_any_nogap_wd_mtw_mid",
+          "new_n": 8,
+          "desk_n_3y": 376,
+          "desk_hit_3y": 96.8085
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_g029_wd_mtw_first",
+          "new_n": 5,
+          "desk_n_3y": 378,
+          "desk_hit_3y": 96.8254
+        },
+        {
+          "tag": "F_CR35_SELL_p51_core_any_gdn013_wd_tt_mid",
+          "new_n": 5,
+          "desk_n_3y": 383,
+          "desk_hit_3y": 96.8668
+        },
+        {
+          "tag": "F_CR30_BUY_p58_core_htf_nogap_wd_mf_first",
+          "new_n": 5,
+          "desk_n_3y": 388,
+          "desk_hit_3y": 96.9072
+        },
+        {
+          "tag": "F_D15_BOTH_p91_all_any_g013_wd_wrf_mid",
+          "new_n": 5,
+          "desk_n_3y": 388,
+          "desk_hit_3y": 96.9072
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1230_any_gdn017_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 390,
+          "desk_hit_3y": 96.9231
+        },
+        {
+          "tag": "F_GD35_BOTH_p54_all_any_gup013_wd_tt_first",
+          "new_n": 4,
+          "desk_n_3y": 392,
+          "desk_hit_3y": 96.9388
+        },
+        {
+          "tag": "F_D15_SELL_p91_m945_any_nogap_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 393,
+          "desk_hit_3y": 96.9466
+        },
+        {
+          "tag": "F_D15_SELL_p91_m920_any_nogap_wd_mtw_mid",
+          "new_n": 4,
+          "desk_n_3y": 394,
+          "desk_hit_3y": 96.9543
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_wrf_mid",
+          "new_n": 4,
+          "desk_n_3y": 394,
+          "desk_hit_3y": 96.9543
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1000_any_gdn023_wd_mf_mid",
+          "new_n": 3,
+          "desk_n_3y": 395,
+          "desk_hit_3y": 96.962
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 3,
+          "desk_n_3y": 396,
+          "desk_hit_3y": 96.9697
+        },
+        {
+          "tag": "F_CR40_SELL_p56_m1145_any_nogap_wd_mf_first",
+          "new_n": 3,
+          "desk_n_3y": 399,
+          "desk_hit_3y": 96.9925
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1315_any_gdn013_wd_mf_first",
+          "new_n": 3,
+          "desk_n_3y": 402,
+          "desk_hit_3y": 97.0149
+        },
+        {
+          "tag": "F_CR30_SELL_p54_m1230_htf_nogap_wd_tt_first",
+          "new_n": 3,
+          "desk_n_3y": 405,
+          "desk_hit_3y": 97.037
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1115_htf_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 406,
+          "desk_hit_3y": 97.0443
+        },
+        {
+          "tag": "F_GD40_BUY_p51_core_htf_gup023_wd_mf_mid",
+          "new_n": 2,
+          "desk_n_3y": 407,
+          "desk_hit_3y": 97.0516
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_core_any_gup034_wd_mtw_mid",
+          "new_n": 2,
+          "desk_n_3y": 407,
+          "desk_hit_3y": 97.0516
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 407,
+          "desk_hit_3y": 97.0516
+        },
+        {
+          "tag": "F_D15_SELL_p91_m1230_any_nogap_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 407,
+          "desk_hit_3y": 97.0516
+        },
+        {
+          "tag": "F_D15_BUY_p67_all_any_gdn023_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 407,
+          "desk_hit_3y": 97.0516
+        },
+        {
+          "tag": "F_CR40_SELL_p54_m1145_any_gup017_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 409,
+          "desk_hit_3y": 97.066
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1230_htf_gdn013_wd_wrf_first",
+          "new_n": 2,
+          "desk_n_3y": 411,
+          "desk_hit_3y": 97.0803
+        },
+        {
+          "tag": "F_CR20_SELL_p54_m1145_htf_g023_wd_wrf_first",
+          "new_n": 2,
+          "desk_n_3y": 413,
+          "desk_hit_3y": 97.0944
+        },
+        {
+          "tag": "F_CR20_SELL_p51_m1115_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 415,
+          "desk_hit_3y": 97.1084
+        },
+        {
+          "tag": "F_GD40_SELL_p54_m1000_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 415,
+          "desk_hit_3y": 97.1084
+        },
+        {
+          "tag": "F_GD40_SELL_p54_core_any_gup017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 415,
+          "desk_hit_3y": 97.1084
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1115_htf_gup023_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 415,
+          "desk_hit_3y": 97.1084
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m1000_any_gup034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 415,
+          "desk_hit_3y": 97.1084
+        },
+        {
+          "tag": "F_GD40_BUY_p51_m1045_any_gdn013_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 415,
+          "desk_hit_3y": 97.1084
+        },
+        {
+          "tag": "F_GD40_BOTH_p54_m1020_any_gdn034_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 416,
+          "desk_hit_3y": 97.1154
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1115_any_g068_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 416,
+          "desk_hit_3y": 97.1154
+        },
+        {
+          "tag": "F_GD35_SELL_p54_m920_any_g013_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 416,
+          "desk_hit_3y": 97.1154
+        },
+        {
+          "tag": "F_GD30_BUY_p51_m1045_htf_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 417,
+          "desk_hit_3y": 97.1223
+        },
+        {
+          "tag": "F_D5_BUY_p67_open2_htf_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 418,
+          "desk_hit_3y": 97.1292
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m945_any_g013_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 418,
+          "desk_hit_3y": 97.1292
+        },
+        {
+          "tag": "F_D5_BOTH_p67_all_htf_gdn017_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 418,
+          "desk_hit_3y": 97.1292
+        },
+        {
+          "tag": "F_D15_SELL_p91_m945_any_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 418,
+          "desk_hit_3y": 97.1292
+        },
+        {
+          "tag": "F_D15_SELL_p91_m1115_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 418,
+          "desk_hit_3y": 97.1292
+        },
+        {
+          "tag": "F_D15_SELL_p73_m1145_htf_nogap_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 419,
+          "desk_hit_3y": 97.136
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1400_any_g013_wd_all_raw",
+          "new_n": 1,
+          "desk_n_3y": 419,
+          "desk_hit_3y": 97.136
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1230_any_gup013_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 420,
+          "desk_hit_3y": 97.1429
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m930_any_nogap_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 420,
+          "desk_hit_3y": 97.1429
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1045_any_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 420,
+          "desk_hit_3y": 97.1429
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m1020_any_nogap_wd_wrf_mid",
+          "new_n": 1,
+          "desk_n_3y": 420,
+          "desk_hit_3y": 97.1429
+        },
+        {
+          "tag": "F_CR40_SELL_p58_m1400_htf_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 421,
+          "desk_hit_3y": 97.1496
+        },
+        {
+          "tag": "F_CR40_BUY_p56_m1115_htf_nogap_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 422,
+          "desk_hit_3y": 97.1564
+        },
+        {
+          "tag": "F_CR35_BUY_p51_m1230_htf_gup023_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 423,
+          "desk_hit_3y": 97.1631
+        },
+        {
+          "tag": "F_CR30_SELL_p56_m1430_any_gdn017_wd_mtw_mid",
+          "new_n": 1,
+          "desk_n_3y": 424,
+          "desk_hit_3y": 97.1698
+        },
+        {
+          "tag": "F_CR30_SELL_p51_m1230_any_gup017_wd_wrf_first",
+          "new_n": 1,
+          "desk_n_3y": 425,
+          "desk_hit_3y": 97.1765
+        },
+        {
+          "tag": "F_CR30_BUY_p58_m1145_htf_g017_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 426,
+          "desk_hit_3y": 97.1831
+        },
+        {
+          "tag": "F_CR30_BUY_p54_core_any_gdn013_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 427,
+          "desk_hit_3y": 97.1897
+        },
+        {
+          "tag": "F_CR30_BUY_p51_m1230_htf_gdn017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 428,
+          "desk_hit_3y": 97.1963
+        },
+        {
+          "tag": "F_CR30_BUY_p51_core_any_gdn017_wd_mtw_first",
+          "new_n": 1,
+          "desk_n_3y": 429,
+          "desk_hit_3y": 97.2028
+        },
+        {
+          "tag": "F_CR20_SELL_p54_m1315_htf_gup034_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 430,
+          "desk_hit_3y": 97.2093
+        },
+        {
+          "tag": "F_CR20_SELL_p54_core_htf_gdn017_wd_mf_first",
+          "new_n": 1,
+          "desk_n_3y": 431,
+          "desk_hit_3y": 97.2158
+        },
+        {
+          "tag": "F_CR20_BUY_p56_core_htf_g029_wd_mf_mid",
+          "new_n": 1,
+          "desk_n_3y": 432,
+          "desk_hit_3y": 97.2222
+        },
+        {
+          "tag": "CF3_T100_gd40_cr30_ch",
+          "new_n": 1,
+          "desk_n_3y": 433,
+          "desk_hit_3y": 97.2286
+        },
+        {
+          "tag": "F_CR20_SELL_p54_m1230_any_g017_wd_all_first",
+          "new_n": 1,
+          "desk_n_3y": 434,
+          "desk_hit_3y": 97.235
+        },
+        {
+          "tag": "F_D15_SELL_p91_all_any_g013_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 434,
+          "desk_hit_3y": 97.235
+        },
+        {
+          "tag": "F_D15_BOTH_p67_m920_any_nogap_wd_tt_mid",
+          "new_n": 1,
+          "desk_n_3y": 434,
+          "desk_hit_3y": 97.235
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P90_CAP2_P2F"
+    },
+    "ACC_WIDE_P85_CAP2": {
+      "mode": "cap2",
+      "floor": 89.69,
+      "phase2e_3y_n": 447,
+      "baseline": {
+        "1y": {
+          "n": 86,
+          "hit_pct": 94.186,
+          "perfect": false,
+          "points": 2948.0
+        },
+        "3y": {
+          "n": 223,
+          "hit_pct": 89.6861,
+          "perfect": false,
+          "points": 6298.0
+        },
+        "5y": {
+          "n": 326,
+          "hit_pct": 89.8773,
+          "perfect": false,
+          "points": 9239.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 169,
+          "hit_pct": 90.5325,
+          "perfect": false,
+          "points": 4984.0
+        },
+        "3y": {
+          "n": 447,
+          "hit_pct": 89.7092,
+          "perfect": false,
+          "points": 12368.0
+        },
+        "5y": {
+          "n": 613,
+          "hit_pct": 87.9282,
+          "perfect": false,
+          "points": 16447.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 177,
+          "hit_pct": 90.9605,
+          "perfect": false,
+          "points": 5249.0
+        },
+        "3y": {
+          "n": 472,
+          "hit_pct": 89.8305,
+          "perfect": false,
+          "points": 13062.0
+        },
+        "5y": {
+          "n": 657,
+          "hit_pct": 87.8234,
+          "perfect": false,
+          "points": 17570.0
+        }
+      },
+      "delta_vs_phase1_3y": 249,
+      "delta_vs_phase2e_3y": 25,
+      "added_streams_new": [
+        {
+          "tag": "F_GD40_SELL_p51_m1045_any_gdn013_wd_mtw_mid",
+          "new_n": 10,
+          "desk_n_3y": 449,
+          "desk_hit_3y": 89.755
+        },
+        {
+          "tag": "F_D15_BUY_p67_m1400_any_nogap_wd_mtw_mid",
+          "new_n": 7,
+          "desk_n_3y": 452,
+          "desk_hit_3y": 89.823
+        },
+        {
+          "tag": "F_GD40_SELL_p51_m945_any_gup013_wd_wrf_mid",
+          "new_n": 20,
+          "desk_n_3y": 457,
+          "desk_hit_3y": 89.7155
+        },
+        {
+          "tag": "F_GD30_SELL_p51_m1145_htf_g034_wd_mtw_mid",
+          "new_n": 4,
+          "desk_n_3y": 458,
+          "desk_hit_3y": 89.738
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_m1020_any_gup017_wd_mtw_mid",
+          "new_n": 3,
+          "desk_n_3y": 459,
+          "desk_hit_3y": 89.7603
+        },
+        {
+          "tag": "F_GD40_BUY_p51_core_any_g023_wd_mf_mid",
+          "new_n": 3,
+          "desk_n_3y": 459,
+          "desk_hit_3y": 89.7603
+        },
+        {
+          "tag": "F_CR20_BOTH_p56_m1145_htf_nogap_wd_mf_first",
+          "new_n": 3,
+          "desk_n_3y": 462,
+          "desk_hit_3y": 89.8268
+        },
+        {
+          "tag": "CF3_T18_gd40_cr30_gd30",
+          "new_n": 3,
+          "desk_n_3y": 465,
+          "desk_hit_3y": 89.8925
+        },
+        {
+          "tag": "F_GD40_BOTH_p51_core_any_gup023_wd_mf_mid",
+          "new_n": 4,
+          "desk_n_3y": 466,
+          "desk_hit_3y": 89.6996
+        },
+        {
+          "tag": "F_GD40_SELL_p54_core_any_gup013_wd_tt_first",
+          "new_n": 2,
+          "desk_n_3y": 466,
+          "desk_hit_3y": 89.6996
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1145_any_nogap_wd_tt_mid",
+          "new_n": 2,
+          "desk_n_3y": 466,
+          "desk_hit_3y": 89.6996
+        },
+        {
+          "tag": "F_D5_BOTH_p67_m1000_any_gup013_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 466,
+          "desk_hit_3y": 89.6996
+        },
+        {
+          "tag": "F_D15_BUY_p67_all_any_gdn023_wd_wrf_mid",
+          "new_n": 2,
+          "desk_n_3y": 466,
+          "desk_hit_3y": 89.6996
+        },
+        {
+          "tag": "F_CR40_SELL_p51_m1315_htf_gdn013_wd_mf_first",
+          "new_n": 2,
+          "desk_n_3y": 468,
+          "desk_hit_3y": 89.7436
+        },
+        {
+          "tag": "F_CR30_SELL_p54_m1230_htf_nogap_wd_tt_first",
+          "new_n": 2,
+          "desk_n_3y": 470,
+          "desk_hit_3y": 89.7872
+        },
+        {
+          "tag": "F_CR20_SELL_p54_all_htf_gdn013_wd_mf_first",
+          "new_n": 2,
+          "desk_n_3y": 472,
+          "desk_hit_3y": 89.8305
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P85_CAP2_P2F"
+    }
+  },
+  "elapsed_s": 16064.6
+}

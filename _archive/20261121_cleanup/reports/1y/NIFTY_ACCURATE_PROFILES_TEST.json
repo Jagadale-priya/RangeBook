@@ -1,0 +1,181 @@
+{
+  "source": "kite",
+  "rows": [
+    {
+      "family": "orb",
+      "profile": "baseline",
+      "window": 10,
+      "calls": 0.0,
+      "hit": NaN,
+      "avg_w": NaN,
+      "avg_l": NaN,
+      "ratio": null,
+      "net": 0.0
+    },
+    {
+      "family": "orb",
+      "profile": "accurate",
+      "window": 10,
+      "calls": 2.0,
+      "hit": 0.5,
+      "avg_w": 19.0,
+      "avg_l": -16.549999999999272,
+      "ratio": 1.1480362537764854,
+      "net": 2.4500000000007276
+    },
+    {
+      "family": "trend",
+      "profile": "baseline",
+      "window": 10,
+      "calls": 2.0,
+      "hit": 0.5,
+      "avg_w": 86.0,
+      "avg_l": -28.849999999998545,
+      "ratio": 2.980935875216788,
+      "net": 57.150000000001455
+    },
+    {
+      "family": "trend",
+      "profile": "accurate",
+      "window": 10,
+      "calls": 0.0,
+      "hit": NaN,
+      "avg_w": NaN,
+      "avg_l": NaN,
+      "ratio": NaN,
+      "net": 0.0
+    },
+    {
+      "family": "orb",
+      "profile": "baseline",
+      "window": 40,
+      "calls": 9.0,
+      "hit": 0.6666666666666666,
+      "avg_w": 19.0,
+      "avg_l": -20.766666666666424,
+      "ratio": 0.9149277688603639,
+      "net": 51.70000000000073
+    },
+    {
+      "family": "orb",
+      "profile": "accurate",
+      "window": 40,
+      "calls": 9.0,
+      "hit": 0.6666666666666666,
+      "avg_w": 19.0,
+      "avg_l": -15.150000000000242,
+      "ratio": 1.254125412541234,
+      "net": 68.54999999999927
+    },
+    {
+      "family": "trend",
+      "profile": "baseline",
+      "window": 40,
+      "calls": 9.0,
+      "hit": 0.5555555555555556,
+      "avg_w": 35.05,
+      "avg_l": -20.1875,
+      "ratio": 1.7362229102167182,
+      "net": 94.5
+    },
+    {
+      "family": "trend",
+      "profile": "accurate",
+      "window": 40,
+      "calls": 2.0,
+      "hit": 1.0,
+      "avg_w": 37.0,
+      "avg_l": NaN,
+      "ratio": NaN,
+      "net": 74.0
+    },
+    {
+      "family": "orb",
+      "profile": "baseline",
+      "window": 60,
+      "calls": 21.0,
+      "hit": 0.5238095238095238,
+      "avg_w": 17.44090909090896,
+      "avg_l": -18.25,
+      "ratio": 0.9556662515566553,
+      "net": 9.349999999998545
+    },
+    {
+      "family": "orb",
+      "profile": "accurate",
+      "window": 60,
+      "calls": 24.0,
+      "hit": 0.5833333333333334,
+      "avg_w": 17.774999999999896,
+      "avg_l": -14.945000000000073,
+      "ratio": 1.1893609902977456,
+      "net": 99.39999999999782
+    },
+    {
+      "family": "trend",
+      "profile": "baseline",
+      "window": 60,
+      "calls": 20.0,
+      "hit": 0.4,
+      "avg_w": 27.487499999999272,
+      "avg_l": -12.545454545454215,
+      "ratio": 2.191032608695652,
+      "net": 81.89999999999782
+    },
+    {
+      "family": "trend",
+      "profile": "accurate",
+      "window": 60,
+      "calls": 8.0,
+      "hit": 0.625,
+      "avg_w": 23.729999999998835,
+      "avg_l": -7.2333333333323635,
+      "ratio": 3.2806451612906016,
+      "net": 96.94999999999709
+    },
+    {
+      "family": "orb",
+      "profile": "baseline",
+      "window": 80,
+      "calls": 31.0,
+      "hit": 0.5161290322580645,
+      "avg_w": 16.987499999999955,
+      "avg_l": -17.073333333333235,
+      "ratio": 0.9949726669269847,
+      "net": 15.700000000000728
+    },
+    {
+      "family": "orb",
+      "profile": "accurate",
+      "window": 80,
+      "calls": 33.0,
+      "hit": 0.5454545454545454,
+      "avg_w": 18.047222222222143,
+      "avg_l": -14.030000000000049,
+      "ratio": 1.2863308782766985,
+      "net": 114.39999999999782
+    },
+    {
+      "family": "trend",
+      "profile": "baseline",
+      "window": 80,
+      "calls": 27.0,
+      "hit": 0.37037037037037035,
+      "avg_w": 27.56999999999971,
+      "avg_l": -9.918750000000045,
+      "ratio": 2.779584120982945,
+      "net": 116.99999999999636
+    },
+    {
+      "family": "trend",
+      "profile": "accurate",
+      "window": 80,
+      "calls": 11.0,
+      "hit": 0.45454545454545453,
+      "avg_w": 23.729999999998835,
+      "avg_l": -5.450000000000121,
+      "ratio": 4.3541284403666625,
+      "net": 85.94999999999345
+    }
+  ]
+}

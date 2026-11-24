@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scalper call display · mockup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f2fbf6;
+      --card: #fff;
+      --text: #134e4a;
+      --muted: #5f7a76;
+      --border: #d7ebe3;
+      --accent: #0f766e;
+      --accent-light: #ccfbf1;
+      --buy: #059669;
+      --buy-bg: #ecfdf5;
+      --sell: #dc2626;
+      --sell-bg: #fef2f2;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "DM Sans", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .page { max-width: 1180px; margin: 0 auto; padding: 28px 20px 60px; }
+    h1 {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .lead { color: var(--muted); margin: 8px 0 22px; max-width: 62ch; line-height: 1.5; }
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+    .flow article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+    }
+    .flow .n {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .flow h3 { font-size: 14px; margin: 6px 0 4px; }
+    .flow p { font-size: 12px; color: var(--muted); line-height: 1.45; }
+    .frame {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 1px 2px rgba(17,24,39,0.04);
+      position: relative;
+    }
+    .hdr {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 14px; border-bottom: 1px solid var(--border); background: #fff;
+    }
+    .icon {
+      width: 36px; height: 36px; border-radius: 10px; border: 1px solid var(--border);
+      background: var(--accent-light); color: var(--accent);
+      display: grid; place-items: center; font-size: 15px;
+    }
+    .brand { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 16px; }
+    .tag {
+      font-size: 11px; font-weight: 600; color: var(--accent);
+      background: var(--accent-light); padding: 4px 8px; border-radius: 8px;
+    }
+    .scal-btn {
+      margin-left: auto; height: 36px; padding: 0 12px; border-radius: 10px;
+      border: 1px solid #99f6e4; background: #ecfdf5; color: #0f766e;
+      font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 13px;
+    }
+    .bell {
+      width: 36px; height: 36px; border-radius: 10px; border: 1px solid var(--border);
+      background: #fff; display: grid; place-items: center; position: relative; font-size: 16px;
+    }
+    .bell .dot {
+      position: absolute; top: 4px; right: 4px; min-width: 16px; height: 16px;
+      background: #b91c1c; color: #fff; border-radius: 999px; font-size: 10px; font-weight: 700;
+      display: grid; place-items: center; padding: 0 4px;
+    }
+    /* Same placement idea as F&O call — strip under header */
+    .call-rail {
+      display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, #ecfdf5 0%, #fff 70%);
+    }
+    .badge {
+      font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 14px;
+      padding: 5px 14px; border-radius: 8px; background: var(--buy-bg); color: var(--buy);
+    }
+    .badge.sell { background: var(--sell-bg); color: var(--sell); }
+    .sym {
+      font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 18px;
+    }
+    .meta { font-size: 12px; color: var(--muted); }
+    .lv {
+      display: flex; flex-wrap: wrap; gap: 6px; margin-left: auto;
+    }
+    .lv span {
+      font-size: 12px; padding: 4px 9px; border-radius: 6px;
+      background: var(--bg); border: 1px solid var(--border);
+      font-variant-numeric: tabular-nums;
+    }
+    .lv .sl { color: var(--sell); }
+    .lv .t1 { color: var(--buy); }
+    .pill-live {
+      font-size: 11px; font-weight: 700; padding: 4px 8px; border-radius: 999px;
+      background: #0f766e; color: #fff;
+    }
+    .body {
+      display: grid; grid-template-columns: 1.55fr 0.9fr; min-height: 420px;
+    }
+    .chart {
+      border-right: 1px solid var(--border); padding: 12px;
+      background:
+        linear-gradient(180deg, transparent 48%, rgba(15,118,110,0.06) 48%, transparent 52%),
+        repeating-linear-gradient(90deg, transparent, transparent 39px, #eef7f3 39px, #eef7f3 40px),
+        #fafdfb;
+      position: relative;
+    }
+    .chart-bar {
+      display: flex; gap: 8px; align-items: center; margin-bottom: 10px;
+    }
+    .chip {
+      font-size: 12px; padding: 5px 10px; border-radius: 999px;
+      border: 1px solid #99f6e4; background: #ecfdf5; color: #0f766e; font-weight: 600;
+    }
+    .chip.ghost { background: #fff; border-color: var(--border); color: var(--muted); }
+    .candles {
+      height: 300px; display: flex; align-items: flex-end; gap: 5px; padding: 24px 8px 8px;
+      position: relative;
+    }
+    .c {
+      width: 10px; border-radius: 2px; background: #34d399; position: relative;
+    }
+    .c.dn { background: #f87171; }
+    .line-entry, .line-sl {
+      position: absolute; left: 8px; right: 8px; height: 0;
+      border-top: 2px dashed; pointer-events: none;
+    }
+    .line-entry { top: 42%; border-color: var(--buy); }
+    .line-sl { top: 68%; border-color: var(--sell); }
+    .line-lab {
+      position: absolute; right: 12px; font-size: 10px; font-weight: 700;
+      background: #fff; padding: 1px 5px; border-radius: 4px;
+    }
+    .side {
+      display: flex; flex-direction: column; min-height: 0; background: #fff;
+    }
+    .subtabs { display: flex; gap: 6px; padding: 10px 12px 0; }
+    .subtab {
+      font-size: 12px; padding: 6px 12px; border-radius: 8px;
+      border: 1px solid var(--border); background: #fff; color: var(--muted); font-weight: 600;
+    }
+    .subtab.on { background: #0f766e; color: #fff; border-color: #0f766e; }
+    .panel { padding: 12px; flex: 1; overflow: auto; }
+    .panel h4 {
+      font-family: "Space Grotesk", sans-serif; font-size: 14px; margin-bottom: 4px;
+    }
+    .panel .muted { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
+    .cond {
+      border-bottom: 1px solid var(--border); padding: 10px 0;
+      font-size: 13px;
+    }
+    .cond strong { display: block; margin-bottom: 2px; }
+    .cond span { color: var(--muted); font-size: 12px; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    th, td { text-align: left; padding: 7px 6px; border-bottom: 1px solid #e8f3ee; }
+    th { font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+    .buy { color: var(--buy); font-weight: 700; }
+    .sell { color: var(--sell); font-weight: 700; }
+    .toast {
+      position: absolute; top: 58px; right: 16px; z-index: 5;
+      width: 280px; background: #0f172a; color: #f8fafc;
+      border-radius: 12px; padding: 12px 14px;
+      box-shadow: 0 12px 40px rgba(15,23,42,0.28);
+      animation: in 0.35s ease;
+    }
+    .toast .t { font-size: 11px; opacity: 0.7; margin-bottom: 4px; }
+    .toast .h { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 14px; }
+    .toast .b { font-size: 12px; opacity: 0.85; margin-top: 4px; line-height: 1.4; }
+    @keyframes in { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+    .notify-list {
+      margin-top: 22px;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+    }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px;
+    }
+    .card h3 { font-family: "Space Grotesk", sans-serif; font-size: 14px; margin-bottom: 8px; }
+    .card p, .card li { font-size: 13px; color: var(--muted); line-height: 1.5; }
+    .card ul { margin: 0 0 0 18px; }
+    .card li + li { margin-top: 4px; }
+    .switch {
+      display: inline-flex; gap: 6px; margin: 0 0 14px;
+    }
+    .switch button {
+      font-size: 12px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: #fff; cursor: pointer; font-weight: 600; color: var(--muted);
+    }
+    .switch button.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .hist { display: none; }
+    .hist.show { display: block; }
+    .det.hide { display: none; }
+    @media (max-width: 900px) {
+      .flow { grid-template-columns: 1fr 1fr; }
+      .body { grid-template-columns: 1fr; }
+      .chart { border-right: 0; border-bottom: 1px solid var(--border); }
+      .notify-list { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Scalper · how calls arrive &amp; display</h1>
+    <p class="lead">
+      Same pattern as F&amp;O: live poll fires the call → Windows / browser toast + Notifications bell →
+      active call strip under the header → chart markers + right panel Details / Call history.
+    </p>
+
+    <div class="flow">
+      <article>
+        <div class="n">01</div>
+        <h3>Logic fires</h3>
+        <p>While Scalper is open (Notify on), UI polls <code>/fno/scalper/live</code>. Locked PA <strong>pa_no_trap</strong> on 1m.</p>
+      </article>
+      <article>
+        <div class="n">02</div>
+        <h3>Notify</h3>
+        <p>Fresh entry → desktop toast + browser Notification + 🔔 list (product: scalper).</p>
+      </article>
+      <article>
+        <div class="n">03</div>
+        <h3>Below header</h3>
+        <p>Active call strip (same role as F&amp;O right call card): side · entry · SL · trail · LIVE.</p>
+      </article>
+      <article>
+        <div class="n">04</div>
+        <h3>Desk</h3>
+        <p>Chart shows entry/SL lines. Side panel: Details now · Call history table for today / past days.</p>
+      </article>
+    </div>
+
+    <div class="switch" role="group" aria-label="Mock side">
+      <button type="button" class="on" id="btnBuy">Mock BUY open</button>
+      <button type="button" id="btnSell">Mock SELL open</button>
+      <button type="button" id="btnHist">Show Call history</button>
+    </div>
+
+    <div class="frame" id="frame">
+      <div class="toast" id="toast">
+        <div class="t">Windows toast · now</div>
+        <div class="h" id="toastH">SCALPER BUY · NIFTY</div>
+        <div class="b" id="toastB">Entry 25,980 · SL 25,942 (structure) · trail after 1R · pa_no_trap</div>
+      </div>
+
+      <div class="hdr">
+        <div class="icon">☰</div>
+        <div class="brand">Rangebook</div>
+        <span class="tag">Scalper</span>
+        <button type="button" class="scal-btn">Scalper</button>
+        <div class="bell">🔔<span class="dot">1</span></div>
+      </div>
+
+      <!-- Proposed: same “below header” call surface as F&O -->
+      <div class="call-rail" id="callRail" aria-label="Active scalper call">
+        <div class="badge" id="sideBadge">BUY</div>
+        <div>
+          <div class="sym">NIFTY <span class="meta">· 1m · pa_no_trap</span></div>
+          <div class="meta" id="callWhen">Fired 10:42 · session live</div>
+        </div>
+        <span class="pill-live">LIVE</span>
+        <div class="lv">
+          <span id="lvEntry">Entry 25,980</span>
+          <span class="sl" id="lvSl">SL 25,942</span>
+          <span class="t1" id="lvTrail">Trail pin</span>
+          <span>Risk 38 pts</span>
+        </div>
+      </div>
+
+      <div class="body">
+        <div class="chart">
+          <div class="chart-bar">
+            <span class="chip">NIFTY</span>
+            <span class="chip ghost">BANKNIFTY</span>
+            <span class="chip ghost">SENSEX</span>
+            <span class="chip ghost" style="margin-left:auto">Notify ✓</span>
+          </div>
+          <div class="candles" id="candles">
+            <div class="line-entry"><span class="line-lab" style="color:var(--buy);top:-10px">Entry</span></div>
+            <div class="line-sl"><span class="line-lab" style="color:var(--sell);top:-10px">SL</span></div>
+          </div>
+        </div>
+        <aside class="side">
+          <div class="subtabs">
+            <button type="button" class="subtab on" id="tabDet">Details</button>
+            <button type="button" class="subtab" id="tabHist">Call history</button>
+          </div>
+          <div class="panel det" id="panelDet">
+            <h4>Live call</h4>
+            <p class="muted">Same fields F&amp;O shows on the call card — adapted for scalper (structure SL, no fixed T1).</p>
+            <div class="cond"><strong>Condition</strong><span>PA break · no trap · structure stop</span></div>
+            <div class="cond"><strong>Situation</strong><span id="sit">BUY from HL · price above structure · trail armed after 1R</span></div>
+            <div class="cond"><strong>Levels</strong><span id="lvl">Entry 25980 · SL 25942 · risk 38 · pin trail</span></div>
+            <div class="cond"><strong>Notify</strong><span>Desktop toast sent · unread in 🔔</span></div>
+          </div>
+          <div class="panel hist" id="panelHist">
+            <h4>Call history</h4>
+            <p class="muted">Today / multi-day — same table already in Scalper desk.</p>
+            <table>
+              <thead>
+                <tr><th>Time</th><th>Side</th><th>Entry</th><th>SL</th><th>Pts</th><th>Result</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>10:42</td><td class="buy">BUY</td><td>25980</td><td>25942</td><td>—</td><td>OPEN</td></tr>
+                <tr><td>09:51</td><td class="sell">SELL</td><td>26040</td><td>26078</td><td>+22</td><td>WIN</td></tr>
+                <tr><td>09:28</td><td class="buy">BUY</td><td>25910</td><td>25872</td><td>−38</td><td>SL</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <div class="notify-list">
+      <div class="card">
+        <h3>Where you get the call</h3>
+        <ul>
+          <li><strong>Windows toast</strong> — server/desktop notify on fresh fire (<code>notify_scalper_entry</code>)</li>
+          <li><strong>Browser Notification</strong> — if permission granted + Notify checked</li>
+          <li><strong>Header 🔔</strong> — same Notifications popup as F&amp;O; click opens Scalper symbol</li>
+          <li><strong>Below-header strip</strong> — proposed active call (mock above) so you see it without hunting the side panel</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>What already exists vs proposed</h3>
+        <ul>
+          <li><strong>Exists:</strong> Scalper tab · chart · Details / Call history · live poll · Notify checkbox</li>
+          <li><strong>Exists:</strong> F&amp;O-style right call card on F&amp;O desk only</li>
+          <li><strong>Proposed:</strong> Scalper active-call rail under header (this mock) so it feels the same as F&amp;O “call below header”</li>
+          <li><strong>Optional later:</strong> background watch for NIFTY/BN/Sensex scalper without tab open (F&amp;O already does 30s index watch)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const heights = [40,55,48,70,62,88,75,95,82,110,98,120,105,90,100,115,108,130,118,140,125,150,135,145];
+    const host = document.getElementById("candles");
+    heights.forEach((h, i) => {
+      const d = document.createElement("div");
+      d.className = "c" + (i % 3 === 1 ? " dn" : "");
+      d.style.height = h + "px";
+      host.appendChild(d);
+    });
+
+    const state = {
+      buy: {
+        badge: "BUY", sell: false,
+        toastH: "SCALPER BUY · NIFTY",
+        toastB: "Entry 25,980 · SL 25,942 (structure) · trail after 1R · pa_no_trap",
+        sit: "BUY from HL · price above structure · trail armed after 1R",
+        lvl: "Entry 25980 · SL 25942 · risk 38 · pin trail",
+        entry: "Entry 25,980", sl: "SL 25,942", trail: "Trail pin",
+      },
+      sell: {
+        badge: "SELL", sell: true,
+        toastH: "SCALPER SELL · NIFTY",
+        toastB: "Entry 26,040 · SL 26,078 (structure) · trail after 1R · pa_no_trap",
+        sit: "SELL from LH · price below structure · trail armed after 1R",
+        lvl: "Entry 26040 · SL 26078 · risk 38 · pin trail",
+        entry: "Entry 26,040", sl: "SL 26,078", trail: "Trail pin",
+      },
+    };
+
+    function apply(side) {
+      const s = state[side];
+      const badge = document.getElementById("sideBadge");
+      badge.textContent = s.badge;
+      badge.classList.toggle("sell", s.sell);
+      document.getElementById("toastH").textContent = s.toastH;
+      document.getElementById("toastB").textContent = s.toastB;
+      document.getElementById("sit").textContent = s.sit;
+      document.getElementById("lvl").textContent = s.lvl;
+      document.getElementById("lvEntry").textContent = s.entry;
+      document.getElementById("lvSl").textContent = s.sl;
+      document.getElementById("lvTrail").textContent = s.trail;
+      document.getElementById("btnBuy").classList.toggle("on", side === "buy");
+      document.getElementById("btnSell").classList.toggle("on", side === "sell");
+      const toast = document.getElementById("toast");
+      toast.style.animation = "none";
+      void toast.offsetWidth;
+      toast.style.animation = "in 0.35s ease";
+    }
+
+    function showHist(on) {
+      document.getElementById("panelHist").classList.toggle("show", on);
+      document.getElementById("panelDet").classList.toggle("hide", on);
+      document.getElementById("tabHist").classList.toggle("on", on);
+      document.getElementById("tabDet").classList.toggle("on", !on);
+      document.getElementById("btnHist").classList.toggle("on", on);
+    }
+
+    document.getElementById("btnBuy").onclick = () => { apply("buy"); showHist(false); };
+    document.getElementById("btnSell").onclick = () => { apply("sell"); showHist(false); };
+    document.getElementById("btnHist").onclick = () => showHist(true);
+    document.getElementById("tabDet").onclick = () => showHist(false);
+    document.getElementById("tabHist").onclick = () => showHist(true);
+  </script>
+</body>
+</html>

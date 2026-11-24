@@ -1,0 +1,8 @@
+{
+  "engine": "structure_frvp",
+  "name": "frvp_vah_break",
+  "use_frvp": true,
+  "frvp_mode": "vah_break",
+  "max_calls_day": 12,
+  "why": "more calls + FRVP VAH/VAL; L10~73%; today 7/+96"
+}

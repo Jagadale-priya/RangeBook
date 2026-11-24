@@ -1,0 +1,750 @@
+{
+  "status": "RESEARCH",
+  "not_live": true,
+  "phase": "2g",
+  "mode": "hold_confirm_3y",
+  "dual_model": "10m_train",
+  "window_3y": {
+    "start": "2023-11-16",
+    "end": "2026-11-15"
+  },
+  "window_1y": {
+    "start": "2025-11-15",
+    "end": "2026-11-15"
+  },
+  "results": {
+    "ACC100_MULTI_V12_P2G_10M": {
+      "floor": 100.0,
+      "base": "ACC100_MULTI_V5",
+      "ok": true,
+      "seed_kept": true,
+      "n_streams_locked": 12,
+      "n_streams_applied": 12,
+      "missing_tags": [],
+      "3y": {
+        "n": 164,
+        "hit_pct": 100.0,
+        "wins": 164,
+        "losses": 0,
+        "points": 5594.0,
+        "days": 164,
+        "by_track": {
+          "champion": {
+            "n": 20,
+            "hit_pct": 100.0,
+            "points": 722.0
+          },
+          "crown_5m": {
+            "n": 43,
+            "hit_pct": 100.0,
+            "points": 1015.0
+          },
+          "dual10m": {
+            "n": 10,
+            "hit_pct": 100.0,
+            "points": 300.0
+          },
+          "good_prod2": {
+            "n": 48,
+            "hit_pct": 100.0,
+            "points": 1685.0
+          },
+          "proven_100": {
+            "n": 43,
+            "hit_pct": 100.0,
+            "points": 1872.0
+          }
+        }
+      },
+      "1y": {
+        "n": 61,
+        "hit_pct": 100.0,
+        "wins": 61,
+        "losses": 0,
+        "points": 2235.0,
+        "days": 61,
+        "by_track": {
+          "champion": {
+            "n": 8,
+            "hit_pct": 100.0,
+            "points": 269.0
+          },
+          "crown_5m": {
+            "n": 13,
+            "hit_pct": 100.0,
+            "points": 280.0
+          },
+          "dual10m": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "good_prod2": {
+            "n": 14,
+            "hit_pct": 100.0,
+            "points": 500.0
+          },
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1126.0
+          }
+        }
+      },
+      "by_year": [
+        {
+          "year": "2023",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6
+        },
+        {
+          "year": "2024",
+          "n": 55,
+          "hit_pct": 100.0,
+          "wins": 55
+        },
+        {
+          "year": "2025",
+          "n": 50,
+          "hit_pct": 100.0,
+          "wins": 50
+        },
+        {
+          "year": "2026",
+          "n": 53,
+          "hit_pct": 100.0,
+          "wins": 53
+        }
+      ],
+      "recipe_3y": {
+        "n": 164,
+        "hit_pct": 100.0
+      },
+      "recipe_1y": {
+        "n": 61,
+        "hit_pct": 100.0
+      }
+    },
+    "ACC_WIDE_P92_P2G_10M": {
+      "floor": 99.24,
+      "base": "ACC_WIDE_P92",
+      "ok": true,
+      "seed_kept": false,
+      "n_streams_locked": 26,
+      "n_streams_applied": 26,
+      "missing_tags": [],
+      "3y": {
+        "n": 108,
+        "hit_pct": 100.0,
+        "wins": 108,
+        "losses": 0,
+        "points": 3254.0,
+        "days": 108,
+        "by_track": {
+          "champion": {
+            "n": 10,
+            "hit_pct": 100.0,
+            "points": 354.0
+          },
+          "crown_5m": {
+            "n": 40,
+            "hit_pct": 100.0,
+            "points": 830.0
+          },
+          "dual10m": {
+            "n": 12,
+            "hit_pct": 100.0,
+            "points": 360.0
+          },
+          "good_prod2": {
+            "n": 46,
+            "hit_pct": 100.0,
+            "points": 1710.0
+          }
+        }
+      },
+      "1y": {
+        "n": 35,
+        "hit_pct": 100.0,
+        "wins": 35,
+        "losses": 0,
+        "points": 1065.0,
+        "days": 35,
+        "by_track": {
+          "champion": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 65.0
+          },
+          "crown_5m": {
+            "n": 14,
+            "hit_pct": 100.0,
+            "points": 280.0
+          },
+          "dual10m": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "good_prod2": {
+            "n": 17,
+            "hit_pct": 100.0,
+            "points": 660.0
+          }
+        }
+      },
+      "by_year": [
+        {
+          "year": "2023",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4
+        },
+        {
+          "year": "2024",
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41
+        },
+        {
+          "year": "2025",
+          "n": 31,
+          "hit_pct": 100.0,
+          "wins": 31
+        },
+        {
+          "year": "2026",
+          "n": 32,
+          "hit_pct": 100.0,
+          "wins": 32
+        }
+      ],
+      "recipe_3y": {
+        "n": 157,
+        "hit_pct": 99.36
+      },
+      "recipe_1y": {
+        "n": 59,
+        "hit_pct": 100.0
+      }
+    },
+    "ACC_WIDE_P90_P2G_10M": {
+      "floor": 95.4,
+      "base": "ACC_WIDE_P90",
+      "ok": true,
+      "seed_kept": false,
+      "n_streams_locked": 26,
+      "n_streams_applied": 26,
+      "missing_tags": [],
+      "3y": {
+        "n": 118,
+        "hit_pct": 98.31,
+        "wins": 116,
+        "losses": 2,
+        "points": 3606.0,
+        "days": 118,
+        "by_track": {
+          "champion": {
+            "n": 11,
+            "hit_pct": 100.0,
+            "points": 396.0
+          },
+          "crown_5m": {
+            "n": 39,
+            "hit_pct": 100.0,
+            "points": 810.0
+          },
+          "dual10m": {
+            "n": 12,
+            "hit_pct": 100.0,
+            "points": 360.0
+          },
+          "good_prod2": {
+            "n": 56,
+            "hit_pct": 96.43,
+            "points": 2040.0
+          }
+        }
+      },
+      "1y": {
+        "n": 40,
+        "hit_pct": 97.5,
+        "wins": 39,
+        "losses": 1,
+        "points": 1205.0,
+        "days": 40,
+        "by_track": {
+          "champion": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 65.0
+          },
+          "crown_5m": {
+            "n": 14,
+            "hit_pct": 100.0,
+            "points": 280.0
+          },
+          "dual10m": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "good_prod2": {
+            "n": 22,
+            "hit_pct": 95.45,
+            "points": 800.0
+          }
+        }
+      },
+      "by_year": [
+        {
+          "year": "2023",
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4
+        },
+        {
+          "year": "2024",
+          "n": 44,
+          "hit_pct": 100.0,
+          "wins": 44
+        },
+        {
+          "year": "2025",
+          "n": 34,
+          "hit_pct": 94.12,
+          "wins": 32
+        },
+        {
+          "year": "2026",
+          "n": 36,
+          "hit_pct": 100.0,
+          "wins": 36
+        }
+      ],
+      "recipe_3y": {
+        "n": 204,
+        "hit_pct": 95.59
+      },
+      "recipe_1y": {
+        "n": 75,
+        "hit_pct": 100.0
+      }
+    },
+    "ACC_WIDE_P85_P2G_10M": {
+      "floor": 89.69,
+      "base": "ACC_WIDE_P85",
+      "ok": true,
+      "seed_kept": false,
+      "n_streams_locked": 25,
+      "n_streams_applied": 25,
+      "missing_tags": [],
+      "3y": {
+        "n": 188,
+        "hit_pct": 93.09,
+        "wins": 175,
+        "losses": 13,
+        "points": 5652.0,
+        "days": 188,
+        "by_track": {
+          "champion": {
+            "n": 57,
+            "hit_pct": 89.47,
+            "points": 1872.0
+          },
+          "crown_5m": {
+            "n": 51,
+            "hit_pct": 96.08,
+            "points": 1110.0
+          },
+          "dual10m": {
+            "n": 11,
+            "hit_pct": 100.0,
+            "points": 330.0
+          },
+          "good_prod2": {
+            "n": 69,
+            "hit_pct": 92.75,
+            "points": 2340.0
+          }
+        }
+      },
+      "1y": {
+        "n": 63,
+        "hit_pct": 96.83,
+        "wins": 61,
+        "losses": 2,
+        "points": 2079.0,
+        "days": 63,
+        "by_track": {
+          "champion": {
+            "n": 18,
+            "hit_pct": 100.0,
+            "points": 719.0
+          },
+          "crown_5m": {
+            "n": 18,
+            "hit_pct": 94.44,
+            "points": 380.0
+          },
+          "dual10m": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "good_prod2": {
+            "n": 25,
+            "hit_pct": 96.0,
+            "points": 920.0
+          }
+        }
+      },
+      "by_year": [
+        {
+          "year": "2023",
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5
+        },
+        {
+          "year": "2024",
+          "n": 73,
+          "hit_pct": 90.41,
+          "wins": 66
+        },
+        {
+          "year": "2025",
+          "n": 53,
+          "hit_pct": 90.57,
+          "wins": 48
+        },
+        {
+          "year": "2026",
+          "n": 57,
+          "hit_pct": 98.25,
+          "wins": 56
+        }
+      ],
+      "recipe_3y": {
+        "n": 258,
+        "hit_pct": 90.31
+      },
+      "recipe_1y": {
+        "n": 96,
+        "hit_pct": 94.79
+      }
+    },
+    "ACC_WIDE_P85B_P2G_10M": {
+      "floor": 88.4,
+      "base": "ACC_WIDE_P85B",
+      "ok": true,
+      "seed_kept": false,
+      "n_streams_locked": 29,
+      "n_streams_applied": 29,
+      "missing_tags": [],
+      "3y": {
+        "n": 197,
+        "hit_pct": 92.39,
+        "wins": 182,
+        "losses": 15,
+        "points": 5833.0,
+        "days": 197,
+        "by_track": {
+          "champion": {
+            "n": 58,
+            "hit_pct": 89.66,
+            "points": 1923.0
+          },
+          "crown_5m": {
+            "n": 52,
+            "hit_pct": 94.23,
+            "points": 1090.0
+          },
+          "dual10m": {
+            "n": 18,
+            "hit_pct": 94.44,
+            "points": 480.0
+          },
+          "good_prod2": {
+            "n": 69,
+            "hit_pct": 92.75,
+            "points": 2340.0
+          }
+        }
+      },
+      "1y": {
+        "n": 67,
+        "hit_pct": 95.52,
+        "wins": 64,
+        "losses": 3,
+        "points": 2160.0,
+        "days": 67,
+        "by_track": {
+          "champion": {
+            "n": 19,
+            "hit_pct": 100.0,
+            "points": 770.0
+          },
+          "crown_5m": {
+            "n": 18,
+            "hit_pct": 94.44,
+            "points": 380.0
+          },
+          "dual10m": {
+            "n": 5,
+            "hit_pct": 80.0,
+            "points": 90.0
+          },
+          "good_prod2": {
+            "n": 25,
+            "hit_pct": 96.0,
+            "points": 920.0
+          }
+        }
+      },
+      "by_year": [
+        {
+          "year": "2023",
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6
+        },
+        {
+          "year": "2024",
+          "n": 76,
+          "hit_pct": 89.47,
+          "wins": 68
+        },
+        {
+          "year": "2025",
+          "n": 54,
+          "hit_pct": 90.74,
+          "wins": 49
+        },
+        {
+          "year": "2026",
+          "n": 61,
+          "hit_pct": 96.72,
+          "wins": 59
+        }
+      ],
+      "recipe_3y": {
+        "n": 278,
+        "hit_pct": 88.85
+      },
+      "recipe_1y": {
+        "n": 104,
+        "hit_pct": 94.23
+      }
+    },
+    "ACC_WIDE_P80_P2G_10M": {
+      "floor": 84.72,
+      "base": "ACC_WIDE_P80",
+      "ok": true,
+      "seed_kept": false,
+      "n_streams_locked": 27,
+      "n_streams_applied": 27,
+      "missing_tags": [],
+      "3y": {
+        "n": 280,
+        "hit_pct": 85.0,
+        "wins": 238,
+        "losses": 42,
+        "points": 6805.0,
+        "days": 280,
+        "by_track": {
+          "champion": {
+            "n": 90,
+            "hit_pct": 86.67,
+            "points": 2625.0
+          },
+          "crown_5m": {
+            "n": 46,
+            "hit_pct": 91.3,
+            "points": 850.0
+          },
+          "dual10m": {
+            "n": 42,
+            "hit_pct": 80.95,
+            "points": 780.0
+          },
+          "good_prod2": {
+            "n": 102,
+            "hit_pct": 82.35,
+            "points": 2550.0
+          }
+        }
+      },
+      "1y": {
+        "n": 100,
+        "hit_pct": 84.0,
+        "wins": 84,
+        "losses": 16,
+        "points": 2456.0,
+        "days": 100,
+        "by_track": {
+          "champion": {
+            "n": 32,
+            "hit_pct": 100.0,
+            "points": 1296.0
+          },
+          "crown_5m": {
+            "n": 16,
+            "hit_pct": 93.75,
+            "points": 320.0
+          },
+          "dual10m": {
+            "n": 14,
+            "hit_pct": 50.0,
+            "points": 0.0
+          },
+          "good_prod2": {
+            "n": 38,
+            "hit_pct": 78.95,
+            "points": 840.0
+          }
+        }
+      },
+      "by_year": [
+        {
+          "year": "2023",
+          "n": 9,
+          "hit_pct": 77.78,
+          "wins": 7
+        },
+        {
+          "year": "2024",
+          "n": 99,
+          "hit_pct": 82.83,
+          "wins": 82
+        },
+        {
+          "year": "2025",
+          "n": 85,
+          "hit_pct": 89.41,
+          "wins": 76
+        },
+        {
+          "year": "2026",
+          "n": 87,
+          "hit_pct": 83.91,
+          "wins": 73
+        }
+      ],
+      "recipe_3y": {
+        "n": 348,
+        "hit_pct": 84.48
+      },
+      "recipe_1y": {
+        "n": 124,
+        "hit_pct": 87.1
+      }
+    },
+    "ACC_WIDE_P75_P2G_10M": {
+      "floor": 82.71,
+      "base": "ACC_WIDE_P75",
+      "ok": true,
+      "seed_kept": false,
+      "n_streams_locked": 30,
+      "n_streams_applied": 30,
+      "missing_tags": [],
+      "3y": {
+        "n": 303,
+        "hit_pct": 83.17,
+        "wins": 252,
+        "losses": 51,
+        "points": 6949.0,
+        "days": 303,
+        "by_track": {
+          "champion": {
+            "n": 92,
+            "hit_pct": 85.87,
+            "points": 2629.0
+          },
+          "crown_5m": {
+            "n": 52,
+            "hit_pct": 86.54,
+            "points": 880.0
+          },
+          "dual10m": {
+            "n": 59,
+            "hit_pct": 79.66,
+            "points": 1050.0
+          },
+          "good_prod2": {
+            "n": 100,
+            "hit_pct": 81.0,
+            "points": 2390.0
+          }
+        }
+      },
+      "1y": {
+        "n": 111,
+        "hit_pct": 83.78,
+        "wins": 93,
+        "losses": 18,
+        "points": 2667.0,
+        "days": 111,
+        "by_track": {
+          "champion": {
+            "n": 33,
+            "hit_pct": 100.0,
+            "points": 1337.0
+          },
+          "crown_5m": {
+            "n": 19,
+            "hit_pct": 89.47,
+            "points": 360.0
+          },
+          "dual10m": {
+            "n": 23,
+            "hit_pct": 65.22,
+            "points": 210.0
+          },
+          "good_prod2": {
+            "n": 36,
+            "hit_pct": 77.78,
+            "points": 760.0
+          }
+        }
+      },
+      "by_year": [
+        {
+          "year": "2023",
+          "n": 10,
+          "hit_pct": 80.0,
+          "wins": 8
+        },
+        {
+          "year": "2024",
+          "n": 103,
+          "hit_pct": 82.52,
+          "wins": 85
+        },
+        {
+          "year": "2025",
+          "n": 93,
+          "hit_pct": 83.87,
+          "wins": 78
+        },
+        {
+          "year": "2026",
+          "n": 97,
+          "hit_pct": 83.51,
+          "wins": 81
+        }
+      ],
+      "recipe_3y": {
+        "n": 398,
+        "hit_pct": 82.91
+      },
+      "recipe_1y": {
+        "n": 138,
+        "hit_pct": 86.96
+      }
+    }
+  },
+  "verdict": "HOLD OK \u2014 `ACC100_MULTI_V12_P2G_10M` 3y 164@100.0% \u00b7 floors all clear \u00b7 still RESEARCH.",
+  "elapsed_s": 20.6
+}

@@ -1,0 +1,703 @@
+{
+  "status": "RESEARCH",
+  "not_live": true,
+  "phase": "2g",
+  "dual_model": "10m_train",
+  "window": {
+    "start": "2025-11-15",
+    "end": "2026-11-15"
+  },
+  "results": {
+    "ACC100_MULTI_V12_P2G_10M": {
+      "floor": 100.0,
+      "base": "ACC100_MULTI_V5",
+      "ok": true,
+      "streams": [
+        "G_D10_SELL_p50_first45_any_nogap_raw",
+        "G_D10_BOTH_p55_all_any_gup025_raw",
+        "G_GD40_BOTH_p55_mid_any_g020_raw",
+        "G_GD40_SELL_p0_mid_any_gup040_raw",
+        "G_CR20_BUY_p0_mid_any_g055_mid",
+        "G_GD40_BOTH_p0_pm_any_g020_raw",
+        "G_GD30_BUY_p0_latemid_any_gup025_raw",
+        "G_CR20_SELL_p55_mid_htf_g040_mid",
+        "G_CH_BUY_p0_latemid_any_gup025_raw",
+        "G_CR20_SELL_p0_mid_any_gdn040_mid",
+        "G_D10_BOTH_p58_pm_any_nogap_raw",
+        "G_CR20_BUY_p52_latemid_any_gup040_first"
+      ],
+      "n_streams": 12,
+      "3y": {
+        "n": 164,
+        "hit_pct": 100.0,
+        "wins": 164,
+        "losses": 0,
+        "points": 5594.0,
+        "days": 164,
+        "by_track": {
+          "champion": {
+            "n": 20,
+            "hit_pct": 100.0,
+            "points": 722.0
+          },
+          "crown_5m": {
+            "n": 43,
+            "hit_pct": 100.0,
+            "points": 1015.0
+          },
+          "dual10m": {
+            "n": 10,
+            "hit_pct": 100.0,
+            "points": 300.0
+          },
+          "good_prod2": {
+            "n": 48,
+            "hit_pct": 100.0,
+            "points": 1685.0
+          },
+          "proven_100": {
+            "n": 43,
+            "hit_pct": 100.0,
+            "points": 1872.0
+          }
+        }
+      },
+      "1y": {
+        "n": 61,
+        "hit_pct": 100.0,
+        "wins": 61,
+        "losses": 0,
+        "points": 2235.0,
+        "days": 61,
+        "by_track": {
+          "champion": {
+            "n": 8,
+            "hit_pct": 100.0,
+            "points": 269.0
+          },
+          "crown_5m": {
+            "n": 13,
+            "hit_pct": 100.0,
+            "points": 280.0
+          },
+          "dual10m": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "good_prod2": {
+            "n": 14,
+            "hit_pct": 100.0,
+            "points": 500.0
+          },
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1126.0
+          }
+        }
+      },
+      "p2f_ref_1y": {
+        "n": 86,
+        "hit_pct": 100.0
+      }
+    },
+    "ACC_WIDE_P92_P2G_10M": {
+      "floor": 99.24,
+      "base": "ACC_WIDE_P92",
+      "ok": true,
+      "streams": [
+        "G_GD40_BOTH_p55_mid_any_g020_raw",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_GD30_BUY_p0_latemid_any_gup025_raw",
+        "G_CR20_SELL_p0_pm_htf_gdn040_first",
+        "G_D10_BOTH_p55_all_any_gup025_raw",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_CH_BUY_p70_am1130_any_nogap_raw",
+        "G_D10_SELL_p50_first45_any_nogap_raw",
+        "G_GD40_SELL_p0_mid_any_gup040_raw",
+        "G_CH_BUY_p0_latemid_any_gup025_raw",
+        "G_CR20_BUY_p0_mid_any_g055_mid",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_GD30_BOTH_p58_am1130_any_nogap_raw",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_GD30_BUY_p0_latemid_any_g040_raw",
+        "G_CR20_BUY_p52_latemid_any_gup040_first",
+        "G_GD40_SELL_p55_am1230_any_g030_raw",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_CR20_SELL_p55_mid_htf_g040_mid",
+        "G_CR30_BOTH_p58_am1130_htf_nogap_first",
+        "G_GD40_BUY_p55_mid_any_nogap_raw",
+        "G_CR20_SELL_p0_mid_any_gdn040_mid",
+        "G_CR30_BOTH_p55_am1130_any_g030_first",
+        "G_CR30_BUY_p58_mid_any_gdn025_first",
+        "G_GD40_BOTH_p0_pm_any_g020_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw"
+      ],
+      "n_streams": 26,
+      "3y": {
+        "n": 108,
+        "hit_pct": 100.0,
+        "wins": 108,
+        "losses": 0,
+        "points": 3254.0,
+        "days": 108,
+        "by_track": {
+          "champion": {
+            "n": 10,
+            "hit_pct": 100.0,
+            "points": 354.0
+          },
+          "crown_5m": {
+            "n": 40,
+            "hit_pct": 100.0,
+            "points": 830.0
+          },
+          "dual10m": {
+            "n": 12,
+            "hit_pct": 100.0,
+            "points": 360.0
+          },
+          "good_prod2": {
+            "n": 46,
+            "hit_pct": 100.0,
+            "points": 1710.0
+          }
+        }
+      },
+      "1y": {
+        "n": 35,
+        "hit_pct": 100.0,
+        "wins": 35,
+        "losses": 0,
+        "points": 1065.0,
+        "days": 35,
+        "by_track": {
+          "champion": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 65.0
+          },
+          "crown_5m": {
+            "n": 14,
+            "hit_pct": 100.0,
+            "points": 280.0
+          },
+          "dual10m": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "good_prod2": {
+            "n": 17,
+            "hit_pct": 100.0,
+            "points": 660.0
+          }
+        }
+      },
+      "p2f_ref_1y": {
+        "n": 86,
+        "hit_pct": 100.0
+      }
+    },
+    "ACC_WIDE_P90_P2G_10M": {
+      "floor": 95.4,
+      "base": "ACC_WIDE_P90",
+      "ok": true,
+      "streams": [
+        "G_GD40_BOTH_p55_mid_any_g020_raw",
+        "G_GD40_BOTH_p0_latemid_htf_gup025_bestp",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_CR20_SELL_p0_pm_htf_gdn040_first",
+        "G_D10_BOTH_p55_all_any_gup025_raw",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_CH_BUY_p70_am1130_any_nogap_raw",
+        "G_D10_SELL_p50_first45_any_nogap_raw",
+        "G_CH_BUY_p0_latemid_any_gup025_raw",
+        "G_CR20_BUY_p0_mid_any_g055_mid",
+        "G_GD40_SELL_p55_am1230_any_g020_raw",
+        "G_GD40_SELL_p0_mid_any_gup040_raw",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_CR20_BUY_p52_latemid_any_gup040_first",
+        "G_GD30_BUY_p0_latemid_any_g040_raw",
+        "G_GD30_BOTH_p58_am1130_any_nogap_raw",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_CR20_SELL_p55_mid_htf_g040_mid",
+        "G_CR30_BOTH_p58_am1130_htf_nogap_first",
+        "G_GD40_BUY_p55_mid_any_nogap_raw",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_CR20_SELL_p0_mid_any_gdn040_mid",
+        "G_CR30_BOTH_p55_am1130_any_g030_first",
+        "G_CR30_BUY_p58_mid_any_gdn025_first",
+        "G_GD40_BOTH_p0_pm_any_g020_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw"
+      ],
+      "n_streams": 26,
+      "3y": {
+        "n": 118,
+        "hit_pct": 98.31,
+        "wins": 116,
+        "losses": 2,
+        "points": 3606.0,
+        "days": 118,
+        "by_track": {
+          "champion": {
+            "n": 11,
+            "hit_pct": 100.0,
+            "points": 396.0
+          },
+          "crown_5m": {
+            "n": 39,
+            "hit_pct": 100.0,
+            "points": 810.0
+          },
+          "dual10m": {
+            "n": 12,
+            "hit_pct": 100.0,
+            "points": 360.0
+          },
+          "good_prod2": {
+            "n": 56,
+            "hit_pct": 96.43,
+            "points": 2040.0
+          }
+        }
+      },
+      "1y": {
+        "n": 40,
+        "hit_pct": 97.5,
+        "wins": 39,
+        "losses": 1,
+        "points": 1205.0,
+        "days": 40,
+        "by_track": {
+          "champion": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 65.0
+          },
+          "crown_5m": {
+            "n": 14,
+            "hit_pct": 100.0,
+            "points": 280.0
+          },
+          "dual10m": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "good_prod2": {
+            "n": 22,
+            "hit_pct": 95.45,
+            "points": 800.0
+          }
+        }
+      },
+      "p2f_ref_1y": {
+        "n": 98,
+        "hit_pct": 100.0
+      }
+    },
+    "ACC_WIDE_P85_P2G_10M": {
+      "floor": 89.69,
+      "base": "ACC_WIDE_P85",
+      "ok": true,
+      "streams": [
+        "G_CH_BUY_p0_am1130_any_nogap_raw",
+        "G_GD40_BOTH_p0_mid_any_gup025_bestp",
+        "G_GD40_BOTH_p55_mid_any_g020_raw",
+        "G_CR30_BOTH_p0_mid_any_gdn040_mid",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_CH_BOTH_p0_latemid_any_gup025_raw",
+        "G_CR20_SELL_p55_mid_htf_g020_mid",
+        "G_D10_BOTH_p55_all_any_gup025_raw",
+        "G_D10_SELL_p50_first45_any_nogap_raw",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_GD40_BUY_p0_latemid_any_g020_raw",
+        "G_GD40_SELL_p55_am1230_any_g020_raw",
+        "G_CR20_SELL_p0_pm_htf_gdn040_first",
+        "G_CR20_BUY_p52_latemid_any_gup040_first",
+        "G_CR20_BOTH_p0_mid_any_g055_mid",
+        "G_GD30_BOTH_p58_am1130_any_nogap_raw",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_CR30_BUY_p0_mid_any_gdn025_first",
+        "G_CR30_BOTH_p0_am1130_htf_g030_mid",
+        "G_CR30_BOTH_p55_am1130_htf_nogap_first",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_GD40_BUY_p55_mid_any_nogap_raw",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_GD40_BOTH_p0_pm_any_g020_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw"
+      ],
+      "n_streams": 25,
+      "3y": {
+        "n": 188,
+        "hit_pct": 93.09,
+        "wins": 175,
+        "losses": 13,
+        "points": 5652.0,
+        "days": 188,
+        "by_track": {
+          "champion": {
+            "n": 57,
+            "hit_pct": 89.47,
+            "points": 1872.0
+          },
+          "crown_5m": {
+            "n": 51,
+            "hit_pct": 96.08,
+            "points": 1110.0
+          },
+          "dual10m": {
+            "n": 11,
+            "hit_pct": 100.0,
+            "points": 330.0
+          },
+          "good_prod2": {
+            "n": 69,
+            "hit_pct": 92.75,
+            "points": 2340.0
+          }
+        }
+      },
+      "1y": {
+        "n": 63,
+        "hit_pct": 96.83,
+        "wins": 61,
+        "losses": 2,
+        "points": 2079.0,
+        "days": 63,
+        "by_track": {
+          "champion": {
+            "n": 18,
+            "hit_pct": 100.0,
+            "points": 719.0
+          },
+          "crown_5m": {
+            "n": 18,
+            "hit_pct": 94.44,
+            "points": 380.0
+          },
+          "dual10m": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "good_prod2": {
+            "n": 25,
+            "hit_pct": 96.0,
+            "points": 920.0
+          }
+        }
+      },
+      "p2f_ref_1y": {
+        "n": 114,
+        "hit_pct": 92.98
+      }
+    },
+    "ACC_WIDE_P85B_P2G_10M": {
+      "floor": 88.4,
+      "base": "ACC_WIDE_P85B",
+      "ok": true,
+      "streams": [
+        "G_CH_BUY_p0_am1130_any_nogap_raw",
+        "G_GD40_BOTH_p0_mid_any_gup025_bestp",
+        "G_GD40_BOTH_p55_mid_any_g020_raw",
+        "G_CR30_BOTH_p0_mid_any_gdn040_mid",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_D10_BOTH_p50_pm_any_gup040_raw",
+        "G_CH_BOTH_p0_latemid_any_gup025_raw",
+        "G_CR20_SELL_p55_mid_htf_g020_mid",
+        "G_D10_SELL_p50_first45_any_nogap_raw",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_GD40_BUY_p0_latemid_any_g020_raw",
+        "G_D10_BOTH_p55_all_any_gup025_raw",
+        "G_GD40_SELL_p55_am1230_any_g020_raw",
+        "G_CR20_SELL_p0_pm_htf_gdn040_first",
+        "G_CR20_BUY_p52_latemid_any_gup040_first",
+        "G_GD30_BOTH_p58_am1130_any_nogap_raw",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_CR20_BOTH_p0_mid_any_g055_mid",
+        "G_CR30_BUY_p0_mid_any_gdn025_first",
+        "G_CR30_BOTH_p0_am1130_htf_g030_mid",
+        "G_CR30_BOTH_p55_am1130_htf_nogap_first",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_GD40_BUY_p55_mid_any_nogap_raw",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_GD40_BOTH_p0_pm_any_g020_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw",
+        "G_CH_BOTH_p75_latemid_any_g020_raw",
+        "G_CR20_SELL_p55_mid_any_g040_mid",
+        "G_CR20_SELL_p0_mid_htf_gdn025_mid"
+      ],
+      "n_streams": 29,
+      "3y": {
+        "n": 197,
+        "hit_pct": 92.39,
+        "wins": 182,
+        "losses": 15,
+        "points": 5833.0,
+        "days": 197,
+        "by_track": {
+          "champion": {
+            "n": 58,
+            "hit_pct": 89.66,
+            "points": 1923.0
+          },
+          "crown_5m": {
+            "n": 52,
+            "hit_pct": 94.23,
+            "points": 1090.0
+          },
+          "dual10m": {
+            "n": 18,
+            "hit_pct": 94.44,
+            "points": 480.0
+          },
+          "good_prod2": {
+            "n": 69,
+            "hit_pct": 92.75,
+            "points": 2340.0
+          }
+        }
+      },
+      "1y": {
+        "n": 67,
+        "hit_pct": 95.52,
+        "wins": 64,
+        "losses": 3,
+        "points": 2160.0,
+        "days": 67,
+        "by_track": {
+          "champion": {
+            "n": 19,
+            "hit_pct": 100.0,
+            "points": 770.0
+          },
+          "crown_5m": {
+            "n": 18,
+            "hit_pct": 94.44,
+            "points": 380.0
+          },
+          "dual10m": {
+            "n": 5,
+            "hit_pct": 80.0,
+            "points": 90.0
+          },
+          "good_prod2": {
+            "n": 25,
+            "hit_pct": 96.0,
+            "points": 920.0
+          }
+        }
+      },
+      "p2f_ref_1y": {
+        "n": 116,
+        "hit_pct": 93.1
+      }
+    },
+    "ACC_WIDE_P80_P2G_10M": {
+      "floor": 84.72,
+      "base": "ACC_WIDE_P80",
+      "ok": true,
+      "streams": [
+        "G_CH_BOTH_p0_am1230_any_nogap_mid",
+        "G_GD40_BOTH_p0_latemid_any_g020_mid",
+        "G_D10_BOTH_p50_mid_htf_gup040_raw",
+        "G_CR20_SELL_p55_mid_htf_nogap_mid",
+        "G_GD30_BUY_p0_latemid_any_nogap_raw",
+        "G_GD40_BUY_p0_mid_any_g020_bestp",
+        "G_D10_BOTH_p50_pm_any_gup025_raw",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_GD40_BOTH_p55_am1230_any_g020_bestp",
+        "G_D10_SELL_p50_open_any_nogap_raw",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_CR30_SELL_p0_mid_htf_g040_mid",
+        "G_CR30_BUY_p0_mid_any_gdn025_first",
+        "G_GD40_BOTH_p0_mid_any_gup025_bestp",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_GD40_BOTH_p55_mid_any_nogap_first",
+        "G_CH_BOTH_p0_latemid_any_gup025_raw",
+        "G_D10_BOTH_p55_open_any_g020_raw",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw",
+        "G_D10_BOTH_p55_mid_any_g040_raw",
+        "G_CR20_BUY_p52_latemid_any_gup040_first",
+        "G_CR20_SELL_p0_mid_htf_gdn025_mid",
+        "G_CR30_BUY_p58_am1230_htf_g020_first",
+        "G_CH_BUY_p0_all_any_gup025_raw",
+        "G_CR30_BOTH_p60_latemid_any_gdn025_first"
+      ],
+      "n_streams": 27,
+      "3y": {
+        "n": 280,
+        "hit_pct": 85.0,
+        "wins": 238,
+        "losses": 42,
+        "points": 6805.0,
+        "days": 280,
+        "by_track": {
+          "champion": {
+            "n": 90,
+            "hit_pct": 86.67,
+            "points": 2625.0
+          },
+          "crown_5m": {
+            "n": 46,
+            "hit_pct": 91.3,
+            "points": 850.0
+          },
+          "dual10m": {
+            "n": 42,
+            "hit_pct": 80.95,
+            "points": 780.0
+          },
+          "good_prod2": {
+            "n": 102,
+            "hit_pct": 82.35,
+            "points": 2550.0
+          }
+        }
+      },
+      "1y": {
+        "n": 100,
+        "hit_pct": 84.0,
+        "wins": 84,
+        "losses": 16,
+        "points": 2456.0,
+        "days": 100,
+        "by_track": {
+          "champion": {
+            "n": 32,
+            "hit_pct": 100.0,
+            "points": 1296.0
+          },
+          "crown_5m": {
+            "n": 16,
+            "hit_pct": 93.75,
+            "points": 320.0
+          },
+          "dual10m": {
+            "n": 14,
+            "hit_pct": 50.0,
+            "points": 0.0
+          },
+          "good_prod2": {
+            "n": 38,
+            "hit_pct": 78.95,
+            "points": 840.0
+          }
+        }
+      },
+      "p2f_ref_1y": {
+        "n": 123,
+        "hit_pct": 90.24
+      }
+    },
+    "ACC_WIDE_P75_P2G_10M": {
+      "floor": 82.71,
+      "base": "ACC_WIDE_P75",
+      "ok": true,
+      "streams": [
+        "G_CH_BOTH_p0_am1230_any_nogap_mid",
+        "G_GD40_BOTH_p0_latemid_any_g020_mid",
+        "G_D10_BOTH_p50_mid_htf_g040_raw",
+        "G_CR20_SELL_p55_mid_htf_nogap_mid",
+        "G_CR30_BOTH_p0_mid_any_g040_mid",
+        "G_GD30_BUY_p0_latemid_any_nogap_raw",
+        "G_D10_BOTH_p50_pm_any_gup025_raw",
+        "G_GD40_BOTH_p55_mid_any_nogap_first",
+        "G_GD40_BOTH_p0_mid_any_gup025_bestp",
+        "G_D10_BOTH_p50_mid_any_gup040_raw",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_D10_SELL_p50_open_any_nogap_raw",
+        "G_GD40_BOTH_p55_am1230_any_g020_bestp",
+        "G_GD40_BUY_p0_mid_any_g020_bestp",
+        "G_CH_BOTH_p0_all_any_g020_mid",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_D10_BOTH_p55_open_any_g020_raw",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_CH_BOTH_p75_pm_any_nogap_raw",
+        "G_CR20_BUY_p0_am1230_any_gup025_raw",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw",
+        "G_CR30_BUY_p0_mid_any_gdn025_first",
+        "G_CR20_SELL_p0_mid_htf_gdn025_mid",
+        "G_CR30_BUY_p58_am1230_htf_g020_first",
+        "G_CR30_BOTH_p60_latemid_any_gdn025_first",
+        "G_CR30_BOTH_p0_am1130_any_g030_mid",
+        "G_D10_SELL_p52_all_any_nogap_raw",
+        "G_CR20_BUY_p0_latemid_any_g055_mid"
+      ],
+      "n_streams": 30,
+      "3y": {
+        "n": 303,
+        "hit_pct": 83.17,
+        "wins": 252,
+        "losses": 51,
+        "points": 6949.0,
+        "days": 303,
+        "by_track": {
+          "champion": {
+            "n": 92,
+            "hit_pct": 85.87,
+            "points": 2629.0
+          },
+          "crown_5m": {
+            "n": 52,
+            "hit_pct": 86.54,
+            "points": 880.0
+          },
+          "dual10m": {
+            "n": 59,
+            "hit_pct": 79.66,
+            "points": 1050.0
+          },
+          "good_prod2": {
+            "n": 100,
+            "hit_pct": 81.0,
+            "points": 2390.0
+          }
+        }
+      },
+      "1y": {
+        "n": 111,
+        "hit_pct": 83.78,
+        "wins": 93,
+        "losses": 18,
+        "points": 2667.0,
+        "days": 111,
+        "by_track": {
+          "champion": {
+            "n": 33,
+            "hit_pct": 100.0,
+            "points": 1337.0
+          },
+          "crown_5m": {
+            "n": 19,
+            "hit_pct": 89.47,
+            "points": 360.0
+          },
+          "dual10m": {
+            "n": 23,
+            "hit_pct": 65.22,
+            "points": 210.0
+          },
+          "good_prod2": {
+            "n": 36,
+            "hit_pct": 77.78,
+            "points": 760.0
+          }
+        }
+      },
+      "p2f_ref_1y": {
+        "n": 127,
+        "hit_pct": 88.98
+      }
+    }
+  },
+  "verdict": "PARTIAL \u2014 P2G 100% desk alive (61@100.0% 1y) but below P2F V11 (86@100%).",
+  "elapsed_s": 201.8
+}

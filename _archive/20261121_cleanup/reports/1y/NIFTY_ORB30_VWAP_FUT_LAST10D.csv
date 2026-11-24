@@ -1,0 +1,11 @@
+date,status,direction,opening_high,opening_low,opening_width,expected_range,vwap_at_signal,signal_time,entry_time,entry,entry_mode,stop,target,exit_time,exit,points,reason,probability,india_vix
+2026-11-05,no_call,,24391.95,24296.3,95.65000000000146,,,,,,,,,,,,opening_width_out_of_range,,
+2026-11-06,no_call,,24582.05,24388.05,194.0,,,,,,,,,,,,opening_width_out_of_range,,
+2026-11-08,no_call,,,,,,,,,,,,,,,,missing_opening_range,,
+2026-11-09,no_call,,25084.05,24874.85,209.20000000000073,,,,,,,,,,,,opening_width_out_of_range,,
+2026-11-11,no_call,,25417.0,25263.8,153.20000000000073,,,,,,,,,,,,opening_width_out_of_range,,
+2026-11-12,no_call,,25355.85,25142.95,212.89999999999782,,,,,,,,,,,,opening_width_out_of_range,,
+2026-11-13,no_call,,25209.85,25077.55,132.29999999999927,,,,,,,,,,,,opening_width_out_of_range,,
+2026-11-16,no_call,,25310.7,25195.35,115.35000000000218,,,,,,,,,,,,opening_width_out_of_range,,
+2026-11-17,no_call,,25358.05,25267.3,90.75,,,,,,,,,,,,opening_width_out_of_range,,
+2026-11-18,no_call,,25390.8,25227.55,163.25,,,,,,,,,,,,opening_width_out_of_range,,

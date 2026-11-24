@@ -1,0 +1,5919 @@
+{
+  "generated_at": "2026-11-15T17:49:48",
+  "definitions": {
+    "gap_true": "open vs prior close \u00b10.35% \u2192 GAP_UP/GAP_DOWN/NATURAL",
+    "bias_close": "close vs prior close \u2192 BULLISH/BEARISH",
+    "bias_otc": "close vs open \u2192 BULLISH/BEARISH/NEUTRAL",
+    "spoken_accuracy": "accuracy only on days the rule does NOT abstain",
+    "promote": "spoken_acc >= floor on ALL of 1y,3y,5y test with >=10 spoken days each"
+  },
+  "splits": [
+    {
+      "label": "1y",
+      "start": "2025-11-03",
+      "end": "2026-11-11",
+      "train_days": 3367,
+      "test_days": 252,
+      "gap_premarket": {
+        "picks": {
+          "90": {
+            "rule": "extreme_ret1_1_5pct",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 353,
+              "coverage": 0.1048,
+              "spoken_acc": 0.3258,
+              "abstain_rate": 0.8952,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 187,
+                  "acc": 0.4118
+                },
+                "GAP_DOWN": {
+                  "n": 166,
+                  "acc": 0.2289
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 28,
+              "coverage": 0.1111,
+              "spoken_acc": 0.2143,
+              "abstain_rate": 0.8889,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 14,
+                  "acc": 0.2857
+                },
+                "GAP_DOWN": {
+                  "n": 14,
+                  "acc": 0.1429
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          },
+          "95": {
+            "rule": "extreme_ret1_1_5pct",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 353,
+              "coverage": 0.1048,
+              "spoken_acc": 0.3258,
+              "abstain_rate": 0.8952,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 187,
+                  "acc": 0.4118
+                },
+                "GAP_DOWN": {
+                  "n": 166,
+                  "acc": 0.2289
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 28,
+              "coverage": 0.1111,
+              "spoken_acc": 0.2143,
+              "abstain_rate": 0.8889,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 14,
+                  "acc": 0.2857
+                },
+                "GAP_DOWN": {
+                  "n": 14,
+                  "acc": 0.1429
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          }
+        },
+        "top": [
+          {
+            "rule": "extreme_ret1_1_5pct",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 353,
+              "coverage": 0.1048,
+              "spoken_acc": 0.3258,
+              "abstain_rate": 0.8952,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 187,
+                  "acc": 0.4118
+                },
+                "GAP_DOWN": {
+                  "n": 166,
+                  "acc": 0.2289
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 28,
+              "coverage": 0.1111,
+              "spoken_acc": 0.2143,
+              "abstain_rate": 0.8889,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 14,
+                  "acc": 0.2857
+                },
+                "GAP_DOWN": {
+                  "n": 14,
+                  "acc": 0.1429
+                }
+              }
+            }
+          },
+          {
+            "rule": "extreme_ret1_1pct",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 767,
+              "coverage": 0.2278,
+              "spoken_acc": 0.2738,
+              "abstain_rate": 0.7722,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 409,
+                  "acc": 0.3423
+                },
+                "GAP_DOWN": {
+                  "n": 358,
+                  "acc": 0.1955
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 55,
+              "coverage": 0.2183,
+              "spoken_acc": 0.2182,
+              "abstain_rate": 0.7817,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 27,
+                  "acc": 0.1852
+                },
+                "GAP_DOWN": {
+                  "n": 28,
+                  "acc": 0.25
+                }
+              }
+            }
+          },
+          {
+            "rule": "continue_th080",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1093,
+              "coverage": 0.3246,
+              "spoken_acc": 0.2681,
+              "abstain_rate": 0.6754,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 589,
+                  "acc": 0.3396
+                },
+                "GAP_DOWN": {
+                  "n": 504,
+                  "acc": 0.1845
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 74,
+              "coverage": 0.2937,
+              "spoken_acc": 0.2162,
+              "abstain_rate": 0.7063,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 36,
+                  "acc": 0.1667
+                },
+                "GAP_DOWN": {
+                  "n": 38,
+                  "acc": 0.2632
+                }
+              }
+            }
+          },
+          {
+            "rule": "strong_continue_struct",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 422,
+              "coverage": 0.1253,
+              "spoken_acc": 0.2536,
+              "abstain_rate": 0.8747,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 235,
+                  "acc": 0.2894
+                },
+                "GAP_DOWN": {
+                  "n": 187,
+                  "acc": 0.2086
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 35,
+              "coverage": 0.1389,
+              "spoken_acc": 0.2286,
+              "abstain_rate": 0.8611,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 12,
+                  "acc": 0.1667
+                },
+                "GAP_DOWN": {
+                  "n": 23,
+                  "acc": 0.2609
+                }
+              }
+            }
+          },
+          {
+            "rule": "continue_th050",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1738,
+              "coverage": 0.5162,
+              "spoken_acc": 0.2457,
+              "abstain_rate": 0.4838,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 962,
+                  "acc": 0.3119
+                },
+                "GAP_DOWN": {
+                  "n": 776,
+                  "acc": 0.1637
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 128,
+              "coverage": 0.5079,
+              "spoken_acc": 0.2031,
+              "abstain_rate": 0.4921,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 68,
+                  "acc": 0.1471
+                },
+                "GAP_DOWN": {
+                  "n": 60,
+                  "acc": 0.2667
+                }
+              }
+            }
+          },
+          {
+            "rule": "continue_th035",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 2168,
+              "coverage": 0.6439,
+              "spoken_acc": 0.2412,
+              "abstain_rate": 0.3561,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 1202,
+                  "acc": 0.3037
+                },
+                "GAP_DOWN": {
+                  "n": 966,
+                  "acc": 0.1636
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 163,
+              "coverage": 0.6468,
+              "spoken_acc": 0.184,
+              "abstain_rate": 0.3532,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 81,
+                  "acc": 0.1605
+                },
+                "GAP_DOWN": {
+                  "n": 82,
+                  "acc": 0.2073
+                }
+              }
+            }
+          },
+          {
+            "rule": "ret2_th100",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1375,
+              "coverage": 0.4084,
+              "spoken_acc": 0.2371,
+              "abstain_rate": 0.5916,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 758,
+                  "acc": 0.2942
+                },
+                "GAP_DOWN": {
+                  "n": 617,
+                  "acc": 0.1669
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 86,
+              "coverage": 0.3413,
+              "spoken_acc": 0.2209,
+              "abstain_rate": 0.6587,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 44,
+                  "acc": 0.1818
+                },
+                "GAP_DOWN": {
+                  "n": 42,
+                  "acc": 0.2619
+                }
+              }
+            }
+          },
+          {
+            "rule": "struct",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 2615,
+              "coverage": 0.7767,
+              "spoken_acc": 0.2034,
+              "abstain_rate": 0.2233,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 1642,
+                  "acc": 0.232
+                },
+                "GAP_DOWN": {
+                  "n": 973,
+                  "acc": 0.1552
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 187,
+              "coverage": 0.7421,
+              "spoken_acc": 0.2032,
+              "abstain_rate": 0.2579,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 73,
+                  "acc": 0.1507
+                },
+                "GAP_DOWN": {
+                  "n": 114,
+                  "acc": 0.2368
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_th080",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1093,
+              "coverage": 0.3246,
+              "spoken_acc": 0.1949,
+              "abstain_rate": 0.6754,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 504,
+                  "acc": 0.3175
+                },
+                "GAP_DOWN": {
+                  "n": 589,
+                  "acc": 0.09
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 74,
+              "coverage": 0.2937,
+              "spoken_acc": 0.3378,
+              "abstain_rate": 0.7063,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 38,
+                  "acc": 0.3684
+                },
+                "GAP_DOWN": {
+                  "n": 36,
+                  "acc": 0.3056
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_th050",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1738,
+              "coverage": 0.5162,
+              "spoken_acc": 0.1824,
+              "abstain_rate": 0.4838,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 776,
+                  "acc": 0.2912
+                },
+                "GAP_DOWN": {
+                  "n": 962,
+                  "acc": 0.0946
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 128,
+              "coverage": 0.5079,
+              "spoken_acc": 0.2266,
+              "abstain_rate": 0.4921,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 60,
+                  "acc": 0.25
+                },
+                "GAP_DOWN": {
+                  "n": 68,
+                  "acc": 0.2059
+                }
+              }
+            }
+          },
+          {
+            "rule": "always_natural",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 0,
+              "coverage": 0.0,
+              "spoken_acc": null,
+              "abstain_rate": 1.0,
+              "by_pred": {}
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 0,
+              "coverage": 0.0,
+              "spoken_acc": null,
+              "abstain_rate": 1.0,
+              "by_pred": {}
+            }
+          }
+        ]
+      },
+      "gap_observed_after_open": {
+        "note": "Using true open vs prior close \u2014 classification is exact by definition",
+        "test_3class_acc": 1.0,
+        "gap_up_rate": 0.1825,
+        "gap_down_rate": 0.1865,
+        "natural_rate": 0.631
+      },
+      "bias_close": {
+        "picks": {
+          "90": {
+            "rule": "gap_cont_th100",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 212,
+              "coverage": 0.063,
+              "spoken_acc": 0.8821,
+              "abstain_rate": 0.937,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 119,
+                  "acc": 0.8739
+                },
+                "BEARISH": {
+                  "n": 93,
+                  "acc": 0.8925
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 20,
+              "coverage": 0.0794,
+              "spoken_acc": 0.95,
+              "abstain_rate": 0.9206,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 10,
+                  "acc": 1.0
+                },
+                "BEARISH": {
+                  "n": 10,
+                  "acc": 0.9
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          },
+          "95": {
+            "rule": "gap_cont_th100",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 212,
+              "coverage": 0.063,
+              "spoken_acc": 0.8821,
+              "abstain_rate": 0.937,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 119,
+                  "acc": 0.8739
+                },
+                "BEARISH": {
+                  "n": 93,
+                  "acc": 0.8925
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 20,
+              "coverage": 0.0794,
+              "spoken_acc": 0.95,
+              "abstain_rate": 0.9206,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 10,
+                  "acc": 1.0
+                },
+                "BEARISH": {
+                  "n": 10,
+                  "acc": 0.9
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          }
+        },
+        "top": [
+          {
+            "rule": "gap_cont_th100",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 212,
+              "coverage": 0.063,
+              "spoken_acc": 0.8821,
+              "abstain_rate": 0.937,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 119,
+                  "acc": 0.8739
+                },
+                "BEARISH": {
+                  "n": 93,
+                  "acc": 0.8925
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 20,
+              "coverage": 0.0794,
+              "spoken_acc": 0.95,
+              "abstain_rate": 0.9206,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 10,
+                  "acc": 1.0
+                },
+                "BEARISH": {
+                  "n": 10,
+                  "acc": 0.9
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_continue",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1303,
+              "coverage": 0.387,
+              "spoken_acc": 0.7966,
+              "abstain_rate": 0.613,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 899,
+                  "acc": 0.7864
+                },
+                "BEARISH": {
+                  "n": 404,
+                  "acc": 0.8193
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 93,
+              "coverage": 0.369,
+              "spoken_acc": 0.828,
+              "abstain_rate": 0.631,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 46,
+                  "acc": 0.8261
+                },
+                "BEARISH": {
+                  "n": 47,
+                  "acc": 0.8298
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_days_continue",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1303,
+              "coverage": 0.387,
+              "spoken_acc": 0.7966,
+              "abstain_rate": 0.613,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 899,
+                  "acc": 0.7864
+                },
+                "BEARISH": {
+                  "n": 404,
+                  "acc": 0.8193
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 93,
+              "coverage": 0.369,
+              "spoken_acc": 0.828,
+              "abstain_rate": 0.631,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 46,
+                  "acc": 0.8261
+                },
+                "BEARISH": {
+                  "n": 47,
+                  "acc": 0.8298
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_struct_agree",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 532,
+              "coverage": 0.158,
+              "spoken_acc": 0.7876,
+              "abstain_rate": 0.842,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 381,
+                  "acc": 0.7848
+                },
+                "BEARISH": {
+                  "n": 151,
+                  "acc": 0.7947
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 38,
+              "coverage": 0.1508,
+              "spoken_acc": 0.8158,
+              "abstain_rate": 0.8492,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 11,
+                  "acc": 0.8182
+                },
+                "BEARISH": {
+                  "n": 27,
+                  "acc": 0.8148
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_continue",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 767,
+              "coverage": 0.2278,
+              "spoken_acc": 0.5645,
+              "abstain_rate": 0.7722,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 409,
+                  "acc": 0.6381
+                },
+                "BEARISH": {
+                  "n": 358,
+                  "acc": 0.4804
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 55,
+              "coverage": 0.2183,
+              "spoken_acc": 0.4727,
+              "abstain_rate": 0.7817,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 27,
+                  "acc": 0.5556
+                },
+                "BEARISH": {
+                  "n": 28,
+                  "acc": 0.3929
+                }
+              }
+            }
+          },
+          {
+            "rule": "vote3_unanimous",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1881,
+              "coverage": 0.5587,
+              "spoken_acc": 0.5641,
+              "abstain_rate": 0.4413,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1264,
+                  "acc": 0.5926
+                },
+                "BEARISH": {
+                  "n": 617,
+                  "acc": 0.5057
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 127,
+              "coverage": 0.504,
+              "spoken_acc": 0.4961,
+              "abstain_rate": 0.496,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 59,
+                  "acc": 0.5593
+                },
+                "BEARISH": {
+                  "n": 68,
+                  "acc": 0.4412
+                }
+              }
+            }
+          },
+          {
+            "rule": "cont_any",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 3367,
+              "coverage": 1.0,
+              "spoken_acc": 0.5432,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1813,
+                  "acc": 0.5758
+                },
+                "BEARISH": {
+                  "n": 1554,
+                  "acc": 0.5051
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 252,
+              "coverage": 1.0,
+              "spoken_acc": 0.5119,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 123,
+                  "acc": 0.5041
+                },
+                "BEARISH": {
+                  "n": 129,
+                  "acc": 0.5194
+                }
+              }
+            }
+          },
+          {
+            "rule": "always_bull",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 3367,
+              "coverage": 1.0,
+              "spoken_acc": 0.5385,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 3367,
+                  "acc": 0.5385
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 252,
+              "coverage": 1.0,
+              "spoken_acc": 0.4921,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 252,
+                  "acc": 0.4921
+                }
+              }
+            }
+          },
+          {
+            "rule": "rsi50",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 3367,
+              "coverage": 1.0,
+              "spoken_acc": 0.5361,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 2147,
+                  "acc": 0.5585
+                },
+                "BEARISH": {
+                  "n": 1220,
+                  "acc": 0.4967
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 252,
+              "coverage": 1.0,
+              "spoken_acc": 0.504,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 121,
+                  "acc": 0.4959
+                },
+                "BEARISH": {
+                  "n": 131,
+                  "acc": 0.5115
+                }
+              }
+            }
+          },
+          {
+            "rule": "sma50",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 3367,
+              "coverage": 1.0,
+              "spoken_acc": 0.5319,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 2219,
+                  "acc": 0.5534
+                },
+                "BEARISH": {
+                  "n": 1148,
+                  "acc": 0.4904
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 252,
+              "coverage": 1.0,
+              "spoken_acc": 0.4603,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 116,
+                  "acc": 0.4483
+                },
+                "BEARISH": {
+                  "n": 136,
+                  "acc": 0.4706
+                }
+              }
+            }
+          },
+          {
+            "rule": "strong_rsi_sma_struct",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 851,
+              "coverage": 0.2527,
+              "spoken_acc": 0.5276,
+              "abstain_rate": 0.7473,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 670,
+                  "acc": 0.5493
+                },
+                "BEARISH": {
+                  "n": 181,
+                  "acc": 0.4475
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 45,
+              "coverage": 0.1786,
+              "spoken_acc": 0.4889,
+              "abstain_rate": 0.8214,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 5,
+                  "acc": 1.0
+                },
+                "BEARISH": {
+                  "n": 40,
+                  "acc": 0.425
+                }
+              }
+            }
+          },
+          {
+            "rule": "struct",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 2615,
+              "coverage": 0.7767,
+              "spoken_acc": 0.504,
+              "abstain_rate": 0.2233,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1642,
+                  "acc": 0.5329
+                },
+                "BEARISH": {
+                  "n": 973,
+                  "acc": 0.4553
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 187,
+              "coverage": 0.7421,
+              "spoken_acc": 0.492,
+              "abstain_rate": 0.2579,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 73,
+                  "acc": 0.4795
+                },
+                "BEARISH": {
+                  "n": 114,
+                  "acc": 0.5
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_any",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 3367,
+              "coverage": 1.0,
+              "spoken_acc": 0.4568,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1554,
+                  "acc": 0.4949
+                },
+                "BEARISH": {
+                  "n": 1813,
+                  "acc": 0.4242
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 252,
+              "coverage": 1.0,
+              "spoken_acc": 0.4881,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 129,
+                  "acc": 0.4806
+                },
+                "BEARISH": {
+                  "n": 123,
+                  "acc": 0.4959
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_fade",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 767,
+              "coverage": 0.2278,
+              "spoken_acc": 0.4355,
+              "abstain_rate": 0.7722,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 358,
+                  "acc": 0.5196
+                },
+                "BEARISH": {
+                  "n": 409,
+                  "acc": 0.3619
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 55,
+              "coverage": 0.2183,
+              "spoken_acc": 0.5273,
+              "abstain_rate": 0.7817,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 28,
+                  "acc": 0.6071
+                },
+                "BEARISH": {
+                  "n": 27,
+                  "acc": 0.4444
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_fade",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1303,
+              "coverage": 0.387,
+              "spoken_acc": 0.2034,
+              "abstain_rate": 0.613,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 404,
+                  "acc": 0.1807
+                },
+                "BEARISH": {
+                  "n": 899,
+                  "acc": 0.2136
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 93,
+              "coverage": 0.369,
+              "spoken_acc": 0.172,
+              "abstain_rate": 0.631,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 47,
+                  "acc": 0.1702
+                },
+                "BEARISH": {
+                  "n": 46,
+                  "acc": 0.1739
+                }
+              }
+            }
+          }
+        ]
+      },
+      "bias_open_to_close": {
+        "picks": {
+          "90": {
+            "rule": "gap_fade_th100",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 212,
+              "coverage": 0.063,
+              "spoken_acc": 0.5283,
+              "abstain_rate": 0.937,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 93,
+                  "acc": 0.5484
+                },
+                "BEARISH": {
+                  "n": 119,
+                  "acc": 0.5126
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 20,
+              "coverage": 0.0794,
+              "spoken_acc": 0.6,
+              "abstain_rate": 0.9206,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 10,
+                  "acc": 0.7
+                },
+                "BEARISH": {
+                  "n": 10,
+                  "acc": 0.5
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          },
+          "95": {
+            "rule": "gap_fade_th100",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 212,
+              "coverage": 0.063,
+              "spoken_acc": 0.5283,
+              "abstain_rate": 0.937,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 93,
+                  "acc": 0.5484
+                },
+                "BEARISH": {
+                  "n": 119,
+                  "acc": 0.5126
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 20,
+              "coverage": 0.0794,
+              "spoken_acc": 0.6,
+              "abstain_rate": 0.9206,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 10,
+                  "acc": 0.7
+                },
+                "BEARISH": {
+                  "n": 10,
+                  "acc": 0.5
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          }
+        },
+        "top": [
+          {
+            "rule": "gap_fade_th100",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 212,
+              "coverage": 0.063,
+              "spoken_acc": 0.5283,
+              "abstain_rate": 0.937,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 93,
+                  "acc": 0.5484
+                },
+                "BEARISH": {
+                  "n": 119,
+                  "acc": 0.5126
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 20,
+              "coverage": 0.0794,
+              "spoken_acc": 0.6,
+              "abstain_rate": 0.9206,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 10,
+                  "acc": 0.7
+                },
+                "BEARISH": {
+                  "n": 10,
+                  "acc": 0.5
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_continue",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 767,
+              "coverage": 0.2278,
+              "spoken_acc": 0.5072,
+              "abstain_rate": 0.7722,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 409,
+                  "acc": 0.5086
+                },
+                "BEARISH": {
+                  "n": 358,
+                  "acc": 0.5056
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 55,
+              "coverage": 0.2183,
+              "spoken_acc": 0.4545,
+              "abstain_rate": 0.7817,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 27,
+                  "acc": 0.5185
+                },
+                "BEARISH": {
+                  "n": 28,
+                  "acc": 0.3929
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_fade",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1303,
+              "coverage": 0.387,
+              "spoken_acc": 0.5065,
+              "abstain_rate": 0.613,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 404,
+                  "acc": 0.4975
+                },
+                "BEARISH": {
+                  "n": 899,
+                  "acc": 0.5106
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 93,
+              "coverage": 0.369,
+              "spoken_acc": 0.4731,
+              "abstain_rate": 0.631,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 47,
+                  "acc": 0.5319
+                },
+                "BEARISH": {
+                  "n": 46,
+                  "acc": 0.413
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_fade_th080",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 346,
+              "coverage": 0.1028,
+              "spoken_acc": 0.5058,
+              "abstain_rate": 0.8972,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 150,
+                  "acc": 0.4933
+                },
+                "BEARISH": {
+                  "n": 196,
+                  "acc": 0.5153
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 29,
+              "coverage": 0.1151,
+              "spoken_acc": 0.5517,
+              "abstain_rate": 0.8849,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 17,
+                  "acc": 0.5882
+                },
+                "BEARISH": {
+                  "n": 12,
+                  "acc": 0.5
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_any",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 3367,
+              "coverage": 1.0,
+              "spoken_acc": 0.5004,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1554,
+                  "acc": 0.4665
+                },
+                "BEARISH": {
+                  "n": 1813,
+                  "acc": 0.5295
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 252,
+              "coverage": 1.0,
+              "spoken_acc": 0.5238,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 129,
+                  "acc": 0.5116
+                },
+                "BEARISH": {
+                  "n": 123,
+                  "acc": 0.5366
+                }
+              }
+            }
+          },
+          {
+            "rule": "cont_any",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 3367,
+              "coverage": 1.0,
+              "spoken_acc": 0.4993,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1813,
+                  "acc": 0.4699
+                },
+                "BEARISH": {
+                  "n": 1554,
+                  "acc": 0.5335
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 252,
+              "coverage": 1.0,
+              "spoken_acc": 0.4762,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 123,
+                  "acc": 0.4634
+                },
+                "BEARISH": {
+                  "n": 129,
+                  "acc": 0.4884
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_continue",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1303,
+              "coverage": 0.387,
+              "spoken_acc": 0.4935,
+              "abstain_rate": 0.613,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 899,
+                  "acc": 0.4894
+                },
+                "BEARISH": {
+                  "n": 404,
+                  "acc": 0.5025
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 93,
+              "coverage": 0.369,
+              "spoken_acc": 0.5269,
+              "abstain_rate": 0.631,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 46,
+                  "acc": 0.587
+                },
+                "BEARISH": {
+                  "n": 47,
+                  "acc": 0.4681
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_days_continue",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1303,
+              "coverage": 0.387,
+              "spoken_acc": 0.4935,
+              "abstain_rate": 0.613,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 899,
+                  "acc": 0.4894
+                },
+                "BEARISH": {
+                  "n": 404,
+                  "acc": 0.5025
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 93,
+              "coverage": 0.369,
+              "spoken_acc": 0.5269,
+              "abstain_rate": 0.631,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 46,
+                  "acc": 0.587
+                },
+                "BEARISH": {
+                  "n": 47,
+                  "acc": 0.4681
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_fade",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 767,
+              "coverage": 0.2278,
+              "spoken_acc": 0.4928,
+              "abstain_rate": 0.7722,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 358,
+                  "acc": 0.4944
+                },
+                "BEARISH": {
+                  "n": 409,
+                  "acc": 0.4914
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 55,
+              "coverage": 0.2183,
+              "spoken_acc": 0.5455,
+              "abstain_rate": 0.7817,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 28,
+                  "acc": 0.6071
+                },
+                "BEARISH": {
+                  "n": 27,
+                  "acc": 0.4815
+                }
+              }
+            }
+          },
+          {
+            "rule": "sma50",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 3367,
+              "coverage": 1.0,
+              "spoken_acc": 0.4906,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 2219,
+                  "acc": 0.4691
+                },
+                "BEARISH": {
+                  "n": 1148,
+                  "acc": 0.5322
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 252,
+              "coverage": 1.0,
+              "spoken_acc": 0.4405,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 116,
+                  "acc": 0.4224
+                },
+                "BEARISH": {
+                  "n": 136,
+                  "acc": 0.4559
+                }
+              }
+            }
+          },
+          {
+            "rule": "rsi50",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 3367,
+              "coverage": 1.0,
+              "spoken_acc": 0.4895,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 2147,
+                  "acc": 0.4672
+                },
+                "BEARISH": {
+                  "n": 1220,
+                  "acc": 0.5287
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 252,
+              "coverage": 1.0,
+              "spoken_acc": 0.4444,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 121,
+                  "acc": 0.4298
+                },
+                "BEARISH": {
+                  "n": 131,
+                  "acc": 0.458
+                }
+              }
+            }
+          },
+          {
+            "rule": "vote3_unanimous",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 1881,
+              "coverage": 0.5587,
+              "spoken_acc": 0.4864,
+              "abstain_rate": 0.4413,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1264,
+                  "acc": 0.4739
+                },
+                "BEARISH": {
+                  "n": 617,
+                  "acc": 0.5122
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 127,
+              "coverage": 0.504,
+              "spoken_acc": 0.4409,
+              "abstain_rate": 0.496,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 59,
+                  "acc": 0.4746
+                },
+                "BEARISH": {
+                  "n": 68,
+                  "acc": 0.4118
+                }
+              }
+            }
+          },
+          {
+            "rule": "struct",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 2615,
+              "coverage": 0.7767,
+              "spoken_acc": 0.475,
+              "abstain_rate": 0.2233,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1642,
+                  "acc": 0.4531
+                },
+                "BEARISH": {
+                  "n": 973,
+                  "acc": 0.5118
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 187,
+              "coverage": 0.7421,
+              "spoken_acc": 0.4545,
+              "abstain_rate": 0.2579,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 73,
+                  "acc": 0.4658
+                },
+                "BEARISH": {
+                  "n": 114,
+                  "acc": 0.4474
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_cont_th100",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 212,
+              "coverage": 0.063,
+              "spoken_acc": 0.4717,
+              "abstain_rate": 0.937,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 119,
+                  "acc": 0.4874
+                },
+                "BEARISH": {
+                  "n": 93,
+                  "acc": 0.4516
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 20,
+              "coverage": 0.0794,
+              "spoken_acc": 0.4,
+              "abstain_rate": 0.9206,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 10,
+                  "acc": 0.5
+                },
+                "BEARISH": {
+                  "n": 10,
+                  "acc": 0.3
+                }
+              }
+            }
+          },
+          {
+            "rule": "always_bull",
+            "train": {
+              "days_all": 3367,
+              "days_spoken": 3367,
+              "coverage": 1.0,
+              "spoken_acc": 0.4684,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 3367,
+                  "acc": 0.4684
+                }
+              }
+            },
+            "test": {
+              "days_all": 252,
+              "days_spoken": 252,
+              "coverage": 1.0,
+              "spoken_acc": 0.4881,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 252,
+                  "acc": 0.4881
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "3y",
+      "start": "2023-10-16",
+      "end": "2026-11-11",
+      "train_days": 2863,
+      "test_days": 756,
+      "gap_premarket": {
+        "picks": {
+          "90": {
+            "rule": "extreme_ret1_1_5pct",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 322,
+              "coverage": 0.1125,
+              "spoken_acc": 0.3323,
+              "abstain_rate": 0.8875,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 168,
+                  "acc": 0.4167
+                },
+                "GAP_DOWN": {
+                  "n": 154,
+                  "acc": 0.2403
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 59,
+              "coverage": 0.078,
+              "spoken_acc": 0.2373,
+              "abstain_rate": 0.922,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 33,
+                  "acc": 0.3333
+                },
+                "GAP_DOWN": {
+                  "n": 26,
+                  "acc": 0.1154
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          },
+          "95": {
+            "rule": "extreme_ret1_1_5pct",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 322,
+              "coverage": 0.1125,
+              "spoken_acc": 0.3323,
+              "abstain_rate": 0.8875,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 168,
+                  "acc": 0.4167
+                },
+                "GAP_DOWN": {
+                  "n": 154,
+                  "acc": 0.2403
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 59,
+              "coverage": 0.078,
+              "spoken_acc": 0.2373,
+              "abstain_rate": 0.922,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 33,
+                  "acc": 0.3333
+                },
+                "GAP_DOWN": {
+                  "n": 26,
+                  "acc": 0.1154
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          }
+        },
+        "top": [
+          {
+            "rule": "extreme_ret1_1_5pct",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 322,
+              "coverage": 0.1125,
+              "spoken_acc": 0.3323,
+              "abstain_rate": 0.8875,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 168,
+                  "acc": 0.4167
+                },
+                "GAP_DOWN": {
+                  "n": 154,
+                  "acc": 0.2403
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 59,
+              "coverage": 0.078,
+              "spoken_acc": 0.2373,
+              "abstain_rate": 0.922,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 33,
+                  "acc": 0.3333
+                },
+                "GAP_DOWN": {
+                  "n": 26,
+                  "acc": 0.1154
+                }
+              }
+            }
+          },
+          {
+            "rule": "extreme_ret1_1pct",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 683,
+              "coverage": 0.2386,
+              "spoken_acc": 0.2767,
+              "abstain_rate": 0.7614,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 367,
+                  "acc": 0.346
+                },
+                "GAP_DOWN": {
+                  "n": 316,
+                  "acc": 0.1962
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 139,
+              "coverage": 0.1839,
+              "spoken_acc": 0.2374,
+              "abstain_rate": 0.8161,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 69,
+                  "acc": 0.2609
+                },
+                "GAP_DOWN": {
+                  "n": 70,
+                  "acc": 0.2143
+                }
+              }
+            }
+          },
+          {
+            "rule": "continue_th080",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 964,
+              "coverage": 0.3367,
+              "spoken_acc": 0.2759,
+              "abstain_rate": 0.6633,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 522,
+                  "acc": 0.3506
+                },
+                "GAP_DOWN": {
+                  "n": 442,
+                  "acc": 0.1878
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 203,
+              "coverage": 0.2685,
+              "spoken_acc": 0.2118,
+              "abstain_rate": 0.7315,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 103,
+                  "acc": 0.2233
+                },
+                "GAP_DOWN": {
+                  "n": 100,
+                  "acc": 0.2
+                }
+              }
+            }
+          },
+          {
+            "rule": "strong_continue_struct",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 378,
+              "coverage": 0.132,
+              "spoken_acc": 0.2619,
+              "abstain_rate": 0.868,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 209,
+                  "acc": 0.2919
+                },
+                "GAP_DOWN": {
+                  "n": 169,
+                  "acc": 0.2249
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 79,
+              "coverage": 0.1045,
+              "spoken_acc": 0.2025,
+              "abstain_rate": 0.8955,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 38,
+                  "acc": 0.2368
+                },
+                "GAP_DOWN": {
+                  "n": 41,
+                  "acc": 0.1707
+                }
+              }
+            }
+          },
+          {
+            "rule": "continue_th050",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1518,
+              "coverage": 0.5302,
+              "spoken_acc": 0.2523,
+              "abstain_rate": 0.4698,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 839,
+                  "acc": 0.3242
+                },
+                "GAP_DOWN": {
+                  "n": 679,
+                  "acc": 0.1635
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 348,
+              "coverage": 0.4603,
+              "spoken_acc": 0.2011,
+              "abstain_rate": 0.5397,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 191,
+                  "acc": 0.199
+                },
+                "GAP_DOWN": {
+                  "n": 157,
+                  "acc": 0.2038
+                }
+              }
+            }
+          },
+          {
+            "rule": "continue_th035",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1875,
+              "coverage": 0.6549,
+              "spoken_acc": 0.2475,
+              "abstain_rate": 0.3451,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 1034,
+                  "acc": 0.3172
+                },
+                "GAP_DOWN": {
+                  "n": 841,
+                  "acc": 0.1617
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 456,
+              "coverage": 0.6032,
+              "spoken_acc": 0.1952,
+              "abstain_rate": 0.3968,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 249,
+                  "acc": 0.2008
+                },
+                "GAP_DOWN": {
+                  "n": 207,
+                  "acc": 0.1884
+                }
+              }
+            }
+          },
+          {
+            "rule": "ret2_th100",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1212,
+              "coverage": 0.4233,
+              "spoken_acc": 0.2393,
+              "abstain_rate": 0.5767,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 666,
+                  "acc": 0.2973
+                },
+                "GAP_DOWN": {
+                  "n": 546,
+                  "acc": 0.1685
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 249,
+              "coverage": 0.3294,
+              "spoken_acc": 0.2209,
+              "abstain_rate": 0.6706,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 136,
+                  "acc": 0.2426
+                },
+                "GAP_DOWN": {
+                  "n": 113,
+                  "acc": 0.1947
+                }
+              }
+            }
+          },
+          {
+            "rule": "struct",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2228,
+              "coverage": 0.7782,
+              "spoken_acc": 0.2159,
+              "abstain_rate": 0.2218,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 1395,
+                  "acc": 0.2466
+                },
+                "GAP_DOWN": {
+                  "n": 833,
+                  "acc": 0.1645
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 574,
+              "coverage": 0.7593,
+              "spoken_acc": 0.1551,
+              "abstain_rate": 0.2407,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 320,
+                  "acc": 0.15
+                },
+                "GAP_DOWN": {
+                  "n": 254,
+                  "acc": 0.1614
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_th080",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 964,
+              "coverage": 0.3367,
+              "spoken_acc": 0.2085,
+              "abstain_rate": 0.6633,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 442,
+                  "acc": 0.3416
+                },
+                "GAP_DOWN": {
+                  "n": 522,
+                  "acc": 0.0958
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 203,
+              "coverage": 0.2685,
+              "spoken_acc": 0.1823,
+              "abstain_rate": 0.7315,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 100,
+                  "acc": 0.23
+                },
+                "GAP_DOWN": {
+                  "n": 103,
+                  "acc": 0.1359
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_th050",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1518,
+              "coverage": 0.5302,
+              "spoken_acc": 0.1924,
+              "abstain_rate": 0.4698,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 679,
+                  "acc": 0.3078
+                },
+                "GAP_DOWN": {
+                  "n": 839,
+                  "acc": 0.0989
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 348,
+              "coverage": 0.4603,
+              "spoken_acc": 0.1552,
+              "abstain_rate": 0.5397,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 157,
+                  "acc": 0.2038
+                },
+                "GAP_DOWN": {
+                  "n": 191,
+                  "acc": 0.1152
+                }
+              }
+            }
+          },
+          {
+            "rule": "always_natural",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 0,
+              "coverage": 0.0,
+              "spoken_acc": null,
+              "abstain_rate": 1.0,
+              "by_pred": {}
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 0,
+              "coverage": 0.0,
+              "spoken_acc": null,
+              "abstain_rate": 1.0,
+              "by_pred": {}
+            }
+          }
+        ]
+      },
+      "gap_observed_after_open": {
+        "note": "Using true open vs prior close \u2014 classification is exact by definition",
+        "test_3class_acc": 1.0,
+        "gap_up_rate": 0.1852,
+        "gap_down_rate": 0.1323,
+        "natural_rate": 0.6825
+      },
+      "bias_close": {
+        "picks": {
+          "90": {
+            "rule": "gap_cont_th100",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 191,
+              "coverage": 0.0667,
+              "spoken_acc": 0.8691,
+              "abstain_rate": 0.9333,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 106,
+                  "acc": 0.8585
+                },
+                "BEARISH": {
+                  "n": 85,
+                  "acc": 0.8824
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 41,
+              "coverage": 0.0542,
+              "spoken_acc": 0.9756,
+              "abstain_rate": 0.9458,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 23,
+                  "acc": 1.0
+                },
+                "BEARISH": {
+                  "n": 18,
+                  "acc": 0.9444
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          },
+          "95": {
+            "rule": "gap_cont_th100",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 191,
+              "coverage": 0.0667,
+              "spoken_acc": 0.8691,
+              "abstain_rate": 0.9333,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 106,
+                  "acc": 0.8585
+                },
+                "BEARISH": {
+                  "n": 85,
+                  "acc": 0.8824
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 41,
+              "coverage": 0.0542,
+              "spoken_acc": 0.9756,
+              "abstain_rate": 0.9458,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 23,
+                  "acc": 1.0
+                },
+                "BEARISH": {
+                  "n": 18,
+                  "acc": 0.9444
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          }
+        },
+        "top": [
+          {
+            "rule": "gap_cont_th100",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 191,
+              "coverage": 0.0667,
+              "spoken_acc": 0.8691,
+              "abstain_rate": 0.9333,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 106,
+                  "acc": 0.8585
+                },
+                "BEARISH": {
+                  "n": 85,
+                  "acc": 0.8824
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 41,
+              "coverage": 0.0542,
+              "spoken_acc": 0.9756,
+              "abstain_rate": 0.9458,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 23,
+                  "acc": 1.0
+                },
+                "BEARISH": {
+                  "n": 18,
+                  "acc": 0.9444
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_continue",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1156,
+              "coverage": 0.4038,
+              "spoken_acc": 0.7933,
+              "abstain_rate": 0.5962,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 805,
+                  "acc": 0.7801
+                },
+                "BEARISH": {
+                  "n": 351,
+                  "acc": 0.8234
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 240,
+              "coverage": 0.3175,
+              "spoken_acc": 0.825,
+              "abstain_rate": 0.6825,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 140,
+                  "acc": 0.8357
+                },
+                "BEARISH": {
+                  "n": 100,
+                  "acc": 0.81
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_days_continue",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1156,
+              "coverage": 0.4038,
+              "spoken_acc": 0.7933,
+              "abstain_rate": 0.5962,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 805,
+                  "acc": 0.7801
+                },
+                "BEARISH": {
+                  "n": 351,
+                  "acc": 0.8234
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 240,
+              "coverage": 0.3175,
+              "spoken_acc": 0.825,
+              "abstain_rate": 0.6825,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 140,
+                  "acc": 0.8357
+                },
+                "BEARISH": {
+                  "n": 100,
+                  "acc": 0.81
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_struct_agree",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 481,
+              "coverage": 0.168,
+              "spoken_acc": 0.7817,
+              "abstain_rate": 0.832,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 344,
+                  "acc": 0.7791
+                },
+                "BEARISH": {
+                  "n": 137,
+                  "acc": 0.7883
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 89,
+              "coverage": 0.1177,
+              "spoken_acc": 0.8315,
+              "abstain_rate": 0.8823,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 48,
+                  "acc": 0.8333
+                },
+                "BEARISH": {
+                  "n": 41,
+                  "acc": 0.8293
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_continue",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 683,
+              "coverage": 0.2386,
+              "spoken_acc": 0.5681,
+              "abstain_rate": 0.7614,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 367,
+                  "acc": 0.6458
+                },
+                "BEARISH": {
+                  "n": 316,
+                  "acc": 0.4778
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 139,
+              "coverage": 0.1839,
+              "spoken_acc": 0.5108,
+              "abstain_rate": 0.8161,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 69,
+                  "acc": 0.5652
+                },
+                "BEARISH": {
+                  "n": 70,
+                  "acc": 0.4571
+                }
+              }
+            }
+          },
+          {
+            "rule": "vote3_unanimous",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1596,
+              "coverage": 0.5575,
+              "spoken_acc": 0.5639,
+              "abstain_rate": 0.4425,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1071,
+                  "acc": 0.5957
+                },
+                "BEARISH": {
+                  "n": 525,
+                  "acc": 0.499
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 412,
+              "coverage": 0.545,
+              "spoken_acc": 0.5437,
+              "abstain_rate": 0.455,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 252,
+                  "acc": 0.5714
+                },
+                "BEARISH": {
+                  "n": 160,
+                  "acc": 0.5
+                }
+              }
+            }
+          },
+          {
+            "rule": "cont_any",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2863,
+              "coverage": 1.0,
+              "spoken_acc": 0.5445,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1541,
+                  "acc": 0.5769
+                },
+                "BEARISH": {
+                  "n": 1322,
+                  "acc": 0.5068
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 756,
+              "coverage": 1.0,
+              "spoken_acc": 0.5278,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 395,
+                  "acc": 0.5494
+                },
+                "BEARISH": {
+                  "n": 361,
+                  "acc": 0.5042
+                }
+              }
+            }
+          },
+          {
+            "rule": "always_bull",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2863,
+              "coverage": 1.0,
+              "spoken_acc": 0.5382,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 2863,
+                  "acc": 0.5382
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 756,
+              "coverage": 1.0,
+              "spoken_acc": 0.5238,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 756,
+                  "acc": 0.5238
+                }
+              }
+            }
+          },
+          {
+            "rule": "rsi50",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2863,
+              "coverage": 1.0,
+              "spoken_acc": 0.5344,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1818,
+                  "acc": 0.5572
+                },
+                "BEARISH": {
+                  "n": 1045,
+                  "acc": 0.4947
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 756,
+              "coverage": 1.0,
+              "spoken_acc": 0.5317,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 450,
+                  "acc": 0.5467
+                },
+                "BEARISH": {
+                  "n": 306,
+                  "acc": 0.5098
+                }
+              }
+            }
+          },
+          {
+            "rule": "sma50",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2863,
+              "coverage": 1.0,
+              "spoken_acc": 0.5313,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1885,
+                  "acc": 0.5528
+                },
+                "BEARISH": {
+                  "n": 978,
+                  "acc": 0.4898
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 756,
+              "coverage": 1.0,
+              "spoken_acc": 0.5106,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 450,
+                  "acc": 0.5289
+                },
+                "BEARISH": {
+                  "n": 306,
+                  "acc": 0.4837
+                }
+              }
+            }
+          },
+          {
+            "rule": "strong_rsi_sma_struct",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 737,
+              "coverage": 0.2574,
+              "spoken_acc": 0.5237,
+              "abstain_rate": 0.7426,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 581,
+                  "acc": 0.5456
+                },
+                "BEARISH": {
+                  "n": 156,
+                  "acc": 0.4423
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 159,
+              "coverage": 0.2103,
+              "spoken_acc": 0.5346,
+              "abstain_rate": 0.7897,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 94,
+                  "acc": 0.5957
+                },
+                "BEARISH": {
+                  "n": 65,
+                  "acc": 0.4462
+                }
+              }
+            }
+          },
+          {
+            "rule": "struct",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2228,
+              "coverage": 0.7782,
+              "spoken_acc": 0.5058,
+              "abstain_rate": 0.2218,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1395,
+                  "acc": 0.5369
+                },
+                "BEARISH": {
+                  "n": 833,
+                  "acc": 0.4538
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 574,
+              "coverage": 0.7593,
+              "spoken_acc": 0.493,
+              "abstain_rate": 0.2407,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 320,
+                  "acc": 0.5031
+                },
+                "BEARISH": {
+                  "n": 254,
+                  "acc": 0.4803
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_any",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2863,
+              "coverage": 1.0,
+              "spoken_acc": 0.4555,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1322,
+                  "acc": 0.4932
+                },
+                "BEARISH": {
+                  "n": 1541,
+                  "acc": 0.4231
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 756,
+              "coverage": 1.0,
+              "spoken_acc": 0.4722,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 361,
+                  "acc": 0.4958
+                },
+                "BEARISH": {
+                  "n": 395,
+                  "acc": 0.4506
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_fade",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 683,
+              "coverage": 0.2386,
+              "spoken_acc": 0.4319,
+              "abstain_rate": 0.7614,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 316,
+                  "acc": 0.5222
+                },
+                "BEARISH": {
+                  "n": 367,
+                  "acc": 0.3542
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 139,
+              "coverage": 0.1839,
+              "spoken_acc": 0.4892,
+              "abstain_rate": 0.8161,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 70,
+                  "acc": 0.5429
+                },
+                "BEARISH": {
+                  "n": 69,
+                  "acc": 0.4348
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_fade",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1156,
+              "coverage": 0.4038,
+              "spoken_acc": 0.2067,
+              "abstain_rate": 0.5962,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 351,
+                  "acc": 0.1766
+                },
+                "BEARISH": {
+                  "n": 805,
+                  "acc": 0.2199
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 240,
+              "coverage": 0.3175,
+              "spoken_acc": 0.175,
+              "abstain_rate": 0.6825,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 100,
+                  "acc": 0.19
+                },
+                "BEARISH": {
+                  "n": 140,
+                  "acc": 0.1643
+                }
+              }
+            }
+          }
+        ]
+      },
+      "bias_open_to_close": {
+        "picks": {
+          "90": {
+            "rule": "gap_fade_th100",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 191,
+              "coverage": 0.0667,
+              "spoken_acc": 0.534,
+              "abstain_rate": 0.9333,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 85,
+                  "acc": 0.5529
+                },
+                "BEARISH": {
+                  "n": 106,
+                  "acc": 0.5189
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 41,
+              "coverage": 0.0542,
+              "spoken_acc": 0.5366,
+              "abstain_rate": 0.9458,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 18,
+                  "acc": 0.6111
+                },
+                "BEARISH": {
+                  "n": 23,
+                  "acc": 0.4783
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          },
+          "95": {
+            "rule": "gap_fade_th100",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 191,
+              "coverage": 0.0667,
+              "spoken_acc": 0.534,
+              "abstain_rate": 0.9333,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 85,
+                  "acc": 0.5529
+                },
+                "BEARISH": {
+                  "n": 106,
+                  "acc": 0.5189
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 41,
+              "coverage": 0.0542,
+              "spoken_acc": 0.5366,
+              "abstain_rate": 0.9458,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 18,
+                  "acc": 0.6111
+                },
+                "BEARISH": {
+                  "n": 23,
+                  "acc": 0.4783
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          }
+        },
+        "top": [
+          {
+            "rule": "gap_fade_th100",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 191,
+              "coverage": 0.0667,
+              "spoken_acc": 0.534,
+              "abstain_rate": 0.9333,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 85,
+                  "acc": 0.5529
+                },
+                "BEARISH": {
+                  "n": 106,
+                  "acc": 0.5189
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 41,
+              "coverage": 0.0542,
+              "spoken_acc": 0.5366,
+              "abstain_rate": 0.9458,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 18,
+                  "acc": 0.6111
+                },
+                "BEARISH": {
+                  "n": 23,
+                  "acc": 0.4783
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_continue",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 683,
+              "coverage": 0.2386,
+              "spoken_acc": 0.5183,
+              "abstain_rate": 0.7614,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 367,
+                  "acc": 0.5123
+                },
+                "BEARISH": {
+                  "n": 316,
+                  "acc": 0.5253
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 139,
+              "coverage": 0.1839,
+              "spoken_acc": 0.4317,
+              "abstain_rate": 0.8161,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 69,
+                  "acc": 0.4928
+                },
+                "BEARISH": {
+                  "n": 70,
+                  "acc": 0.3714
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_fade_th080",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 317,
+              "coverage": 0.1107,
+              "spoken_acc": 0.5079,
+              "abstain_rate": 0.8893,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 137,
+                  "acc": 0.4964
+                },
+                "BEARISH": {
+                  "n": 180,
+                  "acc": 0.5167
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 58,
+              "coverage": 0.0767,
+              "spoken_acc": 0.5172,
+              "abstain_rate": 0.9233,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 30,
+                  "acc": 0.5333
+                },
+                "BEARISH": {
+                  "n": 28,
+                  "acc": 0.5
+                }
+              }
+            }
+          },
+          {
+            "rule": "cont_any",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2863,
+              "coverage": 1.0,
+              "spoken_acc": 0.5051,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1541,
+                  "acc": 0.4744
+                },
+                "BEARISH": {
+                  "n": 1322,
+                  "acc": 0.5408
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 756,
+              "coverage": 1.0,
+              "spoken_acc": 0.4696,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 395,
+                  "acc": 0.4506
+                },
+                "BEARISH": {
+                  "n": 361,
+                  "acc": 0.4903
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_continue",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1156,
+              "coverage": 0.4038,
+              "spoken_acc": 0.5009,
+              "abstain_rate": 0.5962,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 805,
+                  "acc": 0.4919
+                },
+                "BEARISH": {
+                  "n": 351,
+                  "acc": 0.5214
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 240,
+              "coverage": 0.3175,
+              "spoken_acc": 0.4708,
+              "abstain_rate": 0.6825,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 140,
+                  "acc": 0.5071
+                },
+                "BEARISH": {
+                  "n": 100,
+                  "acc": 0.42
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_days_continue",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1156,
+              "coverage": 0.4038,
+              "spoken_acc": 0.5009,
+              "abstain_rate": 0.5962,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 805,
+                  "acc": 0.4919
+                },
+                "BEARISH": {
+                  "n": 351,
+                  "acc": 0.5214
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 240,
+              "coverage": 0.3175,
+              "spoken_acc": 0.4708,
+              "abstain_rate": 0.6825,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 140,
+                  "acc": 0.5071
+                },
+                "BEARISH": {
+                  "n": 100,
+                  "acc": 0.42
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_fade",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1156,
+              "coverage": 0.4038,
+              "spoken_acc": 0.4991,
+              "abstain_rate": 0.5962,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 351,
+                  "acc": 0.4786
+                },
+                "BEARISH": {
+                  "n": 805,
+                  "acc": 0.5081
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 240,
+              "coverage": 0.3175,
+              "spoken_acc": 0.5292,
+              "abstain_rate": 0.6825,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 100,
+                  "acc": 0.58
+                },
+                "BEARISH": {
+                  "n": 140,
+                  "acc": 0.4929
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_any",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2863,
+              "coverage": 1.0,
+              "spoken_acc": 0.4946,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1322,
+                  "acc": 0.4592
+                },
+                "BEARISH": {
+                  "n": 1541,
+                  "acc": 0.525
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 756,
+              "coverage": 1.0,
+              "spoken_acc": 0.5304,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 361,
+                  "acc": 0.5097
+                },
+                "BEARISH": {
+                  "n": 395,
+                  "acc": 0.5494
+                }
+              }
+            }
+          },
+          {
+            "rule": "vote3_unanimous",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 1596,
+              "coverage": 0.5575,
+              "spoken_acc": 0.4893,
+              "abstain_rate": 0.4425,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1071,
+                  "acc": 0.4771
+                },
+                "BEARISH": {
+                  "n": 525,
+                  "acc": 0.5143
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 412,
+              "coverage": 0.545,
+              "spoken_acc": 0.4612,
+              "abstain_rate": 0.455,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 252,
+                  "acc": 0.4603
+                },
+                "BEARISH": {
+                  "n": 160,
+                  "acc": 0.4625
+                }
+              }
+            }
+          },
+          {
+            "rule": "sma50",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2863,
+              "coverage": 1.0,
+              "spoken_acc": 0.4886,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1885,
+                  "acc": 0.4668
+                },
+                "BEARISH": {
+                  "n": 978,
+                  "acc": 0.5307
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 756,
+              "coverage": 1.0,
+              "spoken_acc": 0.4815,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 450,
+                  "acc": 0.4667
+                },
+                "BEARISH": {
+                  "n": 306,
+                  "acc": 0.5033
+                }
+              }
+            }
+          },
+          {
+            "rule": "rsi50",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2863,
+              "coverage": 1.0,
+              "spoken_acc": 0.4876,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1818,
+                  "acc": 0.4648
+                },
+                "BEARISH": {
+                  "n": 1045,
+                  "acc": 0.5273
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 756,
+              "coverage": 1.0,
+              "spoken_acc": 0.4815,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 450,
+                  "acc": 0.4667
+                },
+                "BEARISH": {
+                  "n": 306,
+                  "acc": 0.5033
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_fade",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 683,
+              "coverage": 0.2386,
+              "spoken_acc": 0.4817,
+              "abstain_rate": 0.7614,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 316,
+                  "acc": 0.4747
+                },
+                "BEARISH": {
+                  "n": 367,
+                  "acc": 0.4877
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 139,
+              "coverage": 0.1839,
+              "spoken_acc": 0.5683,
+              "abstain_rate": 0.8161,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 70,
+                  "acc": 0.6286
+                },
+                "BEARISH": {
+                  "n": 69,
+                  "acc": 0.5072
+                }
+              }
+            }
+          },
+          {
+            "rule": "struct",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2228,
+              "coverage": 0.7782,
+              "spoken_acc": 0.4758,
+              "abstain_rate": 0.2218,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1395,
+                  "acc": 0.453
+                },
+                "BEARISH": {
+                  "n": 833,
+                  "acc": 0.5138
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 574,
+              "coverage": 0.7593,
+              "spoken_acc": 0.4652,
+              "abstain_rate": 0.2407,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 320,
+                  "acc": 0.4562
+                },
+                "BEARISH": {
+                  "n": 254,
+                  "acc": 0.4764
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_struct_agree",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 481,
+              "coverage": 0.168,
+              "spoken_acc": 0.4678,
+              "abstain_rate": 0.832,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 344,
+                  "acc": 0.4419
+                },
+                "BEARISH": {
+                  "n": 137,
+                  "acc": 0.5328
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 89,
+              "coverage": 0.1177,
+              "spoken_acc": 0.4382,
+              "abstain_rate": 0.8823,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 48,
+                  "acc": 0.4583
+                },
+                "BEARISH": {
+                  "n": 41,
+                  "acc": 0.4146
+                }
+              }
+            }
+          },
+          {
+            "rule": "always_bull",
+            "train": {
+              "days_all": 2863,
+              "days_spoken": 2863,
+              "coverage": 1.0,
+              "spoken_acc": 0.4673,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 2863,
+                  "acc": 0.4673
+                }
+              }
+            },
+            "test": {
+              "days_all": 756,
+              "days_spoken": 756,
+              "coverage": 1.0,
+              "spoken_acc": 0.4788,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 756,
+                  "acc": 0.4788
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "5y",
+      "start": "2021-10-04",
+      "end": "2026-11-11",
+      "train_days": 2359,
+      "test_days": 1260,
+      "gap_premarket": {
+        "picks": {
+          "90": {
+            "rule": "extreme_ret1_1_5pct",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 274,
+              "coverage": 0.1162,
+              "spoken_acc": 0.3175,
+              "abstain_rate": 0.8838,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 147,
+                  "acc": 0.4218
+                },
+                "GAP_DOWN": {
+                  "n": 127,
+                  "acc": 0.1969
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 107,
+              "coverage": 0.0849,
+              "spoken_acc": 0.3178,
+              "abstain_rate": 0.9151,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 54,
+                  "acc": 0.3519
+                },
+                "GAP_DOWN": {
+                  "n": 53,
+                  "acc": 0.283
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          },
+          "95": {
+            "rule": "extreme_ret1_1_5pct",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 274,
+              "coverage": 0.1162,
+              "spoken_acc": 0.3175,
+              "abstain_rate": 0.8838,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 147,
+                  "acc": 0.4218
+                },
+                "GAP_DOWN": {
+                  "n": 127,
+                  "acc": 0.1969
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 107,
+              "coverage": 0.0849,
+              "spoken_acc": 0.3178,
+              "abstain_rate": 0.9151,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 54,
+                  "acc": 0.3519
+                },
+                "GAP_DOWN": {
+                  "n": 53,
+                  "acc": 0.283
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          }
+        },
+        "top": [
+          {
+            "rule": "extreme_ret1_1_5pct",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 274,
+              "coverage": 0.1162,
+              "spoken_acc": 0.3175,
+              "abstain_rate": 0.8838,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 147,
+                  "acc": 0.4218
+                },
+                "GAP_DOWN": {
+                  "n": 127,
+                  "acc": 0.1969
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 107,
+              "coverage": 0.0849,
+              "spoken_acc": 0.3178,
+              "abstain_rate": 0.9151,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 54,
+                  "acc": 0.3519
+                },
+                "GAP_DOWN": {
+                  "n": 53,
+                  "acc": 0.283
+                }
+              }
+            }
+          },
+          {
+            "rule": "extreme_ret1_1pct",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 572,
+              "coverage": 0.2425,
+              "spoken_acc": 0.2622,
+              "abstain_rate": 0.7575,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 312,
+                  "acc": 0.3365
+                },
+                "GAP_DOWN": {
+                  "n": 260,
+                  "acc": 0.1731
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 250,
+              "coverage": 0.1984,
+              "spoken_acc": 0.288,
+              "abstain_rate": 0.8016,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 124,
+                  "acc": 0.3226
+                },
+                "GAP_DOWN": {
+                  "n": 126,
+                  "acc": 0.254
+                }
+              }
+            }
+          },
+          {
+            "rule": "continue_th080",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 798,
+              "coverage": 0.3383,
+              "spoken_acc": 0.2581,
+              "abstain_rate": 0.6617,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 431,
+                  "acc": 0.3341
+                },
+                "GAP_DOWN": {
+                  "n": 367,
+                  "acc": 0.1689
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 369,
+              "coverage": 0.2929,
+              "spoken_acc": 0.2791,
+              "abstain_rate": 0.7071,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 194,
+                  "acc": 0.3196
+                },
+                "GAP_DOWN": {
+                  "n": 175,
+                  "acc": 0.2343
+                }
+              }
+            }
+          },
+          {
+            "rule": "strong_continue_struct",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 316,
+              "coverage": 0.134,
+              "spoken_acc": 0.2532,
+              "abstain_rate": 0.866,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 178,
+                  "acc": 0.2809
+                },
+                "GAP_DOWN": {
+                  "n": 138,
+                  "acc": 0.2174
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 141,
+              "coverage": 0.1119,
+              "spoken_acc": 0.2482,
+              "abstain_rate": 0.8881,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 69,
+                  "acc": 0.2899
+                },
+                "GAP_DOWN": {
+                  "n": 72,
+                  "acc": 0.2083
+                }
+              }
+            }
+          },
+          {
+            "rule": "continue_th050",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 1248,
+              "coverage": 0.529,
+              "spoken_acc": 0.2388,
+              "abstain_rate": 0.471,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 689,
+                  "acc": 0.312
+                },
+                "GAP_DOWN": {
+                  "n": 559,
+                  "acc": 0.1485
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 618,
+              "coverage": 0.4905,
+              "spoken_acc": 0.2508,
+              "abstain_rate": 0.5095,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 341,
+                  "acc": 0.2786
+                },
+                "GAP_DOWN": {
+                  "n": 277,
+                  "acc": 0.2166
+                }
+              }
+            }
+          },
+          {
+            "rule": "ret2_th100",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 1003,
+              "coverage": 0.4252,
+              "spoken_acc": 0.2333,
+              "abstain_rate": 0.5748,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 560,
+                  "acc": 0.2964
+                },
+                "GAP_DOWN": {
+                  "n": 443,
+                  "acc": 0.1535
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 458,
+              "coverage": 0.3635,
+              "spoken_acc": 0.2424,
+              "abstain_rate": 0.6365,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 242,
+                  "acc": 0.2686
+                },
+                "GAP_DOWN": {
+                  "n": 216,
+                  "acc": 0.213
+                }
+              }
+            }
+          },
+          {
+            "rule": "continue_th035",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 1541,
+              "coverage": 0.6532,
+              "spoken_acc": 0.233,
+              "abstain_rate": 0.3468,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 856,
+                  "acc": 0.3002
+                },
+                "GAP_DOWN": {
+                  "n": 685,
+                  "acc": 0.1489
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 790,
+              "coverage": 0.627,
+              "spoken_acc": 0.2456,
+              "abstain_rate": 0.373,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 427,
+                  "acc": 0.2834
+                },
+                "GAP_DOWN": {
+                  "n": 363,
+                  "acc": 0.2011
+                }
+              }
+            }
+          },
+          {
+            "rule": "struct",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 1801,
+              "coverage": 0.7635,
+              "spoken_acc": 0.2149,
+              "abstain_rate": 0.2365,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 1159,
+                  "acc": 0.2459
+                },
+                "GAP_DOWN": {
+                  "n": 642,
+                  "acc": 0.1589
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1001,
+              "coverage": 0.7944,
+              "spoken_acc": 0.1828,
+              "abstain_rate": 0.2056,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 556,
+                  "acc": 0.1924
+                },
+                "GAP_DOWN": {
+                  "n": 445,
+                  "acc": 0.1708
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_th080",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 798,
+              "coverage": 0.3383,
+              "spoken_acc": 0.2018,
+              "abstain_rate": 0.6617,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 367,
+                  "acc": 0.3379
+                },
+                "GAP_DOWN": {
+                  "n": 431,
+                  "acc": 0.0858
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 369,
+              "coverage": 0.2929,
+              "spoken_acc": 0.2087,
+              "abstain_rate": 0.7071,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 175,
+                  "acc": 0.2857
+                },
+                "GAP_DOWN": {
+                  "n": 194,
+                  "acc": 0.1392
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_th050",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 1248,
+              "coverage": 0.529,
+              "spoken_acc": 0.1843,
+              "abstain_rate": 0.471,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 559,
+                  "acc": 0.3023
+                },
+                "GAP_DOWN": {
+                  "n": 689,
+                  "acc": 0.0885
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 618,
+              "coverage": 0.4905,
+              "spoken_acc": 0.1877,
+              "abstain_rate": 0.5095,
+              "by_pred": {
+                "GAP_UP": {
+                  "n": 277,
+                  "acc": 0.2599
+                },
+                "GAP_DOWN": {
+                  "n": 341,
+                  "acc": 0.129
+                }
+              }
+            }
+          },
+          {
+            "rule": "always_natural",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 0,
+              "coverage": 0.0,
+              "spoken_acc": null,
+              "abstain_rate": 1.0,
+              "by_pred": {}
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 0,
+              "coverage": 0.0,
+              "spoken_acc": null,
+              "abstain_rate": 1.0,
+              "by_pred": {}
+            }
+          }
+        ]
+      },
+      "gap_observed_after_open": {
+        "note": "Using true open vs prior close \u2014 classification is exact by definition",
+        "test_3class_acc": 1.0,
+        "gap_up_rate": 0.2317,
+        "gap_down_rate": 0.146,
+        "natural_rate": 0.6222
+      },
+      "bias_close": {
+        "picks": {
+          "90": {
+            "rule": "gap_cont_th100",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 156,
+              "coverage": 0.0661,
+              "spoken_acc": 0.8526,
+              "abstain_rate": 0.9339,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 90,
+                  "acc": 0.8444
+                },
+                "BEARISH": {
+                  "n": 66,
+                  "acc": 0.8636
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 76,
+              "coverage": 0.0603,
+              "spoken_acc": 0.9605,
+              "abstain_rate": 0.9397,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 39,
+                  "acc": 0.9744
+                },
+                "BEARISH": {
+                  "n": 37,
+                  "acc": 0.9459
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          },
+          "95": {
+            "rule": "gap_cont_th100",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 156,
+              "coverage": 0.0661,
+              "spoken_acc": 0.8526,
+              "abstain_rate": 0.9339,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 90,
+                  "acc": 0.8444
+                },
+                "BEARISH": {
+                  "n": 66,
+                  "acc": 0.8636
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 76,
+              "coverage": 0.0603,
+              "spoken_acc": 0.9605,
+              "abstain_rate": 0.9397,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 39,
+                  "acc": 0.9744
+                },
+                "BEARISH": {
+                  "n": 37,
+                  "acc": 0.9459
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          }
+        },
+        "top": [
+          {
+            "rule": "gap_cont_th100",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 156,
+              "coverage": 0.0661,
+              "spoken_acc": 0.8526,
+              "abstain_rate": 0.9339,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 90,
+                  "acc": 0.8444
+                },
+                "BEARISH": {
+                  "n": 66,
+                  "acc": 0.8636
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 76,
+              "coverage": 0.0603,
+              "spoken_acc": 0.9605,
+              "abstain_rate": 0.9397,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 39,
+                  "acc": 0.9744
+                },
+                "BEARISH": {
+                  "n": 37,
+                  "acc": 0.9459
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_continue",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 920,
+              "coverage": 0.39,
+              "spoken_acc": 0.7978,
+              "abstain_rate": 0.61,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 653,
+                  "acc": 0.7871
+                },
+                "BEARISH": {
+                  "n": 267,
+                  "acc": 0.824
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 476,
+              "coverage": 0.3778,
+              "spoken_acc": 0.8004,
+              "abstain_rate": 0.6222,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 292,
+                  "acc": 0.7911
+                },
+                "BEARISH": {
+                  "n": 184,
+                  "acc": 0.8152
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_days_continue",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 920,
+              "coverage": 0.39,
+              "spoken_acc": 0.7978,
+              "abstain_rate": 0.61,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 653,
+                  "acc": 0.7871
+                },
+                "BEARISH": {
+                  "n": 267,
+                  "acc": 0.824
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 476,
+              "coverage": 0.3778,
+              "spoken_acc": 0.8004,
+              "abstain_rate": 0.6222,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 292,
+                  "acc": 0.7911
+                },
+                "BEARISH": {
+                  "n": 184,
+                  "acc": 0.8152
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_struct_agree",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 387,
+              "coverage": 0.1641,
+              "spoken_acc": 0.7855,
+              "abstain_rate": 0.8359,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 285,
+                  "acc": 0.786
+                },
+                "BEARISH": {
+                  "n": 102,
+                  "acc": 0.7843
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 183,
+              "coverage": 0.1452,
+              "spoken_acc": 0.7978,
+              "abstain_rate": 0.8548,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 107,
+                  "acc": 0.785
+                },
+                "BEARISH": {
+                  "n": 76,
+                  "acc": 0.8158
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_continue",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 572,
+              "coverage": 0.2425,
+              "spoken_acc": 0.5647,
+              "abstain_rate": 0.7575,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 312,
+                  "acc": 0.6506
+                },
+                "BEARISH": {
+                  "n": 260,
+                  "acc": 0.4615
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 250,
+              "coverage": 0.1984,
+              "spoken_acc": 0.544,
+              "abstain_rate": 0.8016,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 124,
+                  "acc": 0.5887
+                },
+                "BEARISH": {
+                  "n": 126,
+                  "acc": 0.5
+                }
+              }
+            }
+          },
+          {
+            "rule": "vote3_unanimous",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 1310,
+              "coverage": 0.5553,
+              "spoken_acc": 0.5565,
+              "abstain_rate": 0.4447,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 903,
+                  "acc": 0.5869
+                },
+                "BEARISH": {
+                  "n": 407,
+                  "acc": 0.4889
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 698,
+              "coverage": 0.554,
+              "spoken_acc": 0.5659,
+              "abstain_rate": 0.446,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 420,
+                  "acc": 0.6
+                },
+                "BEARISH": {
+                  "n": 278,
+                  "acc": 0.5144
+                }
+              }
+            }
+          },
+          {
+            "rule": "always_bull",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 2359,
+              "coverage": 1.0,
+              "spoken_acc": 0.5409,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 2359,
+                  "acc": 0.5409
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1260,
+              "coverage": 1.0,
+              "spoken_acc": 0.5246,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1260,
+                  "acc": 0.5246
+                }
+              }
+            }
+          },
+          {
+            "rule": "cont_any",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 2359,
+              "coverage": 1.0,
+              "spoken_acc": 0.5388,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1276,
+                  "acc": 0.5737
+                },
+                "BEARISH": {
+                  "n": 1083,
+                  "acc": 0.4977
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1260,
+              "coverage": 1.0,
+              "spoken_acc": 0.5452,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 660,
+                  "acc": 0.5667
+                },
+                "BEARISH": {
+                  "n": 600,
+                  "acc": 0.5217
+                }
+              }
+            }
+          },
+          {
+            "rule": "rsi50",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 2359,
+              "coverage": 1.0,
+              "spoken_acc": 0.5312,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1534,
+                  "acc": 0.5554
+                },
+                "BEARISH": {
+                  "n": 825,
+                  "acc": 0.4861
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1260,
+              "coverage": 1.0,
+              "spoken_acc": 0.5389,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 734,
+                  "acc": 0.5545
+                },
+                "BEARISH": {
+                  "n": 526,
+                  "acc": 0.5171
+                }
+              }
+            }
+          },
+          {
+            "rule": "sma50",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 2359,
+              "coverage": 1.0,
+              "spoken_acc": 0.5282,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1595,
+                  "acc": 0.5511
+                },
+                "BEARISH": {
+                  "n": 764,
+                  "acc": 0.4804
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1260,
+              "coverage": 1.0,
+              "spoken_acc": 0.5246,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 740,
+                  "acc": 0.5419
+                },
+                "BEARISH": {
+                  "n": 520,
+                  "acc": 0.5
+                }
+              }
+            }
+          },
+          {
+            "rule": "strong_rsi_sma_struct",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 615,
+              "coverage": 0.2607,
+              "spoken_acc": 0.522,
+              "abstain_rate": 0.7393,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 480,
+                  "acc": 0.5375
+                },
+                "BEARISH": {
+                  "n": 135,
+                  "acc": 0.4667
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 281,
+              "coverage": 0.223,
+              "spoken_acc": 0.5338,
+              "abstain_rate": 0.777,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 195,
+                  "acc": 0.5897
+                },
+                "BEARISH": {
+                  "n": 86,
+                  "acc": 0.407
+                }
+              }
+            }
+          },
+          {
+            "rule": "struct",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 1801,
+              "coverage": 0.7635,
+              "spoken_acc": 0.5014,
+              "abstain_rate": 0.2365,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1159,
+                  "acc": 0.5332
+                },
+                "BEARISH": {
+                  "n": 642,
+                  "acc": 0.4439
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1001,
+              "coverage": 0.7944,
+              "spoken_acc": 0.5065,
+              "abstain_rate": 0.2056,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 556,
+                  "acc": 0.5252
+                },
+                "BEARISH": {
+                  "n": 445,
+                  "acc": 0.4831
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_any",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 2359,
+              "coverage": 1.0,
+              "spoken_acc": 0.4612,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1083,
+                  "acc": 0.5023
+                },
+                "BEARISH": {
+                  "n": 1276,
+                  "acc": 0.4263
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1260,
+              "coverage": 1.0,
+              "spoken_acc": 0.4548,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 600,
+                  "acc": 0.4783
+                },
+                "BEARISH": {
+                  "n": 660,
+                  "acc": 0.4333
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_fade",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 572,
+              "coverage": 0.2425,
+              "spoken_acc": 0.4353,
+              "abstain_rate": 0.7575,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 260,
+                  "acc": 0.5385
+                },
+                "BEARISH": {
+                  "n": 312,
+                  "acc": 0.3494
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 250,
+              "coverage": 0.1984,
+              "spoken_acc": 0.456,
+              "abstain_rate": 0.8016,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 126,
+                  "acc": 0.5
+                },
+                "BEARISH": {
+                  "n": 124,
+                  "acc": 0.4113
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_fade",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 920,
+              "coverage": 0.39,
+              "spoken_acc": 0.2022,
+              "abstain_rate": 0.61,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 267,
+                  "acc": 0.176
+                },
+                "BEARISH": {
+                  "n": 653,
+                  "acc": 0.2129
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 476,
+              "coverage": 0.3778,
+              "spoken_acc": 0.1996,
+              "abstain_rate": 0.6222,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 184,
+                  "acc": 0.1848
+                },
+                "BEARISH": {
+                  "n": 292,
+                  "acc": 0.2089
+                }
+              }
+            }
+          }
+        ]
+      },
+      "bias_open_to_close": {
+        "picks": {
+          "90": {
+            "rule": "gap_fade_th100",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 156,
+              "coverage": 0.0661,
+              "spoken_acc": 0.5449,
+              "abstain_rate": 0.9339,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 66,
+                  "acc": 0.5606
+                },
+                "BEARISH": {
+                  "n": 90,
+                  "acc": 0.5333
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 76,
+              "coverage": 0.0603,
+              "spoken_acc": 0.5132,
+              "abstain_rate": 0.9397,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 37,
+                  "acc": 0.5676
+                },
+                "BEARISH": {
+                  "n": 39,
+                  "acc": 0.4615
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          },
+          "95": {
+            "rule": "gap_fade_th100",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 156,
+              "coverage": 0.0661,
+              "spoken_acc": 0.5449,
+              "abstain_rate": 0.9339,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 66,
+                  "acc": 0.5606
+                },
+                "BEARISH": {
+                  "n": 90,
+                  "acc": 0.5333
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 76,
+              "coverage": 0.0603,
+              "spoken_acc": 0.5132,
+              "abstain_rate": 0.9397,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 37,
+                  "acc": 0.5676
+                },
+                "BEARISH": {
+                  "n": 39,
+                  "acc": 0.4615
+                }
+              }
+            },
+            "test_ok": false,
+            "note": "no rule cleared floor on train with enough speaks"
+          }
+        },
+        "top": [
+          {
+            "rule": "gap_fade_th100",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 156,
+              "coverage": 0.0661,
+              "spoken_acc": 0.5449,
+              "abstain_rate": 0.9339,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 66,
+                  "acc": 0.5606
+                },
+                "BEARISH": {
+                  "n": 90,
+                  "acc": 0.5333
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 76,
+              "coverage": 0.0603,
+              "spoken_acc": 0.5132,
+              "abstain_rate": 0.9397,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 37,
+                  "acc": 0.5676
+                },
+                "BEARISH": {
+                  "n": 39,
+                  "acc": 0.4615
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_fade_th080",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 250,
+              "coverage": 0.106,
+              "spoken_acc": 0.52,
+              "abstain_rate": 0.894,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 102,
+                  "acc": 0.5294
+                },
+                "BEARISH": {
+                  "n": 148,
+                  "acc": 0.5135
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 125,
+              "coverage": 0.0992,
+              "spoken_acc": 0.488,
+              "abstain_rate": 0.9008,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 65,
+                  "acc": 0.4615
+                },
+                "BEARISH": {
+                  "n": 60,
+                  "acc": 0.5167
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_continue",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 572,
+              "coverage": 0.2425,
+              "spoken_acc": 0.5157,
+              "abstain_rate": 0.7575,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 312,
+                  "acc": 0.5128
+                },
+                "BEARISH": {
+                  "n": 260,
+                  "acc": 0.5192
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 250,
+              "coverage": 0.1984,
+              "spoken_acc": 0.476,
+              "abstain_rate": 0.8016,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 124,
+                  "acc": 0.5
+                },
+                "BEARISH": {
+                  "n": 126,
+                  "acc": 0.4524
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_continue",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 920,
+              "coverage": 0.39,
+              "spoken_acc": 0.5022,
+              "abstain_rate": 0.61,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 653,
+                  "acc": 0.4885
+                },
+                "BEARISH": {
+                  "n": 267,
+                  "acc": 0.5356
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 476,
+              "coverage": 0.3778,
+              "spoken_acc": 0.4832,
+              "abstain_rate": 0.6222,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 292,
+                  "acc": 0.5068
+                },
+                "BEARISH": {
+                  "n": 184,
+                  "acc": 0.4457
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_days_continue",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 920,
+              "coverage": 0.39,
+              "spoken_acc": 0.5022,
+              "abstain_rate": 0.61,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 653,
+                  "acc": 0.4885
+                },
+                "BEARISH": {
+                  "n": 267,
+                  "acc": 0.5356
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 476,
+              "coverage": 0.3778,
+              "spoken_acc": 0.4832,
+              "abstain_rate": 0.6222,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 292,
+                  "acc": 0.5068
+                },
+                "BEARISH": {
+                  "n": 184,
+                  "acc": 0.4457
+                }
+              }
+            }
+          },
+          {
+            "rule": "cont_any",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 2359,
+              "coverage": 1.0,
+              "spoken_acc": 0.5006,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1276,
+                  "acc": 0.4671
+                },
+                "BEARISH": {
+                  "n": 1083,
+                  "acc": 0.5402
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1260,
+              "coverage": 1.0,
+              "spoken_acc": 0.4921,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 660,
+                  "acc": 0.4742
+                },
+                "BEARISH": {
+                  "n": 600,
+                  "acc": 0.5117
+                }
+              }
+            }
+          },
+          {
+            "rule": "fade_any",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 2359,
+              "coverage": 1.0,
+              "spoken_acc": 0.4989,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1083,
+                  "acc": 0.4598
+                },
+                "BEARISH": {
+                  "n": 1276,
+                  "acc": 0.5321
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1260,
+              "coverage": 1.0,
+              "spoken_acc": 0.5079,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 600,
+                  "acc": 0.4883
+                },
+                "BEARISH": {
+                  "n": 660,
+                  "acc": 0.5258
+                }
+              }
+            }
+          },
+          {
+            "rule": "after_open_gap_fade",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 920,
+              "coverage": 0.39,
+              "spoken_acc": 0.4978,
+              "abstain_rate": 0.61,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 267,
+                  "acc": 0.4644
+                },
+                "BEARISH": {
+                  "n": 653,
+                  "acc": 0.5115
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 476,
+              "coverage": 0.3778,
+              "spoken_acc": 0.5168,
+              "abstain_rate": 0.6222,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 184,
+                  "acc": 0.5543
+                },
+                "BEARISH": {
+                  "n": 292,
+                  "acc": 0.4932
+                }
+              }
+            }
+          },
+          {
+            "rule": "sma50",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 2359,
+              "coverage": 1.0,
+              "spoken_acc": 0.4871,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1595,
+                  "acc": 0.4639
+                },
+                "BEARISH": {
+                  "n": 764,
+                  "acc": 0.5353
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1260,
+              "coverage": 1.0,
+              "spoken_acc": 0.4873,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 740,
+                  "acc": 0.473
+                },
+                "BEARISH": {
+                  "n": 520,
+                  "acc": 0.5077
+                }
+              }
+            }
+          },
+          {
+            "rule": "big_ret1_fade",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 572,
+              "coverage": 0.2425,
+              "spoken_acc": 0.4843,
+              "abstain_rate": 0.7575,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 260,
+                  "acc": 0.4808
+                },
+                "BEARISH": {
+                  "n": 312,
+                  "acc": 0.4872
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 250,
+              "coverage": 0.1984,
+              "spoken_acc": 0.524,
+              "abstain_rate": 0.8016,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 126,
+                  "acc": 0.5476
+                },
+                "BEARISH": {
+                  "n": 124,
+                  "acc": 0.5
+                }
+              }
+            }
+          },
+          {
+            "rule": "rsi50",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 2359,
+              "coverage": 1.0,
+              "spoken_acc": 0.4833,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1534,
+                  "acc": 0.4596
+                },
+                "BEARISH": {
+                  "n": 825,
+                  "acc": 0.5273
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1260,
+              "coverage": 1.0,
+              "spoken_acc": 0.4921,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 734,
+                  "acc": 0.4768
+                },
+                "BEARISH": {
+                  "n": 526,
+                  "acc": 0.5133
+                }
+              }
+            }
+          },
+          {
+            "rule": "vote3_unanimous",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 1310,
+              "coverage": 0.5553,
+              "spoken_acc": 0.4824,
+              "abstain_rate": 0.4447,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 903,
+                  "acc": 0.4651
+                },
+                "BEARISH": {
+                  "n": 407,
+                  "acc": 0.5209
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 698,
+              "coverage": 0.554,
+              "spoken_acc": 0.4857,
+              "abstain_rate": 0.446,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 420,
+                  "acc": 0.4929
+                },
+                "BEARISH": {
+                  "n": 278,
+                  "acc": 0.4748
+                }
+              }
+            }
+          },
+          {
+            "rule": "struct",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 1801,
+              "coverage": 0.7635,
+              "spoken_acc": 0.4753,
+              "abstain_rate": 0.2365,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1159,
+                  "acc": 0.4487
+                },
+                "BEARISH": {
+                  "n": 642,
+                  "acc": 0.5234
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1001,
+              "coverage": 0.7944,
+              "spoken_acc": 0.4705,
+              "abstain_rate": 0.2056,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 556,
+                  "acc": 0.464
+                },
+                "BEARISH": {
+                  "n": 445,
+                  "acc": 0.4787
+                }
+              }
+            }
+          },
+          {
+            "rule": "gap_struct_agree",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 387,
+              "coverage": 0.1641,
+              "spoken_acc": 0.4729,
+              "abstain_rate": 0.8359,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 285,
+                  "acc": 0.4386
+                },
+                "BEARISH": {
+                  "n": 102,
+                  "acc": 0.5686
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 183,
+              "coverage": 0.1452,
+              "spoken_acc": 0.4426,
+              "abstain_rate": 0.8548,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 107,
+                  "acc": 0.4579
+                },
+                "BEARISH": {
+                  "n": 76,
+                  "acc": 0.4211
+                }
+              }
+            }
+          },
+          {
+            "rule": "always_bull",
+            "train": {
+              "days_all": 2359,
+              "days_spoken": 2359,
+              "coverage": 1.0,
+              "spoken_acc": 0.4638,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 2359,
+                  "acc": 0.4638
+                }
+              }
+            },
+            "test": {
+              "days_all": 1260,
+              "days_spoken": 1260,
+              "coverage": 1.0,
+              "spoken_acc": 0.481,
+              "abstain_rate": 0.0,
+              "by_pred": {
+                "BULLISH": {
+                  "n": 1260,
+                  "acc": 0.481
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "promotions": [
+    {
+      "rule": "ret2_th100",
+      "family": "premarket_gap",
+      "floor": 0.9,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 86,
+          "coverage": 0.3413,
+          "spoken_acc": 0.2209,
+          "abstain_rate": 0.6587,
+          "by_pred": {
+            "GAP_UP": {
+              "n": 44,
+              "acc": 0.1818
+            },
+            "GAP_DOWN": {
+              "n": 42,
+              "acc": 0.2619
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 249,
+          "coverage": 0.3294,
+          "spoken_acc": 0.2209,
+          "abstain_rate": 0.6706,
+          "by_pred": {
+            "GAP_UP": {
+              "n": 136,
+              "acc": 0.2426
+            },
+            "GAP_DOWN": {
+              "n": 113,
+              "acc": 0.1947
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 458,
+          "coverage": 0.3635,
+          "spoken_acc": 0.2424,
+          "abstain_rate": 0.6365,
+          "by_pred": {
+            "GAP_UP": {
+              "n": 242,
+              "acc": 0.2686
+            },
+            "GAP_DOWN": {
+              "n": 216,
+              "acc": 0.213
+            }
+          }
+        }
+      },
+      "promote": false
+    },
+    {
+      "rule": "gap_cont_th100",
+      "family": "bias_close",
+      "floor": 0.9,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 20,
+          "coverage": 0.0794,
+          "spoken_acc": 0.95,
+          "abstain_rate": 0.9206,
+          "by_pred": {
+            "BULLISH": {
+              "n": 10,
+              "acc": 1.0
+            },
+            "BEARISH": {
+              "n": 10,
+              "acc": 0.9
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 41,
+          "coverage": 0.0542,
+          "spoken_acc": 0.9756,
+          "abstain_rate": 0.9458,
+          "by_pred": {
+            "BULLISH": {
+              "n": 23,
+              "acc": 1.0
+            },
+            "BEARISH": {
+              "n": 18,
+              "acc": 0.9444
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 76,
+          "coverage": 0.0603,
+          "spoken_acc": 0.9605,
+          "abstain_rate": 0.9397,
+          "by_pred": {
+            "BULLISH": {
+              "n": 39,
+              "acc": 0.9744
+            },
+            "BEARISH": {
+              "n": 37,
+              "acc": 0.9459
+            }
+          }
+        }
+      },
+      "promote": true
+    },
+    {
+      "rule": "gap_cont_th100",
+      "family": "bias_close",
+      "floor": 0.95,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 20,
+          "coverage": 0.0794,
+          "spoken_acc": 0.95,
+          "abstain_rate": 0.9206,
+          "by_pred": {
+            "BULLISH": {
+              "n": 10,
+              "acc": 1.0
+            },
+            "BEARISH": {
+              "n": 10,
+              "acc": 0.9
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 41,
+          "coverage": 0.0542,
+          "spoken_acc": 0.9756,
+          "abstain_rate": 0.9458,
+          "by_pred": {
+            "BULLISH": {
+              "n": 23,
+              "acc": 1.0
+            },
+            "BEARISH": {
+              "n": 18,
+              "acc": 0.9444
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 76,
+          "coverage": 0.0603,
+          "spoken_acc": 0.9605,
+          "abstain_rate": 0.9397,
+          "by_pred": {
+            "BULLISH": {
+              "n": 39,
+              "acc": 0.9744
+            },
+            "BEARISH": {
+              "n": 37,
+              "acc": 0.9459
+            }
+          }
+        }
+      },
+      "promote": true
+    },
+    {
+      "rule": "gap_fade_th100",
+      "family": "bias_otc",
+      "floor": 0.9,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 20,
+          "coverage": 0.0794,
+          "spoken_acc": 0.6,
+          "abstain_rate": 0.9206,
+          "by_pred": {
+            "BULLISH": {
+              "n": 10,
+              "acc": 0.7
+            },
+            "BEARISH": {
+              "n": 10,
+              "acc": 0.5
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 41,
+          "coverage": 0.0542,
+          "spoken_acc": 0.5366,
+          "abstain_rate": 0.9458,
+          "by_pred": {
+            "BULLISH": {
+              "n": 18,
+              "acc": 0.6111
+            },
+            "BEARISH": {
+              "n": 23,
+              "acc": 0.4783
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 76,
+          "coverage": 0.0603,
+          "spoken_acc": 0.5132,
+          "abstain_rate": 0.9397,
+          "by_pred": {
+            "BULLISH": {
+              "n": 37,
+              "acc": 0.5676
+            },
+            "BEARISH": {
+              "n": 39,
+              "acc": 0.4615
+            }
+          }
+        }
+      },
+      "promote": false
+    },
+    {
+      "rule": "gap_fade_th100",
+      "family": "bias_otc",
+      "floor": 0.95,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 20,
+          "coverage": 0.0794,
+          "spoken_acc": 0.6,
+          "abstain_rate": 0.9206,
+          "by_pred": {
+            "BULLISH": {
+              "n": 10,
+              "acc": 0.7
+            },
+            "BEARISH": {
+              "n": 10,
+              "acc": 0.5
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 41,
+          "coverage": 0.0542,
+          "spoken_acc": 0.5366,
+          "abstain_rate": 0.9458,
+          "by_pred": {
+            "BULLISH": {
+              "n": 18,
+              "acc": 0.6111
+            },
+            "BEARISH": {
+              "n": 23,
+              "acc": 0.4783
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 76,
+          "coverage": 0.0603,
+          "spoken_acc": 0.5132,
+          "abstain_rate": 0.9397,
+          "by_pred": {
+            "BULLISH": {
+              "n": 37,
+              "acc": 0.5676
+            },
+            "BEARISH": {
+              "n": 39,
+              "acc": 0.4615
+            }
+          }
+        }
+      },
+      "promote": false
+    }
+  ],
+  "best_per_family": {
+    "premarket_gap": {
+      "rule": "ret2_th100",
+      "family": "premarket_gap",
+      "floor": 0.9,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 86,
+          "coverage": 0.3413,
+          "spoken_acc": 0.2209,
+          "abstain_rate": 0.6587,
+          "by_pred": {
+            "GAP_UP": {
+              "n": 44,
+              "acc": 0.1818
+            },
+            "GAP_DOWN": {
+              "n": 42,
+              "acc": 0.2619
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 249,
+          "coverage": 0.3294,
+          "spoken_acc": 0.2209,
+          "abstain_rate": 0.6706,
+          "by_pred": {
+            "GAP_UP": {
+              "n": 136,
+              "acc": 0.2426
+            },
+            "GAP_DOWN": {
+              "n": 113,
+              "acc": 0.1947
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 458,
+          "coverage": 0.3635,
+          "spoken_acc": 0.2424,
+          "abstain_rate": 0.6365,
+          "by_pred": {
+            "GAP_UP": {
+              "n": 242,
+              "acc": 0.2686
+            },
+            "GAP_DOWN": {
+              "n": 216,
+              "acc": 0.213
+            }
+          }
+        }
+      },
+      "promote": false
+    },
+    "bias_close": {
+      "rule": "gap_cont_th100",
+      "family": "bias_close",
+      "floor": 0.95,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 20,
+          "coverage": 0.0794,
+          "spoken_acc": 0.95,
+          "abstain_rate": 0.9206,
+          "by_pred": {
+            "BULLISH": {
+              "n": 10,
+              "acc": 1.0
+            },
+            "BEARISH": {
+              "n": 10,
+              "acc": 0.9
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 41,
+          "coverage": 0.0542,
+          "spoken_acc": 0.9756,
+          "abstain_rate": 0.9458,
+          "by_pred": {
+            "BULLISH": {
+              "n": 23,
+              "acc": 1.0
+            },
+            "BEARISH": {
+              "n": 18,
+              "acc": 0.9444
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 76,
+          "coverage": 0.0603,
+          "spoken_acc": 0.9605,
+          "abstain_rate": 0.9397,
+          "by_pred": {
+            "BULLISH": {
+              "n": 39,
+              "acc": 0.9744
+            },
+            "BEARISH": {
+              "n": 37,
+              "acc": 0.9459
+            }
+          }
+        }
+      },
+      "promote": true
+    },
+    "bias_otc": {
+      "rule": "gap_fade_th100",
+      "family": "bias_otc",
+      "floor": 0.9,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 20,
+          "coverage": 0.0794,
+          "spoken_acc": 0.6,
+          "abstain_rate": 0.9206,
+          "by_pred": {
+            "BULLISH": {
+              "n": 10,
+              "acc": 0.7
+            },
+            "BEARISH": {
+              "n": 10,
+              "acc": 0.5
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 41,
+          "coverage": 0.0542,
+          "spoken_acc": 0.5366,
+          "abstain_rate": 0.9458,
+          "by_pred": {
+            "BULLISH": {
+              "n": 18,
+              "acc": 0.6111
+            },
+            "BEARISH": {
+              "n": 23,
+              "acc": 0.4783
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 76,
+          "coverage": 0.0603,
+          "spoken_acc": 0.5132,
+          "abstain_rate": 0.9397,
+          "by_pred": {
+            "BULLISH": {
+              "n": 37,
+              "acc": 0.5676
+            },
+            "BEARISH": {
+              "n": 39,
+              "acc": 0.4615
+            }
+          }
+        }
+      },
+      "promote": false
+    }
+  },
+  "recommendation": {
+    "gap_after_open": {
+      "method": "observe_open_vs_prev_close",
+      "accuracy": 1.0,
+      "note": "Not a prediction \u2014 classify when cash open is known."
+    },
+    "gap_premarket": {
+      "rule": "ret2_th100",
+      "family": "premarket_gap",
+      "floor": 0.9,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 86,
+          "coverage": 0.3413,
+          "spoken_acc": 0.2209,
+          "abstain_rate": 0.6587,
+          "by_pred": {
+            "GAP_UP": {
+              "n": 44,
+              "acc": 0.1818
+            },
+            "GAP_DOWN": {
+              "n": 42,
+              "acc": 0.2619
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 249,
+          "coverage": 0.3294,
+          "spoken_acc": 0.2209,
+          "abstain_rate": 0.6706,
+          "by_pred": {
+            "GAP_UP": {
+              "n": 136,
+              "acc": 0.2426
+            },
+            "GAP_DOWN": {
+              "n": 113,
+              "acc": 0.1947
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 458,
+          "coverage": 0.3635,
+          "spoken_acc": 0.2424,
+          "abstain_rate": 0.6365,
+          "by_pred": {
+            "GAP_UP": {
+              "n": 242,
+              "acc": 0.2686
+            },
+            "GAP_DOWN": {
+              "n": 216,
+              "acc": 0.213
+            }
+          }
+        }
+      },
+      "promote": false
+    },
+    "bias_close": {
+      "rule": "gap_cont_th100",
+      "family": "bias_close",
+      "floor": 0.95,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 20,
+          "coverage": 0.0794,
+          "spoken_acc": 0.95,
+          "abstain_rate": 0.9206,
+          "by_pred": {
+            "BULLISH": {
+              "n": 10,
+              "acc": 1.0
+            },
+            "BEARISH": {
+              "n": 10,
+              "acc": 0.9
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 41,
+          "coverage": 0.0542,
+          "spoken_acc": 0.9756,
+          "abstain_rate": 0.9458,
+          "by_pred": {
+            "BULLISH": {
+              "n": 23,
+              "acc": 1.0
+            },
+            "BEARISH": {
+              "n": 18,
+              "acc": 0.9444
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 76,
+          "coverage": 0.0603,
+          "spoken_acc": 0.9605,
+          "abstain_rate": 0.9397,
+          "by_pred": {
+            "BULLISH": {
+              "n": 39,
+              "acc": 0.9744
+            },
+            "BEARISH": {
+              "n": 37,
+              "acc": 0.9459
+            }
+          }
+        }
+      },
+      "promote": true
+    },
+    "bias_open_to_close": {
+      "rule": "gap_fade_th100",
+      "family": "bias_otc",
+      "floor": 0.9,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 20,
+          "coverage": 0.0794,
+          "spoken_acc": 0.6,
+          "abstain_rate": 0.9206,
+          "by_pred": {
+            "BULLISH": {
+              "n": 10,
+              "acc": 0.7
+            },
+            "BEARISH": {
+              "n": 10,
+              "acc": 0.5
+            }
+          }
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 41,
+          "coverage": 0.0542,
+          "spoken_acc": 0.5366,
+          "abstain_rate": 0.9458,
+          "by_pred": {
+            "BULLISH": {
+              "n": 18,
+              "acc": 0.6111
+            },
+            "BEARISH": {
+              "n": 23,
+              "acc": 0.4783
+            }
+          }
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 76,
+          "coverage": 0.0603,
+          "spoken_acc": 0.5132,
+          "abstain_rate": 0.9397,
+          "by_pred": {
+            "BULLISH": {
+              "n": 37,
+              "acc": 0.5676
+            },
+            "BEARISH": {
+              "n": 39,
+              "acc": 0.4615
+            }
+          }
+        }
+      },
+      "promote": false
+    }
+  }
+}

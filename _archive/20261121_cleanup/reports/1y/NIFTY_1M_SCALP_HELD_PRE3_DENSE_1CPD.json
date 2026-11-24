@@ -1,0 +1,2837 @@
+{
+  "held": "ACC100_PRE3_RAW",
+  "ceilings": {
+    "E2024": {
+      "win_days": 247,
+      "all_days": 247,
+      "max_cover%": 100.0
+    },
+    "E2025": {
+      "win_days": 249,
+      "all_days": 249,
+      "max_cover%": 100.0
+    },
+    "HOLD": {
+      "win_days": 210,
+      "all_days": 210,
+      "max_cover%": 100.0
+    },
+    "FWD": {
+      "win_days": 5,
+      "all_days": 5,
+      "max_cover%": 100.0
+    }
+  },
+  "variants": {
+    "HELD_BASE_g4": {
+      "gap": 4,
+      "min_cal": 2,
+      "min_l3m": 1,
+      "n_micros": 97,
+      "total": 349,
+      "cpd_all": 0.491,
+      "verify": {
+        "E2024": {
+          "n": 207,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 136,
+          "cpd": 1.52,
+          "cpd_all": 0.84,
+          "cover": 55.1,
+          "avg_sl": 7.79
+        },
+        "E2025": {
+          "n": 113,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 92,
+          "cpd": 1.23,
+          "cpd_all": 0.45,
+          "cover": 36.9,
+          "avg_sl": 7.75
+        },
+        "HOLD": {
+          "n": 29,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 26,
+          "cpd": 1.12,
+          "cpd_all": 0.14,
+          "cover": 12.4,
+          "avg_sl": 7.94
+        },
+        "FWD": {
+          "n": 0,
+          "hit": 0.0,
+          "all_win": true,
+          "days": 0,
+          "cpd": 0.0,
+          "cpd_all": 0.0,
+          "cover": 0.0,
+          "avg_sl": 0
+        }
+      },
+      "all_win": true,
+      "micros": [
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_lo', 'ba>0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 6,
+          "hold_n": 1
+        },
+        {
+          "k": "('P3', 'SELL', 'up_dn_up', 'hold_under_hi', 'adv_mid', 'ELEVATED', '09')",
+          "st": "sig",
+          "total_n": 6,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'early', 'b<45', 'sl12-16', 'lo', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 6,
+          "hold_n": 0
+        },
+        {
+          "k": "('engulf', 'BUY', 1, 'mid', 'b70+', 'sl12-16', 'adv_lo', 'stdn_dn')",
+          "st": "sig",
+          "total_n": 6,
+          "hold_n": 3
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 1, 'midday', 'b70+', 'sl4-8', 'mid', 'adv_mid', 'ba>0.5', 'stup_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('belt_maru', 'BUY', 'balanced', 0, 'am', 'b70+', 'sl16-20', 'adv_mid')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'balanced', 'morning', 'b45+', 'sl8-12', 'adv_lo')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 'midday', 'b55+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_kicker', 'SELL', 'morn', 1, 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run3', 'SELL', 'reversal', 'midday', 'b55+', 'sl8-12', 'adv_hi')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl8-12', 'mid', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b45+', 'sl4-8', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('tweezer_top', 'SELL', 'reversal', 'early', 'b55+', 'sl8-12', 'adv_hi')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'balanced', 1, 'late', 'b45+', 'sl8-12', 'mid', 'adv_lo', 'ba<0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b45+', 'sl8-12', 'lo', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_run2', 'BUY', 'continuation', 0, 'morning', 'b<45', 'sl8-12', 'hi', 'adv_mid', 'ba<0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('rising_3_methods', 'BUY', 'morn', 1, 'b<45', 'sl8-12', 'adv_lo')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 0, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 1, 'midday', 'b70+', 'sl8-12', 'hi', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('three', 'BUY', 1, 'close', 'b55+', 'sl16-20', 'adv_lo', 'stdn_up')",
+          "st": "sig",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 'early', 'b45+', 'sl8-12', 'adv_hi')",
+          "st": "prev",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'late', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('SLOT', 'BUY', 'mid', 'reversal', 0, 'b<45', 'sl12-16', 'adv_hi')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('runs', 'BUY', 0, 'morn', 'b45+', 'sl16-20', 'adv_hi', 'stup_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'reversal', 0, 'early', 'b45+', 'sl16-20', 'mid', 'adv_hi', 'ba<0.5', 'stup_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b<45', 'sl12-16', 'lo', 'adv_mid', 'ba<0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('tweezer_top', 'SELL', 'reversal', 'early', 'b55+', 'sl4-8', 'adv_lo')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run3', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl4-8', 'hi', 'adv_hi', 'ba>0.8', 'stup_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 0, 'morning', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba>0.5', 'stdn_dn')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('kick', 'SELL', 0, 'close', 'b<45', 'sl4-8', 'adv_hi', 'stdn_up')",
+          "st": "min_ps",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'balanced', 1, 'midday', 'b<45', 'sl4-8', 'hi', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "min_ps",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl4-8', 'mid', 'adv_lo', 'ba<0.5', 'stdn_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run3', 'BUY', 'continuation', 0, 'morning', 'b55+', 'sl4-8', 'mid', 'adv_lo', 'ba<0.5', 'stup_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'three', 'SELL', 'reversal', 1, 'early', 'adv_hi', 'sl4-8')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 0, 'early', 'b70+', 'sl8-12', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 0, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 0, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stup_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl8-12', 'mid', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'kick', 'SELL', 'balanced', 1, 'midday', 'adv_hi', 'sl8-12')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run2', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl4-8', 'mid', 'adv_mid', 'ba>0.8', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('kick', 'BUY', 0, 'close', 'b45+', 'sl8-12', 'adv_mid', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'reversal', 1, 'late', 'b<45', 'sl16-20', 'mid', 'adv_mid', 'ba<0.5', 'stup_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('runs', 'SELL', 0, 'aft', 'b70+', 'sl8-12', 'adv_lo', 'stdoji_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('falling_3_methods', 'SELL', 'continuation', 1, 'morning', 'b55+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 1, 'morning', 'b45+', 'sl8-12', 'lo', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_bear', 'SELL', 'continuation', 0, 'morning', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba>0.5', 'stup_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'late', 'b<45', 'sl12-16', 'mid', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'engulf', 'SELL', 'continuation', 1, 'late', 'adv_hi', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 0, 'early', 'b70+', 'sl12-16', 'hi', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('dark_cloud', 'SELL', 'aft', 1, 'b45+', 'sl4-8', 'adv_mid')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run3', 'SELL', 'continuation', 1, 'morning', 'b45+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stdn_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'reversal', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('engulf', 'BUY', 0, 'open', 'b<45', 'sl8-12', 'adv_lo', 'stdn_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_bull', 'BUY', 'balanced', 0, 'midday', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('other', 'SELL', 'reversal', 1, 'am', 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stup_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'reversal', 'morning', 'b55+', 'sl12-16', 'adv_mid')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_maru', 'SELL', 1, 'close', 'b70+', 'sl12-16', 'adv_lo', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'engulf', 'BUY', 'reversal', 1, 'early', 'adv_hi', 'sl12-16')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl16-20', 'mid', 'adv_hi', 'ba<0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'continuation', 1, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "cap10",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('P3', 'BUY', 'dn_dn_up', 'break_hi_hold', 'adv_hi', 'UNK', '10')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('P3', 'BUY', 'dn_dn_dn', 'break_hi_hold', 'adv_mid', 'ELEVATED', '10')",
+          "st": "cap8",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('dark_cloud', 'SELL', 1, 'continuation', 1, 'adv_mid', '09')",
+          "st": "sig",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'up_doji_up', 'break_hi_hold', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 1, 'early', 'b70+', 'sl16-20', 'mid', 'adv_mid', 'ba>0.8', 'stup_dn')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('GEOM', 'BUY', 'balanced', 0, 'morning', 'b70+', 'sl16-20', 'mid', 'adv_mid', 'ba>0.8', 'stup_up')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('runs', 'BUY', 'doji_dn_up', '11', 'NORMAL')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('VS', 0, 'SELL', 'dn_doji_dn', 'NORMAL', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 1, 'early', 'b55+', 'sl16-20', 'hi', 'adv_hi', 'ba>0.8', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        }
+      ]
+    },
+    "DENSE_g4_m11": {
+      "gap": 4,
+      "min_cal": 1,
+      "min_l3m": 1,
+      "n_micros": 599,
+      "total": 1522,
+      "cpd_all": 2.141,
+      "verify": {
+        "E2024": {
+          "n": 709,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 224,
+          "cpd": 3.17,
+          "cpd_all": 2.87,
+          "cover": 90.7,
+          "avg_sl": 7.6
+        },
+        "E2025": {
+          "n": 671,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 228,
+          "cpd": 2.94,
+          "cpd_all": 2.69,
+          "cover": 91.6,
+          "avg_sl": 7.54
+        },
+        "HOLD": {
+          "n": 140,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 97,
+          "cpd": 1.44,
+          "cpd_all": 0.67,
+          "cover": 46.2,
+          "avg_sl": 8.12
+        },
+        "FWD": {
+          "n": 2,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 1,
+          "cpd": 2.0,
+          "cpd_all": 0.4,
+          "cover": 20.0,
+          "avg_sl": 8.32
+        }
+      },
+      "all_win": true,
+      "micros": [
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_lo', 'ba>0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 6,
+          "hold_n": 1
+        },
+        {
+          "k": "('P3', 'SELL', 'up_dn_up', 'hold_under_hi', 'adv_mid', 'ELEVATED', '09')",
+          "st": "sig",
+          "total_n": 6,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'early', 'b<45', 'sl12-16', 'lo', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 6,
+          "hold_n": 0
+        },
+        {
+          "k": "('engulf', 'BUY', 1, 'mid', 'b70+', 'sl12-16', 'adv_lo', 'stdn_dn')",
+          "st": "sig",
+          "total_n": 6,
+          "hold_n": 3
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 1, 'midday', 'b70+', 'sl4-8', 'mid', 'adv_mid', 'ba>0.5', 'stup_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('belt_maru', 'BUY', 'balanced', 0, 'am', 'b70+', 'sl16-20', 'adv_mid')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'balanced', 'morning', 'b45+', 'sl8-12', 'adv_lo')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 'midday', 'b55+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_kicker', 'SELL', 'morn', 1, 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run3', 'SELL', 'reversal', 'midday', 'b55+', 'sl8-12', 'adv_hi')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl8-12', 'mid', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b45+', 'sl4-8', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('tweezer_top', 'SELL', 'reversal', 'early', 'b55+', 'sl8-12', 'adv_hi')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'balanced', 1, 'late', 'b45+', 'sl8-12', 'mid', 'adv_lo', 'ba<0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b45+', 'sl8-12', 'lo', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_run2', 'BUY', 'continuation', 0, 'morning', 'b<45', 'sl8-12', 'hi', 'adv_mid', 'ba<0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('rising_3_methods', 'BUY', 'morn', 1, 'b<45', 'sl8-12', 'adv_lo')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 0, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 1, 'midday', 'b70+', 'sl8-12', 'hi', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('three', 'BUY', 1, 'close', 'b55+', 'sl16-20', 'adv_lo', 'stdn_up')",
+          "st": "sig",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 'early', 'b45+', 'sl8-12', 'adv_hi')",
+          "st": "prev",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'late', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('SLOT', 'BUY', 'mid', 'reversal', 0, 'b<45', 'sl12-16', 'adv_hi')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('runs', 'BUY', 0, 'morn', 'b45+', 'sl16-20', 'adv_hi', 'stup_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'reversal', 0, 'early', 'b45+', 'sl16-20', 'mid', 'adv_hi', 'ba<0.5', 'stup_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b<45', 'sl12-16', 'lo', 'adv_mid', 'ba<0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('tweezer_top', 'SELL', 'reversal', 'early', 'b55+', 'sl4-8', 'adv_lo')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run3', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl4-8', 'hi', 'adv_hi', 'ba>0.8', 'stup_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 0, 'morning', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba>0.5', 'stdn_dn')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('kick', 'SELL', 0, 'close', 'b<45', 'sl4-8', 'adv_hi', 'stdn_up')",
+          "st": "min_ps",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'balanced', 1, 'midday', 'b<45', 'sl4-8', 'hi', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "min_ps",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl4-8', 'mid', 'adv_lo', 'ba<0.5', 'stdn_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run3', 'BUY', 'continuation', 0, 'morning', 'b55+', 'sl4-8', 'mid', 'adv_lo', 'ba<0.5', 'stup_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'three', 'SELL', 'reversal', 1, 'early', 'adv_hi', 'sl4-8')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 0, 'early', 'b70+', 'sl8-12', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 0, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 0, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stup_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl8-12', 'mid', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'kick', 'SELL', 'balanced', 1, 'midday', 'adv_hi', 'sl8-12')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run2', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl4-8', 'mid', 'adv_mid', 'ba>0.8', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('kick', 'BUY', 0, 'close', 'b45+', 'sl8-12', 'adv_mid', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'reversal', 1, 'late', 'b<45', 'sl16-20', 'mid', 'adv_mid', 'ba<0.5', 'stup_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('runs', 'SELL', 0, 'aft', 'b70+', 'sl8-12', 'adv_lo', 'stdoji_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('falling_3_methods', 'SELL', 'continuation', 1, 'morning', 'b55+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 1, 'morning', 'b45+', 'sl8-12', 'lo', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_bear', 'SELL', 'continuation', 0, 'morning', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba>0.5', 'stup_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'late', 'b<45', 'sl12-16', 'mid', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'engulf', 'SELL', 'continuation', 1, 'late', 'adv_hi', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 0, 'early', 'b70+', 'sl12-16', 'hi', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('dark_cloud', 'SELL', 'aft', 1, 'b45+', 'sl4-8', 'adv_mid')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run3', 'SELL', 'continuation', 1, 'morning', 'b45+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stdn_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'reversal', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('engulf', 'BUY', 0, 'open', 'b<45', 'sl8-12', 'adv_lo', 'stdn_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_bull', 'BUY', 'balanced', 0, 'midday', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('other', 'SELL', 'reversal', 1, 'am', 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stup_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'reversal', 'morning', 'b55+', 'sl12-16', 'adv_mid')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_maru', 'SELL', 1, 'close', 'b70+', 'sl12-16', 'adv_lo', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'engulf', 'BUY', 'reversal', 1, 'early', 'adv_hi', 'sl12-16')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl16-20', 'mid', 'adv_hi', 'ba<0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'continuation', 1, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "cap10",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('P3', 'BUY', 'dn_dn_up', 'break_hi_hold', 'adv_hi', 'UNK', '10')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('P3', 'SELL', 'dn_dn_dn', 'break_lo', 'adv_mid', 'ELEVATED', '11')",
+          "st": "cap8",
+          "total_n": 7,
+          "hold_n": 4
+        },
+        {
+          "k": "('bear_engulf', 'SELL', 0, 'late', 'adv_hi', 'sl12-16')",
+          "st": "cap10",
+          "total_n": 6,
+          "hold_n": 4
+        },
+        {
+          "k": "('hammer', 'BUY', 'dn_dn_up', 1, 'adv_mid', '12', 'NORMAL')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 1, 'late', 'b70+', 'sl16-20', 'mid', 'adv_lo', 'ba>0.5', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('P3', 'BUY', 'dn_dn_dn', 'break_hi_hold', 'adv_mid', 'ELEVATED', '10')",
+          "st": "cap8",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('piercing', 'BUY', 1, 'late', 'adv_mid', 'sl8-12')",
+          "st": "min_ps",
+          "total_n": 5,
+          "hold_n": 3
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b<45', 'sl8-12', 'lo', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 0, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_lo', 'ba>0.5', 'stdn_dn')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 1
+        }
+      ]
+    },
+    "DENSE_g2_m11": {
+      "gap": 2,
+      "min_cal": 1,
+      "min_l3m": 1,
+      "n_micros": 625,
+      "total": 1579,
+      "cpd_all": 2.221,
+      "verify": {
+        "E2024": {
+          "n": 736,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 224,
+          "cpd": 3.29,
+          "cpd_all": 2.98,
+          "cover": 90.7,
+          "avg_sl": 7.59
+        },
+        "E2025": {
+          "n": 698,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 228,
+          "cpd": 3.06,
+          "cpd_all": 2.8,
+          "cover": 91.6,
+          "avg_sl": 7.54
+        },
+        "HOLD": {
+          "n": 143,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 97,
+          "cpd": 1.47,
+          "cpd_all": 0.68,
+          "cover": 46.2,
+          "avg_sl": 8.13
+        },
+        "FWD": {
+          "n": 2,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 1,
+          "cpd": 2.0,
+          "cpd_all": 0.4,
+          "cover": 20.0,
+          "avg_sl": 8.32
+        }
+      },
+      "all_win": true,
+      "micros": [
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_lo', 'ba>0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 6,
+          "hold_n": 1
+        },
+        {
+          "k": "('P3', 'SELL', 'up_dn_up', 'hold_under_hi', 'adv_mid', 'ELEVATED', '09')",
+          "st": "sig",
+          "total_n": 6,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'early', 'b<45', 'sl12-16', 'lo', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 6,
+          "hold_n": 0
+        },
+        {
+          "k": "('engulf', 'BUY', 1, 'mid', 'b70+', 'sl12-16', 'adv_lo', 'stdn_dn')",
+          "st": "sig",
+          "total_n": 6,
+          "hold_n": 3
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 1, 'midday', 'b70+', 'sl4-8', 'mid', 'adv_mid', 'ba>0.5', 'stup_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('belt_maru', 'BUY', 'balanced', 0, 'am', 'b70+', 'sl16-20', 'adv_mid')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'balanced', 'morning', 'b45+', 'sl8-12', 'adv_lo')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 'midday', 'b55+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_kicker', 'SELL', 'morn', 1, 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run3', 'SELL', 'reversal', 'midday', 'b55+', 'sl8-12', 'adv_hi')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl8-12', 'mid', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b45+', 'sl4-8', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('tweezer_top', 'SELL', 'reversal', 'early', 'b55+', 'sl8-12', 'adv_hi')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'balanced', 1, 'late', 'b45+', 'sl8-12', 'mid', 'adv_lo', 'ba<0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b45+', 'sl8-12', 'lo', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_run2', 'BUY', 'continuation', 0, 'morning', 'b<45', 'sl8-12', 'hi', 'adv_mid', 'ba<0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('rising_3_methods', 'BUY', 'morn', 1, 'b<45', 'sl8-12', 'adv_lo')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 0, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 1, 'midday', 'b70+', 'sl8-12', 'hi', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('three', 'BUY', 1, 'close', 'b55+', 'sl16-20', 'adv_lo', 'stdn_up')",
+          "st": "sig",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 'early', 'b45+', 'sl8-12', 'adv_hi')",
+          "st": "prev",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'late', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('SLOT', 'BUY', 'mid', 'reversal', 0, 'b<45', 'sl12-16', 'adv_hi')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('runs', 'BUY', 0, 'morn', 'b45+', 'sl16-20', 'adv_hi', 'stup_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'reversal', 0, 'early', 'b45+', 'sl16-20', 'mid', 'adv_hi', 'ba<0.5', 'stup_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b<45', 'sl12-16', 'lo', 'adv_mid', 'ba<0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('tweezer_top', 'SELL', 'reversal', 'early', 'b55+', 'sl4-8', 'adv_lo')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run3', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl4-8', 'hi', 'adv_hi', 'ba>0.8', 'stup_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 0, 'morning', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba>0.5', 'stdn_dn')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('kick', 'SELL', 0, 'close', 'b<45', 'sl4-8', 'adv_hi', 'stdn_up')",
+          "st": "min_ps",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'balanced', 1, 'midday', 'b<45', 'sl4-8', 'hi', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "min_ps",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl4-8', 'mid', 'adv_lo', 'ba<0.5', 'stdn_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run3', 'BUY', 'continuation', 0, 'morning', 'b55+', 'sl4-8', 'mid', 'adv_lo', 'ba<0.5', 'stup_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'three', 'SELL', 'reversal', 1, 'early', 'adv_hi', 'sl4-8')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 0, 'early', 'b70+', 'sl8-12', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 0, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 0, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stup_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl8-12', 'mid', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'kick', 'SELL', 'balanced', 1, 'midday', 'adv_hi', 'sl8-12')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run2', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl4-8', 'mid', 'adv_mid', 'ba>0.8', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('kick', 'BUY', 0, 'close', 'b45+', 'sl8-12', 'adv_mid', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'reversal', 1, 'late', 'b<45', 'sl16-20', 'mid', 'adv_mid', 'ba<0.5', 'stup_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('runs', 'SELL', 0, 'aft', 'b70+', 'sl8-12', 'adv_lo', 'stdoji_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('falling_3_methods', 'SELL', 'continuation', 1, 'morning', 'b55+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 1, 'morning', 'b45+', 'sl8-12', 'lo', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_bear', 'SELL', 'continuation', 0, 'morning', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba>0.5', 'stup_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'late', 'b<45', 'sl12-16', 'mid', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'engulf', 'SELL', 'continuation', 1, 'late', 'adv_hi', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 0, 'early', 'b70+', 'sl12-16', 'hi', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('dark_cloud', 'SELL', 'aft', 1, 'b45+', 'sl4-8', 'adv_mid')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run3', 'SELL', 'continuation', 1, 'morning', 'b45+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stdn_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'reversal', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('engulf', 'BUY', 0, 'open', 'b<45', 'sl8-12', 'adv_lo', 'stdn_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_bull', 'BUY', 'balanced', 0, 'midday', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('other', 'SELL', 'reversal', 1, 'am', 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stup_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'reversal', 'morning', 'b55+', 'sl12-16', 'adv_mid')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_maru', 'SELL', 1, 'close', 'b70+', 'sl12-16', 'adv_lo', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'engulf', 'BUY', 'reversal', 1, 'early', 'adv_hi', 'sl12-16')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl16-20', 'mid', 'adv_hi', 'ba<0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'continuation', 1, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "cap10",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('P3', 'BUY', 'dn_dn_up', 'break_hi_hold', 'adv_hi', 'UNK', '10')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('P3', 'SELL', 'dn_dn_dn', 'break_lo', 'adv_mid', 'ELEVATED', '11')",
+          "st": "cap8",
+          "total_n": 7,
+          "hold_n": 4
+        },
+        {
+          "k": "('bear_engulf', 'SELL', 0, 'late', 'adv_hi', 'sl12-16')",
+          "st": "cap10",
+          "total_n": 6,
+          "hold_n": 4
+        },
+        {
+          "k": "('hammer', 'BUY', 'dn_dn_up', 1, 'adv_mid', '12', 'NORMAL')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 1, 'late', 'b70+', 'sl16-20', 'mid', 'adv_lo', 'ba>0.5', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('P3', 'BUY', 'dn_dn_dn', 'break_hi_hold', 'adv_mid', 'ELEVATED', '10')",
+          "st": "cap8",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('piercing', 'BUY', 1, 'late', 'adv_mid', 'sl8-12')",
+          "st": "min_ps",
+          "total_n": 5,
+          "hold_n": 3
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b<45', 'sl8-12', 'lo', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 0, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_lo', 'ba>0.5', 'stdn_dn')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 1
+        }
+      ]
+    },
+    "DENSE_g1_m11": {
+      "gap": 1,
+      "min_cal": 1,
+      "min_l3m": 1,
+      "n_micros": 654,
+      "total": 1643,
+      "cpd_all": 2.311,
+      "verify": {
+        "E2024": {
+          "n": 765,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 227,
+          "cpd": 3.37,
+          "cpd_all": 3.1,
+          "cover": 91.9,
+          "avg_sl": 7.59
+        },
+        "E2025": {
+          "n": 729,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 228,
+          "cpd": 3.2,
+          "cpd_all": 2.93,
+          "cover": 91.6,
+          "avg_sl": 7.55
+        },
+        "HOLD": {
+          "n": 147,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 98,
+          "cpd": 1.5,
+          "cpd_all": 0.7,
+          "cover": 46.7,
+          "avg_sl": 8.15
+        },
+        "FWD": {
+          "n": 2,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 1,
+          "cpd": 2.0,
+          "cpd_all": 0.4,
+          "cover": 20.0,
+          "avg_sl": 8.32
+        }
+      },
+      "all_win": true,
+      "micros": [
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_lo', 'ba>0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 6,
+          "hold_n": 1
+        },
+        {
+          "k": "('P3', 'SELL', 'up_dn_up', 'hold_under_hi', 'adv_mid', 'ELEVATED', '09')",
+          "st": "sig",
+          "total_n": 6,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'early', 'b<45', 'sl12-16', 'lo', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 6,
+          "hold_n": 0
+        },
+        {
+          "k": "('engulf', 'BUY', 1, 'mid', 'b70+', 'sl12-16', 'adv_lo', 'stdn_dn')",
+          "st": "sig",
+          "total_n": 6,
+          "hold_n": 3
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 1, 'midday', 'b70+', 'sl4-8', 'mid', 'adv_mid', 'ba>0.5', 'stup_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('belt_maru', 'BUY', 'balanced', 0, 'am', 'b70+', 'sl16-20', 'adv_mid')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'balanced', 'morning', 'b45+', 'sl8-12', 'adv_lo')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 'midday', 'b55+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_kicker', 'SELL', 'morn', 1, 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run3', 'SELL', 'reversal', 'midday', 'b55+', 'sl8-12', 'adv_hi')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl8-12', 'mid', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b45+', 'sl4-8', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('tweezer_top', 'SELL', 'reversal', 'early', 'b55+', 'sl8-12', 'adv_hi')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'balanced', 1, 'late', 'b45+', 'sl8-12', 'mid', 'adv_lo', 'ba<0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b45+', 'sl8-12', 'lo', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_run2', 'BUY', 'continuation', 0, 'morning', 'b<45', 'sl8-12', 'hi', 'adv_mid', 'ba<0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('rising_3_methods', 'BUY', 'morn', 1, 'b<45', 'sl8-12', 'adv_lo')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 0, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 1, 'midday', 'b70+', 'sl8-12', 'hi', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('three', 'BUY', 1, 'close', 'b55+', 'sl16-20', 'adv_lo', 'stdn_up')",
+          "st": "sig",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 'early', 'b45+', 'sl8-12', 'adv_hi')",
+          "st": "prev",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'late', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('SLOT', 'BUY', 'mid', 'reversal', 0, 'b<45', 'sl12-16', 'adv_hi')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('runs', 'BUY', 0, 'morn', 'b45+', 'sl16-20', 'adv_hi', 'stup_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'reversal', 0, 'early', 'b45+', 'sl16-20', 'mid', 'adv_hi', 'ba<0.5', 'stup_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b<45', 'sl12-16', 'lo', 'adv_mid', 'ba<0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('tweezer_top', 'SELL', 'reversal', 'early', 'b55+', 'sl4-8', 'adv_lo')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run3', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl4-8', 'hi', 'adv_hi', 'ba>0.8', 'stup_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 0, 'morning', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba>0.5', 'stdn_dn')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('kick', 'SELL', 0, 'close', 'b<45', 'sl4-8', 'adv_hi', 'stdn_up')",
+          "st": "min_ps",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'balanced', 1, 'midday', 'b<45', 'sl4-8', 'hi', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "min_ps",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl4-8', 'mid', 'adv_lo', 'ba<0.5', 'stdn_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run3', 'BUY', 'continuation', 0, 'morning', 'b55+', 'sl4-8', 'mid', 'adv_lo', 'ba<0.5', 'stup_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'three', 'SELL', 'reversal', 1, 'early', 'adv_hi', 'sl4-8')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 0, 'early', 'b70+', 'sl8-12', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 0, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 0, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stup_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl8-12', 'mid', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'kick', 'SELL', 'balanced', 1, 'midday', 'adv_hi', 'sl8-12')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run2', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl4-8', 'mid', 'adv_mid', 'ba>0.8', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('kick', 'BUY', 0, 'close', 'b45+', 'sl8-12', 'adv_mid', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'reversal', 1, 'late', 'b<45', 'sl16-20', 'mid', 'adv_mid', 'ba<0.5', 'stup_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('runs', 'SELL', 0, 'aft', 'b70+', 'sl8-12', 'adv_lo', 'stdoji_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('falling_3_methods', 'SELL', 'continuation', 1, 'morning', 'b55+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 1, 'morning', 'b45+', 'sl8-12', 'lo', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_bear', 'SELL', 'continuation', 0, 'morning', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba>0.5', 'stup_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'late', 'b<45', 'sl12-16', 'mid', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'engulf', 'SELL', 'continuation', 1, 'late', 'adv_hi', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 0, 'early', 'b70+', 'sl12-16', 'hi', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('dark_cloud', 'SELL', 'aft', 1, 'b45+', 'sl4-8', 'adv_mid')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run3', 'SELL', 'continuation', 1, 'morning', 'b45+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stdn_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'reversal', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('engulf', 'BUY', 0, 'open', 'b<45', 'sl8-12', 'adv_lo', 'stdn_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_bull', 'BUY', 'balanced', 0, 'midday', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('other', 'SELL', 'reversal', 1, 'am', 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stup_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'reversal', 'morning', 'b55+', 'sl12-16', 'adv_mid')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_maru', 'SELL', 1, 'close', 'b70+', 'sl12-16', 'adv_lo', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'engulf', 'BUY', 'reversal', 1, 'early', 'adv_hi', 'sl12-16')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl16-20', 'mid', 'adv_hi', 'ba<0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'continuation', 1, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "cap10",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('P3', 'BUY', 'dn_dn_up', 'break_hi_hold', 'adv_hi', 'UNK', '10')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('P3', 'SELL', 'dn_dn_dn', 'break_lo', 'adv_mid', 'ELEVATED', '11')",
+          "st": "cap8",
+          "total_n": 7,
+          "hold_n": 4
+        },
+        {
+          "k": "('bear_engulf', 'SELL', 0, 'late', 'adv_hi', 'sl12-16')",
+          "st": "cap10",
+          "total_n": 6,
+          "hold_n": 4
+        },
+        {
+          "k": "('hammer', 'BUY', 'dn_dn_up', 1, 'adv_mid', '12', 'NORMAL')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 1, 'late', 'b70+', 'sl16-20', 'mid', 'adv_lo', 'ba>0.5', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('P3', 'BUY', 'dn_dn_dn', 'break_hi_hold', 'adv_mid', 'ELEVATED', '10')",
+          "st": "cap8",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('piercing', 'BUY', 1, 'late', 'adv_mid', 'sl8-12')",
+          "st": "min_ps",
+          "total_n": 5,
+          "hold_n": 3
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b<45', 'sl8-12', 'lo', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 0, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_lo', 'ba>0.5', 'stdn_dn')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 1
+        }
+      ]
+    },
+    "DENSE_g2_m21": {
+      "gap": 2,
+      "min_cal": 2,
+      "min_l3m": 1,
+      "n_micros": 98,
+      "total": 352,
+      "cpd_all": 0.495,
+      "verify": {
+        "E2024": {
+          "n": 209,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 137,
+          "cpd": 1.53,
+          "cpd_all": 0.85,
+          "cover": 55.5,
+          "avg_sl": 7.78
+        },
+        "E2025": {
+          "n": 114,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 92,
+          "cpd": 1.24,
+          "cpd_all": 0.46,
+          "cover": 36.9,
+          "avg_sl": 7.75
+        },
+        "HOLD": {
+          "n": 29,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 26,
+          "cpd": 1.12,
+          "cpd_all": 0.14,
+          "cover": 12.4,
+          "avg_sl": 7.94
+        },
+        "FWD": {
+          "n": 0,
+          "hit": 0.0,
+          "all_win": true,
+          "days": 0,
+          "cpd": 0.0,
+          "cpd_all": 0.0,
+          "cover": 0.0,
+          "avg_sl": 0
+        }
+      },
+      "all_win": true,
+      "micros": [
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_lo', 'ba>0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 6,
+          "hold_n": 1
+        },
+        {
+          "k": "('P3', 'SELL', 'up_dn_up', 'hold_under_hi', 'adv_mid', 'ELEVATED', '09')",
+          "st": "sig",
+          "total_n": 6,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'early', 'b<45', 'sl12-16', 'lo', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 6,
+          "hold_n": 0
+        },
+        {
+          "k": "('engulf', 'BUY', 1, 'mid', 'b70+', 'sl12-16', 'adv_lo', 'stdn_dn')",
+          "st": "sig",
+          "total_n": 6,
+          "hold_n": 3
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 1, 'midday', 'b70+', 'sl4-8', 'mid', 'adv_mid', 'ba>0.5', 'stup_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('belt_maru', 'BUY', 'balanced', 0, 'am', 'b70+', 'sl16-20', 'adv_mid')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'balanced', 'morning', 'b45+', 'sl8-12', 'adv_lo')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 'midday', 'b55+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_kicker', 'SELL', 'morn', 1, 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run3', 'SELL', 'reversal', 'midday', 'b55+', 'sl8-12', 'adv_hi')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl8-12', 'mid', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b45+', 'sl4-8', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('tweezer_top', 'SELL', 'reversal', 'early', 'b55+', 'sl8-12', 'adv_hi')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'balanced', 1, 'late', 'b45+', 'sl8-12', 'mid', 'adv_lo', 'ba<0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b45+', 'sl8-12', 'lo', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_run2', 'BUY', 'continuation', 0, 'morning', 'b<45', 'sl8-12', 'hi', 'adv_mid', 'ba<0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('rising_3_methods', 'BUY', 'morn', 1, 'b<45', 'sl8-12', 'adv_lo')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 0, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 1, 'midday', 'b70+', 'sl8-12', 'hi', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('three', 'BUY', 1, 'close', 'b55+', 'sl16-20', 'adv_lo', 'stdn_up')",
+          "st": "sig",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 'early', 'b45+', 'sl8-12', 'adv_hi')",
+          "st": "prev",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'late', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('SLOT', 'BUY', 'mid', 'reversal', 0, 'b<45', 'sl12-16', 'adv_hi')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('runs', 'BUY', 0, 'morn', 'b45+', 'sl16-20', 'adv_hi', 'stup_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'reversal', 0, 'early', 'b45+', 'sl16-20', 'mid', 'adv_hi', 'ba<0.5', 'stup_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b<45', 'sl12-16', 'lo', 'adv_mid', 'ba<0.5', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('tweezer_top', 'SELL', 'reversal', 'early', 'b55+', 'sl4-8', 'adv_lo')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run3', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl4-8', 'hi', 'adv_hi', 'ba>0.8', 'stup_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 0, 'morning', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba>0.5', 'stdn_dn')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('kick', 'SELL', 0, 'close', 'b<45', 'sl4-8', 'adv_hi', 'stdn_up')",
+          "st": "min_ps",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'balanced', 1, 'midday', 'b<45', 'sl4-8', 'hi', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "min_ps",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl4-8', 'mid', 'adv_lo', 'ba<0.5', 'stdn_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run3', 'BUY', 'continuation', 0, 'morning', 'b55+', 'sl4-8', 'mid', 'adv_lo', 'ba<0.5', 'stup_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'three', 'SELL', 'reversal', 1, 'early', 'adv_hi', 'sl4-8')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 0, 'early', 'b70+', 'sl8-12', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 0, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 0, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stup_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl8-12', 'mid', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'kick', 'SELL', 'balanced', 1, 'midday', 'adv_hi', 'sl8-12')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_run2', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl4-8', 'mid', 'adv_mid', 'ba>0.8', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('kick', 'BUY', 0, 'close', 'b45+', 'sl8-12', 'adv_mid', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'reversal', 1, 'late', 'b<45', 'sl16-20', 'mid', 'adv_mid', 'ba<0.5', 'stup_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('runs', 'SELL', 0, 'aft', 'b70+', 'sl8-12', 'adv_lo', 'stdoji_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('falling_3_methods', 'SELL', 'continuation', 1, 'morning', 'b55+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'continuation', 1, 'morning', 'b45+', 'sl8-12', 'lo', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_bear', 'SELL', 'continuation', 0, 'morning', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba>0.5', 'stup_dn')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'late', 'b<45', 'sl12-16', 'mid', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'engulf', 'SELL', 'continuation', 1, 'late', 'adv_hi', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 0, 'early', 'b70+', 'sl12-16', 'hi', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('dark_cloud', 'SELL', 'aft', 1, 'b45+', 'sl4-8', 'adv_mid')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run3', 'SELL', 'continuation', 1, 'morning', 'b45+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stdn_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'reversal', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba>0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('engulf', 'BUY', 0, 'open', 'b<45', 'sl8-12', 'adv_lo', 'stdn_dn')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_bull', 'BUY', 'balanced', 0, 'midday', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('other', 'SELL', 'reversal', 1, 'am', 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'midday', 'b55+', 'sl8-12', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stup_dn')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'reversal', 'morning', 'b55+', 'sl12-16', 'adv_mid')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('belt_maru', 'SELL', 1, 'close', 'b70+', 'sl12-16', 'adv_lo', 'stdn_up')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('FAM', 'engulf', 'BUY', 'reversal', 1, 'early', 'adv_hi', 'sl12-16')",
+          "st": "p75",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl16-20', 'mid', 'adv_hi', 'ba<0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'continuation', 1, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'stup_dn')",
+          "st": "cap10",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('P3', 'BUY', 'dn_dn_up', 'break_hi_hold', 'adv_hi', 'UNK', '10')",
+          "st": "sig",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap8",
+          "total_n": 3,
+          "hold_n": 0
+        },
+        {
+          "k": "('P3', 'BUY', 'dn_dn_dn', 'break_hi_hold', 'adv_mid', 'ELEVATED', '10')",
+          "st": "cap8",
+          "total_n": 5,
+          "hold_n": 2
+        },
+        {
+          "k": "('dark_cloud', 'SELL', 1, 'continuation', 1, 'adv_mid', '09')",
+          "st": "sig",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'up_doji_up', 'break_hi_hold', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 1, 'early', 'b70+', 'sl16-20', 'mid', 'adv_mid', 'ba>0.8', 'stup_dn')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('GEOM', 'BUY', 'balanced', 0, 'morning', 'b70+', 'sl16-20', 'mid', 'adv_mid', 'ba>0.8', 'stup_up')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 1
+        },
+        {
+          "k": "('runs', 'BUY', 'doji_dn_up', '11', 'NORMAL')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('VS', 0, 'SELL', 'dn_doji_dn', 'NORMAL', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 1, 'early', 'b55+', 'sl16-20', 'hi', 'adv_hi', 'ba>0.8', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        }
+      ]
+    },
+    "DENSE_g4_m22": {
+      "gap": 4,
+      "min_cal": 2,
+      "min_l3m": 2,
+      "n_micros": 15,
+      "total": 69,
+      "cpd_all": 0.097,
+      "verify": {
+        "E2024": {
+          "n": 34,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 32,
+          "cpd": 1.06,
+          "cpd_all": 0.14,
+          "cover": 13.0,
+          "avg_sl": 8.03
+        },
+        "E2025": {
+          "n": 31,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 29,
+          "cpd": 1.07,
+          "cpd_all": 0.12,
+          "cover": 11.6,
+          "avg_sl": 7.79
+        },
+        "HOLD": {
+          "n": 4,
+          "hit": 100.0,
+          "all_win": true,
+          "days": 4,
+          "cpd": 1.0,
+          "cpd_all": 0.02,
+          "cover": 1.9,
+          "avg_sl": 7.51
+        },
+        "FWD": {
+          "n": 0,
+          "hit": 0.0,
+          "all_win": true,
+          "days": 0,
+          "cpd": 0.0,
+          "cpd_all": 0.0,
+          "cover": 0.0,
+          "avg_sl": 0
+        }
+      },
+      "all_win": true,
+      "micros": [
+        {
+          "k": "('bear_run2', 'SELL', 'balanced', 1, 'midday', 'b45+', 'sl4-8', 'mid', 'adv_lo', 'ba>0.5', 'stup_dn')",
+          "st": "p60",
+          "total_n": 6,
+          "hold_n": 1
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'early', 'b<45', 'sl12-16', 'lo', 'adv_lo', 'ba<0.5', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 6,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b55+', 'sl4-8', 'mid', 'adv_hi', 'ba<0.5', 'stdn_up')",
+          "st": "prev",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 1, 'morning', 'b70+', 'sl12-16', 'lo', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "sig",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_dn', 'SELL', 'continuation', 'midday', 'b55+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'balanced', 1, 'midday', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('bear_kicker', 'SELL', 'morn', 1, 'b70+', 'sl12-16', 'adv_lo')",
+          "st": "p75",
+          "total_n": 5,
+          "hold_n": 1
+        },
+        {
+          "k": "('GEOM', 'BUY', 'reversal', 0, 'morning', 'b45+', 'sl4-8', 'lo', 'adv_mid', 'ba>0.5', 'stdn_up')",
+          "st": "p60",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'reversal', 1, 'midday', 'b70+', 'sl8-12', 'hi', 'adv_lo', 'ba>0.8', 'stdn_up')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('GEOM', 'BUY', 'continuation', 1, 'late', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'stdn_dn')",
+          "st": "p75",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('bull_engulf', 'BUY', 'continuation', 1, 'early', 'b70+', 'sl12-16', 'hi', 'adv_mid', 'ba>0.8', 'stdn_dn')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('dark_cloud', 'SELL', 1, 'continuation', 1, 'adv_mid', '09')",
+          "st": "sig",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('marubozu_bull', 'BUY', 'up_doji_up', 'break_hi_hold', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('VS', 0, 'SELL', 'dn_doji_dn', 'NORMAL', 'sl16-20')",
+          "st": "cap8",
+          "total_n": 4,
+          "hold_n": 0
+        },
+        {
+          "k": "('three_outside_up', 'BUY', 'continuation', 1, 'early', 'b55+', 'sl16-20', 'hi', 'adv_hi', 'ba>0.8', 'stdn_up')",
+          "st": "cap10",
+          "total_n": 4,
+          "hold_n": 0
+        }
+      ]
+    }
+  },
+  "best": "DENSE_g1_m11",
+  "elapsed_s": 95.1
+}

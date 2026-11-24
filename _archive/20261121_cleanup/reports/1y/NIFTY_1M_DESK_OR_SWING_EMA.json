@@ -1,0 +1,473 @@
+{
+  "window": [
+    "2026-05-26",
+    "2026-11-16"
+  ],
+  "oos": "2026-08-20",
+  "n": 4637,
+  "lift": [
+    {
+      "mark": "atr_hi",
+      "win_pct": 37.4,
+      "lose_pct": 20.4,
+      "lift_pp": 17.0
+    },
+    {
+      "mark": "atr_12",
+      "win_pct": 19.7,
+      "lose_pct": 10.2,
+      "lift_pp": 9.5
+    },
+    {
+      "mark": "desk_ge3",
+      "win_pct": 67.3,
+      "lose_pct": 58.9,
+      "lift_pp": 8.4
+    },
+    {
+      "mark": "above_below_or",
+      "win_pct": 78.9,
+      "lose_pct": 73.9,
+      "lift_pp": 5.0
+    },
+    {
+      "mark": "or_break_swing",
+      "win_pct": 12.2,
+      "lose_pct": 7.3,
+      "lift_pp": 4.9
+    },
+    {
+      "mark": "or_break_dn",
+      "win_pct": 7.5,
+      "lose_pct": 3.5,
+      "lift_pp": 4.0
+    },
+    {
+      "mark": "held",
+      "win_pct": 34.7,
+      "lose_pct": 31.5,
+      "lift_pp": 3.2
+    },
+    {
+      "mark": "htf_with",
+      "win_pct": 76.9,
+      "lose_pct": 73.9,
+      "lift_pp": 3.0
+    },
+    {
+      "mark": "vwap_x",
+      "win_pct": 11.6,
+      "lose_pct": 9.2,
+      "lift_pp": 2.3
+    },
+    {
+      "mark": "or_break_up",
+      "win_pct": 4.8,
+      "lose_pct": 3.8,
+      "lift_pp": 0.9
+    },
+    {
+      "mark": "streak6",
+      "win_pct": 1.4,
+      "lose_pct": 0.6,
+      "lift_pp": 0.7
+    },
+    {
+      "mark": "or_hold_sup",
+      "win_pct": 6.1,
+      "lose_pct": 6.7,
+      "lift_pp": -0.6
+    },
+    {
+      "mark": "bb_x",
+      "win_pct": 63.9,
+      "lose_pct": 65.0,
+      "lift_pp": -1.0
+    },
+    {
+      "mark": "streak4",
+      "win_pct": 2.7,
+      "lose_pct": 5.7,
+      "lift_pp": -3.0
+    },
+    {
+      "mark": "or_hold_res",
+      "win_pct": 4.1,
+      "lose_pct": 8.6,
+      "lift_pp": -4.5
+    },
+    {
+      "mark": "tight_or_swing",
+      "win_pct": 9.5,
+      "lose_pct": 15.3,
+      "lift_pp": -5.8
+    },
+    {
+      "mark": "swing_hold",
+      "win_pct": 87.1,
+      "lose_pct": 95.2,
+      "lift_pp": -8.1
+    }
+  ],
+  "books": [
+    {
+      "name": "Above/Below OR + held + HTF + ATR\u226510",
+      "verdict": "WEAK",
+      "one": {
+        "n": 30,
+        "prec": 56.67,
+        "train_n": 11,
+        "train_prec": 54.55,
+        "oos_n": 19,
+        "oos_prec": 57.89,
+        "avg_pts": 2.97,
+        "avg_mfe": 39.53
+      },
+      "path": 60.0
+    },
+    {
+      "name": "BREAK: OR break\u00b7Swing\u00b7EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 27,
+        "prec": 48.15,
+        "train_n": 17,
+        "train_prec": 47.06,
+        "oos_n": 10,
+        "oos_prec": 50.0,
+        "avg_pts": 3.1,
+        "avg_mfe": 32.51
+      },
+      "path": 74.07
+    },
+    {
+      "name": "USER + held + HTF + ATR\u226510",
+      "verdict": "WEAK",
+      "one": {
+        "n": 19,
+        "prec": 47.37,
+        "train_n": 6,
+        "train_prec": 33.33,
+        "oos_n": 13,
+        "oos_prec": 53.85,
+        "avg_pts": 0.09,
+        "avg_mfe": 37.68
+      },
+      "path": 57.89
+    },
+    {
+      "name": "USER + desk\u22653",
+      "verdict": "WEAK",
+      "one": {
+        "n": 95,
+        "prec": 45.26,
+        "train_n": 46,
+        "train_prec": 36.96,
+        "oos_n": 49,
+        "oos_prec": 53.06,
+        "avg_pts": 1.87,
+        "avg_mfe": 27.15
+      },
+      "path": 67.37
+    },
+    {
+      "name": "OR break + EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 51,
+        "prec": 41.18,
+        "train_n": 26,
+        "train_prec": 38.46,
+        "oos_n": 25,
+        "oos_prec": 44.0,
+        "avg_pts": 1.74,
+        "avg_mfe": 32.14
+      },
+      "path": 62.75
+    },
+    {
+      "name": "USER: OR\u00b7Swing\u00b7EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 110,
+        "prec": 40.0,
+        "train_n": 54,
+        "train_prec": 37.04,
+        "oos_n": 56,
+        "oos_prec": 42.86,
+        "avg_pts": 2.12,
+        "avg_mfe": 30.25
+      },
+      "path": 67.27
+    },
+    {
+      "name": "USER + VWAP cross same",
+      "verdict": "WEAK",
+      "one": {
+        "n": 30,
+        "prec": 40.0,
+        "train_n": 18,
+        "train_prec": 27.78,
+        "oos_n": 12,
+        "oos_prec": 58.33,
+        "avg_pts": 1.4,
+        "avg_mfe": 33.47
+      },
+      "path": 60.0
+    },
+    {
+      "name": "USER + BB mid cross same",
+      "verdict": "WEAK",
+      "one": {
+        "n": 99,
+        "prec": 38.38,
+        "train_n": 50,
+        "train_prec": 30.0,
+        "oos_n": 49,
+        "oos_prec": 46.94,
+        "avg_pts": 1.15,
+        "avg_mfe": 29.44
+      },
+      "path": 70.71
+    },
+    {
+      "name": "USER + held",
+      "verdict": "WEAK",
+      "one": {
+        "n": 80,
+        "prec": 37.5,
+        "train_n": 40,
+        "train_prec": 30.0,
+        "oos_n": 40,
+        "oos_prec": 45.0,
+        "avg_pts": 0.27,
+        "avg_mfe": 25.38
+      },
+      "path": 61.25
+    },
+    {
+      "name": "USER + held + HTF",
+      "verdict": "WEAK",
+      "one": {
+        "n": 72,
+        "prec": 37.5,
+        "train_n": 34,
+        "train_prec": 32.35,
+        "oos_n": 38,
+        "oos_prec": 42.11,
+        "avg_pts": 0.43,
+        "avg_mfe": 25.33
+      },
+      "path": 61.11
+    },
+    {
+      "name": "Above/Below OR + EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 108,
+        "prec": 37.04,
+        "train_n": 55,
+        "train_prec": 30.91,
+        "oos_n": 53,
+        "oos_prec": 43.4,
+        "avg_pts": -1.01,
+        "avg_mfe": 26.91
+      },
+      "path": 62.96
+    },
+    {
+      "name": "Swing hold + EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 119,
+        "prec": 34.45,
+        "train_n": 60,
+        "train_prec": 30.0,
+        "oos_n": 59,
+        "oos_prec": 38.98,
+        "avg_pts": 1.63,
+        "avg_mfe": 28.57
+      },
+      "path": 67.23
+    },
+    {
+      "name": "EMA20 cross SELL",
+      "verdict": "WEAK",
+      "one": {
+        "n": 119,
+        "prec": 32.77,
+        "train_n": 60,
+        "train_prec": 25.0,
+        "oos_n": 59,
+        "oos_prec": 40.68,
+        "avg_pts": 1.31,
+        "avg_mfe": 31.48
+      },
+      "path": 67.23
+    },
+    {
+      "name": "Swing near + EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 111,
+        "prec": 32.43,
+        "train_n": 55,
+        "train_prec": 34.55,
+        "oos_n": 56,
+        "oos_prec": 30.36,
+        "avg_pts": 1.35,
+        "avg_mfe": 23.36
+      },
+      "path": 57.66
+    },
+    {
+      "name": "EMA20 cross BUY",
+      "verdict": "WEAK",
+      "one": {
+        "n": 119,
+        "prec": 31.93,
+        "train_n": 60,
+        "train_prec": 26.67,
+        "oos_n": 59,
+        "oos_prec": 37.29,
+        "avg_pts": -0.83,
+        "avg_mfe": 30.69
+      },
+      "path": 59.66
+    },
+    {
+      "name": "OR mid cross + EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 51,
+        "prec": 29.41,
+        "train_n": 24,
+        "train_prec": 29.17,
+        "oos_n": 27,
+        "oos_prec": 29.63,
+        "avg_pts": 1.09,
+        "avg_mfe": 31.64
+      },
+      "path": 56.86
+    },
+    {
+      "name": "OR hold + EMA + VWAP x",
+      "verdict": "THIN",
+      "one": {
+        "n": 14,
+        "prec": 28.57,
+        "train_n": 10,
+        "train_prec": 20.0,
+        "oos_n": 4,
+        "oos_prec": 50.0,
+        "avg_pts": -3.41,
+        "avg_mfe": 38.57
+      },
+      "path": 64.29
+    },
+    {
+      "name": "OR\u2194Swing stacked + EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 95,
+        "prec": 27.37,
+        "train_n": 50,
+        "train_prec": 14.0,
+        "oos_n": 45,
+        "oos_prec": 42.22,
+        "avg_pts": 0.39,
+        "avg_mfe": 26.42
+      },
+      "path": 58.95
+    },
+    {
+      "name": "Inside OR + EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 104,
+        "prec": 26.92,
+        "train_n": 51,
+        "train_prec": 17.65,
+        "oos_n": 53,
+        "oos_prec": 35.85,
+        "avg_pts": 0.9,
+        "avg_mfe": 32.4
+      },
+      "path": 63.46
+    },
+    {
+      "name": "OR hold + EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 65,
+        "prec": 26.15,
+        "train_n": 32,
+        "train_prec": 21.88,
+        "oos_n": 33,
+        "oos_prec": 30.3,
+        "avg_pts": 0.59,
+        "avg_mfe": 32.57
+      },
+      "path": 69.23
+    },
+    {
+      "name": "EMA20 cross (any)",
+      "verdict": "WEAK",
+      "one": {
+        "n": 119,
+        "prec": 25.21,
+        "train_n": 60,
+        "train_prec": 16.67,
+        "oos_n": 59,
+        "oos_prec": 33.9,
+        "avg_pts": 1.01,
+        "avg_mfe": 31.99
+      },
+      "path": 62.18
+    },
+    {
+      "name": "TIGHT: OR hold\u00b7Swing\u00b7EMA",
+      "verdict": "WEAK",
+      "one": {
+        "n": 41,
+        "prec": 21.95,
+        "train_n": 23,
+        "train_prec": 17.39,
+        "oos_n": 18,
+        "oos_prec": 27.78,
+        "avg_pts": -1.04,
+        "avg_mfe": 28.99
+      },
+      "path": 78.05
+    },
+    {
+      "name": "USER + streak\u22654",
+      "verdict": "WEAK",
+      "one": {
+        "n": 21,
+        "prec": 19.05,
+        "train_n": 10,
+        "train_prec": 10.0,
+        "oos_n": 11,
+        "oos_prec": 27.27,
+        "avg_pts": -0.84,
+        "avg_mfe": 23.15
+      },
+      "path": 66.67
+    }
+  ],
+  "best": {
+    "name": "Above/Below OR + held + HTF + ATR\u226510",
+    "verdict": "WEAK",
+    "one": {
+      "n": 30,
+      "prec": 56.67,
+      "train_n": 11,
+      "train_prec": 54.55,
+      "oos_n": 19,
+      "oos_prec": 57.89,
+      "avg_pts": 2.97,
+      "avg_mfe": 39.53
+    }
+  }
+}

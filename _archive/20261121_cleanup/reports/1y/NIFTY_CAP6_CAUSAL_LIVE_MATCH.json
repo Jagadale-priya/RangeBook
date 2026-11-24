@@ -1,0 +1,163 @@
+{
+  "research_1y": {
+    "n": 467,
+    "wins": 351,
+    "losses": 116,
+    "hit_pct": 75.16,
+    "points": 7050.0
+  },
+  "live_1y": {
+    "n": 467,
+    "wins": 351,
+    "losses": 116,
+    "hit_pct": 75.16,
+    "points": 7050.0
+  },
+  "research_1m": {
+    "n": 24,
+    "wins": 19,
+    "losses": 5,
+    "hit_pct": 79.17,
+    "points": 420.0
+  },
+  "live_candles_1m": {
+    "n": 24,
+    "wins": 19,
+    "losses": 5,
+    "hit_pct": 79.17,
+    "points": 420.0
+  },
+  "research_5y": {
+    "n": 2105,
+    "wins": 1651,
+    "losses": 454,
+    "hit_pct": 78.43,
+    "points": 35910.0
+  },
+  "match_exact": true,
+  "monthly": [
+    {
+      "month": "2025-11",
+      "n": 13,
+      "wins": 10,
+      "losses": 3,
+      "hit_pct": 76.92,
+      "points": 210.0
+    },
+    {
+      "month": "2025-12",
+      "n": 46,
+      "wins": 33,
+      "losses": 13,
+      "hit_pct": 71.74,
+      "points": 600.0
+    },
+    {
+      "month": "2026-01",
+      "n": 35,
+      "wins": 32,
+      "losses": 3,
+      "hit_pct": 91.43,
+      "points": 870.0
+    },
+    {
+      "month": "2026-02",
+      "n": 45,
+      "wins": 36,
+      "losses": 9,
+      "hit_pct": 80.0,
+      "points": 810.0
+    },
+    {
+      "month": "2026-03",
+      "n": 35,
+      "wins": 26,
+      "losses": 9,
+      "hit_pct": 74.29,
+      "points": 510.0
+    },
+    {
+      "month": "2026-04",
+      "n": 35,
+      "wins": 27,
+      "losses": 8,
+      "hit_pct": 77.14,
+      "points": 570.0
+    },
+    {
+      "month": "2026-05",
+      "n": 32,
+      "wins": 20,
+      "losses": 12,
+      "hit_pct": 62.5,
+      "points": 240.0
+    },
+    {
+      "month": "2026-06",
+      "n": 44,
+      "wins": 30,
+      "losses": 14,
+      "hit_pct": 68.18,
+      "points": 480.0
+    },
+    {
+      "month": "2026-07",
+      "n": 38,
+      "wins": 27,
+      "losses": 11,
+      "hit_pct": 71.05,
+      "points": 480.0
+    },
+    {
+      "month": "2026-08",
+      "n": 43,
+      "wins": 26,
+      "losses": 17,
+      "hit_pct": 60.47,
+      "points": 270.0
+    },
+    {
+      "month": "2026-09",
+      "n": 52,
+      "wins": 41,
+      "losses": 11,
+      "hit_pct": 78.85,
+      "points": 900.0
+    },
+    {
+      "month": "2026-10",
+      "n": 39,
+      "wins": 35,
+      "losses": 4,
+      "hit_pct": 89.74,
+      "points": 930.0
+    },
+    {
+      "month": "2026-11",
+      "n": 10,
+      "wins": 8,
+      "losses": 2,
+      "hit_pct": 80.0,
+      "points": 180.0
+    }
+  ],
+  "monthly_1m_candles": [
+    {
+      "month": "2026-10",
+      "n": 14,
+      "wins": 11,
+      "losses": 3,
+      "hit_pct": 78.57,
+      "points": 240.0
+    },
+    {
+      "month": "2026-11",
+      "n": 10,
+      "wins": 8,
+      "losses": 2,
+      "hit_pct": 80.0,
+      "points": 180.0
+    }
+  ],
+  "elapsed_s": 45264.3
+}

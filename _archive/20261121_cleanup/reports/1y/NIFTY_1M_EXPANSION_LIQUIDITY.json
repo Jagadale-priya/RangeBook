@@ -1,0 +1,784 @@
+{
+  "ok": true,
+  "research_only": true,
+  "window": {
+    "day_lo": "2025-12-26",
+    "day_hi": "2026-11-16",
+    "n_days": 220,
+    "oos_from": "2026-06-10"
+  },
+  "defs": {
+    "expansion": "body\u22651.0\u00d7ATR14, body/range\u22650.62, close in extreme quartile",
+    "sweep": "wick beyond 8-bar extreme, close back inside",
+    "fvg": "3-candle wick gap; entry at mid on first touch",
+    "oracle": "textbook PRIORITY + EMA34 align (live Oracle spirit)"
+  },
+  "prove_rules": {
+    "PROVEN": "TRAIN+OOS n\u226530, hit\u226535.0%, exp_R\u22650.2, OOS t\u22651.5",
+    "PROMISING": "TRAIN+OOS n\u226520, hit\u226532.0%, exp_R\u22650.1"
+  },
+  "rows": [
+    {
+      "book": "A_exp_chase_3r",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 2960,
+        "hit": 25.41,
+        "exp_R": 0.064,
+        "t": 1.98,
+        "wins": 752,
+        "losses": 2208,
+        "avg_pts": 0.84,
+        "cpd": 13.45
+      },
+      "train": {
+        "n": 1576,
+        "hit": 25.32,
+        "exp_R": 0.057,
+        "t": 1.29,
+        "wins": 399,
+        "losses": 1177,
+        "avg_pts": 0.83,
+        "cpd": 14.33
+      },
+      "oos": {
+        "n": 1384,
+        "hit": 25.51,
+        "exp_R": 0.072,
+        "t": 1.52,
+        "wins": 353,
+        "losses": 1031,
+        "avg_pts": 0.84,
+        "cpd": 12.58
+      }
+    },
+    {
+      "book": "A_exp_chase_t15",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 2960,
+        "hit": 37.5,
+        "exp_R": 0.057,
+        "t": 2.26,
+        "wins": 1110,
+        "losses": 1850,
+        "avg_pts": 0.45,
+        "cpd": 13.45
+      },
+      "train": {
+        "n": 1576,
+        "hit": 38.39,
+        "exp_R": 0.075,
+        "t": 2.18,
+        "wins": 605,
+        "losses": 971,
+        "avg_pts": 0.59,
+        "cpd": 14.33
+      },
+      "oos": {
+        "n": 1384,
+        "hit": 36.49,
+        "exp_R": 0.036,
+        "t": 0.98,
+        "wins": 505,
+        "losses": 879,
+        "avg_pts": 0.3,
+        "cpd": 12.58
+      }
+    },
+    {
+      "book": "B_sweep_exp_3r",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 1274,
+        "hit": 24.96,
+        "exp_R": 0.068,
+        "t": 1.4,
+        "wins": 318,
+        "losses": 956,
+        "avg_pts": 1.41,
+        "cpd": 5.79
+      },
+      "train": {
+        "n": 703,
+        "hit": 26.03,
+        "exp_R": 0.106,
+        "t": 1.59,
+        "wins": 183,
+        "losses": 520,
+        "avg_pts": 3.09,
+        "cpd": 6.39
+      },
+      "oos": {
+        "n": 571,
+        "hit": 23.64,
+        "exp_R": 0.022,
+        "t": 0.31,
+        "wins": 135,
+        "losses": 436,
+        "avg_pts": -0.64,
+        "cpd": 5.19
+      }
+    },
+    {
+      "book": "B_sweep_exp_t15",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 1274,
+        "hit": 37.91,
+        "exp_R": 0.069,
+        "t": 1.79,
+        "wins": 483,
+        "losses": 791,
+        "avg_pts": 0.59,
+        "cpd": 5.79
+      },
+      "train": {
+        "n": 703,
+        "hit": 38.98,
+        "exp_R": 0.09,
+        "t": 1.74,
+        "wins": 274,
+        "losses": 429,
+        "avg_pts": 0.77,
+        "cpd": 6.39
+      },
+      "oos": {
+        "n": 571,
+        "hit": 36.6,
+        "exp_R": 0.043,
+        "t": 0.74,
+        "wins": 209,
+        "losses": 362,
+        "avg_pts": 0.37,
+        "cpd": 5.19
+      }
+    },
+    {
+      "book": "C_sweep_exp_fvg_3r",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 330,
+        "hit": 29.09,
+        "exp_R": 0.175,
+        "t": 1.74,
+        "wins": 96,
+        "losses": 234,
+        "avg_pts": -0.74,
+        "cpd": 1.5
+      },
+      "train": {
+        "n": 198,
+        "hit": 29.29,
+        "exp_R": 0.19,
+        "t": 1.46,
+        "wins": 58,
+        "losses": 140,
+        "avg_pts": -1.26,
+        "cpd": 1.8
+      },
+      "oos": {
+        "n": 132,
+        "hit": 28.79,
+        "exp_R": 0.152,
+        "t": 0.96,
+        "wins": 38,
+        "losses": 94,
+        "avg_pts": 0.03,
+        "cpd": 1.2
+      }
+    },
+    {
+      "book": "C_sweep_exp_fvg_t15",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 362,
+        "hit": 36.19,
+        "exp_R": 0.023,
+        "t": 0.32,
+        "wins": 131,
+        "losses": 231,
+        "avg_pts": 0.2,
+        "cpd": 1.65
+      },
+      "train": {
+        "n": 209,
+        "hit": 36.36,
+        "exp_R": 0.02,
+        "t": 0.21,
+        "wins": 76,
+        "losses": 133,
+        "avg_pts": 0.26,
+        "cpd": 1.9
+      },
+      "oos": {
+        "n": 153,
+        "hit": 35.95,
+        "exp_R": 0.027,
+        "t": 0.25,
+        "wins": 55,
+        "losses": 98,
+        "avg_pts": 0.12,
+        "cpd": 1.39
+      }
+    },
+    {
+      "book": "D_exp_next_open_3r",
+      "verdict": "PROMISING",
+      "full": {
+        "n": 2308,
+        "hit": 33.02,
+        "exp_R": 0.321,
+        "t": 8.19,
+        "wins": 762,
+        "losses": 1546,
+        "avg_pts": -1.17,
+        "cpd": 10.49
+      },
+      "train": {
+        "n": 1245,
+        "hit": 33.82,
+        "exp_R": 0.353,
+        "t": 6.58,
+        "wins": 421,
+        "losses": 824,
+        "avg_pts": -1.67,
+        "cpd": 11.32
+      },
+      "oos": {
+        "n": 1063,
+        "hit": 32.08,
+        "exp_R": 0.283,
+        "t": 4.94,
+        "wins": 341,
+        "losses": 722,
+        "avg_pts": -0.59,
+        "cpd": 9.66
+      }
+    },
+    {
+      "book": "D_exp_next_open_sweep_3r",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 1156,
+        "hit": 34.43,
+        "exp_R": 0.382,
+        "t": 6.83,
+        "wins": 398,
+        "losses": 758,
+        "avg_pts": -0.71,
+        "cpd": 5.25
+      },
+      "train": {
+        "n": 670,
+        "hit": 37.91,
+        "exp_R": 0.518,
+        "t": 6.9,
+        "wins": 254,
+        "losses": 416,
+        "avg_pts": -0.28,
+        "cpd": 6.09
+      },
+      "oos": {
+        "n": 486,
+        "hit": 29.63,
+        "exp_R": 0.194,
+        "t": 2.34,
+        "wins": 144,
+        "losses": 342,
+        "avg_pts": -1.3,
+        "cpd": 4.42
+      }
+    },
+    {
+      "book": "D_exp_next_open_sweep_t15",
+      "verdict": "PROMISING",
+      "full": {
+        "n": 1240,
+        "hit": 39.68,
+        "exp_R": 0.115,
+        "t": 2.94,
+        "wins": 492,
+        "losses": 748,
+        "avg_pts": 1.02,
+        "cpd": 5.64
+      },
+      "train": {
+        "n": 694,
+        "hit": 40.2,
+        "exp_R": 0.118,
+        "t": 2.26,
+        "wins": 279,
+        "losses": 415,
+        "avg_pts": 1.11,
+        "cpd": 6.31
+      },
+      "oos": {
+        "n": 546,
+        "hit": 39.01,
+        "exp_R": 0.112,
+        "t": 1.88,
+        "wins": 213,
+        "losses": 333,
+        "avg_pts": 0.91,
+        "cpd": 4.96
+      }
+    },
+    {
+      "book": "D_exp_next_open_t15",
+      "verdict": "PROMISING",
+      "full": {
+        "n": 2397,
+        "hit": 39.92,
+        "exp_R": 0.125,
+        "t": 4.41,
+        "wins": 957,
+        "losses": 1440,
+        "avg_pts": 0.97,
+        "cpd": 10.9
+      },
+      "train": {
+        "n": 1284,
+        "hit": 39.72,
+        "exp_R": 0.112,
+        "t": 2.92,
+        "wins": 510,
+        "losses": 774,
+        "avg_pts": 0.83,
+        "cpd": 11.67
+      },
+      "oos": {
+        "n": 1113,
+        "hit": 40.16,
+        "exp_R": 0.14,
+        "t": 3.34,
+        "wins": 447,
+        "losses": 666,
+        "avg_pts": 1.14,
+        "cpd": 10.12
+      }
+    },
+    {
+      "book": "E_oracle_3r",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 4631,
+        "hit": 26.54,
+        "exp_R": 0.076,
+        "t": 2.92,
+        "wins": 1229,
+        "losses": 3402,
+        "avg_pts": 0.81,
+        "cpd": 21.05
+      },
+      "train": {
+        "n": 2338,
+        "hit": 25.83,
+        "exp_R": 0.048,
+        "t": 1.33,
+        "wins": 604,
+        "losses": 1734,
+        "avg_pts": 0.49,
+        "cpd": 21.25
+      },
+      "oos": {
+        "n": 2293,
+        "hit": 27.26,
+        "exp_R": 0.104,
+        "t": 2.8,
+        "wins": 625,
+        "losses": 1668,
+        "avg_pts": 1.14,
+        "cpd": 20.85
+      }
+    },
+    {
+      "book": "E_oracle_exp_3r",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 2832,
+        "hit": 25.81,
+        "exp_R": 0.075,
+        "t": 2.27,
+        "wins": 731,
+        "losses": 2101,
+        "avg_pts": 0.83,
+        "cpd": 12.87
+      },
+      "train": {
+        "n": 1516,
+        "hit": 25.2,
+        "exp_R": 0.052,
+        "t": 1.16,
+        "wins": 382,
+        "losses": 1134,
+        "avg_pts": 0.54,
+        "cpd": 13.78
+      },
+      "oos": {
+        "n": 1316,
+        "hit": 26.52,
+        "exp_R": 0.101,
+        "t": 2.07,
+        "wins": 349,
+        "losses": 967,
+        "avg_pts": 1.16,
+        "cpd": 11.96
+      }
+    },
+    {
+      "book": "E_oracle_exp_t15",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 2832,
+        "hit": 37.29,
+        "exp_R": 0.05,
+        "t": 1.94,
+        "wins": 1056,
+        "losses": 1776,
+        "avg_pts": 0.4,
+        "cpd": 12.87
+      },
+      "train": {
+        "n": 1516,
+        "hit": 38.85,
+        "exp_R": 0.087,
+        "t": 2.47,
+        "wins": 589,
+        "losses": 927,
+        "avg_pts": 0.69,
+        "cpd": 13.78
+      },
+      "oos": {
+        "n": 1316,
+        "hit": 35.49,
+        "exp_R": 0.007,
+        "t": 0.19,
+        "wins": 467,
+        "losses": 849,
+        "avg_pts": 0.07,
+        "cpd": 11.96
+      }
+    },
+    {
+      "book": "E_oracle_sweep_3r",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 2743,
+        "hit": 25.08,
+        "exp_R": 0.022,
+        "t": 0.67,
+        "wins": 688,
+        "losses": 2055,
+        "avg_pts": 0.17,
+        "cpd": 12.47
+      },
+      "train": {
+        "n": 1391,
+        "hit": 27.32,
+        "exp_R": 0.113,
+        "t": 2.35,
+        "wins": 380,
+        "losses": 1011,
+        "avg_pts": 0.86,
+        "cpd": 12.65
+      },
+      "oos": {
+        "n": 1352,
+        "hit": 22.78,
+        "exp_R": -0.071,
+        "t": -1.55,
+        "wins": 308,
+        "losses": 1044,
+        "avg_pts": -0.55,
+        "cpd": 12.29
+      }
+    },
+    {
+      "book": "E_oracle_sweep_exp_3r",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 1524,
+        "hit": 24.8,
+        "exp_R": 0.043,
+        "t": 0.96,
+        "wins": 378,
+        "losses": 1146,
+        "avg_pts": 0.59,
+        "cpd": 6.93
+      },
+      "train": {
+        "n": 844,
+        "hit": 25.59,
+        "exp_R": 0.078,
+        "t": 1.3,
+        "wins": 216,
+        "losses": 628,
+        "avg_pts": 1.73,
+        "cpd": 7.67
+      },
+      "oos": {
+        "n": 680,
+        "hit": 23.82,
+        "exp_R": -0.002,
+        "t": -0.03,
+        "wins": 162,
+        "losses": 518,
+        "avg_pts": -0.84,
+        "cpd": 6.18
+      }
+    },
+    {
+      "book": "E_oracle_sweep_exp_t15",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 1524,
+        "hit": 36.94,
+        "exp_R": 0.041,
+        "t": 1.18,
+        "wins": 563,
+        "losses": 961,
+        "avg_pts": 0.37,
+        "cpd": 6.93
+      },
+      "train": {
+        "n": 844,
+        "hit": 38.63,
+        "exp_R": 0.081,
+        "t": 1.72,
+        "wins": 326,
+        "losses": 518,
+        "avg_pts": 0.7,
+        "cpd": 7.67
+      },
+      "oos": {
+        "n": 680,
+        "hit": 34.85,
+        "exp_R": -0.008,
+        "t": -0.15,
+        "wins": 237,
+        "losses": 443,
+        "avg_pts": -0.04,
+        "cpd": 6.18
+      }
+    },
+    {
+      "book": "E_oracle_sweep_t15",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 2743,
+        "hit": 36.24,
+        "exp_R": 0.014,
+        "t": 0.54,
+        "wins": 994,
+        "losses": 1749,
+        "avg_pts": 0.11,
+        "cpd": 12.47
+      },
+      "train": {
+        "n": 1391,
+        "hit": 38.75,
+        "exp_R": 0.077,
+        "t": 2.11,
+        "wins": 539,
+        "losses": 852,
+        "avg_pts": 0.61,
+        "cpd": 12.65
+      },
+      "oos": {
+        "n": 1352,
+        "hit": 33.65,
+        "exp_R": -0.051,
+        "t": -1.41,
+        "wins": 455,
+        "losses": 897,
+        "avg_pts": -0.4,
+        "cpd": 12.29
+      }
+    },
+    {
+      "book": "E_oracle_t15",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 4636,
+        "hit": 37.01,
+        "exp_R": 0.028,
+        "t": 1.42,
+        "wins": 1716,
+        "losses": 2920,
+        "avg_pts": 0.24,
+        "cpd": 21.07
+      },
+      "train": {
+        "n": 2338,
+        "hit": 37.34,
+        "exp_R": 0.026,
+        "t": 0.95,
+        "wins": 873,
+        "losses": 1465,
+        "avg_pts": 0.19,
+        "cpd": 21.25
+      },
+      "oos": {
+        "n": 2298,
+        "hit": 36.68,
+        "exp_R": 0.03,
+        "t": 1.06,
+        "wins": 843,
+        "losses": 1455,
+        "avg_pts": 0.3,
+        "cpd": 20.89
+      }
+    },
+    {
+      "book": "F_strong_exp_sweep_3r",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 549,
+        "hit": 21.68,
+        "exp_R": -0.012,
+        "t": -0.17,
+        "wins": 119,
+        "losses": 430,
+        "avg_pts": 0.63,
+        "cpd": 2.5
+      },
+      "train": {
+        "n": 322,
+        "hit": 24.22,
+        "exp_R": 0.111,
+        "t": 1.16,
+        "wins": 78,
+        "losses": 244,
+        "avg_pts": 4.5,
+        "cpd": 2.93
+      },
+      "oos": {
+        "n": 227,
+        "hit": 18.06,
+        "exp_R": -0.187,
+        "t": -1.79,
+        "wins": 41,
+        "losses": 186,
+        "avg_pts": -4.85,
+        "cpd": 2.06
+      }
+    },
+    {
+      "book": "F_strong_exp_sweep_t15",
+      "verdict": "NOT_PROVEN",
+      "full": {
+        "n": 549,
+        "hit": 37.7,
+        "exp_R": 0.067,
+        "t": 1.14,
+        "wins": 207,
+        "losses": 342,
+        "avg_pts": 0.5,
+        "cpd": 2.5
+      },
+      "train": {
+        "n": 322,
+        "hit": 39.44,
+        "exp_R": 0.109,
+        "t": 1.42,
+        "wins": 127,
+        "losses": 195,
+        "avg_pts": 0.85,
+        "cpd": 2.93
+      },
+      "oos": {
+        "n": 227,
+        "hit": 35.24,
+        "exp_R": 0.008,
+        "t": 0.08,
+        "wins": 80,
+        "losses": 147,
+        "avg_pts": -0.0,
+        "cpd": 2.06
+      }
+    }
+  ],
+  "lifts_vs_oracle": [
+    {
+      "mode": "3r",
+      "filter": "E_oracle_sweep_3r",
+      "base_oos_hit": 27.26,
+      "filt_oos_hit": 22.78,
+      "hit_lift_pp": -4.48,
+      "base_oos_exp": 0.104,
+      "filt_oos_exp": -0.071,
+      "exp_lift": -0.175,
+      "filt_n_oos": 1352,
+      "verdict": "NOT_PROVEN"
+    },
+    {
+      "mode": "3r",
+      "filter": "E_oracle_exp_3r",
+      "base_oos_hit": 27.26,
+      "filt_oos_hit": 26.52,
+      "hit_lift_pp": -0.74,
+      "base_oos_exp": 0.104,
+      "filt_oos_exp": 0.101,
+      "exp_lift": -0.003,
+      "filt_n_oos": 1316,
+      "verdict": "NOT_PROVEN"
+    },
+    {
+      "mode": "3r",
+      "filter": "E_oracle_sweep_exp_3r",
+      "base_oos_hit": 27.26,
+      "filt_oos_hit": 23.82,
+      "hit_lift_pp": -3.44,
+      "base_oos_exp": 0.104,
+      "filt_oos_exp": -0.002,
+      "exp_lift": -0.106,
+      "filt_n_oos": 680,
+      "verdict": "NOT_PROVEN"
+    },
+    {
+      "mode": "t15",
+      "filter": "E_oracle_sweep_t15",
+      "base_oos_hit": 36.68,
+      "filt_oos_hit": 33.65,
+      "hit_lift_pp": -3.03,
+      "base_oos_exp": 0.03,
+      "filt_oos_exp": -0.051,
+      "exp_lift": -0.081,
+      "filt_n_oos": 1352,
+      "verdict": "NOT_PROVEN"
+    },
+    {
+      "mode": "t15",
+      "filter": "E_oracle_exp_t15",
+      "base_oos_hit": 36.68,
+      "filt_oos_hit": 35.49,
+      "hit_lift_pp": -1.19,
+      "base_oos_exp": 0.03,
+      "filt_oos_exp": 0.007,
+      "exp_lift": -0.023,
+      "filt_n_oos": 1316,
+      "verdict": "NOT_PROVEN"
+    },
+    {
+      "mode": "t15",
+      "filter": "E_oracle_sweep_exp_t15",
+      "base_oos_hit": 36.68,
+      "filt_oos_hit": 34.85,
+      "hit_lift_pp": -1.83,
+      "base_oos_exp": 0.03,
+      "filt_oos_exp": -0.008,
+      "exp_lift": -0.038,
+      "filt_n_oos": 680,
+      "verdict": "NOT_PROVEN"
+    }
+  ],
+  "proven": [],
+  "promising": [
+    "D_exp_next_open_3r",
+    "D_exp_next_open_sweep_t15",
+    "D_exp_next_open_t15"
+  ],
+  "best": "D_exp_next_open_3r",
+  "took_sec": 68.1
+}

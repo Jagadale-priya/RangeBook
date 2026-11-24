@@ -1,0 +1,68 @@
+{
+  "test_lo": "2025-11-03",
+  "data_hi": "2026-11-02",
+  "n_keys15": 20,
+  "train_days": 38,
+  "test_days": 247,
+  "held_t12": {
+    "n": 247,
+    "wins": 220,
+    "hit": 89.07,
+    "days": 247,
+    "cover": 100.0,
+    "cpd": 1.0,
+    "avg_sl": 229.16,
+    "avg_t1": 12.0,
+    "all_win": false
+  },
+  "held_t15": {
+    "n": 247,
+    "wins": 216,
+    "hit": 87.45,
+    "days": 247,
+    "cover": 100.0,
+    "cpd": 1.0,
+    "avg_sl": 228.1,
+    "avg_t1": 15.0,
+    "all_win": false
+  },
+  "union_t15": {
+    "n": 236,
+    "wins": 188,
+    "hit": 79.66,
+    "days": 236,
+    "cover": 95.5,
+    "cpd": 0.955,
+    "avg_sl": 14.07,
+    "avg_t1": 15.0,
+    "all_win": false
+  },
+  "combined": {
+    "n": 247,
+    "wins": 197,
+    "hit": 79.76,
+    "days": 247,
+    "cover": 100.0,
+    "cpd": 1.0,
+    "avg_sl": 13.92,
+    "avg_t1": 14.87,
+    "all_win": false,
+    "avg_pts": -2.07,
+    "total_pts": -510.71,
+    "n15": 236,
+    "n12": 11
+  },
+  "combined_sess": {
+    "n": 247,
+    "wins": 197,
+    "hit": 79.76,
+    "days": 247,
+    "cover": 100.0,
+    "cpd": 1.0,
+    "avg_sl": 13.69,
+    "avg_t1": 14.82,
+    "all_win": false,
+    "avg_pts": -1.9,
+    "total_pts": -469.47
+  }
+}

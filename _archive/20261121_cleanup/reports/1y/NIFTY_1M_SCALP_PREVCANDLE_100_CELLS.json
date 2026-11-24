@@ -1,0 +1,1028 @@
+{
+  "path_perfect": [
+    {
+      "t1": 10.0,
+      "key": [
+        "three_outside_dn",
+        "SELL",
+        "continuation",
+        1,
+        "early",
+        "b45+",
+        "sl>20",
+        "rsi_lo"
+      ],
+      "cal_n": 11,
+      "l3m_n": 3,
+      "avg_sl": 22.5,
+      "med_sl": 23.05
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "marubozu_bull",
+        "BUY",
+        "continuation",
+        0,
+        "early",
+        "b45+",
+        "sl>20",
+        "rsi_mid"
+      ],
+      "cal_n": 5,
+      "l3m_n": 3,
+      "avg_sl": 22.67,
+      "med_sl": 23.0
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "marubozu_bear",
+        "SELL",
+        "continuation",
+        1,
+        "early",
+        "b45+",
+        "sl<=10",
+        "rsi_lo"
+      ],
+      "cal_n": 4,
+      "l3m_n": 3,
+      "avg_sl": 7.98,
+      "med_sl": 8.15
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "balanced",
+        1,
+        "midday",
+        "b45+",
+        "sl<=15",
+        "rsi_mid"
+      ],
+      "cal_n": 8,
+      "l3m_n": 2,
+      "avg_sl": 13.3,
+      "med_sl": 13.3
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "marubozu_bull",
+        "BUY",
+        "reversal",
+        0,
+        "early",
+        "b45+",
+        "sl>20",
+        "rsi_lo"
+      ],
+      "cal_n": 8,
+      "l3m_n": 2,
+      "avg_sl": 22.77,
+      "med_sl": 22.77
+    },
+    {
+      "t1": 15.0,
+      "key": [
+        "marubozu_bull",
+        "BUY",
+        "reversal",
+        0,
+        "early",
+        "b45+",
+        "sl>20",
+        "rsi_lo"
+      ],
+      "cal_n": 8,
+      "l3m_n": 2,
+      "avg_sl": 22.77,
+      "med_sl": 22.77
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bull_run3",
+        "BUY",
+        "balanced",
+        0,
+        "morning",
+        "b<45",
+        "sl<=15",
+        "rsi_mid"
+      ],
+      "cal_n": 4,
+      "l3m_n": 2,
+      "avg_sl": 11.3,
+      "med_sl": 11.3
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bull_run2",
+        "BUY",
+        "reversal",
+        1,
+        "morning",
+        "b<45",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 4,
+      "l3m_n": 2,
+      "avg_sl": 16.32,
+      "med_sl": 16.32
+    },
+    {
+      "t1": 20.0,
+      "key": [
+        "bull_run2",
+        "BUY",
+        "reversal",
+        1,
+        "morning",
+        "b<45",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 4,
+      "l3m_n": 2,
+      "avg_sl": 16.32,
+      "med_sl": 16.32
+    },
+    {
+      "t1": 15.0,
+      "key": [
+        "bull_run2",
+        "BUY",
+        "reversal",
+        1,
+        "morning",
+        "b<45",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 4,
+      "l3m_n": 2,
+      "avg_sl": 16.32,
+      "med_sl": 16.32
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "three_outside_dn",
+        "SELL",
+        "continuation",
+        0,
+        "late",
+        "b45+",
+        "sl>20",
+        "rsi_mid"
+      ],
+      "cal_n": 4,
+      "l3m_n": 2,
+      "avg_sl": 21.62,
+      "med_sl": 21.62
+    },
+    {
+      "t1": 15.0,
+      "key": [
+        "three_outside_dn",
+        "SELL",
+        "continuation",
+        0,
+        "late",
+        "b45+",
+        "sl>20",
+        "rsi_mid"
+      ],
+      "cal_n": 4,
+      "l3m_n": 2,
+      "avg_sl": 21.62,
+      "med_sl": 21.62
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bull_run3",
+        "BUY",
+        "balanced",
+        1,
+        "midday",
+        "b45+",
+        "sl>20",
+        "rsi_mid"
+      ],
+      "cal_n": 4,
+      "l3m_n": 2,
+      "avg_sl": 23.6,
+      "med_sl": 23.6
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bull_run3",
+        "BUY",
+        "continuation",
+        0,
+        "early",
+        "b<45",
+        "sl>20",
+        "rsi_hi"
+      ],
+      "cal_n": 4,
+      "l3m_n": 2,
+      "avg_sl": 23.9,
+      "med_sl": 23.9
+    },
+    {
+      "t1": 20.0,
+      "key": [
+        "bull_run3",
+        "BUY",
+        "continuation",
+        0,
+        "early",
+        "b<45",
+        "sl>20",
+        "rsi_hi"
+      ],
+      "cal_n": 4,
+      "l3m_n": 2,
+      "avg_sl": 23.9,
+      "med_sl": 23.9
+    },
+    {
+      "t1": 15.0,
+      "key": [
+        "bull_run3",
+        "BUY",
+        "continuation",
+        0,
+        "early",
+        "b<45",
+        "sl>20",
+        "rsi_hi"
+      ],
+      "cal_n": 4,
+      "l3m_n": 2,
+      "avg_sl": 23.9,
+      "med_sl": 23.9
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "marubozu_bull",
+        "BUY",
+        "balanced",
+        1,
+        "early",
+        "b45+",
+        "sl<=20",
+        "rsi_hi"
+      ],
+      "cal_n": 7,
+      "l3m_n": 1,
+      "avg_sl": 16.1,
+      "med_sl": 16.1
+    },
+    {
+      "t1": 15.0,
+      "key": [
+        "marubozu_bull",
+        "BUY",
+        "balanced",
+        1,
+        "early",
+        "b45+",
+        "sl<=20",
+        "rsi_hi"
+      ],
+      "cal_n": 7,
+      "l3m_n": 1,
+      "avg_sl": 16.1,
+      "med_sl": 16.1
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "reversal",
+        1,
+        "early",
+        "b45+",
+        "sl<=15",
+        "rsi_lo"
+      ],
+      "cal_n": 6,
+      "l3m_n": 1,
+      "avg_sl": 10.95,
+      "med_sl": 10.95
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bull",
+        "BUY",
+        "continuation",
+        1,
+        "early",
+        "b45+",
+        "sl<=20",
+        "rsi_mid"
+      ],
+      "cal_n": 6,
+      "l3m_n": 1,
+      "avg_sl": 15.95,
+      "med_sl": 15.95
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "marubozu_bear",
+        "SELL",
+        "reversal",
+        1,
+        "morning",
+        "b45+",
+        "sl>20",
+        "rsi_hi"
+      ],
+      "cal_n": 6,
+      "l3m_n": 1,
+      "avg_sl": 24.45,
+      "med_sl": 24.45
+    },
+    {
+      "t1": 20.0,
+      "key": [
+        "marubozu_bear",
+        "SELL",
+        "reversal",
+        1,
+        "morning",
+        "b45+",
+        "sl>20",
+        "rsi_hi"
+      ],
+      "cal_n": 6,
+      "l3m_n": 1,
+      "avg_sl": 24.45,
+      "med_sl": 24.45
+    },
+    {
+      "t1": 15.0,
+      "key": [
+        "marubozu_bear",
+        "SELL",
+        "reversal",
+        1,
+        "morning",
+        "b45+",
+        "sl>20",
+        "rsi_hi"
+      ],
+      "cal_n": 6,
+      "l3m_n": 1,
+      "avg_sl": 24.45,
+      "med_sl": 24.45
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "marubozu_bull",
+        "BUY",
+        "reversal",
+        0,
+        "early",
+        "b45+",
+        "sl<=10",
+        "rsi_mid"
+      ],
+      "cal_n": 5,
+      "l3m_n": 1,
+      "avg_sl": 7.95,
+      "med_sl": 7.95
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bull_run3",
+        "BUY",
+        "reversal",
+        1,
+        "morning",
+        "b45+",
+        "sl<=15",
+        "rsi_hi"
+      ],
+      "cal_n": 5,
+      "l3m_n": 1,
+      "avg_sl": 11.05,
+      "med_sl": 11.05
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "reversal",
+        0,
+        "morning",
+        "b45+",
+        "sl<=20",
+        "rsi_mid"
+      ],
+      "cal_n": 5,
+      "l3m_n": 1,
+      "avg_sl": 18.55,
+      "med_sl": 18.55
+    },
+    {
+      "t1": 15.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "reversal",
+        0,
+        "morning",
+        "b45+",
+        "sl<=20",
+        "rsi_mid"
+      ],
+      "cal_n": 5,
+      "l3m_n": 1,
+      "avg_sl": 18.55,
+      "med_sl": 18.55
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "three_outside_dn",
+        "SELL",
+        "continuation",
+        0,
+        "early",
+        "b<45",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 5,
+      "l3m_n": 1,
+      "avg_sl": 18.85,
+      "med_sl": 18.85
+    },
+    {
+      "t1": 20.0,
+      "key": [
+        "three_outside_dn",
+        "SELL",
+        "continuation",
+        0,
+        "early",
+        "b<45",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 5,
+      "l3m_n": 1,
+      "avg_sl": 18.85,
+      "med_sl": 18.85
+    },
+    {
+      "t1": 15.0,
+      "key": [
+        "three_outside_dn",
+        "SELL",
+        "continuation",
+        0,
+        "early",
+        "b<45",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 5,
+      "l3m_n": 1,
+      "avg_sl": 18.85,
+      "med_sl": 18.85
+    }
+  ],
+  "union_l3m_n": 16,
+  "union_cal_n": 56,
+  "mfe_perfect": [
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "continuation",
+        1,
+        "late",
+        "b45+",
+        "sl<=10",
+        "rsi_lo"
+      ],
+      "cal_n": 17,
+      "l3m_n": 11,
+      "avg_sl": 7.13,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "reversal",
+        1,
+        "midday",
+        "b45+",
+        "sl<=10",
+        "rsi_hi"
+      ],
+      "cal_n": 20,
+      "l3m_n": 9,
+      "avg_sl": 7.43,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "continuation",
+        1,
+        "late",
+        "b45+",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 8,
+      "l3m_n": 8,
+      "avg_sl": 17.19,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 20.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "continuation",
+        1,
+        "late",
+        "b45+",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 8,
+      "l3m_n": 8,
+      "avg_sl": 17.19,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "three_outside_dn",
+        "SELL",
+        "balanced",
+        1,
+        "midday",
+        "b45+",
+        "sl<=10",
+        "rsi_mid"
+      ],
+      "cal_n": 13,
+      "l3m_n": 7,
+      "avg_sl": 7.29,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "continuation",
+        1,
+        "late",
+        "b45+",
+        "sl<=10",
+        "rsi_mid"
+      ],
+      "cal_n": 13,
+      "l3m_n": 7,
+      "avg_sl": 6.06,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 20.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "continuation",
+        1,
+        "late",
+        "b45+",
+        "sl<=10",
+        "rsi_mid"
+      ],
+      "cal_n": 13,
+      "l3m_n": 7,
+      "avg_sl": 6.06,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bull_kicker",
+        "BUY",
+        "continuation",
+        1,
+        "midday",
+        "b45+",
+        "sl<=10",
+        "rsi_hi"
+      ],
+      "cal_n": 12,
+      "l3m_n": 7,
+      "avg_sl": 8.57,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bull_run2",
+        "BUY",
+        "continuation",
+        0,
+        "late",
+        "b<45",
+        "sl<=15",
+        "rsi_mid"
+      ],
+      "cal_n": 10,
+      "l3m_n": 7,
+      "avg_sl": 11.71,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bear_run3",
+        "SELL",
+        "balanced",
+        0,
+        "late",
+        "b<45",
+        "sl<=10",
+        "rsi_hi"
+      ],
+      "cal_n": 8,
+      "l3m_n": 7,
+      "avg_sl": 5.76,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 20.0,
+      "key": [
+        "bear_run3",
+        "SELL",
+        "balanced",
+        0,
+        "late",
+        "b<45",
+        "sl<=10",
+        "rsi_hi"
+      ],
+      "cal_n": 8,
+      "l3m_n": 7,
+      "avg_sl": 5.76,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "balanced",
+        1,
+        "midday",
+        "b45+",
+        "sl<=10",
+        "rsi_hi"
+      ],
+      "cal_n": 3,
+      "l3m_n": 7,
+      "avg_sl": 5.74,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bear_run3",
+        "SELL",
+        "balanced",
+        0,
+        "late",
+        "b45+",
+        "sl<=10",
+        "rsi_mid"
+      ],
+      "cal_n": 16,
+      "l3m_n": 6,
+      "avg_sl": 6.48,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bear_engulf",
+        "SELL",
+        "reversal",
+        0,
+        "late",
+        "b45+",
+        "sl<=10",
+        "rsi_lo"
+      ],
+      "cal_n": 13,
+      "l3m_n": 6,
+      "avg_sl": 6.57,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "three_crows",
+        "SELL",
+        "continuation",
+        1,
+        "midday",
+        "b45+",
+        "sl<=15",
+        "rsi_mid"
+      ],
+      "cal_n": 12,
+      "l3m_n": 6,
+      "avg_sl": 12.83,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "three_outside_dn",
+        "SELL",
+        "continuation",
+        1,
+        "early",
+        "b<45",
+        "sl<=15",
+        "rsi_lo"
+      ],
+      "cal_n": 11,
+      "l3m_n": 6,
+      "avg_sl": 13.02,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "marubozu_bear",
+        "SELL",
+        "balanced",
+        1,
+        "midday",
+        "b45+",
+        "sl<=10",
+        "rsi_mid"
+      ],
+      "cal_n": 10,
+      "l3m_n": 6,
+      "avg_sl": 7.65,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bear_engulf",
+        "SELL",
+        "continuation",
+        1,
+        "midday",
+        "b45+",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 10,
+      "l3m_n": 6,
+      "avg_sl": 16.94,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "continuation",
+        0,
+        "morning",
+        "b45+",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 9,
+      "l3m_n": 6,
+      "avg_sl": 16.86,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bear_run2",
+        "SELL",
+        "reversal",
+        1,
+        "late",
+        "b45+",
+        "sl<=15",
+        "rsi_hi"
+      ],
+      "cal_n": 6,
+      "l3m_n": 6,
+      "avg_sl": 12.34,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bear_run3",
+        "SELL",
+        "balanced",
+        0,
+        "late",
+        "b45+",
+        "sl<=15",
+        "rsi_lo"
+      ],
+      "cal_n": 4,
+      "l3m_n": 6,
+      "avg_sl": 12.64,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "belt_bear",
+        "SELL",
+        "balanced",
+        1,
+        "midday",
+        "b45+",
+        "sl<=10",
+        "rsi_mid"
+      ],
+      "cal_n": 23,
+      "l3m_n": 5,
+      "avg_sl": 5.76,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bull_run3",
+        "BUY",
+        "continuation",
+        1,
+        "late",
+        "b45+",
+        "sl<=20",
+        "rsi_hi"
+      ],
+      "cal_n": 19,
+      "l3m_n": 5,
+      "avg_sl": 17.03,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bear_run3",
+        "SELL",
+        "continuation",
+        1,
+        "early",
+        "b45+",
+        "sl<=20",
+        "rsi_mid"
+      ],
+      "cal_n": 16,
+      "l3m_n": 5,
+      "avg_sl": 17.54,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bear_run2",
+        "SELL",
+        "continuation",
+        1,
+        "early",
+        "b45+",
+        "sl<=10",
+        "rsi_mid"
+      ],
+      "cal_n": 11,
+      "l3m_n": 5,
+      "avg_sl": 7.54,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bull_kicker",
+        "BUY",
+        "continuation",
+        1,
+        "early",
+        "b<45",
+        "sl<=10",
+        "rsi_hi"
+      ],
+      "cal_n": 9,
+      "l3m_n": 5,
+      "avg_sl": 6.75,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "marubozu_bear",
+        "SELL",
+        "continuation",
+        0,
+        "morning",
+        "b45+",
+        "sl<=15",
+        "rsi_mid"
+      ],
+      "cal_n": 8,
+      "l3m_n": 5,
+      "avg_sl": 11.63,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "bull_kicker",
+        "BUY",
+        "reversal",
+        1,
+        "midday",
+        "b45+",
+        "sl<=10",
+        "rsi_mid"
+      ],
+      "cal_n": 7,
+      "l3m_n": 5,
+      "avg_sl": 6.73,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "three_outside_dn",
+        "SELL",
+        "reversal",
+        1,
+        "morning",
+        "b<45",
+        "sl<=10",
+        "rsi_mid"
+      ],
+      "cal_n": 6,
+      "l3m_n": 5,
+      "avg_sl": 6.39,
+      "note": "MFE_only_target_reached"
+    },
+    {
+      "t1": 10.0,
+      "key": [
+        "three_crows",
+        "SELL",
+        "continuation",
+        0,
+        "morning",
+        "b45+",
+        "sl<=20",
+        "rsi_lo"
+      ],
+      "cal_n": 5,
+      "l3m_n": 5,
+      "avg_sl": 16.74,
+      "note": "MFE_only_target_reached"
+    }
+  ]
+}

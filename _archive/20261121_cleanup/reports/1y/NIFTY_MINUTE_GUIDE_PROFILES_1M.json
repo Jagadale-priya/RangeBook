@@ -1,0 +1,419 @@
+{
+  "source": "csv+kite",
+  "pick": "skip10_enter40_sell",
+  "results": {
+    "baseline": {
+      "freeze": {
+        "minutes": 21750,
+        "sessions": 58,
+        "sessions_with_a_call": 58,
+        "buys": 1286,
+        "sells": 1132,
+        "stays": 13690,
+        "drops": 2418,
+        "waits": 3224,
+        "closed_calls": 2418,
+        "wins": 927,
+        "losses": 1491,
+        "hit_rate": 0.38337468982630274,
+        "net_points": -920.9200000000008,
+        "avg_win": 13.85306364617044,
+        "avg_loss": -9.230523138832998,
+        "exit_reasons": {
+          "score_turned": 1128,
+          "stop": 715,
+          "target": 532,
+          "session_end": 43
+        },
+        "stops": 715,
+        "stop_share": 0.2956989247311828
+      },
+      "holdout": {
+        "minutes": 7945,
+        "sessions": 22,
+        "sessions_with_a_call": 22,
+        "buys": 646,
+        "sells": 646,
+        "stays": 3887,
+        "drops": 1292,
+        "waits": 1474,
+        "closed_calls": 1292,
+        "wins": 455,
+        "losses": 837,
+        "hit_rate": 0.3521671826625387,
+        "net_points": -1119.3700000000006,
+        "avg_win": 17.70531868131868,
+        "avg_loss": -10.962114695340503,
+        "exit_reasons": {
+          "score_turned": 366,
+          "stop": 539,
+          "target": 371,
+          "session_end": 16
+        },
+        "stops": 539,
+        "stop_share": 0.4171826625386997
+      }
+    },
+    "avoid_stop": {
+      "freeze": {
+        "minutes": 21750,
+        "sessions": 58,
+        "sessions_with_a_call": 58,
+        "buys": 238,
+        "sells": 293,
+        "stays": 816,
+        "drops": 531,
+        "waits": 19872,
+        "closed_calls": 531,
+        "wins": 192,
+        "losses": 339,
+        "hit_rate": 0.3615819209039548,
+        "net_points": -122.17000000000007,
+        "avg_win": 10.883697916666668,
+        "avg_loss": -6.524601769911505,
+        "exit_reasons": {
+          "target": 71,
+          "score_turned": 404,
+          "stop": 54,
+          "session_end": 2
+        },
+        "stops": 54,
+        "stop_share": 0.1016949152542373
+      },
+      "holdout": {
+        "minutes": 7945,
+        "sessions": 22,
+        "sessions_with_a_call": 22,
+        "buys": 119,
+        "sells": 103,
+        "stays": 249,
+        "drops": 222,
+        "waits": 7252,
+        "closed_calls": 222,
+        "wins": 79,
+        "losses": 143,
+        "hit_rate": 0.35585585585585583,
+        "net_points": 214.31999999999994,
+        "avg_win": 18.40772151898734,
+        "avg_loss": -8.67055944055944,
+        "exit_reasons": {
+          "target": 59,
+          "stop": 37,
+          "score_turned": 124,
+          "session_end": 2
+        },
+        "stops": 37,
+        "stop_share": 0.16666666666666666
+      }
+    },
+    "accurate": {
+      "freeze": {
+        "minutes": 21750,
+        "sessions": 58,
+        "sessions_with_a_call": 53,
+        "buys": 0,
+        "sells": 215,
+        "stays": 332,
+        "drops": 215,
+        "waits": 20988,
+        "closed_calls": 215,
+        "wins": 90,
+        "losses": 125,
+        "hit_rate": 0.4186046511627907,
+        "net_points": 99.04999999999997,
+        "avg_win": 8.264999999999999,
+        "avg_loss": -5.158399999999999,
+        "exit_reasons": {
+          "score_turned": 172,
+          "stop": 16,
+          "target": 26,
+          "session_end": 1
+        },
+        "stops": 16,
+        "stop_share": 0.07441860465116279
+      },
+      "holdout": {
+        "minutes": 7945,
+        "sessions": 22,
+        "sessions_with_a_call": 21,
+        "buys": 0,
+        "sells": 85,
+        "stays": 84,
+        "drops": 85,
+        "waits": 7691,
+        "closed_calls": 85,
+        "wins": 34,
+        "losses": 51,
+        "hit_rate": 0.4,
+        "net_points": 315.84,
+        "avg_win": 17.343823529411765,
+        "avg_loss": -5.369607843137255,
+        "exit_reasons": {
+          "score_turned": 49,
+          "target": 28,
+          "stop": 7,
+          "session_end": 1
+        },
+        "stops": 7,
+        "stop_share": 0.08235294117647059
+      }
+    },
+    "skip10_both": {
+      "freeze": {
+        "minutes": 21750,
+        "sessions": 58,
+        "sessions_with_a_call": 58,
+        "buys": 178,
+        "sells": 215,
+        "stays": 596,
+        "drops": 393,
+        "waits": 20368,
+        "closed_calls": 393,
+        "wins": 144,
+        "losses": 249,
+        "hit_rate": 0.366412213740458,
+        "net_points": -63.00000000000006,
+        "avg_win": 8.787847222222222,
+        "avg_loss": -5.335140562248996,
+        "exit_reasons": {
+          "score_turned": 315,
+          "target": 47,
+          "stop": 29,
+          "session_end": 2
+        },
+        "stops": 29,
+        "stop_share": 0.0737913486005089
+      },
+      "holdout": {
+        "minutes": 7945,
+        "sessions": 22,
+        "sessions_with_a_call": 22,
+        "buys": 81,
+        "sells": 85,
+        "stays": 183,
+        "drops": 166,
+        "waits": 7430,
+        "closed_calls": 166,
+        "wins": 61,
+        "losses": 105,
+        "hit_rate": 0.3674698795180723,
+        "net_points": 301.9699999999999,
+        "avg_win": 16.11262295081967,
+        "avg_loss": -6.484761904761904,
+        "exit_reasons": {
+          "score_turned": 99,
+          "target": 46,
+          "stop": 19,
+          "session_end": 2
+        },
+        "stops": 19,
+        "stop_share": 0.1144578313253012
+      }
+    },
+    "skip10_enter35_both": {
+      "freeze": {
+        "minutes": 21750,
+        "sessions": 58,
+        "sessions_with_a_call": 57,
+        "buys": 125,
+        "sells": 172,
+        "stays": 450,
+        "drops": 297,
+        "waits": 20706,
+        "closed_calls": 297,
+        "wins": 109,
+        "losses": 188,
+        "hit_rate": 0.367003367003367,
+        "net_points": -128.80000000000004,
+        "avg_win": 8.547247706422018,
+        "avg_loss": -5.640691489361703,
+        "exit_reasons": {
+          "score_turned": 241,
+          "target": 33,
+          "session_end": 1,
+          "stop": 22
+        },
+        "stops": 22,
+        "stop_share": 0.07407407407407407
+      },
+      "holdout": {
+        "minutes": 7945,
+        "sessions": 22,
+        "sessions_with_a_call": 22,
+        "buys": 63,
+        "sells": 62,
+        "stays": 142,
+        "drops": 125,
+        "waits": 7553,
+        "closed_calls": 125,
+        "wins": 45,
+        "losses": 80,
+        "hit_rate": 0.36,
+        "net_points": 122.29999999999995,
+        "avg_win": 15.767777777777777,
+        "avg_loss": -7.340625,
+        "exit_reasons": {
+          "target": 33,
+          "stop": 20,
+          "score_turned": 70,
+          "session_end": 2
+        },
+        "stops": 20,
+        "stop_share": 0.16
+      }
+    },
+    "skip10_sell": {
+      "freeze": {
+        "minutes": 21750,
+        "sessions": 58,
+        "sessions_with_a_call": 53,
+        "buys": 0,
+        "sells": 215,
+        "stays": 332,
+        "drops": 215,
+        "waits": 20988,
+        "closed_calls": 215,
+        "wins": 90,
+        "losses": 125,
+        "hit_rate": 0.4186046511627907,
+        "net_points": 99.04999999999997,
+        "avg_win": 8.264999999999999,
+        "avg_loss": -5.158399999999999,
+        "exit_reasons": {
+          "score_turned": 172,
+          "stop": 16,
+          "target": 26,
+          "session_end": 1
+        },
+        "stops": 16,
+        "stop_share": 0.07441860465116279
+      },
+      "holdout": {
+        "minutes": 7945,
+        "sessions": 22,
+        "sessions_with_a_call": 21,
+        "buys": 0,
+        "sells": 85,
+        "stays": 84,
+        "drops": 85,
+        "waits": 7691,
+        "closed_calls": 85,
+        "wins": 34,
+        "losses": 51,
+        "hit_rate": 0.4,
+        "net_points": 315.84,
+        "avg_win": 17.343823529411765,
+        "avg_loss": -5.369607843137255,
+        "exit_reasons": {
+          "score_turned": 49,
+          "target": 28,
+          "stop": 7,
+          "session_end": 1
+        },
+        "stops": 7,
+        "stop_share": 0.08235294117647059
+      }
+    },
+    "skip10_enter40_sell": {
+      "freeze": {
+        "minutes": 21750,
+        "sessions": 58,
+        "sessions_with_a_call": 49,
+        "buys": 0,
+        "sells": 134,
+        "stays": 200,
+        "drops": 134,
+        "waits": 21282,
+        "closed_calls": 134,
+        "wins": 45,
+        "losses": 89,
+        "hit_rate": 0.3358208955223881,
+        "net_points": -37.40000000000003,
+        "avg_win": 10.183333333333334,
+        "avg_loss": -5.569101123595505,
+        "exit_reasons": {
+          "score_turned": 101,
+          "target": 18,
+          "stop": 15
+        },
+        "stops": 15,
+        "stop_share": 0.11194029850746269
+      },
+      "holdout": {
+        "minutes": 7945,
+        "sessions": 22,
+        "sessions_with_a_call": 18,
+        "buys": 0,
+        "sells": 48,
+        "stays": 58,
+        "drops": 48,
+        "waits": 7791,
+        "closed_calls": 48,
+        "wins": 23,
+        "losses": 25,
+        "hit_rate": 0.4791666666666667,
+        "net_points": 238.41999999999996,
+        "avg_win": 16.82913043478261,
+        "avg_loss": -5.946000000000001,
+        "exit_reasons": {
+          "target": 19,
+          "stop": 5,
+          "score_turned": 23,
+          "session_end": 1
+        },
+        "stops": 5,
+        "stop_share": 0.10416666666666667
+      }
+    },
+    "skip10_sell_eff40": {
+      "freeze": {
+        "minutes": 21750,
+        "sessions": 58,
+        "sessions_with_a_call": 50,
+        "buys": 0,
+        "sells": 163,
+        "stays": 233,
+        "drops": 163,
+        "waits": 21191,
+        "closed_calls": 163,
+        "wins": 60,
+        "losses": 103,
+        "hit_rate": 0.36809815950920244,
+        "net_points": -16.00000000000003,
+        "avg_win": 9.0825,
+        "avg_loss": -5.446116504854369,
+        "exit_reasons": {
+          "score_turned": 130,
+          "target": 20,
+          "stop": 13
+        },
+        "stops": 13,
+        "stop_share": 0.07975460122699386
+      },
+      "holdout": {
+        "minutes": 7945,
+        "sessions": 22,
+        "sessions_with_a_call": 18,
+        "buys": 0,
+        "sells": 57,
+        "stays": 42,
+        "drops": 57,
+        "waits": 7789,
+        "closed_calls": 57,
+        "wins": 20,
+        "losses": 37,
+        "hit_rate": 0.3508771929824561,
+        "net_points": 94.96999999999997,
+        "avg_win": 17.506,
+        "avg_loss": -6.895945945945946,
+        "exit_reasons": {
+          "target": 17,
+          "stop": 9,
+          "score_turned": 31
+        },
+        "stops": 9,
+        "stop_share": 0.15789473684210525
+      }
+    }
+  }
+}

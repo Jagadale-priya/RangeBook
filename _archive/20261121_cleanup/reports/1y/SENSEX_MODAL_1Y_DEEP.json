@@ -1,0 +1,5576 @@
+{
+  "symbol": "SENSEX",
+  "window": {
+    "start": "2025-11-19",
+    "end": "2026-11-19"
+  },
+  "cap": 3,
+  "floors": {
+    "primary": 88.0,
+    "strict": 92.0,
+    "elite": 94.0
+  },
+  "elapsed_s": 14.3,
+  "cand_n_1y": 812,
+  "current_live": {
+    "policy": {
+      "name": "LIVE_current_champ",
+      "buy_min_p": 0.55,
+      "sell_min_p": 0.7,
+      "buy_first_only": true,
+      "sell_first_only": true,
+      "allow_sell_cont": false,
+      "buy_regimes": [
+        "range",
+        "mixed",
+        "trend",
+        "volatile"
+      ]
+    },
+    "clip": {
+      "sl": 100.0,
+      "t1": 100.0
+    },
+    "pool_n": 38,
+    "n": 38,
+    "settled": 38,
+    "hit_pct": 94.74,
+    "wins": 36,
+    "losses": 2,
+    "by_side": {
+      "SELL": 25,
+      "BUY": 13
+    },
+    "by_track": {
+      "champion": 38
+    },
+    "by_month": {
+      "2025-12": {
+        "n": 1,
+        "settled": 1,
+        "hit_pct": 100.0,
+        "wins": 1,
+        "losses": 0
+      },
+      "2026-01": {
+        "n": 4,
+        "settled": 4,
+        "hit_pct": 75.0,
+        "wins": 3,
+        "losses": 1
+      },
+      "2026-02": {
+        "n": 4,
+        "settled": 4,
+        "hit_pct": 100.0,
+        "wins": 4,
+        "losses": 0
+      },
+      "2026-03": {
+        "n": 2,
+        "settled": 2,
+        "hit_pct": 100.0,
+        "wins": 2,
+        "losses": 0
+      },
+      "2026-04": {
+        "n": 2,
+        "settled": 2,
+        "hit_pct": 100.0,
+        "wins": 2,
+        "losses": 0
+      },
+      "2026-05": {
+        "n": 3,
+        "settled": 3,
+        "hit_pct": 100.0,
+        "wins": 3,
+        "losses": 0
+      },
+      "2026-06": {
+        "n": 5,
+        "settled": 5,
+        "hit_pct": 100.0,
+        "wins": 5,
+        "losses": 0
+      },
+      "2026-07": {
+        "n": 1,
+        "settled": 1,
+        "hit_pct": 100.0,
+        "wins": 1,
+        "losses": 0
+      },
+      "2026-08": {
+        "n": 6,
+        "settled": 6,
+        "hit_pct": 100.0,
+        "wins": 6,
+        "losses": 0
+      },
+      "2026-09": {
+        "n": 3,
+        "settled": 3,
+        "hit_pct": 100.0,
+        "wins": 3,
+        "losses": 0
+      },
+      "2026-10": {
+        "n": 7,
+        "settled": 7,
+        "hit_pct": 85.71,
+        "wins": 6,
+        "losses": 1
+      }
+    }
+  },
+  "recommended": {
+    "policy": {
+      "name": "b0.5_s0.55_first_reg4_T120SL120",
+      "buy_min_p": 0.5,
+      "sell_min_p": 0.55,
+      "buy_first_only": true,
+      "sell_first_only": true,
+      "allow_sell_cont": false,
+      "cont_sell_min_p": 0.58,
+      "cont_min_or_ext": 0.15,
+      "cont_max_or_ext": 0.4,
+      "cont_max_mins": 750,
+      "buy_regimes": [
+        "range",
+        "mixed",
+        "trend",
+        "volatile"
+      ]
+    },
+    "clip": {
+      "sl": 120.0,
+      "t1": 120.0
+    },
+    "pool_n": 82,
+    "n": 82,
+    "settled": 82,
+    "hit_pct": 93.9,
+    "wins": 77,
+    "losses": 5,
+    "by_side": {
+      "SELL": 55,
+      "BUY": 27
+    },
+    "by_track": {
+      "champion": 82
+    },
+    "by_month": {
+      "2025-11": {
+        "n": 1,
+        "settled": 1,
+        "hit_pct": 100.0,
+        "wins": 1,
+        "losses": 0
+      },
+      "2025-12": {
+        "n": 7,
+        "settled": 7,
+        "hit_pct": 85.71,
+        "wins": 6,
+        "losses": 1
+      },
+      "2026-01": {
+        "n": 7,
+        "settled": 7,
+        "hit_pct": 100.0,
+        "wins": 7,
+        "losses": 0
+      },
+      "2026-02": {
+        "n": 10,
+        "settled": 10,
+        "hit_pct": 90.0,
+        "wins": 9,
+        "losses": 1
+      },
+      "2026-03": {
+        "n": 6,
+        "settled": 6,
+        "hit_pct": 100.0,
+        "wins": 6,
+        "losses": 0
+      },
+      "2026-04": {
+        "n": 5,
+        "settled": 5,
+        "hit_pct": 100.0,
+        "wins": 5,
+        "losses": 0
+      },
+      "2026-05": {
+        "n": 6,
+        "settled": 6,
+        "hit_pct": 66.67,
+        "wins": 4,
+        "losses": 2
+      },
+      "2026-06": {
+        "n": 9,
+        "settled": 9,
+        "hit_pct": 100.0,
+        "wins": 9,
+        "losses": 0
+      },
+      "2026-07": {
+        "n": 7,
+        "settled": 7,
+        "hit_pct": 100.0,
+        "wins": 7,
+        "losses": 0
+      },
+      "2026-08": {
+        "n": 9,
+        "settled": 9,
+        "hit_pct": 100.0,
+        "wins": 9,
+        "losses": 0
+      },
+      "2026-09": {
+        "n": 5,
+        "settled": 5,
+        "hit_pct": 100.0,
+        "wins": 5,
+        "losses": 0
+      },
+      "2026-10": {
+        "n": 10,
+        "settled": 10,
+        "hit_pct": 90.0,
+        "wins": 9,
+        "losses": 1
+      }
+    }
+  },
+  "picks": {
+    "max_n_hit88": {
+      "policy": {
+        "name": "b0.5_s0.62_cont_reg4_T120SL120",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 173,
+      "n": 162,
+      "settled": 162,
+      "hit_pct": 88.89,
+      "wins": 144,
+      "losses": 18,
+      "by_side": {
+        "SELL": 135,
+        "BUY": 27
+      },
+      "by_track": {
+        "champion": 162
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 73.33,
+          "wins": 11,
+          "losses": 4
+        },
+        "2026-01": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 73.33,
+          "wins": 11,
+          "losses": 4
+        },
+        "2026-02": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-06": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 94.12,
+          "wins": 16,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 18,
+          "settled": 18,
+          "hit_pct": 94.44,
+          "wins": 17,
+          "losses": 1
+        },
+        "2026-09": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 91.67,
+          "wins": 11,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 94.12,
+          "wins": 16,
+          "losses": 1
+        }
+      }
+    },
+    "max_n_hit92": {
+      "policy": {
+        "name": "b0.5_s0.55_first_reg4_T120SL120",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.58,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 82,
+      "n": 82,
+      "settled": 82,
+      "hit_pct": 93.9,
+      "wins": 77,
+      "losses": 5,
+      "by_side": {
+        "SELL": 55,
+        "BUY": 27
+      },
+      "by_track": {
+        "champion": 82
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-12": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        },
+        "2026-01": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 66.67,
+          "wins": 4,
+          "losses": 2
+        },
+        "2026-06": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        }
+      }
+    },
+    "max_n_hit94": {
+      "policy": {
+        "name": "b0.55_s0.55_first_reg4_T120SL120",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.58,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 68,
+      "n": 68,
+      "settled": 68,
+      "hit_pct": 94.12,
+      "wins": 64,
+      "losses": 4,
+      "by_side": {
+        "SELL": 55,
+        "BUY": 13
+      },
+      "by_track": {
+        "champion": 68
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-12": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        },
+        "2026-01": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1
+        }
+      }
+    },
+    "best_hit_n20": {
+      "policy": {
+        "name": "b0.55_s0.65_first_reg4_T120SL120",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 48,
+      "n": 48,
+      "settled": 48,
+      "hit_pct": 97.92,
+      "wins": 47,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 13
+      },
+      "by_track": {
+        "champion": 48
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1
+        }
+      }
+    },
+    "best_hit_n30": {
+      "policy": {
+        "name": "b0.55_s0.65_first_reg4_T120SL120",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 48,
+      "n": 48,
+      "settled": 48,
+      "hit_pct": 97.92,
+      "wins": 47,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 13
+      },
+      "by_track": {
+        "champion": 48
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1
+        }
+      }
+    }
+  },
+  "top_volume_ge88": [
+    {
+      "policy": {
+        "name": "b0.5_s0.62_cont_reg4_T120SL120",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 173,
+      "n": 162,
+      "settled": 162,
+      "hit_pct": 88.89,
+      "wins": 144,
+      "losses": 18,
+      "by_side": {
+        "SELL": 135,
+        "BUY": 27
+      },
+      "by_track": {
+        "champion": 162
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 73.33,
+          "wins": 11,
+          "losses": 4
+        },
+        "2026-01": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 73.33,
+          "wins": 11,
+          "losses": 4
+        },
+        "2026-02": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-06": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 94.12,
+          "wins": 16,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 18,
+          "settled": 18,
+          "hit_pct": 94.44,
+          "wins": 17,
+          "losses": 1
+        },
+        "2026-09": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 91.67,
+          "wins": 11,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 94.12,
+          "wins": 16,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.62_cont_reg4_T100SL100",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 173,
+      "n": 162,
+      "settled": 162,
+      "hit_pct": 88.27,
+      "wins": 143,
+      "losses": 19,
+      "by_side": {
+        "SELL": 135,
+        "BUY": 27
+      },
+      "by_track": {
+        "champion": 162
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 80.0,
+          "wins": 12,
+          "losses": 3
+        },
+        "2026-01": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 80.0,
+          "wins": 12,
+          "losses": 3
+        },
+        "2026-02": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-06": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-07": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 18,
+          "settled": 18,
+          "hit_pct": 88.89,
+          "wins": 16,
+          "losses": 2
+        },
+        "2026-09": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 91.67,
+          "wins": 11,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 94.12,
+          "wins": 16,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.62_cont_reg4_T100SL100",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 159,
+      "n": 148,
+      "settled": 148,
+      "hit_pct": 88.51,
+      "wins": 131,
+      "losses": 17,
+      "by_side": {
+        "SELL": 135,
+        "BUY": 13
+      },
+      "by_track": {
+        "champion": 148
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 78.57,
+          "wins": 11,
+          "losses": 3
+        },
+        "2026-01": {
+          "n": 13,
+          "settled": 13,
+          "hit_pct": 76.92,
+          "wins": 10,
+          "losses": 3
+        },
+        "2026-02": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 91.67,
+          "wins": 11,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 16,
+          "settled": 16,
+          "hit_pct": 93.75,
+          "wins": 15,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-07": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 18,
+          "settled": 18,
+          "hit_pct": 88.89,
+          "wins": 16,
+          "losses": 2
+        },
+        "2026-09": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.62_cont_reg4_T120SL120",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 159,
+      "n": 148,
+      "settled": 148,
+      "hit_pct": 88.51,
+      "wins": 131,
+      "losses": 17,
+      "by_side": {
+        "SELL": 135,
+        "BUY": 13
+      },
+      "by_track": {
+        "champion": 148
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 71.43,
+          "wins": 10,
+          "losses": 4
+        },
+        "2026-01": {
+          "n": 13,
+          "settled": 13,
+          "hit_pct": 69.23,
+          "wins": 9,
+          "losses": 4
+        },
+        "2026-02": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 91.67,
+          "wins": 11,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 16,
+          "settled": 16,
+          "hit_pct": 93.75,
+          "wins": 15,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 94.12,
+          "wins": 16,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 77.78,
+          "wins": 7,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 18,
+          "settled": 18,
+          "hit_pct": 94.44,
+          "wins": 17,
+          "losses": 1
+        },
+        "2026-09": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.62_cont_reg2_T100SL100",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 156,
+      "n": 145,
+      "settled": 145,
+      "hit_pct": 88.28,
+      "wins": 128,
+      "losses": 17,
+      "by_side": {
+        "SELL": 135,
+        "BUY": 10
+      },
+      "by_track": {
+        "champion": 145
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 80.0,
+          "wins": 12,
+          "losses": 3
+        },
+        "2026-01": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 78.57,
+          "wins": 11,
+          "losses": 3
+        },
+        "2026-02": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 16,
+          "settled": 16,
+          "hit_pct": 93.75,
+          "wins": 15,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2
+        },
+        "2026-07": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 80.0,
+          "wins": 8,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 18,
+          "settled": 18,
+          "hit_pct": 88.89,
+          "wins": 16,
+          "losses": 2
+        },
+        "2026-09": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.62_cont_reg2_T120SL120",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 156,
+      "n": 145,
+      "settled": 145,
+      "hit_pct": 88.28,
+      "wins": 128,
+      "losses": 17,
+      "by_side": {
+        "SELL": 135,
+        "BUY": 10
+      },
+      "by_track": {
+        "champion": 145
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 73.33,
+          "wins": 11,
+          "losses": 4
+        },
+        "2026-01": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 71.43,
+          "wins": 10,
+          "losses": 4
+        },
+        "2026-02": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 16,
+          "settled": 16,
+          "hit_pct": 93.75,
+          "wins": 15,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 80.0,
+          "wins": 8,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 18,
+          "settled": 18,
+          "hit_pct": 94.44,
+          "wins": 17,
+          "losses": 1
+        },
+        "2026-09": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.58_s0.62_cont_reg4_T100SL100",
+        "buy_min_p": 0.58,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 149,
+      "n": 138,
+      "settled": 138,
+      "hit_pct": 88.41,
+      "wins": 122,
+      "losses": 16,
+      "by_side": {
+        "SELL": 135,
+        "BUY": 3
+      },
+      "by_track": {
+        "champion": 138
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 78.57,
+          "wins": 11,
+          "losses": 3
+        },
+        "2026-01": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 16,
+          "settled": 16,
+          "hit_pct": 93.75,
+          "wins": 15,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-07": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 75.0,
+          "wins": 6,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-09": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.6_s0.62_cont_reg4_T100SL100",
+        "buy_min_p": 0.6,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 149,
+      "n": 138,
+      "settled": 138,
+      "hit_pct": 88.41,
+      "wins": 122,
+      "losses": 16,
+      "by_side": {
+        "SELL": 135,
+        "BUY": 3
+      },
+      "by_track": {
+        "champion": 138
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 78.57,
+          "wins": 11,
+          "losses": 3
+        },
+        "2026-01": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 16,
+          "settled": 16,
+          "hit_pct": 93.75,
+          "wins": 15,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-07": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 75.0,
+          "wins": 6,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-09": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.58_s0.62_cont_reg2_T100SL100",
+        "buy_min_p": 0.58,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 146,
+      "n": 135,
+      "settled": 135,
+      "hit_pct": 88.15,
+      "wins": 119,
+      "losses": 16,
+      "by_side": {
+        "SELL": 135
+      },
+      "by_track": {
+        "champion": 135
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 78.57,
+          "wins": 11,
+          "losses": 3
+        },
+        "2026-01": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 16,
+          "settled": 16,
+          "hit_pct": 93.75,
+          "wins": 15,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2
+        },
+        "2026-07": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 75.0,
+          "wins": 6,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-09": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.6_s0.62_cont_reg2_T100SL100",
+        "buy_min_p": 0.6,
+        "sell_min_p": 0.62,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.62,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 146,
+      "n": 135,
+      "settled": 135,
+      "hit_pct": 88.15,
+      "wins": 119,
+      "losses": 16,
+      "by_side": {
+        "SELL": 135
+      },
+      "by_track": {
+        "champion": 135
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 78.57,
+          "wins": 11,
+          "losses": 3
+        },
+        "2026-01": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 16,
+          "settled": 16,
+          "hit_pct": 93.75,
+          "wins": 15,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2
+        },
+        "2026-07": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 75.0,
+          "wins": 6,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 17,
+          "settled": 17,
+          "hit_pct": 88.24,
+          "wins": 15,
+          "losses": 2
+        },
+        "2026-09": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.65_cont_reg4_T120SL120",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 133,
+      "n": 128,
+      "settled": 128,
+      "hit_pct": 89.06,
+      "wins": 114,
+      "losses": 14,
+      "by_side": {
+        "SELL": 101,
+        "BUY": 27
+      },
+      "by_track": {
+        "champion": 128
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 75.0,
+          "wins": 9,
+          "losses": 3
+        },
+        "2026-01": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 70.0,
+          "wins": 7,
+          "losses": 3
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 91.67,
+          "wins": 11,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 75.0,
+          "wins": 6,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1
+        },
+        "2026-09": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.65_cont_reg4_T100SL100",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 133,
+      "n": 128,
+      "settled": 128,
+      "hit_pct": 88.28,
+      "wins": 113,
+      "losses": 15,
+      "by_side": {
+        "SELL": 101,
+        "BUY": 27
+      },
+      "by_track": {
+        "champion": 128
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2
+        },
+        "2026-01": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 70.0,
+          "wins": 7,
+          "losses": 3
+        },
+        "2026-02": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-03": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 100.0,
+          "wins": 12,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 91.67,
+          "wins": 11,
+          "losses": 1
+        },
+        "2026-06": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2
+        },
+        "2026-07": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1
+        },
+        "2026-08": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 86.67,
+          "wins": 13,
+          "losses": 2
+        },
+        "2026-09": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 90.91,
+          "wins": 10,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.65_cont_reg4_T100SL100",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 119,
+      "n": 114,
+      "settled": 114,
+      "hit_pct": 88.6,
+      "wins": 101,
+      "losses": 13,
+      "by_side": {
+        "SELL": 101,
+        "BUY": 13
+      },
+      "by_track": {
+        "champion": 114
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 81.82,
+          "wins": 9,
+          "losses": 2
+        },
+        "2026-01": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 62.5,
+          "wins": 5,
+          "losses": 3
+        },
+        "2026-02": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 85.71,
+          "wins": 12,
+          "losses": 2
+        },
+        "2026-07": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-08": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 86.67,
+          "wins": 13,
+          "losses": 2
+        },
+        "2026-09": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 13,
+          "settled": 13,
+          "hit_pct": 92.31,
+          "wins": 12,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.65_cont_reg4_T120SL120",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 119,
+      "n": 114,
+      "settled": 114,
+      "hit_pct": 88.6,
+      "wins": 101,
+      "losses": 13,
+      "by_side": {
+        "SELL": 101,
+        "BUY": 13
+      },
+      "by_track": {
+        "champion": 114
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 72.73,
+          "wins": 8,
+          "losses": 3
+        },
+        "2026-01": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 62.5,
+          "wins": 5,
+          "losses": 3
+        },
+        "2026-02": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 14,
+          "settled": 14,
+          "hit_pct": 92.86,
+          "wins": 13,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 60.0,
+          "wins": 3,
+          "losses": 2
+        },
+        "2026-08": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 93.33,
+          "wins": 14,
+          "losses": 1
+        },
+        "2026-09": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 90.0,
+          "wins": 9,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 13,
+          "settled": 13,
+          "hit_pct": 92.31,
+          "wins": 12,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.65_cont_reg2_T100SL100",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 116,
+      "n": 111,
+      "settled": 111,
+      "hit_pct": 88.29,
+      "wins": 98,
+      "losses": 13,
+      "by_side": {
+        "SELL": 101,
+        "BUY": 10
+      },
+      "by_track": {
+        "champion": 111
+      },
+      "by_month": {
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 12,
+          "settled": 12,
+          "hit_pct": 83.33,
+          "wins": 10,
+          "losses": 2
+        },
+        "2026-01": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 66.67,
+          "wins": 6,
+          "losses": 3
+        },
+        "2026-02": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 10,
+          "settled": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 11,
+          "settled": 11,
+          "hit_pct": 81.82,
+          "wins": 9,
+          "losses": 2
+        },
+        "2026-07": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        },
+        "2026-08": {
+          "n": 15,
+          "settled": 15,
+          "hit_pct": 86.67,
+          "wins": 13,
+          "losses": 2
+        },
+        "2026-09": {
+          "n": 9,
+          "settled": 9,
+          "hit_pct": 88.89,
+          "wins": 8,
+          "losses": 1
+        },
+        "2026-10": {
+          "n": 13,
+          "settled": 13,
+          "hit_pct": 92.31,
+          "wins": 12,
+          "losses": 1
+        }
+      }
+    }
+  ],
+  "top_hit_n15": [
+    {
+      "policy": {
+        "name": "b0.55_s0.65_first_reg4_T120SL120",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 48,
+      "n": 48,
+      "settled": 48,
+      "hit_pct": 97.92,
+      "wins": 47,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 13
+      },
+      "by_track": {
+        "champion": 48
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.65_first_reg2_T120SL120",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 45,
+      "n": 45,
+      "settled": 45,
+      "hit_pct": 97.78,
+      "wins": 44,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 10
+      },
+      "by_track": {
+        "champion": 45
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 8,
+          "settled": 8,
+          "hit_pct": 87.5,
+          "wins": 7,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.65_first_reg2_T120SL120",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 38,
+      "n": 38,
+      "settled": 38,
+      "hit_pct": 97.37,
+      "wins": 37,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 3
+      },
+      "by_track": {
+        "champion": 38
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.68_first_reg4_T120SL120",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.68,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.68,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 38,
+      "n": 38,
+      "settled": 38,
+      "hit_pct": 97.37,
+      "wins": 37,
+      "losses": 1,
+      "by_side": {
+        "SELL": 25,
+        "BUY": 13
+      },
+      "by_track": {
+        "champion": 38
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.7_first_reg4_T120SL120",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.7,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.7,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 38,
+      "n": 38,
+      "settled": 38,
+      "hit_pct": 97.37,
+      "wins": 37,
+      "losses": 1,
+      "by_side": {
+        "SELL": 25,
+        "BUY": 13
+      },
+      "by_track": {
+        "champion": 38
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.58_s0.65_first_reg4_T100SL100",
+        "buy_min_p": 0.58,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 38,
+      "n": 38,
+      "settled": 38,
+      "hit_pct": 97.37,
+      "wins": 37,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 3
+      },
+      "by_track": {
+        "champion": 38
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.58_s0.65_first_reg4_T120SL120",
+        "buy_min_p": 0.58,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 38,
+      "n": 38,
+      "settled": 38,
+      "hit_pct": 97.37,
+      "wins": 37,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 3
+      },
+      "by_track": {
+        "champion": 38
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.58_s0.65_first_reg4_T120SL100",
+        "buy_min_p": 0.58,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 120.0
+      },
+      "pool_n": 38,
+      "n": 38,
+      "settled": 38,
+      "hit_pct": 97.37,
+      "wins": 37,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 3
+      },
+      "by_track": {
+        "champion": 38
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.6_s0.65_first_reg4_T100SL100",
+        "buy_min_p": 0.6,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 38,
+      "n": 38,
+      "settled": 38,
+      "hit_pct": 97.37,
+      "wins": 37,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 3
+      },
+      "by_track": {
+        "champion": 38
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.6_s0.65_first_reg4_T120SL120",
+        "buy_min_p": 0.6,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 38,
+      "n": 38,
+      "settled": 38,
+      "hit_pct": 97.37,
+      "wins": 37,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 3
+      },
+      "by_track": {
+        "champion": 38
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.6_s0.65_first_reg4_T120SL100",
+        "buy_min_p": 0.6,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 120.0
+      },
+      "pool_n": 38,
+      "n": 38,
+      "settled": 38,
+      "hit_pct": 97.37,
+      "wins": 37,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35,
+        "BUY": 3
+      },
+      "by_track": {
+        "champion": 38
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.68_first_reg2_T120SL120",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.68,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.68,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 35,
+      "n": 35,
+      "settled": 35,
+      "hit_pct": 97.14,
+      "wins": 34,
+      "losses": 1,
+      "by_side": {
+        "SELL": 25,
+        "BUY": 10
+      },
+      "by_track": {
+        "champion": 35
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.7_first_reg2_T120SL120",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.7,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.7,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 35,
+      "n": 35,
+      "settled": 35,
+      "hit_pct": 97.14,
+      "wins": 34,
+      "losses": 1,
+      "by_side": {
+        "SELL": 25,
+        "BUY": 10
+      },
+      "by_track": {
+        "champion": 35
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.58_s0.65_first_reg2_T100SL100",
+        "buy_min_p": 0.58,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 100.0,
+        "t1": 100.0
+      },
+      "pool_n": 35,
+      "n": 35,
+      "settled": 35,
+      "hit_pct": 97.14,
+      "wins": 34,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35
+      },
+      "by_track": {
+        "champion": 35
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.58_s0.65_first_reg2_T120SL120",
+        "buy_min_p": 0.58,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.15,
+        "cont_max_or_ext": 0.4,
+        "cont_max_mins": 750,
+        "buy_regimes": [
+          "range",
+          "mixed"
+        ]
+      },
+      "clip": {
+        "sl": 120.0,
+        "t1": 120.0
+      },
+      "pool_n": 35,
+      "n": 35,
+      "settled": 35,
+      "hit_pct": 97.14,
+      "wins": 34,
+      "losses": 1,
+      "by_side": {
+        "SELL": 35
+      },
+      "by_track": {
+        "champion": 35
+      },
+      "by_month": {
+        "2025-12": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 7,
+          "settled": 7,
+          "hit_pct": 85.71,
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    }
+  ],
+  "recommended_calls": [
+    {
+      "day": "2025-11-20",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-01",
+      "hm": "10:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-02",
+      "hm": "11:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-03",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -120.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2025-12-10",
+      "hm": "12:15",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-16",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-17",
+      "hm": "10:00",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2025-12-31",
+      "hm": "10:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-02",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-09",
+      "hm": "10:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-12",
+      "hm": "12:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-20",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-22",
+      "hm": "10:15",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-23",
+      "hm": "11:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-29",
+      "hm": "13:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-01",
+      "hm": "10:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-01",
+      "hm": "12:00",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -120.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2026-02-10",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-18",
+      "hm": "14:15",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-19",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-20",
+      "hm": "09:45",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-24",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-25",
+      "hm": "12:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-26",
+      "hm": "11:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-27",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-04",
+      "hm": "13:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-06",
+      "hm": "12:15",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-11",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-13",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-18",
+      "hm": "10:45",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-30",
+      "hm": "13:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-04-13",
+      "hm": "10:15",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-04-16",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-04-21",
+      "hm": "09:45",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-04-22",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-04-24",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-06",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.7105,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-14",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-19",
+      "hm": "14:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-20",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": false,
+      "points": -120.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2026-05-21",
+      "hm": "10:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-29",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -120.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2026-06-01",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-02",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.95,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-03",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-05",
+      "hm": "10:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-09",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-11",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.95,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-15",
+      "hm": "12:00",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-25",
+      "hm": "09:45",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.95,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-29",
+      "hm": "11:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-01",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-06",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-08",
+      "hm": "12:00",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-17",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-22",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-23",
+      "hm": "12:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-31",
+      "hm": "12:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-04",
+      "hm": "10:15",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-11",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-12",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.7493,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-17",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-24",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-25",
+      "hm": "14:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.568,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-26",
+      "hm": "10:15",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-27",
+      "hm": "10:00",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-31",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-01",
+      "hm": "11:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-07",
+      "hm": "10:00",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-15",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-18",
+      "hm": "14:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-21",
+      "hm": "11:45",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-01",
+      "hm": "12:15",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-05",
+      "hm": "10:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-08",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-09",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-12",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-16",
+      "hm": "10:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-19",
+      "hm": "11:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "10:00",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": false,
+      "points": -120.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2026-10-29",
+      "hm": "09:45",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5455,
+      "win": true,
+      "points": 120.0,
+      "outcome": "t1_before_sl"
+    }
+  ],
+  "current_calls": [
+    {
+      "day": "2025-12-10",
+      "hm": "12:15",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-20",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-22",
+      "hm": "10:15",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-23",
+      "hm": "11:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-01-29",
+      "hm": "13:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": false,
+      "points": -100.0,
+      "outcome": "sl_before_t1"
+    },
+    {
+      "day": "2026-02-10",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-18",
+      "hm": "14:15",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-19",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-02-26",
+      "hm": "11:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-04",
+      "hm": "13:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-03-30",
+      "hm": "13:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-04-16",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-04-21",
+      "hm": "09:45",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-06",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.7105,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-14",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-05-21",
+      "hm": "10:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-02",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.95,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-03",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-09",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-11",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.95,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-06-25",
+      "hm": "09:45",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.95,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-07-06",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-04",
+      "hm": "10:15",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-12",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.7493,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-17",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-24",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-25",
+      "hm": "14:30",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.568,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-26",
+      "hm": "10:15",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-01",
+      "hm": "11:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-15",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-18",
+      "hm": "14:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-05",
+      "hm": "10:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-08",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-12",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-16",
+      "hm": "10:00",
+      "decision": "BUY",
+      "track": "champion",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-19",
+      "hm": "11:45",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "10:00",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "win": false,
+      "points": -100.0,
+      "outcome": "sl_before_t1"
+    }
+  ],
+  "grid_n": 480,
+  "live_patch": {
+    "CHAMPION_BUY_MIN_P": 0.5,
+    "CHAMPION_SELL_MIN_P": 0.55,
+    "CHAMPION_SELL_FIRST_ONLY": true,
+    "CHAMPION_BUY_REGIMES": [
+      "range",
+      "mixed",
+      "trend",
+      "volatile"
+    ],
+    "allow_sell_cont": false,
+    "clip": {
+      "sl": 120.0,
+      "t1": 120.0
+    },
+    "desk": "SENSEX_CHAMP_PLUS_T120SL120_CAP3"
+  },
+  "note": "Path-score is honest 5m \u00b1clip Cap3. Candidate p_t1 comes from freeze research packs; live evaluate can drift \u2014 after patching gates, re-smoke live.evaluate on recent days."
+}

@@ -1,0 +1,731 @@
+{
+  "brackets": {
+    "sl": 30.0,
+    "t1": 30.0
+  },
+  "logic": "15m thrust \u2192 5m limit fill at OR+lim",
+  "best": {
+    "gate": "L5_u60_b65_t0_11:30",
+    "params": {
+      "lim": 5,
+      "min_up": 60,
+      "body": 0.65,
+      "top": 0.0,
+      "hmin": "09:45",
+      "hmax": "11:30",
+      "prior": 2
+    },
+    "freeze": {
+      "n": 63,
+      "wins": 50,
+      "hit_pct": 79.37
+    },
+    "holdout": {
+      "n": 7,
+      "wins": 7,
+      "hit_pct": 100.0
+    },
+    "holdout_strong_catch_pct": 28.6,
+    "pass": false,
+    "soft": true,
+    "holdout_calls": [
+      {
+        "d": "2026-09-23",
+        "sig_hm": "11:00",
+        "fill_hm": "11:05",
+        "entry": 23419.55,
+        "or_hi": 23414.55,
+        "uplift": 83.8,
+        "out": "win",
+        "strong": false
+      },
+      {
+        "d": "2026-09-30",
+        "sig_hm": "10:00",
+        "fill_hm": "10:05",
+        "entry": 22741.65,
+        "or_hi": 22736.65,
+        "uplift": 90.2,
+        "out": "win",
+        "strong": false
+      },
+      {
+        "d": "2026-10-13",
+        "sig_hm": "09:45",
+        "fill_hm": "11:25",
+        "entry": 22483.2,
+        "or_hi": 22478.2,
+        "uplift": 203.4,
+        "out": "win",
+        "strong": true
+      },
+      {
+        "d": "2026-10-16",
+        "sig_hm": "10:15",
+        "fill_hm": "10:50",
+        "entry": 23081.55,
+        "or_hi": 23076.55,
+        "uplift": 73.8,
+        "out": "win",
+        "strong": false
+      },
+      {
+        "d": "2026-10-26",
+        "sig_hm": "09:45",
+        "fill_hm": "09:50",
+        "entry": 22529.4,
+        "or_hi": 22524.4,
+        "uplift": 112.0,
+        "out": "win",
+        "strong": true
+      },
+      {
+        "d": "2026-11-02",
+        "sig_hm": "10:30",
+        "fill_hm": "11:45",
+        "entry": 23297.55,
+        "or_hi": 23292.55,
+        "uplift": 126.2,
+        "out": "win",
+        "strong": true
+      },
+      {
+        "d": "2026-11-03",
+        "sig_hm": "10:15",
+        "fill_hm": "11:05",
+        "entry": 23633.3,
+        "or_hi": 23628.3,
+        "uplift": 67.1,
+        "out": "win",
+        "strong": true
+      }
+    ]
+  },
+  "top": [
+    {
+      "gate": "L5_u60_b65_t0_11:30",
+      "freeze": {
+        "n": 63,
+        "wins": 50,
+        "hit_pct": 79.37
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 7,
+        "hit_pct": 100.0
+      },
+      "catch": 28.6,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 60,
+        "body": 0.65,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u60_b65_t70_11:30",
+      "freeze": {
+        "n": 62,
+        "wins": 49,
+        "hit_pct": 79.03
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 7,
+        "hit_pct": 100.0
+      },
+      "catch": 28.6,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 60,
+        "body": 0.65,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u55_b65_t0_11:30",
+      "freeze": {
+        "n": 66,
+        "wins": 52,
+        "hit_pct": 78.79
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 7,
+        "hit_pct": 100.0
+      },
+      "catch": 28.6,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 55,
+        "body": 0.65,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u50_b65_t0_11:30",
+      "freeze": {
+        "n": 70,
+        "wins": 55,
+        "hit_pct": 78.57
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 50,
+        "body": 0.65,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u55_b65_t70_11:30",
+      "freeze": {
+        "n": 65,
+        "wins": 51,
+        "hit_pct": 78.46
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 7,
+        "hit_pct": 100.0
+      },
+      "catch": 28.6,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 55,
+        "body": 0.65,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u60_b65_t0_12:00",
+      "freeze": {
+        "n": 65,
+        "wins": 51,
+        "hit_pct": 78.46
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 7,
+        "hit_pct": 100.0
+      },
+      "catch": 28.6,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 60,
+        "body": 0.65,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u50_b65_t70_11:30",
+      "freeze": {
+        "n": 69,
+        "wins": 54,
+        "hit_pct": 78.26
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 50,
+        "body": 0.65,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u50_b65_t70",
+      "freeze": {
+        "n": 69,
+        "wins": 54,
+        "hit_pct": 78.26
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 50,
+        "body": 0.65,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u60_b65_t70_12:00",
+      "freeze": {
+        "n": 64,
+        "wins": 50,
+        "hit_pct": 78.12
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 7,
+        "hit_pct": 100.0
+      },
+      "catch": 28.6,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 60,
+        "body": 0.65,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u50_b65_t0_12:00",
+      "freeze": {
+        "n": 73,
+        "wins": 57,
+        "hit_pct": 78.08
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 50,
+        "body": 0.65,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u55_b65_t0_12:00",
+      "freeze": {
+        "n": 68,
+        "wins": 53,
+        "hit_pct": 77.94
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 7,
+        "hit_pct": 100.0
+      },
+      "catch": 28.6,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 55,
+        "body": 0.65,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u50_b65_t70_12:00",
+      "freeze": {
+        "n": 72,
+        "wins": 56,
+        "hit_pct": 77.78
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 50,
+        "body": 0.65,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u55_b65_t70_12:00",
+      "freeze": {
+        "n": 67,
+        "wins": 52,
+        "hit_pct": 77.61
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 7,
+        "hit_pct": 100.0
+      },
+      "catch": 28.6,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 55,
+        "body": 0.65,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u50_b55_t70_12:00",
+      "freeze": {
+        "n": 89,
+        "wins": 69,
+        "hit_pct": 77.53
+      },
+      "holdout": {
+        "n": 9,
+        "wins": 9,
+        "hit_pct": 100.0
+      },
+      "catch": 42.9,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 50,
+        "body": 0.55,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u60_b60_t0_11:30",
+      "freeze": {
+        "n": 70,
+        "wins": 54,
+        "hit_pct": 77.14
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 60,
+        "body": 0.6,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u50_b55_t70_11:30",
+      "freeze": {
+        "n": 83,
+        "wins": 64,
+        "hit_pct": 77.11
+      },
+      "holdout": {
+        "n": 9,
+        "wins": 9,
+        "hit_pct": 100.0
+      },
+      "catch": 42.9,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 50,
+        "body": 0.55,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u60_b60_t70_11:30",
+      "freeze": {
+        "n": 69,
+        "wins": 53,
+        "hit_pct": 76.81
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 60,
+        "body": 0.6,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u55_b60_t0_11:30",
+      "freeze": {
+        "n": 73,
+        "wins": 56,
+        "hit_pct": 76.71
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 55,
+        "body": 0.6,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u60_b60_t0_12:00",
+      "freeze": {
+        "n": 73,
+        "wins": 56,
+        "hit_pct": 76.71
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 60,
+        "body": 0.6,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u55_b60",
+      "freeze": {
+        "n": 73,
+        "wins": 56,
+        "hit_pct": 76.71
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 55,
+        "body": 0.6,
+        "top": 0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u50_b60_t0_11:30",
+      "freeze": {
+        "n": 77,
+        "wins": 59,
+        "hit_pct": 76.62
+      },
+      "holdout": {
+        "n": 9,
+        "wins": 9,
+        "hit_pct": 100.0
+      },
+      "catch": 42.9,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 50,
+        "body": 0.6,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u50_b60_t0_12:00",
+      "freeze": {
+        "n": 81,
+        "wins": 62,
+        "hit_pct": 76.54
+      },
+      "holdout": {
+        "n": 9,
+        "wins": 9,
+        "hit_pct": 100.0
+      },
+      "catch": 42.9,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 50,
+        "body": 0.6,
+        "top": 0.0,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u55_b60_t70_11:30",
+      "freeze": {
+        "n": 72,
+        "wins": 55,
+        "hit_pct": 76.39
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 55,
+        "body": 0.6,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u60_b60_t70_12:00",
+      "freeze": {
+        "n": 72,
+        "wins": 55,
+        "hit_pct": 76.39
+      },
+      "holdout": {
+        "n": 8,
+        "wins": 8,
+        "hit_pct": 100.0
+      },
+      "catch": 35.7,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 60,
+        "body": 0.6,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "12:00",
+        "prior": 2
+      }
+    },
+    {
+      "gate": "L5_u50_b60_t70_11:30",
+      "freeze": {
+        "n": 76,
+        "wins": 58,
+        "hit_pct": 76.32
+      },
+      "holdout": {
+        "n": 9,
+        "wins": 9,
+        "hit_pct": 100.0
+      },
+      "catch": 42.9,
+      "pass": false,
+      "soft": true,
+      "params": {
+        "lim": 5,
+        "min_up": 50,
+        "body": 0.6,
+        "top": 0.7,
+        "hmin": "09:45",
+        "hmax": "11:30",
+        "prior": 2
+      }
+    }
+  ]
+}

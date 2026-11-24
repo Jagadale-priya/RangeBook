@@ -1,0 +1,645 @@
+{
+  "best": "v2f_cap3",
+  "today": "2026-11-20",
+  "today_calls": [
+    {
+      "day": "2026-11-20",
+      "hm": "10:21",
+      "side": "BUY",
+      "setup": "SWEEP_RECLAIM",
+      "entry": 25500.05,
+      "stop_loss": 25484.2,
+      "risk": 15.85,
+      "reason": "swept 25476.8 < prev_lo 25485.0, reclaim close \u00b7 SL under prev_low=25485.0/swing_lo=25485.0",
+      "bar_i": 66,
+      "htf_bias": "up",
+      "logic_ver": "v2f",
+      "cfg_name": "v2f_cap3",
+      "exit_hm": "10:27",
+      "exit_px": 25526.7,
+      "exit_why": "trail_sl",
+      "pts": 26.65,
+      "R": 1.681,
+      "win": true,
+      "mfe": 41.7,
+      "mae": 2.45,
+      "hit_1R": true,
+      "hit_2R": true,
+      "hit_3R": false,
+      "live_fire": true,
+      "fired_at": "2026-11-20T22:12:04",
+      "desk": "PA_STRUCTURE_SL_LIVE",
+      "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+      "tags": [
+        "PA_STRUCTURE_SL_LIVE",
+        "PA_STRUCTURE_RESEARCH"
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "hm": "11:22",
+      "side": "BUY",
+      "setup": "BREAK_HOLD",
+      "entry": 25548.35,
+      "stop_loss": 25529.6,
+      "risk": 18.75,
+      "reason": "close 25548.3 > swing_hi 25545.5 \u00b7 SL under prev_low=25539.8/swing_lo=25530.3",
+      "bar_i": 127,
+      "htf_bias": "up",
+      "logic_ver": "v2f",
+      "cfg_name": "v2f_cap3",
+      "exit_hm": "11:28",
+      "exit_px": 25529.6,
+      "exit_why": "sl",
+      "pts": -18.75,
+      "R": -1.0,
+      "win": false,
+      "mfe": 9.3,
+      "mae": 22.4,
+      "hit_1R": false,
+      "hit_2R": false,
+      "hit_3R": false,
+      "live_fire": true,
+      "fired_at": "2026-11-20T22:12:04",
+      "desk": "PA_STRUCTURE_SL_LIVE",
+      "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+      "tags": [
+        "PA_STRUCTURE_SL_LIVE",
+        "PA_STRUCTURE_RESEARCH"
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "hm": "11:39",
+      "side": "BUY",
+      "setup": "SWEEP_RECLAIM",
+      "entry": 25556.1,
+      "stop_loss": 25547.25,
+      "risk": 8.85,
+      "reason": "swept 25547.7 < prev_lo 25549.2, reclaim close \u00b7 SL under prev_low=25549.2/swing_lo=25548.0",
+      "bar_i": 144,
+      "htf_bias": "up",
+      "logic_ver": "v2f",
+      "cfg_name": "v2f_cap3",
+      "exit_hm": "11:46",
+      "exit_px": 25564.75,
+      "exit_why": "trail_sl",
+      "pts": 8.65,
+      "R": 0.977,
+      "win": true,
+      "mfe": 17.55,
+      "mae": 2.95,
+      "hit_1R": true,
+      "hit_2R": false,
+      "hit_3R": false,
+      "live_fire": true,
+      "fired_at": "2026-11-20T22:12:04",
+      "desk": "PA_STRUCTURE_SL_LIVE",
+      "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+      "tags": [
+        "PA_STRUCTURE_SL_LIVE",
+        "PA_STRUCTURE_RESEARCH"
+      ]
+    }
+  ],
+  "today_summary": {
+    "n": 3,
+    "wins": 2,
+    "losses": 1,
+    "hit_pct": 66.67,
+    "avg_R": 0.553,
+    "avg_pts": 5.52,
+    "sum_pts": 16.55,
+    "hit_1R_pct": 66.67,
+    "hit_2R_pct": 33.33,
+    "by_setup": {
+      "BREAK_HOLD": {
+        "n": 1,
+        "hit": 0.0
+      },
+      "SWEEP_RECLAIM": {
+        "n": 2,
+        "hit": 100.0
+      }
+    }
+  },
+  "full": {
+    "n": 46,
+    "wins": 33,
+    "losses": 13,
+    "hit_pct": 71.74,
+    "avg_R": 0.644,
+    "avg_pts": 8.19,
+    "sum_pts": 376.9,
+    "hit_1R_pct": 76.09,
+    "hit_2R_pct": 21.74,
+    "by_setup": {
+      "BREAK_HOLD": {
+        "n": 18,
+        "hit": 88.9
+      },
+      "OR_RETEST": {
+        "n": 16,
+        "hit": 50.0
+      },
+      "SWEEP_RECLAIM": {
+        "n": 12,
+        "hit": 75.0
+      }
+    }
+  },
+  "last10": {
+    "n": 24,
+    "wins": 18,
+    "losses": 6,
+    "hit_pct": 75.0,
+    "avg_R": 0.833,
+    "avg_pts": 9.38,
+    "sum_pts": 225.2,
+    "hit_1R_pct": 79.17,
+    "hit_2R_pct": 25.0,
+    "by_setup": {
+      "BREAK_HOLD": {
+        "n": 9,
+        "hit": 77.8
+      },
+      "OR_RETEST": {
+        "n": 4,
+        "hit": 75.0
+      },
+      "SWEEP_RECLAIM": {
+        "n": 11,
+        "hit": 72.7
+      }
+    }
+  },
+  "ledger": {
+    "n_added": 3,
+    "added": [
+      {
+        "day": "2026-11-20",
+        "hm": "10:21",
+        "side": "BUY",
+        "setup": "SWEEP_RECLAIM",
+        "entry": 25500.05,
+        "stop_loss": 25484.2,
+        "risk": 15.85,
+        "reason": "swept 25476.8 < prev_lo 25485.0, reclaim close \u00b7 SL under prev_low=25485.0/swing_lo=25485.0",
+        "bar_i": 66,
+        "htf_bias": "up",
+        "logic_ver": "v2f",
+        "cfg_name": "v2f_cap3",
+        "exit_hm": "10:27",
+        "exit_px": 25526.7,
+        "exit_why": "trail_sl",
+        "pts": 26.65,
+        "R": 1.681,
+        "win": true,
+        "mfe": 41.7,
+        "mae": 2.45,
+        "hit_1R": true,
+        "hit_2R": true,
+        "hit_3R": false,
+        "live_fire": true,
+        "fired_at": "2026-11-20T22:12:04",
+        "desk": "PA_STRUCTURE_SL_LIVE",
+        "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+        "tags": [
+          "PA_STRUCTURE_SL_LIVE",
+          "PA_STRUCTURE_RESEARCH"
+        ]
+      },
+      {
+        "day": "2026-11-20",
+        "hm": "11:22",
+        "side": "BUY",
+        "setup": "BREAK_HOLD",
+        "entry": 25548.35,
+        "stop_loss": 25529.6,
+        "risk": 18.75,
+        "reason": "close 25548.3 > swing_hi 25545.5 \u00b7 SL under prev_low=25539.8/swing_lo=25530.3",
+        "bar_i": 127,
+        "htf_bias": "up",
+        "logic_ver": "v2f",
+        "cfg_name": "v2f_cap3",
+        "exit_hm": "11:28",
+        "exit_px": 25529.6,
+        "exit_why": "sl",
+        "pts": -18.75,
+        "R": -1.0,
+        "win": false,
+        "mfe": 9.3,
+        "mae": 22.4,
+        "hit_1R": false,
+        "hit_2R": false,
+        "hit_3R": false,
+        "live_fire": true,
+        "fired_at": "2026-11-20T22:12:04",
+        "desk": "PA_STRUCTURE_SL_LIVE",
+        "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+        "tags": [
+          "PA_STRUCTURE_SL_LIVE",
+          "PA_STRUCTURE_RESEARCH"
+        ]
+      },
+      {
+        "day": "2026-11-20",
+        "hm": "11:39",
+        "side": "BUY",
+        "setup": "SWEEP_RECLAIM",
+        "entry": 25556.1,
+        "stop_loss": 25547.25,
+        "risk": 8.85,
+        "reason": "swept 25547.7 < prev_lo 25549.2, reclaim close \u00b7 SL under prev_low=25549.2/swing_lo=25548.0",
+        "bar_i": 144,
+        "htf_bias": "up",
+        "logic_ver": "v2f",
+        "cfg_name": "v2f_cap3",
+        "exit_hm": "11:46",
+        "exit_px": 25564.75,
+        "exit_why": "trail_sl",
+        "pts": 8.65,
+        "R": 0.977,
+        "win": true,
+        "mfe": 17.55,
+        "mae": 2.95,
+        "hit_1R": true,
+        "hit_2R": false,
+        "hit_3R": false,
+        "live_fire": true,
+        "fired_at": "2026-11-20T22:12:04",
+        "desk": "PA_STRUCTURE_SL_LIVE",
+        "accuracy_tag": "PA_STRUCTURE_RESEARCH",
+        "tags": [
+          "PA_STRUCTURE_SL_LIVE",
+          "PA_STRUCTURE_RESEARCH"
+        ]
+      }
+    ],
+    "n_total": 3
+  },
+  "compare": [
+    {
+      "name": "v1",
+      "full": {
+        "n": 76,
+        "wins": 51,
+        "losses": 25,
+        "hit_pct": 67.11,
+        "avg_R": 0.461,
+        "avg_pts": 8.05,
+        "sum_pts": 611.9,
+        "hit_1R_pct": 69.74,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 27,
+            "hit": 74.1
+          },
+          "OR_RETEST": {
+            "n": 11,
+            "hit": 54.5
+          },
+          "SWEEP_RECLAIM": {
+            "n": 38,
+            "hit": 65.8
+          }
+        }
+      },
+      "last10": {
+        "n": 36,
+        "wins": 23,
+        "losses": 13,
+        "hit_pct": 63.89,
+        "avg_R": 0.402,
+        "avg_pts": 8.36,
+        "sum_pts": 301.05,
+        "hit_1R_pct": 63.89,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 14,
+            "hit": 78.6
+          },
+          "OR_RETEST": {
+            "n": 4,
+            "hit": 75.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 18,
+            "hit": 50.0
+          }
+        }
+      },
+      "today": {
+        "n": 4,
+        "wins": 2,
+        "losses": 2,
+        "hit_pct": 50.0,
+        "avg_R": 0.14,
+        "avg_pts": 6.95,
+        "sum_pts": 27.8,
+        "hit_1R_pct": 50.0,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 1,
+            "hit": 100.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 3,
+            "hit": 33.3
+          }
+        }
+      }
+    },
+    {
+      "name": "body55_or",
+      "full": {
+        "n": 58,
+        "wins": 39,
+        "losses": 19,
+        "hit_pct": 67.24,
+        "avg_R": 0.531,
+        "avg_pts": 6.99,
+        "sum_pts": 405.4,
+        "hit_1R_pct": 70.69,
+        "hit_2R_pct": 18.97,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 27,
+            "hit": 74.1
+          },
+          "OR_RETEST": {
+            "n": 18,
+            "hit": 50.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 13,
+            "hit": 76.9
+          }
+        }
+      },
+      "last10": {
+        "n": 31,
+        "wins": 22,
+        "losses": 9,
+        "hit_pct": 70.97,
+        "avg_R": 0.737,
+        "avg_pts": 9.05,
+        "sum_pts": 280.55,
+        "hit_1R_pct": 74.19,
+        "hit_2R_pct": 22.58,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 13,
+            "hit": 69.2
+          },
+          "OR_RETEST": {
+            "n": 6,
+            "hit": 66.7
+          },
+          "SWEEP_RECLAIM": {
+            "n": 12,
+            "hit": 75.0
+          }
+        }
+      },
+      "today": {
+        "n": 4,
+        "wins": 3,
+        "losses": 1,
+        "hit_pct": 75.0,
+        "avg_R": 1.159,
+        "avg_pts": 20.02,
+        "sum_pts": 80.1,
+        "hit_1R_pct": 75.0,
+        "hit_2R_pct": 50.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 2,
+            "hit": 50.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 2,
+            "hit": 100.0
+          }
+        }
+      }
+    },
+    {
+      "name": "v2f_cap3",
+      "full": {
+        "n": 46,
+        "wins": 33,
+        "losses": 13,
+        "hit_pct": 71.74,
+        "avg_R": 0.644,
+        "avg_pts": 8.19,
+        "sum_pts": 376.9,
+        "hit_1R_pct": 76.09,
+        "hit_2R_pct": 21.74,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 18,
+            "hit": 88.9
+          },
+          "OR_RETEST": {
+            "n": 16,
+            "hit": 50.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 12,
+            "hit": 75.0
+          }
+        }
+      },
+      "last10": {
+        "n": 24,
+        "wins": 18,
+        "losses": 6,
+        "hit_pct": 75.0,
+        "avg_R": 0.833,
+        "avg_pts": 9.38,
+        "sum_pts": 225.2,
+        "hit_1R_pct": 79.17,
+        "hit_2R_pct": 25.0,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 9,
+            "hit": 77.8
+          },
+          "OR_RETEST": {
+            "n": 4,
+            "hit": 75.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 11,
+            "hit": 72.7
+          }
+        }
+      },
+      "today": {
+        "n": 3,
+        "wins": 2,
+        "losses": 1,
+        "hit_pct": 66.67,
+        "avg_R": 0.553,
+        "avg_pts": 5.52,
+        "sum_pts": 16.55,
+        "hit_1R_pct": 66.67,
+        "hit_2R_pct": 33.33,
+        "by_setup": {
+          "BREAK_HOLD": {
+            "n": 1,
+            "hit": 0.0
+          },
+          "SWEEP_RECLAIM": {
+            "n": 2,
+            "hit": 100.0
+          }
+        }
+      }
+    },
+    {
+      "name": "cbrt_v2",
+      "full": {
+        "n": 22,
+        "wins": 14,
+        "losses": 8,
+        "hit_pct": 63.64,
+        "avg_R": 0.285,
+        "avg_pts": 7.23,
+        "sum_pts": 159.15,
+        "hit_1R_pct": 68.18,
+        "hit_2R_pct": 18.18,
+        "by_setup": {
+          "CONTINUE": {
+            "n": 13,
+            "hit": 76.9
+          },
+          "RETEST": {
+            "n": 9,
+            "hit": 44.4
+          }
+        }
+      },
+      "last10": {
+        "n": 11,
+        "wins": 7,
+        "losses": 4,
+        "hit_pct": 63.64,
+        "avg_R": 0.296,
+        "avg_pts": 8.41,
+        "sum_pts": 92.5,
+        "hit_1R_pct": 63.64,
+        "hit_2R_pct": 18.18,
+        "by_setup": {
+          "CONTINUE": {
+            "n": 6,
+            "hit": 83.3
+          },
+          "RETEST": {
+            "n": 5,
+            "hit": 40.0
+          }
+        }
+      },
+      "today": {
+        "n": 3,
+        "wins": 2,
+        "losses": 1,
+        "hit_pct": 66.67,
+        "avg_R": 0.757,
+        "avg_pts": 16.95,
+        "sum_pts": 50.85,
+        "hit_1R_pct": 66.67,
+        "hit_2R_pct": 33.33,
+        "by_setup": {
+          "CONTINUE": {
+            "n": 2,
+            "hit": 50.0
+          },
+          "RETEST": {
+            "n": 1,
+            "hit": 100.0
+          }
+        }
+      }
+    },
+    {
+      "name": "cbrt_v2_chase",
+      "full": {
+        "n": 35,
+        "wins": 24,
+        "losses": 11,
+        "hit_pct": 68.57,
+        "avg_R": 0.371,
+        "avg_pts": 8.2,
+        "sum_pts": 286.9,
+        "hit_1R_pct": 74.29,
+        "hit_2R_pct": 17.14,
+        "by_setup": {
+          "BREAKOUT": {
+            "n": 13,
+            "hit": 76.9
+          },
+          "CONTINUE": {
+            "n": 13,
+            "hit": 76.9
+          },
+          "RETEST": {
+            "n": 9,
+            "hit": 44.4
+          }
+        }
+      },
+      "last10": {
+        "n": 14,
+        "wins": 9,
+        "losses": 5,
+        "hit_pct": 64.29,
+        "avg_R": 0.243,
+        "avg_pts": 6.79,
+        "sum_pts": 95.0,
+        "hit_1R_pct": 64.29,
+        "hit_2R_pct": 14.29,
+        "by_setup": {
+          "BREAKOUT": {
+            "n": 3,
+            "hit": 66.7
+          },
+          "CONTINUE": {
+            "n": 6,
+            "hit": 83.3
+          },
+          "RETEST": {
+            "n": 5,
+            "hit": 40.0
+          }
+        }
+      },
+      "today": {
+        "n": 3,
+        "wins": 2,
+        "losses": 1,
+        "hit_pct": 66.67,
+        "avg_R": 0.757,
+        "avg_pts": 16.95,
+        "sum_pts": 50.85,
+        "hit_1R_pct": 66.67,
+        "hit_2R_pct": 33.33,
+        "by_setup": {
+          "CONTINUE": {
+            "n": 2,
+            "hit": 50.0
+          },
+          "RETEST": {
+            "n": 1,
+            "hit": 100.0
+          }
+        }
+      }
+    }
+  ]
+}

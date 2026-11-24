@@ -1,0 +1,1186 @@
+{
+  "meta": {
+    "n_ana": 147,
+    "n_test": 72,
+    "n_brackets": 26,
+    "n_logics": 3333,
+    "analyze_end": "2023-12-31",
+    "test_start": "2024-01-01",
+    "research_only": true,
+    "not_live": true,
+    "hardcoded_sl_t1": false
+  },
+  "vix_summary": {
+    "ELEVATED": 47,
+    "HIGH": 17,
+    "UNK": 2,
+    "NORMAL": 31,
+    "LOW": 50
+  },
+  "brackets_sample": {
+    "marubozu|BUY|ELEVATED": {
+      "sl": 45.84,
+      "t1": 38.96,
+      "rr": 0.85,
+      "n": 13,
+      "mae_p60": 45.84,
+      "mfe_p55": 38.34,
+      "atr_med": 5.39,
+      "or_med": 74.4
+    },
+    "*|BUY|ELEVATED": {
+      "sl": 41.95,
+      "t1": 35.66,
+      "rr": 0.85,
+      "n": 23,
+      "mae_p60": 41.95,
+      "mfe_p55": 32.46,
+      "atr_med": 5.3,
+      "or_med": 73.9
+    },
+    "marubozu|BUY|*": {
+      "sl": 26.36,
+      "t1": 40.08,
+      "rr": 1.52,
+      "n": 37,
+      "mae_p60": 26.36,
+      "mfe_p55": 40.08,
+      "atr_med": 5.52,
+      "or_med": 69.0
+    },
+    "*|BUY|*": {
+      "sl": 31.89,
+      "t1": 30.92,
+      "rr": 0.97,
+      "n": 74,
+      "mae_p60": 31.89,
+      "mfe_p55": 30.92,
+      "atr_med": 5.36,
+      "or_med": 66.93
+    },
+    "bull_run2|BUY|ELEVATED": {
+      "sl": 42.55,
+      "t1": 36.17,
+      "rr": 0.85,
+      "n": 19,
+      "mae_p60": 42.55,
+      "mfe_p55": 27.21,
+      "atr_med": 5.3,
+      "or_med": 73.9
+    },
+    "bull_run2|BUY|*": {
+      "sl": 31.57,
+      "t1": 29.39,
+      "rr": 0.931,
+      "n": 63,
+      "mae_p60": 31.57,
+      "mfe_p55": 29.39,
+      "atr_med": 5.3,
+      "or_med": 66.4
+    },
+    "bear_run2|SELL|ELEVATED": {
+      "sl": 43.9,
+      "t1": 42.6,
+      "rr": 0.97,
+      "n": 21,
+      "mae_p60": 43.9,
+      "mfe_p55": 42.6,
+      "atr_med": 7.06,
+      "or_med": 65.7
+    },
+    "bear_run3|SELL|ELEVATED": {
+      "sl": 39.88,
+      "t1": 46.33,
+      "rr": 1.162,
+      "n": 17,
+      "mae_p60": 39.88,
+      "mfe_p55": 46.33,
+      "atr_med": 6.8,
+      "or_med": 65.7
+    },
+    "*|SELL|ELEVATED": {
+      "sl": 43.51,
+      "t1": 46.09,
+      "rr": 1.059,
+      "n": 24,
+      "mae_p60": 43.51,
+      "mfe_p55": 46.09,
+      "atr_med": 7.19,
+      "or_med": 67.57
+    },
+    "bear_run2|SELL|*": {
+      "sl": 43.87,
+      "t1": 37.29,
+      "rr": 0.85,
+      "n": 59,
+      "mae_p60": 43.87,
+      "mfe_p55": 33.66,
+      "atr_med": 6.48,
+      "or_med": 63.0
+    },
+    "bear_run3|SELL|*": {
+      "sl": 43.84,
+      "t1": 37.26,
+      "rr": 0.85,
+      "n": 47,
+      "mae_p60": 43.84,
+      "mfe_p55": 35.01,
+      "atr_med": 6.48,
+      "or_med": 65.7
+    },
+    "*|SELL|*": {
+      "sl": 41.55,
+      "t1": 35.32,
+      "rr": 0.85,
+      "n": 73,
+      "mae_p60": 41.55,
+      "mfe_p55": 34.61,
+      "atr_med": 6.68,
+      "or_med": 66.4
+    },
+    "bull_run3|BUY|*": {
+      "sl": 34.05,
+      "t1": 29.88,
+      "rr": 0.878,
+      "n": 40,
+      "mae_p60": 34.05,
+      "mfe_p55": 29.88,
+      "atr_med": 5.45,
+      "or_med": 70.1
+    },
+    "marubozu|SELL|ELEVATED": {
+      "sl": 45.16,
+      "t1": 46.86,
+      "rr": 1.038,
+      "n": 15,
+      "mae_p60": 45.16,
+      "mfe_p55": 46.86,
+      "atr_med": 7.26,
+      "or_med": 88.45
+    },
+    "marubozu|SELL|*": {
+      "sl": 41.55,
+      "t1": 44.78,
+      "rr": 1.078,
+      "n": 38,
+      "mae_p60": 41.55,
+      "mfe_p55": 44.78,
+      "atr_med": 6.74,
+      "or_med": 75.35
+    },
+    "bull_run2|BUY|NORMAL": {
+      "sl": 32.95,
+      "t1": 36.04,
+      "rr": 1.094,
+      "n": 13,
+      "mae_p60": 32.95,
+      "mfe_p55": 36.04,
+      "atr_med": 5.78,
+      "or_med": 68.35
+    },
+    "*|BUY|NORMAL": {
+      "sl": 30.8,
+      "t1": 35.18,
+      "rr": 1.142,
+      "n": 14,
+      "mae_p60": 30.8,
+      "mfe_p55": 35.18,
+      "atr_med": 5.65,
+      "or_med": 69.1
+    },
+    "bear_run2|SELL|NORMAL": {
+      "sl": 34.96,
+      "t1": 29.72,
+      "rr": 0.85,
+      "n": 14,
+      "mae_p60": 34.96,
+      "mfe_p55": 27.36,
+      "atr_med": 6.31,
+      "or_med": 63.07
+    },
+    "*|SELL|NORMAL": {
+      "sl": 27.74,
+      "t1": 41.84,
+      "rr": 1.508,
+      "n": 17,
+      "mae_p60": 27.74,
+      "mfe_p55": 41.84,
+      "atr_med": 6.68,
+      "or_med": 68.65
+    },
+    "marubozu|BUY|LOW": {
+      "sl": 19.82,
+      "t1": 29.68,
+      "rr": 1.497,
+      "n": 12,
+      "mae_p60": 19.82,
+      "mfe_p55": 29.68,
+      "atr_med": 4.93,
+      "or_med": 48.2
+    },
+    "bull_run2|BUY|LOW": {
+      "sl": 29.5,
+      "t1": 25.07,
+      "rr": 0.85,
+      "n": 24,
+      "mae_p60": 29.5,
+      "mfe_p55": 22.94,
+      "atr_med": 4.91,
+      "or_med": 50.35
+    },
+    "*|BUY|LOW": {
+      "sl": 31.36,
+      "t1": 26.66,
+      "rr": 0.85,
+      "n": 27,
+      "mae_p60": 31.36,
+      "mfe_p55": 23.89,
+      "atr_med": 4.91,
+      "or_med": 48.75
+    },
+    "bear_run2|SELL|LOW": {
+      "sl": 43.86,
+      "t1": 37.28,
+      "rr": 0.85,
+      "n": 18,
+      "mae_p60": 43.86,
+      "mfe_p55": 28.45,
+      "atr_med": 5.83,
+      "or_med": 51.75
+    },
+    "bear_run3|SELL|LOW": {
+      "sl": 43.97,
+      "t1": 37.37,
+      "rr": 0.85,
+      "n": 15,
+      "mae_p60": 43.97,
+      "mfe_p55": 32.78,
+      "atr_med": 5.79,
+      "or_med": 58.2
+    },
+    "*|SELL|LOW": {
+      "sl": 41.91,
+      "t1": 35.62,
+      "rr": 0.85,
+      "n": 23,
+      "mae_p60": 41.91,
+      "mfe_p55": 26.73,
+      "atr_med": 5.88,
+      "or_med": 58.2
+    },
+    "bull_run3|BUY|LOW": {
+      "sl": 49.2,
+      "t1": 41.82,
+      "rr": 0.85,
+      "n": 17,
+      "mae_p60": 49.2,
+      "mfe_p55": 22.81,
+      "atr_med": 4.91,
+      "or_med": 58.7
+    }
+  },
+  "winner": {
+    "name": "vix_scaled_atr",
+    "filters": {
+      "side": "SELL",
+      "patterns": [
+        "marubozu"
+      ],
+      "vix_regimes": null,
+      "clocks": [
+        "morning"
+      ],
+      "max_or_ext": 0.22,
+      "min_or": 20
+    },
+    "analyze": {
+      "n": 33,
+      "wins": 14,
+      "hit_pct": 42.42,
+      "score": 149.588,
+      "avg_sl": 9.21,
+      "avg_t1": 13.03
+    },
+    "test": {
+      "n": 11,
+      "wins": 10,
+      "hit_pct": 90.91,
+      "score": 225.903,
+      "avg_sl": 9.21,
+      "avg_t1": 13.95
+    },
+    "test_calls": [
+      {
+        "day": "2024-01-05",
+        "hm": "10:45",
+        "decision": "SELL",
+        "entry": 21694.3,
+        "vix": 13.329999923706056,
+        "vix_regime": "NORMAL",
+        "clock": "morning",
+        "or_width": 51.39999999999782,
+        "atr": 7.267857142856883,
+        "patterns": [
+          "marubozu",
+          "bear_run2",
+          "bear_run3"
+        ],
+        "sl": 8,
+        "t1": 10,
+        "bracket_src": "vix_scaled_atr",
+        "win": true,
+        "outcome": "t1",
+        "points": 10
+      },
+      {
+        "day": "2024-01-30",
+        "hm": "10:48",
+        "decision": "SELL",
+        "entry": 21695.7,
+        "vix": 15.68000030517578,
+        "vix_regime": "NORMAL",
+        "clock": "morning",
+        "or_width": 117.0,
+        "atr": 8.428571428570908,
+        "patterns": [
+          "marubozu",
+          "bear_run2",
+          "bear_run3"
+        ],
+        "sl": 8,
+        "t1": 11.55,
+        "bracket_src": "vix_scaled_atr",
+        "win": true,
+        "outcome": "t1",
+        "points": 11.550514362879449
+      },
+      {
+        "day": "2024-02-09",
+        "hm": "11:02",
+        "decision": "SELL",
+        "entry": 21661.05,
+        "vix": 15.829999923706056,
+        "vix_regime": "NORMAL",
+        "clock": "morning",
+        "or_width": 116.04999999999927,
+        "atr": 10.671428571428676,
+        "patterns": [
+          "marubozu",
+          "bear_engulf",
+          "outside"
+        ],
+        "sl": 9.25,
+        "t1": 14.67,
+        "bracket_src": "vix_scaled_atr",
+        "win": true,
+        "outcome": "t1",
+        "points": 14.672147118432326
+      },
+      {
+        "day": "2024-02-21",
+        "hm": "10:27",
+        "decision": "SELL",
+        "entry": 22188.3,
+        "vix": 16.06999969482422,
+        "vix_regime": "NORMAL",
+        "clock": "morning",
+        "or_width": 54.25,
+        "atr": 9.835714285714598,
+        "patterns": [
+          "marubozu",
+          "bear_run2"
+        ],
+        "sl": 8.57,
+        "t1": 13.59,
+        "bracket_src": "vix_scaled_atr",
+        "win": true,
+        "outcome": "t1",
+        "points": 13.593940624237492
+      },
+      {
+        "day": "2024-08-06",
+        "hm": "10:37",
+        "decision": "SELL",
+        "entry": 24177.2,
+        "vix": 20.3700008392334,
+        "vix_regime": "ELEVATED",
+        "clock": "morning",
+        "or_width": 193.09999999999854,
+        "atr": 17.13214285714353,
+        "patterns": [
+          "marubozu",
+          "bear_run2",
+          "bear_run3"
+        ],
+        "sl": 18.04,
+        "t1": 29.77,
+        "bracket_src": "vix_scaled_atr",
+        "win": true,
+        "outcome": "t1",
+        "points": 29.771638728180417
+      },
+      {
+        "day": "2024-10-01",
+        "hm": "10:30",
+        "decision": "SELL",
+        "entry": 25784.55,
+        "vix": 12.789999961853027,
+        "vix_regime": "LOW",
+        "clock": "morning",
+        "or_width": 119.54999999999927,
+        "atr": 8.821428571428571,
+        "patterns": [
+          "marubozu"
+        ],
+        "sl": 7.6,
+        "t1": 10.76,
+        "bracket_src": "vix_scaled_atr",
+        "win": true,
+        "outcome": "t1",
+        "points": 10.757864454695156
+      },
+      {
+        "day": "2025-01-17",
+        "hm": "10:49",
+        "decision": "SELL",
+        "entry": 23147.2,
+        "vix": 15.470000267028809,
+        "vix_regime": "NORMAL",
+        "clock": "morning",
+        "or_width": 125.04999999999927,
+        "atr": 11.628571428571117,
+        "patterns": [
+          "marubozu"
+        ],
+        "sl": 9.99,
+        "t1": 15.86,
+        "bracket_src": "vix_scaled_atr",
+        "win": true,
+        "outcome": "t1",
+        "points": 15.86253437886877
+      },
+      {
+        "day": "2025-03-13",
+        "hm": "11:37",
+        "decision": "SELL",
+        "entry": 22449.6,
+        "vix": 13.6899995803833,
+        "vix_regime": "NORMAL",
+        "clock": "morning",
+        "or_width": 95.59999999999854,
+        "atr": 11.039285714285922,
+        "patterns": [
+          "marubozu",
+          "bear_engulf"
+        ],
+        "sl": 9.09,
+        "t1": 14.47,
+        "bracket_src": "vix_scaled_atr",
+        "win": true,
+        "outcome": "t1",
+        "points": 14.4691916467465
+      },
+      {
+        "day": "2025-08-07",
+        "hm": "10:28",
+        "decision": "SELL",
+        "entry": 24456.6,
+        "vix": 11.960000038146973,
+        "vix_regime": "LOW",
+        "clock": "morning",
+        "or_width": 73.70000000000073,
+        "atr": 7.267857142857143,
+        "patterns": [
+          "marubozu",
+          "bear_run2",
+          "bear_run3"
+        ],
+        "sl": 7.6,
+        "t1": 9.5,
+        "bracket_src": "vix_scaled_atr",
+        "win": true,
+        "outcome": "t1",
+        "points": 9.5
+      },
+      {
+        "day": "2025-10-24",
+        "hm": "10:19",
+        "decision": "SELL",
+        "entry": 25833.95,
+        "vix": 11.729999542236328,
+        "vix_regime": "LOW",
+        "clock": "morning",
+        "or_width": 103.85000000000218,
+        "atr": 9.807142857142546,
+        "patterns": [
+          "marubozu",
+          "bear_run2",
+          "bear_run3"
+        ],
+        "sl": 7.6,
+        "t1": 11.66,
+        "bracket_src": "vix_scaled_atr",
+        "win": false,
+        "outcome": "sl",
+        "points": -7.6
+      },
+      {
+        "day": "2025-11-06",
+        "hm": "10:09",
+        "decision": "SELL",
+        "entry": 25570.6,
+        "vix": 12.649999618530272,
+        "vix_regime": "LOW",
+        "clock": "morning",
+        "or_width": 91.95000000000073,
+        "atr": 9.546428571429455,
+        "patterns": [
+          "marubozu",
+          "bear_run2",
+          "bear_run3"
+        ],
+        "sl": 7.6,
+        "t1": 11.6,
+        "bracket_src": "vix_scaled_atr",
+        "win": true,
+        "outcome": "t1",
+        "points": 11.603922485499092
+      }
+    ]
+  },
+  "top_qualified": [
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.3,
+        "min_or": 15
+      },
+      "analyze": {
+        "n": 17,
+        "wins": 11,
+        "hit_pct": 64.71,
+        "score": 192.036,
+        "avg_sl": 34.5,
+        "avg_t1": 32.03
+      },
+      "test": {
+        "n": 14,
+        "wins": 10,
+        "hit_pct": 71.43,
+        "score": 193.436,
+        "avg_sl": 36.33,
+        "avg_t1": 34.89
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.3,
+        "min_or": 20
+      },
+      "analyze": {
+        "n": 17,
+        "wins": 11,
+        "hit_pct": 64.71,
+        "score": 192.036,
+        "avg_sl": 34.5,
+        "avg_t1": 32.03
+      },
+      "test": {
+        "n": 14,
+        "wins": 10,
+        "hit_pct": 71.43,
+        "score": 193.436,
+        "avg_sl": 36.33,
+        "avg_t1": 34.89
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.3,
+        "min_or": 25
+      },
+      "analyze": {
+        "n": 17,
+        "wins": 11,
+        "hit_pct": 64.71,
+        "score": 192.036,
+        "avg_sl": 34.5,
+        "avg_t1": 32.03
+      },
+      "test": {
+        "n": 14,
+        "wins": 10,
+        "hit_pct": 71.43,
+        "score": 193.436,
+        "avg_sl": 36.33,
+        "avg_t1": 34.89
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL",
+          "ELEVATED"
+        ],
+        "clocks": [
+          "morning"
+        ],
+        "max_or_ext": 0.3,
+        "min_or": 15
+      },
+      "analyze": {
+        "n": 37,
+        "wins": 21,
+        "hit_pct": 56.76,
+        "score": 206.469,
+        "avg_sl": 43.1,
+        "avg_t1": 43.13
+      },
+      "test": {
+        "n": 13,
+        "wins": 9,
+        "hit_pct": 69.23,
+        "score": 182.702,
+        "avg_sl": 36.95,
+        "avg_t1": 35.61
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL",
+          "ELEVATED"
+        ],
+        "clocks": [
+          "morning"
+        ],
+        "max_or_ext": 0.3,
+        "min_or": 20
+      },
+      "analyze": {
+        "n": 37,
+        "wins": 21,
+        "hit_pct": 56.76,
+        "score": 206.469,
+        "avg_sl": 43.1,
+        "avg_t1": 43.13
+      },
+      "test": {
+        "n": 13,
+        "wins": 9,
+        "hit_pct": 69.23,
+        "score": 182.702,
+        "avg_sl": 36.95,
+        "avg_t1": 35.61
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL",
+          "ELEVATED"
+        ],
+        "clocks": [
+          "morning"
+        ],
+        "max_or_ext": 0.3,
+        "min_or": 25
+      },
+      "analyze": {
+        "n": 37,
+        "wins": 21,
+        "hit_pct": 56.76,
+        "score": 206.469,
+        "avg_sl": 43.1,
+        "avg_t1": 43.13
+      },
+      "test": {
+        "n": 13,
+        "wins": 9,
+        "hit_pct": 69.23,
+        "score": 182.702,
+        "avg_sl": 36.95,
+        "avg_t1": 35.61
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.22,
+        "min_or": 15
+      },
+      "analyze": {
+        "n": 17,
+        "wins": 11,
+        "hit_pct": 64.71,
+        "score": 192.036,
+        "avg_sl": 34.5,
+        "avg_t1": 32.03
+      },
+      "test": {
+        "n": 13,
+        "wins": 9,
+        "hit_pct": 69.23,
+        "score": 182.702,
+        "avg_sl": 36.43,
+        "avg_t1": 35.29
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.22,
+        "min_or": 20
+      },
+      "analyze": {
+        "n": 17,
+        "wins": 11,
+        "hit_pct": 64.71,
+        "score": 192.036,
+        "avg_sl": 34.5,
+        "avg_t1": 32.03
+      },
+      "test": {
+        "n": 13,
+        "wins": 9,
+        "hit_pct": 69.23,
+        "score": 182.702,
+        "avg_sl": 36.43,
+        "avg_t1": 35.29
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.22,
+        "min_or": 25
+      },
+      "analyze": {
+        "n": 17,
+        "wins": 11,
+        "hit_pct": 64.71,
+        "score": 192.036,
+        "avg_sl": 34.5,
+        "avg_t1": 32.03
+      },
+      "test": {
+        "n": 13,
+        "wins": 9,
+        "hit_pct": 69.23,
+        "score": 182.702,
+        "avg_sl": 36.43,
+        "avg_t1": 35.29
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL"
+        ],
+        "clocks": [
+          "morning",
+          "midday"
+        ],
+        "max_or_ext": 0.3,
+        "min_or": 15
+      },
+      "analyze": {
+        "n": 17,
+        "wins": 11,
+        "hit_pct": 64.71,
+        "score": 192.036,
+        "avg_sl": 34.5,
+        "avg_t1": 32.03
+      },
+      "test": {
+        "n": 13,
+        "wins": 9,
+        "hit_pct": 69.23,
+        "score": 182.702,
+        "avg_sl": 36.43,
+        "avg_t1": 35.29
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL"
+        ],
+        "clocks": [
+          "morning",
+          "midday"
+        ],
+        "max_or_ext": 0.3,
+        "min_or": 20
+      },
+      "analyze": {
+        "n": 17,
+        "wins": 11,
+        "hit_pct": 64.71,
+        "score": 192.036,
+        "avg_sl": 34.5,
+        "avg_t1": 32.03
+      },
+      "test": {
+        "n": 13,
+        "wins": 9,
+        "hit_pct": 69.23,
+        "score": 182.702,
+        "avg_sl": 36.43,
+        "avg_t1": 35.29
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL"
+        ],
+        "clocks": [
+          "morning",
+          "midday"
+        ],
+        "max_or_ext": 0.3,
+        "min_or": 25
+      },
+      "analyze": {
+        "n": 17,
+        "wins": 11,
+        "hit_pct": 64.71,
+        "score": 192.036,
+        "avg_sl": 34.5,
+        "avg_t1": 32.03
+      },
+      "test": {
+        "n": 13,
+        "wins": 9,
+        "hit_pct": 69.23,
+        "score": 182.702,
+        "avg_sl": 36.43,
+        "avg_t1": 35.29
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": null,
+        "patterns": [
+          "marubozu",
+          "bear_engulf"
+        ],
+        "vix_regimes": [
+          "LOW",
+          "NORMAL"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.22,
+        "min_or": 15
+      },
+      "analyze": {
+        "n": 36,
+        "wins": 20,
+        "hit_pct": 55.56,
+        "score": 200.623,
+        "avg_sl": 33.49,
+        "avg_t1": 31.52
+      },
+      "test": {
+        "n": 24,
+        "wins": 16,
+        "hit_pct": 66.67,
+        "score": 227.602,
+        "avg_sl": 35.52,
+        "avg_t1": 35.28
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": null,
+        "patterns": [
+          "marubozu",
+          "bear_engulf"
+        ],
+        "vix_regimes": [
+          "LOW",
+          "NORMAL"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.22,
+        "min_or": 20
+      },
+      "analyze": {
+        "n": 36,
+        "wins": 20,
+        "hit_pct": 55.56,
+        "score": 200.623,
+        "avg_sl": 33.49,
+        "avg_t1": 31.52
+      },
+      "test": {
+        "n": 24,
+        "wins": 16,
+        "hit_pct": 66.67,
+        "score": 227.602,
+        "avg_sl": 35.52,
+        "avg_t1": 35.28
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": null,
+        "patterns": [
+          "marubozu",
+          "bear_engulf"
+        ],
+        "vix_regimes": [
+          "LOW",
+          "NORMAL"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.22,
+        "min_or": 25
+      },
+      "analyze": {
+        "n": 36,
+        "wins": 20,
+        "hit_pct": 55.56,
+        "score": 200.623,
+        "avg_sl": 33.49,
+        "avg_t1": 31.52
+      },
+      "test": {
+        "n": 24,
+        "wins": 16,
+        "hit_pct": 66.67,
+        "score": 227.602,
+        "avg_sl": 35.52,
+        "avg_t1": 35.28
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": null,
+        "patterns": [
+          "marubozu",
+          "bear_engulf"
+        ],
+        "vix_regimes": [
+          "LOW",
+          "NORMAL"
+        ],
+        "clocks": [
+          "morning",
+          "midday"
+        ],
+        "max_or_ext": 0.22,
+        "min_or": 15
+      },
+      "analyze": {
+        "n": 36,
+        "wins": 20,
+        "hit_pct": 55.56,
+        "score": 200.623,
+        "avg_sl": 33.49,
+        "avg_t1": 31.52
+      },
+      "test": {
+        "n": 24,
+        "wins": 16,
+        "hit_pct": 66.67,
+        "score": 227.602,
+        "avg_sl": 35.52,
+        "avg_t1": 35.28
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": null,
+        "patterns": [
+          "marubozu",
+          "bear_engulf"
+        ],
+        "vix_regimes": [
+          "LOW",
+          "NORMAL"
+        ],
+        "clocks": [
+          "morning",
+          "midday"
+        ],
+        "max_or_ext": 0.22,
+        "min_or": 20
+      },
+      "analyze": {
+        "n": 36,
+        "wins": 20,
+        "hit_pct": 55.56,
+        "score": 200.623,
+        "avg_sl": 33.49,
+        "avg_t1": 31.52
+      },
+      "test": {
+        "n": 24,
+        "wins": 16,
+        "hit_pct": 66.67,
+        "score": 227.602,
+        "avg_sl": 35.52,
+        "avg_t1": 35.28
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": null,
+        "patterns": [
+          "marubozu",
+          "bear_engulf"
+        ],
+        "vix_regimes": [
+          "LOW",
+          "NORMAL"
+        ],
+        "clocks": [
+          "morning",
+          "midday"
+        ],
+        "max_or_ext": 0.22,
+        "min_or": 25
+      },
+      "analyze": {
+        "n": 36,
+        "wins": 20,
+        "hit_pct": 55.56,
+        "score": 200.623,
+        "avg_sl": 33.49,
+        "avg_t1": 31.52
+      },
+      "test": {
+        "n": 24,
+        "wins": 16,
+        "hit_pct": 66.67,
+        "score": 227.602,
+        "avg_sl": 35.52,
+        "avg_t1": 35.28
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL",
+          "ELEVATED"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.3,
+        "min_or": 15
+      },
+      "analyze": {
+        "n": 41,
+        "wins": 24,
+        "hit_pct": 58.54,
+        "score": 218.803,
+        "avg_sl": 42.63,
+        "avg_t1": 42.3
+      },
+      "test": {
+        "n": 15,
+        "wins": 10,
+        "hit_pct": 66.67,
+        "score": 189.848,
+        "avg_sl": 37.12,
+        "avg_t1": 35.83
+      }
+    },
+    {
+      "name": "learned_mae_mfe",
+      "filters": {
+        "side": "SELL",
+        "patterns": null,
+        "vix_regimes": [
+          "NORMAL",
+          "ELEVATED"
+        ],
+        "clocks": null,
+        "max_or_ext": 0.3,
+        "min_or": 20
+      },
+      "analyze": {
+        "n": 41,
+        "wins": 24,
+        "hit_pct": 58.54,
+        "score": 218.803,
+        "avg_sl": 42.63,
+        "avg_t1": 42.3
+      },
+      "test": {
+        "n": 15,
+        "wins": 10,
+        "hit_pct": 66.67,
+        "score": 189.848,
+        "avg_sl": 37.12,
+        "avg_t1": 35.83
+      }
+    }
+  ]
+}

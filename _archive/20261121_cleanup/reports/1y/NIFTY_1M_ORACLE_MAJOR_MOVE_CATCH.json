@@ -1,0 +1,739 @@
+{
+  "ok": true,
+  "research_only": true,
+  "window": {
+    "day_lo": "2026-10-15",
+    "day_hi": "2026-11-16",
+    "n_days": 22
+  },
+  "major_def": {
+    "primary": "oracle_t15_pathwin_and_trail_mfe_ge_40",
+    "trail_mfe_ge": 40.0,
+    "impulse_pts": 40,
+    "impulse_bars": 4
+  },
+  "counts": {
+    "pool": 4349,
+    "majors_all_pool": 845,
+    "majors_oracle_mfe40": 845,
+    "oracle_t15": 1686,
+    "clean": 44,
+    "missed": 827,
+    "impulses": 119
+  },
+  "coverage": {
+    "oracle_t15": 100.0,
+    "oracle_t15_clean": 2.13,
+    "tier_ab": 2.13,
+    "clean_vs_all_pool_majors": 2.13,
+    "clean_vs_impulse": 0.0,
+    "n_oracle": 845,
+    "n_clean": 18,
+    "n_tier": 18
+  },
+  "miss_autopsy": {
+    "n": 827,
+    "held": 45.6,
+    "ad_with": 83.2,
+    "clear_path": 8.2,
+    "runway_2atr": 14.9,
+    "hold_break": 1.7,
+    "bounce": 64.0,
+    "ctrl": 77.4,
+    "into_extreme": 23.8,
+    "prev_opposite": 21.5,
+    "impulse": 4.5,
+    "avg_mfe": 88.93,
+    "patterns": [
+      [
+        "bull_run3",
+        131
+      ],
+      [
+        "bear_run3",
+        122
+      ],
+      [
+        "bull_run2",
+        111
+      ],
+      [
+        "bear_engulf",
+        79
+      ],
+      [
+        "belt_bear",
+        61
+      ],
+      [
+        "bear_run2",
+        53
+      ],
+      [
+        "three_outside_dn",
+        51
+      ],
+      [
+        "marubozu_bear",
+        45
+      ],
+      [
+        "bull_kicker",
+        33
+      ],
+      [
+        "bull_engulf",
+        26
+      ],
+      [
+        "marubozu_bull",
+        26
+      ],
+      [
+        "belt_bull",
+        21
+      ]
+    ]
+  },
+  "gates": [
+    {
+      "name": "HELD + clear_path",
+      "recovered_n": 39,
+      "recover_pct": 4.72,
+      "gap_n": 67,
+      "gap_cpd": 3.05,
+      "t15_hit": 65.67,
+      "major_prec": 28.36,
+      "avg_mfe": 36.48,
+      "major_n": 19
+    },
+    {
+      "name": "HELD + runway_2ATR",
+      "recovered_n": 103,
+      "recover_pct": 12.45,
+      "gap_n": 115,
+      "gap_cpd": 5.23,
+      "t15_hit": 69.57,
+      "major_prec": 30.43,
+      "avg_mfe": 40.08,
+      "major_n": 35
+    },
+    {
+      "name": "HELD + hold_break + runway_2ATR",
+      "recovered_n": 7,
+      "recover_pct": 0.85,
+      "gap_n": 22,
+      "gap_cpd": 1.0,
+      "t15_hit": 63.64,
+      "major_prec": 31.82,
+      "avg_mfe": 46.93,
+      "major_n": 7
+    },
+    {
+      "name": "HELD + AD + clear_path",
+      "recovered_n": 30,
+      "recover_pct": 3.63,
+      "gap_n": 53,
+      "gap_cpd": 2.41,
+      "t15_hit": 66.04,
+      "major_prec": 26.42,
+      "avg_mfe": 36.63,
+      "major_n": 14
+    },
+    {
+      "name": "HELD + AD + runway_2ATR",
+      "recovered_n": 97,
+      "recover_pct": 11.73,
+      "gap_n": 112,
+      "gap_cpd": 5.09,
+      "t15_hit": 68.75,
+      "major_prec": 30.36,
+      "avg_mfe": 40.56,
+      "major_n": 34
+    },
+    {
+      "name": "PROVEN3: hold_break|bounce + ctrl + runway2",
+      "recovered_n": 48,
+      "recover_pct": 5.8,
+      "gap_n": 90,
+      "gap_cpd": 4.09,
+      "t15_hit": 62.22,
+      "major_prec": 31.11,
+      "avg_mfe": 39.71,
+      "major_n": 28
+    },
+    {
+      "name": "Impulse-pre: prev_opp + clear + AD",
+      "recovered_n": 8,
+      "recover_pct": 0.97,
+      "gap_n": 48,
+      "gap_cpd": 2.18,
+      "t15_hit": 47.92,
+      "major_prec": 12.5,
+      "avg_mfe": 25.35,
+      "major_n": 6
+    },
+    {
+      "name": "Impulse-pre + HELD",
+      "recovered_n": 5,
+      "recover_pct": 0.6,
+      "gap_n": 27,
+      "gap_cpd": 1.23,
+      "t15_hit": 62.96,
+      "major_prec": 14.81,
+      "avg_mfe": 33.54,
+      "major_n": 4
+    },
+    {
+      "name": "HELD + clear + runway_2ATR",
+      "recovered_n": 27,
+      "recover_pct": 3.26,
+      "gap_n": 48,
+      "gap_cpd": 2.18,
+      "t15_hit": 66.67,
+      "major_prec": 25.0,
+      "avg_mfe": 35.05,
+      "major_n": 12
+    },
+    {
+      "name": "HELD + AD + clear + !extreme",
+      "recovered_n": 30,
+      "recover_pct": 3.63,
+      "gap_n": 53,
+      "gap_cpd": 2.41,
+      "t15_hit": 66.04,
+      "major_prec": 26.42,
+      "avg_mfe": 36.63,
+      "major_n": 14
+    },
+    {
+      "name": "TierAB + clear_path",
+      "recovered_n": 0,
+      "recover_pct": 0.0,
+      "gap_n": 12,
+      "gap_cpd": 0.55,
+      "t15_hit": 50.0,
+      "major_prec": 16.67,
+      "avg_mfe": 47.02,
+      "major_n": 2
+    },
+    {
+      "name": "TierAB + runway_2ATR",
+      "recovered_n": 0,
+      "recover_pct": 0.0,
+      "gap_n": 10,
+      "gap_cpd": 0.45,
+      "t15_hit": 50.0,
+      "major_prec": 10.0,
+      "avg_mfe": 42.97,
+      "major_n": 1
+    },
+    {
+      "name": "clear + runway2 + AD (no HELD)",
+      "recovered_n": 40,
+      "recover_pct": 4.84,
+      "gap_n": 85,
+      "gap_cpd": 3.86,
+      "t15_hit": 47.06,
+      "major_prec": 20.0,
+      "avg_mfe": 27.22,
+      "major_n": 17
+    },
+    {
+      "name": "prev_opp + clear + runway2",
+      "recovered_n": 9,
+      "recover_pct": 1.09,
+      "gap_n": 51,
+      "gap_cpd": 2.32,
+      "t15_hit": 31.37,
+      "major_prec": 9.8,
+      "avg_mfe": 20.21,
+      "major_n": 5
+    },
+    {
+      "name": "AD + clear_path",
+      "recovered_n": 55,
+      "recover_pct": 6.65,
+      "gap_n": 121,
+      "gap_cpd": 5.5,
+      "t15_hit": 42.98,
+      "major_prec": 17.36,
+      "avg_mfe": 23.53,
+      "major_n": 21
+    },
+    {
+      "name": "AD + runway_2ATR",
+      "recovered_n": 117,
+      "recover_pct": 14.15,
+      "gap_n": 148,
+      "gap_cpd": 6.73,
+      "t15_hit": 60.14,
+      "major_prec": 29.73,
+      "avg_mfe": 35.82,
+      "major_n": 44
+    },
+    {
+      "name": "clear_path + runway_2ATR",
+      "recovered_n": 45,
+      "recover_pct": 5.44,
+      "gap_n": 105,
+      "gap_cpd": 4.77,
+      "t15_hit": 40.0,
+      "major_prec": 18.1,
+      "avg_mfe": 23.57,
+      "major_n": 19
+    },
+    {
+      "name": "AD + clear + runway2",
+      "recovered_n": 40,
+      "recover_pct": 4.84,
+      "gap_n": 85,
+      "gap_cpd": 3.86,
+      "t15_hit": 47.06,
+      "major_prec": 20.0,
+      "avg_mfe": 27.22,
+      "major_n": 17
+    },
+    {
+      "name": "ctrl + runway2 + clear",
+      "recovered_n": 34,
+      "recover_pct": 4.11,
+      "gap_n": 91,
+      "gap_cpd": 4.14,
+      "t15_hit": 43.96,
+      "major_prec": 16.48,
+      "avg_mfe": 24.79,
+      "major_n": 15
+    },
+    {
+      "name": "Oracle-major proxy: AD + ctrl + runway2",
+      "recovered_n": 97,
+      "recover_pct": 11.73,
+      "gap_n": 139,
+      "gap_cpd": 6.32,
+      "t15_hit": 61.87,
+      "major_prec": 28.78,
+      "avg_mfe": 35.87,
+      "major_n": 40
+    },
+    {
+      "name": "into_extreme + AD + runway2",
+      "recovered_n": 77,
+      "recover_pct": 9.31,
+      "gap_n": 76,
+      "gap_cpd": 3.45,
+      "t15_hit": 69.74,
+      "major_prec": 35.53,
+      "avg_mfe": 42.21,
+      "major_n": 27
+    }
+  ],
+  "winner": {
+    "name": "into_extreme + AD + runway2",
+    "recovered_n": 77,
+    "recover_pct": 9.31,
+    "gap_n": 76,
+    "gap_cpd": 3.45,
+    "t15_hit": 69.74,
+    "major_prec": 35.53,
+    "avg_mfe": 42.21,
+    "major_n": 27,
+    "note": "best accurate complementary gate (T15\u226558%, n\u226525; ranked by major_prec + T15 hit + recover) \u2014 no gate recovered \u226540% of clean-missed Oracle-majors (TierAB is sparse vs MFE\u226540 Oracle set)"
+  },
+  "union": {
+    "clean_gap": {
+      "label": "oracle_t15_clean gap15",
+      "n": 35,
+      "cpd": 1.59,
+      "t15_hit": 100.0,
+      "majors_caught": 15,
+      "majors_cov": 1.78,
+      "missed_recovered": 0,
+      "miss_recover_pct": 0.0,
+      "avg_mfe": 59.75,
+      "major_prec": 42.86
+    },
+    "major_gate_gap": {
+      "label": "into_extreme + AD + runway2",
+      "n": 76,
+      "cpd": 3.45,
+      "t15_hit": 69.74,
+      "majors_caught": 27,
+      "majors_cov": 3.2,
+      "missed_recovered": 27,
+      "miss_recover_pct": 3.26,
+      "avg_mfe": 42.21,
+      "major_prec": 35.53
+    },
+    "union_gap": {
+      "label": "clean \u222a into_extreme + AD + runway2",
+      "n": 101,
+      "cpd": 4.59,
+      "t15_hit": 79.21,
+      "majors_caught": 36,
+      "majors_cov": 4.26,
+      "missed_recovered": 23,
+      "miss_recover_pct": 2.78,
+      "avg_mfe": 46.29,
+      "major_prec": 35.64
+    },
+    "clean_peek_gap": {
+      "label": "clean peek gap15",
+      "n": 35,
+      "cpd": 1.59,
+      "t15_hit": 100.0,
+      "majors_caught": 15,
+      "majors_cov": 1.78,
+      "missed_recovered": 0,
+      "miss_recover_pct": 0.0,
+      "avg_mfe": 59.75,
+      "major_prec": 42.86
+    },
+    "union_peek_gap": {
+      "label": "clean peek \u222a into_extreme + AD + runway2",
+      "n": 101,
+      "cpd": 4.59,
+      "t15_hit": 79.21,
+      "majors_caught": 36,
+      "majors_cov": 4.26,
+      "missed_recovered": 23,
+      "miss_recover_pct": 2.78,
+      "avg_mfe": 46.29,
+      "major_prec": 35.64
+    }
+  },
+  "missed_sample": [
+    {
+      "day": "2026-11-06",
+      "hm": "14:11",
+      "side": "BUY",
+      "mfe": 337.45,
+      "pattern": "marubozu_bull",
+      "held": false,
+      "ad": false,
+      "clear": true,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-11-06",
+      "hm": "14:14",
+      "side": "BUY",
+      "mfe": 326.2,
+      "pattern": "bull_run2",
+      "held": false,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-11-06",
+      "hm": "14:19",
+      "side": "BUY",
+      "mfe": 325.2,
+      "pattern": "bull_run2",
+      "held": false,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-11-06",
+      "hm": "14:23",
+      "side": "BUY",
+      "mfe": 316.65,
+      "pattern": "bull_kicker",
+      "held": true,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-11-06",
+      "hm": "14:26",
+      "side": "BUY",
+      "mfe": 310.35,
+      "pattern": "bull_run2",
+      "held": true,
+      "ad": true,
+      "clear": true,
+      "runway2": true,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-11-06",
+      "hm": "14:27",
+      "side": "BUY",
+      "mfe": 305.7,
+      "pattern": "bull_run3",
+      "held": true,
+      "ad": true,
+      "clear": true,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-11-06",
+      "hm": "14:28",
+      "side": "BUY",
+      "mfe": 302.0,
+      "pattern": "bull_run3",
+      "held": true,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:43",
+      "side": "SELL",
+      "mfe": 296.1,
+      "pattern": "bear_engulf",
+      "held": false,
+      "ad": false,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:44",
+      "side": "SELL",
+      "mfe": 282.65,
+      "pattern": "three_outside_dn",
+      "held": false,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:47",
+      "side": "SELL",
+      "mfe": 276.4,
+      "pattern": "dark_cloud",
+      "held": false,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:45",
+      "side": "SELL",
+      "mfe": 272.45,
+      "pattern": "bear_run3",
+      "held": false,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "11:06",
+      "side": "SELL",
+      "mfe": 268.6,
+      "pattern": "belt_bear",
+      "held": false,
+      "ad": false,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:48",
+      "side": "SELL",
+      "mfe": 265.75,
+      "pattern": "belt_bear",
+      "held": false,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "11:07",
+      "side": "SELL",
+      "mfe": 255.0,
+      "pattern": "belt_bear",
+      "held": false,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:49",
+      "side": "SELL",
+      "mfe": 254.65,
+      "pattern": "belt_bear",
+      "held": false,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-26",
+      "hm": "09:49",
+      "side": "BUY",
+      "mfe": 247.5,
+      "pattern": "tweezer_bot",
+      "held": false,
+      "ad": false,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": true
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "11:08",
+      "side": "SELL",
+      "mfe": 244.3,
+      "pattern": "belt_bear",
+      "held": true,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "11:09",
+      "side": "SELL",
+      "mfe": 243.6,
+      "pattern": "bear_run3",
+      "held": true,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "11:13",
+      "side": "SELL",
+      "mfe": 243.3,
+      "pattern": "bear_run2",
+      "held": true,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "11:15",
+      "side": "SELL",
+      "mfe": 238.35,
+      "pattern": "bear_engulf",
+      "held": true,
+      "ad": false,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:51",
+      "side": "SELL",
+      "mfe": 235.65,
+      "pattern": "bear_engulf",
+      "held": false,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "11:16",
+      "side": "SELL",
+      "mfe": 232.4,
+      "pattern": "three_outside_dn",
+      "held": true,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "11:10",
+      "side": "SELL",
+      "mfe": 232.2,
+      "pattern": "marubozu_bear",
+      "held": true,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-26",
+      "hm": "09:50",
+      "side": "BUY",
+      "mfe": 231.2,
+      "pattern": "bull_run2",
+      "held": false,
+      "ad": false,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:54",
+      "side": "SELL",
+      "mfe": 230.9,
+      "pattern": "bear_engulf",
+      "held": false,
+      "ad": true,
+      "clear": false,
+      "runway2": false,
+      "hold_break": false,
+      "impulse": false
+    }
+  ],
+  "rules": {
+    "min_recover_pct": 40.0,
+    "min_blind_hit": 58.0,
+    "min_blind_n": 25,
+    "min_major_prec": 45.0
+  },
+  "took_sec": 99.6
+}

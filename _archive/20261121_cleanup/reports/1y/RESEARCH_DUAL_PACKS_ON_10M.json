@@ -1,0 +1,390 @@
+{
+  "status": "RESEARCH",
+  "not_live": true,
+  "mode": "locked_dual_packs_on_10m",
+  "books": {
+    "BASE_dual15_proven": {
+      "3y": {
+        "n": 41,
+        "hit_pct": 100.0,
+        "wins": 41,
+        "losses": 0,
+        "points": 1812.0,
+        "days": 41,
+        "by_track": {
+          "proven_100": {
+            "n": 41,
+            "hit_pct": 100.0,
+            "points": 1812.0
+          }
+        },
+        "perfect": true
+      },
+      "1y": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "wins": 24,
+        "losses": 0,
+        "points": 1126.0,
+        "days": 24,
+        "by_track": {
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1126.0
+          }
+        },
+        "perfect": true
+      },
+      "6m": {
+        "n": 17,
+        "hit_pct": 100.0,
+        "wins": 17,
+        "losses": 0,
+        "points": 825.0,
+        "days": 17,
+        "by_track": {
+          "proven_100": {
+            "n": 17,
+            "hit_pct": 100.0,
+            "points": 825.0
+          }
+        },
+        "perfect": true
+      }
+    },
+    "BASE_dual5_proven": {
+      "3y": {
+        "n": 18,
+        "hit_pct": 50.0,
+        "wins": 9,
+        "losses": 9,
+        "points": -23.0,
+        "days": 18,
+        "by_track": {
+          "proven_100": {
+            "n": 18,
+            "hit_pct": 50.0,
+            "points": -23.0
+          }
+        },
+        "perfect": false
+      },
+      "1y": {
+        "n": 5,
+        "hit_pct": 60.0,
+        "wins": 3,
+        "losses": 2,
+        "points": -27.0,
+        "days": 5,
+        "by_track": {
+          "proven_100": {
+            "n": 5,
+            "hit_pct": 60.0,
+            "points": -27.0
+          }
+        },
+        "perfect": false
+      },
+      "6m": {
+        "n": 3,
+        "hit_pct": 66.67,
+        "wins": 2,
+        "losses": 1,
+        "points": 32.0,
+        "days": 3,
+        "by_track": {
+          "proven_100": {
+            "n": 3,
+            "hit_pct": 66.67,
+            "points": 32.0
+          }
+        },
+        "perfect": false
+      }
+    },
+    "DUALPACKS_10m_proven_raw": {
+      "3y": {
+        "n": 9,
+        "hit_pct": 66.67,
+        "wins": 6,
+        "losses": 3,
+        "points": 105.0,
+        "days": 9,
+        "by_track": {
+          "proven_100": {
+            "n": 9,
+            "hit_pct": 66.67,
+            "points": 105.0
+          }
+        },
+        "perfect": false
+      },
+      "1y": {
+        "n": 5,
+        "hit_pct": 80.0,
+        "wins": 4,
+        "losses": 1,
+        "points": 107.0,
+        "days": 5,
+        "by_track": {
+          "proven_100": {
+            "n": 5,
+            "hit_pct": 80.0,
+            "points": 107.0
+          }
+        },
+        "perfect": false
+      },
+      "6m": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "wins": 4,
+        "losses": 0,
+        "points": 133.0,
+        "days": 4,
+        "by_track": {
+          "proven_100": {
+            "n": 4,
+            "hit_pct": 100.0,
+            "points": 133.0
+          }
+        },
+        "perfect": true
+      }
+    },
+    "DUALPACKS_10m_any": {
+      "3y": {
+        "n": 47,
+        "hit_pct": 59.57,
+        "wins": 28,
+        "losses": 19,
+        "points": 230.0,
+        "days": 45,
+        "by_track": {
+          "champion": {
+            "n": 38,
+            "hit_pct": 57.89,
+            "points": 125.0
+          },
+          "proven_100": {
+            "n": 9,
+            "hit_pct": 66.67,
+            "points": 105.0
+          }
+        },
+        "perfect": false
+      },
+      "1y": {
+        "n": 17,
+        "hit_pct": 47.06,
+        "wins": 8,
+        "losses": 9,
+        "points": -71.0,
+        "days": 16,
+        "by_track": {
+          "champion": {
+            "n": 12,
+            "hit_pct": 33.33,
+            "points": -178.0
+          },
+          "proven_100": {
+            "n": 5,
+            "hit_pct": 80.0,
+            "points": 107.0
+          }
+        },
+        "perfect": false
+      },
+      "6m": {
+        "n": 8,
+        "hit_pct": 62.5,
+        "wins": 5,
+        "losses": 3,
+        "points": 65.0,
+        "days": 7,
+        "by_track": {
+          "champion": {
+            "n": 4,
+            "hit_pct": 25.0,
+            "points": -68.0
+          },
+          "proven_100": {
+            "n": 4,
+            "hit_pct": 100.0,
+            "points": 133.0
+          }
+        },
+        "perfect": false
+      }
+    },
+    "DP10_PROVEN100_DAY": {
+      "3y": {
+        "n": 10,
+        "hit_pct": 100.0,
+        "wins": 10,
+        "losses": 0,
+        "points": 329.0,
+        "days": 10,
+        "by_track": {
+          "champion": {
+            "n": 9,
+            "hit_pct": 100.0,
+            "points": 299.0
+          },
+          "proven_100": {
+            "n": 1,
+            "hit_pct": 100.0,
+            "points": 30.0
+          }
+        },
+        "perfect": true
+      },
+      "1y": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "wins": 3,
+        "losses": 0,
+        "points": 98.0,
+        "days": 3,
+        "by_track": {
+          "champion": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 68.0
+          },
+          "proven_100": {
+            "n": 1,
+            "hit_pct": 100.0,
+            "points": 30.0
+          }
+        },
+        "perfect": true
+      },
+      "6m": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "wins": 1,
+        "losses": 0,
+        "points": 30.0,
+        "days": 1,
+        "by_track": {
+          "proven_100": {
+            "n": 1,
+            "hit_pct": 100.0,
+            "points": 30.0
+          }
+        },
+        "perfect": true
+      }
+    }
+  },
+  "day_stream_tags": [
+    "DP10_BOTH_p70_first45_htf_nogap_raw",
+    "DP10_SELL_p0_pm_any_nogap_raw"
+  ],
+  "top_streams": [
+    {
+      "tag": "DP10_BOTH_p70_first45_htf_nogap_raw",
+      "n": 6,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_BOTH_p70_first45_htf_nogap_first",
+      "n": 6,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_BOTH_p70_first45_htf_nogap_bestp",
+      "n": 6,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_BOTH_p72_first45_htf_nogap_raw",
+      "n": 6,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_BOTH_p72_first45_htf_nogap_first",
+      "n": 6,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_BOTH_p72_first45_htf_nogap_bestp",
+      "n": 6,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p0_first45_htf_nogap_raw",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p0_first45_htf_nogap_first",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p0_first45_htf_nogap_bestp",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p52_first45_htf_nogap_raw",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p52_first45_htf_nogap_first",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p52_first45_htf_nogap_bestp",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p55_first45_htf_nogap_raw",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p55_first45_htf_nogap_first",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p55_first45_htf_nogap_bestp",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p57_first45_htf_nogap_raw",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p57_first45_htf_nogap_first",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p57_first45_htf_nogap_bestp",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p60_first45_htf_nogap_raw",
+      "n": 5,
+      "hit_pct": 100.0
+    },
+    {
+      "tag": "DP10_SELL_p60_first45_htf_nogap_first",
+      "n": 5,
+      "hit_pct": 100.0
+    }
+  ],
+  "verdict": "PARTIAL/THIN \u2014 100% desk 10@100% 3y / 3@100.0% 1y; dual15 proven still 24@100%.",
+  "elapsed_s": 811.9
+}

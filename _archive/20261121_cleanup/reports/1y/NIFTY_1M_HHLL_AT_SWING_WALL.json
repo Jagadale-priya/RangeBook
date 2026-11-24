@@ -1,0 +1,672 @@
+{
+  "pick": {
+    "name": "wall + held + htf + atr12 + streak4",
+    "n": 20,
+    "prec": 75.0,
+    "train": 66.67,
+    "oos": 78.57,
+    "fold_min": 75.0,
+    "fold_avg": 81.25,
+    "folds": [
+      {
+        "fold": 1,
+        "n": 3,
+        "prec": 66.67,
+        "lo": "2024-11-08",
+        "hi": "2025-04-03"
+      },
+      {
+        "fold": 2,
+        "n": 3,
+        "prec": 66.67,
+        "lo": "2025-04-04",
+        "hi": "2025-08-29"
+      },
+      {
+        "fold": 3,
+        "n": 2,
+        "prec": 50.0,
+        "lo": "2025-09-01",
+        "hi": "2026-01-23"
+      },
+      {
+        "fold": 4,
+        "n": 8,
+        "prec": 87.5,
+        "lo": "2026-01-27",
+        "hi": "2026-06-23"
+      },
+      {
+        "fold": 5,
+        "n": 4,
+        "prec": 75.0,
+        "lo": "2026-06-24",
+        "hi": "2026-11-16"
+      }
+    ],
+    "ship": "SOFT",
+    "samples": [
+      {
+        "day": "2025-02-17",
+        "hm": "13:40",
+        "side": "BUY",
+        "entry": 22914.9,
+        "tag": "HL",
+        "walls": "OR15_HI,OR30_HI",
+        "t15_win": true,
+        "atr": 14.94
+      },
+      {
+        "day": "2025-02-19",
+        "hm": "10:16",
+        "side": "BUY",
+        "entry": 23030.6,
+        "tag": "HL",
+        "walls": "L15_HI",
+        "t15_win": true,
+        "atr": 12.85
+      },
+      {
+        "day": "2025-04-02",
+        "hm": "09:41",
+        "side": "BUY",
+        "entry": 23278.7,
+        "tag": "HL",
+        "walls": "L15_HI,OR15_HI",
+        "t15_win": false,
+        "atr": 13.09
+      },
+      {
+        "day": "2025-04-21",
+        "hm": "10:04",
+        "side": "BUY",
+        "entry": 24052.45,
+        "tag": "HL",
+        "walls": "SWING_CLUSTER",
+        "t15_win": false,
+        "atr": 14.11
+      },
+      {
+        "day": "2025-05-23",
+        "hm": "09:44",
+        "side": "BUY",
+        "entry": 24781.4,
+        "tag": "HL",
+        "walls": "L15_LO",
+        "t15_win": true,
+        "atr": 14.17
+      },
+      {
+        "day": "2025-07-03",
+        "hm": "09:43",
+        "side": "BUY",
+        "entry": 25484.05,
+        "tag": "HL",
+        "walls": "SWING_CLUSTER",
+        "t15_win": true,
+        "atr": 13.36
+      },
+      {
+        "day": "2026-01-13",
+        "hm": "10:28",
+        "side": "BUY",
+        "entry": 25799.8,
+        "tag": "HL",
+        "walls": "OR15_LO",
+        "t15_win": true,
+        "atr": 14.15
+      },
+      {
+        "day": "2026-01-14",
+        "hm": "10:41",
+        "side": "BUY",
+        "entry": 25708.55,
+        "tag": "HL",
+        "walls": "L15_HI,L15_LO,SWING_CLUSTER",
+        "t15_win": false,
+        "atr": 12.49
+      },
+      {
+        "day": "2026-02-03",
+        "hm": "10:34",
+        "side": "BUY",
+        "entry": 25810.3,
+        "tag": "HL",
+        "walls": "OR15_LO",
+        "t15_win": false,
+        "atr": 15.1
+      },
+      {
+        "day": "2026-03-05",
+        "hm": "10:37",
+        "side": "BUY",
+        "entry": 24613.65,
+        "tag": "HL",
+        "walls": "OR15_LO",
+        "t15_win": true,
+        "atr": 16.31
+      }
+    ],
+    "last5": []
+  },
+  "ships": [],
+  "softs": [
+    {
+      "name": "wall + held + htf + atr12 + streak4",
+      "n": 20,
+      "prec": 75.0,
+      "train": 66.67,
+      "oos": 78.57,
+      "fold_min": 75.0,
+      "fold_avg": 81.25,
+      "folds": [
+        {
+          "fold": 1,
+          "n": 3,
+          "prec": 66.67,
+          "lo": "2024-11-08",
+          "hi": "2025-04-03"
+        },
+        {
+          "fold": 2,
+          "n": 3,
+          "prec": 66.67,
+          "lo": "2025-04-04",
+          "hi": "2025-08-29"
+        },
+        {
+          "fold": 3,
+          "n": 2,
+          "prec": 50.0,
+          "lo": "2025-09-01",
+          "hi": "2026-01-23"
+        },
+        {
+          "fold": 4,
+          "n": 8,
+          "prec": 87.5,
+          "lo": "2026-01-27",
+          "hi": "2026-06-23"
+        },
+        {
+          "fold": 5,
+          "n": 4,
+          "prec": 75.0,
+          "lo": "2026-06-24",
+          "hi": "2026-11-16"
+        }
+      ],
+      "ship": "SOFT",
+      "samples": [
+        {
+          "day": "2025-02-17",
+          "hm": "13:40",
+          "side": "BUY",
+          "entry": 22914.9,
+          "tag": "HL",
+          "walls": "OR15_HI,OR30_HI",
+          "t15_win": true,
+          "atr": 14.94
+        },
+        {
+          "day": "2025-02-19",
+          "hm": "10:16",
+          "side": "BUY",
+          "entry": 23030.6,
+          "tag": "HL",
+          "walls": "L15_HI",
+          "t15_win": true,
+          "atr": 12.85
+        },
+        {
+          "day": "2025-04-02",
+          "hm": "09:41",
+          "side": "BUY",
+          "entry": 23278.7,
+          "tag": "HL",
+          "walls": "L15_HI,OR15_HI",
+          "t15_win": false,
+          "atr": 13.09
+        },
+        {
+          "day": "2025-04-21",
+          "hm": "10:04",
+          "side": "BUY",
+          "entry": 24052.45,
+          "tag": "HL",
+          "walls": "SWING_CLUSTER",
+          "t15_win": false,
+          "atr": 14.11
+        },
+        {
+          "day": "2025-05-23",
+          "hm": "09:44",
+          "side": "BUY",
+          "entry": 24781.4,
+          "tag": "HL",
+          "walls": "L15_LO",
+          "t15_win": true,
+          "atr": 14.17
+        },
+        {
+          "day": "2025-07-03",
+          "hm": "09:43",
+          "side": "BUY",
+          "entry": 25484.05,
+          "tag": "HL",
+          "walls": "SWING_CLUSTER",
+          "t15_win": true,
+          "atr": 13.36
+        },
+        {
+          "day": "2026-01-13",
+          "hm": "10:28",
+          "side": "BUY",
+          "entry": 25799.8,
+          "tag": "HL",
+          "walls": "OR15_LO",
+          "t15_win": true,
+          "atr": 14.15
+        },
+        {
+          "day": "2026-01-14",
+          "hm": "10:41",
+          "side": "BUY",
+          "entry": 25708.55,
+          "tag": "HL",
+          "walls": "L15_HI,L15_LO,SWING_CLUSTER",
+          "t15_win": false,
+          "atr": 12.49
+        },
+        {
+          "day": "2026-02-03",
+          "hm": "10:34",
+          "side": "BUY",
+          "entry": 25810.3,
+          "tag": "HL",
+          "walls": "OR15_LO",
+          "t15_win": false,
+          "atr": 15.1
+        },
+        {
+          "day": "2026-03-05",
+          "hm": "10:37",
+          "side": "BUY",
+          "entry": 24613.65,
+          "tag": "HL",
+          "walls": "OR15_LO",
+          "t15_win": true,
+          "atr": 16.31
+        }
+      ],
+      "last5": []
+    }
+  ],
+  "hunt": [
+    {
+      "name": "wall + held + htf + atr12 + streak4",
+      "ship": "SOFT",
+      "n": 20,
+      "prec": 75.0,
+      "train": 66.67,
+      "oos": 78.57,
+      "fold_min": 75.0
+    },
+    {
+      "name": "role wall + held + htf + atr12 + streak4",
+      "ship": "HOLD",
+      "n": 14,
+      "prec": 78.57,
+      "train": 66.67,
+      "oos": 81.82,
+      "fold_min": 87.5
+    },
+    {
+      "name": "wall + desk3 + htf + atr14 + streak4",
+      "ship": "HOLD",
+      "n": 18,
+      "prec": 72.22,
+      "train": 60.0,
+      "oos": 76.92,
+      "fold_min": 77.78
+    },
+    {
+      "name": "wall + htf + atr12 + streak4 + ctrl",
+      "ship": "HOLD",
+      "n": 21,
+      "prec": 61.9,
+      "train": 57.14,
+      "oos": 64.29,
+      "fold_min": 66.67
+    },
+    {
+      "name": "wall + htf + atr14 + streak4",
+      "ship": "HOLD",
+      "n": 21,
+      "prec": 71.43,
+      "train": 62.5,
+      "oos": 76.92,
+      "fold_min": 60.0
+    },
+    {
+      "name": "wall + htf + atr12 + streak4",
+      "ship": "HOLD",
+      "n": 27,
+      "prec": 66.67,
+      "train": 60.0,
+      "oos": 70.59,
+      "fold_min": 50.0
+    },
+    {
+      "name": "wall + htf + atr14 + streak4 + am",
+      "ship": "HOLD",
+      "n": 14,
+      "prec": 64.29,
+      "train": 57.14,
+      "oos": 71.43,
+      "fold_min": 50.0
+    },
+    {
+      "name": "role wall + htf + atr14 + streak4 + am",
+      "ship": "HOLD",
+      "n": 13,
+      "prec": 61.54,
+      "train": 57.14,
+      "oos": 66.67,
+      "fold_min": 50.0
+    },
+    {
+      "name": "OR wall + SHIP stack",
+      "ship": "HOLD",
+      "n": 7,
+      "prec": 57.14,
+      "train": 50.0,
+      "oos": 60.0,
+      "fold_min": 50.0
+    },
+    {
+      "name": "wall + htf",
+      "ship": "HOLD",
+      "n": 367,
+      "prec": 53.13,
+      "train": 55.8,
+      "oos": 50.54,
+      "fold_min": 43.42
+    },
+    {
+      "name": "wall + htf + atr12 + streak4 + am",
+      "ship": "HOLD",
+      "n": 19,
+      "prec": 57.89,
+      "train": 55.56,
+      "oos": 60.0,
+      "fold_min": 40.0
+    },
+    {
+      "name": "wall + SHIP stack",
+      "ship": "HOLD",
+      "n": 11,
+      "prec": 54.55,
+      "train": 50.0,
+      "oos": 57.14,
+      "fold_min": 40.0
+    },
+    {
+      "name": "role wall + SHIP stack",
+      "ship": "HOLD",
+      "n": 10,
+      "prec": 50.0,
+      "train": 50.0,
+      "oos": 50.0,
+      "fold_min": 40.0
+    },
+    {
+      "name": "HHLL raw (no wall)",
+      "ship": "HOLD",
+      "n": 499,
+      "prec": 37.47,
+      "train": 38.0,
+      "oos": 36.95,
+      "fold_min": 34.0
+    },
+    {
+      "name": "at ANY wall",
+      "ship": "HOLD",
+      "n": 496,
+      "prec": 36.49,
+      "train": 36.69,
+      "oos": 36.29,
+      "fold_min": 29.29
+    },
+    {
+      "name": "at OR wall",
+      "ship": "HOLD",
+      "n": 402,
+      "prec": 38.06,
+      "train": 39.39,
+      "oos": 36.76,
+      "fold_min": 28.24
+    },
+    {
+      "name": "at swing/L15 wall",
+      "ship": "HOLD",
+      "n": 493,
+      "prec": 35.29,
+      "train": 32.39,
+      "oos": 38.21,
+      "fold_min": 27.55
+    },
+    {
+      "name": "role-matched wall",
+      "ship": "HOLD",
+      "n": 489,
+      "prec": 31.9,
+      "train": 32.92,
+      "oos": 30.89,
+      "fold_min": 25.77
+    },
+    {
+      "name": "at PDH/PDL",
+      "ship": "HOLD",
+      "n": 208,
+      "prec": 31.73,
+      "train": 32.04,
+      "oos": 31.43,
+      "fold_min": 18.92
+    },
+    {
+      "name": "OR+swing + htf + atr12 + streak4",
+      "ship": "HOLD",
+      "n": 5,
+      "prec": 60.0,
+      "train": 33.33,
+      "oos": 100.0,
+      "fold_min": null
+    },
+    {
+      "name": "swing wall + SHIP stack",
+      "ship": "HOLD",
+      "n": 6,
+      "prec": 33.33,
+      "train": 33.33,
+      "oos": 33.33,
+      "fold_min": null
+    },
+    {
+      "name": "OR+swing + SHIP stack",
+      "ship": "HOLD",
+      "n": 2,
+      "prec": 0.0,
+      "train": 0.0,
+      "oos": 0.0,
+      "fold_min": null
+    }
+  ],
+  "wall_last5": [
+    {
+      "day": "2026-11-09",
+      "hm": "11:21",
+      "mins": 681,
+      "side": "BUY",
+      "entry": 24900.4,
+      "tag": "HL",
+      "level": 24892.75,
+      "walls": "OR15_LO",
+      "t15_win": true,
+      "pts": 15.0,
+      "at_wall": true,
+      "at_or": true,
+      "at_swing": false,
+      "at_pd": false,
+      "role_ok": true,
+      "held": false,
+      "htf_with": false,
+      "desk_ge3": true,
+      "atr_hi": true,
+      "atr_12": true,
+      "atr_14": true,
+      "streak4": false,
+      "streak5": false,
+      "ctrl": false,
+      "ema_with": true,
+      "vwap_with": false,
+      "am": true,
+      "skip_open": true,
+      "prime": true,
+      "atr": 15.75
+    },
+    {
+      "day": "2026-11-11",
+      "hm": "10:01",
+      "mins": 601,
+      "side": "BUY",
+      "entry": 25369.35,
+      "tag": "HL",
+      "level": 25346.65,
+      "walls": "SWING_CLUSTER",
+      "t15_win": false,
+      "pts": -25.25,
+      "at_wall": true,
+      "at_or": false,
+      "at_swing": true,
+      "at_pd": false,
+      "role_ok": true,
+      "held": false,
+      "htf_with": true,
+      "desk_ge3": true,
+      "atr_hi": true,
+      "atr_12": true,
+      "atr_14": false,
+      "streak4": false,
+      "streak5": false,
+      "ctrl": false,
+      "ema_with": false,
+      "vwap_with": true,
+      "am": true,
+      "skip_open": true,
+      "prime": true,
+      "atr": 13.77
+    },
+    {
+      "day": "2026-11-12",
+      "hm": "10:20",
+      "mins": 620,
+      "side": "BUY",
+      "entry": 25357.05,
+      "tag": "HL",
+      "level": 25331.55,
+      "walls": "OR30_HI",
+      "t15_win": false,
+      "pts": -19.5,
+      "at_wall": true,
+      "at_or": true,
+      "at_swing": false,
+      "at_pd": false,
+      "role_ok": false,
+      "held": false,
+      "htf_with": true,
+      "desk_ge3": true,
+      "atr_hi": true,
+      "atr_12": true,
+      "atr_14": false,
+      "streak4": false,
+      "streak5": false,
+      "ctrl": true,
+      "ema_with": false,
+      "vwap_with": true,
+      "am": true,
+      "skip_open": true,
+      "prime": true,
+      "atr": 12.66
+    },
+    {
+      "day": "2026-11-13",
+      "hm": "09:58",
+      "mins": 598,
+      "side": "BUY",
+      "entry": 25207.95,
+      "tag": "HL",
+      "level": 25201.0,
+      "walls": "L15_LO,OR15_HI,OR30_HI",
+      "t15_win": true,
+      "pts": 15.0,
+      "at_wall": true,
+      "at_or": true,
+      "at_swing": true,
+      "at_pd": false,
+      "role_ok": true,
+      "held": true,
+      "htf_with": false,
+      "desk_ge3": true,
+      "atr_hi": true,
+      "atr_12": true,
+      "atr_14": false,
+      "streak4": false,
+      "streak5": false,
+      "ctrl": false,
+      "ema_with": true,
+      "vwap_with": true,
+      "am": true,
+      "skip_open": true,
+      "prime": true,
+      "atr": 12.13
+    },
+    {
+      "day": "2026-11-16",
+      "hm": "09:47",
+      "mins": 587,
+      "side": "BUY",
+      "entry": 25309.9,
+      "tag": "HL",
+      "level": 25282.4,
+      "walls": "L15_HI,OR15_HI,OR30_HI",
+      "t15_win": true,
+      "pts": 15.0,
+      "at_wall": true,
+      "at_or": true,
+      "at_swing": true,
+      "at_pd": false,
+      "role_ok": false,
+      "held": true,
+      "htf_with": true,
+      "desk_ge3": true,
+      "atr_hi": true,
+      "atr_12": true,
+      "atr_14": false,
+      "streak4": false,
+      "streak5": false,
+      "ctrl": false,
+      "ema_with": true,
+      "vwap_with": true,
+      "am": true,
+      "skip_open": true,
+      "prime": true,
+      "atr": 12.35
+    }
+  ],
+  "pick_last5": [],
+  "window": [
+    "2024-11-08",
+    "2026-11-16"
+  ]
+}

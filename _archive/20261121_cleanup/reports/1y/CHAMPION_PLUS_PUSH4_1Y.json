@@ -1,0 +1,237 @@
+{
+  "verdict": "PUSH4 OK \u2014 `cap4` **262@92.75%** (PUSH3 257 \u00b7 +5). Still RESEARCH \u00b7 ticket-fill book.",
+  "best_mode": "cap4",
+  "prior_n": 257,
+  "1y": {
+    "n": 262,
+    "hit_pct": 92.75,
+    "wins": 243,
+    "losses": 19,
+    "points": 7470.0,
+    "days": 171,
+    "by_track": {
+      "champion": {
+        "n": 41,
+        "hit_pct": 92.68,
+        "points": 1419.0
+      },
+      "dual10m": {
+        "n": 124,
+        "hit_pct": 91.94,
+        "points": 3120.0
+      },
+      "dual5_research": {
+        "n": 6,
+        "hit_pct": 100.0,
+        "points": 183.0
+      },
+      "good_prod2": {
+        "n": 67,
+        "hit_pct": 91.04,
+        "points": 1650.0
+      },
+      "proven_research": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "points": 1098.0
+      }
+    }
+  },
+  "3y": {
+    "n": 331,
+    "hit_pct": 89.73,
+    "wins": 297,
+    "losses": 34,
+    "points": 8946.0,
+    "days": 238,
+    "by_track": {
+      "champion": {
+        "n": 110,
+        "hit_pct": 83.64,
+        "points": 2895.0
+      },
+      "dual10m": {
+        "n": 124,
+        "hit_pct": 91.94,
+        "points": 3120.0
+      },
+      "dual5_research": {
+        "n": 6,
+        "hit_pct": 100.0,
+        "points": 183.0
+      },
+      "good_prod2": {
+        "n": 67,
+        "hit_pct": 91.04,
+        "points": 1650.0
+      },
+      "proven_research": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "points": 1098.0
+      }
+    }
+  },
+  "results": {
+    "cap3": {
+      "ok": true,
+      "1y": {
+        "n": 260,
+        "hit_pct": 92.69,
+        "wins": 241,
+        "losses": 19,
+        "points": 7410.0,
+        "days": 171,
+        "by_track": {
+          "champion": {
+            "n": 41,
+            "hit_pct": 92.68,
+            "points": 1419.0
+          },
+          "dual10m": {
+            "n": 123,
+            "hit_pct": 91.87,
+            "points": 3090.0
+          },
+          "dual5_research": {
+            "n": 6,
+            "hit_pct": 100.0,
+            "points": 183.0
+          },
+          "good_prod2": {
+            "n": 66,
+            "hit_pct": 90.91,
+            "points": 1620.0
+          },
+          "proven_research": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1098.0
+          }
+        }
+      },
+      "3y": {
+        "n": 329,
+        "hit_pct": 89.67,
+        "wins": 295,
+        "losses": 34,
+        "points": 8886.0,
+        "days": 238,
+        "by_track": {
+          "champion": {
+            "n": 110,
+            "hit_pct": 83.64,
+            "points": 2895.0
+          },
+          "dual10m": {
+            "n": 123,
+            "hit_pct": 91.87,
+            "points": 3090.0
+          },
+          "dual5_research": {
+            "n": 6,
+            "hit_pct": 100.0,
+            "points": 183.0
+          },
+          "good_prod2": {
+            "n": 66,
+            "hit_pct": 90.91,
+            "points": 1620.0
+          },
+          "proven_research": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1098.0
+          }
+        }
+      },
+      "adds_any": 219,
+      "adds_wins": 0,
+      "swaps": 0
+    },
+    "cap4": {
+      "ok": true,
+      "1y": {
+        "n": 262,
+        "hit_pct": 92.75,
+        "wins": 243,
+        "losses": 19,
+        "points": 7470.0,
+        "days": 171,
+        "by_track": {
+          "champion": {
+            "n": 41,
+            "hit_pct": 92.68,
+            "points": 1419.0
+          },
+          "dual10m": {
+            "n": 124,
+            "hit_pct": 91.94,
+            "points": 3120.0
+          },
+          "dual5_research": {
+            "n": 6,
+            "hit_pct": 100.0,
+            "points": 183.0
+          },
+          "good_prod2": {
+            "n": 67,
+            "hit_pct": 91.04,
+            "points": 1650.0
+          },
+          "proven_research": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1098.0
+          }
+        }
+      },
+      "3y": {
+        "n": 331,
+        "hit_pct": 89.73,
+        "wins": 297,
+        "losses": 34,
+        "points": 8946.0,
+        "days": 238,
+        "by_track": {
+          "champion": {
+            "n": 110,
+            "hit_pct": 83.64,
+            "points": 2895.0
+          },
+          "dual10m": {
+            "n": 124,
+            "hit_pct": 91.94,
+            "points": 3120.0
+          },
+          "dual5_research": {
+            "n": 6,
+            "hit_pct": 100.0,
+            "points": 183.0
+          },
+          "good_prod2": {
+            "n": 67,
+            "hit_pct": 91.04,
+            "points": 1650.0
+          },
+          "proven_research": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1098.0
+          }
+        }
+      },
+      "adds_any": 221,
+      "adds_wins": 0,
+      "swaps": 0
+    }
+  },
+  "elapsed_s": 55.2,
+  "track_mix": {
+    "good_prod2": 67,
+    "dual10m": 124,
+    "champion": 41,
+    "proven_research": 24,
+    "dual5_research": 6
+  }
+}

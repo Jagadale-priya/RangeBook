@@ -1,0 +1,2767 @@
+{
+  "goal": "Long hunt for more 100% accuracy calls beyond held confirm",
+  "held": {
+    "PROVEN_100": "prod finalized",
+    "CONFIRM_DUAL15_DUAL5_TIME30": "holding",
+    "PROVEN15_PLUS_CONFIRM_T30": "holding"
+  },
+  "counts": {
+    "books_scored": 1423,
+    "perfect_3y_n8": 504,
+    "both_year_ok": 505,
+    "discoveries": 502,
+    "held_plus_merges": 1
+  },
+  "perfect_3y_top": [
+    {
+      "name": "HELD_PROVEN15_PLUS_CONFIRM_T30",
+      "note": "",
+      "perfect": true,
+      "n": 49,
+      "hit_pct": 100.0,
+      "wins": 49,
+      "losses": 0,
+      "points": 2070.0,
+      "days": 49,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "days_with_call": 46,
+      "days_no_call": 582,
+      "day_cov_pct": 7.3,
+      "buy_n": 20,
+      "sell_n": 29,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "HELD_proven_100",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p0_allday_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p0_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p55_allday_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p55_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p57_allday_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p57_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p60_allday_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p60_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p62_allday_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p62_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_allday_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_allday_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_allday_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_allday_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_allday_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 41,
+      "hit_pct": 100.0,
+      "wins": 41,
+      "losses": 0,
+      "points": 1812.0,
+      "days": 41,
+      "by_track": {
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      },
+      "days_with_call": 38,
+      "days_no_call": 590,
+      "day_cov_pct": 6.1,
+      "buy_n": 15,
+      "sell_n": 26,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p0_am1130_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 33,
+      "hit_pct": 100.0,
+      "wins": 33,
+      "losses": 0,
+      "points": 1419.0,
+      "days": 33,
+      "by_track": {
+        "proven_100": {
+          "n": 33,
+          "hit_pct": 100.0,
+          "points": 1419.0
+        }
+      },
+      "days_with_call": 32,
+      "days_no_call": 596,
+      "day_cov_pct": 5.1,
+      "buy_n": 12,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p55_am1130_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 33,
+      "hit_pct": 100.0,
+      "wins": 33,
+      "losses": 0,
+      "points": 1419.0,
+      "days": 33,
+      "by_track": {
+        "proven_100": {
+          "n": 33,
+          "hit_pct": 100.0,
+          "points": 1419.0
+        }
+      },
+      "days_with_call": 32,
+      "days_no_call": 596,
+      "day_cov_pct": 5.1,
+      "buy_n": 12,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p57_am1130_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 33,
+      "hit_pct": 100.0,
+      "wins": 33,
+      "losses": 0,
+      "points": 1419.0,
+      "days": 33,
+      "by_track": {
+        "proven_100": {
+          "n": 33,
+          "hit_pct": 100.0,
+          "points": 1419.0
+        }
+      },
+      "days_with_call": 32,
+      "days_no_call": 596,
+      "day_cov_pct": 5.1,
+      "buy_n": 12,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p60_am1130_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 33,
+      "hit_pct": 100.0,
+      "wins": 33,
+      "losses": 0,
+      "points": 1419.0,
+      "days": 33,
+      "by_track": {
+        "proven_100": {
+          "n": 33,
+          "hit_pct": 100.0,
+          "points": 1419.0
+        }
+      },
+      "days_with_call": 32,
+      "days_no_call": 596,
+      "day_cov_pct": 5.1,
+      "buy_n": 12,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p62_am1130_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 33,
+      "hit_pct": 100.0,
+      "wins": 33,
+      "losses": 0,
+      "points": 1419.0,
+      "days": 33,
+      "by_track": {
+        "proven_100": {
+          "n": 33,
+          "hit_pct": 100.0,
+          "points": 1419.0
+        }
+      },
+      "days_with_call": 32,
+      "days_no_call": 596,
+      "day_cov_pct": 5.1,
+      "buy_n": 12,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_am1130_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 33,
+      "hit_pct": 100.0,
+      "wins": 33,
+      "losses": 0,
+      "points": 1419.0,
+      "days": 33,
+      "by_track": {
+        "proven_100": {
+          "n": 33,
+          "hit_pct": 100.0,
+          "points": 1419.0
+        }
+      },
+      "days_with_call": 32,
+      "days_no_call": 596,
+      "day_cov_pct": 5.1,
+      "buy_n": 12,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_am1130_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 33,
+      "hit_pct": 100.0,
+      "wins": 33,
+      "losses": 0,
+      "points": 1419.0,
+      "days": 33,
+      "by_track": {
+        "proven_100": {
+          "n": 33,
+          "hit_pct": 100.0,
+          "points": 1419.0
+        }
+      },
+      "days_with_call": 32,
+      "days_no_call": 596,
+      "day_cov_pct": 5.1,
+      "buy_n": 12,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_am1130_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 33,
+      "hit_pct": 100.0,
+      "wins": 33,
+      "losses": 0,
+      "points": 1419.0,
+      "days": 33,
+      "by_track": {
+        "proven_100": {
+          "n": 33,
+          "hit_pct": 100.0,
+          "points": 1419.0
+        }
+      },
+      "days_with_call": 32,
+      "days_no_call": 596,
+      "day_cov_pct": 5.1,
+      "buy_n": 12,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_am1130_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 33,
+      "hit_pct": 100.0,
+      "wins": 33,
+      "losses": 0,
+      "points": 1419.0,
+      "days": 33,
+      "by_track": {
+        "proven_100": {
+          "n": 33,
+          "hit_pct": 100.0,
+          "points": 1419.0
+        }
+      },
+      "days_with_call": 32,
+      "days_no_call": 596,
+      "day_cov_pct": 5.1,
+      "buy_n": 12,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_am1130_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 33,
+      "hit_pct": 100.0,
+      "wins": 33,
+      "losses": 0,
+      "points": 1419.0,
+      "days": 33,
+      "by_track": {
+        "proven_100": {
+          "n": 33,
+          "hit_pct": 100.0,
+          "points": 1419.0
+        }
+      },
+      "days_with_call": 32,
+      "days_no_call": 596,
+      "day_cov_pct": 5.1,
+      "buy_n": 12,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p0_open_1030_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 30,
+      "hit_pct": 100.0,
+      "wins": 30,
+      "losses": 0,
+      "points": 1299.0,
+      "days": 30,
+      "by_track": {
+        "proven_100": {
+          "n": 30,
+          "hit_pct": 100.0,
+          "points": 1299.0
+        }
+      },
+      "days_with_call": 29,
+      "days_no_call": 599,
+      "day_cov_pct": 4.6,
+      "buy_n": 9,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p55_open_1030_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 30,
+      "hit_pct": 100.0,
+      "wins": 30,
+      "losses": 0,
+      "points": 1299.0,
+      "days": 30,
+      "by_track": {
+        "proven_100": {
+          "n": 30,
+          "hit_pct": 100.0,
+          "points": 1299.0
+        }
+      },
+      "days_with_call": 29,
+      "days_no_call": 599,
+      "day_cov_pct": 4.6,
+      "buy_n": 9,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p57_open_1030_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 30,
+      "hit_pct": 100.0,
+      "wins": 30,
+      "losses": 0,
+      "points": 1299.0,
+      "days": 30,
+      "by_track": {
+        "proven_100": {
+          "n": 30,
+          "hit_pct": 100.0,
+          "points": 1299.0
+        }
+      },
+      "days_with_call": 29,
+      "days_no_call": 599,
+      "day_cov_pct": 4.6,
+      "buy_n": 9,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p60_open_1030_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 30,
+      "hit_pct": 100.0,
+      "wins": 30,
+      "losses": 0,
+      "points": 1299.0,
+      "days": 30,
+      "by_track": {
+        "proven_100": {
+          "n": 30,
+          "hit_pct": 100.0,
+          "points": 1299.0
+        }
+      },
+      "days_with_call": 29,
+      "days_no_call": 599,
+      "day_cov_pct": 4.6,
+      "buy_n": 9,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p62_open_1030_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 30,
+      "hit_pct": 100.0,
+      "wins": 30,
+      "losses": 0,
+      "points": 1299.0,
+      "days": 30,
+      "by_track": {
+        "proven_100": {
+          "n": 30,
+          "hit_pct": 100.0,
+          "points": 1299.0
+        }
+      },
+      "days_with_call": 29,
+      "days_no_call": 599,
+      "day_cov_pct": 4.6,
+      "buy_n": 9,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_open_1030_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 30,
+      "hit_pct": 100.0,
+      "wins": 30,
+      "losses": 0,
+      "points": 1299.0,
+      "days": 30,
+      "by_track": {
+        "proven_100": {
+          "n": 30,
+          "hit_pct": 100.0,
+          "points": 1299.0
+        }
+      },
+      "days_with_call": 29,
+      "days_no_call": 599,
+      "day_cov_pct": 4.6,
+      "buy_n": 9,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_open_1030_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 30,
+      "hit_pct": 100.0,
+      "wins": 30,
+      "losses": 0,
+      "points": 1299.0,
+      "days": 30,
+      "by_track": {
+        "proven_100": {
+          "n": 30,
+          "hit_pct": 100.0,
+          "points": 1299.0
+        }
+      },
+      "days_with_call": 29,
+      "days_no_call": 599,
+      "day_cov_pct": 4.6,
+      "buy_n": 9,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_open_1030_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 30,
+      "hit_pct": 100.0,
+      "wins": 30,
+      "losses": 0,
+      "points": 1299.0,
+      "days": 30,
+      "by_track": {
+        "proven_100": {
+          "n": 30,
+          "hit_pct": 100.0,
+          "points": 1299.0
+        }
+      },
+      "days_with_call": 29,
+      "days_no_call": 599,
+      "day_cov_pct": 4.6,
+      "buy_n": 9,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_open_1030_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 30,
+      "hit_pct": 100.0,
+      "wins": 30,
+      "losses": 0,
+      "points": 1299.0,
+      "days": 30,
+      "by_track": {
+        "proven_100": {
+          "n": 30,
+          "hit_pct": 100.0,
+          "points": 1299.0
+        }
+      },
+      "days_with_call": 29,
+      "days_no_call": 599,
+      "day_cov_pct": 4.6,
+      "buy_n": 9,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_open_1030_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 30,
+      "hit_pct": 100.0,
+      "wins": 30,
+      "losses": 0,
+      "points": 1299.0,
+      "days": 30,
+      "by_track": {
+        "proven_100": {
+          "n": 30,
+          "hit_pct": 100.0,
+          "points": 1299.0
+        }
+      },
+      "days_with_call": 29,
+      "days_no_call": 599,
+      "day_cov_pct": 4.6,
+      "buy_n": 9,
+      "sell_n": 21,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_crown_all_BOTH_p60_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 28,
+      "hit_pct": 100.0,
+      "wins": 28,
+      "losses": 0,
+      "points": 0.0,
+      "days": 25,
+      "by_track": {
+        "crown_5m": {
+          "n": 28,
+          "hit_pct": 100.0,
+          "points": 0.0
+        }
+      },
+      "days_with_call": 25,
+      "days_no_call": 603,
+      "day_cov_pct": 4.0,
+      "buy_n": 24,
+      "sell_n": 4,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p0_allday_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p0_am1230_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p55_allday_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p55_am1230_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p57_allday_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p57_am1230_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p60_allday_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p60_am1230_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p62_allday_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_proven_BOTH_p62_am1230_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_allday_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_am1230_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_allday_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_am1230_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_allday_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_am1230_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_allday_htf_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 26,
+      "hit_pct": 100.0,
+      "wins": 26,
+      "losses": 0,
+      "points": 1241.0,
+      "days": 26,
+      "by_track": {
+        "proven_100": {
+          "n": 26,
+          "hit_pct": 100.0,
+          "points": 1241.0
+        }
+      },
+      "days_with_call": 26,
+      "days_no_call": 602,
+      "day_cov_pct": 4.1,
+      "buy_n": 8,
+      "sell_n": 18,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    }
+  ],
+  "both_year_top": [
+    {
+      "name": "D_HELDPLUS_u_A_crown_all_BOTH_p60_am1230_anyday_nogap_raw",
+      "n_3y": 76,
+      "hit_3y": 100.0,
+      "points_3y": 2070.0,
+      "day_3y": 11.1,
+      "n_1y": 33,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false,
+      "merge": true
+    },
+    {
+      "name": "HELD_PROVEN15_PLUS_CONFIRM_T30",
+      "n_3y": 49,
+      "hit_3y": 100.0,
+      "points_3y": 2070.0,
+      "day_3y": 7.3,
+      "n_1y": 28,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": true
+    },
+    {
+      "name": "HELD_proven_100",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": true
+    },
+    {
+      "name": "A_proven_BOTH_p0_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p0_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p55_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p55_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p57_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p57_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p60_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p60_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p62_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p62_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p0_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p55_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p57_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p60_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p62_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p0_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p55_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p57_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p60_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p62_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_crown_all_BOTH_p60_am1230_anyday_nogap_raw",
+      "n_3y": 28,
+      "hit_3y": 100.0,
+      "points_3y": 0.0,
+      "day_3y": 4.0,
+      "n_1y": 5,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p0_allday_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p0_am1230_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p55_allday_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p55_am1230_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p57_allday_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p57_am1230_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p60_allday_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p60_am1230_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p62_allday_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p62_am1230_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_allday_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_am1230_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_allday_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_am1230_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_allday_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_am1230_htf_nogap_raw",
+      "n_3y": 26,
+      "hit_3y": 100.0,
+      "points_3y": 1241.0,
+      "day_3y": 4.1,
+      "n_1y": 16,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    }
+  ],
+  "discoveries_top": [
+    {
+      "name": "D_HELDPLUS_u_A_crown_all_BOTH_p60_am1230_anyday_nogap_raw",
+      "n_3y": 76,
+      "hit_3y": 100.0,
+      "points_3y": 2070.0,
+      "day_3y": 11.1,
+      "n_1y": 33,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false,
+      "merge": true
+    },
+    {
+      "name": "A_proven_BOTH_p0_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p0_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p55_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p55_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p57_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p57_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p60_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p60_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p62_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p62_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_allday_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_am1230_anyday_nogap_raw",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "points_3y": 1812.0,
+      "day_3y": 6.1,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p0_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p55_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p57_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p60_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p62_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p62_am1130_anyday_nogap_raw",
+      "n_3y": 33,
+      "hit_3y": 100.0,
+      "points_3y": 1419.0,
+      "day_3y": 5.1,
+      "n_1y": 19,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p0_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p55_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p57_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p60_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_proven_BOTH_p62_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p0_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p55_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p57_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    },
+    {
+      "name": "A_pool_proven_BOTH_p60_open_1030_anyday_nogap_raw",
+      "n_3y": 30,
+      "hit_3y": 100.0,
+      "points_3y": 1299.0,
+      "day_3y": 4.6,
+      "n_1y": 18,
+      "hit_1y": 100.0,
+      "n_nov": 0,
+      "hit_nov": null,
+      "held": false
+    }
+  ],
+  "merge_onto_held_top": [
+    {
+      "name": "D_HELDPLUS_u_A_crown_all_BOTH_p60_am1230_anyday_nogap_raw",
+      "note": "",
+      "perfect": true,
+      "n": 76,
+      "hit_pct": 100.0,
+      "wins": 76,
+      "losses": 0,
+      "points": 2070.0,
+      "days": 73,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "merge_A_crown_all_BOTH_p60_am1230_anyday_nogap_raw": {
+          "n": 27,
+          "hit_pct": 100.0,
+          "points": 0.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "days_with_call": 70,
+      "days_no_call": 558,
+      "day_cov_pct": 11.1,
+      "buy_n": 44,
+      "sell_n": 32,
+      "buy_hit": 100.0,
+      "sell_hit": 100.0
+    }
+  ],
+  "held_plus_n": 49,
+  "elapsed_s": 8.2
+}

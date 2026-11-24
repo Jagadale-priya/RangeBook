@@ -1,0 +1,165 @@
+{
+  "symbol": "SENSEX",
+  "window": {
+    "start": "2026-09-18",
+    "end": "2026-11-19"
+  },
+  "desk": "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+  "brackets": {
+    "target": 100.0,
+    "sl": 100.0,
+    "risk": 100.0
+  },
+  "cap": 3,
+  "suppress_dual_list": true,
+  "elapsed_s": 823.1,
+  "sessions": 43,
+  "dual_fires_n": 2,
+  "board": {
+    "n": 2,
+    "settled": 2,
+    "hit_pct": 50.0,
+    "wins": 1,
+    "losses": 1,
+    "open": 0,
+    "by_side": {
+      "SELL": 2
+    },
+    "by_track": {
+      "champion": 2
+    }
+  },
+  "by_month": {
+    "2026-10": {
+      "n": 2,
+      "settled": 2,
+      "hit_pct": 50.0,
+      "wins": 1,
+      "losses": 1,
+      "open": 0,
+      "by_side": {
+        "SELL": 2
+      },
+      "by_track": {
+        "champion": 2
+      }
+    }
+  },
+  "dual_by_month": {
+    "2026-10": {
+      "n": 2
+    }
+  },
+  "calls": [
+    {
+      "day": "2026-10-21",
+      "hm": "10:00",
+      "decision": "SELL",
+      "side": "SELL",
+      "p_t1": 0.75,
+      "track": "champion",
+      "live_fire": true,
+      "entry": 74276.02,
+      "stop_loss": 74376.02,
+      "target_1": 74176.02,
+      "t1_pts": 100.0,
+      "sl_pts": 100.0,
+      "lane": "LIVE",
+      "status": "PROMOTED",
+      "not_live": false,
+      "symbol": "SENSEX",
+      "logic_level": "SENSEX_FINAL",
+      "desk_tag": "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+      "accurate_tag": "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+      "accuracy_tag": "ACC_RANGE_94_95",
+      "book": "sensex_final",
+      "source_desk": "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+      "brackets": {
+        "target": 100.0,
+        "sl": 100.0,
+        "risk": 100.0
+      },
+      "tags": [
+        "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+        "ACC_RANGE_94_95",
+        "FINAL_SENSEX_BOOKS",
+        "LANE_LIVE"
+      ],
+      "win": true,
+      "points": 100.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:30",
+      "decision": "SELL",
+      "side": "SELL",
+      "p_t1": 0.7377,
+      "track": "champion",
+      "live_fire": true,
+      "entry": 73437.08,
+      "stop_loss": 73537.08,
+      "target_1": 73337.08,
+      "t1_pts": 100.0,
+      "sl_pts": 100.0,
+      "lane": "LIVE",
+      "status": "PROMOTED",
+      "not_live": false,
+      "symbol": "SENSEX",
+      "logic_level": "SENSEX_FINAL",
+      "desk_tag": "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+      "accurate_tag": "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+      "accuracy_tag": "ACC_RANGE_94_95",
+      "book": "sensex_final",
+      "source_desk": "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+      "brackets": {
+        "target": 100.0,
+        "sl": 100.0,
+        "risk": 100.0
+      },
+      "tags": [
+        "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+        "ACC_RANGE_94_95",
+        "FINAL_SENSEX_BOOKS",
+        "LANE_LIVE"
+      ],
+      "win": false,
+      "points": -100.0,
+      "outcome": "sl_before_t1"
+    }
+  ],
+  "dual_fires": [
+    {
+      "day": "2026-10-21",
+      "hm": "10:00",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.75,
+      "entry": 74142.76,
+      "suppressed_list": true
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "champion",
+      "p_t1": 0.7377,
+      "entry": 73462.65,
+      "suppressed_list": true
+    }
+  ],
+  "tapes": {
+    "5m": {
+      "path": "C:\\Users\\Priyanka\\Agent\\stock_signal_data\\fno_validate\\SENSEX_5m_kite.csv",
+      "n": 46568,
+      "min": "2024-05-16 09:15:00+05:30",
+      "max": "2026-11-19 10:55:00+05:30"
+    },
+    "15m": {
+      "path": "C:\\Users\\Priyanka\\Agent\\stock_signal_data\\fno_validate\\SENSEX_15m_kite.csv",
+      "n": 1037,
+      "min": "2026-09-18 09:15:00+05:30",
+      "max": "2026-11-19 10:45:00+05:30"
+    }
+  }
+}

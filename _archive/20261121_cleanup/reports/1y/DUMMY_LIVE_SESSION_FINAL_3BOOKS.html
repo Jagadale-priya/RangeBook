@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dummy LIVE · FINAL 3 books · NIFTY F&O</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --panel: #171d25;
+    --line: #2a3441;
+    --text: #e7eef7;
+    --muted: #8b9bb0;
+    --buy: #1f9d63;
+    --sell: #d4534a;
+    --acc: #3d8bfd;
+    --desk: #6b7c93;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: "Segoe UI", system-ui, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.45;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 28px 18px 80px; }
+  h1 { font-size: 1.55rem; font-weight: 650; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); margin-bottom: 22px; font-size: 0.95rem; }
+  .stats {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px; margin-bottom: 28px;
+  }
+  .stat {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 12px 14px;
+  }
+  .stat b { display: block; font-size: 1.25rem; }
+  .stat span { color: var(--muted); font-size: 0.8rem; }
+  .banner {
+    border: 1px solid var(--line); background: #132033; border-radius: 10px;
+    padding: 12px 14px; margin-bottom: 24px; color: #c5d7ef; font-size: 0.9rem;
+  }
+  h2.day {
+    margin: 28px 0 12px; font-size: 1.05rem; color: var(--muted);
+    border-bottom: 1px solid var(--line); padding-bottom: 6px;
+  }
+  .calls { display: grid; gap: 12px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 14px 16px;
+  }
+  .card.multi { border-color: #3a5a8a; }
+  header {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline; margin-bottom: 8px;
+  }
+  .side {
+    font-weight: 700; font-size: 0.95rem; padding: 2px 8px; border-radius: 6px;
+  }
+  .side.buy { background: rgba(31,157,99,.18); color: #5ddea3; }
+  .side.sell { background: rgba(212,83,74,.18); color: #f0a29c; }
+  .hm { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .acc-main {
+    margin-left: auto; font-weight: 700; color: #9ec1ff; font-size: 0.95rem;
+  }
+  .levels { color: var(--muted); font-size: 0.88rem; margin-bottom: 8px; }
+  .levels b { color: var(--text); font-weight: 600; }
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .pill {
+    font-size: 0.72rem; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--line);
+  }
+  .pill.acc { background: rgba(61,139,253,.15); color: #9ec1ff; border-color: #2e4f7a; }
+  .pill.desk { color: #b7c3d4; }
+  .notify {
+    margin-top: 8px; padding-top: 10px; border-top: 1px dashed var(--line);
+  }
+  .toast-title {
+    font-size: 0.78rem; letter-spacing: 0.04em; color: #9ec1ff; font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .toast-body { font-size: 0.9rem; margin-bottom: 4px; }
+  .oc { color: var(--muted); font-size: 0.82rem; margin-bottom: 8px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; }
+  .btn {
+    display: inline-block; text-decoration: none; color: #041018; background: #3d8bfd;
+    padding: 6px 10px; border-radius: 8px; font-size: 0.8rem; font-weight: 600;
+  }
+  .btn.ghost { background: transparent; color: #9ec1ff; border: 1px solid #2e4f7a; }
+  .btn.groww { background: #00b386; color: #041018; }
+  .notify-log {
+    margin-top: 36px; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 12px; padding: 16px;
+  }
+  .notify-log h2 { margin: 0 0 10px; font-size: 1rem; }
+  .notify-log ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 0.88rem; }
+  code { color: #9ec1ff; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>NIFTY F&amp;O · Dummy LIVE session</h1>
+  <p class="sub">
+    Final 3 books only · 2026-11-01 → 2026-11-15 ·
+    same (day,side,hm) → 1 call · accuracy-tag notify · Option Chain links ·
+    <b>blocked = </b>
+  </p>
+  <div class="banner">
+    Books: <b>P2F</b> (day+cap2) · <b>P2G 10m</b> · <b>CHAMP_PLUS_T30SL30_CAP4</b>.
+    Excluded: STACK / AGREE. Notification title = <b>accuracy_tag only</b> (ACC_RANGE_*).
+  </div>
+  <div class="stats">
+    <div class="stat"><b>10</b><span>UI calls (1 page)</span></div>
+    <div class="stat"><b>30</b><span>Raw desk firings</span></div>
+    <div class="stat"><b>3</b><span>Multi-desk combined</span></div>
+    <div class="stat"><b>10</b><span>Accuracy notifies</span></div>
+    <div class="stat"><b></b><span>Blocked distinct</span></div>
+  </div>
+  <h2 class="day">2026-11-02</h2><div class="calls">
+<article class="card">
+  <header>
+    <div class="side sell">SELL</div>
+    <div class="hm">13:00</div>
+    <div class="acc-main">ACC_RANGE_93_100</div>
+  </header>
+  <div class="levels">
+    entry <b>23262.05</b>
+    · SL <b>23292.05</b>
+    · T <b>23232.05</b>
+    · win <b>W</b>
+  </div>
+  <div class="pills"><span class="pill acc">ACC_RANGE_93_100</span><span class="pill desk">CHAMP_PLUS_T30SL30_CAP4</span></div>
+  <div class="notify">
+    <div class="toast-title">NOTIFY · ACC_RANGE_93_100</div>
+    <div class="toast-body">NIFTY SELL · 13:00 · day 2026-11-02 · entry 23262.05 · SL 23292.05 · T 23232.05 · ATM PE 23250.0 · NIFTY26NOV23250PE</div>
+    <div class="oc">ATM PE 23250.0
+     · NIFTY26NOV23250PE</div>
+    <div class="actions"><a class="btn" href="/dashboard/?stock=NIFTY&amp;tab=fno&amp;sub=contracts&amp;spot=23262.05" target="_blank" rel="noopener">Desk Option Chain</a><a class="btn ghost" href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener">NSE Option Chain</a><a class="btn groww" href="https://groww.in/charts/options/nifty/NIFTY26NOV23250PE?exchange=NSE" target="_blank" rel="noopener">Groww chart</a><a class="btn ghost" href="/fno/contracts/NIFTY?spot=23262.05" target="_blank" rel="noopener">API /fno/contracts</a></div>
+  </div>
+</article>
+</div><h2 class="day">2026-11-03</h2><div class="calls">
+<article class="card multi">
+  <header>
+    <div class="side buy">BUY</div>
+    <div class="hm">10:10</div>
+    <div class="acc-main">ACC_RANGE_93_100</div>
+  </header>
+  <div class="levels">
+    entry <b>23631.6</b>
+    · SL <b>23601.6</b>
+    · T <b>23661.6</b>
+    · win <b>W</b>
+  </div>
+  <div class="pills"><span class="pill acc">ACC_RANGE_93_100</span><span class="pill acc">ACC_RANGE_81_84</span><span class="pill desk">CHAMP_PLUS_T30SL30_CAP4</span><span class="pill desk">ACC_WIDE_P75_P2G_10M</span></div>
+  <div class="notify">
+    <div class="toast-title">NOTIFY · ACC_RANGE_93_100</div>
+    <div class="toast-body">NIFTY BUY · 10:10 · day 2026-11-03 · entry 23631.6 · SL 23601.6 · T 23661.6 · ATM CE 23650.0 · NIFTY26NOV23650CE</div>
+    <div class="oc">ATM CE 23650.0
+     · NIFTY26NOV23650CE</div>
+    <div class="actions"><a class="btn" href="/dashboard/?stock=NIFTY&amp;tab=fno&amp;sub=contracts&amp;spot=23631.60" target="_blank" rel="noopener">Desk Option Chain</a><a class="btn ghost" href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener">NSE Option Chain</a><a class="btn groww" href="https://groww.in/charts/options/nifty/NIFTY26NOV23650CE?exchange=NSE" target="_blank" rel="noopener">Groww chart</a><a class="btn ghost" href="/fno/contracts/NIFTY?spot=23631.60" target="_blank" rel="noopener">API /fno/contracts</a></div>
+  </div>
+</article>
+</div><h2 class="day">2026-11-04</h2><div class="calls">
+<article class="card">
+  <header>
+    <div class="side sell">SELL</div>
+    <div class="hm">10:20</div>
+    <div class="acc-main">ACC_RANGE_93_100</div>
+  </header>
+  <div class="levels">
+    entry <b>23843.45</b>
+    · SL <b>23873.45</b>
+    · T <b>23813.45</b>
+    · win <b>W</b>
+  </div>
+  <div class="pills"><span class="pill acc">ACC_RANGE_93_100</span><span class="pill desk">CHAMP_PLUS_T30SL30_CAP4</span></div>
+  <div class="notify">
+    <div class="toast-title">NOTIFY · ACC_RANGE_93_100</div>
+    <div class="toast-body">NIFTY SELL · 10:20 · day 2026-11-04 · entry 23843.45 · SL 23873.45 · T 23813.45 · ATM PE 23850.0 · NIFTY26NOV23850PE</div>
+    <div class="oc">ATM PE 23850.0
+     · NIFTY26NOV23850PE</div>
+    <div class="actions"><a class="btn" href="/dashboard/?stock=NIFTY&amp;tab=fno&amp;sub=contracts&amp;spot=23843.45" target="_blank" rel="noopener">Desk Option Chain</a><a class="btn ghost" href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener">NSE Option Chain</a><a class="btn groww" href="https://groww.in/charts/options/nifty/NIFTY26NOV23850PE?exchange=NSE" target="_blank" rel="noopener">Groww chart</a><a class="btn ghost" href="/fno/contracts/NIFTY?spot=23843.45" target="_blank" rel="noopener">API /fno/contracts</a></div>
+  </div>
+</article>
+</div><h2 class="day">2026-11-05</h2><div class="calls">
+<article class="card multi">
+  <header>
+    <div class="side buy">BUY</div>
+    <div class="hm">12:10</div>
+    <div class="acc-main">ACC_RANGE_93_100</div>
+  </header>
+  <div class="levels">
+    entry <b>24411.95</b>
+    · SL <b>24381.95</b>
+    · T <b>24441.95</b>
+    · win <b>W</b>
+  </div>
+  <div class="pills"><span class="pill acc">ACC_RANGE_93_100</span><span class="pill acc">ACC_RANGE_81_84</span><span class="pill desk">CHAMP_PLUS_T30SL30_CAP4</span><span class="pill desk">ACC_WIDE_P75_P2G_10M</span></div>
+  <div class="notify">
+    <div class="toast-title">NOTIFY · ACC_RANGE_93_100</div>
+    <div class="toast-body">NIFTY BUY · 12:10 · day 2026-11-05 · entry 24411.95 · SL 24381.95 · T 24441.95 · ATM CE 24400.0 · NIFTY26NOV24400CE</div>
+    <div class="oc">ATM CE 24400.0
+     · NIFTY26NOV24400CE</div>
+    <div class="actions"><a class="btn" href="/dashboard/?stock=NIFTY&amp;tab=fno&amp;sub=contracts&amp;spot=24411.95" target="_blank" rel="noopener">Desk Option Chain</a><a class="btn ghost" href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener">NSE Option Chain</a><a class="btn groww" href="https://groww.in/charts/options/nifty/NIFTY26NOV24400CE?exchange=NSE" target="_blank" rel="noopener">Groww chart</a><a class="btn ghost" href="/fno/contracts/NIFTY?spot=24411.95" target="_blank" rel="noopener">API /fno/contracts</a></div>
+  </div>
+</article>
+</div><h2 class="day">2026-11-06</h2><div class="calls">
+<article class="card">
+  <header>
+    <div class="side buy">BUY</div>
+    <div class="hm">10:10</div>
+    <div class="acc-main">ACC_RANGE_93_100</div>
+  </header>
+  <div class="levels">
+    entry <b>24642.25</b>
+    · SL <b>24612.25</b>
+    · T <b>24672.25</b>
+    · win <b>W</b>
+  </div>
+  <div class="pills"><span class="pill acc">ACC_RANGE_93_100</span><span class="pill desk">CHAMP_PLUS_T30SL30_CAP4</span></div>
+  <div class="notify">
+    <div class="toast-title">NOTIFY · ACC_RANGE_93_100</div>
+    <div class="toast-body">NIFTY BUY · 10:10 · day 2026-11-06 · entry 24642.25 · SL 24612.25 · T 24672.25 · ATM CE 24650.0 · NIFTY26NOV24650CE</div>
+    <div class="oc">ATM CE 24650.0
+     · NIFTY26NOV24650CE</div>
+    <div class="actions"><a class="btn" href="/dashboard/?stock=NIFTY&amp;tab=fno&amp;sub=contracts&amp;spot=24642.25" target="_blank" rel="noopener">Desk Option Chain</a><a class="btn ghost" href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener">NSE Option Chain</a><a class="btn groww" href="https://groww.in/charts/options/nifty/NIFTY26NOV24650CE?exchange=NSE" target="_blank" rel="noopener">Groww chart</a><a class="btn ghost" href="/fno/contracts/NIFTY?spot=24642.25" target="_blank" rel="noopener">API /fno/contracts</a></div>
+  </div>
+</article>
+
+<article class="card multi">
+  <header>
+    <div class="side buy">BUY</div>
+    <div class="hm">11:20</div>
+    <div class="acc-main">ACC_RANGE_98_100</div>
+  </header>
+  <div class="levels">
+    entry <b>24598.1</b>
+    · SL <b>24578.1</b>
+    · T <b>24618.1</b>
+    · win <b>W</b>
+  </div>
+  <div class="pills"><span class="pill acc">ACC_RANGE_98_100</span><span class="pill acc">ACC_RANGE_94_100</span><span class="pill acc">ACC_RANGE_93_100</span><span class="pill acc">ACC_RANGE_92_100</span><span class="pill acc">ACC_RANGE_91_100</span><span class="pill acc">ACC_RANGE_89_96</span><span class="pill acc">ACC_RANGE_88_95</span><span class="pill acc">ACC_RANGE_86_97</span><span class="pill acc">ACC_RANGE_84_90</span><span class="pill acc">ACC_RANGE_83_100</span><span class="pill acc">ACC_RANGE_81_89</span><span class="pill acc">ACC_RANGE_81_85</span><span class="pill acc">ACC_RANGE_81_84</span><span class="pill acc">ACC_RANGE_76_85</span><span class="pill acc">ACC_RANGE_75_83</span><span class="pill desk">ACC100_MULTI_V11</span><span class="pill desk">ACC100_MULTI_V5_CAP2_P2F</span><span class="pill desk">ACC100_MULTI_V12_P2G_10M</span><span class="pill desk">CHAMP_PLUS_T30SL30_CAP4</span><span class="pill desk">ACC_WIDE_P90_P2G_10M</span><span class="pill desk">ACC_WIDE_P92_P2F</span><span class="pill desk">ACC_WIDE_P92_CAP2_P2F</span><span class="pill desk">ACC_WIDE_P90_P2F</span><span class="pill desk">ACC_WIDE_P90_CAP2_P2F</span><span class="pill desk">ACC_WIDE_P85B_P2G_10M</span><span class="pill desk">ACC_WIDE_P85_P2G_10M</span><span class="pill desk">ACC_WIDE_P85_P2F</span><span class="pill desk">ACC_WIDE_P85_CAP2_P2F</span><span class="pill desk">ACC_WIDE_P85B_P2F</span><span class="pill desk">ACC_WIDE_P92_P2G_10M</span><span class="pill desk">ACC_WIDE_P80_P2F</span><span class="pill desk">ACC_WIDE_P80_P2G_10M</span><span class="pill desk">ACC_WIDE_P75_P2F</span><span class="pill desk">ACC_WIDE_P75_P2G_10M</span></div>
+  <div class="notify">
+    <div class="toast-title">NOTIFY · ACC_RANGE_98_100</div>
+    <div class="toast-body">NIFTY BUY · 11:20 · day 2026-11-06 · entry 24598.1 · SL 24578.1 · T 24618.1 · ATM CE 24600.0 · NIFTY26NOV24600CE</div>
+    <div class="oc">ATM CE 24600.0
+     · NIFTY26NOV24600CE</div>
+    <div class="actions"><a class="btn" href="/dashboard/?stock=NIFTY&amp;tab=fno&amp;sub=contracts&amp;spot=24598.10" target="_blank" rel="noopener">Desk Option Chain</a><a class="btn ghost" href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener">NSE Option Chain</a><a class="btn groww" href="https://groww.in/charts/options/nifty/NIFTY26NOV24600CE?exchange=NSE" target="_blank" rel="noopener">Groww chart</a><a class="btn ghost" href="/fno/contracts/NIFTY?spot=24598.10" target="_blank" rel="noopener">API /fno/contracts</a></div>
+  </div>
+</article>
+</div><h2 class="day">2026-11-09</h2><div class="calls">
+<article class="card">
+  <header>
+    <div class="side sell">SELL</div>
+    <div class="hm">11:00</div>
+    <div class="acc-main">ACC_RANGE_81_84</div>
+  </header>
+  <div class="levels">
+    entry <b>24866.2</b>
+    · SL <b>24896.2</b>
+    · T <b>24836.2</b>
+    · win <b>L</b>
+  </div>
+  <div class="pills"><span class="pill acc">ACC_RANGE_81_84</span><span class="pill desk">ACC_WIDE_P75_P2G_10M</span></div>
+  <div class="notify">
+    <div class="toast-title">NOTIFY · ACC_RANGE_81_84</div>
+    <div class="toast-body">NIFTY SELL · 11:00 · day 2026-11-09 · entry 24866.2 · SL 24896.2 · T 24836.2 · ATM PE 24850.0 · NIFTY26NOV24850PE</div>
+    <div class="oc">ATM PE 24850.0
+     · NIFTY26NOV24850PE</div>
+    <div class="actions"><a class="btn" href="/dashboard/?stock=NIFTY&amp;tab=fno&amp;sub=contracts&amp;spot=24866.20" target="_blank" rel="noopener">Desk Option Chain</a><a class="btn ghost" href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener">NSE Option Chain</a><a class="btn groww" href="https://groww.in/charts/options/nifty/NIFTY26NOV24850PE?exchange=NSE" target="_blank" rel="noopener">Groww chart</a><a class="btn ghost" href="/fno/contracts/NIFTY?spot=24866.20" target="_blank" rel="noopener">API /fno/contracts</a></div>
+  </div>
+</article>
+
+<article class="card">
+  <header>
+    <div class="side buy">BUY</div>
+    <div class="hm">11:30</div>
+    <div class="acc-main">ACC_RANGE_93_100</div>
+  </header>
+  <div class="levels">
+    entry <b>24979.75</b>
+    · SL <b>24949.75</b>
+    · T <b>25009.75</b>
+    · win <b>W</b>
+  </div>
+  <div class="pills"><span class="pill acc">ACC_RANGE_93_100</span><span class="pill desk">CHAMP_PLUS_T30SL30_CAP4</span></div>
+  <div class="notify">
+    <div class="toast-title">NOTIFY · ACC_RANGE_93_100</div>
+    <div class="toast-body">NIFTY BUY · 11:30 · day 2026-11-09 · entry 24979.75 · SL 24949.75 · T 25009.75 · ATM CE 25000.0 · NIFTY26NOV25000CE</div>
+    <div class="oc">ATM CE 25000.0
+     · NIFTY26NOV25000CE</div>
+    <div class="actions"><a class="btn" href="/dashboard/?stock=NIFTY&amp;tab=fno&amp;sub=contracts&amp;spot=24979.75" target="_blank" rel="noopener">Desk Option Chain</a><a class="btn ghost" href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener">NSE Option Chain</a><a class="btn groww" href="https://groww.in/charts/options/nifty/NIFTY26NOV25000CE?exchange=NSE" target="_blank" rel="noopener">Groww chart</a><a class="btn ghost" href="/fno/contracts/NIFTY?spot=24979.75" target="_blank" rel="noopener">API /fno/contracts</a></div>
+  </div>
+</article>
+</div><h2 class="day">2026-11-11</h2><div class="calls">
+<article class="card">
+  <header>
+    <div class="side sell">SELL</div>
+    <div class="hm">12:20</div>
+    <div class="acc-main">ACC_RANGE_93_100</div>
+  </header>
+  <div class="levels">
+    entry <b>25331.7</b>
+    · SL <b>25361.7</b>
+    · T <b>25301.7</b>
+    · win <b>W</b>
+  </div>
+  <div class="pills"><span class="pill acc">ACC_RANGE_93_100</span><span class="pill desk">CHAMP_PLUS_T30SL30_CAP4</span></div>
+  <div class="notify">
+    <div class="toast-title">NOTIFY · ACC_RANGE_93_100</div>
+    <div class="toast-body">NIFTY SELL · 12:20 · day 2026-11-11 · entry 25331.7 · SL 25361.7 · T 25301.7 · ATM PE 25350.0 · NIFTY26NOV25350PE</div>
+    <div class="oc">ATM PE 25350.0
+     · NIFTY26NOV25350PE</div>
+    <div class="actions"><a class="btn" href="/dashboard/?stock=NIFTY&amp;tab=fno&amp;sub=contracts&amp;spot=25331.70" target="_blank" rel="noopener">Desk Option Chain</a><a class="btn ghost" href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener">NSE Option Chain</a><a class="btn groww" href="https://groww.in/charts/options/nifty/NIFTY26NOV25350PE?exchange=NSE" target="_blank" rel="noopener">Groww chart</a><a class="btn ghost" href="/fno/contracts/NIFTY?spot=25331.70" target="_blank" rel="noopener">API /fno/contracts</a></div>
+  </div>
+</article>
+</div><h2 class="day">2026-11-12</h2><div class="calls">
+<article class="card">
+  <header>
+    <div class="side buy">BUY</div>
+    <div class="hm">09:50</div>
+    <div class="acc-main">ACC_RANGE_93_100</div>
+  </header>
+  <div class="levels">
+    entry <b>25352.25</b>
+    · SL <b>25322.25</b>
+    · T <b>25382.25</b>
+    · win <b>W</b>
+  </div>
+  <div class="pills"><span class="pill acc">ACC_RANGE_93_100</span><span class="pill desk">CHAMP_PLUS_T30SL30_CAP4</span></div>
+  <div class="notify">
+    <div class="toast-title">NOTIFY · ACC_RANGE_93_100</div>
+    <div class="toast-body">NIFTY BUY · 09:50 · day 2026-11-12 · entry 25352.25 · SL 25322.25 · T 25382.25 · ATM CE 25350.0 · NIFTY26NOV25350CE</div>
+    <div class="oc">ATM CE 25350.0
+     · NIFTY26NOV25350CE</div>
+    <div class="actions"><a class="btn" href="/dashboard/?stock=NIFTY&amp;tab=fno&amp;sub=contracts&amp;spot=25352.25" target="_blank" rel="noopener">Desk Option Chain</a><a class="btn ghost" href="https://www.nseindia.com/option-chain" target="_blank" rel="noopener">NSE Option Chain</a><a class="btn groww" href="https://groww.in/charts/options/nifty/NIFTY26NOV25350CE?exchange=NSE" target="_blank" rel="noopener">Groww chart</a><a class="btn ghost" href="/fno/contracts/NIFTY?spot=25352.25" target="_blank" rel="noopener">API /fno/contracts</a></div>
+  </div>
+</article>
+</div>
+  <section class="notify-log">
+    <h2>Notification feed (accuracy_tag title only)</h2>
+    <ul><li><code>ACC_RANGE_93_100</code> — NIFTY SELL · 13:00 · day 2026-11-02 · entry 23262.05 · SL 23292.05 · T 23232.05 · ATM PE 23250.0 · NIFTY26NOV23250PE</li><li><code>ACC_RANGE_93_100</code> — NIFTY BUY · 10:10 · day 2026-11-03 · entry 23631.6 · SL 23601.6 · T 23661.6 · ATM CE 23650.0 · NIFTY26NOV23650CE</li><li><code>ACC_RANGE_93_100</code> — NIFTY SELL · 10:20 · day 2026-11-04 · entry 23843.45 · SL 23873.45 · T 23813.45 · ATM PE 23850.0 · NIFTY26NOV23850PE</li><li><code>ACC_RANGE_93_100</code> — NIFTY BUY · 12:10 · day 2026-11-05 · entry 24411.95 · SL 24381.95 · T 24441.95 · ATM CE 24400.0 · NIFTY26NOV24400CE</li><li><code>ACC_RANGE_93_100</code> — NIFTY BUY · 10:10 · day 2026-11-06 · entry 24642.25 · SL 24612.25 · T 24672.25 · ATM CE 24650.0 · NIFTY26NOV24650CE</li><li><code>ACC_RANGE_98_100</code> — NIFTY BUY · 11:20 · day 2026-11-06 · entry 24598.1 · SL 24578.1 · T 24618.1 · ATM CE 24600.0 · NIFTY26NOV24600CE</li><li><code>ACC_RANGE_81_84</code> — NIFTY SELL · 11:00 · day 2026-11-09 · entry 24866.2 · SL 24896.2 · T 24836.2 · ATM PE 24850.0 · NIFTY26NOV24850PE</li><li><code>ACC_RANGE_93_100</code> — NIFTY BUY · 11:30 · day 2026-11-09 · entry 24979.75 · SL 24949.75 · T 25009.75 · ATM CE 25000.0 · NIFTY26NOV25000CE</li><li><code>ACC_RANGE_93_100</code> — NIFTY SELL · 12:20 · day 2026-11-11 · entry 25331.7 · SL 25361.7 · T 25301.7 · ATM PE 25350.0 · NIFTY26NOV25350PE</li><li><code>ACC_RANGE_93_100</code> — NIFTY BUY · 09:50 · day 2026-11-12 · entry 25352.25 · SL 25322.25 · T 25382.25 · ATM CE 25350.0 · NIFTY26NOV25350CE</li></ul>
+  </section>
+</div>
+</body>
+</html>

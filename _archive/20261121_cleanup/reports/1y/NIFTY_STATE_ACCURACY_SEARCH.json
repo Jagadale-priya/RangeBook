@@ -1,0 +1,785 @@
+{
+  "source": "csv+kite",
+  "best": {
+    "gate": {
+      "name": "n25_h55",
+      "min_analogs": 25,
+      "min_hit": 0.55,
+      "min_avg": 1.0,
+      "max_calls": 2,
+      "auctions": [],
+      "time_buckets": [],
+      "sides": [],
+      "min_analog_avg_edge": 0.0,
+      "max_risk": 25.0
+    },
+    "freeze": {
+      "n": 17,
+      "hit": 0.29411764705882354,
+      "net": -52.59999999999127,
+      "avg_w": 19.400000000001455,
+      "avg_l": -12.466666666666546,
+      "ratio": 1.5561497326204528,
+      "days": 17
+    },
+    "hold": {
+      "n": 3,
+      "hit": 0.6666666666666666,
+      "net": 25.80000000000291,
+      "avg_w": 19.400000000001455,
+      "avg_l": -13.0,
+      "ratio": 1.4923076923078042,
+      "days": 3
+    },
+    "score": 103.04624434389312
+  },
+  "baseline": {
+    "gate": {
+      "name": "baseline",
+      "min_analogs": 20,
+      "min_hit": 0.52,
+      "min_avg": 1.0,
+      "max_calls": 3,
+      "auctions": [],
+      "time_buckets": [],
+      "sides": [],
+      "min_analog_avg_edge": 0.0,
+      "max_risk": 25.0
+    },
+    "freeze": {
+      "n": 41,
+      "hit": 0.43902439024390244,
+      "net": 56.60000000002765,
+      "avg_w": 19.400000000001455,
+      "avg_l": -12.721739130434718,
+      "ratio": 1.5249487354751734,
+      "days": 41
+    },
+    "hold": {
+      "n": 6,
+      "hit": 0.5,
+      "net": 19.200000000004366,
+      "avg_w": 19.400000000001455,
+      "avg_l": -13.0,
+      "ratio": 1.4923076923078042,
+      "days": 6
+    },
+    "score": 92.65251407129759
+  },
+  "top": [
+    {
+      "gate": {
+        "name": "n25_h55",
+        "min_analogs": 25,
+        "min_hit": 0.55,
+        "min_avg": 1.0,
+        "max_calls": 2,
+        "auctions": [],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 17,
+        "hit": 0.29411764705882354,
+        "net": -52.59999999999127,
+        "avg_w": 19.400000000001455,
+        "avg_l": -12.466666666666546,
+        "ratio": 1.5561497326204528,
+        "days": 17
+      },
+      "hold": {
+        "n": 3,
+        "hit": 0.6666666666666666,
+        "net": 25.80000000000291,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 3
+      },
+      "score": 103.04624434389312
+    },
+    {
+      "gate": {
+        "name": "baseline",
+        "min_analogs": 20,
+        "min_hit": 0.52,
+        "min_avg": 1.0,
+        "max_calls": 3,
+        "auctions": [],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 41,
+        "hit": 0.43902439024390244,
+        "net": 56.60000000002765,
+        "avg_w": 19.400000000001455,
+        "avg_l": -12.721739130434718,
+        "ratio": 1.5249487354751734,
+        "days": 41
+      },
+      "hold": {
+        "n": 6,
+        "hit": 0.5,
+        "net": 19.200000000004366,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 6
+      },
+      "score": 92.65251407129759
+    },
+    {
+      "gate": {
+        "name": "edge2",
+        "min_analogs": 20,
+        "min_hit": 0.52,
+        "min_avg": 1.0,
+        "max_calls": 2,
+        "auctions": [],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 2.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 41,
+        "hit": 0.43902439024390244,
+        "net": 56.60000000002765,
+        "avg_w": 19.400000000001455,
+        "avg_l": -12.721739130434718,
+        "ratio": 1.5249487354751734,
+        "days": 41
+      },
+      "hold": {
+        "n": 6,
+        "hit": 0.5,
+        "net": 19.200000000004366,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 6
+      },
+      "score": 92.65251407129759
+    },
+    {
+      "gate": {
+        "name": "n25_h52",
+        "min_analogs": 25,
+        "min_hit": 0.52,
+        "min_avg": 1.0,
+        "max_calls": 2,
+        "auctions": [],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 27,
+        "hit": 0.37037037037037035,
+        "net": -20.599999999983993,
+        "avg_w": 19.400000000001455,
+        "avg_l": -12.62352941176462,
+        "ratio": 1.5368126747438349,
+        "days": 27
+      },
+      "hold": {
+        "n": 4,
+        "hit": 0.5,
+        "net": 12.80000000000291,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 4
+      },
+      "score": 84.44635327635535
+    },
+    {
+      "gate": {
+        "name": "strict_58",
+        "min_analogs": 20,
+        "min_hit": 0.58,
+        "min_avg": 1.0,
+        "max_calls": 3,
+        "auctions": [],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 14,
+        "hit": 0.42857142857142855,
+        "net": 12.400000000008731,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 14
+      },
+      "hold": {
+        "n": 3,
+        "hit": 0.3333333333333333,
+        "net": -6.599999999998545,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 3
+      },
+      "score": 63.57439560439696
+    },
+    {
+      "gate": {
+        "name": "n30_h52",
+        "min_analogs": 30,
+        "min_hit": 0.52,
+        "min_avg": 1.0,
+        "max_calls": 2,
+        "auctions": [],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 20,
+        "hit": 0.45,
+        "net": 31.600000000013097,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 20
+      },
+      "hold": {
+        "n": 0,
+        "hit": null,
+        "net": 0.0,
+        "avg_w": null,
+        "avg_l": null,
+        "ratio": null,
+        "days": 0
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "failed_only",
+        "min_analogs": 20,
+        "min_hit": 0.52,
+        "min_avg": 1.0,
+        "max_calls": 3,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 10,
+        "hit": 0.4,
+        "net": 6.000000000007276,
+        "avg_w": 19.400000000001455,
+        "avg_l": -11.93333333333309,
+        "ratio": 1.6256983240225014,
+        "days": 10
+      },
+      "hold": {
+        "n": 6,
+        "hit": 0.5,
+        "net": 19.200000000004366,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 6
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "failed_n20_h55",
+        "min_analogs": 20,
+        "min_hit": 0.55,
+        "min_avg": 1.0,
+        "max_calls": 2,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 7,
+        "hit": 0.2857142857142857,
+        "net": -19.799999999995634,
+        "avg_w": 19.400000000001455,
+        "avg_l": -11.71999999999971,
+        "ratio": 1.6552901023892437,
+        "days": 7
+      },
+      "hold": {
+        "n": 5,
+        "hit": 0.6,
+        "net": 32.200000000004366,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 5
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "failed_n20_h58",
+        "min_analogs": 20,
+        "min_hit": 0.58,
+        "min_avg": 1.0,
+        "max_calls": 2,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 2,
+        "hit": 0.0,
+        "net": -26.0,
+        "avg_w": null,
+        "avg_l": -13.0,
+        "ratio": null,
+        "days": 2
+      },
+      "hold": {
+        "n": 3,
+        "hit": 0.3333333333333333,
+        "net": -6.599999999998545,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 3
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "failed_morning",
+        "min_analogs": 20,
+        "min_hit": 0.52,
+        "min_avg": 1.0,
+        "max_calls": 2,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [
+          "morning",
+          "late_morning"
+        ],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 3,
+        "hit": 0.3333333333333333,
+        "net": -6.599999999998545,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 3
+      },
+      "hold": {
+        "n": 4,
+        "hit": 0.5,
+        "net": 12.80000000000291,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 4
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "failed_late_am",
+        "min_analogs": 20,
+        "min_hit": 0.55,
+        "min_avg": 1.0,
+        "max_calls": 1,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [
+          "late_morning"
+        ],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 1,
+        "hit": 0.0,
+        "net": -13.0,
+        "avg_w": null,
+        "avg_l": -13.0,
+        "ratio": null,
+        "days": 1
+      },
+      "hold": {
+        "n": 3,
+        "hit": 0.6666666666666666,
+        "net": 25.80000000000291,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 3
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "failed_afternoon",
+        "min_analogs": 20,
+        "min_hit": 0.55,
+        "min_avg": 1.0,
+        "max_calls": 1,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [
+          "afternoon"
+        ],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 6,
+        "hit": 0.3333333333333333,
+        "net": -6.799999999995634,
+        "avg_w": 19.400000000001455,
+        "avg_l": -11.399999999999636,
+        "ratio": 1.7017543859650943,
+        "days": 6
+      },
+      "hold": {
+        "n": 2,
+        "hit": 0.5,
+        "net": 6.400000000001455,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 2
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "break_only",
+        "min_analogs": 20,
+        "min_hit": 0.52,
+        "min_avg": 1.0,
+        "max_calls": 2,
+        "auctions": [
+          "above",
+          "below"
+        ],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 31,
+        "hit": 0.45161290322580644,
+        "net": 50.60000000002037,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 31
+      },
+      "hold": {
+        "n": 0,
+        "hit": null,
+        "net": 0.0,
+        "avg_w": null,
+        "avg_l": null,
+        "ratio": null,
+        "days": 0
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "failed_edge2",
+        "min_analogs": 20,
+        "min_hit": 0.55,
+        "min_avg": 1.0,
+        "max_calls": 2,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 2.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 7,
+        "hit": 0.2857142857142857,
+        "net": -19.799999999995634,
+        "avg_w": 19.400000000001455,
+        "avg_l": -11.71999999999971,
+        "ratio": 1.6552901023892437,
+        "days": 7
+      },
+      "hold": {
+        "n": 5,
+        "hit": 0.6,
+        "net": 32.200000000004366,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 5
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "failed_edge3_h55",
+        "min_analogs": 20,
+        "min_hit": 0.55,
+        "min_avg": 1.0,
+        "max_calls": 1,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 3.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 7,
+        "hit": 0.2857142857142857,
+        "net": -19.799999999995634,
+        "avg_w": 19.400000000001455,
+        "avg_l": -11.71999999999971,
+        "ratio": 1.6552901023892437,
+        "days": 7
+      },
+      "hold": {
+        "n": 5,
+        "hit": 0.6,
+        "net": 32.200000000004366,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 5
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "sell_failed",
+        "min_analogs": 20,
+        "min_hit": 0.55,
+        "min_avg": 1.0,
+        "max_calls": 1,
+        "auctions": [
+          "failed_up"
+        ],
+        "time_buckets": [],
+        "sides": [
+          "sell"
+        ],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 6,
+        "hit": 0.3333333333333333,
+        "net": -6.799999999995634,
+        "avg_w": 19.400000000001455,
+        "avg_l": -11.399999999999636,
+        "ratio": 1.7017543859650943,
+        "days": 6
+      },
+      "hold": {
+        "n": 2,
+        "hit": 0.5,
+        "net": 6.400000000001455,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 2
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "buy_failed",
+        "min_analogs": 20,
+        "min_hit": 0.55,
+        "min_avg": 1.0,
+        "max_calls": 1,
+        "auctions": [
+          "failed_down"
+        ],
+        "time_buckets": [],
+        "sides": [
+          "buy"
+        ],
+        "min_analog_avg_edge": 0.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 1,
+        "hit": 0.0,
+        "net": -13.0,
+        "avg_w": null,
+        "avg_l": -13.0,
+        "ratio": null,
+        "days": 1
+      },
+      "hold": {
+        "n": 3,
+        "hit": 0.6666666666666666,
+        "net": 25.80000000000291,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 3
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "accurate_A",
+        "min_analogs": 22,
+        "min_hit": 0.55,
+        "min_avg": 1.0,
+        "max_calls": 1,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 2.0,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 4,
+        "hit": 0.0,
+        "net": -45.599999999998545,
+        "avg_w": null,
+        "avg_l": -11.399999999999636,
+        "ratio": null,
+        "days": 4
+      },
+      "hold": {
+        "n": 4,
+        "hit": 0.75,
+        "net": 45.200000000004366,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 4
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "accurate_B",
+        "min_analogs": 20,
+        "min_hit": 0.58,
+        "min_avg": 1.0,
+        "max_calls": 1,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [
+          "late_morning",
+          "afternoon"
+        ],
+        "sides": [],
+        "min_analog_avg_edge": 1.5,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 2,
+        "hit": 0.0,
+        "net": -26.0,
+        "avg_w": null,
+        "avg_l": -13.0,
+        "ratio": null,
+        "days": 2
+      },
+      "hold": {
+        "n": 3,
+        "hit": 0.3333333333333333,
+        "net": -6.599999999998545,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 3
+      },
+      "score": -1000000000.0
+    },
+    {
+      "gate": {
+        "name": "accurate_C",
+        "min_analogs": 25,
+        "min_hit": 0.55,
+        "min_avg": 1.0,
+        "max_calls": 1,
+        "auctions": [
+          "failed_up",
+          "failed_down"
+        ],
+        "time_buckets": [],
+        "sides": [],
+        "min_analog_avg_edge": 2.5,
+        "max_risk": 25.0
+      },
+      "freeze": {
+        "n": 2,
+        "hit": 0.0,
+        "net": -19.599999999998545,
+        "avg_w": null,
+        "avg_l": -9.799999999999272,
+        "ratio": null,
+        "days": 2
+      },
+      "hold": {
+        "n": 3,
+        "hit": 0.6666666666666666,
+        "net": 25.80000000000291,
+        "avg_w": 19.400000000001455,
+        "avg_l": -13.0,
+        "ratio": 1.4923076923078042,
+        "days": 3
+      },
+      "score": -1000000000.0
+    }
+  ]
+}

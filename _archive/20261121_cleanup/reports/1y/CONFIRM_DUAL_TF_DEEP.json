@@ -1,0 +1,7550 @@
+{
+  "goal": "Deep: 15m dual gate (prod proven exists) \u00d7 5m entry confirm \u2014 expand 100%",
+  "facts": {
+    "prod_15m_dual_proven": true,
+    "prod_5m_proven": false,
+    "prod_5m_channel": "crown_5m only",
+    "research_5m_dual": "same packs replayed on 5m \u2014 not a trained 5m proven"
+  },
+  "windows": {
+    "3y": {
+      "sessions": 628,
+      "best_perfect": {
+        "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+        "note": "",
+        "perfect": true,
+        "n": 49,
+        "hit_pct": 100.0,
+        "wins": 49,
+        "losses": 0,
+        "points": 2070.0,
+        "days": 49,
+        "by_track": {
+          "add_T30_gate15any_entry5any": {
+            "n": 8,
+            "hit_pct": 100.0,
+            "points": 258.0
+          },
+          "proven_100": {
+            "n": 41,
+            "hit_pct": 100.0,
+            "points": 1812.0
+          }
+        },
+        "days_with_call": 46,
+        "days_no_call": 582,
+        "day_cov_pct": 7.3,
+        "buy_n": 20,
+        "sell_n": 29,
+        "buy_hit": 100.0,
+        "sell_hit": 100.0
+      },
+      "best_ge95": {
+        "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+        "note": "",
+        "perfect": true,
+        "n": 49,
+        "hit_pct": 100.0,
+        "wins": 49,
+        "losses": 0,
+        "points": 2070.0,
+        "days": 49,
+        "by_track": {
+          "add_T30_gate15any_entry5any": {
+            "n": 8,
+            "hit_pct": 100.0,
+            "points": 258.0
+          },
+          "proven_100": {
+            "n": 41,
+            "hit_pct": 100.0,
+            "points": 1812.0
+          }
+        },
+        "days_with_call": 46,
+        "days_no_call": 582,
+        "day_cov_pct": 7.3,
+        "buy_n": 20,
+        "sell_n": 29,
+        "buy_hit": 100.0,
+        "sell_hit": 100.0
+      },
+      "perfect_n8": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 49,
+          "hit_pct": 100.0,
+          "wins": 49,
+          "losses": 0,
+          "points": 2070.0,
+          "days": 49,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "points": 258.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 46,
+          "days_no_call": 582,
+          "day_cov_pct": 7.3,
+          "buy_n": 20,
+          "sell_n": 29,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 48,
+          "hit_pct": 100.0,
+          "wins": 48,
+          "losses": 0,
+          "points": 2025.0,
+          "days": 48,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 45,
+          "days_no_call": 583,
+          "day_cov_pct": 7.2,
+          "buy_n": 19,
+          "sell_n": 29,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 42,
+          "hit_pct": 100.0,
+          "wins": 42,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 42,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 39,
+          "days_no_call": 589,
+          "day_cov_pct": 6.2,
+          "buy_n": 15,
+          "sell_n": 27,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 348.0,
+          "days": 11,
+          "by_track": {
+            "T30_gate15any_entry5any": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "points": 348.0
+            }
+          },
+          "days_with_call": 11,
+          "days_no_call": 617,
+          "day_cov_pct": 1.8,
+          "buy_n": 6,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 348.0,
+          "days": 11,
+          "by_track": {
+            "T30_gate15any_entry_5mprod": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "points": 348.0
+            }
+          },
+          "days_with_call": 11,
+          "days_no_call": 617,
+          "day_cov_pct": 1.8,
+          "buy_n": 6,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 348.0,
+          "days": 11,
+          "by_track": {
+            "CAP1_T30_gate15any_entry5any": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "points": 348.0
+            }
+          },
+          "days_with_call": 11,
+          "days_no_call": 617,
+          "day_cov_pct": 1.8,
+          "buy_n": 6,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T15_gate15any_entry5any": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T20_gate15any_entry5any": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T15_gate15any_entry_5mprod": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T20_gate15any_entry_5mprod": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 318.0,
+          "days": 10,
+          "by_track": {
+            "T30_gate15any_entry5any_am": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 318.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 6,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 318.0,
+          "days": 10,
+          "by_track": {
+            "T60_gate15any_entry5any_am": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 318.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 6,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "CAP1_T15_gate15any_entry5any": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0,
+          "days": 9,
+          "by_track": {
+            "T10_gate15any_entry5any": {
+              "n": 9,
+              "hit_pct": 100.0,
+              "points": 273.0
+            }
+          },
+          "days_with_call": 9,
+          "days_no_call": 619,
+          "day_cov_pct": 1.4,
+          "buy_n": 4,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0,
+          "days": 9,
+          "by_track": {
+            "T10_gate15any_entry_5mprod": {
+              "n": 9,
+              "hit_pct": 100.0,
+              "points": 273.0
+            }
+          },
+          "days_with_call": 9,
+          "days_no_call": 619,
+          "day_cov_pct": 1.4,
+          "buy_n": 4,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0,
+          "days": 9,
+          "by_track": {
+            "T15_gate15any_entry5any_am": {
+              "n": 9,
+              "hit_pct": 100.0,
+              "points": 273.0
+            }
+          },
+          "days_with_call": 9,
+          "days_no_call": 619,
+          "day_cov_pct": 1.4,
+          "buy_n": 5,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        }
+      ],
+      "ge95_n8": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 49,
+          "hit_pct": 100.0,
+          "wins": 49,
+          "losses": 0,
+          "points": 2070.0,
+          "days": 49,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "points": 258.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 46,
+          "days_no_call": 582,
+          "day_cov_pct": 7.3,
+          "buy_n": 20,
+          "sell_n": 29,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 48,
+          "hit_pct": 100.0,
+          "wins": 48,
+          "losses": 0,
+          "points": 2025.0,
+          "days": 48,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 45,
+          "days_no_call": 583,
+          "day_cov_pct": 7.2,
+          "buy_n": 19,
+          "sell_n": 29,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 42,
+          "hit_pct": 100.0,
+          "wins": 42,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 42,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 39,
+          "days_no_call": 589,
+          "day_cov_pct": 6.2,
+          "buy_n": 15,
+          "sell_n": 27,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 348.0,
+          "days": 11,
+          "by_track": {
+            "T30_gate15any_entry5any": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "points": 348.0
+            }
+          },
+          "days_with_call": 11,
+          "days_no_call": 617,
+          "day_cov_pct": 1.8,
+          "buy_n": 6,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 348.0,
+          "days": 11,
+          "by_track": {
+            "T30_gate15any_entry_5mprod": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "points": 348.0
+            }
+          },
+          "days_with_call": 11,
+          "days_no_call": 617,
+          "day_cov_pct": 1.8,
+          "buy_n": 6,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 348.0,
+          "days": 11,
+          "by_track": {
+            "CAP1_T30_gate15any_entry5any": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "points": 348.0
+            }
+          },
+          "days_with_call": 11,
+          "days_no_call": 617,
+          "day_cov_pct": 1.8,
+          "buy_n": 6,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T15_gate15any_entry5any": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T20_gate15any_entry5any": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T15_gate15any_entry_5mprod": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T20_gate15any_entry_5mprod": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 318.0,
+          "days": 10,
+          "by_track": {
+            "T30_gate15any_entry5any_am": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 318.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 6,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 318.0,
+          "days": 10,
+          "by_track": {
+            "T60_gate15any_entry5any_am": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 318.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 6,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "CAP1_T15_gate15any_entry5any": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0,
+          "days": 9,
+          "by_track": {
+            "T10_gate15any_entry5any": {
+              "n": 9,
+              "hit_pct": 100.0,
+              "points": 273.0
+            }
+          },
+          "days_with_call": 9,
+          "days_no_call": 619,
+          "day_cov_pct": 1.4,
+          "buy_n": 4,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0,
+          "days": 9,
+          "by_track": {
+            "T10_gate15any_entry_5mprod": {
+              "n": 9,
+              "hit_pct": 100.0,
+              "points": 273.0
+            }
+          },
+          "days_with_call": 9,
+          "days_no_call": 619,
+          "day_cov_pct": 1.4,
+          "buy_n": 4,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0,
+          "days": 9,
+          "by_track": {
+            "T15_gate15any_entry5any_am": {
+              "n": 9,
+              "hit_pct": 100.0,
+              "points": 273.0
+            }
+          },
+          "days_with_call": 9,
+          "days_no_call": 619,
+          "day_cov_pct": 1.4,
+          "buy_n": 5,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        }
+      ],
+      "ge90_n15": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 49,
+          "hit_pct": 100.0,
+          "wins": 49,
+          "losses": 0,
+          "points": 2070.0,
+          "days": 49,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "points": 258.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 46,
+          "days_no_call": 582,
+          "day_cov_pct": 7.3,
+          "buy_n": 20,
+          "sell_n": 29,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 48,
+          "hit_pct": 100.0,
+          "wins": 48,
+          "losses": 0,
+          "points": 2025.0,
+          "days": 48,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 45,
+          "days_no_call": 583,
+          "day_cov_pct": 7.2,
+          "buy_n": 19,
+          "sell_n": 29,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 42,
+          "hit_pct": 100.0,
+          "wins": 42,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 42,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 39,
+          "days_no_call": 589,
+          "day_cov_pct": 6.2,
+          "buy_n": 15,
+          "sell_n": 27,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        }
+      ],
+      "board_top": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 49,
+          "hit_pct": 100.0,
+          "wins": 49,
+          "losses": 0,
+          "points": 2070.0,
+          "days": 49,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "points": 258.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 46,
+          "days_no_call": 582,
+          "day_cov_pct": 7.3,
+          "buy_n": 20,
+          "sell_n": 29,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 48,
+          "hit_pct": 100.0,
+          "wins": 48,
+          "losses": 0,
+          "points": 2025.0,
+          "days": 48,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 45,
+          "days_no_call": 583,
+          "day_cov_pct": 7.2,
+          "buy_n": 19,
+          "sell_n": 29,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 42,
+          "hit_pct": 100.0,
+          "wins": 42,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 42,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 39,
+          "days_no_call": 589,
+          "day_cov_pct": 6.2,
+          "buy_n": 15,
+          "sell_n": 27,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 41,
+          "hit_pct": 100.0,
+          "wins": 41,
+          "losses": 0,
+          "points": 1812.0,
+          "days": 41,
+          "by_track": {
+            "proven_100": {
+              "n": 41,
+              "hit_pct": 100.0,
+              "points": 1812.0
+            }
+          },
+          "days_with_call": 38,
+          "days_no_call": 590,
+          "day_cov_pct": 6.1,
+          "buy_n": 15,
+          "sell_n": 26,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 348.0,
+          "days": 11,
+          "by_track": {
+            "T30_gate15any_entry5any": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "points": 348.0
+            }
+          },
+          "days_with_call": 11,
+          "days_no_call": 617,
+          "day_cov_pct": 1.8,
+          "buy_n": 6,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 348.0,
+          "days": 11,
+          "by_track": {
+            "T30_gate15any_entry_5mprod": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "points": 348.0
+            }
+          },
+          "days_with_call": 11,
+          "days_no_call": 617,
+          "day_cov_pct": 1.8,
+          "buy_n": 6,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 11,
+          "hit_pct": 100.0,
+          "wins": 11,
+          "losses": 0,
+          "points": 348.0,
+          "days": 11,
+          "by_track": {
+            "CAP1_T30_gate15any_entry5any": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "points": 348.0
+            }
+          },
+          "days_with_call": 11,
+          "days_no_call": 617,
+          "day_cov_pct": 1.8,
+          "buy_n": 6,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T15_gate15any_entry5any": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T20_gate15any_entry5any": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T15_gate15any_entry_5mprod": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "T20_gate15any_entry_5mprod": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 318.0,
+          "days": 10,
+          "by_track": {
+            "T30_gate15any_entry5any_am": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 318.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 6,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 318.0,
+          "days": 10,
+          "by_track": {
+            "T60_gate15any_entry5any_am": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 318.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 6,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 10,
+          "hit_pct": 100.0,
+          "wins": 10,
+          "losses": 0,
+          "points": 303.0,
+          "days": 10,
+          "by_track": {
+            "CAP1_T15_gate15any_entry5any": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "points": 303.0
+            }
+          },
+          "days_with_call": 10,
+          "days_no_call": 618,
+          "day_cov_pct": 1.6,
+          "buy_n": 5,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0,
+          "days": 9,
+          "by_track": {
+            "T10_gate15any_entry5any": {
+              "n": 9,
+              "hit_pct": 100.0,
+              "points": 273.0
+            }
+          },
+          "days_with_call": 9,
+          "days_no_call": 619,
+          "day_cov_pct": 1.4,
+          "buy_n": 4,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0,
+          "days": 9,
+          "by_track": {
+            "T10_gate15any_entry_5mprod": {
+              "n": 9,
+              "hit_pct": 100.0,
+              "points": 273.0
+            }
+          },
+          "days_with_call": 9,
+          "days_no_call": 619,
+          "day_cov_pct": 1.4,
+          "buy_n": 4,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 9,
+          "hit_pct": 100.0,
+          "wins": 9,
+          "losses": 0,
+          "points": 273.0,
+          "days": 9,
+          "by_track": {
+            "T15_gate15any_entry5any_am": {
+              "n": 9,
+              "hit_pct": 100.0,
+              "points": 273.0
+            }
+          },
+          "days_with_call": 9,
+          "days_no_call": 619,
+          "day_cov_pct": 1.4,
+          "buy_n": 5,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 228.0,
+          "days": 7,
+          "by_track": {
+            "T30_gate15any_entry5champ": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 228.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 621,
+          "day_cov_pct": 1.1,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 228.0,
+          "days": 7,
+          "by_track": {
+            "T45_gate15any_entry5champ": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 228.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 621,
+          "day_cov_pct": 1.1,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 228.0,
+          "days": 7,
+          "by_track": {
+            "T60_gate15any_entry5champ": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 228.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 621,
+          "day_cov_pct": 1.1,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 183.0,
+          "days": 6,
+          "by_track": {
+            "T15_gate15any_entry5champ": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "points": 183.0
+            }
+          },
+          "days_with_call": 6,
+          "days_no_call": 622,
+          "day_cov_pct": 1.0,
+          "buy_n": 2,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 183.0,
+          "days": 6,
+          "by_track": {
+            "T20_gate15any_entry5champ": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "points": 183.0
+            }
+          },
+          "days_with_call": 6,
+          "days_no_call": 622,
+          "day_cov_pct": 1.0,
+          "buy_n": 2,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any_BUY",
+          "note": "",
+          "perfect": true,
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 198.0,
+          "days": 6,
+          "by_track": {
+            "T30_gate15any_entry5any_BUY": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "points": 198.0
+            }
+          },
+          "days_with_call": 6,
+          "days_no_call": 622,
+          "day_cov_pct": 1.0,
+          "buy_n": 6,
+          "sell_n": 0,
+          "buy_hit": 100.0,
+          "sell_hit": null
+        },
+        {
+          "name": "T10_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 153.0,
+          "days": 5,
+          "by_track": {
+            "T10_gate15any_entry5champ": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 153.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 623,
+          "day_cov_pct": 0.8,
+          "buy_n": 1,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any_BUY",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 153.0,
+          "days": 5,
+          "by_track": {
+            "T15_gate15any_entry5any_BUY": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 153.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 623,
+          "day_cov_pct": 0.8,
+          "buy_n": 5,
+          "sell_n": 0,
+          "buy_hit": 100.0,
+          "sell_hit": null
+        },
+        {
+          "name": "T15_gate15any_entry5any_SELL",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T15_gate15any_entry5any_SELL": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 623,
+          "day_cov_pct": 0.8,
+          "buy_n": 0,
+          "sell_n": 5,
+          "buy_hit": null,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any_SELL",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T30_gate15any_entry5any_SELL": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 623,
+          "day_cov_pct": 0.8,
+          "buy_n": 0,
+          "sell_n": 5,
+          "buy_hit": null,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T5_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T5_gate15any_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 625,
+          "day_cov_pct": 0.5,
+          "buy_n": 0,
+          "sell_n": 3,
+          "buy_hit": null,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T10_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 625,
+          "day_cov_pct": 0.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T15_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 625,
+          "day_cov_pct": 0.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T20_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 625,
+          "day_cov_pct": 0.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T30_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 625,
+          "day_cov_pct": 0.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T45_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 625,
+          "day_cov_pct": 0.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T60_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 625,
+          "day_cov_pct": 0.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T90_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T90_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 625,
+          "day_cov_pct": 0.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T5_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T5_gate15any_entry5champ": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 625,
+          "day_cov_pct": 0.5,
+          "buy_n": 0,
+          "sell_n": 3,
+          "buy_hit": null,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate_pool_proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T10_gate_pool_proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 625,
+          "day_cov_pct": 0.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        }
+      ]
+    },
+    "1y": {
+      "sessions": 203,
+      "best_perfect": {
+        "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+        "note": "",
+        "perfect": true,
+        "n": 28,
+        "hit_pct": 100.0,
+        "wins": 28,
+        "losses": 0,
+        "points": 1249.0,
+        "days": 28,
+        "by_track": {
+          "add_T30_gate15any_entry5any": {
+            "n": 4,
+            "hit_pct": 100.0,
+            "points": 123.0
+          },
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1126.0
+          }
+        },
+        "days_with_call": 26,
+        "days_no_call": 177,
+        "day_cov_pct": 12.8,
+        "buy_n": 8,
+        "sell_n": 20,
+        "buy_hit": 100.0,
+        "sell_hit": 100.0
+      },
+      "best_ge95": {
+        "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+        "note": "",
+        "perfect": true,
+        "n": 28,
+        "hit_pct": 100.0,
+        "wins": 28,
+        "losses": 0,
+        "points": 1249.0,
+        "days": 28,
+        "by_track": {
+          "add_T30_gate15any_entry5any": {
+            "n": 4,
+            "hit_pct": 100.0,
+            "points": 123.0
+          },
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1126.0
+          }
+        },
+        "days_with_call": 26,
+        "days_no_call": 177,
+        "day_cov_pct": 12.8,
+        "buy_n": 8,
+        "sell_n": 20,
+        "buy_hit": 100.0,
+        "sell_hit": 100.0
+      },
+      "perfect_n8": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 28,
+          "hit_pct": 100.0,
+          "wins": 28,
+          "losses": 0,
+          "points": 1249.0,
+          "days": 28,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 123.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 26,
+          "days_no_call": 177,
+          "day_cov_pct": 12.8,
+          "buy_n": 8,
+          "sell_n": 20,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 28,
+          "hit_pct": 100.0,
+          "wins": 28,
+          "losses": 0,
+          "points": 1249.0,
+          "days": 28,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 123.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 26,
+          "days_no_call": 177,
+          "day_cov_pct": 12.8,
+          "buy_n": 8,
+          "sell_n": 20,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 25,
+          "hit_pct": 100.0,
+          "wins": 25,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 25,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 23,
+          "days_no_call": 180,
+          "day_cov_pct": 11.3,
+          "buy_n": 6,
+          "sell_n": 19,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 213.0,
+          "days": 8,
+          "by_track": {
+            "T45_gate15any_entry_5mprod": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 8,
+          "days_no_call": 195,
+          "day_cov_pct": 3.9,
+          "buy_n": 3,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 213.0,
+          "days": 8,
+          "by_track": {
+            "T60_gate15any_entry_5mprod": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 8,
+          "days_no_call": 195,
+          "day_cov_pct": 3.9,
+          "buy_n": 3,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        }
+      ],
+      "ge95_n8": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 28,
+          "hit_pct": 100.0,
+          "wins": 28,
+          "losses": 0,
+          "points": 1249.0,
+          "days": 28,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 123.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 26,
+          "days_no_call": 177,
+          "day_cov_pct": 12.8,
+          "buy_n": 8,
+          "sell_n": 20,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 28,
+          "hit_pct": 100.0,
+          "wins": 28,
+          "losses": 0,
+          "points": 1249.0,
+          "days": 28,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 123.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 26,
+          "days_no_call": 177,
+          "day_cov_pct": 12.8,
+          "buy_n": 8,
+          "sell_n": 20,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 25,
+          "hit_pct": 100.0,
+          "wins": 25,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 25,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 23,
+          "days_no_call": 180,
+          "day_cov_pct": 11.3,
+          "buy_n": 6,
+          "sell_n": 19,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 213.0,
+          "days": 8,
+          "by_track": {
+            "T45_gate15any_entry_5mprod": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 8,
+          "days_no_call": 195,
+          "day_cov_pct": 3.9,
+          "buy_n": 3,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 213.0,
+          "days": 8,
+          "by_track": {
+            "T60_gate15any_entry_5mprod": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 8,
+          "days_no_call": 195,
+          "day_cov_pct": 3.9,
+          "buy_n": 3,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_any",
+          "note": "",
+          "perfect": false,
+          "n": 64,
+          "hit_pct": 95.31,
+          "wins": 61,
+          "losses": 3,
+          "points": 2492.0,
+          "days": 63,
+          "by_track": {
+            "champion": {
+              "n": 40,
+              "hit_pct": 92.5,
+              "points": 1366.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 58,
+          "days_no_call": 145,
+          "day_cov_pct": 28.6,
+          "buy_n": 28,
+          "sell_n": 36,
+          "buy_hit": 92.9,
+          "sell_hit": 97.2
+        }
+      ],
+      "ge90_n15": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 28,
+          "hit_pct": 100.0,
+          "wins": 28,
+          "losses": 0,
+          "points": 1249.0,
+          "days": 28,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 123.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 26,
+          "days_no_call": 177,
+          "day_cov_pct": 12.8,
+          "buy_n": 8,
+          "sell_n": 20,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 28,
+          "hit_pct": 100.0,
+          "wins": 28,
+          "losses": 0,
+          "points": 1249.0,
+          "days": 28,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 123.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 26,
+          "days_no_call": 177,
+          "day_cov_pct": 12.8,
+          "buy_n": 8,
+          "sell_n": 20,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 25,
+          "hit_pct": 100.0,
+          "wins": 25,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 25,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 23,
+          "days_no_call": 180,
+          "day_cov_pct": 11.3,
+          "buy_n": 6,
+          "sell_n": 19,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_any",
+          "note": "",
+          "perfect": false,
+          "n": 64,
+          "hit_pct": 95.31,
+          "wins": 61,
+          "losses": 3,
+          "points": 2492.0,
+          "days": 63,
+          "by_track": {
+            "champion": {
+              "n": 40,
+              "hit_pct": 92.5,
+              "points": 1366.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 58,
+          "days_no_call": 145,
+          "day_cov_pct": 28.6,
+          "buy_n": 28,
+          "sell_n": 36,
+          "buy_hit": 92.9,
+          "sell_hit": 97.2
+        },
+        {
+          "name": "BASE_dual15_champ",
+          "note": "",
+          "perfect": false,
+          "n": 40,
+          "hit_pct": 92.5,
+          "wins": 37,
+          "losses": 3,
+          "points": 1366.0,
+          "days": 39,
+          "by_track": {
+            "champion": {
+              "n": 40,
+              "hit_pct": 92.5,
+              "points": 1366.0
+            }
+          },
+          "days_with_call": 36,
+          "days_no_call": 167,
+          "day_cov_pct": 17.7,
+          "buy_n": 22,
+          "sell_n": 18,
+          "buy_hit": 90.9,
+          "sell_hit": 94.4
+        }
+      ],
+      "board_top": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 28,
+          "hit_pct": 100.0,
+          "wins": 28,
+          "losses": 0,
+          "points": 1249.0,
+          "days": 28,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 123.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 26,
+          "days_no_call": 177,
+          "day_cov_pct": 12.8,
+          "buy_n": 8,
+          "sell_n": 20,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 28,
+          "hit_pct": 100.0,
+          "wins": 28,
+          "losses": 0,
+          "points": 1249.0,
+          "days": 28,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 123.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 26,
+          "days_no_call": 177,
+          "day_cov_pct": 12.8,
+          "buy_n": 8,
+          "sell_n": 20,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 25,
+          "hit_pct": 100.0,
+          "wins": 25,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 25,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 23,
+          "days_no_call": 180,
+          "day_cov_pct": 11.3,
+          "buy_n": 6,
+          "sell_n": 19,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 24,
+          "hit_pct": 100.0,
+          "wins": 24,
+          "losses": 0,
+          "points": 1126.0,
+          "days": 24,
+          "by_track": {
+            "proven_100": {
+              "n": 24,
+              "hit_pct": 100.0,
+              "points": 1126.0
+            }
+          },
+          "days_with_call": 22,
+          "days_no_call": 181,
+          "day_cov_pct": 10.8,
+          "buy_n": 6,
+          "sell_n": 18,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 213.0,
+          "days": 8,
+          "by_track": {
+            "T45_gate15any_entry_5mprod": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 8,
+          "days_no_call": 195,
+          "day_cov_pct": 3.9,
+          "buy_n": 3,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 8,
+          "hit_pct": 100.0,
+          "wins": 8,
+          "losses": 0,
+          "points": 213.0,
+          "days": 8,
+          "by_track": {
+            "T60_gate15any_entry_5mprod": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 8,
+          "days_no_call": 195,
+          "day_cov_pct": 3.9,
+          "buy_n": 3,
+          "sell_n": 5,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "T15_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "T20_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "T30_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "T45_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "T60_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "T15_gate15any_entry_5mprod": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "T20_gate15any_entry_5mprod": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "T30_gate15any_entry_5mprod": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "CAP1_T30_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "CAP1_T15_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T60_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 7,
+          "hit_pct": 100.0,
+          "wins": 7,
+          "losses": 0,
+          "points": 213.0,
+          "days": 7,
+          "by_track": {
+            "CAP1_T60_gate15any_entry5any": {
+              "n": 7,
+              "hit_pct": 100.0,
+              "points": 213.0
+            }
+          },
+          "days_with_call": 7,
+          "days_no_call": 196,
+          "day_cov_pct": 3.4,
+          "buy_n": 3,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 183.0,
+          "days": 6,
+          "by_track": {
+            "T10_gate15any_entry5any": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "points": 183.0
+            }
+          },
+          "days_with_call": 6,
+          "days_no_call": 197,
+          "day_cov_pct": 3.0,
+          "buy_n": 2,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 183.0,
+          "days": 6,
+          "by_track": {
+            "T10_gate15any_entry_5mprod": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "points": 183.0
+            }
+          },
+          "days_with_call": 6,
+          "days_no_call": 197,
+          "day_cov_pct": 3.0,
+          "buy_n": 2,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 183.0,
+          "days": 6,
+          "by_track": {
+            "T15_gate15any_entry5any_am": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "points": 183.0
+            }
+          },
+          "days_with_call": 6,
+          "days_no_call": 197,
+          "day_cov_pct": 3.0,
+          "buy_n": 3,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 183.0,
+          "days": 6,
+          "by_track": {
+            "T30_gate15any_entry5any_am": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "points": 183.0
+            }
+          },
+          "days_with_call": 6,
+          "days_no_call": 197,
+          "day_cov_pct": 3.0,
+          "buy_n": 3,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 183.0,
+          "days": 6,
+          "by_track": {
+            "T60_gate15any_entry5any_am": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "points": 183.0
+            }
+          },
+          "days_with_call": 6,
+          "days_no_call": 197,
+          "day_cov_pct": 3.0,
+          "buy_n": 3,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 153.0,
+          "days": 5,
+          "by_track": {
+            "T15_gate15any_entry5champ": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 153.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 198,
+          "day_cov_pct": 2.5,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 153.0,
+          "days": 5,
+          "by_track": {
+            "T20_gate15any_entry5champ": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 153.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 198,
+          "day_cov_pct": 2.5,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 153.0,
+          "days": 5,
+          "by_track": {
+            "T30_gate15any_entry5champ": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 153.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 198,
+          "day_cov_pct": 2.5,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 153.0,
+          "days": 5,
+          "by_track": {
+            "T45_gate15any_entry5champ": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 153.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 198,
+          "day_cov_pct": 2.5,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 153.0,
+          "days": 5,
+          "by_track": {
+            "T60_gate15any_entry5champ": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 153.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 198,
+          "day_cov_pct": 2.5,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "REF_agree_good_dual5",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "REF_agree_good_dual5": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 198,
+          "day_cov_pct": 2.5,
+          "buy_n": 1,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 123.0,
+          "days": 4,
+          "by_track": {
+            "T10_gate15any_entry5champ": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 123.0
+            }
+          },
+          "days_with_call": 4,
+          "days_no_call": 199,
+          "day_cov_pct": 2.0,
+          "buy_n": 1,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any_SELL",
+          "note": "",
+          "perfect": true,
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0,
+          "days": 4,
+          "by_track": {
+            "T15_gate15any_entry5any_SELL": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 120.0
+            }
+          },
+          "days_with_call": 4,
+          "days_no_call": 199,
+          "day_cov_pct": 2.0,
+          "buy_n": 0,
+          "sell_n": 4,
+          "buy_hit": null,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any_SELL",
+          "note": "",
+          "perfect": true,
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0,
+          "days": 4,
+          "by_track": {
+            "T30_gate15any_entry5any_SELL": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 120.0
+            }
+          },
+          "days_with_call": 4,
+          "days_no_call": 199,
+          "day_cov_pct": 2.0,
+          "buy_n": 0,
+          "sell_n": 4,
+          "buy_hit": null,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T10_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 200,
+          "day_cov_pct": 1.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T15_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 200,
+          "day_cov_pct": 1.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T20_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 200,
+          "day_cov_pct": 1.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T30_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 200,
+          "day_cov_pct": 1.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T45_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 200,
+          "day_cov_pct": 1.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T60_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 200,
+          "day_cov_pct": 1.5,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        }
+      ]
+    },
+    "6m": {
+      "sessions": 94,
+      "best_perfect": {
+        "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+        "note": "",
+        "perfect": true,
+        "n": 19,
+        "hit_pct": 100.0,
+        "wins": 19,
+        "losses": 0,
+        "points": 885.0,
+        "days": 19,
+        "by_track": {
+          "add_T30_gate15any_entry5any": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "proven_100": {
+            "n": 17,
+            "hit_pct": 100.0,
+            "points": 825.0
+          }
+        },
+        "days_with_call": 17,
+        "days_no_call": 77,
+        "day_cov_pct": 18.1,
+        "buy_n": 5,
+        "sell_n": 14,
+        "buy_hit": 100.0,
+        "sell_hit": 100.0
+      },
+      "best_ge95": {
+        "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+        "note": "",
+        "perfect": true,
+        "n": 19,
+        "hit_pct": 100.0,
+        "wins": 19,
+        "losses": 0,
+        "points": 885.0,
+        "days": 19,
+        "by_track": {
+          "add_T30_gate15any_entry5any": {
+            "n": 2,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "proven_100": {
+            "n": 17,
+            "hit_pct": 100.0,
+            "points": 825.0
+          }
+        },
+        "days_with_call": 17,
+        "days_no_call": 77,
+        "day_cov_pct": 18.1,
+        "buy_n": 5,
+        "sell_n": 14,
+        "buy_hit": 100.0,
+        "sell_hit": 100.0
+      },
+      "perfect_n8": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 885.0,
+          "days": 19,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "points": 60.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 17,
+          "days_no_call": 77,
+          "day_cov_pct": 18.1,
+          "buy_n": 5,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 885.0,
+          "days": 19,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "points": 60.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 17,
+          "days_no_call": 77,
+          "day_cov_pct": 18.1,
+          "buy_n": 5,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 18,
+          "hit_pct": 100.0,
+          "wins": 18,
+          "losses": 0,
+          "points": 825.0,
+          "days": 18,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 16,
+          "days_no_call": 78,
+          "day_cov_pct": 17.0,
+          "buy_n": 4,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        }
+      ],
+      "ge95_n8": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 885.0,
+          "days": 19,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "points": 60.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 17,
+          "days_no_call": 77,
+          "day_cov_pct": 18.1,
+          "buy_n": 5,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 885.0,
+          "days": 19,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "points": 60.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 17,
+          "days_no_call": 77,
+          "day_cov_pct": 18.1,
+          "buy_n": 5,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 18,
+          "hit_pct": 100.0,
+          "wins": 18,
+          "losses": 0,
+          "points": 825.0,
+          "days": 18,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 16,
+          "days_no_call": 78,
+          "day_cov_pct": 17.0,
+          "buy_n": 4,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        }
+      ],
+      "ge90_n15": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 885.0,
+          "days": 19,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "points": 60.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 17,
+          "days_no_call": 77,
+          "day_cov_pct": 18.1,
+          "buy_n": 5,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 885.0,
+          "days": 19,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "points": 60.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 17,
+          "days_no_call": 77,
+          "day_cov_pct": 18.1,
+          "buy_n": 5,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 18,
+          "hit_pct": 100.0,
+          "wins": 18,
+          "losses": 0,
+          "points": 825.0,
+          "days": 18,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 16,
+          "days_no_call": 78,
+          "day_cov_pct": 17.0,
+          "buy_n": 4,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_any",
+          "note": "",
+          "perfect": false,
+          "n": 37,
+          "hit_pct": 94.59,
+          "wins": 35,
+          "losses": 2,
+          "points": 1435.0,
+          "days": 37,
+          "by_track": {
+            "champion": {
+              "n": 20,
+              "hit_pct": 90.0,
+              "points": 610.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 32,
+          "days_no_call": 62,
+          "day_cov_pct": 34.0,
+          "buy_n": 16,
+          "sell_n": 21,
+          "buy_hit": 87.5,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_champ",
+          "note": "",
+          "perfect": false,
+          "n": 20,
+          "hit_pct": 90.0,
+          "wins": 18,
+          "losses": 2,
+          "points": 610.0,
+          "days": 20,
+          "by_track": {
+            "champion": {
+              "n": 20,
+              "hit_pct": 90.0,
+              "points": 610.0
+            }
+          },
+          "days_with_call": 17,
+          "days_no_call": 77,
+          "day_cov_pct": 18.1,
+          "buy_n": 12,
+          "sell_n": 8,
+          "buy_hit": 83.3,
+          "sell_hit": 100.0
+        }
+      ],
+      "board_top": [
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 885.0,
+          "days": 19,
+          "by_track": {
+            "add_T30_gate15any_entry5any": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "points": 60.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 17,
+          "days_no_call": 77,
+          "day_cov_pct": 18.1,
+          "buy_n": 5,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 19,
+          "hit_pct": 100.0,
+          "wins": 19,
+          "losses": 0,
+          "points": 885.0,
+          "days": 19,
+          "by_track": {
+            "add_T15_gate15any_entry5any": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "points": 60.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 17,
+          "days_no_call": 77,
+          "day_cov_pct": 18.1,
+          "buy_n": 5,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 18,
+          "hit_pct": 100.0,
+          "wins": 18,
+          "losses": 0,
+          "points": 825.0,
+          "days": 18,
+          "by_track": {
+            "add_T60_gate15any_entry_crown": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            },
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 16,
+          "days_no_call": 78,
+          "day_cov_pct": 17.0,
+          "buy_n": 4,
+          "sell_n": 14,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+          "note": "",
+          "perfect": true,
+          "n": 17,
+          "hit_pct": 100.0,
+          "wins": 17,
+          "losses": 0,
+          "points": 825.0,
+          "days": 17,
+          "by_track": {
+            "proven_100": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "points": 825.0
+            }
+          },
+          "days_with_call": 15,
+          "days_no_call": 79,
+          "day_cov_pct": 16.0,
+          "buy_n": 4,
+          "sell_n": 13,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 150.0,
+          "days": 6,
+          "by_track": {
+            "T45_gate15any_entry_5mprod": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 6,
+          "days_no_call": 88,
+          "day_cov_pct": 6.4,
+          "buy_n": 2,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0,
+          "points": 150.0,
+          "days": 6,
+          "by_track": {
+            "T60_gate15any_entry_5mprod": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 6,
+          "days_no_call": 88,
+          "day_cov_pct": 6.4,
+          "buy_n": 2,
+          "sell_n": 4,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T15_gate15any_entry5any": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T20_gate15any_entry5any": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T30_gate15any_entry5any": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T45_gate15any_entry5any": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T60_gate15any_entry5any": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T90_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T90_gate15any_entry5any": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T15_gate15any_entry_5mprod": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T20_gate15any_entry_5mprod": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "T30_gate15any_entry_5mprod": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "D_dual5_if_any15",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "D_dual5_if_any15": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T30_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "CAP1_T30_gate15any_entry5any": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T15_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "CAP1_T15_gate15any_entry5any": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "CAP1_T60_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0,
+          "points": 150.0,
+          "days": 5,
+          "by_track": {
+            "CAP1_T60_gate15any_entry5any": {
+              "n": 5,
+              "hit_pct": 100.0,
+              "points": 150.0
+            }
+          },
+          "days_with_call": 5,
+          "days_no_call": 89,
+          "day_cov_pct": 5.3,
+          "buy_n": 2,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0,
+          "days": 4,
+          "by_track": {
+            "T10_gate15any_entry5any": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 120.0
+            }
+          },
+          "days_with_call": 4,
+          "days_no_call": 90,
+          "day_cov_pct": 4.3,
+          "buy_n": 1,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15any_entry_5mprod",
+          "note": "",
+          "perfect": true,
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0,
+          "days": 4,
+          "by_track": {
+            "T10_gate15any_entry_5mprod": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 120.0
+            }
+          },
+          "days_with_call": 4,
+          "days_no_call": 90,
+          "day_cov_pct": 4.3,
+          "buy_n": 1,
+          "sell_n": 3,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0,
+          "days": 4,
+          "by_track": {
+            "T15_gate15any_entry5any_am": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 120.0
+            }
+          },
+          "days_with_call": 4,
+          "days_no_call": 90,
+          "day_cov_pct": 4.3,
+          "buy_n": 2,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0,
+          "days": 4,
+          "by_track": {
+            "T30_gate15any_entry5any_am": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 120.0
+            }
+          },
+          "days_with_call": 4,
+          "days_no_call": 90,
+          "day_cov_pct": 4.3,
+          "buy_n": 2,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry5any_am",
+          "note": "",
+          "perfect": true,
+          "n": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0,
+          "points": 120.0,
+          "days": 4,
+          "by_track": {
+            "T60_gate15any_entry5any_am": {
+              "n": 4,
+              "hit_pct": 100.0,
+              "points": 120.0
+            }
+          },
+          "days_with_call": 4,
+          "days_no_call": 90,
+          "day_cov_pct": 4.3,
+          "buy_n": 2,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T10_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T10_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T15_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T20_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T30_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T45_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T60_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T90_gate15proven_entry5any",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T90_gate15proven_entry5any": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T15_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T15_gate15any_entry5champ": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T20_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T20_gate15any_entry5champ": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T30_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T30_gate15any_entry5champ": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T45_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T45_gate15any_entry5champ": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T60_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T60_gate15any_entry5champ": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        },
+        {
+          "name": "T90_gate15any_entry5champ",
+          "note": "",
+          "perfect": true,
+          "n": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0,
+          "points": 90.0,
+          "days": 3,
+          "by_track": {
+            "T90_gate15any_entry5champ": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "points": 90.0
+            }
+          },
+          "days_with_call": 3,
+          "days_no_call": 91,
+          "day_cov_pct": 3.2,
+          "buy_n": 1,
+          "sell_n": 2,
+          "buy_hit": 100.0,
+          "sell_hit": 100.0
+        }
+      ]
+    },
+    "nov": {
+      "sessions": 0,
+      "best_perfect": null,
+      "best_ge95": null,
+      "perfect_n8": [],
+      "ge95_n8": [],
+      "ge90_n15": [],
+      "board_top": [
+        {
+          "name": "BASE_crown_all",
+          "note": "",
+          "perfect": true,
+          "n": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0,
+          "points": 0.0,
+          "days": 1,
+          "by_track": {
+            "crown_5m": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "points": 0.0
+            }
+          },
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 1,
+          "sell_n": 0,
+          "buy_hit": 100.0,
+          "sell_hit": null
+        },
+        {
+          "name": "BASE_dual15_proven",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "BASE_dual15_champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "BASE_dual15_any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "BASE_pool15_proven",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "BASE_dual5_proven",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "BASE_dual5_champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "BASE_dual5_any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "BASE_crown_htf",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "BASE_good_prod2",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T0_gate15any_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T5_gate15any_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T10_gate15any_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T15_gate15any_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T20_gate15any_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T30_gate15any_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T45_gate15any_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T60_gate15any_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T90_gate15any_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T0_gate15proven_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T5_gate15proven_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T10_gate15proven_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T15_gate15proven_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T20_gate15proven_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T30_gate15proven_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T45_gate15proven_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T60_gate15proven_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T90_gate15proven_entry5any",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T0_gate15proven_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T5_gate15proven_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T10_gate15proven_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T15_gate15proven_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T20_gate15proven_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T30_gate15proven_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T45_gate15proven_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T60_gate15proven_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T90_gate15proven_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T0_gate15any_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T5_gate15any_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        },
+        {
+          "name": "T10_gate15any_entry5champ",
+          "note": "",
+          "perfect": false,
+          "n": 0,
+          "hit_pct": null,
+          "wins": 0,
+          "losses": 0,
+          "points": 0.0,
+          "days": 0,
+          "by_track": {},
+          "days_with_call": 0,
+          "days_no_call": 0,
+          "day_cov_pct": 0.0,
+          "buy_n": 0,
+          "sell_n": 0,
+          "buy_hit": null,
+          "sell_hit": null
+        }
+      ]
+    }
+  },
+  "both_year_ge95": [
+    {
+      "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+      "hit_1y": 100.0,
+      "n_1y": 28,
+      "day_1y": 12.8,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 49,
+      "day_3y": 7.3,
+      "perfect_3y": true,
+      "points_3y": 2070.0,
+      "hit_6m": 100.0,
+      "n_6m": 19,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "PROVEN15_PLUS_T15_gate15any_entry5any",
+      "hit_1y": 100.0,
+      "n_1y": 28,
+      "day_1y": 12.8,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 48,
+      "day_3y": 7.2,
+      "perfect_3y": true,
+      "points_3y": 2025.0,
+      "hit_6m": 100.0,
+      "n_6m": 19,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "PROVEN15_PLUS_T60_gate15any_entry_crown",
+      "hit_1y": 100.0,
+      "n_1y": 25,
+      "day_1y": 11.3,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 42,
+      "day_3y": 6.2,
+      "perfect_3y": true,
+      "points_3y": 1812.0,
+      "hit_6m": 100.0,
+      "n_6m": 18,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "BASE_dual15_proven",
+      "hit_1y": 100.0,
+      "n_1y": 24,
+      "day_1y": 10.8,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 41,
+      "day_3y": 6.1,
+      "perfect_3y": true,
+      "points_3y": 1812.0,
+      "hit_6m": 100.0,
+      "n_6m": 17,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "BASE_pool15_proven",
+      "hit_1y": 100.0,
+      "n_1y": 24,
+      "day_1y": 10.8,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 41,
+      "day_3y": 6.1,
+      "perfect_3y": true,
+      "points_3y": 1812.0,
+      "hit_6m": 100.0,
+      "n_6m": 17,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "PROVEN15_PLUS_T30_gate15champ_entry_crown",
+      "hit_1y": 100.0,
+      "n_1y": 24,
+      "day_1y": 10.8,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 41,
+      "day_3y": 6.1,
+      "perfect_3y": true,
+      "points_3y": 1812.0,
+      "hit_6m": 100.0,
+      "n_6m": 17,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "PROVEN15_PLUS_T30_gate15any_entry_crown",
+      "hit_1y": 100.0,
+      "n_1y": 24,
+      "day_1y": 10.8,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 41,
+      "day_3y": 6.1,
+      "perfect_3y": true,
+      "points_3y": 1812.0,
+      "hit_6m": 100.0,
+      "n_6m": 17,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T30_gate15any_entry5any",
+      "hit_1y": 100.0,
+      "n_1y": 7,
+      "day_1y": 3.4,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 11,
+      "day_3y": 1.8,
+      "perfect_3y": true,
+      "points_3y": 348.0,
+      "hit_6m": 100.0,
+      "n_6m": 5,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T30_gate15any_entry_5mprod",
+      "hit_1y": 100.0,
+      "n_1y": 7,
+      "day_1y": 3.4,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 11,
+      "day_3y": 1.8,
+      "perfect_3y": true,
+      "points_3y": 348.0,
+      "hit_6m": 100.0,
+      "n_6m": 5,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "CAP1_T30_gate15any_entry5any",
+      "hit_1y": 100.0,
+      "n_1y": 7,
+      "day_1y": 3.4,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 11,
+      "day_3y": 1.8,
+      "perfect_3y": true,
+      "points_3y": 348.0,
+      "hit_6m": 100.0,
+      "n_6m": 5,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T30_gate15any_entry5any_am",
+      "hit_1y": 100.0,
+      "n_1y": 6,
+      "day_1y": 3.0,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 10,
+      "day_3y": 1.6,
+      "perfect_3y": true,
+      "points_3y": 318.0,
+      "hit_6m": 100.0,
+      "n_6m": 4,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T60_gate15any_entry5any_am",
+      "hit_1y": 100.0,
+      "n_1y": 6,
+      "day_1y": 3.0,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 10,
+      "day_3y": 1.6,
+      "perfect_3y": true,
+      "points_3y": 318.0,
+      "hit_6m": 100.0,
+      "n_6m": 4,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T15_gate15any_entry5any",
+      "hit_1y": 100.0,
+      "n_1y": 7,
+      "day_1y": 3.4,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 10,
+      "day_3y": 1.6,
+      "perfect_3y": true,
+      "points_3y": 303.0,
+      "hit_6m": 100.0,
+      "n_6m": 5,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T20_gate15any_entry5any",
+      "hit_1y": 100.0,
+      "n_1y": 7,
+      "day_1y": 3.4,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 10,
+      "day_3y": 1.6,
+      "perfect_3y": true,
+      "points_3y": 303.0,
+      "hit_6m": 100.0,
+      "n_6m": 5,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T15_gate15any_entry_5mprod",
+      "hit_1y": 100.0,
+      "n_1y": 7,
+      "day_1y": 3.4,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 10,
+      "day_3y": 1.6,
+      "perfect_3y": true,
+      "points_3y": 303.0,
+      "hit_6m": 100.0,
+      "n_6m": 5,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T20_gate15any_entry_5mprod",
+      "hit_1y": 100.0,
+      "n_1y": 7,
+      "day_1y": 3.4,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 10,
+      "day_3y": 1.6,
+      "perfect_3y": true,
+      "points_3y": 303.0,
+      "hit_6m": 100.0,
+      "n_6m": 5,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "CAP1_T15_gate15any_entry5any",
+      "hit_1y": 100.0,
+      "n_1y": 7,
+      "day_1y": 3.4,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 10,
+      "day_3y": 1.6,
+      "perfect_3y": true,
+      "points_3y": 303.0,
+      "hit_6m": 100.0,
+      "n_6m": 5,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T10_gate15any_entry5any",
+      "hit_1y": 100.0,
+      "n_1y": 6,
+      "day_1y": 3.0,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 9,
+      "day_3y": 1.4,
+      "perfect_3y": true,
+      "points_3y": 273.0,
+      "hit_6m": 100.0,
+      "n_6m": 4,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T10_gate15any_entry_5mprod",
+      "hit_1y": 100.0,
+      "n_1y": 6,
+      "day_1y": 3.0,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 9,
+      "day_3y": 1.4,
+      "perfect_3y": true,
+      "points_3y": 273.0,
+      "hit_6m": 100.0,
+      "n_6m": 4,
+      "hit_nov": null,
+      "n_nov": 0
+    },
+    {
+      "name": "T15_gate15any_entry5any_am",
+      "hit_1y": 100.0,
+      "n_1y": 6,
+      "day_1y": 3.0,
+      "perfect_1y": true,
+      "hit_3y": 100.0,
+      "n_3y": 9,
+      "day_3y": 1.4,
+      "perfect_3y": true,
+      "points_3y": 273.0,
+      "hit_6m": 100.0,
+      "n_6m": 4,
+      "hit_nov": null,
+      "n_nov": 0
+    }
+  ],
+  "monthly_1y_top": {
+    "PROVEN15_PLUS_T30_gate15any_entry5any": {
+      "2025-12": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-01": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 95.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 108.0,
+        "perfect": true
+      },
+      "2026-04": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 46.0,
+        "perfect": true
+      },
+      "2026-05": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-06": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-07": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 34.0,
+        "perfect": true
+      },
+      "2026-08": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 98.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 5,
+        "hit_pct": 100.0,
+        "points": 197.0,
+        "perfect": true
+      },
+      "2026-10": {
+        "n": 7,
+        "hit_pct": 100.0,
+        "points": 411.0,
+        "perfect": true
+      }
+    },
+    "PROVEN15_PLUS_T15_gate15any_entry5any": {
+      "2025-12": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-01": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 95.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 108.0,
+        "perfect": true
+      },
+      "2026-04": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 46.0,
+        "perfect": true
+      },
+      "2026-05": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-06": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-07": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 34.0,
+        "perfect": true
+      },
+      "2026-08": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 98.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 5,
+        "hit_pct": 100.0,
+        "points": 197.0,
+        "perfect": true
+      },
+      "2026-10": {
+        "n": 7,
+        "hit_pct": 100.0,
+        "points": 411.0,
+        "perfect": true
+      }
+    },
+    "PROVEN15_PLUS_T60_gate15any_entry_crown": {
+      "2025-12": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 65.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 75.0,
+        "perfect": true
+      },
+      "2026-04": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 46.0,
+        "perfect": true
+      },
+      "2026-06": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-07": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 34.0,
+        "perfect": true
+      },
+      "2026-08": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 98.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 167.0,
+        "perfect": true
+      },
+      "2026-10": {
+        "n": 7,
+        "hit_pct": 100.0,
+        "points": 411.0,
+        "perfect": true
+      }
+    },
+    "BASE_dual15_proven": {
+      "2025-12": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 65.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 75.0,
+        "perfect": true
+      },
+      "2026-04": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 46.0,
+        "perfect": true
+      },
+      "2026-06": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-07": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 34.0,
+        "perfect": true
+      },
+      "2026-08": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 98.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 167.0,
+        "perfect": true
+      },
+      "2026-10": {
+        "n": 7,
+        "hit_pct": 100.0,
+        "points": 411.0,
+        "perfect": true
+      }
+    },
+    "BASE_pool15_proven": {
+      "2025-12": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 65.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 75.0,
+        "perfect": true
+      },
+      "2026-04": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 46.0,
+        "perfect": true
+      },
+      "2026-06": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-07": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 34.0,
+        "perfect": true
+      },
+      "2026-08": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 98.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 167.0,
+        "perfect": true
+      },
+      "2026-10": {
+        "n": 7,
+        "hit_pct": 100.0,
+        "points": 411.0,
+        "perfect": true
+      }
+    },
+    "PROVEN15_PLUS_T30_gate15champ_entry_crown": {
+      "2025-12": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 65.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 75.0,
+        "perfect": true
+      },
+      "2026-04": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 46.0,
+        "perfect": true
+      },
+      "2026-06": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-07": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 34.0,
+        "perfect": true
+      },
+      "2026-08": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 98.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 167.0,
+        "perfect": true
+      },
+      "2026-10": {
+        "n": 7,
+        "hit_pct": 100.0,
+        "points": 411.0,
+        "perfect": true
+      }
+    },
+    "PROVEN15_PLUS_T30_gate15any_entry_crown": {
+      "2025-12": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 65.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 75.0,
+        "perfect": true
+      },
+      "2026-04": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 46.0,
+        "perfect": true
+      },
+      "2026-06": {
+        "n": 2,
+        "hit_pct": 100.0,
+        "points": 115.0,
+        "perfect": true
+      },
+      "2026-07": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 34.0,
+        "perfect": true
+      },
+      "2026-08": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 98.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 167.0,
+        "perfect": true
+      },
+      "2026-10": {
+        "n": 7,
+        "hit_pct": 100.0,
+        "points": 411.0,
+        "perfect": true
+      }
+    },
+    "T30_gate15any_entry5any": {
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 33.0,
+        "perfect": true
+      },
+      "2026-05": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 120.0,
+        "perfect": true
+      }
+    },
+    "T30_gate15any_entry_5mprod": {
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 33.0,
+        "perfect": true
+      },
+      "2026-05": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 120.0,
+        "perfect": true
+      }
+    },
+    "CAP1_T30_gate15any_entry5any": {
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 33.0,
+        "perfect": true
+      },
+      "2026-05": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 120.0,
+        "perfect": true
+      }
+    },
+    "T30_gate15any_entry5any_am": {
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 33.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 120.0,
+        "perfect": true
+      }
+    },
+    "T60_gate15any_entry5any_am": {
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 33.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 120.0,
+        "perfect": true
+      }
+    },
+    "T15_gate15any_entry5any": {
+      "2026-01": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-02": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 33.0,
+        "perfect": true
+      },
+      "2026-05": {
+        "n": 1,
+        "hit_pct": 100.0,
+        "points": 30.0,
+        "perfect": true
+      },
+      "2026-09": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 120.0,
+        "perfect": true
+      }
+    },
+    "T30_gate15proven_entry_crown": {},
+    "T30_gate15any_entry_crown": {}
+  },
+  "best_proven15_plus": {
+    "name": "PROVEN15_PLUS_T30_gate15any_entry5any",
+    "note": "",
+    "perfect": true,
+    "n": 49,
+    "hit_pct": 100.0,
+    "wins": 49,
+    "losses": 0,
+    "points": 2070.0,
+    "days": 49,
+    "by_track": {
+      "add_T30_gate15any_entry5any": {
+        "n": 8,
+        "hit_pct": 100.0,
+        "points": 258.0
+      },
+      "proven_100": {
+        "n": 41,
+        "hit_pct": 100.0,
+        "points": 1812.0
+      }
+    },
+    "days_with_call": 46,
+    "days_no_call": 582,
+    "day_cov_pct": 7.3,
+    "buy_n": 20,
+    "sell_n": 29,
+    "buy_hit": 100.0,
+    "sell_hit": 100.0
+  },
+  "elapsed_s": 2.2
+}

@@ -1,0 +1,94 @@
+{
+  "window": {
+    "start": "2025-11-15",
+    "end": "2026-11-15"
+  },
+  "overall": "PASS",
+  "desks": {
+    "ACC100_MULTI_V11": {
+      "n": 86,
+      "hit_pct": 100.0,
+      "expected": {
+        "n": 86,
+        "hit_pct": 100.0
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "day"
+    },
+    "ACC_WIDE_P92_P2F": {
+      "n": 86,
+      "hit_pct": 100.0,
+      "expected": {
+        "n": 86,
+        "hit_pct": 100.0
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "day"
+    },
+    "ACC_WIDE_P90_P2F": {
+      "n": 98,
+      "hit_pct": 100.0,
+      "expected": {
+        "n": 98,
+        "hit_pct": 100.0
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "day"
+    },
+    "ACC_WIDE_P85_P2F": {
+      "n": 114,
+      "hit_pct": 92.98,
+      "expected": {
+        "n": 114,
+        "hit_pct": 92.98
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "day"
+    },
+    "ACC_WIDE_P85B_P2F": {
+      "n": 116,
+      "hit_pct": 93.1,
+      "expected": {
+        "n": 116,
+        "hit_pct": 93.1
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "day"
+    },
+    "ACC_WIDE_P80_P2F": {
+      "n": 123,
+      "hit_pct": 90.24,
+      "expected": {
+        "n": 123,
+        "hit_pct": 90.24
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "day"
+    },
+    "ACC_WIDE_P75_P2F": {
+      "n": 127,
+      "hit_pct": 88.98,
+      "expected": {
+        "n": 127,
+        "hit_pct": 88.98
+      },
+      "soft_gt_87": true,
+      "gate": "PASS",
+      "lane": "LIVE",
+      "mode": "day"
+    }
+  },
+  "fails": []
+}

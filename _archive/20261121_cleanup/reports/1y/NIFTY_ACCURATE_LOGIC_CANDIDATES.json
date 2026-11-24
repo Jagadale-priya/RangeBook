@@ -1,0 +1,726 @@
+{
+  "source": "kite",
+  "trend_filters": [
+    {
+      "name": "trend SELL only",
+      "n": 13,
+      "hit": 0.46153846153846156,
+      "net": 107.8499999999949,
+      "avg_w": 24.84166666666594,
+      "avg_l": -5.88571428571439,
+      "ratio": 4.220671521035401
+    },
+    {
+      "name": "trend signal<=12:00",
+      "n": 25,
+      "hit": 0.4,
+      "net": 133.3499999999949,
+      "avg_w": 27.56999999999971,
+      "avg_l": -9.490000000000146,
+      "ratio": 2.905163329820789
+    },
+    {
+      "name": "trend signal<=12:30",
+      "n": 26,
+      "hit": 0.38461538461538464,
+      "net": 116.99999999999636,
+      "avg_w": 27.56999999999971,
+      "avg_l": -9.918750000000045,
+      "ratio": 2.779584120982945
+    },
+    {
+      "name": "trend width<=120",
+      "n": 24,
+      "hit": 0.375,
+      "net": 103.14999999999418,
+      "avg_w": 24.07222222222198,
+      "avg_l": -8.107142857143117,
+      "ratio": 2.969260890846669
+    },
+    {
+      "name": "trend width<=140",
+      "n": 24,
+      "hit": 0.375,
+      "net": 103.14999999999418,
+      "avg_w": 24.07222222222198,
+      "avg_l": -8.107142857143117,
+      "ratio": 2.969260890846669
+    },
+    {
+      "name": "trend width 40-130",
+      "n": 24,
+      "hit": 0.375,
+      "net": 103.14999999999418,
+      "avg_w": 24.07222222222198,
+      "avg_l": -8.107142857143117,
+      "ratio": 2.969260890846669
+    },
+    {
+      "name": "trend width 50-130",
+      "n": 24,
+      "hit": 0.375,
+      "net": 103.14999999999418,
+      "avg_w": 24.07222222222198,
+      "avg_l": -8.107142857143117,
+      "ratio": 2.969260890846669
+    },
+    {
+      "name": "trend ACC bundle C",
+      "n": 22,
+      "hit": 0.36363636363636365,
+      "net": 72.74999999999272,
+      "avg_w": 23.281249999999545,
+      "avg_l": -8.107142857143117,
+      "ratio": 2.8716960352421426
+    },
+    {
+      "name": "trend risk<=30",
+      "n": 25,
+      "hit": 0.36,
+      "net": 86.5999999999949,
+      "avg_w": 27.25555555555507,
+      "avg_l": -9.918750000000045,
+      "ratio": 2.7478820975984823
+    },
+    {
+      "name": "trend entry_ext<=15",
+      "n": 25,
+      "hit": 0.36,
+      "net": 86.5999999999949,
+      "avg_w": 27.25555555555507,
+      "avg_l": -9.918750000000045,
+      "ratio": 2.7478820975984823
+    },
+    {
+      "name": "trend risk30+eext15+sig1230",
+      "n": 25,
+      "hit": 0.36,
+      "net": 86.5999999999949,
+      "avg_w": 27.25555555555507,
+      "avg_l": -9.918750000000045,
+      "ratio": 2.7478820975984823
+    },
+    {
+      "name": "trend ACC bundle A",
+      "n": 20,
+      "hit": 0.35,
+      "net": 82.69999999999345,
+      "avg_w": 25.671428571428155,
+      "avg_l": -7.4615384615387415,
+      "ratio": 3.44050073637684
+    },
+    {
+      "name": "trend ACC bundle B",
+      "n": 20,
+      "hit": 0.35,
+      "net": 82.69999999999345,
+      "avg_w": 25.671428571428155,
+      "avg_l": -7.4615384615387415,
+      "ratio": 3.44050073637684
+    },
+    {
+      "name": "trend signal<=11:30",
+      "n": 20,
+      "hit": 0.35,
+      "net": 79.99999999998909,
+      "avg_w": 29.278571428570494,
+      "avg_l": -9.611538461538798,
+      "ratio": 3.0461899045330383
+    },
+    {
+      "name": "trend risk<=25",
+      "n": 21,
+      "hit": 0.3333333333333333,
+      "net": 66.3499999999949,
+      "avg_w": 25.671428571428155,
+      "avg_l": -8.096428571428728,
+      "ratio": 3.1707101896778758
+    },
+    {
+      "name": "trend entry_ext<=10",
+      "n": 21,
+      "hit": 0.3333333333333333,
+      "net": 66.3499999999949,
+      "avg_w": 25.671428571428155,
+      "avg_l": -8.096428571428728,
+      "ratio": 3.1707101896778758
+    },
+    {
+      "name": "trend BUY only",
+      "n": 14,
+      "hit": 0.2857142857142857,
+      "net": 9.150000000001455,
+      "avg_w": 31.662500000000364,
+      "avg_l": -13.055555555555555,
+      "ratio": 2.425212765957475
+    }
+  ],
+  "orb_filters": [
+    {
+      "name": "orb entry_ext<=5",
+      "n": 19,
+      "hit": 0.631578947368421,
+      "net": 108.39999999999782,
+      "avg_w": 17.570833333333212,
+      "avg_l": -14.63571428571439,
+      "ratio": 1.2005449812916702
+    },
+    {
+      "name": "orb ACC w40-90 eext5",
+      "n": 19,
+      "hit": 0.631578947368421,
+      "net": 108.39999999999782,
+      "avg_w": 17.570833333333212,
+      "avg_l": -14.63571428571439,
+      "ratio": 1.2005449812916702
+    },
+    {
+      "name": "orb ACC bundle A",
+      "n": 16,
+      "hit": 0.625,
+      "net": 102.29999999999927,
+      "avg_w": 19.0,
+      "avg_l": -14.616666666666788,
+      "ratio": 1.2998859749144704
+    },
+    {
+      "name": "orb ACC SELL eext5 w40-100",
+      "n": 11,
+      "hit": 0.5454545454545454,
+      "net": 40.14999999999782,
+      "avg_w": 19.0,
+      "avg_l": -14.770000000000437,
+      "ratio": 1.2863913337846606
+    },
+    {
+      "name": "orb width<=80",
+      "n": 24,
+      "hit": 0.5416666666666666,
+      "net": 30.75,
+      "avg_w": 16.523076923076868,
+      "avg_l": -16.731818181818117,
+      "ratio": 0.9875242931477656
+    },
+    {
+      "name": "orb entry_ext<=3",
+      "n": 13,
+      "hit": 0.5384615384615384,
+      "net": 47.400000000001455,
+      "avg_w": 19.0,
+      "avg_l": -14.266666666666424,
+      "ratio": 1.331775700934602
+    },
+    {
+      "name": "orb width 35-85",
+      "n": 28,
+      "hit": 0.5357142857142857,
+      "net": 33.25,
+      "avg_w": 16.853333333333286,
+      "avg_l": -16.88846153846148,
+      "ratio": 0.9979199878539442
+    },
+    {
+      "name": "orb BUY only",
+      "n": 15,
+      "hit": 0.5333333333333333,
+      "net": -4.799999999999272,
+      "avg_w": 14.974999999999909,
+      "avg_l": -17.79999999999979,
+      "ratio": 0.8412921348314655
+    },
+    {
+      "name": "orb width 45-100",
+      "n": 29,
+      "hit": 0.5172413793103449,
+      "net": 25.549999999999272,
+      "avg_w": 17.85666666666657,
+      "avg_l": -17.307142857142804,
+      "ratio": 1.0317512725271678
+    },
+    {
+      "name": "orb width 40-90",
+      "n": 31,
+      "hit": 0.5161290322580645,
+      "net": 15.700000000000728,
+      "avg_w": 16.987499999999955,
+      "avg_l": -17.073333333333235,
+      "ratio": 0.9949726669269847
+    },
+    {
+      "name": "orb SELL only",
+      "n": 16,
+      "hit": 0.5,
+      "net": 20.5,
+      "avg_w": 19.0,
+      "avg_l": -16.4375,
+      "ratio": 1.155893536121673
+    },
+    {
+      "name": "orb signal<=12:00",
+      "n": 25,
+      "hit": 0.48,
+      "net": -6.549999999999272,
+      "avg_w": 19.0,
+      "avg_l": -18.042307692307638,
+      "ratio": 1.053080366659564
+    },
+    {
+      "name": "orb signal<=11:00",
+      "n": 23,
+      "hit": 0.43478260869565216,
+      "net": -44.54999999999927,
+      "avg_w": 19.0,
+      "avg_l": -18.042307692307638,
+      "ratio": 1.053080366659564
+    }
+  ],
+  "profiles": [
+    {
+      "family": "orb",
+      "name": "ACC_C",
+      "gate": {
+        "name": "ACC_C",
+        "min_width": 40,
+        "max_width": 100,
+        "last_signal": "14:45",
+        "at_level_only": false,
+        "max_entry_ext": 5
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 31.0,
+        "wins": 17.0,
+        "losses": 14.0,
+        "hit_rate": 0.5483870967741935,
+        "average_winner": 17.99117647058815,
+        "average_loser": -13.850000000000104,
+        "winner_loser_ratio": 1.2990019112337916,
+        "net_points": 111.94999999999709,
+        "no_call_days": 29.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 2.0,
+        "wins": 1.0,
+        "losses": 1.0,
+        "hit_rate": 0.5,
+        "average_winner": 19.0,
+        "average_loser": -16.549999999999272,
+        "winner_loser_ratio": 1.1480362537764854,
+        "net_points": 2.4500000000007276,
+        "no_call_days": 18.0
+      },
+      "freeze_hit": 0.5483870967741935,
+      "hold_hit": 0.5,
+      "freeze_n": 31.0,
+      "hold_n": 2.0,
+      "score": 106.03370967741907
+    },
+    {
+      "family": "trend",
+      "name": "ACC_C",
+      "gate": {
+        "name": "ACC_C",
+        "min_width": 50,
+        "max_width": 130,
+        "last_signal": "12:30",
+        "max_break_ext": 999.0,
+        "max_risk": 30,
+        "max_entry_ext": 15,
+        "min_vwap_sep": 5,
+        "stop_buffer": 15.0,
+        "max_chase": 20
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 20.0,
+        "wins": 7.0,
+        "losses": 13.0,
+        "hit_rate": 0.35,
+        "average_winner": 14.321428571428052,
+        "average_loser": -8.046153846154294,
+        "winner_loser_ratio": 1.779909860693636,
+        "net_points": -4.350000000009459,
+        "no_call_days": 40.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 1.0,
+        "wins": 1.0,
+        "losses": 0.0,
+        "hit_rate": 1.0,
+        "average_winner": 86.0,
+        "average_loser": null,
+        "winner_loser_ratio": null,
+        "net_points": 86.0,
+        "no_call_days": 19.0
+      },
+      "freeze_hit": 0.35,
+      "hold_hit": 1.0,
+      "freeze_n": 20.0,
+      "hold_n": 1.0,
+      "score": 84.56499999999906
+    },
+    {
+      "family": "trend",
+      "name": "ACC_A",
+      "gate": {
+        "name": "ACC_A",
+        "min_width": 40,
+        "max_width": 140,
+        "last_signal": "12:30",
+        "max_break_ext": 999.0,
+        "max_risk": 30,
+        "max_entry_ext": 12,
+        "min_vwap_sep": 0.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 19.0,
+        "wins": 6.0,
+        "losses": 13.0,
+        "hit_rate": 0.3157894736842105,
+        "average_winner": 15.616666666666182,
+        "average_loser": -7.180769230769679,
+        "winner_loser_ratio": 2.174790216032648,
+        "net_points": 0.34999999999126885,
+        "no_call_days": 41.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 1.0,
+        "wins": 1.0,
+        "losses": 0.0,
+        "hit_rate": 1.0,
+        "average_winner": 86.0,
+        "average_loser": null,
+        "winner_loser_ratio": null,
+        "net_points": 86.0,
+        "no_call_days": 19.0
+      },
+      "freeze_hit": 0.3157894736842105,
+      "hold_hit": 1.0,
+      "freeze_n": 19.0,
+      "hold_n": 1.0,
+      "score": 81.61394736842018
+    },
+    {
+      "family": "trend",
+      "name": "ACC_B",
+      "gate": {
+        "name": "ACC_B",
+        "min_width": 40,
+        "max_width": 130,
+        "last_signal": "12:00",
+        "max_break_ext": 30,
+        "max_risk": 25,
+        "max_entry_ext": 12,
+        "min_vwap_sep": 0.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 17.0,
+        "wins": 5.0,
+        "losses": 12.0,
+        "hit_rate": 0.29411764705882354,
+        "average_winner": 13.659999999999126,
+        "average_loser": -7.070833333333819,
+        "winner_loser_ratio": 1.9318797878606748,
+        "net_points": -16.550000000010186,
+        "no_call_days": 43.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 1.0,
+        "wins": 1.0,
+        "losses": 0.0,
+        "hit_rate": 1.0,
+        "average_winner": 86.0,
+        "average_loser": null,
+        "winner_loser_ratio": null,
+        "net_points": 86.0,
+        "no_call_days": 19.0
+      },
+      "freeze_hit": 0.29411764705882354,
+      "hold_hit": 1.0,
+      "freeze_n": 17.0,
+      "hold_n": 1.0,
+      "score": 77.75676470588132
+    },
+    {
+      "family": "orb",
+      "name": "ACC_D",
+      "gate": {
+        "name": "ACC_D",
+        "min_width": 45,
+        "max_width": 90,
+        "last_signal": "11:30",
+        "at_level_only": false,
+        "max_entry_ext": 5
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 20.0,
+        "wins": 12.0,
+        "losses": 8.0,
+        "hit_rate": 0.6,
+        "average_winner": 19.0,
+        "average_loser": -14.818749999999909,
+        "winner_loser_ratio": 1.2821594264023697,
+        "net_points": 109.45000000000073,
+        "no_call_days": 40.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 0.0,
+        "wins": 0.0,
+        "losses": 0.0,
+        "hit_rate": null,
+        "average_winner": null,
+        "average_loser": null,
+        "winner_loser_ratio": null,
+        "net_points": 0.0,
+        "no_call_days": 20.0
+      },
+      "freeze_hit": 0.6,
+      "hold_hit": null,
+      "freeze_n": 20.0,
+      "hold_n": 0.0,
+      "score": 70.94500000000008
+    },
+    {
+      "family": "orb",
+      "name": "ACC_A",
+      "gate": {
+        "name": "ACC_A",
+        "min_width": 40,
+        "max_width": 90,
+        "last_signal": "12:00",
+        "at_level_only": false,
+        "max_entry_ext": 5
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 22.0,
+        "wins": 13.0,
+        "losses": 9.0,
+        "hit_rate": 0.5909090909090909,
+        "average_winner": 19.0,
+        "average_loser": -14.705555555555394,
+        "winner_loser_ratio": 1.2920287117491642,
+        "net_points": 114.65000000000146,
+        "no_call_days": 38.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 0.0,
+        "wins": 0.0,
+        "losses": 0.0,
+        "hit_rate": null,
+        "average_winner": null,
+        "average_loser": null,
+        "winner_loser_ratio": null,
+        "net_points": 0.0,
+        "no_call_days": 20.0
+      },
+      "freeze_hit": 0.5909090909090909,
+      "hold_hit": null,
+      "freeze_n": 22.0,
+      "hold_n": 0.0,
+      "score": 70.55590909090924
+    },
+    {
+      "family": "orb",
+      "name": "ACC_E_sell",
+      "gate": {
+        "name": "ACC_E_sell",
+        "min_width": 40,
+        "max_width": 100,
+        "last_signal": "14:45",
+        "at_level_only": false,
+        "max_entry_ext": 5
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 16.0,
+        "wins": 6.0,
+        "losses": 10.0,
+        "hit_rate": 0.375,
+        "average_winner": 19.0,
+        "average_loser": -14.610000000000218,
+        "winner_loser_ratio": 1.3004791238877287,
+        "net_points": -32.10000000000218,
+        "no_call_days": 44.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 0.0,
+        "wins": 0.0,
+        "losses": 0.0,
+        "hit_rate": null,
+        "average_winner": null,
+        "average_loser": null,
+        "winner_loser_ratio": null,
+        "net_points": 0.0,
+        "no_call_days": 20.0
+      },
+      "freeze_hit": 0.375,
+      "hold_hit": null,
+      "freeze_n": 16.0,
+      "hold_n": 0.0,
+      "score": 34.28999999999978
+    },
+    {
+      "family": "trend",
+      "name": "ACC_D_tight",
+      "gate": {
+        "name": "ACC_D_tight",
+        "min_width": 40,
+        "max_width": 120,
+        "last_signal": "11:30",
+        "max_break_ext": 25,
+        "max_risk": 25,
+        "max_entry_ext": 10,
+        "min_vwap_sep": 0.0,
+        "stop_buffer": 15.0,
+        "max_chase": 15
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 13.0,
+        "wins": 3.0,
+        "losses": 10.0,
+        "hit_rate": 0.23076923076923078,
+        "average_winner": 14.966666666665938,
+        "average_loser": -7.830000000000291,
+        "winner_loser_ratio": 1.91145168156646,
+        "net_points": -33.40000000000509,
+        "no_call_days": 47.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 0.0,
+        "wins": 0.0,
+        "losses": 0.0,
+        "hit_rate": null,
+        "average_winner": null,
+        "average_loser": null,
+        "winner_loser_ratio": null,
+        "net_points": 0.0,
+        "no_call_days": 20.0
+      },
+      "freeze_hit": 0.23076923076923078,
+      "hold_hit": null,
+      "freeze_n": 13.0,
+      "hold_n": 0.0,
+      "score": 19.736923076922565
+    }
+  ],
+  "combo": {
+    "freeze": {
+      "n": 12,
+      "hit": 0.3333333333333333,
+      "net": 15.899999999997817
+    },
+    "hold": {
+      "n": 1,
+      "hit": 1.0,
+      "net": 86.0
+    },
+    "all": {
+      "n": 13,
+      "hit": 0.38461538461538464,
+      "net": 101.89999999999782
+    }
+  },
+  "recommend_trend": {
+    "family": "trend",
+    "name": "ACC_C",
+    "gate": {
+      "name": "ACC_C",
+      "min_width": 50,
+      "max_width": 130,
+      "last_signal": "12:30",
+      "max_break_ext": 999.0,
+      "max_risk": 30,
+      "max_entry_ext": 15,
+      "min_vwap_sep": 5,
+      "stop_buffer": 15.0,
+      "max_chase": 20
+    },
+    "freeze": {
+      "sessions": 60.0,
+      "calls": 20.0,
+      "wins": 7.0,
+      "losses": 13.0,
+      "hit_rate": 0.35,
+      "average_winner": 14.321428571428052,
+      "average_loser": -8.046153846154294,
+      "winner_loser_ratio": 1.779909860693636,
+      "net_points": -4.350000000009459,
+      "no_call_days": 40.0
+    },
+    "hold": {
+      "sessions": 20.0,
+      "calls": 1.0,
+      "wins": 1.0,
+      "losses": 0.0,
+      "hit_rate": 1.0,
+      "average_winner": 86.0,
+      "average_loser": null,
+      "winner_loser_ratio": null,
+      "net_points": 86.0,
+      "no_call_days": 19.0
+    },
+    "freeze_hit": 0.35,
+    "hold_hit": 1.0,
+    "freeze_n": 20.0,
+    "hold_n": 1.0,
+    "score": 84.56499999999906
+  },
+  "recommend_orb": {
+    "family": "orb",
+    "name": "ACC_C",
+    "gate": {
+      "name": "ACC_C",
+      "min_width": 40,
+      "max_width": 100,
+      "last_signal": "14:45",
+      "at_level_only": false,
+      "max_entry_ext": 5
+    },
+    "freeze": {
+      "sessions": 60.0,
+      "calls": 31.0,
+      "wins": 17.0,
+      "losses": 14.0,
+      "hit_rate": 0.5483870967741935,
+      "average_winner": 17.99117647058815,
+      "average_loser": -13.850000000000104,
+      "winner_loser_ratio": 1.2990019112337916,
+      "net_points": 111.94999999999709,
+      "no_call_days": 29.0
+    },
+    "hold": {
+      "sessions": 20.0,
+      "calls": 2.0,
+      "wins": 1.0,
+      "losses": 1.0,
+      "hit_rate": 0.5,
+      "average_winner": 19.0,
+      "average_loser": -16.549999999999272,
+      "winner_loser_ratio": 1.1480362537764854,
+      "net_points": 2.4500000000007276,
+      "no_call_days": 18.0
+    },
+    "freeze_hit": 0.5483870967741935,
+    "hold_hit": 0.5,
+    "freeze_n": 31.0,
+    "hold_n": 2.0,
+    "score": 106.03370967741907
+  }
+}

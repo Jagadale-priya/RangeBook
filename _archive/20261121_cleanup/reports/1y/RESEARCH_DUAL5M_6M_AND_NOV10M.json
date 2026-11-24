@@ -1,0 +1,253 @@
+{
+  "status": "RESEARCH",
+  "not_live": true,
+  "start_6m": "2026-05-16",
+  "end": "2026-11-15",
+  "nov_10m": {
+    "top": [
+      "2026-11-06 11:20 BUY"
+    ],
+    "all": [
+      "2026-11-03 10:10 BUY",
+      "2026-11-05 12:10 BUY",
+      "2026-11-06 11:20 BUY",
+      "2026-11-09 11:00 SELL"
+    ]
+  },
+  "books_5m": {
+    "D5M_ALL_DAY": {
+      "6m": {
+        "n": 116,
+        "hit_pct": 50.0,
+        "wins": 58,
+        "losses": 58,
+        "points": 0.0,
+        "days": 116,
+        "by_track": {
+          "dual5m": {
+            "n": 116,
+            "hit_pct": 50.0,
+            "points": 0.0
+          }
+        }
+      },
+      "nov": {
+        "n": 8,
+        "hit_pct": 37.5,
+        "wins": 3,
+        "losses": 5,
+        "points": -60.0,
+        "days": 8,
+        "by_track": {
+          "dual5m": {
+            "n": 8,
+            "hit_pct": 37.5,
+            "points": -60.0
+          }
+        }
+      },
+      "nov_calls": [
+        "2026-11-02 10:10 BUY L",
+        "2026-11-03 09:45 BUY W",
+        "2026-11-05 09:45 BUY L",
+        "2026-11-06 09:45 BUY W",
+        "2026-11-09 10:40 SELL L",
+        "2026-11-11 13:30 SELL W",
+        "2026-11-12 09:55 BUY L",
+        "2026-11-13 10:05 BUY L"
+      ]
+    },
+    "D5M_p52_DAY": {
+      "6m": {
+        "n": 50,
+        "hit_pct": 44.0,
+        "wins": 22,
+        "losses": 28,
+        "points": -180.0,
+        "days": 50,
+        "by_track": {
+          "dual5m": {
+            "n": 50,
+            "hit_pct": 44.0,
+            "points": -180.0
+          }
+        }
+      },
+      "nov": {
+        "n": 3,
+        "hit_pct": 33.33,
+        "wins": 1,
+        "losses": 2,
+        "points": -30.0,
+        "days": 3,
+        "by_track": {
+          "dual5m": {
+            "n": 3,
+            "hit_pct": 33.33,
+            "points": -30.0
+          }
+        }
+      },
+      "nov_calls": [
+        "2026-11-03 09:45 BUY W",
+        "2026-11-05 09:45 BUY L",
+        "2026-11-12 09:55 BUY L"
+      ]
+    },
+    "D5M_p55_DAY": {
+      "6m": {
+        "n": 49,
+        "hit_pct": 44.9,
+        "wins": 22,
+        "losses": 27,
+        "points": -150.0,
+        "days": 49,
+        "by_track": {
+          "dual5m": {
+            "n": 49,
+            "hit_pct": 44.9,
+            "points": -150.0
+          }
+        }
+      },
+      "nov": {
+        "n": 3,
+        "hit_pct": 33.33,
+        "wins": 1,
+        "losses": 2,
+        "points": -30.0,
+        "days": 3,
+        "by_track": {
+          "dual5m": {
+            "n": 3,
+            "hit_pct": 33.33,
+            "points": -30.0
+          }
+        }
+      },
+      "nov_calls": [
+        "2026-11-03 09:45 BUY W",
+        "2026-11-05 09:45 BUY L",
+        "2026-11-12 09:55 BUY L"
+      ]
+    },
+    "D5M_FB_DAY": {
+      "6m": {
+        "n": 116,
+        "hit_pct": 50.0,
+        "wins": 58,
+        "losses": 58,
+        "points": 0.0,
+        "days": 116,
+        "by_track": {
+          "dual5m": {
+            "n": 116,
+            "hit_pct": 50.0,
+            "points": 0.0
+          }
+        }
+      },
+      "nov": {
+        "n": 8,
+        "hit_pct": 37.5,
+        "wins": 3,
+        "losses": 5,
+        "points": -60.0,
+        "days": 8,
+        "by_track": {
+          "dual5m": {
+            "n": 8,
+            "hit_pct": 37.5,
+            "points": -60.0
+          }
+        }
+      },
+      "nov_calls": [
+        "2026-11-02 10:10 BUY L",
+        "2026-11-03 09:45 BUY W",
+        "2026-11-05 09:45 BUY L",
+        "2026-11-06 09:45 BUY W",
+        "2026-11-09 10:40 SELL L",
+        "2026-11-11 13:30 SELL W",
+        "2026-11-12 09:55 BUY L",
+        "2026-11-13 10:05 BUY L"
+      ]
+    },
+    "D5M_FB_p52_DAY": {
+      "6m": {
+        "n": 41,
+        "hit_pct": 41.46,
+        "wins": 17,
+        "losses": 24,
+        "points": -210.0,
+        "days": 41,
+        "by_track": {
+          "dual5m": {
+            "n": 41,
+            "hit_pct": 41.46,
+            "points": -210.0
+          }
+        }
+      },
+      "nov": {
+        "n": 3,
+        "hit_pct": 33.33,
+        "wins": 1,
+        "losses": 2,
+        "points": -30.0,
+        "days": 3,
+        "by_track": {
+          "dual5m": {
+            "n": 3,
+            "hit_pct": 33.33,
+            "points": -30.0
+          }
+        }
+      },
+      "nov_calls": [
+        "2026-11-03 09:45 BUY W",
+        "2026-11-05 09:45 BUY L",
+        "2026-11-12 09:55 BUY L"
+      ]
+    },
+    "D5M_WINS_DAY_ORACLE": {
+      "6m": {
+        "n": 58,
+        "hit_pct": 100.0,
+        "wins": 58,
+        "losses": 0,
+        "points": 1740.0,
+        "days": 58,
+        "by_track": {
+          "dual5m": {
+            "n": 58,
+            "hit_pct": 100.0,
+            "points": 1740.0
+          }
+        }
+      },
+      "nov": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "wins": 3,
+        "losses": 0,
+        "points": 90.0,
+        "days": 3,
+        "by_track": {
+          "dual5m": {
+            "n": 3,
+            "hit_pct": 100.0,
+            "points": 90.0
+          }
+        }
+      },
+      "nov_calls": [
+        "2026-11-03 09:45 BUY W",
+        "2026-11-06 09:45 BUY W",
+        "2026-11-11 13:30 SELL W"
+      ]
+    }
+  },
+  "verdict": "10m Nov: top=1 all=4. 5m dual-train 6m p52 day=50@44.0% \u00b7 Nov=3@33.33%.",
+  "elapsed_s": 14.1
+}

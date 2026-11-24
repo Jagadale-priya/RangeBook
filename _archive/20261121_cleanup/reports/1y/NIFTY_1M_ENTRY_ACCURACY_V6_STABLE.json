@@ -1,0 +1,497 @@
+{
+  "prev_high85": {
+    "n": 65,
+    "prec": 70.77,
+    "min_fold": 62.5,
+    "fold_precs": [
+      62.5,
+      63.89,
+      100.0,
+      80.0
+    ],
+    "fold_ns": [
+      8,
+      36,
+      6,
+      15
+    ],
+    "train_prec": 63.64,
+    "train_n": 44,
+    "oos_prec": 85.71,
+    "oos_n": 21,
+    "clean15": 32.31,
+    "m25": 84.62,
+    "avg_mfe": 68.81,
+    "avg_mae": 32.97
+  },
+  "hunt": [
+    {
+      "name": "pb|all|ctrl+held+room_ok+disp08+atr_hi",
+      "n": 31,
+      "prec": 70.97,
+      "min_fold": 77.78,
+      "fold_precs": [
+        0.0,
+        77.78,
+        80.0,
+        80.0
+      ],
+      "fold_ns": [
+        3,
+        18,
+        5,
+        5
+      ],
+      "train_prec": 66.67,
+      "train_n": 21,
+      "oos_prec": 80.0,
+      "oos_n": 10,
+      "clean15": 29.03,
+      "m25": 90.32,
+      "avg_mfe": 61.21,
+      "avg_mae": 41.2
+    },
+    {
+      "name": "pb|all|ctrl+held+htf_with+atr_hi+compress",
+      "n": 35,
+      "prec": 74.29,
+      "min_fold": 68.75,
+      "fold_precs": [
+        80.0,
+        68.75,
+        50.0,
+        100.0
+      ],
+      "fold_ns": [
+        10,
+        16,
+        4,
+        5
+      ],
+      "train_prec": 73.08,
+      "train_n": 26,
+      "oos_prec": 77.78,
+      "oos_n": 9,
+      "clean15": 31.43,
+      "m25": 91.43,
+      "avg_mfe": 57.38,
+      "avg_mae": 37.23
+    },
+    {
+      "name": "pb|all|ctrl+bounce+room_ok+atr_hi+engulf",
+      "n": 32,
+      "prec": 81.25,
+      "min_fold": 66.67,
+      "fold_precs": [
+        66.67,
+        100.0,
+        66.67,
+        66.67
+      ],
+      "fold_ns": [
+        6,
+        14,
+        6,
+        6
+      ],
+      "train_prec": 90.0,
+      "train_n": 20,
+      "oos_prec": 66.67,
+      "oos_n": 12,
+      "clean15": 43.75,
+      "m25": 90.62,
+      "avg_mfe": 70.6,
+      "avg_mae": 32.4
+    },
+    {
+      "name": "pb|all|ctrl+atr_hi+compress+engulf+close_strong",
+      "n": 71,
+      "prec": 70.42,
+      "min_fold": 65.79,
+      "fold_precs": [
+        72.73,
+        65.79,
+        75.0,
+        78.57
+      ],
+      "fold_ns": [
+        11,
+        38,
+        8,
+        14
+      ],
+      "train_prec": 67.35,
+      "train_n": 49,
+      "oos_prec": 77.27,
+      "oos_n": 22,
+      "clean15": 33.8,
+      "m25": 84.51,
+      "avg_mfe": 68.5,
+      "avg_mae": 33.75
+    },
+    {
+      "name": "pb|all|ctrl+held+not_extreme+atr_hi+compress",
+      "n": 35,
+      "prec": 71.43,
+      "min_fold": 62.5,
+      "fold_precs": [
+        62.5,
+        62.5,
+        100.0,
+        88.89
+      ],
+      "fold_ns": [
+        8,
+        16,
+        2,
+        9
+      ],
+      "train_prec": 62.5,
+      "train_n": 24,
+      "oos_prec": 90.91,
+      "oos_n": 11,
+      "clean15": 25.71,
+      "m25": 85.71,
+      "avg_mfe": 55.25,
+      "avg_mae": 31.16
+    },
+    {
+      "name": "pb|all|ctrl+not_extreme+atr_hi+compress+engulf",
+      "n": 65,
+      "prec": 70.77,
+      "min_fold": 62.5,
+      "fold_precs": [
+        62.5,
+        63.89,
+        100.0,
+        80.0
+      ],
+      "fold_ns": [
+        8,
+        36,
+        6,
+        15
+      ],
+      "train_prec": 63.64,
+      "train_n": 44,
+      "oos_prec": 85.71,
+      "oos_n": 21,
+      "clean15": 32.31,
+      "m25": 84.62,
+      "avg_mfe": 68.81,
+      "avg_mae": 32.97
+    },
+    {
+      "name": "pb|all|ctrl+room_ok+htf_with+atr_hi+engulf",
+      "n": 49,
+      "prec": 67.35,
+      "min_fold": 62.5,
+      "fold_precs": [
+        66.67,
+        67.86,
+        62.5,
+        75.0
+      ],
+      "fold_ns": [
+        9,
+        28,
+        8,
+        4
+      ],
+      "train_prec": 67.57,
+      "train_n": 37,
+      "oos_prec": 66.67,
+      "oos_n": 12,
+      "clean15": 38.78,
+      "m25": 87.76,
+      "avg_mfe": 65.35,
+      "avg_mae": 35.19
+    },
+    {
+      "name": "pb|all|ctrl+not_extreme+htf_with+atr_hi+compress",
+      "n": 51,
+      "prec": 68.63,
+      "min_fold": 62.07,
+      "fold_precs": [
+        70.0,
+        62.07,
+        100.0,
+        77.78
+      ],
+      "fold_ns": [
+        10,
+        29,
+        3,
+        9
+      ],
+      "train_prec": 64.1,
+      "train_n": 39,
+      "oos_prec": 83.33,
+      "oos_n": 12,
+      "clean15": 29.41,
+      "m25": 88.24,
+      "avg_mfe": 67.8,
+      "avg_mae": 38.21
+    },
+    {
+      "name": "pb|all|ctrl+held+room_ok+big_body+engulf",
+      "n": 54,
+      "prec": 66.67,
+      "min_fold": 61.54,
+      "fold_precs": [
+        66.67,
+        69.57,
+        61.54,
+        66.67
+      ],
+      "fold_ns": [
+        9,
+        23,
+        13,
+        9
+      ],
+      "train_prec": 68.75,
+      "train_n": 32,
+      "oos_prec": 63.64,
+      "oos_n": 22,
+      "clean15": 40.74,
+      "m25": 79.63,
+      "avg_mfe": 60.61,
+      "avg_mae": 28.27
+    },
+    {
+      "name": "pb|all|ctrl+ad+htf_with+atr_hi+compress",
+      "n": 53,
+      "prec": 66.04,
+      "min_fold": 60.71,
+      "fold_precs": [
+        75.0,
+        60.71,
+        66.67,
+        71.43
+      ],
+      "fold_ns": [
+        12,
+        28,
+        6,
+        7
+      ],
+      "train_prec": 65.0,
+      "train_n": 40,
+      "oos_prec": 69.23,
+      "oos_n": 13,
+      "clean15": 26.42,
+      "m25": 84.91,
+      "avg_mfe": 62.76,
+      "avg_mae": 40.6
+    },
+    {
+      "name": "pb|all|ctrl+htf_with+atr_hi+compress+am",
+      "n": 30,
+      "prec": 76.67,
+      "min_fold": 60.0,
+      "fold_precs": [
+        100.0,
+        75.0,
+        60.0,
+        71.43
+      ],
+      "fold_ns": [
+        6,
+        12,
+        5,
+        7
+      ],
+      "train_prec": 83.33,
+      "train_n": 18,
+      "oos_prec": 66.67,
+      "oos_n": 12,
+      "clean15": 33.33,
+      "m25": 86.67,
+      "avg_mfe": 63.23,
+      "avg_mae": 32.57
+    },
+    {
+      "name": "pb|all|ctrl+htf_with+atr_hi+compress+engulf",
+      "n": 43,
+      "prec": 72.09,
+      "min_fold": 60.0,
+      "fold_precs": [
+        85.71,
+        65.22,
+        60.0,
+        87.5
+      ],
+      "fold_ns": [
+        7,
+        23,
+        5,
+        8
+      ],
+      "train_prec": 70.0,
+      "train_n": 30,
+      "oos_prec": 76.92,
+      "oos_n": 13,
+      "clean15": 37.21,
+      "m25": 90.7,
+      "avg_mfe": 76.2,
+      "avg_mae": 30.93
+    },
+    {
+      "name": "pb|all|ctrl+held+room_ok+atr_hi+engulf",
+      "n": 43,
+      "prec": 69.77,
+      "min_fold": 60.0,
+      "fold_precs": [
+        60.0,
+        76.19,
+        62.5,
+        66.67
+      ],
+      "fold_ns": [
+        5,
+        21,
+        8,
+        9
+      ],
+      "train_prec": 73.08,
+      "train_n": 26,
+      "oos_prec": 64.71,
+      "oos_n": 17,
+      "clean15": 39.53,
+      "m25": 93.02,
+      "avg_mfe": 67.46,
+      "avg_mae": 33.1
+    },
+    {
+      "name": "pb|all|ctrl+atr_hi+compress+engulf+body_dom",
+      "n": 74,
+      "prec": 67.57,
+      "min_fold": 60.0,
+      "fold_precs": [
+        72.73,
+        60.0,
+        75.0,
+        80.0
+      ],
+      "fold_ns": [
+        11,
+        40,
+        8,
+        15
+      ],
+      "train_prec": 62.75,
+      "train_n": 51,
+      "oos_prec": 78.26,
+      "oos_n": 23,
+      "clean15": 31.08,
+      "m25": 82.43,
+      "avg_mfe": 66.42,
+      "avg_mae": 34.6
+    },
+    {
+      "name": "pb|all|ctrl+held+big_body+compress+engulf",
+      "n": 63,
+      "prec": 66.67,
+      "min_fold": 60.0,
+      "fold_precs": [
+        60.0,
+        61.9,
+        68.75,
+        75.0
+      ],
+      "fold_ns": [
+        10,
+        21,
+        16,
+        16
+      ],
+      "train_prec": 61.29,
+      "train_n": 31,
+      "oos_prec": 71.88,
+      "oos_n": 32,
+      "clean15": 31.75,
+      "m25": 74.6,
+      "avg_mfe": 49.15,
+      "avg_mae": 30.76
+    },
+    {
+      "name": "pb|all|ctrl+disp10+htf_with+compress+engulf",
+      "n": 83,
+      "prec": 66.27,
+      "min_fold": 60.0,
+      "fold_precs": [
+        65.0,
+        73.91,
+        64.0,
+        60.0
+      ],
+      "fold_ns": [
+        20,
+        23,
+        25,
+        15
+      ],
+      "train_prec": 69.77,
+      "train_n": 43,
+      "oos_prec": 62.5,
+      "oos_n": 40,
+      "clean15": 43.37,
+      "m25": 74.7,
+      "avg_mfe": 52.62,
+      "avg_mae": 24.75
+    },
+    {
+      "name": "pb|all|ctrl+disp10+htf_with+atr_hi+compress",
+      "n": 44,
+      "prec": 65.91,
+      "min_fold": 60.0,
+      "fold_precs": [
+        63.64,
+        70.37,
+        60.0,
+        0.0
+      ],
+      "fold_ns": [
+        11,
+        27,
+        5,
+        1
+      ],
+      "train_prec": 68.42,
+      "train_n": 38,
+      "oos_prec": 50.0,
+      "oos_n": 6,
+      "clean15": 36.36,
+      "m25": 84.09,
+      "avg_mfe": 67.18,
+      "avg_mae": 39.44
+    }
+  ],
+  "best": {
+    "name": "pb|all|ctrl+held+room_ok+disp08+atr_hi",
+    "n": 31,
+    "prec": 70.97,
+    "min_fold": 77.78,
+    "fold_precs": [
+      0.0,
+      77.78,
+      80.0,
+      80.0
+    ],
+    "fold_ns": [
+      3,
+      18,
+      5,
+      5
+    ],
+    "train_prec": 66.67,
+    "train_n": 21,
+    "oos_prec": 80.0,
+    "oos_n": 10,
+    "clean15": 29.03,
+    "m25": 90.32,
+    "avg_mfe": 61.21,
+    "avg_mae": 41.2
+  }
+}

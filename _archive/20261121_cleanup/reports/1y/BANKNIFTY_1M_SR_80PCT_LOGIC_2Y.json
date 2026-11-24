@@ -1,0 +1,2347 @@
+{
+  "verdict": "FAIL \u2014 Acc below 70% on BN (NIFTY gate does not transfer raw)",
+  "note": "ALL Acc=49.09% n=110 \u00b7 AccATR=49.09% \u00b7 edge=39.64",
+  "data_lo": "2025-09-08",
+  "data_hi": "2026-11-02",
+  "days": 285,
+  "results": [
+    {
+      "gate": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100",
+      "slice": "ALL_available",
+      "stats": {
+        "label": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100 \u00b7 ALL_available",
+        "n": 110,
+        "acc": 49.09,
+        "dom": 43.64,
+        "dom20": 43.64,
+        "one_dir": 35.45,
+        "clean_run": 2.73,
+        "fav1st": 22.73,
+        "path12": 40.91,
+        "path12_strict": 34.55,
+        "path15": 31.82,
+        "mfe20": 88.18,
+        "mfe30": 80.91,
+        "avg_mfe": 189.23,
+        "avg_mae": 149.59,
+        "avg_edge": 39.64,
+        "best_metric": "acc",
+        "best_pct": 49.09,
+        "acc_atr": 49.09,
+        "dom_atr": 43.64,
+        "mfe2atr": 68.18
+      },
+      "gap15": {
+        "label": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100 \u00b7 ALL_available \u00b7 gap15",
+        "n": 95,
+        "acc": 49.47,
+        "dom": 44.21,
+        "dom20": 44.21,
+        "one_dir": 34.74,
+        "clean_run": 3.16,
+        "fav1st": 25.26,
+        "path12": 43.16,
+        "path12_strict": 37.89,
+        "path15": 34.74,
+        "mfe20": 88.42,
+        "mfe30": 82.11,
+        "avg_mfe": 192.52,
+        "avg_mae": 149.22,
+        "avg_edge": 43.29,
+        "best_metric": "acc",
+        "best_pct": 49.47,
+        "acc_atr": 49.47,
+        "dom_atr": 44.21,
+        "mfe2atr": 68.42
+      },
+      "months_acc": [
+        [
+          "2025-09",
+          8,
+          37.5
+        ],
+        [
+          "2025-10",
+          6,
+          16.67
+        ],
+        [
+          "2025-11",
+          11,
+          54.55
+        ],
+        [
+          "2025-12",
+          4,
+          75.0
+        ],
+        [
+          "2026-01",
+          7,
+          28.57
+        ],
+        [
+          "2026-02",
+          13,
+          38.46
+        ],
+        [
+          "2026-03",
+          5,
+          60.0
+        ],
+        [
+          "2026-04",
+          19,
+          73.68
+        ],
+        [
+          "2026-05",
+          8,
+          75.0
+        ],
+        [
+          "2026-06",
+          5,
+          40.0
+        ],
+        [
+          "2026-07",
+          6,
+          33.33
+        ],
+        [
+          "2026-08",
+          6,
+          16.67
+        ],
+        [
+          "2026-09",
+          3,
+          100.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100",
+      "slice": "LAST_1Y",
+      "stats": {
+        "label": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100 \u00b7 LAST_1Y",
+        "n": 96,
+        "acc": 52.08,
+        "dom": 46.88,
+        "dom20": 46.88,
+        "one_dir": 38.54,
+        "clean_run": 3.12,
+        "fav1st": 21.88,
+        "path12": 41.67,
+        "path12_strict": 33.33,
+        "path15": 30.21,
+        "mfe20": 88.54,
+        "mfe30": 82.29,
+        "avg_mfe": 204.43,
+        "avg_mae": 155.86,
+        "avg_edge": 48.57,
+        "best_metric": "acc",
+        "best_pct": 52.08,
+        "acc_atr": 52.08,
+        "dom_atr": 46.88,
+        "mfe2atr": 71.88
+      },
+      "gap15": {
+        "label": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100 \u00b7 LAST_1Y \u00b7 gap15",
+        "n": 82,
+        "acc": 52.44,
+        "dom": 47.56,
+        "dom20": 47.56,
+        "one_dir": 37.8,
+        "clean_run": 3.66,
+        "fav1st": 24.39,
+        "path12": 43.9,
+        "path12_strict": 36.59,
+        "path15": 32.93,
+        "mfe20": 89.02,
+        "mfe30": 82.93,
+        "avg_mfe": 208.86,
+        "avg_mae": 155.43,
+        "avg_edge": 53.43,
+        "best_metric": "acc",
+        "best_pct": 52.44,
+        "acc_atr": 52.44,
+        "dom_atr": 47.56,
+        "mfe2atr": 71.95
+      },
+      "months_acc": [
+        [
+          "2025-11",
+          11,
+          54.55
+        ],
+        [
+          "2025-12",
+          4,
+          75.0
+        ],
+        [
+          "2026-01",
+          7,
+          28.57
+        ],
+        [
+          "2026-02",
+          13,
+          38.46
+        ],
+        [
+          "2026-03",
+          5,
+          60.0
+        ],
+        [
+          "2026-04",
+          19,
+          73.68
+        ],
+        [
+          "2026-05",
+          8,
+          75.0
+        ],
+        [
+          "2026-06",
+          5,
+          40.0
+        ],
+        [
+          "2026-07",
+          6,
+          33.33
+        ],
+        [
+          "2026-08",
+          6,
+          16.67
+        ],
+        [
+          "2026-09",
+          3,
+          100.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100",
+      "slice": "LAST_6M",
+      "stats": {
+        "label": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100 \u00b7 LAST_6M",
+        "n": 35,
+        "acc": 42.86,
+        "dom": 37.14,
+        "dom20": 37.14,
+        "one_dir": 25.71,
+        "clean_run": 2.86,
+        "fav1st": 25.71,
+        "path12": 42.86,
+        "path12_strict": 34.29,
+        "path15": 34.29,
+        "mfe20": 88.57,
+        "mfe30": 80.0,
+        "avg_mfe": 168.75,
+        "avg_mae": 161.89,
+        "avg_edge": 6.87,
+        "best_metric": "acc",
+        "best_pct": 42.86,
+        "acc_atr": 42.86,
+        "dom_atr": 37.14,
+        "mfe2atr": 65.71
+      },
+      "gap15": {
+        "label": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100 \u00b7 LAST_6M \u00b7 gap15",
+        "n": 31,
+        "acc": 45.16,
+        "dom": 38.71,
+        "dom20": 38.71,
+        "one_dir": 25.81,
+        "clean_run": 3.23,
+        "fav1st": 29.03,
+        "path12": 41.94,
+        "path12_strict": 38.71,
+        "path15": 38.71,
+        "mfe20": 90.32,
+        "mfe30": 80.65,
+        "avg_mfe": 178.3,
+        "avg_mae": 164.51,
+        "avg_edge": 13.79,
+        "best_metric": "acc",
+        "best_pct": 45.16,
+        "acc_atr": 45.16,
+        "dom_atr": 38.71,
+        "mfe2atr": 64.52
+      },
+      "months_acc": [
+        [
+          "2026-05",
+          6,
+          66.67
+        ],
+        [
+          "2026-06",
+          5,
+          40.0
+        ],
+        [
+          "2026-07",
+          6,
+          33.33
+        ],
+        [
+          "2026-08",
+          6,
+          16.67
+        ],
+        [
+          "2026-09",
+          3,
+          100.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100",
+      "slice": "LAST_2M",
+      "stats": {
+        "label": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100 \u00b7 LAST_2M",
+        "n": 14,
+        "acc": 42.86,
+        "dom": 42.86,
+        "dom20": 42.86,
+        "one_dir": 28.57,
+        "clean_run": 0.0,
+        "fav1st": 21.43,
+        "path12": 42.86,
+        "path12_strict": 35.71,
+        "path15": 35.71,
+        "mfe20": 92.86,
+        "mfe30": 78.57,
+        "avg_mfe": 174.47,
+        "avg_mae": 198.94,
+        "avg_edge": -24.47,
+        "best_metric": "acc",
+        "best_pct": 42.86,
+        "acc_atr": 42.86,
+        "dom_atr": 42.86,
+        "mfe2atr": 64.29
+      },
+      "gap15": {
+        "label": "L80 \u00b7 HELD+clear15+ctrl_sweep+DI\u22658+after1100 \u00b7 LAST_2M \u00b7 gap15",
+        "n": 12,
+        "acc": 41.67,
+        "dom": 41.67,
+        "dom20": 41.67,
+        "one_dir": 25.0,
+        "clean_run": 0.0,
+        "fav1st": 25.0,
+        "path12": 50.0,
+        "path12_strict": 41.67,
+        "path15": 41.67,
+        "mfe20": 91.67,
+        "mfe30": 75.0,
+        "avg_mfe": 177.49,
+        "avg_mae": 201.75,
+        "avg_edge": -24.26,
+        "best_metric": "path12",
+        "best_pct": 50.0,
+        "acc_atr": 41.67,
+        "dom_atr": 41.67,
+        "mfe2atr": 58.33
+      },
+      "months_acc": [
+        [
+          "2026-08",
+          2,
+          0.0
+        ],
+        [
+          "2026-09",
+          3,
+          100.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "L80_MID \u00b7 same + mid_slot(11\u201313)",
+      "slice": "ALL_available",
+      "stats": {
+        "label": "L80_MID \u00b7 same + mid_slot(11\u201313) \u00b7 ALL_available",
+        "n": 62,
+        "acc": 53.23,
+        "dom": 45.16,
+        "dom20": 45.16,
+        "one_dir": 37.1,
+        "clean_run": 3.23,
+        "fav1st": 24.19,
+        "path12": 38.71,
+        "path12_strict": 37.1,
+        "path15": 37.1,
+        "mfe20": 85.48,
+        "mfe30": 80.65,
+        "avg_mfe": 173.08,
+        "avg_mae": 134.04,
+        "avg_edge": 39.03,
+        "best_metric": "acc",
+        "best_pct": 53.23,
+        "acc_atr": 53.23,
+        "dom_atr": 45.16,
+        "mfe2atr": 70.97
+      },
+      "gap15": {
+        "label": "L80_MID \u00b7 same + mid_slot(11\u201313) \u00b7 ALL_available \u00b7 gap15",
+        "n": 53,
+        "acc": 54.72,
+        "dom": 47.17,
+        "dom20": 47.17,
+        "one_dir": 37.74,
+        "clean_run": 3.77,
+        "fav1st": 28.3,
+        "path12": 43.4,
+        "path12_strict": 41.51,
+        "path15": 41.51,
+        "mfe20": 86.79,
+        "mfe30": 83.02,
+        "avg_mfe": 184.34,
+        "avg_mae": 131.32,
+        "avg_edge": 53.03,
+        "best_metric": "acc",
+        "best_pct": 54.72,
+        "acc_atr": 54.72,
+        "dom_atr": 47.17,
+        "mfe2atr": 71.7
+      },
+      "months_acc": [
+        [
+          "2025-09",
+          5,
+          20.0
+        ],
+        [
+          "2025-10",
+          4,
+          0.0
+        ],
+        [
+          "2025-11",
+          7,
+          71.43
+        ],
+        [
+          "2025-12",
+          2,
+          100.0
+        ],
+        [
+          "2026-01",
+          5,
+          20.0
+        ],
+        [
+          "2026-02",
+          6,
+          66.67
+        ],
+        [
+          "2026-03",
+          2,
+          100.0
+        ],
+        [
+          "2026-04",
+          12,
+          75.0
+        ],
+        [
+          "2026-05",
+          7,
+          71.43
+        ],
+        [
+          "2026-06",
+          2,
+          50.0
+        ],
+        [
+          "2026-07",
+          3,
+          33.33
+        ],
+        [
+          "2026-08",
+          3,
+          33.33
+        ],
+        [
+          "2026-09",
+          1,
+          100.0
+        ],
+        [
+          "2026-10",
+          3,
+          0.0
+        ]
+      ]
+    },
+    {
+      "gate": "L80_MID \u00b7 same + mid_slot(11\u201313)",
+      "slice": "LAST_1Y",
+      "stats": {
+        "label": "L80_MID \u00b7 same + mid_slot(11\u201313) \u00b7 LAST_1Y",
+        "n": 53,
+        "acc": 60.38,
+        "dom": 52.83,
+        "dom20": 52.83,
+        "one_dir": 43.4,
+        "clean_run": 3.77,
+        "fav1st": 24.53,
+        "path12": 41.51,
+        "path12_strict": 35.85,
+        "path15": 35.85,
+        "mfe20": 86.79,
+        "mfe30": 83.02,
+        "avg_mfe": 195.8,
+        "avg_mae": 137.44,
+        "avg_edge": 58.36,
+        "best_metric": "acc",
+        "best_pct": 60.38,
+        "acc_atr": 60.38,
+        "dom_atr": 52.83,
+        "mfe2atr": 79.25
+      },
+      "gap15": {
+        "label": "L80_MID \u00b7 same + mid_slot(11\u201313) \u00b7 LAST_1Y \u00b7 gap15",
+        "n": 45,
+        "acc": 62.22,
+        "dom": 55.56,
+        "dom20": 55.56,
+        "one_dir": 44.44,
+        "clean_run": 4.44,
+        "fav1st": 28.89,
+        "path12": 46.67,
+        "path12_strict": 40.0,
+        "path15": 40.0,
+        "mfe20": 88.89,
+        "mfe30": 84.44,
+        "avg_mfe": 209.87,
+        "avg_mae": 133.22,
+        "avg_edge": 76.64,
+        "best_metric": "acc",
+        "best_pct": 62.22,
+        "acc_atr": 62.22,
+        "dom_atr": 55.56,
+        "mfe2atr": 80.0
+      },
+      "months_acc": [
+        [
+          "2025-11",
+          7,
+          71.43
+        ],
+        [
+          "2025-12",
+          2,
+          100.0
+        ],
+        [
+          "2026-01",
+          5,
+          20.0
+        ],
+        [
+          "2026-02",
+          6,
+          66.67
+        ],
+        [
+          "2026-03",
+          2,
+          100.0
+        ],
+        [
+          "2026-04",
+          12,
+          75.0
+        ],
+        [
+          "2026-05",
+          7,
+          71.43
+        ],
+        [
+          "2026-06",
+          2,
+          50.0
+        ],
+        [
+          "2026-07",
+          3,
+          33.33
+        ],
+        [
+          "2026-08",
+          3,
+          33.33
+        ],
+        [
+          "2026-09",
+          1,
+          100.0
+        ],
+        [
+          "2026-10",
+          3,
+          0.0
+        ]
+      ]
+    },
+    {
+      "gate": "L80_MID \u00b7 same + mid_slot(11\u201313)",
+      "slice": "LAST_6M",
+      "stats": {
+        "label": "L80_MID \u00b7 same + mid_slot(11\u201313) \u00b7 LAST_6M",
+        "n": 17,
+        "acc": 41.18,
+        "dom": 35.29,
+        "dom20": 35.29,
+        "one_dir": 23.53,
+        "clean_run": 5.88,
+        "fav1st": 35.29,
+        "path12": 58.82,
+        "path12_strict": 41.18,
+        "path15": 41.18,
+        "mfe20": 82.35,
+        "mfe30": 70.59,
+        "avg_mfe": 130.08,
+        "avg_mae": 169.01,
+        "avg_edge": -38.94,
+        "best_metric": "path12",
+        "best_pct": 58.82,
+        "acc_atr": 41.18,
+        "dom_atr": 35.29,
+        "mfe2atr": 64.71
+      },
+      "gap15": {
+        "label": "L80_MID \u00b7 same + mid_slot(11\u201313) \u00b7 LAST_6M \u00b7 gap15",
+        "n": 15,
+        "acc": 46.67,
+        "dom": 40.0,
+        "dom20": 40.0,
+        "one_dir": 26.67,
+        "clean_run": 6.67,
+        "fav1st": 40.0,
+        "path12": 60.0,
+        "path12_strict": 46.67,
+        "path15": 46.67,
+        "mfe20": 86.67,
+        "mfe30": 73.33,
+        "avg_mfe": 140.51,
+        "avg_mae": 166.39,
+        "avg_edge": -25.89,
+        "best_metric": "path12",
+        "best_pct": 60.0,
+        "acc_atr": 46.67,
+        "dom_atr": 40.0,
+        "mfe2atr": 66.67
+      },
+      "months_acc": [
+        [
+          "2026-05",
+          5,
+          60.0
+        ],
+        [
+          "2026-06",
+          2,
+          50.0
+        ],
+        [
+          "2026-07",
+          3,
+          33.33
+        ],
+        [
+          "2026-08",
+          3,
+          33.33
+        ],
+        [
+          "2026-09",
+          1,
+          100.0
+        ],
+        [
+          "2026-10",
+          3,
+          0.0
+        ]
+      ]
+    },
+    {
+      "gate": "L80_MID \u00b7 same + mid_slot(11\u201313)",
+      "slice": "LAST_2M",
+      "stats": {
+        "label": "L80_MID \u00b7 same + mid_slot(11\u201313) \u00b7 LAST_2M",
+        "n": 6,
+        "acc": 16.67,
+        "dom": 16.67,
+        "dom20": 16.67,
+        "one_dir": 16.67,
+        "clean_run": 0.0,
+        "fav1st": 50.0,
+        "path12": 83.33,
+        "path12_strict": 66.67,
+        "path15": 66.67,
+        "mfe20": 100.0,
+        "mfe30": 66.67,
+        "avg_mfe": 87.71,
+        "avg_mae": 225.92,
+        "avg_edge": -138.21,
+        "best_metric": "path12",
+        "best_pct": 83.33,
+        "acc_atr": 16.67,
+        "dom_atr": 16.67,
+        "mfe2atr": 50.0
+      },
+      "gap15": {
+        "label": "L80_MID \u00b7 same + mid_slot(11\u201313) \u00b7 LAST_2M \u00b7 gap15",
+        "n": 5,
+        "acc": 20.0,
+        "dom": 20.0,
+        "dom20": 20.0,
+        "one_dir": 20.0,
+        "clean_run": 0.0,
+        "fav1st": 60.0,
+        "path12": 100.0,
+        "path12_strict": 80.0,
+        "path15": 80.0,
+        "mfe20": 100.0,
+        "mfe30": 60.0,
+        "avg_mfe": 87.42,
+        "avg_mae": 218.69,
+        "avg_edge": -131.27,
+        "best_metric": "path12",
+        "best_pct": 100.0,
+        "acc_atr": 20.0,
+        "dom_atr": 20.0,
+        "mfe2atr": 40.0
+      },
+      "months_acc": [
+        [
+          "2026-08",
+          2,
+          0.0
+        ],
+        [
+          "2026-09",
+          1,
+          100.0
+        ],
+        [
+          "2026-10",
+          3,
+          0.0
+        ]
+      ]
+    },
+    {
+      "gate": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100",
+      "slice": "ALL_available",
+      "stats": {
+        "label": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100 \u00b7 ALL_available",
+        "n": 110,
+        "acc": 49.09,
+        "dom": 43.64,
+        "dom20": 43.64,
+        "one_dir": 35.45,
+        "clean_run": 2.73,
+        "fav1st": 22.73,
+        "path12": 40.91,
+        "path12_strict": 34.55,
+        "path15": 31.82,
+        "mfe20": 88.18,
+        "mfe30": 80.91,
+        "avg_mfe": 189.23,
+        "avg_mae": 149.59,
+        "avg_edge": 39.64,
+        "best_metric": "acc",
+        "best_pct": 49.09,
+        "acc_atr": 49.09,
+        "dom_atr": 43.64,
+        "mfe2atr": 68.18
+      },
+      "gap15": {
+        "label": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100 \u00b7 ALL_available \u00b7 gap15",
+        "n": 95,
+        "acc": 49.47,
+        "dom": 44.21,
+        "dom20": 44.21,
+        "one_dir": 34.74,
+        "clean_run": 3.16,
+        "fav1st": 25.26,
+        "path12": 43.16,
+        "path12_strict": 37.89,
+        "path15": 34.74,
+        "mfe20": 88.42,
+        "mfe30": 82.11,
+        "avg_mfe": 192.52,
+        "avg_mae": 149.22,
+        "avg_edge": 43.29,
+        "best_metric": "acc",
+        "best_pct": 49.47,
+        "acc_atr": 49.47,
+        "dom_atr": 44.21,
+        "mfe2atr": 68.42
+      },
+      "months_acc": [
+        [
+          "2025-09",
+          8,
+          37.5
+        ],
+        [
+          "2025-10",
+          6,
+          16.67
+        ],
+        [
+          "2025-11",
+          11,
+          54.55
+        ],
+        [
+          "2025-12",
+          4,
+          75.0
+        ],
+        [
+          "2026-01",
+          7,
+          28.57
+        ],
+        [
+          "2026-02",
+          13,
+          38.46
+        ],
+        [
+          "2026-03",
+          5,
+          60.0
+        ],
+        [
+          "2026-04",
+          19,
+          73.68
+        ],
+        [
+          "2026-05",
+          8,
+          75.0
+        ],
+        [
+          "2026-06",
+          5,
+          40.0
+        ],
+        [
+          "2026-07",
+          6,
+          33.33
+        ],
+        [
+          "2026-08",
+          6,
+          16.67
+        ],
+        [
+          "2026-09",
+          3,
+          100.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100",
+      "slice": "LAST_1Y",
+      "stats": {
+        "label": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100 \u00b7 LAST_1Y",
+        "n": 96,
+        "acc": 52.08,
+        "dom": 46.88,
+        "dom20": 46.88,
+        "one_dir": 38.54,
+        "clean_run": 3.12,
+        "fav1st": 21.88,
+        "path12": 41.67,
+        "path12_strict": 33.33,
+        "path15": 30.21,
+        "mfe20": 88.54,
+        "mfe30": 82.29,
+        "avg_mfe": 204.43,
+        "avg_mae": 155.86,
+        "avg_edge": 48.57,
+        "best_metric": "acc",
+        "best_pct": 52.08,
+        "acc_atr": 52.08,
+        "dom_atr": 46.88,
+        "mfe2atr": 71.88
+      },
+      "gap15": {
+        "label": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100 \u00b7 LAST_1Y \u00b7 gap15",
+        "n": 82,
+        "acc": 52.44,
+        "dom": 47.56,
+        "dom20": 47.56,
+        "one_dir": 37.8,
+        "clean_run": 3.66,
+        "fav1st": 24.39,
+        "path12": 43.9,
+        "path12_strict": 36.59,
+        "path15": 32.93,
+        "mfe20": 89.02,
+        "mfe30": 82.93,
+        "avg_mfe": 208.86,
+        "avg_mae": 155.43,
+        "avg_edge": 53.43,
+        "best_metric": "acc",
+        "best_pct": 52.44,
+        "acc_atr": 52.44,
+        "dom_atr": 47.56,
+        "mfe2atr": 71.95
+      },
+      "months_acc": [
+        [
+          "2025-11",
+          11,
+          54.55
+        ],
+        [
+          "2025-12",
+          4,
+          75.0
+        ],
+        [
+          "2026-01",
+          7,
+          28.57
+        ],
+        [
+          "2026-02",
+          13,
+          38.46
+        ],
+        [
+          "2026-03",
+          5,
+          60.0
+        ],
+        [
+          "2026-04",
+          19,
+          73.68
+        ],
+        [
+          "2026-05",
+          8,
+          75.0
+        ],
+        [
+          "2026-06",
+          5,
+          40.0
+        ],
+        [
+          "2026-07",
+          6,
+          33.33
+        ],
+        [
+          "2026-08",
+          6,
+          16.67
+        ],
+        [
+          "2026-09",
+          3,
+          100.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100",
+      "slice": "LAST_6M",
+      "stats": {
+        "label": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100 \u00b7 LAST_6M",
+        "n": 35,
+        "acc": 42.86,
+        "dom": 37.14,
+        "dom20": 37.14,
+        "one_dir": 25.71,
+        "clean_run": 2.86,
+        "fav1st": 25.71,
+        "path12": 42.86,
+        "path12_strict": 34.29,
+        "path15": 34.29,
+        "mfe20": 88.57,
+        "mfe30": 80.0,
+        "avg_mfe": 168.75,
+        "avg_mae": 161.89,
+        "avg_edge": 6.87,
+        "best_metric": "acc",
+        "best_pct": 42.86,
+        "acc_atr": 42.86,
+        "dom_atr": 37.14,
+        "mfe2atr": 65.71
+      },
+      "gap15": {
+        "label": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100 \u00b7 LAST_6M \u00b7 gap15",
+        "n": 31,
+        "acc": 45.16,
+        "dom": 38.71,
+        "dom20": 38.71,
+        "one_dir": 25.81,
+        "clean_run": 3.23,
+        "fav1st": 29.03,
+        "path12": 41.94,
+        "path12_strict": 38.71,
+        "path15": 38.71,
+        "mfe20": 90.32,
+        "mfe30": 80.65,
+        "avg_mfe": 178.3,
+        "avg_mae": 164.51,
+        "avg_edge": 13.79,
+        "best_metric": "acc",
+        "best_pct": 45.16,
+        "acc_atr": 45.16,
+        "dom_atr": 38.71,
+        "mfe2atr": 64.52
+      },
+      "months_acc": [
+        [
+          "2026-05",
+          6,
+          66.67
+        ],
+        [
+          "2026-06",
+          5,
+          40.0
+        ],
+        [
+          "2026-07",
+          6,
+          33.33
+        ],
+        [
+          "2026-08",
+          6,
+          16.67
+        ],
+        [
+          "2026-09",
+          3,
+          100.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100",
+      "slice": "LAST_2M",
+      "stats": {
+        "label": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100 \u00b7 LAST_2M",
+        "n": 14,
+        "acc": 42.86,
+        "dom": 42.86,
+        "dom20": 42.86,
+        "one_dir": 28.57,
+        "clean_run": 0.0,
+        "fav1st": 21.43,
+        "path12": 42.86,
+        "path12_strict": 35.71,
+        "path15": 35.71,
+        "mfe20": 92.86,
+        "mfe30": 78.57,
+        "avg_mfe": 174.47,
+        "avg_mae": 198.94,
+        "avg_edge": -24.47,
+        "best_metric": "acc",
+        "best_pct": 42.86,
+        "acc_atr": 42.86,
+        "dom_atr": 42.86,
+        "mfe2atr": 64.29
+      },
+      "gap15": {
+        "label": "L80_TIER \u00b7 HELD+clear15+TierAB+DI\u22658+after1100 \u00b7 LAST_2M \u00b7 gap15",
+        "n": 12,
+        "acc": 41.67,
+        "dom": 41.67,
+        "dom20": 41.67,
+        "one_dir": 25.0,
+        "clean_run": 0.0,
+        "fav1st": 25.0,
+        "path12": 50.0,
+        "path12_strict": 41.67,
+        "path15": 41.67,
+        "mfe20": 91.67,
+        "mfe30": 75.0,
+        "avg_mfe": 177.49,
+        "avg_mae": 201.75,
+        "avg_edge": -24.26,
+        "best_metric": "path12",
+        "best_pct": 50.0,
+        "acc_atr": 41.67,
+        "dom_atr": 41.67,
+        "mfe2atr": 58.33
+      },
+      "months_acc": [
+        [
+          "2026-08",
+          2,
+          0.0
+        ],
+        [
+          "2026-09",
+          3,
+          100.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 HELD raw",
+      "slice": "ALL_available",
+      "stats": {
+        "label": "BASE \u00b7 HELD raw \u00b7 ALL_available",
+        "n": 16203,
+        "acc": 48.73,
+        "dom": 40.47,
+        "dom20": 40.47,
+        "one_dir": 34.64,
+        "clean_run": 6.9,
+        "fav1st": 25.96,
+        "path12": 45.96,
+        "path12_strict": 35.56,
+        "path15": 33.0,
+        "mfe20": 88.11,
+        "mfe30": 82.39,
+        "avg_mfe": 144.53,
+        "avg_mae": 144.57,
+        "avg_edge": -0.04,
+        "best_metric": "acc",
+        "best_pct": 48.73,
+        "acc_atr": 48.61,
+        "dom_atr": 40.47,
+        "mfe2atr": 71.78
+      },
+      "gap15": {
+        "label": "BASE \u00b7 HELD raw \u00b7 ALL_available \u00b7 gap15",
+        "n": 3347,
+        "acc": 48.25,
+        "dom": 40.01,
+        "dom20": 40.01,
+        "one_dir": 34.54,
+        "clean_run": 7.38,
+        "fav1st": 27.31,
+        "path12": 46.64,
+        "path12_strict": 36.63,
+        "path15": 34.48,
+        "mfe20": 87.48,
+        "mfe30": 82.04,
+        "avg_mfe": 141.47,
+        "avg_mae": 143.36,
+        "avg_edge": -1.88,
+        "best_metric": "acc",
+        "best_pct": 48.25,
+        "acc_atr": 48.13,
+        "dom_atr": 40.01,
+        "mfe2atr": 71.5
+      },
+      "months_acc": [
+        [
+          "2025-09",
+          886,
+          47.97
+        ],
+        [
+          "2025-10",
+          1149,
+          49.78
+        ],
+        [
+          "2025-11",
+          1068,
+          47.47
+        ],
+        [
+          "2025-12",
+          1225,
+          47.27
+        ],
+        [
+          "2026-01",
+          1117,
+          48.43
+        ],
+        [
+          "2026-02",
+          1182,
+          46.79
+        ],
+        [
+          "2026-03",
+          1172,
+          51.96
+        ],
+        [
+          "2026-04",
+          1207,
+          58.24
+        ],
+        [
+          "2026-05",
+          1066,
+          51.31
+        ],
+        [
+          "2026-06",
+          1224,
+          51.96
+        ],
+        [
+          "2026-07",
+          1326,
+          44.65
+        ],
+        [
+          "2026-08",
+          1206,
+          42.87
+        ],
+        [
+          "2026-09",
+          1153,
+          45.79
+        ],
+        [
+          "2026-10",
+          1179,
+          48.85
+        ],
+        [
+          "2026-11",
+          43,
+          25.58
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 HELD raw",
+      "slice": "LAST_1Y",
+      "stats": {
+        "label": "BASE \u00b7 HELD raw \u00b7 LAST_1Y",
+        "n": 14168,
+        "acc": 48.69,
+        "dom": 40.46,
+        "dom20": 40.46,
+        "one_dir": 34.78,
+        "clean_run": 6.75,
+        "fav1st": 26.02,
+        "path12": 46.77,
+        "path12_strict": 35.74,
+        "path15": 33.24,
+        "mfe20": 88.28,
+        "mfe30": 82.64,
+        "avg_mfe": 150.83,
+        "avg_mae": 150.18,
+        "avg_edge": 0.66,
+        "best_metric": "acc",
+        "best_pct": 48.69,
+        "acc_atr": 48.57,
+        "dom_atr": 40.46,
+        "mfe2atr": 71.85
+      },
+      "gap15": {
+        "label": "BASE \u00b7 HELD raw \u00b7 LAST_1Y \u00b7 gap15",
+        "n": 2914,
+        "acc": 48.01,
+        "dom": 39.77,
+        "dom20": 39.77,
+        "one_dir": 34.59,
+        "clean_run": 7.04,
+        "fav1st": 27.18,
+        "path12": 47.63,
+        "path12_strict": 36.82,
+        "path15": 34.69,
+        "mfe20": 87.44,
+        "mfe30": 82.09,
+        "avg_mfe": 146.91,
+        "avg_mae": 149.03,
+        "avg_edge": -2.12,
+        "best_metric": "acc",
+        "best_pct": 48.01,
+        "acc_atr": 47.87,
+        "dom_atr": 39.77,
+        "mfe2atr": 71.52
+      },
+      "months_acc": [
+        [
+          "2025-11",
+          1068,
+          47.47
+        ],
+        [
+          "2025-12",
+          1225,
+          47.27
+        ],
+        [
+          "2026-01",
+          1117,
+          48.43
+        ],
+        [
+          "2026-02",
+          1182,
+          46.79
+        ],
+        [
+          "2026-03",
+          1172,
+          51.96
+        ],
+        [
+          "2026-04",
+          1207,
+          58.24
+        ],
+        [
+          "2026-05",
+          1066,
+          51.31
+        ],
+        [
+          "2026-06",
+          1224,
+          51.96
+        ],
+        [
+          "2026-07",
+          1326,
+          44.65
+        ],
+        [
+          "2026-08",
+          1206,
+          42.87
+        ],
+        [
+          "2026-09",
+          1153,
+          45.79
+        ],
+        [
+          "2026-10",
+          1179,
+          48.85
+        ],
+        [
+          "2026-11",
+          43,
+          25.58
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 HELD raw",
+      "slice": "LAST_6M",
+      "stats": {
+        "label": "BASE \u00b7 HELD raw \u00b7 LAST_6M",
+        "n": 6841,
+        "acc": 46.84,
+        "dom": 39.0,
+        "dom20": 39.0,
+        "one_dir": 33.39,
+        "clean_run": 7.0,
+        "fav1st": 25.95,
+        "path12": 46.82,
+        "path12_strict": 35.76,
+        "path15": 33.23,
+        "mfe20": 87.65,
+        "mfe30": 81.83,
+        "avg_mfe": 138.53,
+        "avg_mae": 148.35,
+        "avg_edge": -9.83,
+        "best_metric": "acc",
+        "best_pct": 46.84,
+        "acc_atr": 46.67,
+        "dom_atr": 39.0,
+        "mfe2atr": 70.05
+      },
+      "gap15": {
+        "label": "BASE \u00b7 HELD raw \u00b7 LAST_6M \u00b7 gap15",
+        "n": 1416,
+        "acc": 45.62,
+        "dom": 37.71,
+        "dom20": 37.71,
+        "one_dir": 32.27,
+        "clean_run": 6.78,
+        "fav1st": 26.06,
+        "path12": 46.54,
+        "path12_strict": 35.1,
+        "path15": 33.05,
+        "mfe20": 86.51,
+        "mfe30": 81.0,
+        "avg_mfe": 134.89,
+        "avg_mae": 150.57,
+        "avg_edge": -15.69,
+        "best_metric": "path12",
+        "best_pct": 46.54,
+        "acc_atr": 45.55,
+        "dom_atr": 37.71,
+        "mfe2atr": 69.56
+      },
+      "months_acc": [
+        [
+          "2026-05",
+          710,
+          48.45
+        ],
+        [
+          "2026-06",
+          1224,
+          51.96
+        ],
+        [
+          "2026-07",
+          1326,
+          44.65
+        ],
+        [
+          "2026-08",
+          1206,
+          42.87
+        ],
+        [
+          "2026-09",
+          1153,
+          45.79
+        ],
+        [
+          "2026-10",
+          1179,
+          48.85
+        ],
+        [
+          "2026-11",
+          43,
+          25.58
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 HELD raw",
+      "slice": "LAST_2M",
+      "stats": {
+        "label": "BASE \u00b7 HELD raw \u00b7 LAST_2M",
+        "n": 2540,
+        "acc": 46.18,
+        "dom": 39.25,
+        "dom20": 39.25,
+        "one_dir": 34.49,
+        "clean_run": 5.98,
+        "fav1st": 24.72,
+        "path12": 46.34,
+        "path12_strict": 34.76,
+        "path15": 32.6,
+        "mfe20": 87.99,
+        "mfe30": 81.69,
+        "avg_mfe": 134.22,
+        "avg_mae": 153.86,
+        "avg_edge": -19.64,
+        "best_metric": "path12",
+        "best_pct": 46.34,
+        "acc_atr": 45.98,
+        "dom_atr": 39.25,
+        "mfe2atr": 68.54
+      },
+      "gap15": {
+        "label": "BASE \u00b7 HELD raw \u00b7 LAST_2M \u00b7 gap15",
+        "n": 532,
+        "acc": 45.11,
+        "dom": 38.72,
+        "dom20": 38.72,
+        "one_dir": 34.59,
+        "clean_run": 6.2,
+        "fav1st": 22.37,
+        "path12": 43.23,
+        "path12_strict": 29.89,
+        "path15": 28.57,
+        "mfe20": 85.34,
+        "mfe30": 78.95,
+        "avg_mfe": 131.88,
+        "avg_mae": 153.65,
+        "avg_edge": -21.77,
+        "best_metric": "acc",
+        "best_pct": 45.11,
+        "acc_atr": 45.11,
+        "dom_atr": 38.72,
+        "mfe2atr": 67.48
+      },
+      "months_acc": [
+        [
+          "2026-08",
+          165,
+          35.15
+        ],
+        [
+          "2026-09",
+          1153,
+          45.79
+        ],
+        [
+          "2026-10",
+          1179,
+          48.85
+        ],
+        [
+          "2026-11",
+          43,
+          25.58
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 HELD+clear15",
+      "slice": "ALL_available",
+      "stats": {
+        "label": "BASE \u00b7 HELD+clear15 \u00b7 ALL_available",
+        "n": 1602,
+        "acc": 47.63,
+        "dom": 40.32,
+        "dom20": 40.32,
+        "one_dir": 34.96,
+        "clean_run": 6.3,
+        "fav1st": 27.84,
+        "path12": 49.69,
+        "path12_strict": 37.2,
+        "path15": 34.46,
+        "mfe20": 87.89,
+        "mfe30": 82.15,
+        "avg_mfe": 165.17,
+        "avg_mae": 160.28,
+        "avg_edge": 4.9,
+        "best_metric": "path12",
+        "best_pct": 49.69,
+        "acc_atr": 47.63,
+        "dom_atr": 40.32,
+        "mfe2atr": 70.6
+      },
+      "gap15": {
+        "label": "BASE \u00b7 HELD+clear15 \u00b7 ALL_available \u00b7 gap15",
+        "n": 704,
+        "acc": 46.45,
+        "dom": 39.2,
+        "dom20": 39.2,
+        "one_dir": 35.37,
+        "clean_run": 7.1,
+        "fav1st": 29.26,
+        "path12": 51.14,
+        "path12_strict": 38.78,
+        "path15": 35.8,
+        "mfe20": 88.35,
+        "mfe30": 83.38,
+        "avg_mfe": 157.01,
+        "avg_mae": 161.77,
+        "avg_edge": -4.77,
+        "best_metric": "path12",
+        "best_pct": 51.14,
+        "acc_atr": 46.45,
+        "dom_atr": 39.2,
+        "mfe2atr": 69.18
+      },
+      "months_acc": [
+        [
+          "2025-09",
+          82,
+          45.12
+        ],
+        [
+          "2025-10",
+          82,
+          40.24
+        ],
+        [
+          "2025-11",
+          109,
+          52.29
+        ],
+        [
+          "2025-12",
+          80,
+          56.25
+        ],
+        [
+          "2026-01",
+          92,
+          32.61
+        ],
+        [
+          "2026-02",
+          112,
+          44.64
+        ],
+        [
+          "2026-03",
+          209,
+          54.55
+        ],
+        [
+          "2026-04",
+          149,
+          59.73
+        ],
+        [
+          "2026-05",
+          123,
+          52.85
+        ],
+        [
+          "2026-06",
+          104,
+          44.23
+        ],
+        [
+          "2026-07",
+          122,
+          40.98
+        ],
+        [
+          "2026-08",
+          140,
+          39.29
+        ],
+        [
+          "2026-09",
+          90,
+          45.56
+        ],
+        [
+          "2026-10",
+          107,
+          47.66
+        ],
+        [
+          "2026-11",
+          1,
+          0.0
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 HELD+clear15",
+      "slice": "LAST_1Y",
+      "stats": {
+        "label": "BASE \u00b7 HELD+clear15 \u00b7 LAST_1Y",
+        "n": 1438,
+        "acc": 48.19,
+        "dom": 40.68,
+        "dom20": 40.68,
+        "one_dir": 35.26,
+        "clean_run": 6.4,
+        "fav1st": 27.4,
+        "path12": 50.0,
+        "path12_strict": 36.79,
+        "path15": 34.08,
+        "mfe20": 87.83,
+        "mfe30": 81.99,
+        "avg_mfe": 171.9,
+        "avg_mae": 166.38,
+        "avg_edge": 5.52,
+        "best_metric": "path12",
+        "best_pct": 50.0,
+        "acc_atr": 48.19,
+        "dom_atr": 40.68,
+        "mfe2atr": 70.58
+      },
+      "gap15": {
+        "label": "BASE \u00b7 HELD+clear15 \u00b7 LAST_1Y \u00b7 gap15",
+        "n": 628,
+        "acc": 47.29,
+        "dom": 39.49,
+        "dom20": 39.49,
+        "one_dir": 35.67,
+        "clean_run": 7.32,
+        "fav1st": 29.14,
+        "path12": 51.75,
+        "path12_strict": 38.38,
+        "path15": 35.51,
+        "mfe20": 88.54,
+        "mfe30": 83.6,
+        "avg_mfe": 163.96,
+        "avg_mae": 167.44,
+        "avg_edge": -3.48,
+        "best_metric": "path12",
+        "best_pct": 51.75,
+        "acc_atr": 47.29,
+        "dom_atr": 39.49,
+        "mfe2atr": 69.43
+      },
+      "months_acc": [
+        [
+          "2025-11",
+          109,
+          52.29
+        ],
+        [
+          "2025-12",
+          80,
+          56.25
+        ],
+        [
+          "2026-01",
+          92,
+          32.61
+        ],
+        [
+          "2026-02",
+          112,
+          44.64
+        ],
+        [
+          "2026-03",
+          209,
+          54.55
+        ],
+        [
+          "2026-04",
+          149,
+          59.73
+        ],
+        [
+          "2026-05",
+          123,
+          52.85
+        ],
+        [
+          "2026-06",
+          104,
+          44.23
+        ],
+        [
+          "2026-07",
+          122,
+          40.98
+        ],
+        [
+          "2026-08",
+          140,
+          39.29
+        ],
+        [
+          "2026-09",
+          90,
+          45.56
+        ],
+        [
+          "2026-10",
+          107,
+          47.66
+        ],
+        [
+          "2026-11",
+          1,
+          0.0
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 HELD+clear15",
+      "slice": "LAST_6M",
+      "stats": {
+        "label": "BASE \u00b7 HELD+clear15 \u00b7 LAST_6M",
+        "n": 643,
+        "acc": 42.46,
+        "dom": 36.39,
+        "dom20": 36.39,
+        "one_dir": 30.95,
+        "clean_run": 6.69,
+        "fav1st": 28.77,
+        "path12": 49.3,
+        "path12_strict": 37.48,
+        "path15": 34.37,
+        "mfe20": 85.23,
+        "mfe30": 77.92,
+        "avg_mfe": 129.55,
+        "avg_mae": 162.92,
+        "avg_edge": -33.37,
+        "best_metric": "path12",
+        "best_pct": 49.3,
+        "acc_atr": 42.46,
+        "dom_atr": 36.39,
+        "mfe2atr": 63.92
+      },
+      "gap15": {
+        "label": "BASE \u00b7 HELD+clear15 \u00b7 LAST_6M \u00b7 gap15",
+        "n": 310,
+        "acc": 42.26,
+        "dom": 35.16,
+        "dom20": 35.16,
+        "one_dir": 32.26,
+        "clean_run": 7.1,
+        "fav1st": 30.97,
+        "path12": 53.23,
+        "path12_strict": 38.71,
+        "path15": 35.81,
+        "mfe20": 87.42,
+        "mfe30": 80.97,
+        "avg_mfe": 138.03,
+        "avg_mae": 171.73,
+        "avg_edge": -33.7,
+        "best_metric": "path12",
+        "best_pct": 53.23,
+        "acc_atr": 42.26,
+        "dom_atr": 35.16,
+        "mfe2atr": 65.48
+      },
+      "months_acc": [
+        [
+          "2026-05",
+          79,
+          37.97
+        ],
+        [
+          "2026-06",
+          104,
+          44.23
+        ],
+        [
+          "2026-07",
+          122,
+          40.98
+        ],
+        [
+          "2026-08",
+          140,
+          39.29
+        ],
+        [
+          "2026-09",
+          90,
+          45.56
+        ],
+        [
+          "2026-10",
+          107,
+          47.66
+        ],
+        [
+          "2026-11",
+          1,
+          0.0
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 HELD+clear15",
+      "slice": "LAST_2M",
+      "stats": {
+        "label": "BASE \u00b7 HELD+clear15 \u00b7 LAST_2M",
+        "n": 214,
+        "acc": 43.93,
+        "dom": 39.25,
+        "dom20": 39.25,
+        "one_dir": 33.18,
+        "clean_run": 5.61,
+        "fav1st": 26.64,
+        "path12": 50.47,
+        "path12_strict": 38.79,
+        "path15": 35.98,
+        "mfe20": 87.38,
+        "mfe30": 81.31,
+        "avg_mfe": 138.07,
+        "avg_mae": 186.37,
+        "avg_edge": -48.3,
+        "best_metric": "path12",
+        "best_pct": 50.47,
+        "acc_atr": 43.93,
+        "dom_atr": 39.25,
+        "mfe2atr": 64.49
+      },
+      "gap15": {
+        "label": "BASE \u00b7 HELD+clear15 \u00b7 LAST_2M \u00b7 gap15",
+        "n": 101,
+        "acc": 42.57,
+        "dom": 38.61,
+        "dom20": 38.61,
+        "one_dir": 35.64,
+        "clean_run": 7.92,
+        "fav1st": 30.69,
+        "path12": 54.46,
+        "path12_strict": 40.59,
+        "path15": 38.61,
+        "mfe20": 90.1,
+        "mfe30": 84.16,
+        "avg_mfe": 143.05,
+        "avg_mae": 185.22,
+        "avg_edge": -42.16,
+        "best_metric": "path12",
+        "best_pct": 54.46,
+        "acc_atr": 42.57,
+        "dom_atr": 38.61,
+        "mfe2atr": 64.36
+      },
+      "months_acc": [
+        [
+          "2026-08",
+          16,
+          12.5
+        ],
+        [
+          "2026-09",
+          90,
+          45.56
+        ],
+        [
+          "2026-10",
+          107,
+          47.66
+        ],
+        [
+          "2026-11",
+          1,
+          0.0
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 TierAB+clear15",
+      "slice": "ALL_available",
+      "stats": {
+        "label": "BASE \u00b7 TierAB+clear15 \u00b7 ALL_available",
+        "n": 162,
+        "acc": 43.83,
+        "dom": 38.89,
+        "dom20": 38.89,
+        "one_dir": 32.72,
+        "clean_run": 3.09,
+        "fav1st": 21.6,
+        "path12": 43.83,
+        "path12_strict": 33.33,
+        "path15": 30.25,
+        "mfe20": 87.65,
+        "mfe30": 80.25,
+        "avg_mfe": 168.6,
+        "avg_mae": 165.21,
+        "avg_edge": 3.39,
+        "best_metric": "acc",
+        "best_pct": 43.83,
+        "acc_atr": 43.83,
+        "dom_atr": 38.89,
+        "mfe2atr": 65.43
+      },
+      "gap15": {
+        "label": "BASE \u00b7 TierAB+clear15 \u00b7 ALL_available \u00b7 gap15",
+        "n": 138,
+        "acc": 44.93,
+        "dom": 39.86,
+        "dom20": 39.86,
+        "one_dir": 32.61,
+        "clean_run": 3.62,
+        "fav1st": 24.64,
+        "path12": 45.65,
+        "path12_strict": 36.96,
+        "path15": 33.33,
+        "mfe20": 87.68,
+        "mfe30": 80.43,
+        "avg_mfe": 171.71,
+        "avg_mae": 161.74,
+        "avg_edge": 9.98,
+        "best_metric": "path12",
+        "best_pct": 45.65,
+        "acc_atr": 44.93,
+        "dom_atr": 39.86,
+        "mfe2atr": 65.94
+      },
+      "months_acc": [
+        [
+          "2025-09",
+          13,
+          53.85
+        ],
+        [
+          "2025-10",
+          8,
+          25.0
+        ],
+        [
+          "2025-11",
+          16,
+          43.75
+        ],
+        [
+          "2025-12",
+          7,
+          42.86
+        ],
+        [
+          "2026-01",
+          8,
+          25.0
+        ],
+        [
+          "2026-02",
+          17,
+          35.29
+        ],
+        [
+          "2026-03",
+          14,
+          64.29
+        ],
+        [
+          "2026-04",
+          24,
+          66.67
+        ],
+        [
+          "2026-05",
+          13,
+          53.85
+        ],
+        [
+          "2026-06",
+          10,
+          30.0
+        ],
+        [
+          "2026-07",
+          9,
+          22.22
+        ],
+        [
+          "2026-08",
+          8,
+          12.5
+        ],
+        [
+          "2026-09",
+          6,
+          50.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 TierAB+clear15",
+      "slice": "LAST_1Y",
+      "stats": {
+        "label": "BASE \u00b7 TierAB+clear15 \u00b7 LAST_1Y",
+        "n": 141,
+        "acc": 43.97,
+        "dom": 39.01,
+        "dom20": 39.01,
+        "one_dir": 32.62,
+        "clean_run": 3.55,
+        "fav1st": 21.99,
+        "path12": 45.39,
+        "path12_strict": 33.33,
+        "path15": 29.79,
+        "mfe20": 87.94,
+        "mfe30": 80.85,
+        "avg_mfe": 177.11,
+        "avg_mae": 175.2,
+        "avg_edge": 1.91,
+        "best_metric": "path12",
+        "best_pct": 45.39,
+        "acc_atr": 43.97,
+        "dom_atr": 39.01,
+        "mfe2atr": 67.38
+      },
+      "gap15": {
+        "label": "BASE \u00b7 TierAB+clear15 \u00b7 LAST_1Y \u00b7 gap15",
+        "n": 120,
+        "acc": 45.83,
+        "dom": 40.83,
+        "dom20": 40.83,
+        "one_dir": 33.33,
+        "clean_run": 4.17,
+        "fav1st": 25.0,
+        "path12": 47.5,
+        "path12_strict": 37.5,
+        "path15": 33.33,
+        "mfe20": 88.33,
+        "mfe30": 80.83,
+        "avg_mfe": 182.57,
+        "avg_mae": 170.56,
+        "avg_edge": 12.02,
+        "best_metric": "path12",
+        "best_pct": 47.5,
+        "acc_atr": 45.83,
+        "dom_atr": 40.83,
+        "mfe2atr": 68.33
+      },
+      "months_acc": [
+        [
+          "2025-11",
+          16,
+          43.75
+        ],
+        [
+          "2025-12",
+          7,
+          42.86
+        ],
+        [
+          "2026-01",
+          8,
+          25.0
+        ],
+        [
+          "2026-02",
+          17,
+          35.29
+        ],
+        [
+          "2026-03",
+          14,
+          64.29
+        ],
+        [
+          "2026-04",
+          24,
+          66.67
+        ],
+        [
+          "2026-05",
+          13,
+          53.85
+        ],
+        [
+          "2026-06",
+          10,
+          30.0
+        ],
+        [
+          "2026-07",
+          9,
+          22.22
+        ],
+        [
+          "2026-08",
+          8,
+          12.5
+        ],
+        [
+          "2026-09",
+          6,
+          50.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 TierAB+clear15",
+      "slice": "LAST_6M",
+      "stats": {
+        "label": "BASE \u00b7 TierAB+clear15 \u00b7 LAST_6M",
+        "n": 52,
+        "acc": 30.77,
+        "dom": 25.0,
+        "dom20": 25.0,
+        "one_dir": 17.31,
+        "clean_run": 1.92,
+        "fav1st": 26.92,
+        "path12": 48.08,
+        "path12_strict": 36.54,
+        "path15": 34.62,
+        "mfe20": 88.46,
+        "mfe30": 76.92,
+        "avg_mfe": 135.79,
+        "avg_mae": 198.98,
+        "avg_edge": -63.19,
+        "best_metric": "path12",
+        "best_pct": 48.08,
+        "acc_atr": 30.77,
+        "dom_atr": 25.0,
+        "mfe2atr": 57.69
+      },
+      "gap15": {
+        "label": "BASE \u00b7 TierAB+clear15 \u00b7 LAST_6M \u00b7 gap15",
+        "n": 46,
+        "acc": 32.61,
+        "dom": 26.09,
+        "dom20": 26.09,
+        "one_dir": 17.39,
+        "clean_run": 2.17,
+        "fav1st": 30.43,
+        "path12": 47.83,
+        "path12_strict": 41.3,
+        "path15": 39.13,
+        "mfe20": 89.13,
+        "mfe30": 76.09,
+        "avg_mfe": 141.83,
+        "avg_mae": 200.08,
+        "avg_edge": -58.25,
+        "best_metric": "path12",
+        "best_pct": 47.83,
+        "acc_atr": 32.61,
+        "dom_atr": 26.09,
+        "mfe2atr": 56.52
+      },
+      "months_acc": [
+        [
+          "2026-05",
+          10,
+          40.0
+        ],
+        [
+          "2026-06",
+          10,
+          30.0
+        ],
+        [
+          "2026-07",
+          9,
+          22.22
+        ],
+        [
+          "2026-08",
+          8,
+          12.5
+        ],
+        [
+          "2026-09",
+          6,
+          50.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    },
+    {
+      "gate": "BASE \u00b7 TierAB+clear15",
+      "slice": "LAST_2M",
+      "stats": {
+        "label": "BASE \u00b7 TierAB+clear15 \u00b7 LAST_2M",
+        "n": 17,
+        "acc": 35.29,
+        "dom": 35.29,
+        "dom20": 35.29,
+        "one_dir": 23.53,
+        "clean_run": 0.0,
+        "fav1st": 23.53,
+        "path12": 47.06,
+        "path12_strict": 35.29,
+        "path15": 35.29,
+        "mfe20": 94.12,
+        "mfe30": 82.35,
+        "avg_mfe": 154.1,
+        "avg_mae": 214.35,
+        "avg_edge": -60.25,
+        "best_metric": "path12",
+        "best_pct": 47.06,
+        "acc_atr": 35.29,
+        "dom_atr": 35.29,
+        "mfe2atr": 58.82
+      },
+      "gap15": {
+        "label": "BASE \u00b7 TierAB+clear15 \u00b7 LAST_2M \u00b7 gap15",
+        "n": 14,
+        "acc": 35.71,
+        "dom": 35.71,
+        "dom20": 35.71,
+        "one_dir": 21.43,
+        "clean_run": 0.0,
+        "fav1st": 28.57,
+        "path12": 50.0,
+        "path12_strict": 42.86,
+        "path15": 42.86,
+        "mfe20": 92.86,
+        "mfe30": 78.57,
+        "avg_mfe": 159.91,
+        "avg_mae": 207.39,
+        "avg_edge": -47.48,
+        "best_metric": "path12",
+        "best_pct": 50.0,
+        "acc_atr": 35.71,
+        "dom_atr": 35.71,
+        "mfe2atr": 57.14
+      },
+      "months_acc": [
+        [
+          "2026-08",
+          2,
+          0.0
+        ],
+        [
+          "2026-09",
+          6,
+          50.0
+        ],
+        [
+          "2026-10",
+          9,
+          33.33
+        ]
+      ]
+    }
+  ]
+}

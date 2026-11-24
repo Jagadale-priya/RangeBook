@@ -1,0 +1,737 @@
+{
+  "status": "RESEARCH",
+  "not_live": true,
+  "interval": "10m",
+  "risk": 30.0,
+  "freeze": "2024-09-10",
+  "train_meta": {
+    "BUY": {
+      "available": true,
+      "side": "BUY",
+      "n_train": 954,
+      "train_through_day": "2024-09-10",
+      "feature_names": [
+        "ret_1",
+        "ret_3",
+        "ret_6",
+        "rsi_14",
+        "vwap_dist",
+        "range_pos",
+        "candle_score",
+        "body_frac",
+        "bar_range_pct",
+        "or_width",
+        "or_ext",
+        "mins_entry",
+        "first_break",
+        "gap_pct",
+        "session_chg",
+        "pat_doji",
+        "pat_hammer",
+        "pat_engulf",
+        "slope_3",
+        "atr_ratio",
+        "side"
+      ],
+      "holdout_base_hit": 52.83
+    },
+    "SELL": {
+      "available": true,
+      "side": "SELL",
+      "n_train": 994,
+      "train_through_day": "2024-09-10",
+      "feature_names": [
+        "ret_1",
+        "ret_3",
+        "ret_6",
+        "rsi_14",
+        "vwap_dist",
+        "range_pos",
+        "candle_score",
+        "body_frac",
+        "bar_range_pct",
+        "or_width",
+        "or_ext",
+        "mins_entry",
+        "first_break",
+        "gap_pct",
+        "session_chg",
+        "pat_doji",
+        "pat_hammer",
+        "pat_engulf",
+        "slope_3",
+        "atr_ratio",
+        "side"
+      ],
+      "holdout_base_hit": 52.31
+    }
+  },
+  "n_tickets": 2611,
+  "n_oos": 663,
+  "day_stream_tags": [],
+  "top_streams": [],
+  "books": {
+    "BASE_dual15_proven": {
+      "3y": {
+        "n": 41,
+        "hit_pct": 100.0,
+        "wins": 41,
+        "losses": 0,
+        "points": 1812.0,
+        "days": 41,
+        "by_track": {
+          "proven_100": {
+            "n": 41,
+            "hit_pct": 100.0,
+            "points": 1812.0
+          }
+        },
+        "perfect": true
+      },
+      "1y": {
+        "n": 24,
+        "hit_pct": 100.0,
+        "wins": 24,
+        "losses": 0,
+        "points": 1126.0,
+        "days": 24,
+        "by_track": {
+          "proven_100": {
+            "n": 24,
+            "hit_pct": 100.0,
+            "points": 1126.0
+          }
+        },
+        "perfect": true
+      },
+      "6m": {
+        "n": 17,
+        "hit_pct": 100.0,
+        "wins": 17,
+        "losses": 0,
+        "points": 825.0,
+        "days": 17,
+        "by_track": {
+          "proven_100": {
+            "n": 17,
+            "hit_pct": 100.0,
+            "points": 825.0
+          }
+        },
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 34,
+        "hit_pct": 100.0,
+        "wins": 34,
+        "losses": 0,
+        "points": 1558.0,
+        "days": 34,
+        "by_track": {
+          "proven_100": {
+            "n": 34,
+            "hit_pct": 100.0,
+            "points": 1558.0
+          }
+        },
+        "perfect": true
+      }
+    },
+    "BASE_dual5_proven": {
+      "3y": {
+        "n": 18,
+        "hit_pct": 50.0,
+        "wins": 9,
+        "losses": 9,
+        "points": -23.0,
+        "days": 18,
+        "by_track": {
+          "proven_100": {
+            "n": 18,
+            "hit_pct": 50.0,
+            "points": -23.0
+          }
+        },
+        "perfect": false
+      },
+      "1y": {
+        "n": 5,
+        "hit_pct": 60.0,
+        "wins": 3,
+        "losses": 2,
+        "points": -27.0,
+        "days": 5,
+        "by_track": {
+          "proven_100": {
+            "n": 5,
+            "hit_pct": 60.0,
+            "points": -27.0
+          }
+        },
+        "perfect": false
+      },
+      "6m": {
+        "n": 3,
+        "hit_pct": 66.67,
+        "wins": 2,
+        "losses": 1,
+        "points": 32.0,
+        "days": 3,
+        "by_track": {
+          "proven_100": {
+            "n": 3,
+            "hit_pct": 66.67,
+            "points": 32.0
+          }
+        },
+        "perfect": false
+      },
+      "oos_from_freeze": {
+        "n": 13,
+        "hit_pct": 53.85,
+        "wins": 7,
+        "losses": 6,
+        "points": 1.0,
+        "days": 13,
+        "by_track": {
+          "proven_100": {
+            "n": 13,
+            "hit_pct": 53.85,
+            "points": 1.0
+          }
+        },
+        "perfect": false
+      }
+    },
+    "D10_OOS_ALL": {
+      "3y": {
+        "n": 663,
+        "hit_pct": 50.98,
+        "wins": 338,
+        "losses": 325,
+        "points": 390.0,
+        "days": 516,
+        "by_track": {
+          "dual10m": {
+            "n": 663,
+            "hit_pct": 50.98,
+            "points": 390.0
+          }
+        },
+        "perfect": false
+      },
+      "1y": {
+        "n": 325,
+        "hit_pct": 48.0,
+        "wins": 156,
+        "losses": 169,
+        "points": -390.0,
+        "days": 244,
+        "by_track": {
+          "dual10m": {
+            "n": 325,
+            "hit_pct": 48.0,
+            "points": -390.0
+          }
+        },
+        "perfect": false
+      },
+      "6m": {
+        "n": 166,
+        "hit_pct": 49.4,
+        "wins": 82,
+        "losses": 84,
+        "points": -60.0,
+        "days": 124,
+        "by_track": {
+          "dual10m": {
+            "n": 166,
+            "hit_pct": 49.4,
+            "points": -60.0
+          }
+        },
+        "perfect": false
+      },
+      "oos_from_freeze": {
+        "n": 661,
+        "hit_pct": 50.98,
+        "wins": 337,
+        "losses": 324,
+        "points": 390.0,
+        "days": 515,
+        "by_track": {
+          "dual10m": {
+            "n": 661,
+            "hit_pct": 50.98,
+            "points": 390.0
+          }
+        },
+        "perfect": false
+      }
+    },
+    "D10_PROVEN100_DAY": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    },
+    "D10_p70_raw": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    },
+    "D10_p70_day": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    },
+    "D10_p75_raw": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    },
+    "D10_p75_day": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    },
+    "D10_p80_raw": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    },
+    "D10_p80_day": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    },
+    "D10_p85_raw": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    },
+    "D10_p85_day": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    },
+    "D10_p90_raw": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    },
+    "D10_p90_day": {
+      "3y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "1y": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "6m": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      },
+      "oos_from_freeze": {
+        "n": 0,
+        "hit_pct": null,
+        "wins": 0,
+        "losses": 0,
+        "points": 0.0,
+        "days": 0,
+        "by_track": {},
+        "perfect": true
+      }
+    }
+  },
+  "verdict": "FAIL soft \u2014 10m dual train did not yield a high-N Proven@100 desk yet; keep dual15 proven for LIVE.",
+  "elapsed_s": 2434.0
+}

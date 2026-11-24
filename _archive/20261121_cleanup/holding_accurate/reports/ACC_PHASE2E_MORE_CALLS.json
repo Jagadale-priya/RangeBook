@@ -1,0 +1,3694 @@
+{
+  "phase": "2e",
+  "phase1_held": true,
+  "phase2c_held": true,
+  "phase2d_seed": true,
+  "holding_folder": "prod_live/holding_accurate/",
+  "note": "More calls \u2014 P1 locked, P2c held; alt mine from P2d seeds",
+  "window_end": "2026-11-13",
+  "streams_mined": 19296,
+  "perfect_streams": 4226,
+  "results": {
+    "ACC100_MULTI_V5": {
+      "mode": "day",
+      "floor": 100.0,
+      "accuracy_range": "ACC_RANGE_98_100",
+      "phase1_3y": {
+        "n": 141,
+        "hit_pct": 100.0
+      },
+      "phase2c_3y_n": 199,
+      "phase2d_3y_n": 216,
+      "baseline": {
+        "1y": {
+          "n": 54,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2015.0
+        },
+        "3y": {
+          "n": 141,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 4866.0
+        },
+        "5y": {
+          "n": 202,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 6982.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 82,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2940.0
+        },
+        "3y": {
+          "n": 216,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 7433.0
+        },
+        "5y": {
+          "n": 298,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 10285.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 88,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3130.0
+        },
+        "3y": {
+          "n": 241,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 8177.0
+        },
+        "5y": {
+          "n": 329,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 11259.0
+        }
+      },
+      "delta_vs_phase1_3y": 100,
+      "delta_vs_phase2d_3y": 25,
+      "added_streams_new": [
+        {
+          "tag": "E_D15_BUY_p0_earlypm2_any_gup022_last",
+          "new_n": 7,
+          "desk_n_3y": 217,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_D15_BOTH_p0_brunch3_any_gup012_last",
+          "new_n": 7,
+          "desk_n_3y": 218,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p535_am1015_any_gup028_raw",
+          "new_n": 5,
+          "desk_n_3y": 221,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 4,
+          "desk_n_3y": 222,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 4,
+          "desk_n_3y": 226,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p545_pm3_any_gdn012_last",
+          "new_n": 3,
+          "desk_n_3y": 226,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 227,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_SELL_p555_mid3_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 230,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 2,
+          "desk_n_3y": 230,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_earlypm2_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 232,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR35_SELL_p525_mid3_any_g036_second",
+          "new_n": 2,
+          "desk_n_3y": 234,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p545_latemid2_htf_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 234,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p535_all_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 234,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD30_BUY_p535_first15_any_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 234,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD30_BUY_p525_brunch3_any_gup028_last",
+          "new_n": 1,
+          "desk_n_3y": 234,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 235,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR35_BOTH_p595_last135_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 236,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 237,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BUY_p525_lunch2_any_g052_last",
+          "new_n": 1,
+          "desk_n_3y": 238,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BUY_p0_pm3_any_gdn022_second",
+          "new_n": 1,
+          "desk_n_3y": 239,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 240,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 241,
+          "desk_hit_3y": 100.0
+        }
+      ],
+      "candidate_tag": "ACC100_MULTI_V10"
+    },
+    "ACC_WIDE_P92": {
+      "mode": "day",
+      "floor": 99.24,
+      "accuracy_range": "ACC_RANGE_91_100",
+      "phase1_3y": {
+        "n": 131,
+        "hit_pct": 99.24
+      },
+      "phase2c_3y_n": 203,
+      "phase2d_3y_n": 220,
+      "baseline": {
+        "1y": {
+          "n": 52,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 1949.0
+        },
+        "3y": {
+          "n": 131,
+          "hit_pct": 99.2366,
+          "perfect": false,
+          "points": 4411.0
+        },
+        "5y": {
+          "n": 199,
+          "hit_pct": 97.4874,
+          "perfect": false,
+          "points": 6469.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 82,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2935.0
+        },
+        "3y": {
+          "n": 220,
+          "hit_pct": 99.5455,
+          "perfect": false,
+          "points": 7523.0
+        },
+        "5y": {
+          "n": 309,
+          "hit_pct": 98.3819,
+          "perfect": false,
+          "points": 10329.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 88,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3125.0
+        },
+        "3y": {
+          "n": 243,
+          "hit_pct": 99.5885,
+          "perfect": false,
+          "points": 8192.0
+        },
+        "5y": {
+          "n": 337,
+          "hit_pct": 98.5163,
+          "perfect": false,
+          "points": 11188.0
+        }
+      },
+      "delta_vs_phase1_3y": 112,
+      "delta_vs_phase2d_3y": 23,
+      "added_streams_new": [
+        {
+          "tag": "E_D15_BUY_p0_earlypm2_any_gup022_last",
+          "new_n": 7,
+          "desk_n_3y": 221,
+          "desk_hit_3y": 99.5475
+        },
+        {
+          "tag": "E_D15_BOTH_p0_brunch3_any_gup012_last",
+          "new_n": 7,
+          "desk_n_3y": 222,
+          "desk_hit_3y": 99.5495
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 4,
+          "desk_n_3y": 223,
+          "desk_hit_3y": 99.5516
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 4,
+          "desk_n_3y": 227,
+          "desk_hit_3y": 99.5595
+        },
+        {
+          "tag": "E_GD40_SELL_p545_pm3_any_gdn012_last",
+          "new_n": 3,
+          "desk_n_3y": 227,
+          "desk_hit_3y": 99.5595
+        },
+        {
+          "tag": "E_GD40_SELL_p535_am1015_any_gup028_raw",
+          "new_n": 3,
+          "desk_n_3y": 229,
+          "desk_hit_3y": 99.5633
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 230,
+          "desk_hit_3y": 99.5652
+        },
+        {
+          "tag": "E_CR20_SELL_p555_mid3_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 233,
+          "desk_hit_3y": 99.5708
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 2,
+          "desk_n_3y": 233,
+          "desk_hit_3y": 99.5708
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_earlypm2_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 235,
+          "desk_hit_3y": 99.5745
+        },
+        {
+          "tag": "E_GD40_SELL_p535_all_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 235,
+          "desk_hit_3y": 99.5745
+        },
+        {
+          "tag": "E_GD30_BUY_p535_first15_any_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 235,
+          "desk_hit_3y": 99.5745
+        },
+        {
+          "tag": "E_GD30_BUY_p525_brunch3_any_gup028_last",
+          "new_n": 1,
+          "desk_n_3y": 235,
+          "desk_hit_3y": 99.5745
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 236,
+          "desk_hit_3y": 99.5763
+        },
+        {
+          "tag": "E_CR35_SELL_p525_mid3_any_g036_second",
+          "new_n": 1,
+          "desk_n_3y": 237,
+          "desk_hit_3y": 99.5781
+        },
+        {
+          "tag": "E_CR35_BOTH_p595_last135_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 238,
+          "desk_hit_3y": 99.5798
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 239,
+          "desk_hit_3y": 99.5816
+        },
+        {
+          "tag": "E_CR20_BUY_p525_lunch2_any_g052_last",
+          "new_n": 1,
+          "desk_n_3y": 240,
+          "desk_hit_3y": 99.5833
+        },
+        {
+          "tag": "E_CR20_BUY_p0_pm3_any_gdn022_second",
+          "new_n": 1,
+          "desk_n_3y": 241,
+          "desk_hit_3y": 99.5851
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 242,
+          "desk_hit_3y": 99.5868
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 243,
+          "desk_hit_3y": 99.5885
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P92_P2E"
+    },
+    "ACC_WIDE_P90": {
+      "mode": "day",
+      "floor": 95.4,
+      "accuracy_range": "ACC_RANGE_89_96",
+      "phase1_3y": {
+        "n": 174,
+        "hit_pct": 95.4
+      },
+      "phase2c_3y_n": 237,
+      "phase2d_3y_n": 253,
+      "baseline": {
+        "1y": {
+          "n": 65,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2486.0
+        },
+        "3y": {
+          "n": 174,
+          "hit_pct": 95.4023,
+          "perfect": false,
+          "points": 5661.0
+        },
+        "5y": {
+          "n": 259,
+          "hit_pct": 94.9807,
+          "perfect": false,
+          "points": 8279.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 91,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3420.0
+        },
+        "3y": {
+          "n": 253,
+          "hit_pct": 96.0474,
+          "perfect": false,
+          "points": 8253.0
+        },
+        "5y": {
+          "n": 355,
+          "hit_pct": 94.9296,
+          "perfect": false,
+          "points": 11267.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 97,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3600.0
+        },
+        "3y": {
+          "n": 274,
+          "hit_pct": 96.3504,
+          "perfect": false,
+          "points": 8872.0
+        },
+        "5y": {
+          "n": 381,
+          "hit_pct": 95.2756,
+          "perfect": false,
+          "points": 12076.0
+        }
+      },
+      "delta_vs_phase1_3y": 100,
+      "delta_vs_phase2d_3y": 21,
+      "added_streams_new": [
+        {
+          "tag": "E_D15_BUY_p0_earlypm2_any_gup022_last",
+          "new_n": 6,
+          "desk_n_3y": 254,
+          "desk_hit_3y": 96.063
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 4,
+          "desk_n_3y": 258,
+          "desk_hit_3y": 96.124
+        },
+        {
+          "tag": "E_GD40_SELL_p545_pm3_any_gdn012_last",
+          "new_n": 3,
+          "desk_n_3y": 258,
+          "desk_hit_3y": 96.124
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 3,
+          "desk_n_3y": 259,
+          "desk_hit_3y": 96.139
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 260,
+          "desk_hit_3y": 96.1538
+        },
+        {
+          "tag": "E_D15_BOTH_p0_brunch3_any_gup012_last",
+          "new_n": 3,
+          "desk_n_3y": 261,
+          "desk_hit_3y": 96.1686
+        },
+        {
+          "tag": "E_GD40_BUY_p0_latemid2_any_nogap_raw",
+          "new_n": 3,
+          "desk_n_3y": 261,
+          "desk_hit_3y": 96.1686
+        },
+        {
+          "tag": "E_GD40_SELL_p535_open_any_gup028_raw",
+          "new_n": 2,
+          "desk_n_3y": 262,
+          "desk_hit_3y": 96.1832
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 2,
+          "desk_n_3y": 262,
+          "desk_hit_3y": 96.1832
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_earlypm2_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 264,
+          "desk_hit_3y": 96.2121
+        },
+        {
+          "tag": "E_CR20_SELL_p555_mid3_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 266,
+          "desk_hit_3y": 96.2406
+        },
+        {
+          "tag": "E_D15_BOTH_p915_first50_any_g012_last",
+          "new_n": 2,
+          "desk_n_3y": 267,
+          "desk_hit_3y": 96.2547
+        },
+        {
+          "tag": "E_GD30_BUY_p535_first15_any_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 267,
+          "desk_hit_3y": 96.2547
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 268,
+          "desk_hit_3y": 96.2687
+        },
+        {
+          "tag": "E_CR35_SELL_p525_mid3_any_g036_second",
+          "new_n": 1,
+          "desk_n_3y": 269,
+          "desk_hit_3y": 96.2825
+        },
+        {
+          "tag": "E_CR35_BOTH_p595_last135_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 270,
+          "desk_hit_3y": 96.2963
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 271,
+          "desk_hit_3y": 96.31
+        },
+        {
+          "tag": "E_CR20_BUY_p0_pm3_any_gdn022_second",
+          "new_n": 1,
+          "desk_n_3y": 272,
+          "desk_hit_3y": 96.3235
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 273,
+          "desk_hit_3y": 96.337
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 274,
+          "desk_hit_3y": 96.3504
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P90_P2E"
+    },
+    "ACC_WIDE_P85": {
+      "mode": "day",
+      "floor": 89.69,
+      "accuracy_range": "ACC_RANGE_84_90",
+      "phase1_3y": {
+        "n": 223,
+        "hit_pct": 89.69
+      },
+      "phase2c_3y_n": 293,
+      "phase2d_3y_n": 305,
+      "baseline": {
+        "1y": {
+          "n": 86,
+          "hit_pct": 94.186,
+          "perfect": false,
+          "points": 2948.0
+        },
+        "3y": {
+          "n": 223,
+          "hit_pct": 89.6861,
+          "perfect": false,
+          "points": 6298.0
+        },
+        "5y": {
+          "n": 326,
+          "hit_pct": 89.8773,
+          "perfect": false,
+          "points": 9239.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 111,
+          "hit_pct": 93.6937,
+          "perfect": false,
+          "points": 3622.0
+        },
+        "3y": {
+          "n": 305,
+          "hit_pct": 89.8361,
+          "perfect": false,
+          "points": 8468.0
+        },
+        "5y": {
+          "n": 437,
+          "hit_pct": 88.7872,
+          "perfect": false,
+          "points": 11934.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 114,
+          "hit_pct": 92.9825,
+          "perfect": false,
+          "points": 3622.0
+        },
+        "3y": {
+          "n": 317,
+          "hit_pct": 89.9054,
+          "perfect": false,
+          "points": 8708.0
+        },
+        "5y": {
+          "n": 453,
+          "hit_pct": 88.521,
+          "perfect": false,
+          "points": 12179.0
+        }
+      },
+      "delta_vs_phase1_3y": 94,
+      "delta_vs_phase2d_3y": 12,
+      "added_streams_new": [
+        {
+          "tag": "E_GD40_BOTH_p525_pm3_any_nogap_last",
+          "new_n": 4,
+          "desk_n_3y": 305,
+          "desk_hit_3y": 89.8361
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 3,
+          "desk_n_3y": 308,
+          "desk_hit_3y": 89.9351
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 2,
+          "desk_n_3y": 309,
+          "desk_hit_3y": 89.9676
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 309,
+          "desk_hit_3y": 89.9676
+        },
+        {
+          "tag": "E_GD40_SELL_p545_latemid2_any_g019_raw",
+          "new_n": 2,
+          "desk_n_3y": 309,
+          "desk_hit_3y": 89.9676
+        },
+        {
+          "tag": "E_GD35_BUY_p535_am1145_any_gup018_raw",
+          "new_n": 2,
+          "desk_n_3y": 309,
+          "desk_hit_3y": 89.9676
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 311,
+          "desk_hit_3y": 89.7106
+        },
+        {
+          "tag": "CF_T16_gd30_cr20",
+          "new_n": 2,
+          "desk_n_3y": 313,
+          "desk_hit_3y": 89.7764
+        },
+        {
+          "tag": "E_GD40_SELL_p535_brunch3_any_gup018_last",
+          "new_n": 1,
+          "desk_n_3y": 313,
+          "desk_hit_3y": 89.7764
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_pm3_any_g027_last",
+          "new_n": 1,
+          "desk_n_3y": 313,
+          "desk_hit_3y": 89.7764
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 1,
+          "desk_n_3y": 313,
+          "desk_hit_3y": 89.7764
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_pm3_any_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 314,
+          "desk_hit_3y": 89.8089
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 315,
+          "desk_hit_3y": 89.8413
+        },
+        {
+          "tag": "E_CR20_SELL_p555_mid3_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 316,
+          "desk_hit_3y": 89.8734
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 317,
+          "desk_hit_3y": 89.9054
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P85_P2E"
+    },
+    "ACC_WIDE_P85B": {
+      "mode": "day",
+      "floor": 88.4,
+      "accuracy_range": "ACC_RANGE_81_89",
+      "phase1_3y": {
+        "n": 250,
+        "hit_pct": 88.4
+      },
+      "phase2c_3y_n": 303,
+      "phase2d_3y_n": 314,
+      "baseline": {
+        "1y": {
+          "n": 99,
+          "hit_pct": 92.9293,
+          "perfect": false,
+          "points": 3245.0
+        },
+        "3y": {
+          "n": 250,
+          "hit_pct": 88.4,
+          "perfect": false,
+          "points": 6748.0
+        },
+        "5y": {
+          "n": 364,
+          "hit_pct": 88.1868,
+          "perfect": false,
+          "points": 9833.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 114,
+          "hit_pct": 92.9825,
+          "perfect": false,
+          "points": 3655.0
+        },
+        "3y": {
+          "n": 314,
+          "hit_pct": 88.535,
+          "perfect": false,
+          "points": 8440.0
+        },
+        "5y": {
+          "n": 451,
+          "hit_pct": 87.5831,
+          "perfect": false,
+          "points": 11975.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 117,
+          "hit_pct": 92.3077,
+          "perfect": false,
+          "points": 3675.0
+        },
+        "3y": {
+          "n": 329,
+          "hit_pct": 88.4498,
+          "perfect": false,
+          "points": 8740.0
+        },
+        "5y": {
+          "n": 471,
+          "hit_pct": 87.0488,
+          "perfect": false,
+          "points": 12235.0
+        }
+      },
+      "delta_vs_phase1_3y": 79,
+      "delta_vs_phase2d_3y": 15,
+      "added_streams_new": [
+        {
+          "tag": "E_GD40_BOTH_p525_lunch2_any_g019_raw",
+          "new_n": 4,
+          "desk_n_3y": 315,
+          "desk_hit_3y": 88.5714
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last105_any_gdn012_second",
+          "new_n": 4,
+          "desk_n_3y": 319,
+          "desk_hit_3y": 88.7147
+        },
+        {
+          "tag": "E_GD40_SELL_p525_pm3_any_nogap_last",
+          "new_n": 3,
+          "desk_n_3y": 319,
+          "desk_hit_3y": 88.7147
+        },
+        {
+          "tag": "E_GD40_BOTH_p535_first50_htf_gup012_raw",
+          "new_n": 3,
+          "desk_n_3y": 321,
+          "desk_hit_3y": 88.4735
+        },
+        {
+          "tag": "E_GD40_SELL_p0_am11_any_gdn028_second",
+          "new_n": 2,
+          "desk_n_3y": 322,
+          "desk_hit_3y": 88.5093
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 2,
+          "desk_n_3y": 323,
+          "desk_hit_3y": 88.5449
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 323,
+          "desk_hit_3y": 88.5449
+        },
+        {
+          "tag": "CF_T16_gd30_cr20",
+          "new_n": 2,
+          "desk_n_3y": 325,
+          "desk_hit_3y": 88.6154
+        },
+        {
+          "tag": "E_GD40_SELL_p545_am11_any_gdn022_raw",
+          "new_n": 1,
+          "desk_n_3y": 325,
+          "desk_hit_3y": 88.6154
+        },
+        {
+          "tag": "E_GD40_SELL_p535_brunch3_any_gup018_last",
+          "new_n": 1,
+          "desk_n_3y": 325,
+          "desk_hit_3y": 88.6154
+        },
+        {
+          "tag": "E_GD40_SELL_p0_pm3_any_g027_last",
+          "new_n": 1,
+          "desk_n_3y": 325,
+          "desk_hit_3y": 88.6154
+        },
+        {
+          "tag": "E_GD30_BUY_p535_first15_any_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 325,
+          "desk_hit_3y": 88.6154
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_pm3_any_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 326,
+          "desk_hit_3y": 88.6503
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 327,
+          "desk_hit_3y": 88.685
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 328,
+          "desk_hit_3y": 88.7195
+        },
+        {
+          "tag": "E_CR20_SELL_p605_latemid2_htf_nogap_last",
+          "new_n": 1,
+          "desk_n_3y": 329,
+          "desk_hit_3y": 88.4498
+        },
+        {
+          "tag": "E_GD30_SELL_p535_first50_any_gup022_raw",
+          "new_n": 1,
+          "desk_n_3y": 329,
+          "desk_hit_3y": 88.4498
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P85B_P2E"
+    },
+    "ACC_WIDE_P80": {
+      "mode": "day",
+      "floor": 84.72,
+      "accuracy_range": "ACC_RANGE_76_85",
+      "phase1_3y": {
+        "n": 301,
+        "hit_pct": 84.72
+      },
+      "phase2c_3y_n": 341,
+      "phase2d_3y_n": 350,
+      "baseline": {
+        "1y": {
+          "n": 109,
+          "hit_pct": 89.9083,
+          "perfect": false,
+          "points": 3330.0
+        },
+        "3y": {
+          "n": 301,
+          "hit_pct": 84.7176,
+          "perfect": false,
+          "points": 7400.0
+        },
+        "5y": {
+          "n": 442,
+          "hit_pct": 83.4842,
+          "perfect": false,
+          "points": 10595.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 120,
+          "hit_pct": 90.0,
+          "perfect": false,
+          "points": 3615.0
+        },
+        "3y": {
+          "n": 347,
+          "hit_pct": 85.0144,
+          "perfect": false,
+          "points": 8597.0
+        },
+        "5y": {
+          "n": 514,
+          "hit_pct": 83.2685,
+          "perfect": false,
+          "points": 12287.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 124,
+          "hit_pct": 89.5161,
+          "perfect": false,
+          "points": 3650.0
+        },
+        "3y": {
+          "n": 360,
+          "hit_pct": 84.7222,
+          "perfect": false,
+          "points": 8782.0
+        },
+        "5y": {
+          "n": 530,
+          "hit_pct": 83.2075,
+          "perfect": false,
+          "points": 12587.0
+        }
+      },
+      "delta_vs_phase1_3y": 59,
+      "delta_vs_phase2d_3y": 10,
+      "added_streams_new": [
+        {
+          "tag": "E_CR20_BOTH_p535_last105_any_gdn012_second",
+          "new_n": 3,
+          "desk_n_3y": 350,
+          "desk_hit_3y": 85.1429
+        },
+        {
+          "tag": "E_GD40_SELL_p535_first50_any_gup012_raw",
+          "new_n": 3,
+          "desk_n_3y": 352,
+          "desk_hit_3y": 84.9432
+        },
+        {
+          "tag": "E_GD40_SELL_p525_pm3_any_nogap_last",
+          "new_n": 2,
+          "desk_n_3y": 352,
+          "desk_hit_3y": 84.9432
+        },
+        {
+          "tag": "E_GD40_SELL_p0_am11_any_gdn028_second",
+          "new_n": 2,
+          "desk_n_3y": 353,
+          "desk_hit_3y": 84.9858
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 353,
+          "desk_hit_3y": 84.9858
+        },
+        {
+          "tag": "E_GD30_SELL_p535_first50_any_g024_raw",
+          "new_n": 2,
+          "desk_n_3y": 355,
+          "desk_hit_3y": 84.7887
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 1,
+          "desk_n_3y": 356,
+          "desk_hit_3y": 84.8315
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_pm3_any_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 357,
+          "desk_hit_3y": 84.8739
+        },
+        {
+          "tag": "CR30_BUY_p58_mid_htf_gdn010_first",
+          "new_n": 1,
+          "desk_n_3y": 358,
+          "desk_hit_3y": 84.9162
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 359,
+          "desk_hit_3y": 84.9582
+        },
+        {
+          "tag": "GD35_BUY_p53_am1130_any_gup015_raw",
+          "new_n": 2,
+          "desk_n_3y": 360,
+          "desk_hit_3y": 84.7222
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_brunch3_any_gup018_last",
+          "new_n": 1,
+          "desk_n_3y": 360,
+          "desk_hit_3y": 84.7222
+        },
+        {
+          "tag": "E_GD40_BOTH_p535_brunch3_any_g019_last",
+          "new_n": 1,
+          "desk_n_3y": 360,
+          "desk_hit_3y": 84.7222
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P80_P2E"
+    },
+    "ACC_WIDE_P75": {
+      "mode": "day",
+      "floor": 82.71,
+      "accuracy_range": "ACC_RANGE_75_83",
+      "phase1_3y": {
+        "n": 347,
+        "hit_pct": 82.71
+      },
+      "phase2c_3y_n": 372,
+      "phase2d_3y_n": 376,
+      "baseline": {
+        "1y": {
+          "n": 116,
+          "hit_pct": 87.931,
+          "perfect": false,
+          "points": 3350.0
+        },
+        "3y": {
+          "n": 347,
+          "hit_pct": 82.7089,
+          "perfect": false,
+          "points": 8035.0
+        },
+        "5y": {
+          "n": 514,
+          "hit_pct": 81.7121,
+          "perfect": false,
+          "points": 11700.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 126,
+          "hit_pct": 88.0952,
+          "perfect": false,
+          "points": 3590.0
+        },
+        "3y": {
+          "n": 376,
+          "hit_pct": 82.7128,
+          "perfect": false,
+          "points": 8722.0
+        },
+        "5y": {
+          "n": 559,
+          "hit_pct": 81.2165,
+          "perfect": false,
+          "points": 12562.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 128,
+          "hit_pct": 88.2812,
+          "perfect": false,
+          "points": 3660.0
+        },
+        "3y": {
+          "n": 382,
+          "hit_pct": 82.7225,
+          "perfect": false,
+          "points": 8862.0
+        },
+        "5y": {
+          "n": 566,
+          "hit_pct": 81.2721,
+          "perfect": false,
+          "points": 12742.0
+        }
+      },
+      "delta_vs_phase1_3y": 35,
+      "delta_vs_phase2d_3y": 6,
+      "added_streams_new": [
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 376,
+          "desk_hit_3y": 82.7128
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_any_g016_second",
+          "new_n": 1,
+          "desk_n_3y": 377,
+          "desk_hit_3y": 82.7586
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_brunch3_any_gup018_last",
+          "new_n": 1,
+          "desk_n_3y": 377,
+          "desk_hit_3y": 82.7586
+        },
+        {
+          "tag": "E_GD40_BOTH_p535_brunch3_any_g019_last",
+          "new_n": 1,
+          "desk_n_3y": 377,
+          "desk_hit_3y": 82.7586
+        },
+        {
+          "tag": "E_GD40_BOTH_p525_mid3_any_g021_raw",
+          "new_n": 1,
+          "desk_n_3y": 378,
+          "desk_hit_3y": 82.8042
+        },
+        {
+          "tag": "E_GD30_SELL_p535_first50_any_g024_raw",
+          "new_n": 1,
+          "desk_n_3y": 379,
+          "desk_hit_3y": 82.8496
+        },
+        {
+          "tag": "E_GD40_SELL_p525_am1215_htf_gup028_last",
+          "new_n": 1,
+          "desk_n_3y": 380,
+          "desk_hit_3y": 82.8947
+        },
+        {
+          "tag": "E_GD40_SELL_p535_first50_htf_gup012_raw",
+          "new_n": 2,
+          "desk_n_3y": 382,
+          "desk_hit_3y": 82.7225
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P75_P2E"
+    },
+    "ACC100_MULTI_V5_CAP2": {
+      "mode": "cap2",
+      "floor": 100.0,
+      "phase2d_3y_n": 281,
+      "baseline": {
+        "1y": {
+          "n": 54,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2015.0
+        },
+        "3y": {
+          "n": 141,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 4866.0
+        },
+        "5y": {
+          "n": 202,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 6982.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 108,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3735.0
+        },
+        "3y": {
+          "n": 281,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 9538.0
+        },
+        "5y": {
+          "n": 377,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 12892.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 125,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 4240.0
+        },
+        "3y": {
+          "n": 325,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 10792.0
+        },
+        "5y": {
+          "n": 429,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 14446.0
+        }
+      },
+      "delta_vs_phase1_3y": 184,
+      "delta_vs_phase2d_3y": 44,
+      "added_streams_new": [
+        {
+          "tag": "E_D15_BUY_p0_earlypm2_any_gup022_last",
+          "new_n": 7,
+          "desk_n_3y": 282,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_D15_BOTH_p0_brunch3_any_gup012_last",
+          "new_n": 7,
+          "desk_n_3y": 283,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR35_SELL_p545_mid3_htf_gdn012_last",
+          "new_n": 7,
+          "desk_n_3y": 290,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p535_am1015_any_gup028_raw",
+          "new_n": 6,
+          "desk_n_3y": 293,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 5,
+          "desk_n_3y": 293,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 5,
+          "desk_n_3y": 298,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 4,
+          "desk_n_3y": 299,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 4,
+          "desk_n_3y": 301,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p545_pm3_any_gdn012_last",
+          "new_n": 3,
+          "desk_n_3y": 301,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_SELL_p555_mid3_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 304,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_SELL_p525_mid3_any_gup022_second",
+          "new_n": 3,
+          "desk_n_3y": 307,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p545_latemid2_htf_gup022_last",
+          "new_n": 2,
+          "desk_n_3y": 308,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_BOTH_p535_all_any_gdn035_second",
+          "new_n": 2,
+          "desk_n_3y": 308,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_earlypm2_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 310,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 312,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BUY_p0_pm3_any_gdn022_second",
+          "new_n": 2,
+          "desk_n_3y": 314,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BUY_p0_mid3_any_g085_raw",
+          "new_n": 2,
+          "desk_n_3y": 316,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_BOTH_p525_all_any_g062_second",
+          "new_n": 1,
+          "desk_n_3y": 316,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD30_SELL_p545_first50_htf_g027_last",
+          "new_n": 1,
+          "desk_n_3y": 316,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD30_BUY_p535_first15_any_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 316,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD30_BUY_p525_brunch3_any_gup028_last",
+          "new_n": 1,
+          "desk_n_3y": 316,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 317,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR35_SELL_p555_lunch2_any_gdn028_last",
+          "new_n": 1,
+          "desk_n_3y": 318,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR35_SELL_p525_am1145_any_gdn022_last",
+          "new_n": 1,
+          "desk_n_3y": 319,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR35_SELL_p0_mid3_htf_gdn022_second",
+          "new_n": 1,
+          "desk_n_3y": 320,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR35_BOTH_p595_last135_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 321,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR30_BUY_p515_am1145_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 322,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BUY_p545_earlypm2_htf_g048_last",
+          "new_n": 1,
+          "desk_n_3y": 323,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 324,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 325,
+          "desk_hit_3y": 100.0
+        }
+      ],
+      "candidate_tag": "ACC100_MULTI_V5_CAP2_P2E"
+    },
+    "ACC_WIDE_P92_CAP2": {
+      "mode": "cap2",
+      "floor": 99.24,
+      "phase2d_3y_n": 286,
+      "baseline": {
+        "1y": {
+          "n": 52,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 1949.0
+        },
+        "3y": {
+          "n": 131,
+          "hit_pct": 99.2366,
+          "perfect": false,
+          "points": 4411.0
+        },
+        "5y": {
+          "n": 199,
+          "hit_pct": 97.4874,
+          "perfect": false,
+          "points": 6469.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 108,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3750.0
+        },
+        "3y": {
+          "n": 286,
+          "hit_pct": 99.6503,
+          "perfect": false,
+          "points": 9648.0
+        },
+        "5y": {
+          "n": 389,
+          "hit_pct": 98.7147,
+          "perfect": false,
+          "points": 12961.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 125,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 4255.0
+        },
+        "3y": {
+          "n": 327,
+          "hit_pct": 99.6942,
+          "perfect": false,
+          "points": 10777.0
+        },
+        "5y": {
+          "n": 437,
+          "hit_pct": 98.8558,
+          "perfect": false,
+          "points": 14350.0
+        }
+      },
+      "delta_vs_phase1_3y": 196,
+      "delta_vs_phase2d_3y": 41,
+      "added_streams_new": [
+        {
+          "tag": "E_D15_BUY_p0_earlypm2_any_gup022_last",
+          "new_n": 7,
+          "desk_n_3y": 287,
+          "desk_hit_3y": 99.6516
+        },
+        {
+          "tag": "E_D15_BOTH_p0_brunch3_any_gup012_last",
+          "new_n": 7,
+          "desk_n_3y": 288,
+          "desk_hit_3y": 99.6528
+        },
+        {
+          "tag": "E_CR20_SELL_p555_lunch2_any_nogap_second",
+          "new_n": 6,
+          "desk_n_3y": 294,
+          "desk_hit_3y": 99.6599
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 5,
+          "desk_n_3y": 294,
+          "desk_hit_3y": 99.6599
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 5,
+          "desk_n_3y": 299,
+          "desk_hit_3y": 99.6656
+        },
+        {
+          "tag": "E_GD40_SELL_p535_am1015_any_gup028_raw",
+          "new_n": 4,
+          "desk_n_3y": 301,
+          "desk_hit_3y": 99.6678
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 4,
+          "desk_n_3y": 302,
+          "desk_hit_3y": 99.6689
+        },
+        {
+          "tag": "E_GD40_SELL_p545_pm3_any_gdn012_last",
+          "new_n": 3,
+          "desk_n_3y": 302,
+          "desk_hit_3y": 99.6689
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 303,
+          "desk_hit_3y": 99.67
+        },
+        {
+          "tag": "E_CR20_SELL_p525_mid3_any_gup022_second",
+          "new_n": 3,
+          "desk_n_3y": 306,
+          "desk_hit_3y": 99.6732
+        },
+        {
+          "tag": "E_GD40_BOTH_p535_all_any_gdn035_second",
+          "new_n": 2,
+          "desk_n_3y": 306,
+          "desk_hit_3y": 99.6732
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_earlypm2_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 308,
+          "desk_hit_3y": 99.6753
+        },
+        {
+          "tag": "E_CR35_SELL_p555_mid3_htf_gdn012_last",
+          "new_n": 2,
+          "desk_n_3y": 310,
+          "desk_hit_3y": 99.6774
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 312,
+          "desk_hit_3y": 99.6795
+        },
+        {
+          "tag": "E_CR20_BUY_p0_pm3_any_gdn022_second",
+          "new_n": 2,
+          "desk_n_3y": 314,
+          "desk_hit_3y": 99.6815
+        },
+        {
+          "tag": "E_CR20_BUY_p0_mid3_any_g085_raw",
+          "new_n": 2,
+          "desk_n_3y": 316,
+          "desk_hit_3y": 99.6835
+        },
+        {
+          "tag": "E_GD40_SELL_p545_latemid2_htf_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 317,
+          "desk_hit_3y": 99.6845
+        },
+        {
+          "tag": "E_GD30_SELL_p545_first50_htf_g027_last",
+          "new_n": 1,
+          "desk_n_3y": 317,
+          "desk_hit_3y": 99.6845
+        },
+        {
+          "tag": "E_GD30_BUY_p535_first15_any_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 317,
+          "desk_hit_3y": 99.6845
+        },
+        {
+          "tag": "E_GD30_BUY_p525_brunch3_any_gup028_last",
+          "new_n": 1,
+          "desk_n_3y": 317,
+          "desk_hit_3y": 99.6845
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 318,
+          "desk_hit_3y": 99.6855
+        },
+        {
+          "tag": "E_CR35_SELL_p555_lunch2_any_gdn028_last",
+          "new_n": 1,
+          "desk_n_3y": 319,
+          "desk_hit_3y": 99.6865
+        },
+        {
+          "tag": "E_CR35_SELL_p525_am1145_any_gdn022_last",
+          "new_n": 1,
+          "desk_n_3y": 320,
+          "desk_hit_3y": 99.6875
+        },
+        {
+          "tag": "E_CR35_SELL_p0_mid3_htf_gdn022_second",
+          "new_n": 1,
+          "desk_n_3y": 321,
+          "desk_hit_3y": 99.6885
+        },
+        {
+          "tag": "E_CR35_BOTH_p595_last135_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 322,
+          "desk_hit_3y": 99.6894
+        },
+        {
+          "tag": "E_CR30_BUY_p515_am1145_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 323,
+          "desk_hit_3y": 99.6904
+        },
+        {
+          "tag": "E_CR20_SELL_p555_mid3_any_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 324,
+          "desk_hit_3y": 99.6914
+        },
+        {
+          "tag": "E_CR20_BUY_p545_earlypm2_htf_g048_last",
+          "new_n": 1,
+          "desk_n_3y": 325,
+          "desk_hit_3y": 99.6923
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 326,
+          "desk_hit_3y": 99.6933
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 327,
+          "desk_hit_3y": 99.6942
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P92_CAP2_P2E"
+    },
+    "ACC_WIDE_P90_CAP2": {
+      "mode": "cap2",
+      "floor": 95.4,
+      "phase2d_3y_n": 334,
+      "baseline": {
+        "1y": {
+          "n": 65,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2486.0
+        },
+        "3y": {
+          "n": 174,
+          "hit_pct": 95.4023,
+          "perfect": false,
+          "points": 5661.0
+        },
+        "5y": {
+          "n": 259,
+          "hit_pct": 94.9807,
+          "perfect": false,
+          "points": 8279.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 125,
+          "hit_pct": 99.2,
+          "perfect": false,
+          "points": 4396.0
+        },
+        "3y": {
+          "n": 334,
+          "hit_pct": 96.4072,
+          "perfect": false,
+          "points": 10687.0
+        },
+        "5y": {
+          "n": 454,
+          "hit_pct": 94.9339,
+          "perfect": false,
+          "points": 14144.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 139,
+          "hit_pct": 99.2806,
+          "perfect": false,
+          "points": 4811.0
+        },
+        "3y": {
+          "n": 370,
+          "hit_pct": 96.7568,
+          "perfect": false,
+          "points": 11711.0
+        },
+        "5y": {
+          "n": 499,
+          "hit_pct": 95.1904,
+          "perfect": false,
+          "points": 15449.0
+        }
+      },
+      "delta_vs_phase1_3y": 196,
+      "delta_vs_phase2d_3y": 36,
+      "added_streams_new": [
+        {
+          "tag": "E_D15_BUY_p0_earlypm2_any_gup022_last",
+          "new_n": 7,
+          "desk_n_3y": 335,
+          "desk_hit_3y": 96.4179
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 5,
+          "desk_n_3y": 340,
+          "desk_hit_3y": 96.4706
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 4,
+          "desk_n_3y": 340,
+          "desk_hit_3y": 96.4706
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 4,
+          "desk_n_3y": 341,
+          "desk_hit_3y": 96.4809
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 4,
+          "desk_n_3y": 343,
+          "desk_hit_3y": 96.5015
+        },
+        {
+          "tag": "E_D15_BOTH_p915_first50_any_g012_last",
+          "new_n": 4,
+          "desk_n_3y": 344,
+          "desk_hit_3y": 96.5116
+        },
+        {
+          "tag": "E_GD40_BUY_p0_latemid2_any_nogap_raw",
+          "new_n": 4,
+          "desk_n_3y": 345,
+          "desk_hit_3y": 96.5217
+        },
+        {
+          "tag": "E_GD40_SELL_p545_pm3_any_gdn012_last",
+          "new_n": 3,
+          "desk_n_3y": 345,
+          "desk_hit_3y": 96.5217
+        },
+        {
+          "tag": "E_GD40_SELL_p535_open_any_gup028_raw",
+          "new_n": 3,
+          "desk_n_3y": 346,
+          "desk_hit_3y": 96.5318
+        },
+        {
+          "tag": "E_D15_BOTH_p0_brunch3_any_gup012_last",
+          "new_n": 3,
+          "desk_n_3y": 347,
+          "desk_hit_3y": 96.5418
+        },
+        {
+          "tag": "E_CR20_SELL_p555_mid3_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 350,
+          "desk_hit_3y": 96.5714
+        },
+        {
+          "tag": "E_CR20_SELL_p525_mid3_any_gup022_second",
+          "new_n": 3,
+          "desk_n_3y": 353,
+          "desk_hit_3y": 96.6006
+        },
+        {
+          "tag": "E_GD40_BOTH_p535_all_any_gdn035_second",
+          "new_n": 2,
+          "desk_n_3y": 353,
+          "desk_hit_3y": 96.6006
+        },
+        {
+          "tag": "E_GD35_BOTH_p0_lunch2_any_gup018_last",
+          "new_n": 2,
+          "desk_n_3y": 354,
+          "desk_hit_3y": 96.6102
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_earlypm2_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 356,
+          "desk_hit_3y": 96.6292
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 358,
+          "desk_hit_3y": 96.648
+        },
+        {
+          "tag": "E_CR20_BUY_p0_pm3_any_gdn022_second",
+          "new_n": 2,
+          "desk_n_3y": 360,
+          "desk_hit_3y": 96.6667
+        },
+        {
+          "tag": "E_GD40_SELL_p545_latemid2_htf_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 361,
+          "desk_hit_3y": 96.6759
+        },
+        {
+          "tag": "E_GD40_SELL_p545_am1015_htf_g016_last",
+          "new_n": 1,
+          "desk_n_3y": 361,
+          "desk_hit_3y": 96.6759
+        },
+        {
+          "tag": "E_GD35_BUY_p535_brunch3_htf_nogap_last",
+          "new_n": 1,
+          "desk_n_3y": 362,
+          "desk_hit_3y": 96.6851
+        },
+        {
+          "tag": "E_GD30_BUY_p535_first15_any_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 362,
+          "desk_hit_3y": 96.6851
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 363,
+          "desk_hit_3y": 96.6942
+        },
+        {
+          "tag": "E_CR35_SELL_p555_mid3_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 364,
+          "desk_hit_3y": 96.7033
+        },
+        {
+          "tag": "E_CR35_SELL_p555_lunch2_any_gdn028_last",
+          "new_n": 1,
+          "desk_n_3y": 365,
+          "desk_hit_3y": 96.7123
+        },
+        {
+          "tag": "E_CR35_SELL_p525_am1145_any_gdn022_last",
+          "new_n": 1,
+          "desk_n_3y": 366,
+          "desk_hit_3y": 96.7213
+        },
+        {
+          "tag": "E_CR35_BOTH_p595_last135_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 367,
+          "desk_hit_3y": 96.7302
+        },
+        {
+          "tag": "E_CR30_BUY_p515_am1145_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 368,
+          "desk_hit_3y": 96.7391
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 369,
+          "desk_hit_3y": 96.748
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 370,
+          "desk_hit_3y": 96.7568
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P90_CAP2_P2E"
+    },
+    "ACC_WIDE_P85_CAP2": {
+      "mode": "cap2",
+      "floor": 89.69,
+      "phase2d_3y_n": 424,
+      "baseline": {
+        "1y": {
+          "n": 86,
+          "hit_pct": 94.186,
+          "perfect": false,
+          "points": 2948.0
+        },
+        "3y": {
+          "n": 223,
+          "hit_pct": 89.6861,
+          "perfect": false,
+          "points": 6298.0
+        },
+        "5y": {
+          "n": 326,
+          "hit_pct": 89.8773,
+          "perfect": false,
+          "points": 9239.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 162,
+          "hit_pct": 91.358,
+          "perfect": false,
+          "points": 4909.0
+        },
+        "3y": {
+          "n": 424,
+          "hit_pct": 89.8585,
+          "perfect": false,
+          "points": 11898.0
+        },
+        "5y": {
+          "n": 583,
+          "hit_pct": 88.1647,
+          "perfect": false,
+          "points": 15852.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 169,
+          "hit_pct": 90.5325,
+          "perfect": false,
+          "points": 4984.0
+        },
+        "3y": {
+          "n": 447,
+          "hit_pct": 89.7092,
+          "perfect": false,
+          "points": 12368.0
+        },
+        "5y": {
+          "n": 613,
+          "hit_pct": 87.9282,
+          "perfect": false,
+          "points": 16447.0
+        }
+      },
+      "delta_vs_phase1_3y": 224,
+      "delta_vs_phase2d_3y": 23,
+      "added_streams_new": [
+        {
+          "tag": "E_GD40_BOTH_p525_pm3_any_nogap_last",
+          "new_n": 6,
+          "desk_n_3y": 425,
+          "desk_hit_3y": 89.8824
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 5,
+          "desk_n_3y": 430,
+          "desk_hit_3y": 90.0
+        },
+        {
+          "tag": "E_GD40_BOTH_p555_all_any_g021_raw",
+          "new_n": 5,
+          "desk_n_3y": 432,
+          "desk_hit_3y": 89.8148
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 433,
+          "desk_hit_3y": 89.8383
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 2,
+          "desk_n_3y": 433,
+          "desk_hit_3y": 89.8383
+        },
+        {
+          "tag": "E_GD35_SELL_p0_lunch2_any_gup018_last",
+          "new_n": 2,
+          "desk_n_3y": 434,
+          "desk_hit_3y": 89.8618
+        },
+        {
+          "tag": "E_CR20_SELL_p545_mid3_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 437,
+          "desk_hit_3y": 89.7025
+        },
+        {
+          "tag": "E_GD35_BUY_p535_am1145_any_gup018_raw",
+          "new_n": 2,
+          "desk_n_3y": 437,
+          "desk_hit_3y": 89.7025
+        },
+        {
+          "tag": "E_GD40_SELL_p545_lunch2_any_g019_raw",
+          "new_n": 1,
+          "desk_n_3y": 437,
+          "desk_hit_3y": 89.7025
+        },
+        {
+          "tag": "E_GD40_SELL_p545_am11_any_gdn022_raw",
+          "new_n": 1,
+          "desk_n_3y": 437,
+          "desk_hit_3y": 89.7025
+        },
+        {
+          "tag": "E_GD40_SELL_p535_open_htf_gup045_raw",
+          "new_n": 1,
+          "desk_n_3y": 437,
+          "desk_hit_3y": 89.7025
+        },
+        {
+          "tag": "E_GD40_SELL_p535_brunch3_any_gup018_last",
+          "new_n": 1,
+          "desk_n_3y": 437,
+          "desk_hit_3y": 89.7025
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_pm3_any_g027_last",
+          "new_n": 1,
+          "desk_n_3y": 437,
+          "desk_hit_3y": 89.7025
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 438,
+          "desk_hit_3y": 89.726
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_pm3_any_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 439,
+          "desk_hit_3y": 89.7494
+        },
+        {
+          "tag": "E_CR35_SELL_p525_mid3_any_g036_second",
+          "new_n": 1,
+          "desk_n_3y": 440,
+          "desk_hit_3y": 89.7727
+        },
+        {
+          "tag": "E_CR35_SELL_p525_am1145_any_gdn022_last",
+          "new_n": 1,
+          "desk_n_3y": 441,
+          "desk_hit_3y": 89.7959
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 442,
+          "desk_hit_3y": 89.819
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 443,
+          "desk_hit_3y": 89.842
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 444,
+          "desk_hit_3y": 89.8649
+        },
+        {
+          "tag": "E_GD40_BUY_p525_brunch3_any_nogap_raw",
+          "new_n": 1,
+          "desk_n_3y": 445,
+          "desk_hit_3y": 89.8876
+        },
+        {
+          "tag": "E_CR20_SELL_p605_latemid2_htf_nogap_last",
+          "new_n": 2,
+          "desk_n_3y": 447,
+          "desk_hit_3y": 89.7092
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P85_CAP2_P2E"
+    },
+    "ACC_WIDE_P85B_CAP2": {
+      "mode": "cap2",
+      "floor": 88.4,
+      "phase2d_3y_n": 435,
+      "baseline": {
+        "1y": {
+          "n": 99,
+          "hit_pct": 92.9293,
+          "perfect": false,
+          "points": 3245.0
+        },
+        "3y": {
+          "n": 250,
+          "hit_pct": 88.4,
+          "perfect": false,
+          "points": 6748.0
+        },
+        "5y": {
+          "n": 364,
+          "hit_pct": 88.1868,
+          "perfect": false,
+          "points": 9833.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 163,
+          "hit_pct": 91.411,
+          "perfect": false,
+          "points": 4849.0
+        },
+        "3y": {
+          "n": 435,
+          "hit_pct": 88.5057,
+          "perfect": false,
+          "points": 11651.0
+        },
+        "5y": {
+          "n": 599,
+          "hit_pct": 86.9783,
+          "perfect": false,
+          "points": 15689.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 170,
+          "hit_pct": 91.1765,
+          "perfect": false,
+          "points": 4984.0
+        },
+        "3y": {
+          "n": 459,
+          "hit_pct": 88.4532,
+          "perfect": false,
+          "points": 12176.0
+        },
+        "5y": {
+          "n": 630,
+          "hit_pct": 86.6667,
+          "perfect": false,
+          "points": 16259.0
+        }
+      },
+      "delta_vs_phase1_3y": 209,
+      "delta_vs_phase2d_3y": 24,
+      "added_streams_new": [
+        {
+          "tag": "E_GD40_BOTH_p525_lunch2_any_g019_raw",
+          "new_n": 6,
+          "desk_n_3y": 437,
+          "desk_hit_3y": 88.5584
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last105_any_gdn012_second",
+          "new_n": 6,
+          "desk_n_3y": 443,
+          "desk_hit_3y": 88.7133
+        },
+        {
+          "tag": "E_GD40_BOTH_p555_all_any_g021_raw",
+          "new_n": 5,
+          "desk_n_3y": 445,
+          "desk_hit_3y": 88.5393
+        },
+        {
+          "tag": "E_GD40_SELL_p525_pm3_any_nogap_last",
+          "new_n": 4,
+          "desk_n_3y": 445,
+          "desk_hit_3y": 88.5393
+        },
+        {
+          "tag": "E_GD40_SELL_p0_am11_any_gdn028_second",
+          "new_n": 3,
+          "desk_n_3y": 446,
+          "desk_hit_3y": 88.565
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 447,
+          "desk_hit_3y": 88.5906
+        },
+        {
+          "tag": "E_CR20_SELL_p545_mid3_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 450,
+          "desk_hit_3y": 88.4444
+        },
+        {
+          "tag": "E_GD35_BUY_p535_am1145_any_gup018_raw",
+          "new_n": 2,
+          "desk_n_3y": 450,
+          "desk_hit_3y": 88.4444
+        },
+        {
+          "tag": "E_GD40_SELL_p545_am11_any_gdn022_raw",
+          "new_n": 1,
+          "desk_n_3y": 450,
+          "desk_hit_3y": 88.4444
+        },
+        {
+          "tag": "E_GD40_SELL_p535_brunch3_any_gup018_last",
+          "new_n": 1,
+          "desk_n_3y": 450,
+          "desk_hit_3y": 88.4444
+        },
+        {
+          "tag": "E_GD40_SELL_p0_pm3_any_g027_last",
+          "new_n": 1,
+          "desk_n_3y": 450,
+          "desk_hit_3y": 88.4444
+        },
+        {
+          "tag": "E_GD35_SELL_p0_lunch2_htf_gup018_last",
+          "new_n": 1,
+          "desk_n_3y": 451,
+          "desk_hit_3y": 88.4701
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_pm3_any_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 452,
+          "desk_hit_3y": 88.4956
+        },
+        {
+          "tag": "E_CR35_SELL_p525_mid3_any_g036_second",
+          "new_n": 1,
+          "desk_n_3y": 453,
+          "desk_hit_3y": 88.521
+        },
+        {
+          "tag": "E_CR35_SELL_p525_am1145_any_gdn022_last",
+          "new_n": 1,
+          "desk_n_3y": 454,
+          "desk_hit_3y": 88.5463
+        },
+        {
+          "tag": "CF_T16_gd30_cr20",
+          "new_n": 3,
+          "desk_n_3y": 457,
+          "desk_hit_3y": 88.4026
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 458,
+          "desk_hit_3y": 88.4279
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 459,
+          "desk_hit_3y": 88.4532
+        },
+        {
+          "tag": "E_GD30_SELL_p535_first50_any_gup022_raw",
+          "new_n": 1,
+          "desk_n_3y": 459,
+          "desk_hit_3y": 88.4532
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P85B_CAP2_P2E"
+    },
+    "ACC_WIDE_P80_CAP2": {
+      "mode": "cap2",
+      "floor": 84.72,
+      "phase2d_3y_n": null,
+      "baseline": {
+        "1y": {
+          "n": 109,
+          "hit_pct": 89.9083,
+          "perfect": false,
+          "points": 3330.0
+        },
+        "3y": {
+          "n": 301,
+          "hit_pct": 84.7176,
+          "perfect": false,
+          "points": 7400.0
+        },
+        "5y": {
+          "n": 442,
+          "hit_pct": 83.4842,
+          "perfect": false,
+          "points": 10595.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 109,
+          "hit_pct": 89.9083,
+          "perfect": false,
+          "points": 3330.0
+        },
+        "3y": {
+          "n": 301,
+          "hit_pct": 84.7176,
+          "perfect": false,
+          "points": 7400.0
+        },
+        "5y": {
+          "n": 442,
+          "hit_pct": 83.4842,
+          "perfect": false,
+          "points": 10595.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 191,
+          "hit_pct": 89.0052,
+          "perfect": false,
+          "points": 5403.0
+        },
+        "3y": {
+          "n": 521,
+          "hit_pct": 84.8369,
+          "perfect": false,
+          "points": 12847.0
+        },
+        "5y": {
+          "n": 719,
+          "hit_pct": 83.5883,
+          "perfect": false,
+          "points": 17426.0
+        }
+      },
+      "delta_vs_phase1_3y": 220,
+      "delta_vs_phase2d_3y": null,
+      "added_streams_new": [
+        {
+          "tag": "GD40_BOTH_p54_brunch2_any_nogap_bestp",
+          "new_n": 61,
+          "desk_n_3y": 332,
+          "desk_hit_3y": 84.9398
+        },
+        {
+          "tag": "E_D15_BOTH_p0_all_any_nogap_last",
+          "new_n": 39,
+          "desk_n_3y": 350,
+          "desk_hit_3y": 85.1429
+        },
+        {
+          "tag": "E_GD40_BOTH_p535_first50_any_gup012_raw",
+          "new_n": 29,
+          "desk_n_3y": 364,
+          "desk_hit_3y": 84.8901
+        },
+        {
+          "tag": "GD40_BUY_p0_brunch_any_nogap_raw",
+          "new_n": 22,
+          "desk_n_3y": 374,
+          "desk_hit_3y": 85.0267
+        },
+        {
+          "tag": "GD40_SELL_p53_mid_any_g030_raw",
+          "new_n": 19,
+          "desk_n_3y": 381,
+          "desk_hit_3y": 85.3018
+        },
+        {
+          "tag": "E_CR40_SELL_p555_latemid2_any_g012_second",
+          "new_n": 18,
+          "desk_n_3y": 399,
+          "desk_hit_3y": 85.213
+        },
+        {
+          "tag": "D5_BOTH_p0_earlypm_any_g032_raw",
+          "new_n": 14,
+          "desk_n_3y": 403,
+          "desk_hit_3y": 85.3598
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_brunch3_any_gup018_raw",
+          "new_n": 12,
+          "desk_n_3y": 406,
+          "desk_hit_3y": 85.2217
+        },
+        {
+          "tag": "CR20_BOTH_p55_lunch_htf_gup015_first",
+          "new_n": 12,
+          "desk_n_3y": 418,
+          "desk_hit_3y": 85.1675
+        },
+        {
+          "tag": "CR30_BOTH_p57_latemid_any_gdn010_first",
+          "new_n": 11,
+          "desk_n_3y": 429,
+          "desk_hit_3y": 84.8485
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_pm3_any_nogap_last",
+          "new_n": 10,
+          "desk_n_3y": 434,
+          "desk_hit_3y": 84.7926
+        },
+        {
+          "tag": "CR20_BOTH_p53_last45_any_gup015_first",
+          "new_n": 9,
+          "desk_n_3y": 443,
+          "desk_hit_3y": 84.8758
+        },
+        {
+          "tag": "E_GD40_BOTH_p555_all_any_g019_last",
+          "new_n": 7,
+          "desk_n_3y": 447,
+          "desk_hit_3y": 84.7875
+        },
+        {
+          "tag": "CR30_BUY_p53_brunch_any_nogap_first",
+          "new_n": 6,
+          "desk_n_3y": 453,
+          "desk_hit_3y": 84.7682
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 5,
+          "desk_n_3y": 458,
+          "desk_hit_3y": 84.9345
+        },
+        {
+          "tag": "E_CR20_SELL_p545_mid3_any_nogap_second",
+          "new_n": 5,
+          "desk_n_3y": 463,
+          "desk_hit_3y": 84.8812
+        },
+        {
+          "tag": "CF_T48_d15_d5",
+          "new_n": 5,
+          "desk_n_3y": 466,
+          "desk_hit_3y": 84.7639
+        },
+        {
+          "tag": "E_GD40_SELL_p525_am1145_any_gup035_last",
+          "new_n": 5,
+          "desk_n_3y": 467,
+          "desk_hit_3y": 84.7966
+        },
+        {
+          "tag": "CR35_SELL_p0_earlypm_any_gdn020_first",
+          "new_n": 5,
+          "desk_n_3y": 472,
+          "desk_hit_3y": 84.7458
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 4,
+          "desk_n_3y": 474,
+          "desk_hit_3y": 84.8101
+        },
+        {
+          "tag": "E_CR30_BOTH_p605_lunch2_htf_nogap_raw",
+          "new_n": 5,
+          "desk_n_3y": 479,
+          "desk_hit_3y": 84.7599
+        },
+        {
+          "tag": "CF_T22_gd30_cr30",
+          "new_n": 4,
+          "desk_n_3y": 483,
+          "desk_hit_3y": 84.8861
+        },
+        {
+          "tag": "E_GD30_SELL_p535_first50_any_g024_raw",
+          "new_n": 5,
+          "desk_n_3y": 486,
+          "desk_hit_3y": 84.7737
+        },
+        {
+          "tag": "E_GD40_SELL_p0_am11_any_gdn028_second",
+          "new_n": 3,
+          "desk_n_3y": 487,
+          "desk_hit_3y": 84.8049
+        },
+        {
+          "tag": "CR30_BUY_p0_mid2_any_gdn015_first",
+          "new_n": 4,
+          "desk_n_3y": 491,
+          "desk_hit_3y": 84.7251
+        },
+        {
+          "tag": "E_D5_SELL_p0_lunch2_any_g019_last",
+          "new_n": 3,
+          "desk_n_3y": 491,
+          "desk_hit_3y": 84.7251
+        },
+        {
+          "tag": "CR40_SELL_p54_am1230_any_gup020_bestp",
+          "new_n": 3,
+          "desk_n_3y": 494,
+          "desk_hit_3y": 84.8178
+        },
+        {
+          "tag": "E_GD40_SELL_p0_brunch3_any_g012_second",
+          "new_n": 2,
+          "desk_n_3y": 495,
+          "desk_hit_3y": 84.8485
+        },
+        {
+          "tag": "GD30_BUY_p53_am1130_any_gup025_raw",
+          "new_n": 4,
+          "desk_n_3y": 498,
+          "desk_hit_3y": 84.739
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_pm3_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 500,
+          "desk_hit_3y": 84.8
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 502,
+          "desk_hit_3y": 84.8606
+        },
+        {
+          "tag": "E_CR30_SELL_p0_mid3_any_g042_last",
+          "new_n": 3,
+          "desk_n_3y": 505,
+          "desk_hit_3y": 84.7525
+        },
+        {
+          "tag": "E_D15_BOTH_p915_first50_any_nogap_last",
+          "new_n": 2,
+          "desk_n_3y": 505,
+          "desk_hit_3y": 84.7525
+        },
+        {
+          "tag": "E_CR30_BOTH_p515_am1145_any_g033_last",
+          "new_n": 2,
+          "desk_n_3y": 507,
+          "desk_hit_3y": 84.8126
+        },
+        {
+          "tag": "E_CR40_SELL_p595_last135_htf_nogap_last",
+          "new_n": 2,
+          "desk_n_3y": 509,
+          "desk_hit_3y": 84.8723
+        },
+        {
+          "tag": "CR40_BOTH_p53_am1130_any_nogap_first",
+          "new_n": 2,
+          "desk_n_3y": 511,
+          "desk_hit_3y": 84.7358
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_mid3_any_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 511,
+          "desk_hit_3y": 84.7358
+        },
+        {
+          "tag": "E_CR40_BOTH_p575_last80_htf_gup018_raw",
+          "new_n": 1,
+          "desk_n_3y": 512,
+          "desk_hit_3y": 84.7656
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 513,
+          "desk_hit_3y": 84.7953
+        },
+        {
+          "tag": "GD40_SELL_p53_mid_htf_g028_raw",
+          "new_n": 1,
+          "desk_n_3y": 514,
+          "desk_hit_3y": 84.8249
+        },
+        {
+          "tag": "CR30_BOTH_p0_last150_any_gdn050_first",
+          "new_n": 1,
+          "desk_n_3y": 515,
+          "desk_hit_3y": 84.8544
+        },
+        {
+          "tag": "E_GD40_BOTH_p535_brunch3_any_g019_last",
+          "new_n": 1,
+          "desk_n_3y": 515,
+          "desk_hit_3y": 84.8544
+        },
+        {
+          "tag": "GD40_SELL_p55_am1230_any_gdn010_raw",
+          "new_n": 1,
+          "desk_n_3y": 515,
+          "desk_hit_3y": 84.8544
+        },
+        {
+          "tag": "GD40_SELL_p53_am1230_htf_gup025_bestp",
+          "new_n": 1,
+          "desk_n_3y": 515,
+          "desk_hit_3y": 84.8544
+        },
+        {
+          "tag": "GD40_BUY_p0_mid_any_g025_bestp",
+          "new_n": 1,
+          "desk_n_3y": 515,
+          "desk_hit_3y": 84.8544
+        },
+        {
+          "tag": "E_CR40_BOTH_p575_earlypm2_any_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 516,
+          "desk_hit_3y": 84.8837
+        },
+        {
+          "tag": "CR20_BOTH_p53_last60_htf_gup015_first",
+          "new_n": 2,
+          "desk_n_3y": 518,
+          "desk_hit_3y": 84.749
+        },
+        {
+          "tag": "E_CR35_BOTH_p525_lunch2_any_gdn018_second",
+          "new_n": 1,
+          "desk_n_3y": 519,
+          "desk_hit_3y": 84.7784
+        },
+        {
+          "tag": "E_CR20_SELL_p545_lunch2_htf_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 520,
+          "desk_hit_3y": 84.8077
+        },
+        {
+          "tag": "CR40_SELL_p0_lunch_htf_gdn010_first",
+          "new_n": 1,
+          "desk_n_3y": 521,
+          "desk_hit_3y": 84.8369
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P80_CAP2_P2E"
+    },
+    "ACC_WIDE_P75_CAP2": {
+      "mode": "cap2",
+      "floor": 82.71,
+      "phase2d_3y_n": null,
+      "baseline": {
+        "1y": {
+          "n": 116,
+          "hit_pct": 87.931,
+          "perfect": false,
+          "points": 3350.0
+        },
+        "3y": {
+          "n": 347,
+          "hit_pct": 82.7089,
+          "perfect": false,
+          "points": 8035.0
+        },
+        "5y": {
+          "n": 514,
+          "hit_pct": 81.7121,
+          "perfect": false,
+          "points": 11700.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 116,
+          "hit_pct": 87.931,
+          "perfect": false,
+          "points": 3350.0
+        },
+        "3y": {
+          "n": 347,
+          "hit_pct": 82.7089,
+          "perfect": false,
+          "points": 8035.0
+        },
+        "5y": {
+          "n": 514,
+          "hit_pct": 81.7121,
+          "perfect": false,
+          "points": 11700.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 202,
+          "hit_pct": 86.1386,
+          "perfect": false,
+          "points": 5268.0
+        },
+        "3y": {
+          "n": 556,
+          "hit_pct": 82.7338,
+          "perfect": false,
+          "points": 12832.0
+        },
+        "5y": {
+          "n": 777,
+          "hit_pct": 81.4672,
+          "perfect": false,
+          "points": 17610.0
+        }
+      },
+      "delta_vs_phase1_3y": 209,
+      "delta_vs_phase2d_3y": null,
+      "added_streams_new": [
+        {
+          "tag": "GD40_BOTH_p54_mid_any_nogap_bestp",
+          "new_n": 50,
+          "desk_n_3y": 376,
+          "desk_hit_3y": 82.9787
+        },
+        {
+          "tag": "E_D15_BOTH_p0_all_any_nogap_raw",
+          "new_n": 42,
+          "desk_n_3y": 394,
+          "desk_hit_3y": 83.2487
+        },
+        {
+          "tag": "GD40_SELL_p53_am1230_any_g028_first",
+          "new_n": 34,
+          "desk_n_3y": 410,
+          "desk_hit_3y": 83.1707
+        },
+        {
+          "tag": "E_CR40_SELL_p555_latemid2_any_nogap_second",
+          "new_n": 21,
+          "desk_n_3y": 431,
+          "desk_hit_3y": 83.0626
+        },
+        {
+          "tag": "E_GD40_BOTH_p535_open_any_gup012_raw",
+          "new_n": 21,
+          "desk_n_3y": 441,
+          "desk_hit_3y": 82.7664
+        },
+        {
+          "tag": "GD40_BUY_p0_brunch_any_nogap_raw",
+          "new_n": 16,
+          "desk_n_3y": 449,
+          "desk_hit_3y": 82.8508
+        },
+        {
+          "tag": "D5_BOTH_p0_earlypm_any_g032_raw",
+          "new_n": 11,
+          "desk_n_3y": 451,
+          "desk_hit_3y": 82.9268
+        },
+        {
+          "tag": "CR20_BOTH_p55_lunch_htf_gup015_first",
+          "new_n": 11,
+          "desk_n_3y": 462,
+          "desk_hit_3y": 83.1169
+        },
+        {
+          "tag": "E_GD40_BOTH_p525_mid3_any_g019_raw",
+          "new_n": 10,
+          "desk_n_3y": 466,
+          "desk_hit_3y": 83.0472
+        },
+        {
+          "tag": "CR20_BOTH_p53_last45_any_gup015_first",
+          "new_n": 9,
+          "desk_n_3y": 475,
+          "desk_hit_3y": 83.1579
+        },
+        {
+          "tag": "CR30_BOTH_p57_latemid_any_gdn010_first",
+          "new_n": 9,
+          "desk_n_3y": 484,
+          "desk_hit_3y": 83.0579
+        },
+        {
+          "tag": "GD40_BOTH_p0_mid2_any_gup020_bestp",
+          "new_n": 8,
+          "desk_n_3y": 487,
+          "desk_hit_3y": 82.9569
+        },
+        {
+          "tag": "E_CR30_BOTH_p605_latemid2_htf_nogap_raw",
+          "new_n": 7,
+          "desk_n_3y": 494,
+          "desk_hit_3y": 82.7935
+        },
+        {
+          "tag": "E_CR30_BOTH_p0_last55_any_g016_second",
+          "new_n": 5,
+          "desk_n_3y": 499,
+          "desk_hit_3y": 82.7655
+        },
+        {
+          "tag": "E_CR30_BOTH_p0_lunch2_any_gdn022_raw",
+          "new_n": 5,
+          "desk_n_3y": 504,
+          "desk_hit_3y": 83.1349
+        },
+        {
+          "tag": "CF_T48_d15_d5",
+          "new_n": 5,
+          "desk_n_3y": 507,
+          "desk_hit_3y": 83.0375
+        },
+        {
+          "tag": "E_CR20_SELL_p0_mid3_any_g012_second",
+          "new_n": 5,
+          "desk_n_3y": 512,
+          "desk_hit_3y": 82.8125
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_mid3_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 513,
+          "desk_hit_3y": 82.846
+        },
+        {
+          "tag": "GD35_BUY_p53_am1130_any_gup015_raw",
+          "new_n": 4,
+          "desk_n_3y": 515,
+          "desk_hit_3y": 82.7184
+        },
+        {
+          "tag": "E_D5_SELL_p0_lunch2_any_g019_last",
+          "new_n": 3,
+          "desk_n_3y": 515,
+          "desk_hit_3y": 82.7184
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 516,
+          "desk_hit_3y": 82.7519
+        },
+        {
+          "tag": "CR40_BOTH_p53_am1130_any_nogap_first",
+          "new_n": 3,
+          "desk_n_3y": 519,
+          "desk_hit_3y": 82.8516
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_pm3_any_nogap_last",
+          "new_n": 3,
+          "desk_n_3y": 521,
+          "desk_hit_3y": 82.7255
+        },
+        {
+          "tag": "CF_T22_gd30_cr30",
+          "new_n": 3,
+          "desk_n_3y": 524,
+          "desk_hit_3y": 82.8244
+        },
+        {
+          "tag": "CR30_BUY_p53_brunch_any_nogap_first",
+          "new_n": 3,
+          "desk_n_3y": 527,
+          "desk_hit_3y": 82.7324
+        },
+        {
+          "tag": "E_CR20_SELL_p535_lunch2_htf_gup022_last",
+          "new_n": 3,
+          "desk_n_3y": 530,
+          "desk_hit_3y": 82.8302
+        },
+        {
+          "tag": "CR30_BUY_p0_mid2_any_gdn015_first",
+          "new_n": 3,
+          "desk_n_3y": 533,
+          "desk_hit_3y": 82.7392
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_pm3_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 535,
+          "desk_hit_3y": 82.8037
+        },
+        {
+          "tag": "E_CR20_BOTH_p525_last105_any_gup045_last",
+          "new_n": 3,
+          "desk_n_3y": 538,
+          "desk_hit_3y": 82.7138
+        },
+        {
+          "tag": "E_CR20_BOTH_p545_last80_any_gdn012_second",
+          "new_n": 2,
+          "desk_n_3y": 540,
+          "desk_hit_3y": 82.7778
+        },
+        {
+          "tag": "E_GD40_SELL_p525_am1215_any_gup035_last",
+          "new_n": 2,
+          "desk_n_3y": 540,
+          "desk_hit_3y": 82.7778
+        },
+        {
+          "tag": "E_CR30_BOTH_p0_last40_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 542,
+          "desk_hit_3y": 82.8413
+        },
+        {
+          "tag": "E_CR20_SELL_p545_mid3_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 544,
+          "desk_hit_3y": 82.7206
+        },
+        {
+          "tag": "E_GD40_SELL_p0_am11_any_gdn028_second",
+          "new_n": 1,
+          "desk_n_3y": 544,
+          "desk_hit_3y": 82.7206
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 1,
+          "desk_n_3y": 544,
+          "desk_hit_3y": 82.7206
+        },
+        {
+          "tag": "E_CR40_BOTH_p575_last80_htf_gup018_raw",
+          "new_n": 1,
+          "desk_n_3y": 545,
+          "desk_hit_3y": 82.7523
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_brunch3_any_gup018_last",
+          "new_n": 1,
+          "desk_n_3y": 545,
+          "desk_hit_3y": 82.7523
+        },
+        {
+          "tag": "CR30_BOTH_p0_last150_any_gdn050_first",
+          "new_n": 1,
+          "desk_n_3y": 546,
+          "desk_hit_3y": 82.7839
+        },
+        {
+          "tag": "E_GD40_BOTH_p535_brunch3_any_g019_last",
+          "new_n": 1,
+          "desk_n_3y": 546,
+          "desk_hit_3y": 82.7839
+        },
+        {
+          "tag": "GD40_SELL_p53_am1230_htf_gup025_bestp",
+          "new_n": 1,
+          "desk_n_3y": 546,
+          "desk_hit_3y": 82.7839
+        },
+        {
+          "tag": "GD40_BUY_p0_mid_any_gup020_bestp",
+          "new_n": 1,
+          "desk_n_3y": 546,
+          "desk_hit_3y": 82.7839
+        },
+        {
+          "tag": "GD40_SELL_p53_mid_any_gup015_bestp",
+          "new_n": 1,
+          "desk_n_3y": 547,
+          "desk_hit_3y": 82.8154
+        },
+        {
+          "tag": "E_GD30_SELL_p535_first50_any_g024_raw",
+          "new_n": 1,
+          "desk_n_3y": 548,
+          "desk_hit_3y": 82.8467
+        },
+        {
+          "tag": "CR20_BOTH_p53_last60_htf_gup015_first",
+          "new_n": 2,
+          "desk_n_3y": 550,
+          "desk_hit_3y": 82.7273
+        },
+        {
+          "tag": "E_CR40_SELL_p595_last135_htf_nogap_last",
+          "new_n": 1,
+          "desk_n_3y": 551,
+          "desk_hit_3y": 82.7586
+        },
+        {
+          "tag": "E_CR35_BOTH_p525_lunch2_any_gdn018_second",
+          "new_n": 1,
+          "desk_n_3y": 552,
+          "desk_hit_3y": 82.7899
+        },
+        {
+          "tag": "CR40_SELL_p0_lunch_htf_gdn010_first",
+          "new_n": 1,
+          "desk_n_3y": 553,
+          "desk_hit_3y": 82.821
+        },
+        {
+          "tag": "E_CR30_SELL_p565_mid3_htf_nogap_raw",
+          "new_n": 1,
+          "desk_n_3y": 554,
+          "desk_hit_3y": 82.852
+        },
+        {
+          "tag": "E_GD40_SELL_p525_am1215_htf_gup028_last",
+          "new_n": 1,
+          "desk_n_3y": 555,
+          "desk_hit_3y": 82.8829
+        },
+        {
+          "tag": "E_GD40_BOTH_p555_all_any_g021_last",
+          "new_n": 2,
+          "desk_n_3y": 556,
+          "desk_hit_3y": 82.7338
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P75_CAP2_P2E"
+    },
+    "ACC100_MULTI_V5_SIDES": {
+      "mode": "day_side",
+      "floor": 100.0,
+      "baseline": {
+        "1y": {
+          "n": 54,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2015.0
+        },
+        "3y": {
+          "n": 141,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 4866.0
+        },
+        "5y": {
+          "n": 202,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 6982.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 82,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2940.0
+        },
+        "3y": {
+          "n": 217,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 7469.0
+        },
+        "5y": {
+          "n": 299,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 10321.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 88,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3130.0
+        },
+        "3y": {
+          "n": 242,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 8213.0
+        },
+        "5y": {
+          "n": 330,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 11295.0
+        }
+      },
+      "delta_vs_phase1_3y": 101,
+      "added_streams_new": [
+        {
+          "tag": "E_D15_BUY_p0_earlypm2_any_gup022_last",
+          "new_n": 7,
+          "desk_n_3y": 218,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_D15_BOTH_p0_brunch3_any_gup012_last",
+          "new_n": 7,
+          "desk_n_3y": 219,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p535_am1015_any_gup028_raw",
+          "new_n": 5,
+          "desk_n_3y": 222,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 4,
+          "desk_n_3y": 223,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 4,
+          "desk_n_3y": 227,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p545_pm3_any_gdn012_last",
+          "new_n": 3,
+          "desk_n_3y": 227,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 228,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_SELL_p555_mid3_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 231,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 2,
+          "desk_n_3y": 231,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_earlypm2_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 233,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR35_SELL_p525_mid3_any_g036_second",
+          "new_n": 2,
+          "desk_n_3y": 235,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p545_latemid2_htf_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 235,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD40_SELL_p535_all_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 235,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD30_BUY_p535_first15_any_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 235,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_GD30_BUY_p525_brunch3_any_gup028_last",
+          "new_n": 1,
+          "desk_n_3y": 235,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 236,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR35_BOTH_p595_last135_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 237,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 238,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BUY_p525_lunch2_any_g052_last",
+          "new_n": 1,
+          "desk_n_3y": 239,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BUY_p0_pm3_any_gdn022_second",
+          "new_n": 1,
+          "desk_n_3y": 240,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 241,
+          "desk_hit_3y": 100.0
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 242,
+          "desk_hit_3y": 100.0
+        }
+      ],
+      "candidate_tag": "ACC100_MULTI_V5_SIDES_P2E"
+    },
+    "ACC_WIDE_P92_SIDES": {
+      "mode": "day_side",
+      "floor": 99.24,
+      "baseline": {
+        "1y": {
+          "n": 52,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 1949.0
+        },
+        "3y": {
+          "n": 131,
+          "hit_pct": 99.2366,
+          "perfect": false,
+          "points": 4411.0
+        },
+        "5y": {
+          "n": 199,
+          "hit_pct": 97.4874,
+          "perfect": false,
+          "points": 6469.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 82,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2935.0
+        },
+        "3y": {
+          "n": 221,
+          "hit_pct": 99.5475,
+          "perfect": false,
+          "points": 7559.0
+        },
+        "5y": {
+          "n": 310,
+          "hit_pct": 98.3871,
+          "perfect": false,
+          "points": 10365.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 88,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 3125.0
+        },
+        "3y": {
+          "n": 244,
+          "hit_pct": 99.5902,
+          "perfect": false,
+          "points": 8228.0
+        },
+        "5y": {
+          "n": 338,
+          "hit_pct": 98.5207,
+          "perfect": false,
+          "points": 11224.0
+        }
+      },
+      "delta_vs_phase1_3y": 113,
+      "added_streams_new": [
+        {
+          "tag": "E_D15_BUY_p0_earlypm2_any_gup022_last",
+          "new_n": 7,
+          "desk_n_3y": 222,
+          "desk_hit_3y": 99.5495
+        },
+        {
+          "tag": "E_D15_BOTH_p0_brunch3_any_gup012_last",
+          "new_n": 7,
+          "desk_n_3y": 223,
+          "desk_hit_3y": 99.5516
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 4,
+          "desk_n_3y": 224,
+          "desk_hit_3y": 99.5536
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 4,
+          "desk_n_3y": 228,
+          "desk_hit_3y": 99.5614
+        },
+        {
+          "tag": "E_GD40_SELL_p545_pm3_any_gdn012_last",
+          "new_n": 3,
+          "desk_n_3y": 228,
+          "desk_hit_3y": 99.5614
+        },
+        {
+          "tag": "E_GD40_SELL_p535_am1015_any_gup028_raw",
+          "new_n": 3,
+          "desk_n_3y": 230,
+          "desk_hit_3y": 99.5652
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 231,
+          "desk_hit_3y": 99.5671
+        },
+        {
+          "tag": "E_CR20_SELL_p555_mid3_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 234,
+          "desk_hit_3y": 99.5726
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 2,
+          "desk_n_3y": 234,
+          "desk_hit_3y": 99.5726
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_earlypm2_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 236,
+          "desk_hit_3y": 99.5763
+        },
+        {
+          "tag": "E_GD40_SELL_p535_all_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 236,
+          "desk_hit_3y": 99.5763
+        },
+        {
+          "tag": "E_GD30_BUY_p535_first15_any_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 236,
+          "desk_hit_3y": 99.5763
+        },
+        {
+          "tag": "E_GD30_BUY_p525_brunch3_any_gup028_last",
+          "new_n": 1,
+          "desk_n_3y": 236,
+          "desk_hit_3y": 99.5763
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 237,
+          "desk_hit_3y": 99.5781
+        },
+        {
+          "tag": "E_CR35_SELL_p525_mid3_any_g036_second",
+          "new_n": 1,
+          "desk_n_3y": 238,
+          "desk_hit_3y": 99.5798
+        },
+        {
+          "tag": "E_CR35_BOTH_p595_last135_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 239,
+          "desk_hit_3y": 99.5816
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 240,
+          "desk_hit_3y": 99.5833
+        },
+        {
+          "tag": "E_CR20_BUY_p525_lunch2_any_g052_last",
+          "new_n": 1,
+          "desk_n_3y": 241,
+          "desk_hit_3y": 99.5851
+        },
+        {
+          "tag": "E_CR20_BUY_p0_pm3_any_gdn022_second",
+          "new_n": 1,
+          "desk_n_3y": 242,
+          "desk_hit_3y": 99.5868
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 243,
+          "desk_hit_3y": 99.5885
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 244,
+          "desk_hit_3y": 99.5902
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P92_SIDES_P2E"
+    },
+    "ACC_WIDE_P90_SIDES": {
+      "mode": "day_side",
+      "floor": 95.4,
+      "baseline": {
+        "1y": {
+          "n": 65,
+          "hit_pct": 100.0,
+          "perfect": true,
+          "points": 2486.0
+        },
+        "3y": {
+          "n": 174,
+          "hit_pct": 95.4023,
+          "perfect": false,
+          "points": 5661.0
+        },
+        "5y": {
+          "n": 259,
+          "hit_pct": 94.9807,
+          "perfect": false,
+          "points": 8279.0
+        }
+      },
+      "seeded": {
+        "1y": {
+          "n": 92,
+          "hit_pct": 98.913,
+          "perfect": false,
+          "points": 3380.0
+        },
+        "3y": {
+          "n": 255,
+          "hit_pct": 95.6863,
+          "perfect": false,
+          "points": 8233.0
+        },
+        "5y": {
+          "n": 357,
+          "hit_pct": 94.6779,
+          "perfect": false,
+          "points": 11247.0
+        }
+      },
+      "result": {
+        "1y": {
+          "n": 98,
+          "hit_pct": 98.9796,
+          "perfect": false,
+          "points": 3560.0
+        },
+        "3y": {
+          "n": 277,
+          "hit_pct": 96.0289,
+          "perfect": false,
+          "points": 8898.0
+        },
+        "5y": {
+          "n": 385,
+          "hit_pct": 94.8052,
+          "perfect": false,
+          "points": 12073.0
+        }
+      },
+      "delta_vs_phase1_3y": 103,
+      "added_streams_new": [
+        {
+          "tag": "E_D15_BUY_p0_earlypm2_any_gup022_last",
+          "new_n": 7,
+          "desk_n_3y": 256,
+          "desk_hit_3y": 95.7031
+        },
+        {
+          "tag": "E_CR20_BOTH_p535_last80_any_gdn012_second",
+          "new_n": 4,
+          "desk_n_3y": 260,
+          "desk_hit_3y": 95.7692
+        },
+        {
+          "tag": "E_D15_BOTH_p915_first50_any_g012_last",
+          "new_n": 4,
+          "desk_n_3y": 262,
+          "desk_hit_3y": 95.8015
+        },
+        {
+          "tag": "E_GD40_SELL_p545_pm3_any_gdn012_last",
+          "new_n": 3,
+          "desk_n_3y": 262,
+          "desk_hit_3y": 95.8015
+        },
+        {
+          "tag": "E_GD30_BUY_p555_first15_any_nogap_last",
+          "new_n": 3,
+          "desk_n_3y": 263,
+          "desk_hit_3y": 95.8175
+        },
+        {
+          "tag": "E_D5_BOTH_p0_all_any_nogap_second",
+          "new_n": 3,
+          "desk_n_3y": 264,
+          "desk_hit_3y": 95.8333
+        },
+        {
+          "tag": "E_D15_BOTH_p0_brunch3_any_gup012_last",
+          "new_n": 3,
+          "desk_n_3y": 265,
+          "desk_hit_3y": 95.8491
+        },
+        {
+          "tag": "E_GD40_BUY_p0_latemid2_any_nogap_raw",
+          "new_n": 3,
+          "desk_n_3y": 265,
+          "desk_hit_3y": 95.8491
+        },
+        {
+          "tag": "E_GD40_SELL_p535_open_any_gup028_raw",
+          "new_n": 2,
+          "desk_n_3y": 266,
+          "desk_hit_3y": 95.8647
+        },
+        {
+          "tag": "E_GD40_BOTH_p0_am11_any_gdn045_second",
+          "new_n": 2,
+          "desk_n_3y": 266,
+          "desk_hit_3y": 95.8647
+        },
+        {
+          "tag": "E_CR40_BOTH_p595_earlypm2_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 268,
+          "desk_hit_3y": 95.8955
+        },
+        {
+          "tag": "E_CR20_SELL_p555_mid3_any_nogap_second",
+          "new_n": 2,
+          "desk_n_3y": 270,
+          "desk_hit_3y": 95.9259
+        },
+        {
+          "tag": "E_GD30_BUY_p535_first15_any_gup022_last",
+          "new_n": 1,
+          "desk_n_3y": 270,
+          "desk_hit_3y": 95.9259
+        },
+        {
+          "tag": "E_CR40_SELL_p565_latemid2_htf_gdn012_second",
+          "new_n": 1,
+          "desk_n_3y": 271,
+          "desk_hit_3y": 95.941
+        },
+        {
+          "tag": "E_CR35_SELL_p525_mid3_any_g036_second",
+          "new_n": 1,
+          "desk_n_3y": 272,
+          "desk_hit_3y": 95.9559
+        },
+        {
+          "tag": "E_CR35_BOTH_p595_last135_htf_gdn018_last",
+          "new_n": 1,
+          "desk_n_3y": 273,
+          "desk_hit_3y": 95.9707
+        },
+        {
+          "tag": "E_CR30_BOTH_p535_last55_htf_nogap_second",
+          "new_n": 1,
+          "desk_n_3y": 274,
+          "desk_hit_3y": 95.9854
+        },
+        {
+          "tag": "E_CR20_BUY_p0_pm3_any_gdn022_second",
+          "new_n": 1,
+          "desk_n_3y": 275,
+          "desk_hit_3y": 96.0
+        },
+        {
+          "tag": "E_CR20_BOTH_p585_last80_htf_gdn012_last",
+          "new_n": 1,
+          "desk_n_3y": 276,
+          "desk_hit_3y": 96.0145
+        },
+        {
+          "tag": "CF_T6_gd30_cr20",
+          "new_n": 1,
+          "desk_n_3y": 277,
+          "desk_hit_3y": 96.0289
+        }
+      ],
+      "candidate_tag": "ACC_WIDE_P90_SIDES_P2E"
+    }
+  },
+  "elapsed_s": 15308.9
+}

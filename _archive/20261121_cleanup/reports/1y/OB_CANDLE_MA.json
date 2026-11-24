@@ -1,0 +1,340 @@
+{
+  "d20": {
+    "ob": {
+      "base_ob": {
+        "n": 67,
+        "win": 25,
+        "loss": 42,
+        "hit": 37.31,
+        "points": 166.5
+      },
+      "stair": {
+        "n": 54,
+        "win": 24,
+        "loss": 30,
+        "hit": 44.44,
+        "points": 240.05
+      },
+      "engulf": {
+        "n": 7,
+        "win": 2,
+        "loss": 5,
+        "hit": 28.57,
+        "points": -28.7
+      },
+      "strong_close": {
+        "n": 6,
+        "win": 1,
+        "loss": 5,
+        "hit": 16.67,
+        "points": -29.65
+      },
+      "reject_wick": {
+        "n": 19,
+        "win": 7,
+        "loss": 12,
+        "hit": 36.84,
+        "points": 25.1
+      },
+      "wide_body": {
+        "n": 22,
+        "win": 16,
+        "loss": 6,
+        "hit": 72.73,
+        "points": 406.35
+      },
+      "inside": {
+        "n": 6,
+        "win": 1,
+        "loss": 5,
+        "hit": 16.67,
+        "points": -28.7
+      },
+      "ma15_side": {
+        "n": 9,
+        "win": 6,
+        "loss": 3,
+        "hit": 66.67,
+        "points": -16.45
+      },
+      "ma15_slope": {
+        "n": 7,
+        "win": 3,
+        "loss": 4,
+        "hit": 42.86,
+        "points": 1.05
+      },
+      "ma15_side_slope": {
+        "n": 3,
+        "win": 1,
+        "loss": 2,
+        "hit": 33.33,
+        "points": -23.65
+      },
+      "ma10_side": {
+        "n": 19,
+        "win": 12,
+        "loss": 7,
+        "hit": 63.16,
+        "points": 78.6
+      },
+      "ma20_side": {
+        "n": 6,
+        "win": 4,
+        "loss": 2,
+        "hit": 66.67,
+        "points": 36.85
+      },
+      "stair_ma15": {
+        "n": 2,
+        "win": 0,
+        "loss": 2,
+        "hit": 0.0,
+        "points": -27.0
+      },
+      "engulf_ma15": {
+        "n": 1,
+        "win": 1,
+        "loss": 0,
+        "hit": 100.0,
+        "points": 3.35
+      },
+      "strong_ma15": {
+        "n": 1,
+        "win": 0,
+        "loss": 1,
+        "hit": 0.0,
+        "points": -7.85
+      }
+    },
+    "ma_only": {
+      "n": 194,
+      "win": 132,
+      "loss": 62,
+      "hit": 68.04,
+      "points": -38.25
+    },
+    "rank": [
+      {
+        "rule": "wide_body",
+        "hit": 72.73,
+        "n": 22,
+        "points": 406.35
+      },
+      {
+        "rule": "ma10_side",
+        "hit": 63.16,
+        "n": 19,
+        "points": 78.6
+      },
+      {
+        "rule": "stair",
+        "hit": 44.44,
+        "n": 54,
+        "points": 240.05
+      },
+      {
+        "rule": "base_ob",
+        "hit": 37.31,
+        "n": 67,
+        "points": 166.5
+      },
+      {
+        "rule": "reject_wick",
+        "hit": 36.84,
+        "n": 19,
+        "points": 25.1
+      }
+    ]
+  },
+  "d120": {
+    "ob": {
+      "base_ob": {
+        "n": 603,
+        "win": 231,
+        "loss": 372,
+        "hit": 38.31,
+        "points": 58.5
+      },
+      "stair": {
+        "n": 460,
+        "win": 196,
+        "loss": 264,
+        "hit": 42.61,
+        "points": 264.15
+      },
+      "engulf": {
+        "n": 50,
+        "win": 13,
+        "loss": 37,
+        "hit": 26.0,
+        "points": -110.15
+      },
+      "strong_close": {
+        "n": 42,
+        "win": 13,
+        "loss": 29,
+        "hit": 30.95,
+        "points": 43.2
+      },
+      "reject_wick": {
+        "n": 137,
+        "win": 48,
+        "loss": 89,
+        "hit": 35.04,
+        "points": -197.35
+      },
+      "wide_body": {
+        "n": 204,
+        "win": 95,
+        "loss": 109,
+        "hit": 46.57,
+        "points": 209.85
+      },
+      "inside": {
+        "n": 59,
+        "win": 18,
+        "loss": 41,
+        "hit": 30.51,
+        "points": -2.8
+      },
+      "ma15_side": {
+        "n": 120,
+        "win": 72,
+        "loss": 48,
+        "hit": 60.0,
+        "points": 64.2
+      },
+      "ma15_slope": {
+        "n": 94,
+        "win": 37,
+        "loss": 57,
+        "hit": 39.36,
+        "points": 15.25
+      },
+      "ma15_side_slope": {
+        "n": 48,
+        "win": 24,
+        "loss": 24,
+        "hit": 50.0,
+        "points": 12.1
+      },
+      "ma10_side": {
+        "n": 214,
+        "win": 125,
+        "loss": 89,
+        "hit": 58.41,
+        "points": 299.2
+      },
+      "ma20_side": {
+        "n": 99,
+        "win": 56,
+        "loss": 43,
+        "hit": 56.57,
+        "points": 139.5
+      },
+      "stair_ma15": {
+        "n": 37,
+        "win": 19,
+        "loss": 18,
+        "hit": 51.35,
+        "points": 21.95
+      },
+      "engulf_ma15": {
+        "n": 8,
+        "win": 4,
+        "loss": 4,
+        "hit": 50.0,
+        "points": -18.65
+      },
+      "strong_ma15": {
+        "n": 10,
+        "win": 4,
+        "loss": 6,
+        "hit": 40.0,
+        "points": 36.15
+      }
+    },
+    "ma_only": {
+      "n": 1203,
+      "win": 809,
+      "loss": 394,
+      "hit": 67.25,
+      "points": -227.25
+    },
+    "rank": [
+      {
+        "rule": "ma15_side",
+        "hit": 60.0,
+        "n": 120,
+        "points": 64.2
+      },
+      {
+        "rule": "ma10_side",
+        "hit": 58.41,
+        "n": 214,
+        "points": 299.2
+      },
+      {
+        "rule": "ma20_side",
+        "hit": 56.57,
+        "n": 99,
+        "points": 139.5
+      },
+      {
+        "rule": "ma15_side_slope",
+        "hit": 50.0,
+        "n": 48,
+        "points": 12.1
+      },
+      {
+        "rule": "wide_body",
+        "hit": 46.57,
+        "n": 204,
+        "points": 209.85
+      },
+      {
+        "rule": "stair",
+        "hit": 42.61,
+        "n": 460,
+        "points": 264.15
+      },
+      {
+        "rule": "ma15_slope",
+        "hit": 39.36,
+        "n": 94,
+        "points": 15.25
+      },
+      {
+        "rule": "base_ob",
+        "hit": 38.31,
+        "n": 603,
+        "points": 58.5
+      },
+      {
+        "rule": "reject_wick",
+        "hit": 35.04,
+        "n": 137,
+        "points": -197.35
+      },
+      {
+        "rule": "strong_close",
+        "hit": 30.95,
+        "n": 42,
+        "points": 43.2
+      },
+      {
+        "rule": "inside",
+        "hit": 30.51,
+        "n": 59,
+        "points": -2.8
+      },
+      {
+        "rule": "engulf",
+        "hit": 26.0,
+        "n": 50,
+        "points": -110.15
+      }
+    ]
+  }
+}

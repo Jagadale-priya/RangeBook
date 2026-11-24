@@ -1,0 +1,54 @@
+{
+  "keep_held": [
+    "ACC100_MULTI_V1",
+    "ACC100_MULTI_V2"
+  ],
+  "v2_baseline_3y_n": 118,
+  "result": {
+    "n_3y": 122,
+    "hit_3y": 100.0,
+    "perfect_3y": true,
+    "points_3y": 4146.0,
+    "n_5y": 181,
+    "hit_5y": 100.0,
+    "perfect_5y": true,
+    "points_5y": 6154.0,
+    "n_1y": 49,
+    "hit_1y": 100.0,
+    "delta_vs_v2_3y": 4
+  },
+  "added_streams": [
+    {
+      "tag": "GD40_BUY_p0_latemid_htf_gup040_raw",
+      "new_n": 4,
+      "desk_n": 231,
+      "stream_n": 10
+    },
+    {
+      "tag": "CR20_BOTH_p60_pm_htf_g035_raw",
+      "new_n": 2,
+      "desk_n": 233,
+      "stream_n": 5
+    },
+    {
+      "tag": "CH_BUY_p85_all_any_nogap_raw",
+      "new_n": 2,
+      "desk_n": 235,
+      "stream_n": 6
+    },
+    {
+      "tag": "GD35_SELL_p55_latemid_any_g035_first",
+      "new_n": 1,
+      "desk_n": 236,
+      "stream_n": 16
+    },
+    {
+      "tag": "CR30_BUY_p57_mid_any_gdn040_first",
+      "new_n": 1,
+      "desk_n": 237,
+      "stream_n": 5
+    }
+  ],
+  "streams_mined": 69,
+  "elapsed_s": 13.8
+}

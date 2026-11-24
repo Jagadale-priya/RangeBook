@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rangebook — three options per page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f2fbf6; --card: #fff; --text: #134e4a; --muted: #5f7a76;
+      --border: #d7ebe3; --accent: #0f766e; --soft: #ccfbf1;
+      --buy: #059669; --buy-bg: #ecfdf5; --hold: #d97706; --hold-bg: #fffbeb;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, system-ui, sans-serif; background: var(--bg); color: var(--text); }
+    header { position: sticky; top: 0; z-index: 2; background: #fff; border-bottom: 1px solid var(--border); padding: 14px 18px 10px; }
+    h1 { font-family: "Space Grotesk", Inter, sans-serif; font-size: 22px; margin: 0 0 4px; }
+    .lead { margin: 0 0 10px; color: var(--muted); font-size: 14px; max-width: 820px; }
+    nav { display: flex; flex-wrap: wrap; gap: 6px; }
+    nav button, .opt h2 { font: inherit; }
+    nav button {
+      border: 1px solid var(--border); background: #fff; color: var(--text);
+      border-radius: 999px; padding: 6px 12px; font-weight: 650; cursor: pointer;
+    }
+    nav button[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+    button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    main { padding: 16px 18px 40px; }
+    .page { display: none; }
+    .page.on { display: block; }
+    .page > p { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+    @media (max-width: 1100px) { .grid { grid-template-columns: 1fr; } }
+    .opt { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 12px; min-width: 0; }
+    .opt h2 { margin: 0 0 4px; font-size: 15px; }
+    .opt .why { margin: 0 0 10px; color: var(--muted); font-size: 12px; min-height: 32px; }
+    .frame { border: 1px solid var(--border); border-radius: 10px; background: var(--bg); overflow: hidden; font-size: 11px; }
+    .bar, .row, .tabs, .foot { display: flex; align-items: center; gap: 4px; }
+    .bar { background: #fff; border-bottom: 1px solid var(--border); padding: 6px; }
+    .brand { font-family: "Space Grotesk", sans-serif; font-weight: 700; }
+    .chip, .tag, .btn { border-radius: 6px; padding: 2px 6px; background: #fff; border: 1px solid var(--border); color: var(--muted); }
+    .tag.on, .btn.on { background: var(--soft); color: var(--accent); border-color: transparent; }
+    .btn.fill { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .sp { flex: 1; }
+    .body { display: flex; min-height: 168px; }
+    .menu { width: 72px; background: #fff; border-right: 1px solid var(--border); padding: 6px; display: flex; flex-direction: column; gap: 3px; }
+    .main { flex: 1; min-width: 0; padding: 6px; }
+    .side { width: 92px; background: #fff; border-left: 1px solid var(--border); padding: 6px; }
+    .block { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 6px; margin-bottom: 4px; }
+    .chart { height: 72px; border-radius: 8px; background: linear-gradient(#fff, #fff) padding-box, repeating-linear-gradient(90deg, #0f766e 0 6px, transparent 6px 12px, #d7ebe3 12px 18px, transparent 18px 24px); background-color: #fff; border: 1px solid var(--border); }
+    .buy { background: var(--buy-bg); color: var(--buy); font-weight: 750; }
+    .hold { background: var(--hold-bg); color: var(--hold); font-weight: 750; }
+    .px { font-family: "Space Grotesk", sans-serif; font-size: 16px; font-weight: 700; }
+    .muted { color: var(--muted); }
+    .stack { display: flex; flex-direction: column; gap: 4px; }
+    table { width: 100%; border-collapse: collapse; background: #fff; }
+    td, th { text-align: left; padding: 3px 4px; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-weight: 650; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Three options for each Rangebook page</h1>
+    <p class="lead">Built from the current screen: the menu button, the page name, the watchlist, and the same sections each page already has. The live dashboard is unchanged. Pick a page, then compare A, B, and C.</p>
+    <nav id="pages" aria-label="Pages"></nav>
+  </header>
+  <main id="board"></main>
+  <script>
+    const pages = [
+      {
+        id: "home",
+        label: "Home",
+        now: "A long guide: what the desk is for, how a call is made, the Nifty and Bank Nifty levels, and the other screens.",
+        options: [
+          ["A · Keep the guide", "Same cards, one column. Only the spacing is quieter.", guide()],
+          ["B · Start with the next step", "Three actions first. The explanation stays underneath.", steps()],
+          ["C · Two columns", "What to open today on the left. How a call is made on the right.", twoCol()]
+        ]
+      },
+      {
+        id: "fno",
+        label: "F&O",
+        now: "Chart on the left with Daily, 5m, 15m, zoom, and overlays. Nine sub-tabs sit above it. The call, option, today, and checklist sit in the wide right pane.",
+        options: [
+          ["A · Current shape", "Menu stays a button. Chart left, call right, sub-tabs above the chart.", fno("wide")],
+          ["B · Call under the chart", "The chart gets the full width. Stop, target, and the option are one strip under it.", fno("strip")],
+          ["C · Short chart tools", "Only Daily, 5m, and 15m stay on the chart. Checklist, Today, and History move into the call card.", fno("narrow")]
+        ]
+      },
+      {
+        id: "stocks",
+        label: "Stocks",
+        now: "Candles or RSI · MACD on the left. BUY, SELL, or HOLD, price, and the tabs Overview, Metrics, Reasons, News on the right.",
+        options: [
+          ["A · Current shape", "Chart left. Decision and its four tabs on the right.", stock("side")],
+          ["B · Decision on top", "BUY or HOLD, price, and risk sit in a bar. The chart uses the rest of the page.", stock("top")],
+          ["C · Chart first", "The chart is the page. Analyze opens the decision beside it.", stock("chart")]
+        ]
+      },
+      {
+        id: "intraday",
+        label: "Intraday",
+        now: "A shorter stock call from the 15-minute tape, with the 5-minute tape as a check beside it.",
+        options: [
+          ["A · Same as Stocks", "15-minute chart left, the intraday call on the right.", intra("side")],
+          ["B · 15m and 5m together", "The 15-minute call and the 5-minute check sit side by side.", intra("pair")],
+          ["C · One column", "15-minute call first. The 5-minute check is the block under it.", intra("stack")]
+        ]
+      },
+      {
+        id: "morning",
+        label: "Morning",
+        now: "A symbol box, a run for one name, a run for the watchlist, then the overnight panel and the rows.",
+        options: [
+          ["A · Form then results", "Run controls stay above the brief, as they do now.", morning("form")],
+          ["B · Results first", "The rows are the page. Run one name or the list from the page bar.", morning("first")],
+          ["C · Overnight beside the list", "Global panel on the left. Symbol rows on the right.", morning("split")]
+        ]
+      },
+      {
+        id: "history",
+        label: "History",
+        now: "Finished calls for Nifty or Bank Nifty: entry, stop, and target, with a refresh button.",
+        options: [
+          ["A · Current list", "Cards, newest first, refresh at the top.", history("cards")],
+          ["B · Table", "Day, index, side, and result in one table.", history("table")],
+          ["C · Filter then list", "Index and result filters, then the same cards.", history("filter")]
+        ]
+      },
+      {
+        id: "news",
+        label: "News",
+        now: "A symbol filter, Load all, and the headline list.",
+        options: [
+          ["A · Current list", "Filter and Load all, then the feed.", news("list")],
+          ["B · Grouped by symbol", "Headlines stacked under Nifty, Bank Nifty, and the open stock.", news("group")],
+          ["C · Beside the call", "The active name’s last call on the left, its headlines on the right.", news("beside")]
+        ]
+      },
+      {
+        id: "replay",
+        label: "Replay",
+        now: "A saved 15-minute chart. Hover a candle to see the call that could have been known at that bar.",
+        options: [
+          ["A · Hover the candle", "The chart is the page. The call appears on the candle you point at.", replay("hover")],
+          ["B · Chart and known call", "The chart on the left. The call known at the selected bar on the right.", replay("side")],
+          ["C · Chart then timeline", "The chart on top. The bars of the session as a strip underneath.", replay("time")]
+        ]
+      },
+      {
+        id: "settings",
+        label: "Settings",
+        now: "F&O refresh seconds for the open tab, notification choices, and the Kite connection.",
+        options: [
+          ["A · One column", "The fields stay in the order they have now.", settings("one")],
+          ["B · Two groups", "Connection on the left. Alerts and refresh on the right.", settings("two")],
+          ["C · List and detail", "A short list of groups. The fields for the chosen group on the right.", settings("nav")]
+        ]
+      }
+    ];
+
+    function bar() {
+      return `<div class="bar"><span class="chip">☰</span><b class="brand">Rangebook</b><span class="tag on">Page</span><span class="sp"></span><span class="chip">Search</span><span class="btn fill">Analyze</span></div>`;
+    }
+    function guide() {
+      return frame(bar() + `<div class="main stack"><div class="block"><b>Rangebook</b><div class="muted">Same-day desk. The order stays in Kite.</div></div><div class="block">What you use it for</div><div class="block">How a call is made</div><div class="block">Levels · Nifty 25 / 30 / 60</div></div>`);
+    }
+    function steps() {
+      return frame(bar() + `<div class="main"><div class="row" style="gap:4px;margin-bottom:4px"><span class="btn fill">Open F&O</span><span class="btn">Stocks</span><span class="btn">Morning</span></div><div class="block">How a call is made</div><div class="block">Levels</div></div>`);
+    }
+    function twoCol() {
+      return frame(bar() + `<div class="body"><div class="main"><div class="block"><b>Open today</b><div>F&O · Stocks · Morning</div></div></div><div class="side" style="width:46%"><div class="block">How a call is made</div><div class="block">Levels</div></div></div>`);
+    }
+    function fno(kind) {
+      const tabs = `<div class="tabs" style="margin-bottom:4px"><span class="tag on">Chart</span><span class="tag">Alerts</span><span class="tag">Checklist</span><span class="tag">Today</span><span class="tag">History</span></div>`;
+      const tools = `<div class="tabs" style="margin:4px 0"><span class="tag">Daily</span><span class="tag on">5m</span><span class="tag">15m</span><span class="tag">Fit</span></div>`;
+      const call = `<div class="stack"><span class="tag buy">BUY</span><div class="px">Last</div><div class="muted">Stop · Target</div><div class="block">Option</div></div>`;
+      if (kind === "strip") {
+        return frame(bar() + `<div class="main">${tools}<div class="chart"></div><div class="block" style="margin-top:4px">${call}</div></div>`);
+      }
+      if (kind === "narrow") {
+        return frame(bar() + `<div class="body"><div class="main">${tools}<div class="chart"></div></div><div class="side">${call}<div class="tag on">Checklist</div><div class="tag">Today</div></div></div>`);
+      }
+      return frame(bar() + `<div class="body"><div class="main">${tabs}${tools}<div class="chart"></div></div><div class="side" style="width:108px">${call}<div class="muted">Checklist · Today</div></div></div>`);
+    }
+    function stock(kind) {
+      const decision = `<span class="tag hold">HOLD</span><div class="px">Last</div><div class="tabs"><span class="tag on">Overview</span><span class="tag">Metrics</span><span class="tag">Reasons</span></div>`;
+      if (kind === "top") return frame(bar() + `<div class="main"><div class="block">${decision}</div><div class="chart"></div></div>`);
+      if (kind === "chart") return frame(bar() + `<div class="main"><div class="chart" style="height:120px"></div><div class="muted">Analyze opens the decision.</div></div>`);
+      return frame(bar() + `<div class="body"><div class="main"><div class="tabs"><span class="tag on">Candles</span><span class="tag">RSI · MACD</span></div><div class="chart"></div></div><div class="side">${decision}</div></div>`);
+    }
+    function intra(kind) {
+      if (kind === "pair") return frame(bar() + `<div class="body"><div class="main"><b>15m call</b><div class="chart"></div></div><div class="side" style="width:46%"><b>5m check</b><div class="chart"></div></div></div>`);
+      if (kind === "stack") return frame(bar() + `<div class="main"><div class="block"><b>15m</b> HOLD</div><div class="chart"></div><div class="block"><b>5m check</b> agrees</div></div>`);
+      return stock("side");
+    }
+    function morning(kind) {
+      const rows = `<table><tr><th>Name</th><th>Stance</th></tr><tr><td>Nifty</td><td>Wait for the range</td></tr><tr><td>RELIANCE</td><td>HOLD</td></tr></table>`;
+      if (kind === "first") return frame(`<div class="bar"><b class="brand">Morning</b><span class="sp"></span><span class="btn">One symbol</span><span class="btn fill">Watchlist</span></div><div class="main">${rows}</div>`);
+      if (kind === "split") return frame(bar() + `<div class="body"><div class="main"><div class="block">US flat · crude firmer · rupee steady</div></div><div class="side" style="width:52%">${rows}</div></div>`);
+      return frame(bar() + `<div class="main"><div class="row" style="gap:4px;margin-bottom:4px"><span class="chip">NIFTY</span><span class="btn">One</span><span class="btn fill">Watchlist</span></div>${rows}</div>`);
+    }
+    function history(kind) {
+      if (kind === "table") return frame(`<div class="bar"><b>History</b><span class="sp"></span><span class="btn">Refresh</span></div><div class="main"><table><tr><th>Day</th><th>Index</th><th>Side</th><th>Result</th></tr><tr><td>12 Nov</td><td>Nifty</td><td>BUY</td><td>Target</td></tr><tr><td>11 Nov</td><td>Bank Nifty</td><td>SELL</td><td>Stop</td></tr></table></div>`);
+      if (kind === "filter") return frame(`<div class="bar"><span class="tag on">Nifty</span><span class="tag">Bank Nifty</span><span class="tag">Target</span><span class="tag">Stop</span></div><div class="main"><div class="block">12 Nov · Nifty · BUY · Target</div><div class="block">11 Nov · Bank Nifty · SELL · Stop</div></div>`);
+      return frame(`<div class="bar"><b>History</b><span class="sp"></span><span class="btn">Refresh</span></div><div class="main"><div class="block">12 Nov · Nifty BUY · entry, stop, target</div><div class="block">11 Nov · Bank Nifty SELL</div></div>`);
+    }
+    function news(kind) {
+      if (kind === "group") return frame(`<div class="main stack"><div class="block"><b>Nifty</b><div class="muted">Opening range set</div></div><div class="block"><b>RELIANCE</b><div class="muted">One headline</div></div></div>`);
+      if (kind === "beside") return frame(`<div class="body"><div class="side"><span class="tag hold">HOLD</span><div class="muted">RELIANCE</div></div><div class="main"><div class="block">Headline</div><div class="block">Headline</div></div></div>`);
+      return frame(`<div class="bar"><span class="chip">Symbol</span><span class="btn">Load all</span></div><div class="main"><div class="block">Pre-open · US flat</div><div class="block">09:20 · Range set</div></div>`);
+    }
+    function replay(kind) {
+      if (kind === "side") return frame(bar() + `<div class="body"><div class="main"><div class="chart"></div><div class="muted">Bar 10:00</div></div><div class="side"><span class="tag buy">BUY</span><div class="muted">Known at this bar</div></div></div>`);
+      if (kind === "time") return frame(`<div class="main"><div class="chart"></div><div class="tabs" style="margin-top:4px"><span class="tag">09:15</span><span class="tag">09:30</span><span class="tag on">10:00</span><span class="tag">10:15</span></div></div>`);
+      return frame(`<div class="main"><div class="chart" style="height:110px"></div><div class="muted">Point at a candle. The call is the one known then.</div></div>`);
+    }
+    function settings(kind) {
+      if (kind === "two") return frame(`<div class="body"><div class="main"><b>Connection</b><div class="block">Kite</div><div class="block">Sync contracts</div></div><div class="side" style="width:50%"><b>Alerts</b><div class="block">Refresh 30s</div><div class="block">Sound</div></div></div>`);
+      if (kind === "nav") return frame(`<div class="body"><div class="menu"><span class="tag on">Kite</span><span class="tag">Refresh</span><span class="tag">Lists</span></div><div class="main"><div class="block">Connected</div><div class="block">Sync the contract list</div></div></div>`);
+      return frame(`<div class="main stack"><div class="block">F&O refresh · 30 seconds</div><div class="block">Notifications</div><div class="block">Kite login</div></div>`);
+    }
+    function frame(inner) { return `<div class="frame">${inner}</div>`; }
+
+    const nav = document.getElementById("pages");
+    const board = document.getElementById("board");
+    pages.forEach((page, i) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.textContent = page.label;
+      b.setAttribute("aria-pressed", i === 1 ? "true" : "false");
+      b.addEventListener("click", () => show(page.id));
+      nav.appendChild(b);
+      const sec = document.createElement("section");
+      sec.className = "page" + (i === 1 ? " on" : "");
+      sec.id = "page-" + page.id;
+      sec.innerHTML = `<p>Today: ${page.now}</p><div class="grid">${page.options.map(([title, why, html]) => `<article class="opt"><h2>${title}</h2><p class="why">${why}</p>${html}</article>`).join("")}</div>`;
+      board.appendChild(sec);
+    });
+    function show(id) {
+      document.querySelectorAll(".page").forEach((el) => el.classList.toggle("on", el.id === "page-" + id));
+      document.querySelectorAll("#pages button").forEach((btn) => btn.setAttribute("aria-pressed", btn.textContent === pages.find((p) => p.id === id).label ? "true" : "false"));
+    }
+    nav.addEventListener("keydown", (event) => {
+      const buttons = [...nav.querySelectorAll("button")];
+      const i = buttons.indexOf(document.activeElement);
+      if (i < 0) return;
+      if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
+        event.preventDefault();
+        const j = event.key === "ArrowRight" ? (i + 1) % buttons.length : (i - 1 + buttons.length) % buttons.length;
+        buttons[j].focus();
+        buttons[j].click();
+      }
+    });
+  </script>
+</body>
+</html>

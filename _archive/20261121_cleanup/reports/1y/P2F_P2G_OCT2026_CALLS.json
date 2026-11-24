@@ -1,0 +1,449 @@
+{
+  "month": {
+    "start": "2026-10-01",
+    "end": "2026-10-31"
+  },
+  "counts": {
+    "p2f_all": 17,
+    "p2g_all": 19,
+    "union": 22,
+    "both": 14,
+    "only_p2f": 3,
+    "only_p2g": 5,
+    "p2f_v11": 10,
+    "p2g_v12": 12
+  },
+  "calls": [
+    {
+      "day": "2026-10-05",
+      "hm": "10:30",
+      "side": "SELL",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC100_MULTI_V11",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M"
+      ],
+      "p_t1": 0.9167
+    },
+    {
+      "day": "2026-10-05",
+      "hm": "12:30",
+      "side": "SELL",
+      "win": false,
+      "in_p2f": false,
+      "in_p2g": true,
+      "p2f_desks": [],
+      "p2g_desks": [
+        "ACC_WIDE_P80_P2G_10M"
+      ],
+      "p_t1": 0.5336
+    },
+    {
+      "day": "2026-10-05",
+      "hm": "12:55",
+      "side": "SELL",
+      "win": false,
+      "in_p2f": false,
+      "in_p2g": true,
+      "p2f_desks": [],
+      "p2g_desks": [
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "p_t1": 0.5237
+    },
+    {
+      "day": "2026-10-06",
+      "hm": "09:45",
+      "side": "BUY",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC100_MULTI_V11",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "p_t1": 0.6829
+    },
+    {
+      "day": "2026-10-08",
+      "hm": "09:30",
+      "side": "SELL",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC100_MULTI_V11",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M"
+      ],
+      "p_t1": 0.9167
+    },
+    {
+      "day": "2026-10-09",
+      "hm": "10:00",
+      "side": "BUY",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "p_t1": 0.5271
+    },
+    {
+      "day": "2026-10-12",
+      "hm": "11:00",
+      "side": "SELL",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "p_t1": 0.5269
+    },
+    {
+      "day": "2026-10-12",
+      "hm": "12:35",
+      "side": "SELL",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": false,
+      "p2f_desks": [
+        "ACC_WIDE_P85_P2F"
+      ],
+      "p2g_desks": [],
+      "p_t1": 0.5547
+    },
+    {
+      "day": "2026-10-15",
+      "hm": "10:30",
+      "side": "BUY",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC100_MULTI_V11",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "p_t1": 0.5497
+    },
+    {
+      "day": "2026-10-16",
+      "hm": "09:50",
+      "side": "BUY",
+      "win": true,
+      "in_p2f": false,
+      "in_p2g": true,
+      "p2f_desks": [],
+      "p2g_desks": [
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "p_t1": 0.5437
+    },
+    {
+      "day": "2026-10-16",
+      "hm": "12:25",
+      "side": "BUY",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M"
+      ],
+      "p_t1": 0.5603
+    },
+    {
+      "day": "2026-10-19",
+      "hm": "12:00",
+      "side": "SELL",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC100_MULTI_V11",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M"
+      ],
+      "p_t1": 0.7375
+    },
+    {
+      "day": "2026-10-19",
+      "hm": "12:30",
+      "side": "SELL",
+      "win": true,
+      "in_p2f": false,
+      "in_p2g": true,
+      "p2f_desks": [],
+      "p2g_desks": [
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "p_t1": 0.5216
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "10:00",
+      "side": "SELL",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC100_MULTI_V11",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M"
+      ],
+      "p_t1": 0.9167
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "14:05",
+      "side": "SELL",
+      "win": true,
+      "in_p2f": false,
+      "in_p2g": true,
+      "p2f_desks": [],
+      "p2g_desks": [
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "p_t1": 0.5308
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:30",
+      "side": "SELL",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC100_MULTI_V11",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "p_t1": 0.5442
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "10:00",
+      "side": "SELL",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC_WIDE_P90_P2F"
+      ],
+      "p2g_desks": [
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M"
+      ],
+      "p_t1": 0.5697
+    },
+    {
+      "day": "2026-10-26",
+      "hm": "09:50",
+      "side": "BUY",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": false,
+      "p2f_desks": [
+        "ACC100_MULTI_V11",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P90_P2F"
+      ],
+      "p2g_desks": [],
+      "p_t1": 0.6829
+    },
+    {
+      "day": "2026-10-26",
+      "hm": "12:50",
+      "side": "BUY",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "p_t1": 0.5562
+    },
+    {
+      "day": "2026-10-27",
+      "hm": "12:05",
+      "side": "BUY",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": false,
+      "p2f_desks": [
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [],
+      "p_t1": 0.5283
+    },
+    {
+      "day": "2026-10-28",
+      "hm": "12:30",
+      "side": "BUY",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC100_MULTI_V11",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M"
+      ],
+      "p_t1": 0.6829
+    },
+    {
+      "day": "2026-10-29",
+      "hm": "09:45",
+      "side": "BUY",
+      "win": true,
+      "in_p2f": true,
+      "in_p2g": true,
+      "p2f_desks": [
+        "ACC100_MULTI_V11",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P75_P2F"
+      ],
+      "p2g_desks": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_WIDE_P85B_P2G_10M"
+      ],
+      "p_t1": 0.6829
+    }
+  ]
+}

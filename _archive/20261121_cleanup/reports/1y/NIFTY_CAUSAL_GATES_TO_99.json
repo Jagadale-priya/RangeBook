@@ -1,0 +1,739 @@
+{
+  "baseline_cap6": {
+    "n": 467,
+    "wins": 351,
+    "losses": 116,
+    "hit_pct": 75.16,
+    "points": 7050.0
+  },
+  "best_99": {
+    "cap": 1,
+    "pmin": 0.55,
+    "tracks": [
+      "champion",
+      "proven_research"
+    ],
+    "hm": "10:00-14:00",
+    "n": 27,
+    "wins": 27,
+    "losses": 0,
+    "hit_pct": 100.0,
+    "points": 810.0,
+    "meets_99": true,
+    "meets_98": true,
+    "meets_95": true,
+    "meets_90": true
+  },
+  "best_98": {
+    "cap": 1,
+    "pmin": 0.55,
+    "tracks": [
+      "champion",
+      "proven_research"
+    ],
+    "hm": "10:00-14:00",
+    "n": 27,
+    "wins": 27,
+    "losses": 0,
+    "hit_pct": 100.0,
+    "points": 810.0,
+    "meets_99": true,
+    "meets_98": true,
+    "meets_95": true,
+    "meets_90": true
+  },
+  "best_95": {
+    "cap": 2,
+    "pmin": 0.55,
+    "tracks": [
+      "champion",
+      "good_prod2",
+      "proven_research"
+    ],
+    "hm": "09:45-13:30",
+    "n": 54,
+    "wins": 52,
+    "losses": 2,
+    "hit_pct": 96.3,
+    "points": 1500.0,
+    "meets_99": false,
+    "meets_98": false,
+    "meets_95": true,
+    "meets_90": true
+  },
+  "best_90": {
+    "cap": 2,
+    "pmin": 0.55,
+    "tracks": [
+      "champion",
+      "good_prod2",
+      "proven_research"
+    ],
+    "hm": "*-*",
+    "n": 76,
+    "wins": 71,
+    "losses": 5,
+    "hit_pct": 93.42,
+    "points": 1980.0,
+    "meets_99": false,
+    "meets_98": false,
+    "meets_95": false,
+    "meets_90": true
+  },
+  "top20_n20": [
+    {
+      "cap": 1,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 1,
+      "pmin": 0.6,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 1,
+      "pmin": 0.6,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 2,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 2,
+      "pmin": 0.6,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 2,
+      "pmin": 0.6,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 3,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 3,
+      "pmin": 0.6,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 3,
+      "pmin": 0.6,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 4,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 4,
+      "pmin": 0.6,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 4,
+      "pmin": 0.6,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 6,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 6,
+      "pmin": 0.6,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 6,
+      "pmin": 0.6,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 27,
+      "wins": 27,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 810.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 1,
+      "pmin": 0.65,
+      "tracks": [
+        "champion",
+        "dual10m",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 26,
+      "wins": 26,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 780.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 1,
+      "pmin": 0.65,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 26,
+      "wins": 26,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 780.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 1,
+      "pmin": 0.65,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 26,
+      "wins": 26,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 780.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 2,
+      "pmin": 0.65,
+      "tracks": [
+        "champion",
+        "dual10m",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 26,
+      "wins": 26,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 780.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 2,
+      "pmin": 0.65,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "10:00-14:00",
+      "n": 26,
+      "wins": 26,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 780.0,
+      "meets_99": true,
+      "meets_98": true,
+      "meets_95": true,
+      "meets_90": true
+    }
+  ],
+  "top15_n50": [
+    {
+      "cap": 2,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "09:45-13:30",
+      "n": 54,
+      "wins": 52,
+      "losses": 2,
+      "hit_pct": 96.3,
+      "points": 1500.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 3,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "09:45-13:30",
+      "n": 54,
+      "wins": 52,
+      "losses": 2,
+      "hit_pct": 96.3,
+      "points": 1500.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 4,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "09:45-13:30",
+      "n": 54,
+      "wins": 52,
+      "losses": 2,
+      "hit_pct": 96.3,
+      "points": 1500.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 6,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "09:45-13:30",
+      "n": 54,
+      "wins": 52,
+      "losses": 2,
+      "hit_pct": 96.3,
+      "points": 1500.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": true,
+      "meets_90": true
+    },
+    {
+      "cap": 2,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "*-*",
+      "n": 76,
+      "wins": 71,
+      "losses": 5,
+      "hit_pct": 93.42,
+      "points": 1980.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    },
+    {
+      "cap": 3,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "*-*",
+      "n": 76,
+      "wins": 71,
+      "losses": 5,
+      "hit_pct": 93.42,
+      "points": 1980.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    },
+    {
+      "cap": 4,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "*-*",
+      "n": 76,
+      "wins": 71,
+      "losses": 5,
+      "hit_pct": 93.42,
+      "points": 1980.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    },
+    {
+      "cap": 6,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "*-*",
+      "n": 76,
+      "wins": 71,
+      "losses": 5,
+      "hit_pct": 93.42,
+      "points": 1980.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    },
+    {
+      "cap": 2,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "09:30-14:30",
+      "n": 74,
+      "wins": 69,
+      "losses": 5,
+      "hit_pct": 93.24,
+      "points": 1920.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    },
+    {
+      "cap": 3,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "09:30-14:30",
+      "n": 74,
+      "wins": 69,
+      "losses": 5,
+      "hit_pct": 93.24,
+      "points": 1920.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    },
+    {
+      "cap": 4,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "09:30-14:30",
+      "n": 74,
+      "wins": 69,
+      "losses": 5,
+      "hit_pct": 93.24,
+      "points": 1920.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    },
+    {
+      "cap": 6,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "09:30-14:30",
+      "n": 74,
+      "wins": 69,
+      "losses": 5,
+      "hit_pct": 93.24,
+      "points": 1920.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    },
+    {
+      "cap": 1,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "*-*",
+      "n": 68,
+      "wins": 63,
+      "losses": 5,
+      "hit_pct": 92.65,
+      "points": 1740.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    },
+    {
+      "cap": 1,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm": "09:30-14:30",
+      "n": 66,
+      "wins": 61,
+      "losses": 5,
+      "hit_pct": 92.42,
+      "points": 1680.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    },
+    {
+      "cap": 1,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "proven_research"
+      ],
+      "hm": "*-*",
+      "n": 61,
+      "wins": 56,
+      "losses": 5,
+      "hit_pct": 91.8,
+      "points": 1530.0,
+      "meets_99": false,
+      "meets_98": false,
+      "meets_95": false,
+      "meets_90": true
+    }
+  ]
+}

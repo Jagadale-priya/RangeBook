@@ -1,0 +1,852 @@
+{
+  "window": {
+    "start": "2025-11-13",
+    "end": "2026-11-13"
+  },
+  "accurate": {
+    "n": 29,
+    "wins": 28,
+    "losses": 1,
+    "hit_rate": 0.9655172413793104,
+    "net_points": 1204.0,
+    "by_desk": {
+      "proven_10m": {
+        "n": 5,
+        "wins": 4,
+        "net": 102.0,
+        "hit_rate": 0.8
+      },
+      "proven_15m": {
+        "n": 24,
+        "wins": 24,
+        "net": 1102.0,
+        "hit_rate": 1.0
+      }
+    },
+    "by_side": {
+      "SELL": {
+        "n": 23,
+        "wins": 22,
+        "net": 911.0,
+        "hit_rate": 0.9565217391304348
+      },
+      "BUY": {
+        "n": 6,
+        "wins": 6,
+        "net": 293.0,
+        "hit_rate": 1.0
+      }
+    },
+    "sessions": 29
+  },
+  "board": {
+    "proven_15m": {
+      "n": 24,
+      "wins": 24,
+      "losses": 0,
+      "hit_rate": 1.0,
+      "net_points": 1102.0,
+      "by_desk": {
+        "15m": {
+          "n": 24,
+          "wins": 24,
+          "net": 1102.0,
+          "hit_rate": 1.0
+        }
+      },
+      "by_side": {
+        "BUY": {
+          "n": 6,
+          "wins": 6,
+          "net": 293.0,
+          "hit_rate": 1.0
+        },
+        "SELL": {
+          "n": 18,
+          "wins": 18,
+          "net": 809.0,
+          "hit_rate": 1.0
+        }
+      },
+      "sessions": 24
+    },
+    "proven_10m": {
+      "n": 5,
+      "wins": 4,
+      "losses": 1,
+      "hit_rate": 0.8,
+      "net_points": 102.0,
+      "by_desk": {
+        "10m": {
+          "n": 5,
+          "wins": 4,
+          "net": 102.0,
+          "hit_rate": 0.8
+        }
+      },
+      "by_side": {
+        "SELL": {
+          "n": 5,
+          "wins": 4,
+          "net": 102.0,
+          "hit_rate": 0.8
+        }
+      },
+      "sessions": 5
+    },
+    "accurate_proven": {
+      "n": 29,
+      "wins": 28,
+      "losses": 1,
+      "hit_rate": 0.9655172413793104,
+      "net_points": 1204.0,
+      "by_desk": {
+        "proven_10m": {
+          "n": 5,
+          "wins": 4,
+          "net": 102.0,
+          "hit_rate": 0.8
+        },
+        "proven_15m": {
+          "n": 24,
+          "wins": 24,
+          "net": 1102.0,
+          "hit_rate": 1.0
+        }
+      },
+      "by_side": {
+        "SELL": {
+          "n": 23,
+          "wins": 22,
+          "net": 911.0,
+          "hit_rate": 0.9565217391304348
+        },
+        "BUY": {
+          "n": 6,
+          "wins": 6,
+          "net": 293.0,
+          "hit_rate": 1.0
+        }
+      },
+      "sessions": 29
+    },
+    "champion_any": {
+      "n": 58,
+      "wins": 41,
+      "losses": 17,
+      "hit_rate": 0.7068965517241379,
+      "net_points": 935.0,
+      "by_desk": {
+        "15m": {
+          "n": 36,
+          "wins": 34,
+          "net": 1238.0,
+          "hit_rate": 0.9444444444444444
+        },
+        "10m": {
+          "n": 10,
+          "wins": 4,
+          "net": -131.0,
+          "hit_rate": 0.4
+        },
+        "5m": {
+          "n": 12,
+          "wins": 3,
+          "net": -172.0,
+          "hit_rate": 0.25
+        }
+      },
+      "by_side": {
+        "SELL": {
+          "n": 27,
+          "wins": 19,
+          "net": 415.0,
+          "hit_rate": 0.7037037037037037
+        },
+        "BUY": {
+          "n": 31,
+          "wins": 22,
+          "net": 520.0,
+          "hit_rate": 0.7096774193548387
+        }
+      },
+      "sessions": 58
+    }
+  },
+  "refs": {
+    "proven_5m": {
+      "n": 6,
+      "wins": 4,
+      "losses": 2,
+      "hit_rate": 0.6666666666666666,
+      "net_points": -3.0,
+      "by_desk": {
+        "5m": {
+          "n": 6,
+          "wins": 4,
+          "net": -3.0,
+          "hit_rate": 0.6666666666666666
+        }
+      },
+      "by_side": {
+        "BUY": {
+          "n": 4,
+          "wins": 3,
+          "net": 58.0,
+          "hit_rate": 0.75
+        },
+        "SELL": {
+          "n": 2,
+          "wins": 1,
+          "net": -61.0,
+          "hit_rate": 0.5
+        }
+      },
+      "sessions": 6
+    },
+    "champ_15m": {
+      "n": 39,
+      "wins": 36,
+      "losses": 3,
+      "hit_rate": 0.9230769230769231,
+      "net_points": 1288.0,
+      "by_desk": {
+        "15m": {
+          "n": 39,
+          "wins": 36,
+          "net": 1288.0,
+          "hit_rate": 0.9230769230769231
+        }
+      },
+      "by_side": {
+        "SELL": {
+          "n": 17,
+          "wins": 16,
+          "net": 591.0,
+          "hit_rate": 0.9411764705882353
+        },
+        "BUY": {
+          "n": 22,
+          "wins": 20,
+          "net": 697.0,
+          "hit_rate": 0.9090909090909091
+        }
+      },
+      "sessions": 39
+    },
+    "champ_5m": {
+      "n": 17,
+      "wins": 6,
+      "losses": 11,
+      "hit_rate": 0.35294117647058826,
+      "net_points": -141.0,
+      "by_desk": {
+        "5m": {
+          "n": 17,
+          "wins": 6,
+          "net": -141.0,
+          "hit_rate": 0.35294117647058826
+        }
+      },
+      "by_side": {
+        "BUY": {
+          "n": 8,
+          "wins": 3,
+          "net": -51.0,
+          "hit_rate": 0.375
+        },
+        "SELL": {
+          "n": 9,
+          "wins": 3,
+          "net": -90.0,
+          "hit_rate": 0.3333333333333333
+        }
+      },
+      "sessions": 17
+    },
+    "champ_10m": {
+      "n": 11,
+      "wins": 4,
+      "losses": 7,
+      "hit_rate": 0.36363636363636365,
+      "net_points": -162.0,
+      "by_desk": {
+        "10m": {
+          "n": 11,
+          "wins": 4,
+          "net": -162.0,
+          "hit_rate": 0.36363636363636365
+        }
+      },
+      "by_side": {
+        "SELL": {
+          "n": 6,
+          "wins": 3,
+          "net": -37.0,
+          "hit_rate": 0.5
+        },
+        "BUY": {
+          "n": 5,
+          "wins": 1,
+          "net": -125.0,
+          "hit_rate": 0.2
+        }
+      },
+      "sessions": 11
+    },
+    "proven15_plus_champ15": {
+      "n": 63,
+      "wins": 60,
+      "losses": 3,
+      "hit_rate": 0.9523809523809523,
+      "net_points": 2390.0,
+      "by_desk": {
+        "15m": {
+          "n": 63,
+          "wins": 60,
+          "net": 2390.0,
+          "hit_rate": 0.9523809523809523
+        }
+      },
+      "by_side": {
+        "BUY": {
+          "n": 28,
+          "wins": 26,
+          "net": 990.0,
+          "hit_rate": 0.9285714285714286
+        },
+        "SELL": {
+          "n": 35,
+          "wins": 34,
+          "net": 1400.0,
+          "hit_rate": 0.9714285714285714
+        }
+      },
+      "sessions": 63
+    }
+  },
+  "rows": [
+    {
+      "day": "2025-11-24",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "10m",
+      "p_t1": 0.9167,
+      "win": false,
+      "points": -26.0,
+      "outcome": "sl_before_t1",
+      "entry": 26088.1,
+      "stop_loss": 26114.1,
+      "target_1": 26058.1,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_10m"
+    },
+    {
+      "day": "2025-12-11",
+      "hm": "10:00",
+      "decision": "BUY",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.6829,
+      "win": true,
+      "points": 47.0,
+      "outcome": "t1_before_sl",
+      "entry": 25807.75,
+      "stop_loss": 25760.75,
+      "target_1": 25854.75,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2025-12-18",
+      "hm": "10:15",
+      "decision": "BUY",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.6829,
+      "win": true,
+      "points": 38.0,
+      "outcome": "t1_before_sl",
+      "entry": 25829.75,
+      "stop_loss": 25791.75,
+      "target_1": 25867.75,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2025-12-29",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 30.0,
+      "outcome": "t1_before_sl",
+      "entry": 26037.25,
+      "stop_loss": 26062.25,
+      "target_1": 26007.25,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-01-22",
+      "hm": "10:15",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.6393,
+      "win": true,
+      "points": 65.0,
+      "outcome": "t1_before_sl",
+      "entry": 25291.9,
+      "stop_loss": 25356.9,
+      "target_1": 25226.9,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-02-19",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 34.0,
+      "outcome": "t1_before_sl",
+      "entry": 25779.9,
+      "stop_loss": 25813.9,
+      "target_1": 25745.9,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-02-25",
+      "hm": "12:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 41.0,
+      "outcome": "t1_before_sl",
+      "entry": 25504.3,
+      "stop_loss": 25545.3,
+      "target_1": 25463.3,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-04-16",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 46.0,
+      "outcome": "t1_before_sl",
+      "entry": 24301.95,
+      "stop_loss": 24347.95,
+      "target_1": 24255.95,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-05-29",
+      "hm": "11:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "10m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 36.0,
+      "outcome": "t1_before_sl",
+      "entry": 23886.75,
+      "stop_loss": 23922.75,
+      "target_1": 23850.75,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_10m"
+    },
+    {
+      "day": "2026-06-08",
+      "hm": "09:30",
+      "decision": "BUY",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.6829,
+      "win": true,
+      "points": 67.0,
+      "outcome": "t1_before_sl",
+      "entry": 23159.15,
+      "stop_loss": 23092.15,
+      "target_1": 23226.15,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-06-09",
+      "hm": "09:45",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 48.0,
+      "outcome": "t1_before_sl",
+      "entry": 23188.35,
+      "stop_loss": 23236.35,
+      "target_1": 23140.35,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-06-23",
+      "hm": "11:40",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "10m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 30.0,
+      "outcome": "t1_before_sl",
+      "entry": 24021.85,
+      "stop_loss": 24047.85,
+      "target_1": 23991.85,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_10m"
+    },
+    {
+      "day": "2026-06-25",
+      "hm": "14:10",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "10m",
+      "p_t1": 0.6974,
+      "win": true,
+      "points": 30.0,
+      "outcome": "t1_before_sl",
+      "entry": 24119.75,
+      "stop_loss": 24148.75,
+      "target_1": 24089.75,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_10m"
+    },
+    {
+      "day": "2026-06-29",
+      "hm": "11:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "10m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 37.0,
+      "outcome": "t1_before_sl",
+      "entry": 24042.2,
+      "stop_loss": 24079.2,
+      "target_1": 24005.2,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_10m"
+    },
+    {
+      "day": "2026-07-22",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 34.0,
+      "outcome": "t1_before_sl",
+      "entry": 24027.0,
+      "stop_loss": 24061.0,
+      "target_1": 23993.0,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-08-11",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 30.0,
+      "outcome": "t1_before_sl",
+      "entry": 24479.25,
+      "stop_loss": 24507.25,
+      "target_1": 24449.25,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-08-19",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 30.0,
+      "outcome": "t1_before_sl",
+      "entry": 24084.55,
+      "stop_loss": 24111.55,
+      "target_1": 24054.55,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-08-26",
+      "hm": "10:15",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 38.0,
+      "outcome": "t1_before_sl",
+      "entry": 24304.6,
+      "stop_loss": 24342.6,
+      "target_1": 24266.6,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-09-15",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 48.0,
+      "outcome": "t1_before_sl",
+      "entry": 23448.1,
+      "stop_loss": 23496.1,
+      "target_1": 23400.1,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-09-23",
+      "hm": "10:45",
+      "decision": "BUY",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.6829,
+      "win": true,
+      "points": 38.0,
+      "outcome": "t1_before_sl",
+      "entry": 23415.5,
+      "stop_loss": 23377.5,
+      "target_1": 23453.5,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-09-24",
+      "hm": "11:45",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 43.0,
+      "outcome": "t1_before_sl",
+      "entry": 23197.35,
+      "stop_loss": 23240.35,
+      "target_1": 23154.35,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-09-29",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 38.0,
+      "outcome": "t1_before_sl",
+      "entry": 22613.4,
+      "stop_loss": 22651.4,
+      "target_1": 22575.4,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-10-01",
+      "hm": "12:15",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 45.0,
+      "outcome": "t1_before_sl",
+      "entry": 22471.1,
+      "stop_loss": 22516.1,
+      "target_1": 22426.1,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-10-05",
+      "hm": "10:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 68.0,
+      "outcome": "t1_before_sl",
+      "entry": 22487.25,
+      "stop_loss": 22555.25,
+      "target_1": 22419.25,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-10-08",
+      "hm": "09:30",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl",
+      "entry": 22472.45,
+      "stop_loss": 22522.45,
+      "target_1": 22422.45,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-10-19",
+      "hm": "12:00",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.7375,
+      "win": true,
+      "points": 78.0,
+      "outcome": "t1_before_sl",
+      "entry": 22946.05,
+      "stop_loss": 23024.05,
+      "target_1": 22868.05,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "10:00",
+      "decision": "SELL",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.9167,
+      "win": true,
+      "points": 61.0,
+      "outcome": "t1_before_sl",
+      "entry": 22949.15,
+      "stop_loss": 23010.15,
+      "target_1": 22888.15,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-10-28",
+      "hm": "12:30",
+      "decision": "BUY",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.6829,
+      "win": true,
+      "points": 65.0,
+      "outcome": "t1_before_sl",
+      "entry": 22696.25,
+      "stop_loss": 22631.25,
+      "target_1": 22761.25,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    },
+    {
+      "day": "2026-10-29",
+      "hm": "09:45",
+      "decision": "BUY",
+      "track": "proven_100",
+      "tf": "15m",
+      "p_t1": 0.6829,
+      "win": true,
+      "points": 44.0,
+      "outcome": "t1_before_sl",
+      "entry": 22746.8,
+      "stop_loss": 22702.8,
+      "target_1": 22790.8,
+      "proven": true,
+      "champion": true,
+      "book": "accurate_proven",
+      "desk": "proven_15m"
+    }
+  ]
+}

@@ -1,0 +1,2703 @@
+{
+  "goal": "More path-true 100% calls than held plus n=49",
+  "held_plus_3y": {
+    "n": 49,
+    "hit_pct": 100.0,
+    "wins": 49,
+    "losses": 0,
+    "points": 2070.0,
+    "days": 49,
+    "by_track": {
+      "champion": {
+        "n": 6,
+        "hit_pct": 100.0,
+        "points": 198.0
+      },
+      "proven_100": {
+        "n": 43,
+        "hit_pct": 100.0,
+        "points": 1872.0
+      }
+    }
+  },
+  "discoveries_top": [
+    {
+      "tag": "CROWN_T20_BUY_p0_am1130_any_nogap_first",
+      "src": "crown",
+      "risk": "20.0",
+      "n": 12,
+      "hit_pct": 100.0,
+      "wins": 12,
+      "losses": 0,
+      "points": 240.0,
+      "days": 12,
+      "by_track": {
+        "crown_5m": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "points": 240.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T20_BUY_p52_am1130_any_nogap_first",
+      "src": "crown",
+      "risk": "20.0",
+      "n": 12,
+      "hit_pct": 100.0,
+      "wins": 12,
+      "losses": 0,
+      "points": 240.0,
+      "days": 12,
+      "by_track": {
+        "crown_5m": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "points": 240.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T25_any15_dual5",
+      "src": "confirm",
+      "n": 11,
+      "hit_pct": 100.0,
+      "wins": 11,
+      "losses": 0,
+      "points": 348.0,
+      "days": 11,
+      "by_track": {
+        "CONF_T25_any15_dual5": {
+          "n": 11,
+          "hit_pct": 100.0,
+          "points": 348.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T30_any15_dual5",
+      "src": "confirm",
+      "n": 11,
+      "hit_pct": 100.0,
+      "wins": 11,
+      "losses": 0,
+      "points": 348.0,
+      "days": 11,
+      "by_track": {
+        "CONF_T30_any15_dual5": {
+          "n": 11,
+          "hit_pct": 100.0,
+          "points": 348.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T40_any15_dual5",
+      "src": "confirm",
+      "n": 11,
+      "hit_pct": 100.0,
+      "wins": 11,
+      "losses": 0,
+      "points": 348.0,
+      "days": 11,
+      "by_track": {
+        "CONF_T40_any15_dual5": {
+          "n": 11,
+          "hit_pct": 100.0,
+          "points": 348.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T35_BOTH_p55_am1130_htf_nogap_first",
+      "src": "crown",
+      "risk": "35.0",
+      "n": 10,
+      "hit_pct": 100.0,
+      "wins": 10,
+      "losses": 0,
+      "points": 350.0,
+      "days": 10,
+      "by_track": {
+        "crown_5m": {
+          "n": 10,
+          "hit_pct": 100.0,
+          "points": 350.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T40_BOTH_p55_am1130_htf_nogap_first",
+      "src": "crown",
+      "risk": "40.0",
+      "n": 10,
+      "hit_pct": 100.0,
+      "wins": 10,
+      "losses": 0,
+      "points": 400.0,
+      "days": 10,
+      "by_track": {
+        "crown_5m": {
+          "n": 10,
+          "hit_pct": 100.0,
+          "points": 400.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T15_any15_dual5",
+      "src": "confirm",
+      "n": 10,
+      "hit_pct": 100.0,
+      "wins": 10,
+      "losses": 0,
+      "points": 303.0,
+      "days": 10,
+      "by_track": {
+        "CONF_T15_any15_dual5": {
+          "n": 10,
+          "hit_pct": 100.0,
+          "points": 303.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T20_any15_dual5",
+      "src": "confirm",
+      "n": 10,
+      "hit_pct": 100.0,
+      "wins": 10,
+      "losses": 0,
+      "points": 303.0,
+      "days": 10,
+      "by_track": {
+        "CONF_T20_any15_dual5": {
+          "n": 10,
+          "hit_pct": 100.0,
+          "points": 303.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T20_BOTH_p0_pm_htf_gdn_first",
+      "src": "crown",
+      "risk": "20.0",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 180.0,
+      "days": 9,
+      "by_track": {
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 180.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T20_BOTH_p52_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "20.0",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 180.0,
+      "days": 9,
+      "by_track": {
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 180.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T20_BUY_p55_am1130_any_nogap_first",
+      "src": "crown",
+      "risk": "20.0",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 180.0,
+      "days": 9,
+      "by_track": {
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 180.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T30_BUY_p55_am1130_any_nogap_first",
+      "src": "crown",
+      "risk": "30.0",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 270.0,
+      "days": 9,
+      "by_track": {
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T35_BUY_p55_am1130_any_nogap_first",
+      "src": "crown",
+      "risk": "35.0",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 315.0,
+      "days": 9,
+      "by_track": {
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 315.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T40_BUY_p55_am1130_any_nogap_first",
+      "src": "crown",
+      "risk": "40.0",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 360.0,
+      "days": 9,
+      "by_track": {
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 360.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BOTH_p55_late_mid_any_g040_first",
+      "src": "GOOD_T30",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 270.0,
+      "days": 9,
+      "by_track": {
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p0_late_mid_any_g040_raw",
+      "src": "GOOD_T30",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 270.0,
+      "days": 9,
+      "by_track": {
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p0_late_mid_any_g040_first",
+      "src": "GOOD_T30",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 270.0,
+      "days": 9,
+      "by_track": {
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p0_late_mid_any_g040_bestp",
+      "src": "GOOD_T30",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 270.0,
+      "days": 9,
+      "by_track": {
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p52_late_mid_any_g040_raw",
+      "src": "GOOD_T30",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 270.0,
+      "days": 9,
+      "by_track": {
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p52_late_mid_any_g040_first",
+      "src": "GOOD_T30",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 270.0,
+      "days": 9,
+      "by_track": {
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p52_late_mid_any_g040_bestp",
+      "src": "GOOD_T30",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 270.0,
+      "days": 9,
+      "by_track": {
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T10_any15_dual5",
+      "src": "confirm",
+      "n": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0,
+      "points": 273.0,
+      "days": 9,
+      "by_track": {
+        "CONF_T10_any15_dual5": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 273.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T20_BOTH_p52_pm_htf_gdn_first",
+      "src": "crown",
+      "risk": "20.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 160.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 160.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T20_BUY_p0_am1130_htf_nogap_first",
+      "src": "crown",
+      "risk": "20.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 160.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 160.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T20_BUY_p52_am1130_htf_nogap_first",
+      "src": "crown",
+      "risk": "20.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 160.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 160.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T20_SELL_p0_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "20.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 160.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 160.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T20_SELL_p52_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "20.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 160.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 160.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T25_SELL_p0_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "25.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 200.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 200.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T25_SELL_p52_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "25.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 200.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 200.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T30_SELL_p0_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "30.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 240.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T30_SELL_p52_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "30.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 240.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T35_SELL_p0_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "35.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 280.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 280.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T35_SELL_p52_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "35.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 280.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 280.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T40_SELL_p0_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "40.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 320.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 320.0
+        }
+      }
+    },
+    {
+      "tag": "CROWN_T40_SELL_p52_pm_htf_g070_first",
+      "src": "crown",
+      "risk": "40.0",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 320.0,
+      "days": 8,
+      "by_track": {
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 320.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p0_late_mid_htf_g040_raw",
+      "src": "GOOD_T30",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 240.0,
+      "days": 8,
+      "by_track": {
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p0_late_mid_htf_g040_first",
+      "src": "GOOD_T30",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 240.0,
+      "days": 8,
+      "by_track": {
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p0_late_mid_htf_g040_bestp",
+      "src": "GOOD_T30",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 240.0,
+      "days": 8,
+      "by_track": {
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p52_late_mid_htf_g040_raw",
+      "src": "GOOD_T30",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 240.0,
+      "days": 8,
+      "by_track": {
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p52_late_mid_htf_g040_first",
+      "src": "GOOD_T30",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 240.0,
+      "days": 8,
+      "by_track": {
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        }
+      }
+    },
+    {
+      "tag": "GOOD_T30_BUY_p52_late_mid_htf_g040_bestp",
+      "src": "GOOD_T30",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 240.0,
+      "days": 8,
+      "by_track": {
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T25_champ15_dual5",
+      "src": "confirm",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 258.0,
+      "days": 8,
+      "by_track": {
+        "CONF_T25_champ15_dual5": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 258.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T30_champ15_dual5",
+      "src": "confirm",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 258.0,
+      "days": 8,
+      "by_track": {
+        "CONF_T30_champ15_dual5": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 258.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T40_champ15_dual5",
+      "src": "confirm",
+      "n": 8,
+      "hit_pct": 100.0,
+      "wins": 8,
+      "losses": 0,
+      "points": 258.0,
+      "days": 8,
+      "by_track": {
+        "CONF_T40_champ15_dual5": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 258.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T15_champ15_dual5",
+      "src": "confirm",
+      "n": 7,
+      "hit_pct": 100.0,
+      "wins": 7,
+      "losses": 0,
+      "points": 213.0,
+      "days": 7,
+      "by_track": {
+        "CONF_T15_champ15_dual5": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 213.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T20_champ15_dual5",
+      "src": "confirm",
+      "n": 7,
+      "hit_pct": 100.0,
+      "wins": 7,
+      "losses": 0,
+      "points": 213.0,
+      "days": 7,
+      "by_track": {
+        "CONF_T20_champ15_dual5": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 213.0
+        }
+      }
+    },
+    {
+      "tag": "CONF_T10_champ15_dual5",
+      "src": "confirm",
+      "n": 6,
+      "hit_pct": 100.0,
+      "wins": 6,
+      "losses": 0,
+      "points": 183.0,
+      "days": 6,
+      "by_track": {
+        "CONF_T10_champ15_dual5": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 183.0
+        }
+      }
+    }
+  ],
+  "unions_top": [
+    {
+      "tag": "UNION_HELD_u_CROWN_T20_BUY_p0_am1130_any_nogap_first",
+      "from": "CROWN_T20_BUY_p0_am1130_any_nogap_first",
+      "n": 61,
+      "hit_pct": 100.0,
+      "wins": 61,
+      "losses": 0,
+      "points": 2310.0,
+      "days": 61,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T20_BUY_p52_am1130_any_nogap_first",
+      "from": "CROWN_T20_BUY_p52_am1130_any_nogap_first",
+      "n": 61,
+      "hit_pct": 100.0,
+      "wins": 61,
+      "losses": 0,
+      "points": 2310.0,
+      "days": 61,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T35_BOTH_p55_am1130_htf_nogap_first",
+      "from": "CROWN_T35_BOTH_p55_am1130_htf_nogap_first",
+      "n": 59,
+      "hit_pct": 100.0,
+      "wins": 59,
+      "losses": 0,
+      "points": 2420.0,
+      "days": 59,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 10,
+          "hit_pct": 100.0,
+          "points": 350.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 30,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T40_BOTH_p55_am1130_htf_nogap_first",
+      "from": "CROWN_T40_BOTH_p55_am1130_htf_nogap_first",
+      "n": 59,
+      "hit_pct": 100.0,
+      "wins": 59,
+      "losses": 0,
+      "points": 2470.0,
+      "days": 59,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 10,
+          "hit_pct": 100.0,
+          "points": 400.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 30,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T20_BOTH_p0_pm_htf_gdn_first",
+      "from": "CROWN_T20_BOTH_p0_pm_htf_gdn_first",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2250.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 180.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 34,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T20_BUY_p55_am1130_any_nogap_first",
+      "from": "CROWN_T20_BUY_p55_am1130_any_nogap_first",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2250.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 180.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T30_BUY_p55_am1130_any_nogap_first",
+      "from": "CROWN_T30_BUY_p55_am1130_any_nogap_first",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2340.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T35_BUY_p55_am1130_any_nogap_first",
+      "from": "CROWN_T35_BUY_p55_am1130_any_nogap_first",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2385.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 315.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T40_BUY_p55_am1130_any_nogap_first",
+      "from": "CROWN_T40_BUY_p55_am1130_any_nogap_first",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2430.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 360.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_raw",
+      "from": "GOOD_T30_BUY_p0_late_mid_any_g040_raw",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2340.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_first",
+      "from": "GOOD_T30_BUY_p0_late_mid_any_g040_first",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2340.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_bestp",
+      "from": "GOOD_T30_BUY_p0_late_mid_any_g040_bestp",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2340.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_raw",
+      "from": "GOOD_T30_BUY_p52_late_mid_any_g040_raw",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2340.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_first",
+      "from": "GOOD_T30_BUY_p52_late_mid_any_g040_first",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2340.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_bestp",
+      "from": "GOOD_T30_BUY_p52_late_mid_any_g040_bestp",
+      "n": 58,
+      "hit_pct": 100.0,
+      "wins": 58,
+      "losses": 0,
+      "points": 2340.0,
+      "days": 58,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T20_BOTH_p52_pm_htf_gdn_first",
+      "from": "CROWN_T20_BOTH_p52_pm_htf_gdn_first",
+      "n": 57,
+      "hit_pct": 100.0,
+      "wins": 57,
+      "losses": 0,
+      "points": 2230.0,
+      "days": 57,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 160.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 33,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T20_BUY_p0_am1130_htf_nogap_first",
+      "from": "CROWN_T20_BUY_p0_am1130_htf_nogap_first",
+      "n": 57,
+      "hit_pct": 100.0,
+      "wins": 57,
+      "losses": 0,
+      "points": 2230.0,
+      "days": 57,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 160.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 30,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T20_BUY_p52_am1130_htf_nogap_first",
+      "from": "CROWN_T20_BUY_p52_am1130_htf_nogap_first",
+      "n": 57,
+      "hit_pct": 100.0,
+      "wins": 57,
+      "losses": 0,
+      "points": 2230.0,
+      "days": 57,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 160.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 30,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_htf_g040_raw",
+      "from": "GOOD_T30_BUY_p0_late_mid_htf_g040_raw",
+      "n": 57,
+      "hit_pct": 100.0,
+      "wins": 57,
+      "losses": 0,
+      "points": 2310.0,
+      "days": 57,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_htf_g040_first",
+      "from": "GOOD_T30_BUY_p0_late_mid_htf_g040_first",
+      "n": 57,
+      "hit_pct": 100.0,
+      "wins": 57,
+      "losses": 0,
+      "points": 2310.0,
+      "days": 57,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_htf_g040_bestp",
+      "from": "GOOD_T30_BUY_p0_late_mid_htf_g040_bestp",
+      "n": 57,
+      "hit_pct": 100.0,
+      "wins": 57,
+      "losses": 0,
+      "points": 2310.0,
+      "days": 57,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_htf_g040_raw",
+      "from": "GOOD_T30_BUY_p52_late_mid_htf_g040_raw",
+      "n": 57,
+      "hit_pct": 100.0,
+      "wins": 57,
+      "losses": 0,
+      "points": 2310.0,
+      "days": 57,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_htf_g040_first",
+      "from": "GOOD_T30_BUY_p52_late_mid_htf_g040_first",
+      "n": 57,
+      "hit_pct": 100.0,
+      "wins": 57,
+      "losses": 0,
+      "points": 2310.0,
+      "days": 57,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_htf_g040_bestp",
+      "from": "GOOD_T30_BUY_p52_late_mid_htf_g040_bestp",
+      "n": 57,
+      "hit_pct": 100.0,
+      "wins": 57,
+      "losses": 0,
+      "points": 2310.0,
+      "days": 57,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T20_BOTH_p52_pm_htf_g070_first",
+      "from": "CROWN_T20_BOTH_p52_pm_htf_g070_first",
+      "n": 56,
+      "hit_pct": 100.0,
+      "wins": 56,
+      "losses": 0,
+      "points": 2210.0,
+      "days": 56,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 140.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 32,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_GOOD_T30_BOTH_p55_late_mid_any_g040_first",
+      "from": "GOOD_T30_BOTH_p55_late_mid_any_g040_first",
+      "n": 56,
+      "hit_pct": 100.0,
+      "wins": 56,
+      "losses": 0,
+      "points": 2280.0,
+      "days": 56,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "good_prod2": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 210.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T20_SELL_p0_pm_htf_g070_first",
+      "from": "CROWN_T20_SELL_p0_pm_htf_g070_first",
+      "n": 55,
+      "hit_pct": 100.0,
+      "wins": 55,
+      "losses": 0,
+      "points": 2190.0,
+      "days": 55,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 120.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T20_SELL_p52_pm_htf_g070_first",
+      "from": "CROWN_T20_SELL_p52_pm_htf_g070_first",
+      "n": 55,
+      "hit_pct": 100.0,
+      "wins": 55,
+      "losses": 0,
+      "points": 2190.0,
+      "days": 55,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 120.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T25_SELL_p0_pm_htf_g070_first",
+      "from": "CROWN_T25_SELL_p0_pm_htf_g070_first",
+      "n": 55,
+      "hit_pct": 100.0,
+      "wins": 55,
+      "losses": 0,
+      "points": 2220.0,
+      "days": 55,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 150.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    },
+    {
+      "tag": "UNION_HELD_u_CROWN_T25_SELL_p52_pm_htf_g070_first",
+      "from": "CROWN_T25_SELL_p52_pm_htf_g070_first",
+      "n": 55,
+      "hit_pct": 100.0,
+      "wins": 55,
+      "losses": 0,
+      "points": 2220.0,
+      "days": 55,
+      "by_track": {
+        "champion": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 198.0
+        },
+        "crown_5m": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 150.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "n_1y": 31,
+      "hit_1y": 100.0
+    }
+  ],
+  "scored_top": [
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p0_am1130_any_nogap_first",
+      "n_3y": 61,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p52_am1130_any_nogap_first",
+      "n_3y": 61,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T35_BOTH_p55_am1130_htf_nogap_first",
+      "n_3y": 59,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2420.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T40_BOTH_p55_am1130_htf_nogap_first",
+      "n_3y": 59,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2470.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BOTH_p0_pm_htf_gdn_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2250.0,
+      "n_1y": 34,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2250.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T30_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T35_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2385.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T40_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2430.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_raw",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_bestp",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_raw",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_bestp",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BOTH_p52_pm_htf_gdn_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2230.0,
+      "n_1y": 33,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p0_am1130_htf_nogap_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2230.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p52_am1130_htf_nogap_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2230.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_htf_g040_raw",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_htf_g040_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "HELD_plus",
+      "n_3y": 49,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2070.0,
+      "n_1y": 28,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "HELD_proven",
+      "n_3y": 41,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 1812.0,
+      "n_1y": 24,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CROWN_T20_BUY_p0_am1130_any_nogap_first",
+      "n_3y": 12,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 240.0,
+      "n_1y": 3,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "CROWN_T20_BUY_p52_am1130_any_nogap_first",
+      "n_3y": 12,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 240.0,
+      "n_1y": 3,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "HELD_confirm_t30",
+      "n_3y": 11,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 348.0,
+      "n_1y": 7,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CONF_T25_any15_dual5",
+      "n_3y": 11,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 348.0,
+      "n_1y": 7,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CONF_T30_any15_dual5",
+      "n_3y": 11,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 348.0,
+      "n_1y": 7,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CONF_T40_any15_dual5",
+      "n_3y": 11,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 348.0,
+      "n_1y": 7,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CROWN_T35_BOTH_p55_am1130_htf_nogap_first",
+      "n_3y": 10,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 350.0,
+      "n_1y": 2,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CROWN_T40_BOTH_p55_am1130_htf_nogap_first",
+      "n_3y": 10,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 400.0,
+      "n_1y": 2,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CONF_T15_any15_dual5",
+      "n_3y": 10,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 303.0,
+      "n_1y": 7,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CONF_T20_any15_dual5",
+      "n_3y": 10,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 303.0,
+      "n_1y": 7,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CROWN_T20_BOTH_p0_pm_htf_gdn_first",
+      "n_3y": 9,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 180.0,
+      "n_1y": 6,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CROWN_T20_BOTH_p52_pm_htf_g070_first",
+      "n_3y": 9,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 180.0,
+      "n_1y": 6,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "CROWN_T20_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 9,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 180.0,
+      "n_1y": 3,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "CROWN_T30_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 9,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 270.0,
+      "n_1y": 3,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "CROWN_T35_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 9,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 315.0,
+      "n_1y": 3,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "CROWN_T40_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 9,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 360.0,
+      "n_1y": 3,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "GOOD_T30_BOTH_p55_late_mid_any_g040_first",
+      "n_3y": 9,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 270.0,
+      "n_1y": 5,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "GOOD_T30_BUY_p0_late_mid_any_g040_raw",
+      "n_3y": 9,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 270.0,
+      "n_1y": 3,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    }
+  ],
+  "beat_held_n": [
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p0_am1130_any_nogap_first",
+      "n_3y": 61,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p52_am1130_any_nogap_first",
+      "n_3y": 61,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T35_BOTH_p55_am1130_htf_nogap_first",
+      "n_3y": 59,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2420.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T40_BOTH_p55_am1130_htf_nogap_first",
+      "n_3y": 59,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2470.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BOTH_p0_pm_htf_gdn_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2250.0,
+      "n_1y": 34,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2250.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T30_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T35_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2385.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T40_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2430.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_raw",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_bestp",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_raw",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_bestp",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BOTH_p52_pm_htf_gdn_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2230.0,
+      "n_1y": 33,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p0_am1130_htf_nogap_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2230.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p52_am1130_htf_nogap_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2230.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_htf_g040_raw",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_htf_g040_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    }
+  ],
+  "beat_held_both_year": [
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p0_am1130_any_nogap_first",
+      "n_3y": 61,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p52_am1130_any_nogap_first",
+      "n_3y": 61,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T35_BOTH_p55_am1130_htf_nogap_first",
+      "n_3y": 59,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2420.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T40_BOTH_p55_am1130_htf_nogap_first",
+      "n_3y": 59,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2470.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BOTH_p0_pm_htf_gdn_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2250.0,
+      "n_1y": 34,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2250.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T30_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T35_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2385.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T40_BUY_p55_am1130_any_nogap_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2430.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 1,
+      "hit_nov": 100.0
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_raw",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_any_g040_bestp",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_raw",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_first",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p52_late_mid_any_g040_bestp",
+      "n_3y": 58,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2340.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BOTH_p52_pm_htf_gdn_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2230.0,
+      "n_1y": 33,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p0_am1130_htf_nogap_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2230.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_CROWN_T20_BUY_p52_am1130_htf_nogap_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2230.0,
+      "n_1y": 30,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_htf_g040_raw",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    },
+    {
+      "name": "UNION_HELD_u_GOOD_T30_BUY_p0_late_mid_htf_g040_first",
+      "n_3y": 57,
+      "hit_3y": 100.0,
+      "perfect_3y": true,
+      "points_3y": 2310.0,
+      "n_1y": 31,
+      "hit_1y": 100.0,
+      "perfect_1y": true,
+      "n_nov": 0,
+      "hit_nov": null
+    }
+  ],
+  "elapsed_s": 82.9
+}

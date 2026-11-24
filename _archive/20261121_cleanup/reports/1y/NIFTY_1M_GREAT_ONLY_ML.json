@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "start": "2021-01-01",
+    "end": "2025-12-30",
+    "analyze_end": "2023-12-31",
+    "train_end": "2024-06-30",
+    "test_start": "2024-07-01",
+    "n_bars": 461926,
+    "n_recipes": 4,
+    "n_train": 59,
+    "n_test": 10,
+    "train_reasons": {
+      "clock": 685,
+      "not_first": 382,
+      "ok": 59,
+      "no_great_recipe": 112,
+      "noisy": 1
+    },
+    "test_reasons": {
+      "clock": 319,
+      "not_first": 150,
+      "noisy": 3,
+      "ok": 10,
+      "no_great_recipe": 37,
+      "chase": 1
+    },
+    "great_only": true,
+    "research_only": true,
+    "not_live": true
+  },
+  "catalog": {
+    "single": [
+      {
+        "pattern": "marubozu",
+        "side": "BUY",
+        "n": 38,
+        "wins": 24,
+        "hit_pct": 63.16
+      },
+      {
+        "pattern": "bull_run2",
+        "side": "BUY",
+        "n": 63,
+        "wins": 34,
+        "hit_pct": 53.97
+      },
+      {
+        "pattern": "bear_run3",
+        "side": "SELL",
+        "n": 47,
+        "wins": 25,
+        "hit_pct": 53.19
+      },
+      {
+        "pattern": "bear_run2",
+        "side": "SELL",
+        "n": 59,
+        "wins": 31,
+        "hit_pct": 52.54
+      },
+      {
+        "pattern": "bull_run3",
+        "side": "BUY",
+        "n": 40,
+        "wins": 21,
+        "hit_pct": 52.5
+      },
+      {
+        "pattern": "marubozu",
+        "side": "SELL",
+        "n": 38,
+        "wins": 19,
+        "hit_pct": 50.0
+      }
+    ],
+    "great": [
+      {
+        "pattern": "marubozu",
+        "side": "BUY",
+        "clock": "morning",
+        "gap": "soft_up",
+        "rsi": "any_rsi",
+        "or_state": "only_up",
+        "n": 10,
+        "wins": 7,
+        "hit_pct": 70.0
+      },
+      {
+        "pattern": "marubozu",
+        "side": "BUY",
+        "clock": "any_clock",
+        "gap": "any_gap",
+        "rsi": "any_rsi",
+        "or_state": "only_up",
+        "n": 38,
+        "wins": 24,
+        "hit_pct": 63.16
+      },
+      {
+        "pattern": "bear_run3",
+        "side": "SELL",
+        "clock": "morning",
+        "gap": "soft_up",
+        "rsi": "any_rsi",
+        "or_state": "only_dn",
+        "n": 16,
+        "wins": 10,
+        "hit_pct": 62.5
+      },
+      {
+        "pattern": "marubozu",
+        "side": "BUY",
+        "clock": "morning",
+        "gap": "gap_dn",
+        "rsi": "any_rsi",
+        "or_state": "only_up",
+        "n": 8,
+        "wins": 5,
+        "hit_pct": 62.5
+      }
+    ],
+    "strict": [],
+    "n_stats_keys": 126
+  },
+  "heads": {
+    "BUY": {
+      "available": true,
+      "side": "BUY",
+      "flip": false,
+      "n_train": 41,
+      "fit_auc": 0.764,
+      "calib_auc": 0.5,
+      "params": {
+        "max_depth": 2,
+        "max_iter": 80,
+        "min_samples_leaf": 20,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.05
+      },
+      "select_log_loss": 0.8716,
+      "feature_names": [
+        "ret_1",
+        "ret_3",
+        "ret_6",
+        "rsi_14",
+        "body_frac",
+        "upper_frac",
+        "lower_frac",
+        "bar_range_pct",
+        "or_width",
+        "or_ext",
+        "mins_entry",
+        "gap_pct",
+        "session_chg",
+        "vwap_dist",
+        "atr_ratio",
+        "noise_vs_sl",
+        "score_bull",
+        "score_bear",
+        "pat_hit_count",
+        "or_only_align",
+        "first_break",
+        "side"
+      ],
+      "great_only": true,
+      "research_only": true,
+      "not_live": true
+    },
+    "SELL": {
+      "available": false,
+      "reason": "too_few_18"
+    }
+  },
+  "train_agg": {
+    "n": 41,
+    "wins": 25,
+    "hit_pct": 60.98
+  },
+  "test_books": {
+    "ALL_GREAT_DU": {
+      "n": 7,
+      "wins": 5,
+      "hit_pct": 71.43
+    },
+    "P52": {
+      "n": 5,
+      "wins": 3,
+      "hit_pct": 60.0
+    },
+    "P55": {
+      "n": 4,
+      "wins": 2,
+      "hit_pct": 50.0
+    },
+    "P58": {
+      "n": 3,
+      "wins": 1,
+      "hit_pct": 33.33
+    },
+    "P60": {
+      "n": 3,
+      "wins": 1,
+      "hit_pct": 33.33
+    },
+    "P62": {
+      "n": 3,
+      "wins": 1,
+      "hit_pct": 33.33
+    },
+    "BUY_P55": {
+      "n": 4,
+      "wins": 2,
+      "hit_pct": 50.0
+    },
+    "SELL_P55": {
+      "n": 0,
+      "wins": 0,
+      "hit_pct": 0.0
+    },
+    "MULTI_PAT": {
+      "n": 0,
+      "wins": 0,
+      "hit_pct": 0.0
+    },
+    "MULTI_PAT_P55": {
+      "n": 0,
+      "wins": 0,
+      "hit_pct": 0.0
+    }
+  },
+  "test_agg": {
+    "n": 7,
+    "wins": 5,
+    "hit_pct": 71.43
+  }
+}

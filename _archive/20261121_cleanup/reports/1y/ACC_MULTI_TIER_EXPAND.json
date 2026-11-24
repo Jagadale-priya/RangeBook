@@ -1,0 +1,936 @@
+{
+  "keep_held": [
+    "ACC100_MULTI_V1",
+    "ACC100_MULTI_V2",
+    "ACC100_MULTI_V3"
+  ],
+  "v3_baseline": {
+    "n_3y": 122,
+    "hit_3y": 100.0,
+    "perfect_3y": true,
+    "points_3y": 4146.0,
+    "n_5y": 181,
+    "hit_5y": 100.0,
+    "perfect_5y": true,
+    "points_5y": 6154.0,
+    "n_1y": 49,
+    "hit_1y": 100.0
+  },
+  "streams_mined": 468,
+  "perfect_streams": 323,
+  "tiers": {
+    "100": {
+      "desk_tag": "ACC100_MULTI_V4",
+      "baseline": "ACC100_MULTI_V3",
+      "floor": 100.0,
+      "result": {
+        "n_3y": 122,
+        "hit_3y": 100.0,
+        "perfect_3y": true,
+        "points_3y": 4146.0,
+        "n_5y": 181,
+        "hit_5y": 100.0,
+        "perfect_5y": true,
+        "points_5y": 6154.0,
+        "n_1y": 49,
+        "hit_1y": 100.0
+      },
+      "delta_vs_v3_3y": 0,
+      "added_streams": [
+        {
+          "tag": "GD40_SELL_p55_am1230_any_g055_raw",
+          "new_n": 3,
+          "desk_n": 241,
+          "desk_n_3y": 122,
+          "desk_hit_3y": 100.0,
+          "stream_n": 13
+        },
+        {
+          "tag": "CH_BUY_p70_all_any_nogap_raw",
+          "new_n": 3,
+          "desk_n": 244,
+          "desk_n_3y": 122,
+          "desk_hit_3y": 100.0,
+          "stream_n": 16
+        }
+      ],
+      "recipes": [
+        {
+          "tag": "ACC_WIDE_GD40_SELL_p55_am1230_any_g055_raw",
+          "source_tag": "GD40_SELL_p55_am1230_any_g055_raw",
+          "channel": "good",
+          "risk": 40.0,
+          "side": "SELL",
+          "p_min": 0.55,
+          "hm_lo": 555,
+          "hm_hi": 750,
+          "htf": false,
+          "pick": "raw",
+          "gap_abs": 0.55
+        },
+        {
+          "tag": "ACC_WIDE_CH_BUY_p70_all_any_nogap_raw",
+          "source_tag": "CH_BUY_p70_all_any_nogap_raw",
+          "channel": "champ",
+          "risk": null,
+          "side": "BUY",
+          "p_min": 0.7,
+          "hm_lo": null,
+          "hm_hi": null,
+          "htf": false,
+          "pick": "raw"
+        }
+      ]
+    },
+    "98": {
+      "desk_tag": "ACC_WIDE_P98",
+      "baseline": "ACC100_MULTI_V4",
+      "floor": 98.0,
+      "result": {
+        "n_3y": 122,
+        "hit_3y": 100.0,
+        "perfect_3y": true,
+        "points_3y": 4146.0,
+        "n_5y": 181,
+        "hit_5y": 100.0,
+        "perfect_5y": true,
+        "points_5y": 6154.0,
+        "n_1y": 49,
+        "hit_1y": 100.0
+      },
+      "delta_vs_v3_3y": 0,
+      "added_streams": [],
+      "recipes": [],
+      "streams_eligible": 166
+    },
+    "95": {
+      "desk_tag": "ACC_WIDE_P95",
+      "baseline": "ACC_WIDE_P98",
+      "floor": 95.0,
+      "result": {
+        "n_3y": 123,
+        "hit_3y": 100.0,
+        "perfect_3y": true,
+        "points_3y": 4186.0,
+        "n_5y": 182,
+        "hit_5y": 100.0,
+        "perfect_5y": true,
+        "points_5y": 6194.0,
+        "n_1y": 50,
+        "hit_1y": 100.0
+      },
+      "delta_vs_v3_3y": 1,
+      "added_streams": [
+        {
+          "tag": "GD40_SELL_p55_am1230_any_g040_raw",
+          "new_n": 3,
+          "desk_n": 247,
+          "desk_n_3y": 122,
+          "desk_hit_3y": 100.0,
+          "stream_n": 27
+        },
+        {
+          "tag": "GD40_BOTH_p56_mid_any_nogap_raw",
+          "new_n": 2,
+          "desk_n": 249,
+          "desk_n_3y": 123,
+          "desk_hit_3y": 100.0,
+          "stream_n": 20
+        }
+      ],
+      "recipes": [
+        {
+          "tag": "ACC_WIDE_GD40_SELL_p55_am1230_any_g040_raw",
+          "source_tag": "GD40_SELL_p55_am1230_any_g040_raw",
+          "channel": "good",
+          "risk": 40.0,
+          "side": "SELL",
+          "p_min": 0.55,
+          "hm_lo": 555,
+          "hm_hi": 750,
+          "htf": false,
+          "pick": "raw",
+          "gap_abs": 0.4
+        },
+        {
+          "tag": "ACC_WIDE_GD40_BOTH_p56_mid_any_nogap_raw",
+          "source_tag": "GD40_BOTH_p56_mid_any_nogap_raw",
+          "channel": "good",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.56,
+          "hm_lo": 600,
+          "hm_hi": 780,
+          "htf": false,
+          "pick": "raw"
+        }
+      ],
+      "streams_eligible": 178
+    },
+    "92": {
+      "desk_tag": "ACC_WIDE_P92",
+      "baseline": "ACC_WIDE_P95",
+      "floor": 92.0,
+      "result": {
+        "n_3y": 131,
+        "hit_3y": 99.2366,
+        "perfect_3y": false,
+        "points_3y": 4411.0,
+        "n_5y": 199,
+        "hit_5y": 97.4874,
+        "perfect_5y": false,
+        "points_5y": 6469.0,
+        "n_1y": 52,
+        "hit_1y": 100.0
+      },
+      "delta_vs_v3_3y": 9,
+      "added_streams": [
+        {
+          "tag": "GD40_BOTH_p0_mid_any_gup040_first",
+          "new_n": 41,
+          "desk_n": 290,
+          "desk_n_3y": 128,
+          "desk_hit_3y": 99.2188,
+          "stream_n": 76
+        },
+        {
+          "tag": "GD40_BOTH_p55_mid_any_gdn055_raw",
+          "new_n": 3,
+          "desk_n": 293,
+          "desk_n_3y": 128,
+          "desk_hit_3y": 99.2188,
+          "stream_n": 19
+        },
+        {
+          "tag": "CR35_SELL_p55_mid_htf_g035_raw",
+          "new_n": 3,
+          "desk_n": 296,
+          "desk_n_3y": 131,
+          "desk_hit_3y": 99.2366,
+          "stream_n": 14
+        },
+        {
+          "tag": "GD30_SELL_p56_open_any_nogap_raw",
+          "new_n": 1,
+          "desk_n": 297,
+          "desk_n_3y": 131,
+          "desk_hit_3y": 99.2366,
+          "stream_n": 22
+        }
+      ],
+      "recipes": [
+        {
+          "tag": "ACC_WIDE_GD40_BOTH_p0_mid_any_gup040_first",
+          "source_tag": "GD40_BOTH_p0_mid_any_gup040_first",
+          "channel": "good",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.0,
+          "hm_lo": 600,
+          "hm_hi": 780,
+          "htf": false,
+          "pick": "first",
+          "gap_up": 0.4
+        },
+        {
+          "tag": "ACC_WIDE_GD40_BOTH_p55_mid_any_gdn055_raw",
+          "source_tag": "GD40_BOTH_p55_mid_any_gdn055_raw",
+          "channel": "good",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.55,
+          "hm_lo": 600,
+          "hm_hi": 780,
+          "htf": false,
+          "pick": "raw",
+          "gap_dn": 0.55
+        },
+        {
+          "tag": "ACC_WIDE_CR35_SELL_p55_mid_htf_g035_raw",
+          "source_tag": "CR35_SELL_p55_mid_htf_g035_raw",
+          "channel": "crown",
+          "risk": 35.0,
+          "side": "SELL",
+          "p_min": 0.55,
+          "hm_lo": 600,
+          "hm_hi": 780,
+          "htf": true,
+          "pick": "raw",
+          "gap_abs": 0.35
+        },
+        {
+          "tag": "ACC_WIDE_GD30_SELL_p56_open_any_nogap_raw",
+          "source_tag": "GD30_SELL_p56_open_any_nogap_raw",
+          "channel": "good",
+          "risk": 30.0,
+          "side": "SELL",
+          "p_min": 0.56,
+          "hm_lo": 555,
+          "hm_hi": 630,
+          "htf": false,
+          "pick": "raw"
+        }
+      ],
+      "streams_eligible": 221
+    },
+    "90": {
+      "desk_tag": "ACC_WIDE_P90",
+      "baseline": "ACC_WIDE_P92",
+      "floor": 90.0,
+      "result": {
+        "n_3y": 174,
+        "hit_3y": 95.4023,
+        "perfect_3y": false,
+        "points_3y": 5661.0,
+        "n_5y": 259,
+        "hit_5y": 94.9807,
+        "perfect_5y": false,
+        "points_5y": 8279.0,
+        "n_1y": 65,
+        "hit_1y": 100.0
+      },
+      "delta_vs_v3_3y": 52,
+      "added_streams": [
+        {
+          "tag": "CH_BUY_p0_am1130_any_nogap_raw",
+          "new_n": 97,
+          "desk_n": 394,
+          "desk_n_3y": 165,
+          "desk_hit_3y": 96.9697,
+          "stream_n": 123
+        },
+        {
+          "tag": "GD40_BUY_p0_latemid_any_g035_raw",
+          "new_n": 10,
+          "desk_n": 404,
+          "desk_n_3y": 168,
+          "desk_hit_3y": 96.4286,
+          "stream_n": 46
+        },
+        {
+          "tag": "CR30_BUY_p0_mid_any_gdn040_first",
+          "new_n": 3,
+          "desk_n": 407,
+          "desk_n_3y": 171,
+          "desk_hit_3y": 96.4912,
+          "stream_n": 10
+        },
+        {
+          "tag": "CR40_BOTH_p56_am1130_any_nogap_first",
+          "new_n": 2,
+          "desk_n": 409,
+          "desk_n_3y": 173,
+          "desk_hit_3y": 95.9538,
+          "stream_n": 12
+        },
+        {
+          "tag": "CR20_BOTH_p0_pm_any_gdn055_first",
+          "new_n": 1,
+          "desk_n": 410,
+          "desk_n_3y": 174,
+          "desk_hit_3y": 95.4023,
+          "stream_n": 12
+        }
+      ],
+      "recipes": [
+        {
+          "tag": "ACC_WIDE_CH_BUY_p0_am1130_any_nogap_raw",
+          "source_tag": "CH_BUY_p0_am1130_any_nogap_raw",
+          "channel": "champ",
+          "risk": null,
+          "side": "BUY",
+          "p_min": 0.0,
+          "hm_lo": 555,
+          "hm_hi": 690,
+          "htf": false,
+          "pick": "raw"
+        },
+        {
+          "tag": "ACC_WIDE_GD40_BUY_p0_latemid_any_g035_raw",
+          "source_tag": "GD40_BUY_p0_latemid_any_g035_raw",
+          "channel": "good",
+          "risk": 40.0,
+          "side": "BUY",
+          "p_min": 0.0,
+          "hm_lo": 630,
+          "hm_hi": 840,
+          "htf": false,
+          "pick": "raw",
+          "gap_abs": 0.35
+        },
+        {
+          "tag": "ACC_WIDE_CR30_BUY_p0_mid_any_gdn040_first",
+          "source_tag": "CR30_BUY_p0_mid_any_gdn040_first",
+          "channel": "crown",
+          "risk": 30.0,
+          "side": "BUY",
+          "p_min": 0.0,
+          "hm_lo": 600,
+          "hm_hi": 780,
+          "htf": false,
+          "pick": "first",
+          "gap_dn": 0.4
+        },
+        {
+          "tag": "ACC_WIDE_CR40_BOTH_p56_am1130_any_nogap_first",
+          "source_tag": "CR40_BOTH_p56_am1130_any_nogap_first",
+          "channel": "crown",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.56,
+          "hm_lo": 555,
+          "hm_hi": 690,
+          "htf": false,
+          "pick": "first"
+        },
+        {
+          "tag": "ACC_WIDE_CR20_BOTH_p0_pm_any_gdn055_first",
+          "source_tag": "CR20_BOTH_p0_pm_any_gdn055_first",
+          "channel": "crown",
+          "risk": 20.0,
+          "side": null,
+          "p_min": 0.0,
+          "hm_lo": 750,
+          "hm_hi": 915,
+          "htf": false,
+          "pick": "first",
+          "gap_dn": 0.55
+        }
+      ],
+      "streams_eligible": 259
+    },
+    "85": {
+      "desk_tag": "ACC_WIDE_P85",
+      "baseline": "ACC_WIDE_P90",
+      "floor": 85.0,
+      "result": {
+        "n_3y": 224,
+        "hit_3y": 89.2857,
+        "perfect_3y": false,
+        "points_3y": 6273.0,
+        "n_5y": 327,
+        "hit_5y": 89.6024,
+        "perfect_5y": false,
+        "points_5y": 9214.0,
+        "n_1y": 86,
+        "hit_1y": 94.186
+      },
+      "delta_vs_v3_3y": 102,
+      "added_streams": [
+        {
+          "tag": "CH_BOTH_p65_am1130_any_nogap_raw",
+          "new_n": 61,
+          "desk_n": 471,
+          "desk_n_3y": 192,
+          "desk_hit_3y": 93.2292,
+          "stream_n": 220
+        },
+        {
+          "tag": "GD30_BUY_p0_latemid_any_nogap_raw",
+          "new_n": 22,
+          "desk_n": 492,
+          "desk_n_3y": 204,
+          "desk_hit_3y": 92.6471,
+          "stream_n": 88
+        },
+        {
+          "tag": "GD40_BOTH_p55_mid_any_nogap_first",
+          "new_n": 17,
+          "desk_n": 509,
+          "desk_n_3y": 211,
+          "desk_hit_3y": 90.9953,
+          "stream_n": 76
+        },
+        {
+          "tag": "CH_BUY_p0_am1230_any_nogap_raw",
+          "new_n": 10,
+          "desk_n": 519,
+          "desk_n_3y": 215,
+          "desk_hit_3y": 90.6977,
+          "stream_n": 139
+        },
+        {
+          "tag": "CR40_BOTH_p55_am1130_any_nogap_first",
+          "new_n": 2,
+          "desk_n": 521,
+          "desk_n_3y": 217,
+          "desk_hit_3y": 90.3226,
+          "stream_n": 19
+        },
+        {
+          "tag": "CH_BOTH_p85_am1230_any_g035_raw",
+          "new_n": 2,
+          "desk_n": 523,
+          "desk_n_3y": 218,
+          "desk_hit_3y": 90.367,
+          "stream_n": 22
+        },
+        {
+          "tag": "CR40_SELL_p0_mid_htf_g035_first",
+          "new_n": 2,
+          "desk_n": 525,
+          "desk_n_3y": 220,
+          "desk_hit_3y": 90.4545,
+          "stream_n": 20
+        },
+        {
+          "tag": "CF_T45_any15_d5",
+          "new_n": 1,
+          "desk_n": 526,
+          "desk_n_3y": 221,
+          "desk_hit_3y": 90.0452,
+          "stream_n": 33
+        },
+        {
+          "tag": "CR35_SELL_p56_pm_htf_g040_bestp",
+          "new_n": 1,
+          "desk_n": 527,
+          "desk_n_3y": 222,
+          "desk_hit_3y": 90.0901,
+          "stream_n": 8
+        },
+        {
+          "tag": "CR40_BOTH_p0_am11_any_nogap_raw",
+          "new_n": 1,
+          "desk_n": 528,
+          "desk_n_3y": 223,
+          "desk_hit_3y": 89.6861,
+          "stream_n": 15
+        },
+        {
+          "tag": "CR30_BOTH_p0_latemid_any_gdn040_first",
+          "new_n": 1,
+          "desk_n": 529,
+          "desk_n_3y": 224,
+          "desk_hit_3y": 89.2857,
+          "stream_n": 20
+        }
+      ],
+      "recipes": [
+        {
+          "tag": "ACC_WIDE_CH_BOTH_p65_am1130_any_nogap_raw",
+          "source_tag": "CH_BOTH_p65_am1130_any_nogap_raw",
+          "channel": "champ",
+          "risk": null,
+          "side": null,
+          "p_min": 0.65,
+          "hm_lo": 555,
+          "hm_hi": 690,
+          "htf": false,
+          "pick": "raw"
+        },
+        {
+          "tag": "ACC_WIDE_GD30_BUY_p0_latemid_any_nogap_raw",
+          "source_tag": "GD30_BUY_p0_latemid_any_nogap_raw",
+          "channel": "good",
+          "risk": 30.0,
+          "side": "BUY",
+          "p_min": 0.0,
+          "hm_lo": 630,
+          "hm_hi": 840,
+          "htf": false,
+          "pick": "raw"
+        },
+        {
+          "tag": "ACC_WIDE_GD40_BOTH_p55_mid_any_nogap_first",
+          "source_tag": "GD40_BOTH_p55_mid_any_nogap_first",
+          "channel": "good",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.55,
+          "hm_lo": 600,
+          "hm_hi": 780,
+          "htf": false,
+          "pick": "first"
+        },
+        {
+          "tag": "ACC_WIDE_CH_BUY_p0_am1230_any_nogap_raw",
+          "source_tag": "CH_BUY_p0_am1230_any_nogap_raw",
+          "channel": "champ",
+          "risk": null,
+          "side": "BUY",
+          "p_min": 0.0,
+          "hm_lo": 555,
+          "hm_hi": 750,
+          "htf": false,
+          "pick": "raw"
+        },
+        {
+          "tag": "ACC_WIDE_CR40_BOTH_p55_am1130_any_nogap_first",
+          "source_tag": "CR40_BOTH_p55_am1130_any_nogap_first",
+          "channel": "crown",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.55,
+          "hm_lo": 555,
+          "hm_hi": 690,
+          "htf": false,
+          "pick": "first"
+        },
+        {
+          "tag": "ACC_WIDE_CH_BOTH_p85_am1230_any_g035_raw",
+          "source_tag": "CH_BOTH_p85_am1230_any_g035_raw",
+          "channel": "champ",
+          "risk": null,
+          "side": null,
+          "p_min": 0.85,
+          "hm_lo": 555,
+          "hm_hi": 750,
+          "htf": false,
+          "pick": "raw",
+          "gap_abs": 0.35
+        },
+        {
+          "tag": "ACC_WIDE_CR40_SELL_p0_mid_htf_g035_first",
+          "source_tag": "CR40_SELL_p0_mid_htf_g035_first",
+          "channel": "crown",
+          "risk": 40.0,
+          "side": "SELL",
+          "p_min": 0.0,
+          "hm_lo": 600,
+          "hm_hi": 780,
+          "htf": true,
+          "pick": "first",
+          "gap_abs": 0.35
+        },
+        {
+          "tag": "ACC_WIDE_CR35_SELL_p56_pm_htf_g040_bestp",
+          "source_tag": "CR35_SELL_p56_pm_htf_g040_bestp",
+          "channel": "crown",
+          "risk": 35.0,
+          "side": "SELL",
+          "p_min": 0.56,
+          "hm_lo": 750,
+          "hm_hi": 915,
+          "htf": true,
+          "pick": "bestp",
+          "gap_abs": 0.4
+        },
+        {
+          "tag": "ACC_WIDE_CR40_BOTH_p0_am11_any_nogap_raw",
+          "source_tag": "CR40_BOTH_p0_am11_any_nogap_raw",
+          "channel": "crown",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.0,
+          "hm_lo": 555,
+          "hm_hi": 660,
+          "htf": false,
+          "pick": "raw"
+        },
+        {
+          "tag": "ACC_WIDE_CR30_BOTH_p0_latemid_any_gdn040_first",
+          "source_tag": "CR30_BOTH_p0_latemid_any_gdn040_first",
+          "channel": "crown",
+          "risk": 30.0,
+          "side": null,
+          "p_min": 0.0,
+          "hm_lo": 630,
+          "hm_hi": 840,
+          "htf": false,
+          "pick": "first",
+          "gap_dn": 0.4
+        }
+      ],
+      "streams_eligible": 413
+    },
+    "85_direct": {
+      "desk_tag": "ACC_WIDE_P85_DIRECT",
+      "baseline": "ACC100_MULTI_V3",
+      "floor": 85.0,
+      "result": {
+        "n_3y": 224,
+        "hit_3y": 89.2857,
+        "perfect_3y": false,
+        "points_3y": 6268.0,
+        "n_5y": 327,
+        "hit_5y": 89.6024,
+        "perfect_5y": false,
+        "points_5y": 9246.0,
+        "n_1y": 86,
+        "hit_1y": 94.186
+      },
+      "delta_vs_v3_3y": 102,
+      "added_streams": [
+        {
+          "tag": "CH_BOTH_p65_am1130_any_nogap_raw",
+          "new_n": 168,
+          "desk_n": 405,
+          "desk_n_3y": 175,
+          "desk_hit_3y": 94.2857,
+          "stream_n": 220
+        },
+        {
+          "tag": "GD40_BOTH_p0_mid_any_gup040_raw",
+          "new_n": 38,
+          "desk_n": 441,
+          "desk_n_3y": 179,
+          "desk_hit_3y": 94.4134,
+          "stream_n": 81
+        },
+        {
+          "tag": "GD30_BUY_p0_latemid_any_nogap_raw",
+          "new_n": 35,
+          "desk_n": 475,
+          "desk_n_3y": 194,
+          "desk_hit_3y": 93.299,
+          "stream_n": 88
+        },
+        {
+          "tag": "GD40_BOTH_p55_mid_any_nogap_first",
+          "new_n": 22,
+          "desk_n": 497,
+          "desk_n_3y": 202,
+          "desk_hit_3y": 91.5842,
+          "stream_n": 76
+        },
+        {
+          "tag": "CH_BUY_p0_am1230_any_nogap_raw",
+          "new_n": 10,
+          "desk_n": 507,
+          "desk_n_3y": 206,
+          "desk_hit_3y": 91.2621,
+          "stream_n": 139
+        },
+        {
+          "tag": "CR40_SELL_p0_mid_htf_g035_first",
+          "new_n": 5,
+          "desk_n": 512,
+          "desk_n_3y": 211,
+          "desk_hit_3y": 91.4692,
+          "stream_n": 20
+        },
+        {
+          "tag": "CR40_BOTH_p55_am1130_any_nogap_first",
+          "new_n": 4,
+          "desk_n": 516,
+          "desk_n_3y": 215,
+          "desk_hit_3y": 90.6977,
+          "stream_n": 19
+        },
+        {
+          "tag": "CR30_BOTH_p0_latemid_any_gdn040_first",
+          "new_n": 4,
+          "desk_n": 520,
+          "desk_n_3y": 219,
+          "desk_hit_3y": 90.411,
+          "stream_n": 20
+        },
+        {
+          "tag": "CH_BUY_p70_all_any_nogap_raw",
+          "new_n": 3,
+          "desk_n": 523,
+          "desk_n_3y": 219,
+          "desk_hit_3y": 90.411,
+          "stream_n": 16
+        },
+        {
+          "tag": "CH_BOTH_p85_am1230_any_g035_raw",
+          "new_n": 2,
+          "desk_n": 525,
+          "desk_n_3y": 220,
+          "desk_hit_3y": 90.4545,
+          "stream_n": 22
+        },
+        {
+          "tag": "CR20_BOTH_p0_pm_any_gdn055_first",
+          "new_n": 1,
+          "desk_n": 526,
+          "desk_n_3y": 221,
+          "desk_hit_3y": 90.0452,
+          "stream_n": 12
+        },
+        {
+          "tag": "CF_T45_any15_d5",
+          "new_n": 1,
+          "desk_n": 527,
+          "desk_n_3y": 222,
+          "desk_hit_3y": 89.6396,
+          "stream_n": 33
+        },
+        {
+          "tag": "CR35_SELL_p56_pm_htf_g040_bestp",
+          "new_n": 1,
+          "desk_n": 528,
+          "desk_n_3y": 223,
+          "desk_hit_3y": 89.6861,
+          "stream_n": 8
+        },
+        {
+          "tag": "CR40_BOTH_p0_am11_any_nogap_raw",
+          "new_n": 1,
+          "desk_n": 529,
+          "desk_n_3y": 224,
+          "desk_hit_3y": 89.2857,
+          "stream_n": 15
+        }
+      ],
+      "recipes": [
+        {
+          "tag": "ACC_WIDE_CH_BOTH_p65_am1130_any_nogap_raw",
+          "source_tag": "CH_BOTH_p65_am1130_any_nogap_raw",
+          "channel": "champ",
+          "risk": null,
+          "side": null,
+          "p_min": 0.65,
+          "hm_lo": 555,
+          "hm_hi": 690,
+          "htf": false,
+          "pick": "raw"
+        },
+        {
+          "tag": "ACC_WIDE_GD40_BOTH_p0_mid_any_gup040_raw",
+          "source_tag": "GD40_BOTH_p0_mid_any_gup040_raw",
+          "channel": "good",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.0,
+          "hm_lo": 600,
+          "hm_hi": 780,
+          "htf": false,
+          "pick": "raw",
+          "gap_up": 0.4
+        },
+        {
+          "tag": "ACC_WIDE_GD30_BUY_p0_latemid_any_nogap_raw",
+          "source_tag": "GD30_BUY_p0_latemid_any_nogap_raw",
+          "channel": "good",
+          "risk": 30.0,
+          "side": "BUY",
+          "p_min": 0.0,
+          "hm_lo": 630,
+          "hm_hi": 840,
+          "htf": false,
+          "pick": "raw"
+        },
+        {
+          "tag": "ACC_WIDE_GD40_BOTH_p55_mid_any_nogap_first",
+          "source_tag": "GD40_BOTH_p55_mid_any_nogap_first",
+          "channel": "good",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.55,
+          "hm_lo": 600,
+          "hm_hi": 780,
+          "htf": false,
+          "pick": "first"
+        },
+        {
+          "tag": "ACC_WIDE_CH_BUY_p0_am1230_any_nogap_raw",
+          "source_tag": "CH_BUY_p0_am1230_any_nogap_raw",
+          "channel": "champ",
+          "risk": null,
+          "side": "BUY",
+          "p_min": 0.0,
+          "hm_lo": 555,
+          "hm_hi": 750,
+          "htf": false,
+          "pick": "raw"
+        },
+        {
+          "tag": "ACC_WIDE_CR40_SELL_p0_mid_htf_g035_first",
+          "source_tag": "CR40_SELL_p0_mid_htf_g035_first",
+          "channel": "crown",
+          "risk": 40.0,
+          "side": "SELL",
+          "p_min": 0.0,
+          "hm_lo": 600,
+          "hm_hi": 780,
+          "htf": true,
+          "pick": "first",
+          "gap_abs": 0.35
+        },
+        {
+          "tag": "ACC_WIDE_CR40_BOTH_p55_am1130_any_nogap_first",
+          "source_tag": "CR40_BOTH_p55_am1130_any_nogap_first",
+          "channel": "crown",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.55,
+          "hm_lo": 555,
+          "hm_hi": 690,
+          "htf": false,
+          "pick": "first"
+        },
+        {
+          "tag": "ACC_WIDE_CR30_BOTH_p0_latemid_any_gdn040_first",
+          "source_tag": "CR30_BOTH_p0_latemid_any_gdn040_first",
+          "channel": "crown",
+          "risk": 30.0,
+          "side": null,
+          "p_min": 0.0,
+          "hm_lo": 630,
+          "hm_hi": 840,
+          "htf": false,
+          "pick": "first",
+          "gap_dn": 0.4
+        },
+        {
+          "tag": "ACC_WIDE_CH_BUY_p70_all_any_nogap_raw",
+          "source_tag": "CH_BUY_p70_all_any_nogap_raw",
+          "channel": "champ",
+          "risk": null,
+          "side": "BUY",
+          "p_min": 0.7,
+          "hm_lo": null,
+          "hm_hi": null,
+          "htf": false,
+          "pick": "raw"
+        },
+        {
+          "tag": "ACC_WIDE_CH_BOTH_p85_am1230_any_g035_raw",
+          "source_tag": "CH_BOTH_p85_am1230_any_g035_raw",
+          "channel": "champ",
+          "risk": null,
+          "side": null,
+          "p_min": 0.85,
+          "hm_lo": 555,
+          "hm_hi": 750,
+          "htf": false,
+          "pick": "raw",
+          "gap_abs": 0.35
+        },
+        {
+          "tag": "ACC_WIDE_CR20_BOTH_p0_pm_any_gdn055_first",
+          "source_tag": "CR20_BOTH_p0_pm_any_gdn055_first",
+          "channel": "crown",
+          "risk": 20.0,
+          "side": null,
+          "p_min": 0.0,
+          "hm_lo": 750,
+          "hm_hi": 915,
+          "htf": false,
+          "pick": "first",
+          "gap_dn": 0.55
+        },
+        {
+          "tag": "ACC_WIDE_CR35_SELL_p56_pm_htf_g040_bestp",
+          "source_tag": "CR35_SELL_p56_pm_htf_g040_bestp",
+          "channel": "crown",
+          "risk": 35.0,
+          "side": "SELL",
+          "p_min": 0.56,
+          "hm_lo": 750,
+          "hm_hi": 915,
+          "htf": true,
+          "pick": "bestp",
+          "gap_abs": 0.4
+        },
+        {
+          "tag": "ACC_WIDE_CR40_BOTH_p0_am11_any_nogap_raw",
+          "source_tag": "CR40_BOTH_p0_am11_any_nogap_raw",
+          "channel": "crown",
+          "risk": 40.0,
+          "side": null,
+          "p_min": 0.0,
+          "hm_lo": 555,
+          "hm_hi": 660,
+          "htf": false,
+          "pick": "raw"
+        }
+      ]
+    }
+  },
+  "elapsed_s": 9.8,
+  "note": "HOLDING \u2014 filter later; not live"
+}

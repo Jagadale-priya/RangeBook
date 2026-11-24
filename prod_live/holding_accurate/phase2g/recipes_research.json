@@ -1,0 +1,567 @@
+{
+  "status": "RESEARCH",
+  "phase": "2g",
+  "dual_model": "10m_train",
+  "not_live": true,
+  "window_1y": {
+    "start": "2025-11-15",
+    "end": "2026-11-15"
+  },
+  "candidates": {
+    "ACC100_MULTI_V5": {
+      "base_desk": "ACC100_MULTI_V5",
+      "mode": "day",
+      "candidate_tag": "ACC100_MULTI_V12_P2G_10M",
+      "hard_gate": 100.0,
+      "dual_model": "10m_train",
+      "stream_tags_research": [
+        "G_D10_SELL_p50_first45_any_nogap_raw",
+        "G_D10_BOTH_p55_all_any_gup025_raw",
+        "G_GD40_BOTH_p55_mid_any_g020_raw",
+        "G_GD40_SELL_p0_mid_any_gup040_raw",
+        "G_CR20_BUY_p0_mid_any_g055_mid",
+        "G_GD40_BOTH_p0_pm_any_g020_raw",
+        "G_GD30_BUY_p0_latemid_any_gup025_raw",
+        "G_CR20_SELL_p55_mid_htf_g040_mid",
+        "G_CH_BUY_p0_latemid_any_gup025_raw",
+        "G_CR20_SELL_p0_mid_any_gdn040_mid",
+        "G_D10_BOTH_p58_pm_any_nogap_raw",
+        "G_CR20_BUY_p52_latemid_any_gup040_first"
+      ],
+      "research_1y": {
+        "n": 61,
+        "hit_pct": 100.0
+      },
+      "research_3y": {
+        "n": 164,
+        "hit_pct": 100.0
+      },
+      "held_3y_ok": true,
+      "research_5y": {
+        "n": 256,
+        "hit_pct": 98.05
+      },
+      "research_extra_2y": {
+        "n": 91,
+        "hit_pct": 94.51,
+        "window": {
+          "start": "2021-11-16",
+          "end": "2023-11-15"
+        }
+      },
+      "held_5y_ok": false,
+      "accuracy_tag": "ACC_RANGE_94_100",
+      "accuracy_range_tag": "ACC_RANGE_94_100",
+      "accuracy_lo": 94.51,
+      "accuracy_hi": 100.0,
+      "accuracy_band": "B_HIGH_90",
+      "floor_tag": "ACC_FLOOR_100",
+      "tags": [
+        "ACC100_MULTI_V12_P2G_10M",
+        "ACC_RANGE_94_100",
+        "ACC_BAND_B_HIGH_90",
+        "ACC_FLOOR_100",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 94.51\u2013100.00% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      }
+    },
+    "ACC_WIDE_P92": {
+      "base_desk": "ACC_WIDE_P92",
+      "mode": "day",
+      "candidate_tag": "ACC_WIDE_P92_P2G_10M",
+      "hard_gate": 99.24,
+      "dual_model": "10m_train",
+      "stream_tags_research": [
+        "G_GD40_BOTH_p55_mid_any_g020_raw",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_GD30_BUY_p0_latemid_any_gup025_raw",
+        "G_CR20_SELL_p0_pm_htf_gdn040_first",
+        "G_D10_BOTH_p55_all_any_gup025_raw",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_CH_BUY_p70_am1130_any_nogap_raw",
+        "G_D10_SELL_p50_first45_any_nogap_raw",
+        "G_GD40_SELL_p0_mid_any_gup040_raw",
+        "G_CH_BUY_p0_latemid_any_gup025_raw",
+        "G_CR20_BUY_p0_mid_any_g055_mid",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_GD30_BOTH_p58_am1130_any_nogap_raw",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_GD30_BUY_p0_latemid_any_g040_raw",
+        "G_CR20_BUY_p52_latemid_any_gup040_first",
+        "G_GD40_SELL_p55_am1230_any_g030_raw",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_CR20_SELL_p55_mid_htf_g040_mid",
+        "G_CR30_BOTH_p58_am1130_htf_nogap_first",
+        "G_GD40_BUY_p55_mid_any_nogap_raw",
+        "G_CR20_SELL_p0_mid_any_gdn040_mid",
+        "G_CR30_BOTH_p55_am1130_any_g030_first",
+        "G_CR30_BUY_p58_mid_any_gdn025_first",
+        "G_GD40_BOTH_p0_pm_any_g020_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw"
+      ],
+      "research_1y": {
+        "n": 35,
+        "hit_pct": 100.0
+      },
+      "research_3y": {
+        "n": 108,
+        "hit_pct": 100.0
+      },
+      "held_3y_ok": true,
+      "research_5y": {
+        "n": 174,
+        "hit_pct": 92.53
+      },
+      "research_extra_2y": {
+        "n": 65,
+        "hit_pct": 83.08,
+        "window": {
+          "start": "2021-11-16",
+          "end": "2023-11-15"
+        }
+      },
+      "held_5y_ok": false,
+      "accuracy_tag": "ACC_RANGE_83_100",
+      "accuracy_range_tag": "ACC_RANGE_83_100",
+      "accuracy_lo": 83.08,
+      "accuracy_hi": 100.0,
+      "accuracy_band": "D_VOL_80",
+      "floor_tag": "ACC_FLOOR_99p24",
+      "tags": [
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_RANGE_83_100",
+        "ACC_BAND_D_VOL_80",
+        "ACC_FLOOR_99p24",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 83.08\u2013100.00% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      }
+    },
+    "ACC_WIDE_P90": {
+      "base_desk": "ACC_WIDE_P90",
+      "mode": "day",
+      "candidate_tag": "ACC_WIDE_P90_P2G_10M",
+      "hard_gate": 95.4,
+      "dual_model": "10m_train",
+      "stream_tags_research": [
+        "G_GD40_BOTH_p55_mid_any_g020_raw",
+        "G_GD40_BOTH_p0_latemid_htf_gup025_bestp",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_CR20_SELL_p0_pm_htf_gdn040_first",
+        "G_D10_BOTH_p55_all_any_gup025_raw",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_CH_BUY_p70_am1130_any_nogap_raw",
+        "G_D10_SELL_p50_first45_any_nogap_raw",
+        "G_CH_BUY_p0_latemid_any_gup025_raw",
+        "G_CR20_BUY_p0_mid_any_g055_mid",
+        "G_GD40_SELL_p55_am1230_any_g020_raw",
+        "G_GD40_SELL_p0_mid_any_gup040_raw",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_CR20_BUY_p52_latemid_any_gup040_first",
+        "G_GD30_BUY_p0_latemid_any_g040_raw",
+        "G_GD30_BOTH_p58_am1130_any_nogap_raw",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_CR20_SELL_p55_mid_htf_g040_mid",
+        "G_CR30_BOTH_p58_am1130_htf_nogap_first",
+        "G_GD40_BUY_p55_mid_any_nogap_raw",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_CR20_SELL_p0_mid_any_gdn040_mid",
+        "G_CR30_BOTH_p55_am1130_any_g030_first",
+        "G_CR30_BUY_p58_mid_any_gdn025_first",
+        "G_GD40_BOTH_p0_pm_any_g020_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw"
+      ],
+      "research_1y": {
+        "n": 40,
+        "hit_pct": 97.5
+      },
+      "research_3y": {
+        "n": 118,
+        "hit_pct": 98.31
+      },
+      "held_3y_ok": true,
+      "research_5y": {
+        "n": 320,
+        "hit_pct": 94.69
+      },
+      "research_extra_2y": {
+        "n": 113,
+        "hit_pct": 92.92,
+        "window": {
+          "start": "2021-11-16",
+          "end": "2023-11-15"
+        }
+      },
+      "held_5y_ok": false,
+      "accuracy_tag": "ACC_RANGE_92_100",
+      "accuracy_range_tag": "ACC_RANGE_92_100",
+      "accuracy_lo": 92.92,
+      "accuracy_hi": 100.0,
+      "accuracy_band": "B_HIGH_90",
+      "floor_tag": "ACC_FLOOR_95p4",
+      "tags": [
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_RANGE_92_100",
+        "ACC_BAND_B_HIGH_90",
+        "ACC_FLOOR_95p4",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 92.92\u2013100.00% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      }
+    },
+    "ACC_WIDE_P85": {
+      "base_desk": "ACC_WIDE_P85",
+      "mode": "day",
+      "candidate_tag": "ACC_WIDE_P85_P2G_10M",
+      "hard_gate": 89.69,
+      "dual_model": "10m_train",
+      "stream_tags_research": [
+        "G_CH_BUY_p0_am1130_any_nogap_raw",
+        "G_GD40_BOTH_p0_mid_any_gup025_bestp",
+        "G_GD40_BOTH_p55_mid_any_g020_raw",
+        "G_CR30_BOTH_p0_mid_any_gdn040_mid",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_CH_BOTH_p0_latemid_any_gup025_raw",
+        "G_CR20_SELL_p55_mid_htf_g020_mid",
+        "G_D10_BOTH_p55_all_any_gup025_raw",
+        "G_D10_SELL_p50_first45_any_nogap_raw",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_GD40_BUY_p0_latemid_any_g020_raw",
+        "G_GD40_SELL_p55_am1230_any_g020_raw",
+        "G_CR20_SELL_p0_pm_htf_gdn040_first",
+        "G_CR20_BUY_p52_latemid_any_gup040_first",
+        "G_CR20_BOTH_p0_mid_any_g055_mid",
+        "G_GD30_BOTH_p58_am1130_any_nogap_raw",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_CR30_BUY_p0_mid_any_gdn025_first",
+        "G_CR30_BOTH_p0_am1130_htf_g030_mid",
+        "G_CR30_BOTH_p55_am1130_htf_nogap_first",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_GD40_BUY_p55_mid_any_nogap_raw",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_GD40_BOTH_p0_pm_any_g020_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw"
+      ],
+      "research_1y": {
+        "n": 63,
+        "hit_pct": 96.83
+      },
+      "research_3y": {
+        "n": 188,
+        "hit_pct": 93.09
+      },
+      "held_3y_ok": true,
+      "research_5y": {
+        "n": 283,
+        "hit_pct": 90.11
+      },
+      "research_extra_2y": {
+        "n": 94,
+        "hit_pct": 86.17,
+        "window": {
+          "start": "2021-11-16",
+          "end": "2023-11-15"
+        }
+      },
+      "held_5y_ok": true,
+      "accuracy_tag": "ACC_RANGE_86_97",
+      "accuracy_range_tag": "ACC_RANGE_86_97",
+      "accuracy_lo": 86.17,
+      "accuracy_hi": 96.72,
+      "accuracy_band": "C_MID_85",
+      "floor_tag": "ACC_FLOOR_89p69",
+      "tags": [
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_RANGE_86_97",
+        "ACC_BAND_C_MID_85",
+        "ACC_FLOOR_89p69",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 86.17\u201396.72% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      }
+    },
+    "ACC_WIDE_P85B": {
+      "base_desk": "ACC_WIDE_P85B",
+      "mode": "day",
+      "candidate_tag": "ACC_WIDE_P85B_P2G_10M",
+      "hard_gate": 88.4,
+      "dual_model": "10m_train",
+      "stream_tags_research": [
+        "G_CH_BUY_p0_am1130_any_nogap_raw",
+        "G_GD40_BOTH_p0_mid_any_gup025_bestp",
+        "G_GD40_BOTH_p55_mid_any_g020_raw",
+        "G_CR30_BOTH_p0_mid_any_gdn040_mid",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_D10_BOTH_p50_pm_any_gup040_raw",
+        "G_CH_BOTH_p0_latemid_any_gup025_raw",
+        "G_CR20_SELL_p55_mid_htf_g020_mid",
+        "G_D10_SELL_p50_first45_any_nogap_raw",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_GD40_BUY_p0_latemid_any_g020_raw",
+        "G_D10_BOTH_p55_all_any_gup025_raw",
+        "G_GD40_SELL_p55_am1230_any_g020_raw",
+        "G_CR20_SELL_p0_pm_htf_gdn040_first",
+        "G_CR20_BUY_p52_latemid_any_gup040_first",
+        "G_GD30_BOTH_p58_am1130_any_nogap_raw",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_CR20_BOTH_p0_mid_any_g055_mid",
+        "G_CR30_BUY_p0_mid_any_gdn025_first",
+        "G_CR30_BOTH_p0_am1130_htf_g030_mid",
+        "G_CR30_BOTH_p55_am1130_htf_nogap_first",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_GD40_BUY_p55_mid_any_nogap_raw",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_GD40_BOTH_p0_pm_any_g020_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw",
+        "G_CH_BOTH_p75_latemid_any_g020_raw",
+        "G_CR20_SELL_p55_mid_any_g040_mid",
+        "G_CR20_SELL_p0_mid_htf_gdn025_mid"
+      ],
+      "research_1y": {
+        "n": 67,
+        "hit_pct": 95.52
+      },
+      "research_3y": {
+        "n": 197,
+        "hit_pct": 92.39
+      },
+      "held_3y_ok": true,
+      "research_5y": {
+        "n": 418,
+        "hit_pct": 88.76
+      },
+      "research_extra_2y": {
+        "n": 138,
+        "hit_pct": 88.41,
+        "window": {
+          "start": "2021-11-16",
+          "end": "2023-11-15"
+        }
+      },
+      "held_5y_ok": true,
+      "accuracy_tag": "ACC_RANGE_88_95",
+      "accuracy_range_tag": "ACC_RANGE_88_95",
+      "accuracy_lo": 88.41,
+      "accuracy_hi": 94.23,
+      "accuracy_band": "C_MID_85",
+      "floor_tag": "ACC_FLOOR_88p4",
+      "tags": [
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_RANGE_88_95",
+        "ACC_BAND_C_MID_85",
+        "ACC_FLOOR_88p4",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 88.41\u201394.23% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      }
+    },
+    "ACC_WIDE_P80": {
+      "base_desk": "ACC_WIDE_P80",
+      "mode": "day",
+      "candidate_tag": "ACC_WIDE_P80_P2G_10M",
+      "hard_gate": 84.72,
+      "dual_model": "10m_train",
+      "stream_tags_research": [
+        "G_CH_BOTH_p0_am1230_any_nogap_mid",
+        "G_GD40_BOTH_p0_latemid_any_g020_mid",
+        "G_D10_BOTH_p50_mid_htf_gup040_raw",
+        "G_CR20_SELL_p55_mid_htf_nogap_mid",
+        "G_GD30_BUY_p0_latemid_any_nogap_raw",
+        "G_GD40_BUY_p0_mid_any_g020_bestp",
+        "G_D10_BOTH_p50_pm_any_gup025_raw",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_GD40_BOTH_p55_am1230_any_g020_bestp",
+        "G_D10_SELL_p50_open_any_nogap_raw",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_CR30_SELL_p0_mid_htf_g040_mid",
+        "G_CR30_BUY_p0_mid_any_gdn025_first",
+        "G_GD40_BOTH_p0_mid_any_gup025_bestp",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_GD40_BOTH_p55_mid_any_nogap_first",
+        "G_CH_BOTH_p0_latemid_any_gup025_raw",
+        "G_D10_BOTH_p55_open_any_g020_raw",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw",
+        "G_D10_BOTH_p55_mid_any_g040_raw",
+        "G_CR20_BUY_p52_latemid_any_gup040_first",
+        "G_CR20_SELL_p0_mid_htf_gdn025_mid",
+        "G_CR30_BUY_p58_am1230_htf_g020_first",
+        "G_CH_BUY_p0_all_any_gup025_raw",
+        "G_CR30_BOTH_p60_latemid_any_gdn025_first"
+      ],
+      "research_1y": {
+        "n": 100,
+        "hit_pct": 84.0
+      },
+      "research_3y": {
+        "n": 280,
+        "hit_pct": 85.0
+      },
+      "held_3y_ok": true,
+      "research_5y": {
+        "n": 431,
+        "hit_pct": 83.53
+      },
+      "research_extra_2y": {
+        "n": 161,
+        "hit_pct": 81.37,
+        "window": {
+          "start": "2021-11-16",
+          "end": "2023-11-15"
+        }
+      },
+      "held_5y_ok": false,
+      "accuracy_tag": "ACC_RANGE_81_85",
+      "accuracy_range_tag": "ACC_RANGE_81_85",
+      "accuracy_lo": 81.37,
+      "accuracy_hi": 84.81,
+      "accuracy_band": "D_VOL_80",
+      "floor_tag": "ACC_FLOOR_84p72",
+      "tags": [
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_RANGE_81_85",
+        "ACC_BAND_D_VOL_80",
+        "ACC_FLOOR_84p72",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 81.37\u201384.81% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      }
+    },
+    "ACC_WIDE_P75": {
+      "base_desk": "ACC_WIDE_P75",
+      "mode": "day",
+      "candidate_tag": "ACC_WIDE_P75_P2G_10M",
+      "hard_gate": 82.71,
+      "dual_model": "10m_train",
+      "stream_tags_research": [
+        "G_CH_BOTH_p0_am1230_any_nogap_mid",
+        "G_GD40_BOTH_p0_latemid_any_g020_mid",
+        "G_D10_BOTH_p50_mid_htf_g040_raw",
+        "G_CR20_SELL_p55_mid_htf_nogap_mid",
+        "G_CR30_BOTH_p0_mid_any_g040_mid",
+        "G_GD30_BUY_p0_latemid_any_nogap_raw",
+        "G_D10_BOTH_p50_pm_any_gup025_raw",
+        "G_GD40_BOTH_p55_mid_any_nogap_first",
+        "G_GD40_BOTH_p0_mid_any_gup025_bestp",
+        "G_D10_BOTH_p50_mid_any_gup040_raw",
+        "G_CR20_BUY_p0_am1130_any_nogap_first",
+        "G_D10_SELL_p50_open_any_nogap_raw",
+        "G_GD40_BOTH_p55_am1230_any_g020_bestp",
+        "G_GD40_BUY_p0_mid_any_g020_bestp",
+        "G_CH_BOTH_p0_all_any_g020_mid",
+        "G_CR20_SELL_p62_all_any_nogap_raw",
+        "G_D10_BOTH_p55_open_any_g020_raw",
+        "G_CR20_BOTH_p60_pm_htf_g030_raw",
+        "G_CH_BOTH_p75_pm_any_nogap_raw",
+        "G_CR20_BUY_p0_am1230_any_gup025_raw",
+        "G_CR20_BOTH_p60_am1130_any_nogap_first",
+        "G_GD40_BOTH_p0_pm_htf_nogap_raw",
+        "G_D10_BOTH_p58_pm_any_nogap_raw",
+        "G_CR30_BUY_p0_mid_any_gdn025_first",
+        "G_CR20_SELL_p0_mid_htf_gdn025_mid",
+        "G_CR30_BUY_p58_am1230_htf_g020_first",
+        "G_CR30_BOTH_p60_latemid_any_gdn025_first",
+        "G_CR30_BOTH_p0_am1130_any_g030_mid",
+        "G_D10_SELL_p52_all_any_nogap_raw",
+        "G_CR20_BUY_p0_latemid_any_g055_mid"
+      ],
+      "research_1y": {
+        "n": 111,
+        "hit_pct": 83.78
+      },
+      "research_3y": {
+        "n": 303,
+        "hit_pct": 83.17
+      },
+      "held_3y_ok": true,
+      "research_5y": {
+        "n": 472,
+        "hit_pct": 82.42
+      },
+      "research_extra_2y": {
+        "n": 178,
+        "hit_pct": 81.46,
+        "window": {
+          "start": "2021-11-16",
+          "end": "2023-11-15"
+        }
+      },
+      "held_5y_ok": false,
+      "accuracy_tag": "ACC_RANGE_81_84",
+      "accuracy_range_tag": "ACC_RANGE_81_84",
+      "accuracy_lo": 81.46,
+      "accuracy_hi": 83.49,
+      "accuracy_band": "D_VOL_80",
+      "floor_tag": "ACC_FLOOR_82p71",
+      "tags": [
+        "ACC_WIDE_P75_P2G_10M",
+        "ACC_RANGE_81_84",
+        "ACC_BAND_D_VOL_80",
+        "ACC_FLOOR_82p71",
+        "LOGIC_P2G",
+        "LANE_RESEARCH"
+      ],
+      "accuracy_note": "Hit-target accuracy range 81.46\u201383.49% (min/max across 1y/3y/5y/extra_2y for this P2G 10m desk)",
+      "brackets": {
+        "target": 30.0,
+        "sl": 30.0,
+        "risk": 30.0
+      }
+    }
+  },
+  "window_3y": {
+    "start": "2023-11-16",
+    "end": "2026-11-15"
+  },
+  "last_3y_confirm": {
+    "verdict": "HOLD OK \u2014 `ACC100_MULTI_V12_P2G_10M` 3y 164@100.0% \u00b7 floors all clear \u00b7 still RESEARCH.",
+    "elapsed_s": 20.6,
+    "end": "2026-11-15"
+  },
+  "window_5y": {
+    "start": "2021-11-16",
+    "end": "2026-11-15"
+  },
+  "window_extra_2y": {
+    "start": "2021-11-16",
+    "end": "2023-11-15"
+  },
+  "last_5y_confirm": {
+    "verdict": "HOLD FAIL 5y \u2014 `ACC100_MULTI_V12_P2G_10M` breaks floor \u00b7 256@98.05% \u00b7 extra2y 91@94.51%.",
+    "elapsed_s": 16.8,
+    "end": "2026-11-15"
+  },
+  "accuracy_tags_source": "ACC_PHASE2G_10M_5Y.json \u00b7 measured 1y/3y/5y/extra_2y"
+}

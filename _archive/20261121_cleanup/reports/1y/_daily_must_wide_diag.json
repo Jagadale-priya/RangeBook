@@ -1,0 +1,12 @@
+{
+  "mode": "first_pattern_560_720",
+  "bracket": "atrfloor_80_5.0",
+  "cal": 99.63,
+  "l3m": 100.0,
+  "cal_miss": [
+    "2026-04-22"
+  ],
+  "l3m_miss": [],
+  "n_cal": 270,
+  "n_test": 64
+}

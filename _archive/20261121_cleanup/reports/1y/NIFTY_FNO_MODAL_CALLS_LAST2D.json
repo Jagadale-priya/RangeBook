@@ -1,0 +1,159 @@
+{
+  "mode": "fno_modal_dual_track_bar_walk_not_scalper",
+  "symbol": "NIFTY",
+  "sessions": [
+    "2026-11-17",
+    "2026-11-18"
+  ],
+  "n_calls_total": 0,
+  "by_day": {
+    "2026-11-17": 0,
+    "2026-11-18": 0
+  },
+  "day_stats": {
+    "2026-11-17": {
+      "n_bars": 25,
+      "or_hi": 25358.05,
+      "or_lo": 25267.3,
+      "evals": 23,
+      "no_or_break": 1,
+      "gates_fail_or_hold": 9,
+      "calls": 0,
+      "calls_detail": []
+    },
+    "2026-11-18": {
+      "n_bars": 25,
+      "or_hi": 25390.8,
+      "or_lo": 25281.8,
+      "evals": 23,
+      "no_or_break": 2,
+      "gates_fail_or_hold": 2,
+      "calls": 0,
+      "calls_detail": []
+    }
+  },
+  "calls": [],
+  "gate_fail_samples": [
+    {
+      "day": "2026-11-17",
+      "hm": "09:45",
+      "decision": "BUY",
+      "p_t1": 0.6829,
+      "first_break": true,
+      "regime": "trend",
+      "or_ext": 0.15867768595042925,
+      "mins": 585,
+      "skip_after_sl": false
+    },
+    {
+      "day": "2026-11-17",
+      "hm": "10:00",
+      "decision": "BUY",
+      "p_t1": 0.6829,
+      "first_break": false,
+      "regime": "trend",
+      "or_ext": 0.23305785123968545,
+      "mins": 600,
+      "skip_after_sl": false
+    },
+    {
+      "day": "2026-11-17",
+      "hm": "10:15",
+      "decision": "BUY",
+      "p_t1": 0.6829,
+      "first_break": false,
+      "regime": "trend",
+      "or_ext": 0.4639118457300516,
+      "mins": 615,
+      "skip_after_sl": false
+    },
+    {
+      "day": "2026-11-17",
+      "hm": "10:30",
+      "decision": "BUY",
+      "p_t1": 0.6829,
+      "first_break": false,
+      "regime": "trend",
+      "or_ext": 0.35151515151516755,
+      "mins": 630,
+      "skip_after_sl": false
+    },
+    {
+      "day": "2026-11-17",
+      "hm": "10:45",
+      "decision": "BUY",
+      "p_t1": 0.6829,
+      "first_break": false,
+      "regime": "trend",
+      "or_ext": 0.5151515151515151,
+      "mins": 645,
+      "skip_after_sl": false
+    },
+    {
+      "day": "2026-11-17",
+      "hm": "11:00",
+      "decision": "BUY",
+      "p_t1": 0.6829,
+      "first_break": false,
+      "regime": "trend",
+      "or_ext": 0.7393939393939635,
+      "mins": 660,
+      "skip_after_sl": false
+    },
+    {
+      "day": "2026-11-17",
+      "hm": "11:15",
+      "decision": "BUY",
+      "p_t1": 0.6829,
+      "first_break": false,
+      "regime": "trend",
+      "or_ext": 0.8842975206611571,
+      "mins": 675,
+      "skip_after_sl": false
+    },
+    {
+      "day": "2026-11-17",
+      "hm": "11:30",
+      "decision": "BUY",
+      "p_t1": 0.6829,
+      "first_break": false,
+      "regime": "trend",
+      "or_ext": 1.0462809917355451,
+      "mins": 690,
+      "skip_after_sl": false
+    },
+    {
+      "day": "2026-11-17",
+      "hm": "12:15",
+      "decision": "BUY",
+      "p_t1": 0.6829,
+      "first_break": false,
+      "regime": "trend",
+      "or_ext": 1.4165289256198268,
+      "mins": 735,
+      "skip_after_sl": false
+    },
+    {
+      "day": "2026-11-18",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.5489,
+      "first_break": true,
+      "regime": "trend",
+      "or_ext": 0.45917431192659885,
+      "mins": 570,
+      "skip_after_sl": false
+    },
+    {
+      "day": "2026-11-18",
+      "hm": "12:30",
+      "decision": "SELL",
+      "p_t1": 0.5224,
+      "first_break": false,
+      "regime": "trend",
+      "or_ext": 0.8784403669724771,
+      "mins": 750,
+      "skip_after_sl": false
+    }
+  ]
+}

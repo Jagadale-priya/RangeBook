@@ -1,0 +1,1778 @@
+{
+  "generated_at": "2026-11-15T18:43:11",
+  "rows": 2915,
+  "news_validation": {
+    "available": true,
+    "days": 29,
+    "news_speak_days": 27,
+    "news_vs_gap_acc": 0.037,
+    "news_vs_dir_acc": 0.4815,
+    "fuse_full_vs_gap": {
+      "days_all": 0,
+      "days_spoken": 0,
+      "coverage": 0.0,
+      "spoken_acc": null
+    },
+    "fuse_full_vs_dir": {
+      "days_all": 0,
+      "days_spoken": 0,
+      "coverage": 0.0,
+      "spoken_acc": null
+    }
+  },
+  "families": {
+    "gap_fuse_full": {
+      "threshold_scan": {
+        "th": 8.0,
+        "floor": 0.7,
+        "ok": false,
+        "tests": {
+          "1y": {
+            "days_all": 252,
+            "days_spoken": 19,
+            "coverage": 0.0754,
+            "spoken_acc": 0.5263
+          },
+          "3y": {
+            "days_all": 756,
+            "days_spoken": 41,
+            "coverage": 0.0542,
+            "spoken_acc": 0.439
+          },
+          "5y": {
+            "days_all": 1260,
+            "days_spoken": 85,
+            "coverage": 0.0675,
+            "spoken_acc": 0.5176
+          }
+        },
+        "held": false
+      },
+      "tiers": {
+        "bands": [
+          {
+            "lo": 10,
+            "hi": 999,
+            "n": 12,
+            "spoken_acc": 0.25,
+            "coverage": 0.0159,
+            "pos_n": 5,
+            "neg_n": 7,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 8,
+            "hi": 10,
+            "n": 29,
+            "spoken_acc": 0.5172,
+            "coverage": 0.0384,
+            "pos_n": 14,
+            "neg_n": 15,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 6,
+            "hi": 8,
+            "n": 66,
+            "spoken_acc": 0.3788,
+            "coverage": 0.0873,
+            "pos_n": 38,
+            "neg_n": 28,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 4,
+            "hi": 6,
+            "n": 175,
+            "spoken_acc": 0.2971,
+            "coverage": 0.2315,
+            "pos_n": 118,
+            "neg_n": 57,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 2,
+            "hi": 4,
+            "n": 226,
+            "spoken_acc": 0.2035,
+            "coverage": 0.2989,
+            "pos_n": 133,
+            "neg_n": 93,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 0,
+            "hi": 2,
+            "n": 248,
+            "spoken_acc": 0.1331,
+            "coverage": 0.328,
+            "pos_n": 144,
+            "neg_n": 104,
+            "tier": "ABSTAIN"
+          }
+        ],
+        "high_abs_score": null,
+        "med_abs_score": null,
+        "low_abs_score": null
+      },
+      "bins_3y": [
+        {
+          "lo": 0,
+          "hi": 2,
+          "n": 248,
+          "spoken_acc": 0.1331,
+          "coverage": 0.328,
+          "pos_n": 144,
+          "neg_n": 104
+        },
+        {
+          "lo": 2,
+          "hi": 4,
+          "n": 226,
+          "spoken_acc": 0.2035,
+          "coverage": 0.2989,
+          "pos_n": 133,
+          "neg_n": 93
+        },
+        {
+          "lo": 4,
+          "hi": 6,
+          "n": 175,
+          "spoken_acc": 0.2971,
+          "coverage": 0.2315,
+          "pos_n": 118,
+          "neg_n": 57
+        },
+        {
+          "lo": 6,
+          "hi": 8,
+          "n": 66,
+          "spoken_acc": 0.3788,
+          "coverage": 0.0873,
+          "pos_n": 38,
+          "neg_n": 28
+        },
+        {
+          "lo": 8,
+          "hi": 10,
+          "n": 29,
+          "spoken_acc": 0.5172,
+          "coverage": 0.0384,
+          "pos_n": 14,
+          "neg_n": 15
+        },
+        {
+          "lo": 10,
+          "hi": 999,
+          "n": 12,
+          "spoken_acc": 0.25,
+          "coverage": 0.0159,
+          "pos_n": 5,
+          "neg_n": 7
+        }
+      ]
+    },
+    "gap_fuse_ovn_ta": {
+      "threshold_scan": {
+        "th": 12.0,
+        "floor": 0.7,
+        "ok": false,
+        "tests": {
+          "1y": {
+            "days_all": 252,
+            "days_spoken": 26,
+            "coverage": 0.1032,
+            "spoken_acc": 0.4231
+          },
+          "3y": {
+            "days_all": 756,
+            "days_spoken": 61,
+            "coverage": 0.0807,
+            "spoken_acc": 0.4426
+          },
+          "5y": {
+            "days_all": 1260,
+            "days_spoken": 126,
+            "coverage": 0.1,
+            "spoken_acc": 0.5
+          }
+        },
+        "held": false
+      },
+      "tiers": {
+        "bands": [
+          {
+            "lo": 10,
+            "hi": 999,
+            "n": 140,
+            "spoken_acc": 0.35,
+            "coverage": 0.1852,
+            "pos_n": 87,
+            "neg_n": 53,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 8,
+            "hi": 10,
+            "n": 83,
+            "spoken_acc": 0.253,
+            "coverage": 0.1098,
+            "pos_n": 54,
+            "neg_n": 29,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 6,
+            "hi": 8,
+            "n": 124,
+            "spoken_acc": 0.2097,
+            "coverage": 0.164,
+            "pos_n": 80,
+            "neg_n": 44,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 4,
+            "hi": 6,
+            "n": 144,
+            "spoken_acc": 0.2083,
+            "coverage": 0.1905,
+            "pos_n": 83,
+            "neg_n": 61,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 2,
+            "hi": 4,
+            "n": 133,
+            "spoken_acc": 0.2105,
+            "coverage": 0.1759,
+            "pos_n": 72,
+            "neg_n": 61,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 0,
+            "hi": 2,
+            "n": 132,
+            "spoken_acc": 0.1591,
+            "coverage": 0.1746,
+            "pos_n": 69,
+            "neg_n": 61,
+            "tier": "ABSTAIN"
+          }
+        ],
+        "high_abs_score": null,
+        "med_abs_score": null,
+        "low_abs_score": null
+      },
+      "bins_3y": [
+        {
+          "lo": 0,
+          "hi": 2,
+          "n": 132,
+          "spoken_acc": 0.1591,
+          "coverage": 0.1746,
+          "pos_n": 69,
+          "neg_n": 61
+        },
+        {
+          "lo": 2,
+          "hi": 4,
+          "n": 133,
+          "spoken_acc": 0.2105,
+          "coverage": 0.1759,
+          "pos_n": 72,
+          "neg_n": 61
+        },
+        {
+          "lo": 4,
+          "hi": 6,
+          "n": 144,
+          "spoken_acc": 0.2083,
+          "coverage": 0.1905,
+          "pos_n": 83,
+          "neg_n": 61
+        },
+        {
+          "lo": 6,
+          "hi": 8,
+          "n": 124,
+          "spoken_acc": 0.2097,
+          "coverage": 0.164,
+          "pos_n": 80,
+          "neg_n": 44
+        },
+        {
+          "lo": 8,
+          "hi": 10,
+          "n": 83,
+          "spoken_acc": 0.253,
+          "coverage": 0.1098,
+          "pos_n": 54,
+          "neg_n": 29
+        },
+        {
+          "lo": 10,
+          "hi": 999,
+          "n": 140,
+          "spoken_acc": 0.35,
+          "coverage": 0.1852,
+          "pos_n": 87,
+          "neg_n": 53
+        }
+      ]
+    },
+    "gap_us_asia": {
+      "threshold_scan": {
+        "th": 6.0,
+        "floor": 0.7,
+        "ok": false,
+        "tests": {
+          "1y": {
+            "days_all": 252,
+            "days_spoken": 22,
+            "coverage": 0.0873,
+            "spoken_acc": 0.5909
+          },
+          "3y": {
+            "days_all": 756,
+            "days_spoken": 68,
+            "coverage": 0.0899,
+            "spoken_acc": 0.5441
+          },
+          "5y": {
+            "days_all": 1260,
+            "days_spoken": 140,
+            "coverage": 0.1111,
+            "spoken_acc": 0.5786
+          }
+        },
+        "held": false
+      },
+      "tiers": {
+        "bands": [
+          {
+            "lo": 8,
+            "hi": 10,
+            "n": 14,
+            "spoken_acc": 0.2857,
+            "coverage": 0.0185,
+            "pos_n": 8,
+            "neg_n": 6,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 6,
+            "hi": 8,
+            "n": 54,
+            "spoken_acc": 0.6111,
+            "coverage": 0.0714,
+            "pos_n": 30,
+            "neg_n": 24,
+            "tier": "LOW"
+          },
+          {
+            "lo": 4,
+            "hi": 6,
+            "n": 139,
+            "spoken_acc": 0.3094,
+            "coverage": 0.1839,
+            "pos_n": 79,
+            "neg_n": 60,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 2,
+            "hi": 4,
+            "n": 255,
+            "spoken_acc": 0.1961,
+            "coverage": 0.3373,
+            "pos_n": 156,
+            "neg_n": 99,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 0,
+            "hi": 2,
+            "n": 294,
+            "spoken_acc": 0.1463,
+            "coverage": 0.3889,
+            "pos_n": 152,
+            "neg_n": 142,
+            "tier": "ABSTAIN"
+          }
+        ],
+        "high_abs_score": null,
+        "med_abs_score": null,
+        "low_abs_score": 6
+      },
+      "bins_3y": [
+        {
+          "lo": 0,
+          "hi": 2,
+          "n": 294,
+          "spoken_acc": 0.1463,
+          "coverage": 0.3889,
+          "pos_n": 152,
+          "neg_n": 142
+        },
+        {
+          "lo": 2,
+          "hi": 4,
+          "n": 255,
+          "spoken_acc": 0.1961,
+          "coverage": 0.3373,
+          "pos_n": 156,
+          "neg_n": 99
+        },
+        {
+          "lo": 4,
+          "hi": 6,
+          "n": 139,
+          "spoken_acc": 0.3094,
+          "coverage": 0.1839,
+          "pos_n": 79,
+          "neg_n": 60
+        },
+        {
+          "lo": 6,
+          "hi": 8,
+          "n": 54,
+          "spoken_acc": 0.6111,
+          "coverage": 0.0714,
+          "pos_n": 30,
+          "neg_n": 24
+        },
+        {
+          "lo": 8,
+          "hi": 10,
+          "n": 14,
+          "spoken_acc": 0.2857,
+          "coverage": 0.0185,
+          "pos_n": 8,
+          "neg_n": 6
+        },
+        {
+          "lo": 10,
+          "hi": 999,
+          "n": 0,
+          "spoken_acc": null,
+          "coverage": 0.0
+        }
+      ]
+    },
+    "gap_ovn": {
+      "threshold_scan": {
+        "th": 8.75,
+        "floor": 0.7,
+        "ok": false,
+        "tests": {
+          "1y": {
+            "days_all": 252,
+            "days_spoken": 51,
+            "coverage": 0.2024,
+            "spoken_acc": 0.3333
+          },
+          "3y": {
+            "days_all": 756,
+            "days_spoken": 139,
+            "coverage": 0.1839,
+            "spoken_acc": 0.3453
+          },
+          "5y": {
+            "days_all": 1260,
+            "days_spoken": 277,
+            "coverage": 0.2198,
+            "spoken_acc": 0.4224
+          }
+        },
+        "held": false
+      },
+      "tiers": {
+        "bands": [
+          {
+            "lo": 10,
+            "hi": 999,
+            "n": 86,
+            "spoken_acc": 0.3837,
+            "coverage": 0.1138,
+            "pos_n": 53,
+            "neg_n": 33,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 8,
+            "hi": 10,
+            "n": 92,
+            "spoken_acc": 0.2609,
+            "coverage": 0.1217,
+            "pos_n": 56,
+            "neg_n": 36,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 6,
+            "hi": 8,
+            "n": 139,
+            "spoken_acc": 0.2518,
+            "coverage": 0.1839,
+            "pos_n": 88,
+            "neg_n": 51,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 4,
+            "hi": 6,
+            "n": 154,
+            "spoken_acc": 0.2078,
+            "coverage": 0.2037,
+            "pos_n": 85,
+            "neg_n": 69,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 2,
+            "hi": 4,
+            "n": 146,
+            "spoken_acc": 0.1918,
+            "coverage": 0.1931,
+            "pos_n": 85,
+            "neg_n": 61,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 0,
+            "hi": 2,
+            "n": 139,
+            "spoken_acc": 0.1727,
+            "coverage": 0.1839,
+            "pos_n": 71,
+            "neg_n": 68,
+            "tier": "ABSTAIN"
+          }
+        ],
+        "high_abs_score": null,
+        "med_abs_score": null,
+        "low_abs_score": null
+      },
+      "bins_3y": [
+        {
+          "lo": 0,
+          "hi": 2,
+          "n": 139,
+          "spoken_acc": 0.1727,
+          "coverage": 0.1839,
+          "pos_n": 71,
+          "neg_n": 68
+        },
+        {
+          "lo": 2,
+          "hi": 4,
+          "n": 146,
+          "spoken_acc": 0.1918,
+          "coverage": 0.1931,
+          "pos_n": 85,
+          "neg_n": 61
+        },
+        {
+          "lo": 4,
+          "hi": 6,
+          "n": 154,
+          "spoken_acc": 0.2078,
+          "coverage": 0.2037,
+          "pos_n": 85,
+          "neg_n": 69
+        },
+        {
+          "lo": 6,
+          "hi": 8,
+          "n": 139,
+          "spoken_acc": 0.2518,
+          "coverage": 0.1839,
+          "pos_n": 88,
+          "neg_n": 51
+        },
+        {
+          "lo": 8,
+          "hi": 10,
+          "n": 92,
+          "spoken_acc": 0.2609,
+          "coverage": 0.1217,
+          "pos_n": 56,
+          "neg_n": 36
+        },
+        {
+          "lo": 10,
+          "hi": 999,
+          "n": 86,
+          "spoken_acc": 0.3837,
+          "coverage": 0.1138,
+          "pos_n": 53,
+          "neg_n": 33
+        }
+      ]
+    },
+    "bias_fuse_full": {
+      "threshold_scan": {
+        "th": 6.75,
+        "floor": 0.7,
+        "ok": false,
+        "tests": {
+          "1y": {
+            "days_all": 252,
+            "days_spoken": 32,
+            "coverage": 0.127,
+            "spoken_acc": 0.75
+          },
+          "3y": {
+            "days_all": 756,
+            "days_spoken": 77,
+            "coverage": 0.1019,
+            "spoken_acc": 0.6623
+          },
+          "5y": {
+            "days_all": 1260,
+            "days_spoken": 154,
+            "coverage": 0.1222,
+            "spoken_acc": 0.7013
+          }
+        },
+        "held": false
+      },
+      "tiers": {
+        "bands": [
+          {
+            "lo": 10,
+            "hi": 999,
+            "n": 12,
+            "spoken_acc": 0.6667,
+            "coverage": 0.0159,
+            "pos_n": 5,
+            "neg_n": 7,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 8,
+            "hi": 10,
+            "n": 29,
+            "spoken_acc": 0.5517,
+            "coverage": 0.0384,
+            "pos_n": 14,
+            "neg_n": 15,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 6,
+            "hi": 8,
+            "n": 66,
+            "spoken_acc": 0.6364,
+            "coverage": 0.0873,
+            "pos_n": 38,
+            "neg_n": 28,
+            "tier": "LOW"
+          },
+          {
+            "lo": 4,
+            "hi": 6,
+            "n": 175,
+            "spoken_acc": 0.6057,
+            "coverage": 0.2315,
+            "pos_n": 118,
+            "neg_n": 57,
+            "tier": "LOW"
+          },
+          {
+            "lo": 2,
+            "hi": 4,
+            "n": 226,
+            "spoken_acc": 0.5487,
+            "coverage": 0.2989,
+            "pos_n": 133,
+            "neg_n": 93,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 0,
+            "hi": 2,
+            "n": 248,
+            "spoken_acc": 0.5806,
+            "coverage": 0.328,
+            "pos_n": 144,
+            "neg_n": 104,
+            "tier": "ABSTAIN"
+          }
+        ],
+        "high_abs_score": null,
+        "med_abs_score": null,
+        "low_abs_score": 4
+      },
+      "bins_3y": [
+        {
+          "lo": 0,
+          "hi": 2,
+          "n": 248,
+          "spoken_acc": 0.5806,
+          "coverage": 0.328,
+          "pos_n": 144,
+          "neg_n": 104
+        },
+        {
+          "lo": 2,
+          "hi": 4,
+          "n": 226,
+          "spoken_acc": 0.5487,
+          "coverage": 0.2989,
+          "pos_n": 133,
+          "neg_n": 93
+        },
+        {
+          "lo": 4,
+          "hi": 6,
+          "n": 175,
+          "spoken_acc": 0.6057,
+          "coverage": 0.2315,
+          "pos_n": 118,
+          "neg_n": 57
+        },
+        {
+          "lo": 6,
+          "hi": 8,
+          "n": 66,
+          "spoken_acc": 0.6364,
+          "coverage": 0.0873,
+          "pos_n": 38,
+          "neg_n": 28
+        },
+        {
+          "lo": 8,
+          "hi": 10,
+          "n": 29,
+          "spoken_acc": 0.5517,
+          "coverage": 0.0384,
+          "pos_n": 14,
+          "neg_n": 15
+        },
+        {
+          "lo": 10,
+          "hi": 999,
+          "n": 12,
+          "spoken_acc": 0.6667,
+          "coverage": 0.0159,
+          "pos_n": 5,
+          "neg_n": 7
+        }
+      ]
+    },
+    "bias_fuse_ovn_ta": {
+      "threshold_scan": {
+        "th": 11.75,
+        "floor": 0.7,
+        "ok": false,
+        "tests": {
+          "1y": {
+            "days_all": 252,
+            "days_spoken": 28,
+            "coverage": 0.1111,
+            "spoken_acc": 0.6429
+          },
+          "3y": {
+            "days_all": 756,
+            "days_spoken": 65,
+            "coverage": 0.086,
+            "spoken_acc": 0.6462
+          },
+          "5y": {
+            "days_all": 1260,
+            "days_spoken": 139,
+            "coverage": 0.1103,
+            "spoken_acc": 0.6691
+          }
+        },
+        "held": false
+      },
+      "tiers": {
+        "bands": [
+          {
+            "lo": 10,
+            "hi": 999,
+            "n": 140,
+            "spoken_acc": 0.6,
+            "coverage": 0.1852,
+            "pos_n": 87,
+            "neg_n": 53,
+            "tier": "LOW"
+          },
+          {
+            "lo": 8,
+            "hi": 10,
+            "n": 83,
+            "spoken_acc": 0.5663,
+            "coverage": 0.1098,
+            "pos_n": 54,
+            "neg_n": 29,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 6,
+            "hi": 8,
+            "n": 124,
+            "spoken_acc": 0.6129,
+            "coverage": 0.164,
+            "pos_n": 80,
+            "neg_n": 44,
+            "tier": "LOW"
+          },
+          {
+            "lo": 4,
+            "hi": 6,
+            "n": 144,
+            "spoken_acc": 0.5278,
+            "coverage": 0.1905,
+            "pos_n": 83,
+            "neg_n": 61,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 2,
+            "hi": 4,
+            "n": 133,
+            "spoken_acc": 0.5564,
+            "coverage": 0.1759,
+            "pos_n": 72,
+            "neg_n": 61,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 0,
+            "hi": 2,
+            "n": 132,
+            "spoken_acc": 0.4848,
+            "coverage": 0.1746,
+            "pos_n": 69,
+            "neg_n": 61,
+            "tier": "ABSTAIN"
+          }
+        ],
+        "high_abs_score": null,
+        "med_abs_score": null,
+        "low_abs_score": 6
+      },
+      "bins_3y": [
+        {
+          "lo": 0,
+          "hi": 2,
+          "n": 132,
+          "spoken_acc": 0.4848,
+          "coverage": 0.1746,
+          "pos_n": 69,
+          "neg_n": 61
+        },
+        {
+          "lo": 2,
+          "hi": 4,
+          "n": 133,
+          "spoken_acc": 0.5564,
+          "coverage": 0.1759,
+          "pos_n": 72,
+          "neg_n": 61
+        },
+        {
+          "lo": 4,
+          "hi": 6,
+          "n": 144,
+          "spoken_acc": 0.5278,
+          "coverage": 0.1905,
+          "pos_n": 83,
+          "neg_n": 61
+        },
+        {
+          "lo": 6,
+          "hi": 8,
+          "n": 124,
+          "spoken_acc": 0.6129,
+          "coverage": 0.164,
+          "pos_n": 80,
+          "neg_n": 44
+        },
+        {
+          "lo": 8,
+          "hi": 10,
+          "n": 83,
+          "spoken_acc": 0.5663,
+          "coverage": 0.1098,
+          "pos_n": 54,
+          "neg_n": 29
+        },
+        {
+          "lo": 10,
+          "hi": 999,
+          "n": 140,
+          "spoken_acc": 0.6,
+          "coverage": 0.1852,
+          "pos_n": 87,
+          "neg_n": 53
+        }
+      ]
+    },
+    "bias_us_asia": {
+      "threshold_scan": {
+        "th": 6.5,
+        "floor": 0.7,
+        "ok": true,
+        "tests": {
+          "1y": {
+            "days_all": 252,
+            "days_spoken": 16,
+            "coverage": 0.0635,
+            "spoken_acc": 0.75
+          },
+          "3y": {
+            "days_all": 756,
+            "days_spoken": 46,
+            "coverage": 0.0608,
+            "spoken_acc": 0.7174
+          },
+          "5y": {
+            "days_all": 1260,
+            "days_spoken": 101,
+            "coverage": 0.0802,
+            "spoken_acc": 0.7228
+          }
+        },
+        "held": true
+      },
+      "tiers": {
+        "bands": [
+          {
+            "lo": 8,
+            "hi": 10,
+            "n": 14,
+            "spoken_acc": 0.6429,
+            "coverage": 0.0185,
+            "pos_n": 8,
+            "neg_n": 6,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 6,
+            "hi": 8,
+            "n": 54,
+            "spoken_acc": 0.6852,
+            "coverage": 0.0714,
+            "pos_n": 30,
+            "neg_n": 24,
+            "tier": "LOW"
+          },
+          {
+            "lo": 4,
+            "hi": 6,
+            "n": 139,
+            "spoken_acc": 0.6115,
+            "coverage": 0.1839,
+            "pos_n": 79,
+            "neg_n": 60,
+            "tier": "LOW"
+          },
+          {
+            "lo": 2,
+            "hi": 4,
+            "n": 255,
+            "spoken_acc": 0.5686,
+            "coverage": 0.3373,
+            "pos_n": 156,
+            "neg_n": 99,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 0,
+            "hi": 2,
+            "n": 294,
+            "spoken_acc": 0.4796,
+            "coverage": 0.3889,
+            "pos_n": 152,
+            "neg_n": 142,
+            "tier": "ABSTAIN"
+          }
+        ],
+        "high_abs_score": null,
+        "med_abs_score": null,
+        "low_abs_score": 4
+      },
+      "bins_3y": [
+        {
+          "lo": 0,
+          "hi": 2,
+          "n": 294,
+          "spoken_acc": 0.4796,
+          "coverage": 0.3889,
+          "pos_n": 152,
+          "neg_n": 142
+        },
+        {
+          "lo": 2,
+          "hi": 4,
+          "n": 255,
+          "spoken_acc": 0.5686,
+          "coverage": 0.3373,
+          "pos_n": 156,
+          "neg_n": 99
+        },
+        {
+          "lo": 4,
+          "hi": 6,
+          "n": 139,
+          "spoken_acc": 0.6115,
+          "coverage": 0.1839,
+          "pos_n": 79,
+          "neg_n": 60
+        },
+        {
+          "lo": 6,
+          "hi": 8,
+          "n": 54,
+          "spoken_acc": 0.6852,
+          "coverage": 0.0714,
+          "pos_n": 30,
+          "neg_n": 24
+        },
+        {
+          "lo": 8,
+          "hi": 10,
+          "n": 14,
+          "spoken_acc": 0.6429,
+          "coverage": 0.0185,
+          "pos_n": 8,
+          "neg_n": 6
+        },
+        {
+          "lo": 10,
+          "hi": 999,
+          "n": 0,
+          "spoken_acc": null,
+          "coverage": 0.0
+        }
+      ]
+    },
+    "bias_ovn": {
+      "threshold_scan": {
+        "th": 12.0,
+        "floor": 0.7,
+        "ok": false,
+        "tests": {
+          "1y": {
+            "days_all": 252,
+            "days_spoken": 8,
+            "coverage": 0.0317,
+            "spoken_acc": 0.75
+          },
+          "3y": {
+            "days_all": 756,
+            "days_spoken": 25,
+            "coverage": 0.0331,
+            "spoken_acc": 0.72
+          },
+          "5y": {
+            "days_all": 1260,
+            "days_spoken": 65,
+            "coverage": 0.0516,
+            "spoken_acc": 0.7231
+          }
+        },
+        "held": false
+      },
+      "tiers": {
+        "bands": [
+          {
+            "lo": 10,
+            "hi": 999,
+            "n": 86,
+            "spoken_acc": 0.6047,
+            "coverage": 0.1138,
+            "pos_n": 53,
+            "neg_n": 33,
+            "tier": "LOW"
+          },
+          {
+            "lo": 8,
+            "hi": 10,
+            "n": 92,
+            "spoken_acc": 0.6196,
+            "coverage": 0.1217,
+            "pos_n": 56,
+            "neg_n": 36,
+            "tier": "LOW"
+          },
+          {
+            "lo": 6,
+            "hi": 8,
+            "n": 139,
+            "spoken_acc": 0.5683,
+            "coverage": 0.1839,
+            "pos_n": 88,
+            "neg_n": 51,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 4,
+            "hi": 6,
+            "n": 154,
+            "spoken_acc": 0.5325,
+            "coverage": 0.2037,
+            "pos_n": 85,
+            "neg_n": 69,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 2,
+            "hi": 4,
+            "n": 146,
+            "spoken_acc": 0.5616,
+            "coverage": 0.1931,
+            "pos_n": 85,
+            "neg_n": 61,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 0,
+            "hi": 2,
+            "n": 139,
+            "spoken_acc": 0.4748,
+            "coverage": 0.1839,
+            "pos_n": 71,
+            "neg_n": 68,
+            "tier": "ABSTAIN"
+          }
+        ],
+        "high_abs_score": null,
+        "med_abs_score": null,
+        "low_abs_score": 8
+      },
+      "bins_3y": [
+        {
+          "lo": 0,
+          "hi": 2,
+          "n": 139,
+          "spoken_acc": 0.4748,
+          "coverage": 0.1839,
+          "pos_n": 71,
+          "neg_n": 68
+        },
+        {
+          "lo": 2,
+          "hi": 4,
+          "n": 146,
+          "spoken_acc": 0.5616,
+          "coverage": 0.1931,
+          "pos_n": 85,
+          "neg_n": 61
+        },
+        {
+          "lo": 4,
+          "hi": 6,
+          "n": 154,
+          "spoken_acc": 0.5325,
+          "coverage": 0.2037,
+          "pos_n": 85,
+          "neg_n": 69
+        },
+        {
+          "lo": 6,
+          "hi": 8,
+          "n": 139,
+          "spoken_acc": 0.5683,
+          "coverage": 0.1839,
+          "pos_n": 88,
+          "neg_n": 51
+        },
+        {
+          "lo": 8,
+          "hi": 10,
+          "n": 92,
+          "spoken_acc": 0.6196,
+          "coverage": 0.1217,
+          "pos_n": 56,
+          "neg_n": 36
+        },
+        {
+          "lo": 10,
+          "hi": 999,
+          "n": 86,
+          "spoken_acc": 0.6047,
+          "coverage": 0.1138,
+          "pos_n": 53,
+          "neg_n": 33
+        }
+      ]
+    },
+    "bias_spx": {
+      "threshold_scan": {
+        "th": 1.5,
+        "floor": 0.7,
+        "ok": false,
+        "tests": {
+          "1y": {
+            "days_all": 252,
+            "days_spoken": 23,
+            "coverage": 0.0913,
+            "spoken_acc": 0.7391
+          },
+          "3y": {
+            "days_all": 756,
+            "days_spoken": 67,
+            "coverage": 0.0886,
+            "spoken_acc": 0.6716
+          },
+          "5y": {
+            "days_all": 1260,
+            "days_spoken": 161,
+            "coverage": 0.1278,
+            "spoken_acc": 0.7267
+          }
+        },
+        "held": false
+      },
+      "tiers": {
+        "bands": [
+          {
+            "lo": 4,
+            "hi": 6,
+            "n": 3,
+            "spoken_acc": 0.6667,
+            "coverage": 0.004,
+            "pos_n": 0,
+            "neg_n": 3,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 2,
+            "hi": 4,
+            "n": 21,
+            "spoken_acc": 0.5238,
+            "coverage": 0.0278,
+            "pos_n": 10,
+            "neg_n": 11,
+            "tier": "ABSTAIN"
+          },
+          {
+            "lo": 0,
+            "hi": 2,
+            "n": 732,
+            "spoken_acc": 0.5669,
+            "coverage": 0.9683,
+            "pos_n": 412,
+            "neg_n": 320,
+            "tier": "ABSTAIN"
+          }
+        ],
+        "high_abs_score": null,
+        "med_abs_score": null,
+        "low_abs_score": null
+      },
+      "bins_3y": [
+        {
+          "lo": 0,
+          "hi": 2,
+          "n": 732,
+          "spoken_acc": 0.5669,
+          "coverage": 0.9683,
+          "pos_n": 412,
+          "neg_n": 320
+        },
+        {
+          "lo": 2,
+          "hi": 4,
+          "n": 21,
+          "spoken_acc": 0.5238,
+          "coverage": 0.0278,
+          "pos_n": 10,
+          "neg_n": 11
+        },
+        {
+          "lo": 4,
+          "hi": 6,
+          "n": 3,
+          "spoken_acc": 0.6667,
+          "coverage": 0.004,
+          "pos_n": 0,
+          "neg_n": 3
+        },
+        {
+          "lo": 6,
+          "hi": 8,
+          "n": 0,
+          "spoken_acc": null,
+          "coverage": 0.0
+        },
+        {
+          "lo": 8,
+          "hi": 10,
+          "n": 0,
+          "spoken_acc": null,
+          "coverage": 0.0
+        },
+        {
+          "lo": 10,
+          "hi": 999,
+          "n": 0,
+          "spoken_acc": null,
+          "coverage": 0.0
+        }
+      ]
+    }
+  },
+  "spx_rules": {
+    "spx_gap_0.8": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 67,
+        "coverage": 0.2659,
+        "spoken_acc": 0.4478
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 208,
+        "coverage": 0.2751,
+        "spoken_acc": 0.4279
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 432,
+        "coverage": 0.3429,
+        "spoken_acc": 0.5116
+      }
+    },
+    "spx_bias_0.8": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 67,
+        "coverage": 0.2659,
+        "spoken_acc": 0.6418
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 208,
+        "coverage": 0.2751,
+        "spoken_acc": 0.6442
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 432,
+        "coverage": 0.3429,
+        "spoken_acc": 0.6829
+      }
+    },
+    "spx_gap_1.0": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 53,
+        "coverage": 0.2103,
+        "spoken_acc": 0.4906
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 157,
+        "coverage": 0.2077,
+        "spoken_acc": 0.4713
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 341,
+        "coverage": 0.2706,
+        "spoken_acc": 0.5601
+      }
+    },
+    "spx_bias_1.0": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 53,
+        "coverage": 0.2103,
+        "spoken_acc": 0.6604
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 157,
+        "coverage": 0.2077,
+        "spoken_acc": 0.6497
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 341,
+        "coverage": 0.2706,
+        "spoken_acc": 0.6804
+      }
+    },
+    "spx_gap_1.2": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 35,
+        "coverage": 0.1389,
+        "spoken_acc": 0.4857
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 102,
+        "coverage": 0.1349,
+        "spoken_acc": 0.4804
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 243,
+        "coverage": 0.1929,
+        "spoken_acc": 0.6091
+      }
+    },
+    "spx_bias_1.2": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 35,
+        "coverage": 0.1389,
+        "spoken_acc": 0.6286
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 102,
+        "coverage": 0.1349,
+        "spoken_acc": 0.6176
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 243,
+        "coverage": 0.1929,
+        "spoken_acc": 0.6996
+      }
+    },
+    "spx_gap_1.5": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 23,
+        "coverage": 0.0913,
+        "spoken_acc": 0.5652
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 67,
+        "coverage": 0.0886,
+        "spoken_acc": 0.4776
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 161,
+        "coverage": 0.1278,
+        "spoken_acc": 0.6273
+      }
+    },
+    "spx_bias_1.5": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 23,
+        "coverage": 0.0913,
+        "spoken_acc": 0.7391
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 67,
+        "coverage": 0.0886,
+        "spoken_acc": 0.6716
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 161,
+        "coverage": 0.1278,
+        "spoken_acc": 0.7267
+      }
+    },
+    "spx_gap_2.0": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 5,
+        "coverage": 0.0198,
+        "spoken_acc": 0.6
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 24,
+        "coverage": 0.0317,
+        "spoken_acc": 0.4583
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 74,
+        "coverage": 0.0587,
+        "spoken_acc": 0.7162
+      }
+    },
+    "spx_bias_2.0": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 5,
+        "coverage": 0.0198,
+        "spoken_acc": 0.6
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 24,
+        "coverage": 0.0317,
+        "spoken_acc": 0.5417
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 74,
+        "coverage": 0.0587,
+        "spoken_acc": 0.7297
+      }
+    }
+  },
+  "agree_rules": {
+    "agree_spx_gap_0.5": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 63,
+        "coverage": 0.25,
+        "spoken_acc": 0.3492
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 180,
+        "coverage": 0.2381,
+        "spoken_acc": 0.3389
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 334,
+        "coverage": 0.2651,
+        "spoken_acc": 0.3982
+      }
+    },
+    "agree_spx_bias_0.5": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 63,
+        "coverage": 0.25,
+        "spoken_acc": 0.5873
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 180,
+        "coverage": 0.2381,
+        "spoken_acc": 0.5944
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 334,
+        "coverage": 0.2651,
+        "spoken_acc": 0.6317
+      }
+    },
+    "agree_spx_gap_0.8": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 30,
+        "coverage": 0.119,
+        "spoken_acc": 0.4667
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 97,
+        "coverage": 0.1283,
+        "spoken_acc": 0.4639
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 204,
+        "coverage": 0.1619,
+        "spoken_acc": 0.5
+      }
+    },
+    "agree_spx_bias_0.8": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 30,
+        "coverage": 0.119,
+        "spoken_acc": 0.6667
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 97,
+        "coverage": 0.1283,
+        "spoken_acc": 0.6598
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 204,
+        "coverage": 0.1619,
+        "spoken_acc": 0.6863
+      }
+    },
+    "agree_spx_gap_1.0": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 22,
+        "coverage": 0.0873,
+        "spoken_acc": 0.5455
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 73,
+        "coverage": 0.0966,
+        "spoken_acc": 0.4932
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 160,
+        "coverage": 0.127,
+        "spoken_acc": 0.5437
+      }
+    },
+    "agree_spx_bias_1.0": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 22,
+        "coverage": 0.0873,
+        "spoken_acc": 0.6364
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 73,
+        "coverage": 0.0966,
+        "spoken_acc": 0.6575
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 160,
+        "coverage": 0.127,
+        "spoken_acc": 0.6687
+      }
+    },
+    "agree_spx_gap_1.5": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 12,
+        "coverage": 0.0476,
+        "spoken_acc": 0.5833
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 38,
+        "coverage": 0.0503,
+        "spoken_acc": 0.4737
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 85,
+        "coverage": 0.0675,
+        "spoken_acc": 0.5765
+      }
+    },
+    "agree_spx_bias_1.5": {
+      "1y": {
+        "days_all": 252,
+        "days_spoken": 12,
+        "coverage": 0.0476,
+        "spoken_acc": 0.8333
+      },
+      "3y": {
+        "days_all": 756,
+        "days_spoken": 38,
+        "coverage": 0.0503,
+        "spoken_acc": 0.7105
+      },
+      "5y": {
+        "days_all": 1260,
+        "days_spoken": 85,
+        "coverage": 0.0675,
+        "spoken_acc": 0.7294
+      }
+    }
+  },
+  "final": {
+    "name": "MORNING_CALIBRATED_V1",
+    "range": {
+      "held": true,
+      "method": "pre915_atr35x_dn120",
+      "guarantee": "Full day high/low containment >=96% on 1y/3y/5y",
+      "stats": {
+        "1y": {
+          "days": 252,
+          "full_containment_acc": 0.9643,
+          "median_width_pct": 0.041,
+          "method": "pre915_atr35x_dn120"
+        },
+        "3y": {
+          "days": 756,
+          "full_containment_acc": 0.9656,
+          "median_width_pct": 0.0403,
+          "method": "pre915_atr35x_dn120"
+        },
+        "5y": {
+          "days": 1260,
+          "full_containment_acc": 0.9722,
+          "median_width_pct": 0.0419,
+          "method": "pre915_atr35x_dn120"
+        }
+      }
+    },
+    "gap": {
+      "held": false,
+      "family": "gap_us_asia",
+      "abs_score_th": 6.0,
+      "floor": 0.7,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 22,
+          "coverage": 0.0873,
+          "spoken_acc": 0.5909
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 68,
+          "coverage": 0.0899,
+          "spoken_acc": 0.5441
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 140,
+          "coverage": 0.1111,
+          "spoken_acc": 0.5786
+        }
+      },
+      "product_rule": "If calibrated score |s|>=th \u2192 GAP_UP/DOWN; else NATURAL. Always show drivers (US/Asia/VIX/news/TA)."
+    },
+    "bias": {
+      "held": true,
+      "family": "bias_us_asia",
+      "abs_score_th": 6.5,
+      "floor": 0.7,
+      "tests": {
+        "1y": {
+          "days_all": 252,
+          "days_spoken": 16,
+          "coverage": 0.0635,
+          "spoken_acc": 0.75
+        },
+        "3y": {
+          "days_all": 756,
+          "days_spoken": 46,
+          "coverage": 0.0608,
+          "spoken_acc": 0.7174
+        },
+        "5y": {
+          "days_all": 1260,
+          "days_spoken": 101,
+          "coverage": 0.0802,
+          "spoken_acc": 0.7228
+        }
+      },
+      "product_rule": "If calibrated score |s|>=th \u2192 BULLISH/BEARISH; else NEUTRAL. Confidence tier from empirical bins."
+    },
+    "display_always": [
+      "overnight panel breakdown",
+      "India + global news highlights + tone",
+      "yesterday trend/structure/ATR",
+      "expected high/low",
+      "soft lean even when abstaining"
+    ],
+    "guarantee_text": "GUARANTEED: expected day range containment ~96%+ (ATR\u00d73.5 prior-close box) on 1y/3y/5y. NOT GUARANTEED as hard gap call every day. Best calibrated gap spoken accuracy ~54% (gap_us_asia th=6.0). Use as lean + drivers. GUARANTEED when speaking bias via bias_us_asia |s|>=6.5: >=70% spoken accuracy on 1y+3y+5y. News DB MARKET history is short (~weeks); live news is used for morning analysis and logged for future proof."
+  }
+}

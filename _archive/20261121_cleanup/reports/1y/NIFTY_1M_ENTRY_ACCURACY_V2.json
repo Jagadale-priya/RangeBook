@@ -1,0 +1,3211 @@
+{
+  "ok": true,
+  "research_only": true,
+  "window": {
+    "day_lo": "2026-05-26",
+    "day_hi": "2026-11-16",
+    "n_days": 120,
+    "oos_from": "2026-08-20"
+  },
+  "insight": "Truth impulses: prev_opp~99% ctrl~84% !extreme~86%; room_ok~11% disp10~24% \u2014 avoid room/disp as required",
+  "gates": [
+    {
+      "name": "conf1 ctrl+!ext+ad+held+big_body",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 86,
+        "prec": 52.33,
+        "train_n": 41,
+        "train_prec": 53.66,
+        "oos_n": 45,
+        "oos_prec": 51.11,
+        "avg_mfe": 39.79,
+        "avg_mae": 39.67,
+        "t25": 47.67,
+        "m25": 55.81,
+        "clean15": 24.42
+      },
+      "all": {
+        "n": 230,
+        "prec": 46.52,
+        "train_n": 93,
+        "train_prec": 46.24,
+        "oos_n": 137,
+        "oos_prec": 46.72,
+        "avg_mfe": 40.63,
+        "avg_mae": 40.74,
+        "t25": 40.43,
+        "m25": 56.52,
+        "clean15": 23.04
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "11:30",
+          "side": "SELL",
+          "entry": 24028.45,
+          "mfe": 11.0,
+          "mae": 43.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "10:08",
+          "side": "BUY",
+          "entry": 23938.55,
+          "mfe": 37.85,
+          "mae": 19.65,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23901.9,
+          "mfe": 30.8,
+          "mae": 52.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "10:24",
+          "side": "SELL",
+          "entry": 23549.6,
+          "mfe": 31.9,
+          "mae": 69.65,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "11:20",
+          "side": "BUY",
+          "entry": 23323.85,
+          "mfe": 40.1,
+          "mae": 47.25,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "10:56",
+          "side": "SELL",
+          "entry": 23233.4,
+          "mfe": 38.6,
+          "mae": 11.45,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:18",
+          "side": "BUY",
+          "entry": 23447.9,
+          "mfe": 2.2,
+          "mae": 73.1,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "12:41",
+          "side": "SELL",
+          "entry": 23387.9,
+          "mfe": 95.75,
+          "mae": 2.25,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:31",
+          "side": "BUY",
+          "entry": 23195.8,
+          "mfe": 27.65,
+          "mae": 16.8,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:49",
+          "side": "SELL",
+          "entry": 23184.9,
+          "mfe": 53.5,
+          "mae": 31.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:14",
+          "side": "SELL",
+          "entry": 23317.0,
+          "mfe": 11.2,
+          "mae": 71.9,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "11:18",
+          "side": "BUY",
+          "entry": 23202.75,
+          "mfe": 104.3,
+          "mae": 3.4,
+          "m25_first": true,
+          "clean15": true
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+ad+held+big_body",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 99,
+        "prec": 50.51,
+        "train_n": 53,
+        "train_prec": 50.94,
+        "oos_n": 46,
+        "oos_prec": 50.0,
+        "avg_mfe": 40.19,
+        "avg_mae": 41.29,
+        "t25": 38.38,
+        "m25": 62.63,
+        "clean15": 27.27
+      },
+      "all": {
+        "n": 411,
+        "prec": 54.01,
+        "train_n": 178,
+        "train_prec": 52.81,
+        "oos_n": 233,
+        "oos_prec": 54.94,
+        "avg_mfe": 47.33,
+        "avg_mae": 38.5,
+        "t25": 43.07,
+        "m25": 66.18,
+        "clean15": 30.41
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "11:29",
+          "side": "SELL",
+          "entry": 24044.8,
+          "mfe": 27.35,
+          "mae": 27.1,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "12:01",
+          "side": "SELL",
+          "entry": 23930.2,
+          "mfe": 35.2,
+          "mae": 10.65,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "10:38",
+          "side": "SELL",
+          "entry": 23917.95,
+          "mfe": 42.6,
+          "mae": 4.6,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "11:32",
+          "side": "SELL",
+          "entry": 23549.35,
+          "mfe": 63.35,
+          "mae": 20.75,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "12:28",
+          "side": "SELL",
+          "entry": 23276.5,
+          "mfe": 5.55,
+          "mae": 222.75,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "10:44",
+          "side": "SELL",
+          "entry": 23227.15,
+          "mfe": 32.35,
+          "mae": 17.7,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:37",
+          "side": "SELL",
+          "entry": 23380.6,
+          "mfe": 21.15,
+          "mae": 65.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:39",
+          "side": "BUY",
+          "entry": 23463.75,
+          "mfe": 48.9,
+          "mae": 103.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:19",
+          "side": "BUY",
+          "entry": 23186.1,
+          "mfe": 37.35,
+          "mae": 22.85,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:48",
+          "side": "SELL",
+          "entry": 23206.15,
+          "mfe": 59.25,
+          "mae": 10.55,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:11",
+          "side": "SELL",
+          "entry": 23340.8,
+          "mfe": 35.0,
+          "mae": 48.1,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 23093.15,
+          "mfe": 0.0,
+          "mae": 114.65,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+held+big_body",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 105,
+        "prec": 50.48,
+        "train_n": 56,
+        "train_prec": 50.0,
+        "oos_n": 49,
+        "oos_prec": 51.02,
+        "avg_mfe": 39.91,
+        "avg_mae": 38.93,
+        "t25": 35.24,
+        "m25": 62.86,
+        "clean15": 25.71
+      },
+      "all": {
+        "n": 541,
+        "prec": 54.9,
+        "train_n": 237,
+        "train_prec": 54.43,
+        "oos_n": 304,
+        "oos_prec": 55.26,
+        "avg_mfe": 46.63,
+        "avg_mae": 39.07,
+        "t25": 41.04,
+        "m25": 66.73,
+        "clean15": 29.21
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "11:29",
+          "side": "SELL",
+          "entry": 24044.8,
+          "mfe": 27.35,
+          "mae": 27.1,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "12:01",
+          "side": "SELL",
+          "entry": 23930.2,
+          "mfe": 35.2,
+          "mae": 10.65,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:38",
+          "side": "SELL",
+          "entry": 23913.4,
+          "mfe": 42.3,
+          "mae": 41.1,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "10:43",
+          "side": "SELL",
+          "entry": 23542.95,
+          "mfe": 5.95,
+          "mae": 76.3,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "10:34",
+          "side": "BUY",
+          "entry": 23343.85,
+          "mfe": 20.1,
+          "mae": 62.3,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "10:44",
+          "side": "SELL",
+          "entry": 23227.15,
+          "mfe": 32.35,
+          "mae": 17.7,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:17",
+          "side": "BUY",
+          "entry": 23432.6,
+          "mfe": 17.5,
+          "mae": 57.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:39",
+          "side": "BUY",
+          "entry": 23463.75,
+          "mfe": 48.9,
+          "mae": 103.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:07",
+          "side": "BUY",
+          "entry": 23183.1,
+          "mfe": 40.35,
+          "mae": 19.85,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:30",
+          "side": "BUY",
+          "entry": 23237.15,
+          "mfe": 14.9,
+          "mae": 88.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:11",
+          "side": "SELL",
+          "entry": 23340.8,
+          "mfe": 35.0,
+          "mae": 48.1,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 23093.15,
+          "mfe": 0.0,
+          "mae": 114.65,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+held",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 119,
+        "prec": 50.42,
+        "train_n": 60,
+        "train_prec": 43.33,
+        "oos_n": 59,
+        "oos_prec": 57.63,
+        "avg_mfe": 39.43,
+        "avg_mae": 39.84,
+        "t25": 38.66,
+        "m25": 64.71,
+        "clean15": 23.53
+      },
+      "all": {
+        "n": 2533,
+        "prec": 46.51,
+        "train_n": 1262,
+        "train_prec": 43.58,
+        "oos_n": 1271,
+        "oos_prec": 49.41,
+        "avg_mfe": 37.24,
+        "avg_mae": 35.14,
+        "t25": 32.06,
+        "m25": 54.56,
+        "clean15": 28.07
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:56",
+          "side": "SELL",
+          "entry": 24029.55,
+          "mfe": 15.0,
+          "mae": 60.25,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:39",
+          "side": "SELL",
+          "entry": 23885.25,
+          "mfe": 16.75,
+          "mae": 85.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:38",
+          "side": "SELL",
+          "entry": 23913.4,
+          "mfe": 42.3,
+          "mae": 41.1,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:46",
+          "side": "SELL",
+          "entry": 23583.45,
+          "mfe": 65.75,
+          "mae": 11.95,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "10:34",
+          "side": "BUY",
+          "entry": 23343.85,
+          "mfe": 20.1,
+          "mae": 62.3,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:38",
+          "side": "SELL",
+          "entry": 23267.45,
+          "mfe": 55.35,
+          "mae": 32.1,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:01",
+          "side": "BUY",
+          "entry": 23406.25,
+          "mfe": 43.85,
+          "mae": 30.7,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:39",
+          "side": "BUY",
+          "entry": 23463.75,
+          "mfe": 48.9,
+          "mae": 103.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:01",
+          "side": "BUY",
+          "entry": 23188.05,
+          "mfe": 35.4,
+          "mae": 33.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:30",
+          "side": "BUY",
+          "entry": 23237.15,
+          "mfe": 14.9,
+          "mae": 88.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:00",
+          "side": "BUY",
+          "entry": 23368.9,
+          "mfe": 15.4,
+          "mae": 63.1,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 23093.15,
+          "mfe": 0.0,
+          "mae": 114.65,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "conf1 ctrl+!ext+ad+held+bounce+big_body",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 74,
+        "prec": 50.0,
+        "train_n": 34,
+        "train_prec": 50.0,
+        "oos_n": 40,
+        "oos_prec": 50.0,
+        "avg_mfe": 41.28,
+        "avg_mae": 38.96,
+        "t25": 43.24,
+        "m25": 54.05,
+        "clean15": 29.73
+      },
+      "all": {
+        "n": 123,
+        "prec": 47.15,
+        "train_n": 54,
+        "train_prec": 53.7,
+        "oos_n": 69,
+        "oos_prec": 42.03,
+        "avg_mfe": 39.9,
+        "avg_mae": 41.73,
+        "t25": 40.65,
+        "m25": 54.47,
+        "clean15": 26.83
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "11:30",
+          "side": "SELL",
+          "entry": 24028.45,
+          "mfe": 11.0,
+          "mae": 43.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23901.9,
+          "mfe": 30.8,
+          "mae": 52.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "10:24",
+          "side": "SELL",
+          "entry": 23549.6,
+          "mfe": 31.9,
+          "mae": 69.65,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "11:20",
+          "side": "BUY",
+          "entry": 23323.85,
+          "mfe": 40.1,
+          "mae": 47.25,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "10:56",
+          "side": "SELL",
+          "entry": 23233.4,
+          "mfe": 38.6,
+          "mae": 11.45,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "11:06",
+          "side": "SELL",
+          "entry": 23377.4,
+          "mfe": 17.95,
+          "mae": 84.9,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "12:41",
+          "side": "SELL",
+          "entry": 23387.9,
+          "mfe": 95.75,
+          "mae": 2.25,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:31",
+          "side": "BUY",
+          "entry": 23195.8,
+          "mfe": 27.65,
+          "mae": 16.8,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "12:22",
+          "side": "BUY",
+          "entry": 23208.3,
+          "mfe": 18.35,
+          "mae": 30.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:58",
+          "side": "BUY",
+          "entry": 23371.6,
+          "mfe": 38.2,
+          "mae": 11.65,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "11:18",
+          "side": "BUY",
+          "entry": 23202.75,
+          "mfe": 104.3,
+          "mae": 3.4,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-16",
+          "hm": "10:07",
+          "side": "SELL",
+          "entry": 23900.65,
+          "mfe": 5.0,
+          "mae": 77.15,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "conf1 ctrl+!ext+held+bounce+big_body",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 75,
+        "prec": 49.33,
+        "train_n": 34,
+        "train_prec": 50.0,
+        "oos_n": 41,
+        "oos_prec": 48.78,
+        "avg_mfe": 43.02,
+        "avg_mae": 40.37,
+        "t25": 41.33,
+        "m25": 57.33,
+        "clean15": 28.0
+      },
+      "all": {
+        "n": 139,
+        "prec": 49.64,
+        "train_n": 57,
+        "train_prec": 52.63,
+        "oos_n": 82,
+        "oos_prec": 47.56,
+        "avg_mfe": 43.37,
+        "avg_mae": 42.2,
+        "t25": 41.73,
+        "m25": 58.27,
+        "clean15": 27.34
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "11:30",
+          "side": "SELL",
+          "entry": 24028.45,
+          "mfe": 11.0,
+          "mae": 43.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23901.9,
+          "mfe": 30.8,
+          "mae": 52.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "10:24",
+          "side": "SELL",
+          "entry": 23549.6,
+          "mfe": 31.9,
+          "mae": 69.65,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "11:20",
+          "side": "BUY",
+          "entry": 23323.85,
+          "mfe": 40.1,
+          "mae": 47.25,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "10:56",
+          "side": "SELL",
+          "entry": 23233.4,
+          "mfe": 38.6,
+          "mae": 11.45,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "11:06",
+          "side": "SELL",
+          "entry": 23377.4,
+          "mfe": 17.95,
+          "mae": 84.9,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "10:17",
+          "side": "BUY",
+          "entry": 23480.4,
+          "mfe": 17.1,
+          "mae": 148.6,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:31",
+          "side": "BUY",
+          "entry": 23195.8,
+          "mfe": 27.65,
+          "mae": 16.8,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "12:22",
+          "side": "BUY",
+          "entry": 23208.3,
+          "mfe": 18.35,
+          "mae": 30.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:58",
+          "side": "BUY",
+          "entry": 23371.6,
+          "mfe": 38.2,
+          "mae": 11.65,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "11:18",
+          "side": "BUY",
+          "entry": 23202.75,
+          "mfe": 104.3,
+          "mae": 3.4,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-16",
+          "hm": "10:07",
+          "side": "SELL",
+          "entry": 23900.65,
+          "mfe": 5.0,
+          "mae": 77.15,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+ad+held+bounce+big_body",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 86,
+        "prec": 48.84,
+        "train_n": 45,
+        "train_prec": 48.89,
+        "oos_n": 41,
+        "oos_prec": 48.78,
+        "avg_mfe": 40.36,
+        "avg_mae": 41.42,
+        "t25": 33.72,
+        "m25": 61.63,
+        "clean15": 27.91
+      },
+      "all": {
+        "n": 237,
+        "prec": 49.37,
+        "train_n": 113,
+        "train_prec": 46.9,
+        "oos_n": 124,
+        "oos_prec": 51.61,
+        "avg_mfe": 45.4,
+        "avg_mae": 41.02,
+        "t25": 36.71,
+        "m25": 62.87,
+        "clean15": 29.96
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "11:29",
+          "side": "SELL",
+          "entry": 24044.8,
+          "mfe": 27.35,
+          "mae": 27.1,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "10:38",
+          "side": "SELL",
+          "entry": 23917.95,
+          "mfe": 42.6,
+          "mae": 4.6,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "11:32",
+          "side": "SELL",
+          "entry": 23549.35,
+          "mfe": 63.35,
+          "mae": 20.75,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "12:28",
+          "side": "SELL",
+          "entry": 23276.5,
+          "mfe": 5.55,
+          "mae": 222.75,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "10:44",
+          "side": "SELL",
+          "entry": 23227.15,
+          "mfe": 32.35,
+          "mae": 17.7,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:37",
+          "side": "SELL",
+          "entry": 23380.6,
+          "mfe": 21.15,
+          "mae": 65.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:39",
+          "side": "BUY",
+          "entry": 23463.75,
+          "mfe": 48.9,
+          "mae": 103.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:19",
+          "side": "BUY",
+          "entry": 23186.1,
+          "mfe": 37.35,
+          "mae": 22.85,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "13:15",
+          "side": "BUY",
+          "entry": 23222.1,
+          "mfe": 1.1,
+          "mae": 46.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:11",
+          "side": "SELL",
+          "entry": 23340.8,
+          "mfe": 35.0,
+          "mae": 48.1,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "10:02",
+          "side": "SELL",
+          "entry": 23122.9,
+          "mfe": 20.05,
+          "mae": 91.15,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-15",
+          "hm": "11:33",
+          "side": "SELL",
+          "entry": 23963.75,
+          "mfe": 71.4,
+          "mae": 7.45,
+          "m25_first": true,
+          "clean15": true
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 120,
+        "prec": 48.33,
+        "train_n": 60,
+        "train_prec": 43.33,
+        "oos_n": 60,
+        "oos_prec": 53.33,
+        "avg_mfe": 41.82,
+        "avg_mae": 46.36,
+        "t25": 16.67,
+        "m25": 58.33,
+        "clean15": 25.0
+      },
+      "all": {
+        "n": 10692,
+        "prec": 44.44,
+        "train_n": 5324,
+        "train_prec": 43.88,
+        "oos_n": 5368,
+        "oos_prec": 44.99,
+        "avg_mfe": 35.87,
+        "avg_mae": 35.92,
+        "t25": 14.61,
+        "m25": 52.1,
+        "clean15": 27.24
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:30",
+          "side": "SELL",
+          "entry": 24031.65,
+          "mfe": 17.1,
+          "mae": 45.55,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:38",
+          "side": "BUY",
+          "entry": 23887.85,
+          "mfe": 83.2,
+          "mae": 19.35,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:33",
+          "side": "BUY",
+          "entry": 23904.2,
+          "mfe": 50.3,
+          "mae": 33.1,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:30",
+          "side": "BUY",
+          "entry": 23605.95,
+          "mfe": 17.85,
+          "mae": 70.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "09:32",
+          "side": "SELL",
+          "entry": 23274.1,
+          "mfe": 12.9,
+          "mae": 101.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:31",
+          "side": "BUY",
+          "entry": 23295.3,
+          "mfe": 4.5,
+          "mae": 69.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "09:35",
+          "side": "BUY",
+          "entry": 23333.5,
+          "mfe": 116.6,
+          "mae": 25.7,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:32",
+          "side": "SELL",
+          "entry": 23455.35,
+          "mfe": 31.5,
+          "mae": 57.3,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 23165.45,
+          "mfe": 40.2,
+          "mae": 50.55,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:30",
+          "side": "BUY",
+          "entry": 23237.15,
+          "mfe": 14.9,
+          "mae": 88.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "09:30",
+          "side": "SELL",
+          "entry": 23336.1,
+          "mfe": 30.3,
+          "mae": 48.35,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:30",
+          "side": "SELL",
+          "entry": 23108.05,
+          "mfe": 14.9,
+          "mae": 99.75,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "conf1 ctrl+!ext+ad+held+bounce+disp08",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 99,
+        "prec": 47.47,
+        "train_n": 49,
+        "train_prec": 46.94,
+        "oos_n": 50,
+        "oos_prec": 48.0,
+        "avg_mfe": 35.02,
+        "avg_mae": 39.31,
+        "t25": 37.37,
+        "m25": 53.54,
+        "clean15": 28.28
+      },
+      "all": {
+        "n": 196,
+        "prec": 44.9,
+        "train_n": 101,
+        "train_prec": 44.55,
+        "oos_n": 95,
+        "oos_prec": 45.26,
+        "avg_mfe": 36.46,
+        "avg_mae": 36.82,
+        "t25": 35.2,
+        "m25": 51.02,
+        "clean15": 26.53
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "11:30",
+          "side": "SELL",
+          "entry": 24028.45,
+          "mfe": 11.0,
+          "mae": 43.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "12:58",
+          "side": "SELL",
+          "entry": 23911.4,
+          "mfe": 29.35,
+          "mae": 12.05,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23901.9,
+          "mfe": 30.8,
+          "mae": 52.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "10:24",
+          "side": "SELL",
+          "entry": 23549.6,
+          "mfe": 31.9,
+          "mae": 69.65,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "11:20",
+          "side": "BUY",
+          "entry": 23323.85,
+          "mfe": 40.1,
+          "mae": 47.25,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "11:06",
+          "side": "SELL",
+          "entry": 23377.4,
+          "mfe": 17.95,
+          "mae": 84.9,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:31",
+          "side": "BUY",
+          "entry": 23195.8,
+          "mfe": 27.65,
+          "mae": 16.8,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "10:32",
+          "side": "SELL",
+          "entry": 23153.7,
+          "mfe": 49.25,
+          "mae": 14.35,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:58",
+          "side": "BUY",
+          "entry": 23371.6,
+          "mfe": 38.2,
+          "mae": 11.65,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "11:18",
+          "side": "BUY",
+          "entry": 23202.75,
+          "mfe": 104.3,
+          "mae": 3.4,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-16",
+          "hm": "10:07",
+          "side": "SELL",
+          "entry": 23900.65,
+          "mfe": 5.0,
+          "mae": 77.15,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-17",
+          "hm": "13:51",
+          "side": "SELL",
+          "entry": 24034.4,
+          "mfe": 18.6,
+          "mae": 19.05,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "conf1 ctrl+!ext",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 120,
+        "prec": 45.83,
+        "train_n": 60,
+        "train_prec": 43.33,
+        "oos_n": 60,
+        "oos_prec": 48.33,
+        "avg_mfe": 37.99,
+        "avg_mae": 48.73,
+        "t25": 25.0,
+        "m25": 56.67,
+        "clean15": 22.5
+      },
+      "all": {
+        "n": 5500,
+        "prec": 43.49,
+        "train_n": 2735,
+        "train_prec": 41.86,
+        "oos_n": 2765,
+        "oos_prec": 45.1,
+        "avg_mfe": 35.39,
+        "avg_mae": 35.16,
+        "t25": 17.95,
+        "m25": 50.82,
+        "clean15": 26.42
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 24022.5,
+          "mfe": 7.95,
+          "mae": 63.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:34",
+          "side": "BUY",
+          "entry": 23883.1,
+          "mfe": 87.9,
+          "mae": 14.6,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23901.9,
+          "mfe": 30.8,
+          "mae": 52.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:38",
+          "side": "BUY",
+          "entry": 23596.75,
+          "mfe": 27.05,
+          "mae": 79.05,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "09:40",
+          "side": "SELL",
+          "entry": 23293.9,
+          "mfe": 28.25,
+          "mae": 82.05,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23261.85,
+          "mfe": 49.75,
+          "mae": 37.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "09:36",
+          "side": "BUY",
+          "entry": 23362.7,
+          "mfe": 87.4,
+          "mae": 54.9,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:33",
+          "side": "SELL",
+          "entry": 23454.95,
+          "mfe": 31.1,
+          "mae": 57.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "09:36",
+          "side": "SELL",
+          "entry": 23147.4,
+          "mfe": 22.15,
+          "mae": 68.6,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:31",
+          "side": "BUY",
+          "entry": 23243.4,
+          "mfe": 8.65,
+          "mae": 94.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "09:36",
+          "side": "SELL",
+          "entry": 23338.8,
+          "mfe": 33.0,
+          "mae": 45.65,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:33",
+          "side": "SELL",
+          "entry": 23099.55,
+          "mfe": 6.4,
+          "mae": 108.25,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+held+bounce",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 119,
+        "prec": 44.54,
+        "train_n": 60,
+        "train_prec": 36.67,
+        "oos_n": 59,
+        "oos_prec": 52.54,
+        "avg_mfe": 39.07,
+        "avg_mae": 39.22,
+        "t25": 30.25,
+        "m25": 60.5,
+        "clean15": 22.69
+      },
+      "all": {
+        "n": 1514,
+        "prec": 45.11,
+        "train_n": 761,
+        "train_prec": 42.84,
+        "oos_n": 753,
+        "oos_prec": 47.41,
+        "avg_mfe": 35.67,
+        "avg_mae": 35.97,
+        "t25": 29.33,
+        "m25": 52.84,
+        "clean15": 27.54
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:56",
+          "side": "SELL",
+          "entry": 24029.55,
+          "mfe": 15.0,
+          "mae": 60.25,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:39",
+          "side": "SELL",
+          "entry": 23885.25,
+          "mfe": 16.75,
+          "mae": 85.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:38",
+          "side": "SELL",
+          "entry": 23913.4,
+          "mfe": 42.3,
+          "mae": 41.1,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:46",
+          "side": "SELL",
+          "entry": 23583.45,
+          "mfe": 65.75,
+          "mae": 11.95,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "11:01",
+          "side": "SELL",
+          "entry": 23301.6,
+          "mfe": 25.0,
+          "mae": 62.35,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:45",
+          "side": "SELL",
+          "entry": 23264.65,
+          "mfe": 52.55,
+          "mae": 34.9,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:01",
+          "side": "BUY",
+          "entry": 23406.25,
+          "mfe": 43.85,
+          "mae": 30.7,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:39",
+          "side": "BUY",
+          "entry": 23463.75,
+          "mfe": 48.9,
+          "mae": 103.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:01",
+          "side": "BUY",
+          "entry": 23188.05,
+          "mfe": 35.4,
+          "mae": 33.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:30",
+          "side": "BUY",
+          "entry": 23237.15,
+          "mfe": 14.9,
+          "mae": 88.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:00",
+          "side": "BUY",
+          "entry": 23368.9,
+          "mfe": 15.4,
+          "mae": 63.1,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "10:02",
+          "side": "SELL",
+          "entry": 23122.9,
+          "mfe": 20.05,
+          "mae": 91.15,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "conf1 ctrl+!ext+ad",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 119,
+        "prec": 44.54,
+        "train_n": 60,
+        "train_prec": 41.67,
+        "oos_n": 59,
+        "oos_prec": 47.46,
+        "avg_mfe": 37.88,
+        "avg_mae": 46.58,
+        "t25": 28.57,
+        "m25": 55.46,
+        "clean15": 17.65
+      },
+      "all": {
+        "n": 3875,
+        "prec": 43.2,
+        "train_n": 1939,
+        "train_prec": 41.41,
+        "oos_n": 1936,
+        "oos_prec": 44.99,
+        "avg_mfe": 35.37,
+        "avg_mae": 34.97,
+        "t25": 20.36,
+        "m25": 50.19,
+        "clean15": 26.45
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 24022.5,
+          "mfe": 7.95,
+          "mae": 63.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:46",
+          "side": "SELL",
+          "entry": 23876.2,
+          "mfe": 7.7,
+          "mae": 94.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23901.9,
+          "mfe": 30.8,
+          "mae": 52.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:47",
+          "side": "SELL",
+          "entry": 23571.85,
+          "mfe": 54.15,
+          "mae": 23.55,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "09:40",
+          "side": "SELL",
+          "entry": 23293.9,
+          "mfe": 28.25,
+          "mae": 82.05,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23261.85,
+          "mfe": 49.75,
+          "mae": 37.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "09:36",
+          "side": "BUY",
+          "entry": 23362.7,
+          "mfe": 87.4,
+          "mae": 54.9,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:33",
+          "side": "SELL",
+          "entry": 23454.95,
+          "mfe": 31.1,
+          "mae": 57.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "09:36",
+          "side": "SELL",
+          "entry": 23147.4,
+          "mfe": 22.15,
+          "mae": 68.6,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:31",
+          "side": "BUY",
+          "entry": 23243.4,
+          "mfe": 8.65,
+          "mae": 94.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "09:57",
+          "side": "SELL",
+          "entry": 23375.3,
+          "mfe": 69.5,
+          "mae": 2.2,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:33",
+          "side": "SELL",
+          "entry": 23099.55,
+          "mfe": 6.4,
+          "mae": 108.25,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+held+ad",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 119,
+        "prec": 43.7,
+        "train_n": 60,
+        "train_prec": 38.33,
+        "oos_n": 59,
+        "oos_prec": 49.15,
+        "avg_mfe": 35.88,
+        "avg_mae": 40.62,
+        "t25": 35.29,
+        "m25": 59.66,
+        "clean15": 21.85
+      },
+      "all": {
+        "n": 1679,
+        "prec": 46.69,
+        "train_n": 829,
+        "train_prec": 44.39,
+        "oos_n": 850,
+        "oos_prec": 48.94,
+        "avg_mfe": 38.05,
+        "avg_mae": 35.49,
+        "t25": 33.53,
+        "m25": 55.21,
+        "clean15": 28.35
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:56",
+          "side": "SELL",
+          "entry": 24029.55,
+          "mfe": 15.0,
+          "mae": 60.25,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:39",
+          "side": "SELL",
+          "entry": 23885.25,
+          "mfe": 16.75,
+          "mae": 85.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:40",
+          "side": "SELL",
+          "entry": 23917.45,
+          "mfe": 46.35,
+          "mae": 37.05,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:46",
+          "side": "SELL",
+          "entry": 23583.45,
+          "mfe": 65.75,
+          "mae": 11.95,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "11:01",
+          "side": "SELL",
+          "entry": 23301.6,
+          "mfe": 25.0,
+          "mae": 62.35,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:38",
+          "side": "SELL",
+          "entry": 23267.45,
+          "mfe": 55.35,
+          "mae": 32.1,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:37",
+          "side": "SELL",
+          "entry": 23380.6,
+          "mfe": 21.15,
+          "mae": 65.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:39",
+          "side": "BUY",
+          "entry": 23463.75,
+          "mfe": 48.9,
+          "mae": 103.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:19",
+          "side": "BUY",
+          "entry": 23186.1,
+          "mfe": 37.35,
+          "mae": 22.85,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:48",
+          "side": "SELL",
+          "entry": 23206.15,
+          "mfe": 59.25,
+          "mae": 10.55,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:11",
+          "side": "SELL",
+          "entry": 23340.8,
+          "mfe": 35.0,
+          "mae": 48.1,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 23093.15,
+          "mfe": 0.0,
+          "mae": 114.65,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+ad",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 119,
+        "prec": 43.7,
+        "train_n": 60,
+        "train_prec": 45.0,
+        "oos_n": 59,
+        "oos_prec": 42.37,
+        "avg_mfe": 42.97,
+        "avg_mae": 42.23,
+        "t25": 20.17,
+        "m25": 57.14,
+        "clean15": 23.53
+      },
+      "all": {
+        "n": 5659,
+        "prec": 44.25,
+        "train_n": 2793,
+        "train_prec": 43.36,
+        "oos_n": 2866,
+        "oos_prec": 45.12,
+        "avg_mfe": 36.72,
+        "avg_mae": 36.0,
+        "t25": 18.32,
+        "m25": 52.04,
+        "clean15": 27.51
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:34",
+          "side": "SELL",
+          "entry": 24030.2,
+          "mfe": 15.65,
+          "mae": 49.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:38",
+          "side": "BUY",
+          "entry": 23887.85,
+          "mfe": 83.2,
+          "mae": 19.35,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:35",
+          "side": "BUY",
+          "entry": 23916.05,
+          "mfe": 38.45,
+          "mae": 44.95,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:30",
+          "side": "BUY",
+          "entry": 23605.95,
+          "mfe": 17.85,
+          "mae": 70.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "09:48",
+          "side": "BUY",
+          "entry": 23276.85,
+          "mfe": 99.1,
+          "mae": 11.2,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:31",
+          "side": "BUY",
+          "entry": 23295.3,
+          "mfe": 4.5,
+          "mae": 69.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "09:35",
+          "side": "BUY",
+          "entry": 23333.5,
+          "mfe": 116.6,
+          "mae": 25.7,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:36",
+          "side": "SELL",
+          "entry": 23462.85,
+          "mfe": 74.3,
+          "mae": 49.8,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "09:42",
+          "side": "BUY",
+          "entry": 23159.5,
+          "mfe": 63.95,
+          "mae": 34.25,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 23236.4,
+          "mfe": 87.7,
+          "mae": 7.55,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "09:39",
+          "side": "SELL",
+          "entry": 23337.8,
+          "mfe": 32.0,
+          "mae": 46.65,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:30",
+          "side": "SELL",
+          "entry": 23108.05,
+          "mfe": 14.9,
+          "mae": 99.75,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "conf1 ctrl+!ext+ad+bounce+big_body",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 110,
+        "prec": 43.64,
+        "train_n": 56,
+        "train_prec": 42.86,
+        "oos_n": 54,
+        "oos_prec": 44.44,
+        "avg_mfe": 35.34,
+        "avg_mae": 42.59,
+        "t25": 25.45,
+        "m25": 50.91,
+        "clean15": 26.36
+      },
+      "all": {
+        "n": 514,
+        "prec": 49.61,
+        "train_n": 236,
+        "train_prec": 50.42,
+        "oos_n": 278,
+        "oos_prec": 48.92,
+        "avg_mfe": 40.92,
+        "avg_mae": 44.37,
+        "t25": 30.54,
+        "m25": 57.0,
+        "clean15": 24.9
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "10:04",
+          "side": "BUY",
+          "entry": 24048.75,
+          "mfe": 41.05,
+          "mae": 15.85,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:46",
+          "side": "SELL",
+          "entry": 23876.2,
+          "mfe": 7.7,
+          "mae": 94.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23901.9,
+          "mfe": 30.8,
+          "mae": 52.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "10:24",
+          "side": "SELL",
+          "entry": 23549.6,
+          "mfe": 31.9,
+          "mae": 69.65,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "10:14",
+          "side": "SELL",
+          "entry": 23281.4,
+          "mfe": 15.75,
+          "mae": 94.55,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "10:08",
+          "side": "SELL",
+          "entry": 23262.65,
+          "mfe": 58.3,
+          "mae": 20.55,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:45",
+          "side": "BUY",
+          "entry": 23423.05,
+          "mfe": 39.25,
+          "mae": 63.6,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:53",
+          "side": "BUY",
+          "entry": 23463.3,
+          "mfe": 49.35,
+          "mae": 131.5,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:04",
+          "side": "SELL",
+          "entry": 23169.8,
+          "mfe": 15.45,
+          "mae": 53.65,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "11:18",
+          "side": "BUY",
+          "entry": 23155.6,
+          "mfe": 48.9,
+          "mae": 51.15,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:58",
+          "side": "BUY",
+          "entry": 23371.6,
+          "mfe": 38.2,
+          "mae": 11.65,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:48",
+          "side": "SELL",
+          "entry": 23139.7,
+          "mfe": 36.85,
+          "mae": 74.35,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+ad+bounce",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 119,
+        "prec": 42.86,
+        "train_n": 60,
+        "train_prec": 41.67,
+        "oos_n": 59,
+        "oos_prec": 44.07,
+        "avg_mfe": 41.55,
+        "avg_mae": 41.84,
+        "t25": 19.33,
+        "m25": 57.14,
+        "clean15": 21.85
+      },
+      "all": {
+        "n": 3575,
+        "prec": 43.08,
+        "train_n": 1799,
+        "train_prec": 42.08,
+        "oos_n": 1776,
+        "oos_prec": 44.09,
+        "avg_mfe": 35.84,
+        "avg_mae": 36.09,
+        "t25": 17.59,
+        "m25": 50.46,
+        "clean15": 26.97
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:51",
+          "side": "SELL",
+          "entry": 24049.35,
+          "mfe": 34.8,
+          "mae": 40.45,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:38",
+          "side": "BUY",
+          "entry": 23887.85,
+          "mfe": 83.2,
+          "mae": 19.35,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:35",
+          "side": "BUY",
+          "entry": 23916.05,
+          "mfe": 38.45,
+          "mae": 44.95,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:33",
+          "side": "SELL",
+          "entry": 23607.2,
+          "mfe": 83.55,
+          "mae": 16.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "09:48",
+          "side": "BUY",
+          "entry": 23276.85,
+          "mfe": 99.1,
+          "mae": 11.2,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:31",
+          "side": "BUY",
+          "entry": 23295.3,
+          "mfe": 4.5,
+          "mae": 69.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:16",
+          "side": "SELL",
+          "entry": 23420.8,
+          "mfe": 46.0,
+          "mae": 29.3,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:36",
+          "side": "SELL",
+          "entry": 23462.85,
+          "mfe": 74.3,
+          "mae": 49.8,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:00",
+          "side": "SELL",
+          "entry": 23181.15,
+          "mfe": 26.8,
+          "mae": 42.3,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 23236.4,
+          "mfe": 87.7,
+          "mae": 7.55,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:07",
+          "side": "BUY",
+          "entry": 23353.25,
+          "mfe": 31.05,
+          "mae": 47.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:30",
+          "side": "SELL",
+          "entry": 23108.05,
+          "mfe": 14.9,
+          "mae": 99.75,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+big_body",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 120,
+        "prec": 42.5,
+        "train_n": 60,
+        "train_prec": 33.33,
+        "oos_n": 60,
+        "oos_prec": 51.67,
+        "avg_mfe": 40.7,
+        "avg_mae": 43.27,
+        "t25": 20.83,
+        "m25": 56.67,
+        "clean15": 25.0
+      },
+      "all": {
+        "n": 1910,
+        "prec": 47.7,
+        "train_n": 815,
+        "train_prec": 47.36,
+        "oos_n": 1095,
+        "oos_prec": 47.95,
+        "avg_mfe": 43.11,
+        "avg_mae": 42.98,
+        "t25": 20.42,
+        "m25": 59.63,
+        "clean15": 26.34
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:34",
+          "side": "SELL",
+          "entry": 24030.2,
+          "mfe": 15.65,
+          "mae": 49.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:38",
+          "side": "BUY",
+          "entry": 23887.85,
+          "mfe": 83.2,
+          "mae": 19.35,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:35",
+          "side": "BUY",
+          "entry": 23916.05,
+          "mfe": 38.45,
+          "mae": 44.95,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:30",
+          "side": "BUY",
+          "entry": 23605.95,
+          "mfe": 17.85,
+          "mae": 70.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "09:32",
+          "side": "SELL",
+          "entry": 23274.1,
+          "mfe": 12.9,
+          "mae": 101.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:31",
+          "side": "BUY",
+          "entry": 23295.3,
+          "mfe": 4.5,
+          "mae": 69.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "09:41",
+          "side": "BUY",
+          "entry": 23324.4,
+          "mfe": 125.7,
+          "mae": 1.25,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:32",
+          "side": "SELL",
+          "entry": 23455.35,
+          "mfe": 31.5,
+          "mae": 57.3,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 23165.45,
+          "mfe": 40.2,
+          "mae": 50.55,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:30",
+          "side": "BUY",
+          "entry": 23237.15,
+          "mfe": 14.9,
+          "mae": 88.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "09:35",
+          "side": "SELL",
+          "entry": 23340.5,
+          "mfe": 34.7,
+          "mae": 43.95,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:30",
+          "side": "SELL",
+          "entry": 23108.05,
+          "mfe": 14.9,
+          "mae": 99.75,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "conf1 ctrl+!ext+ad+held",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 119,
+        "prec": 42.02,
+        "train_n": 60,
+        "train_prec": 35.0,
+        "oos_n": 59,
+        "oos_prec": 49.15,
+        "avg_mfe": 32.46,
+        "avg_mae": 40.98,
+        "t25": 36.97,
+        "m25": 49.58,
+        "clean15": 18.49
+      },
+      "all": {
+        "n": 1000,
+        "prec": 43.7,
+        "train_n": 500,
+        "train_prec": 37.8,
+        "oos_n": 500,
+        "oos_prec": 49.6,
+        "avg_mfe": 37.07,
+        "avg_mae": 34.75,
+        "t25": 33.0,
+        "m25": 52.0,
+        "clean15": 27.2
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:57",
+          "side": "SELL",
+          "entry": 24026.75,
+          "mfe": 12.2,
+          "mae": 63.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "10:08",
+          "side": "BUY",
+          "entry": 23938.55,
+          "mfe": 37.85,
+          "mae": 19.65,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23901.9,
+          "mfe": 30.8,
+          "mae": 52.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:47",
+          "side": "SELL",
+          "entry": 23571.85,
+          "mfe": 54.15,
+          "mae": 23.55,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "11:02",
+          "side": "SELL",
+          "entry": 23299.9,
+          "mfe": 23.3,
+          "mae": 64.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23261.85,
+          "mfe": 49.75,
+          "mae": 37.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:18",
+          "side": "BUY",
+          "entry": 23447.9,
+          "mfe": 2.2,
+          "mae": 73.1,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:58",
+          "side": "SELL",
+          "entry": 23446.2,
+          "mfe": 114.4,
+          "mae": 66.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:08",
+          "side": "BUY",
+          "entry": 23190.7,
+          "mfe": 32.75,
+          "mae": 27.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:31",
+          "side": "BUY",
+          "entry": 23243.4,
+          "mfe": 8.65,
+          "mae": 94.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:14",
+          "side": "SELL",
+          "entry": 23317.0,
+          "mfe": 11.2,
+          "mae": 71.9,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "10:03",
+          "side": "SELL",
+          "entry": 23119.25,
+          "mfe": 16.4,
+          "mae": 94.8,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+ad+big_body",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 119,
+        "prec": 42.02,
+        "train_n": 60,
+        "train_prec": 38.33,
+        "oos_n": 59,
+        "oos_prec": 45.76,
+        "avg_mfe": 37.98,
+        "avg_mae": 43.59,
+        "t25": 19.33,
+        "m25": 55.46,
+        "clean15": 21.85
+      },
+      "all": {
+        "n": 1148,
+        "prec": 46.95,
+        "train_n": 483,
+        "train_prec": 47.0,
+        "oos_n": 665,
+        "oos_prec": 46.92,
+        "avg_mfe": 42.98,
+        "avg_mae": 43.53,
+        "t25": 25.61,
+        "m25": 58.36,
+        "clean15": 25.87
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:34",
+          "side": "SELL",
+          "entry": 24030.2,
+          "mfe": 15.65,
+          "mae": 49.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:38",
+          "side": "BUY",
+          "entry": 23887.85,
+          "mfe": 83.2,
+          "mae": 19.35,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:35",
+          "side": "BUY",
+          "entry": 23916.05,
+          "mfe": 38.45,
+          "mae": 44.95,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:30",
+          "side": "BUY",
+          "entry": 23605.95,
+          "mfe": 17.85,
+          "mae": 70.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "10:06",
+          "side": "SELL",
+          "entry": 23305.25,
+          "mfe": 39.6,
+          "mae": 70.7,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:31",
+          "side": "BUY",
+          "entry": 23295.3,
+          "mfe": 4.5,
+          "mae": 69.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:16",
+          "side": "SELL",
+          "entry": 23420.8,
+          "mfe": 46.0,
+          "mae": 29.3,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:36",
+          "side": "SELL",
+          "entry": 23462.85,
+          "mfe": 74.3,
+          "mae": 49.8,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "09:44",
+          "side": "BUY",
+          "entry": 23159.15,
+          "mfe": 64.3,
+          "mae": 33.9,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:37",
+          "side": "SELL",
+          "entry": 23220.35,
+          "mfe": 72.65,
+          "mae": 1.85,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:07",
+          "side": "BUY",
+          "entry": 23353.25,
+          "mfe": 31.05,
+          "mae": 47.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:30",
+          "side": "SELL",
+          "entry": 23108.05,
+          "mfe": 14.9,
+          "mae": 99.75,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "ign0 prev_opp+ctrl+!ext+bounce",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 120,
+        "prec": 40.0,
+        "train_n": 60,
+        "train_prec": 31.67,
+        "oos_n": 60,
+        "oos_prec": 48.33,
+        "avg_mfe": 37.95,
+        "avg_mae": 48.01,
+        "t25": 11.67,
+        "m25": 53.33,
+        "clean15": 18.33
+      },
+      "all": {
+        "n": 6626,
+        "prec": 43.93,
+        "train_n": 3378,
+        "train_prec": 42.9,
+        "oos_n": 3248,
+        "oos_prec": 45.01,
+        "avg_mfe": 35.38,
+        "avg_mae": 35.78,
+        "t25": 14.28,
+        "m25": 51.39,
+        "clean15": 27.23
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:30",
+          "side": "SELL",
+          "entry": 24031.65,
+          "mfe": 17.1,
+          "mae": 45.55,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "09:38",
+          "side": "BUY",
+          "entry": 23887.85,
+          "mfe": 83.2,
+          "mae": 19.35,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:33",
+          "side": "BUY",
+          "entry": 23904.2,
+          "mfe": 50.3,
+          "mae": 33.1,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:33",
+          "side": "SELL",
+          "entry": 23607.2,
+          "mfe": 83.55,
+          "mae": 16.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "09:32",
+          "side": "SELL",
+          "entry": 23274.1,
+          "mfe": 12.9,
+          "mae": 101.85,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "09:31",
+          "side": "BUY",
+          "entry": 23295.3,
+          "mfe": 4.5,
+          "mae": 69.8,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "09:37",
+          "side": "SELL",
+          "entry": 23359.7,
+          "mfe": 51.9,
+          "mae": 90.4,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:32",
+          "side": "SELL",
+          "entry": 23455.35,
+          "mfe": 31.5,
+          "mae": 57.3,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "09:38",
+          "side": "BUY",
+          "entry": 23146.0,
+          "mfe": 70.0,
+          "mae": 20.75,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:30",
+          "side": "BUY",
+          "entry": 23237.15,
+          "mfe": 14.9,
+          "mae": 88.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:00",
+          "side": "BUY",
+          "entry": 23368.9,
+          "mfe": 15.4,
+          "mae": 63.1,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "09:30",
+          "side": "SELL",
+          "entry": 23108.05,
+          "mfe": 14.9,
+          "mae": 99.75,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    },
+    {
+      "name": "conf1 ctrl+!ext+ad+held+bounce",
+      "verdict_1d": "WEAK",
+      "one_per_day": {
+        "n": 118,
+        "prec": 37.29,
+        "train_n": 59,
+        "train_prec": 33.9,
+        "oos_n": 59,
+        "oos_prec": 40.68,
+        "avg_mfe": 33.49,
+        "avg_mae": 37.21,
+        "t25": 31.36,
+        "m25": 48.31,
+        "clean15": 20.34
+      },
+      "all": {
+        "n": 602,
+        "prec": 43.52,
+        "train_n": 308,
+        "train_prec": 37.66,
+        "oos_n": 294,
+        "oos_prec": 49.66,
+        "avg_mfe": 36.05,
+        "avg_mae": 34.53,
+        "t25": 31.89,
+        "m25": 50.83,
+        "clean15": 27.41
+      },
+      "samples": [
+        {
+          "day": "2026-05-26",
+          "hm": "09:57",
+          "side": "SELL",
+          "entry": 24026.75,
+          "mfe": 12.2,
+          "mae": 63.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-27",
+          "hm": "12:13",
+          "side": "SELL",
+          "entry": 23922.6,
+          "mfe": 27.6,
+          "mae": 18.25,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-05-29",
+          "hm": "09:41",
+          "side": "SELL",
+          "entry": 23901.9,
+          "mfe": 30.8,
+          "mae": 52.6,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-01",
+          "hm": "09:47",
+          "side": "SELL",
+          "entry": 23571.85,
+          "mfe": 54.15,
+          "mae": 23.55,
+          "m25_first": true,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-02",
+          "hm": "11:02",
+          "side": "SELL",
+          "entry": 23299.9,
+          "mfe": 23.3,
+          "mae": 64.05,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-03",
+          "hm": "10:56",
+          "side": "SELL",
+          "entry": 23233.4,
+          "mfe": 38.6,
+          "mae": 11.45,
+          "m25_first": true,
+          "clean15": true
+        },
+        {
+          "day": "2026-06-04",
+          "hm": "10:53",
+          "side": "BUY",
+          "entry": 23422.7,
+          "mfe": 39.6,
+          "mae": 63.25,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-05",
+          "hm": "09:58",
+          "side": "SELL",
+          "entry": 23446.2,
+          "mfe": 114.4,
+          "mae": 66.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-08",
+          "hm": "10:08",
+          "side": "BUY",
+          "entry": 23190.7,
+          "mfe": 32.75,
+          "mae": 27.45,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-09",
+          "hm": "09:31",
+          "side": "BUY",
+          "entry": 23243.4,
+          "mfe": 8.65,
+          "mae": 94.7,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-10",
+          "hm": "10:21",
+          "side": "SELL",
+          "entry": 23325.6,
+          "mfe": 12.6,
+          "mae": 63.3,
+          "m25_first": false,
+          "clean15": false
+        },
+        {
+          "day": "2026-06-11",
+          "hm": "10:03",
+          "side": "SELL",
+          "entry": 23119.25,
+          "mfe": 16.4,
+          "mae": 94.8,
+          "m25_first": false,
+          "clean15": false
+        }
+      ]
+    }
+  ],
+  "hunt_conf1": [],
+  "hunt_ign0": [],
+  "proven": [],
+  "promising": [],
+  "best_gate": "conf1 ctrl+!ext+ad+held+big_body",
+  "took_sec": 36.2
+}

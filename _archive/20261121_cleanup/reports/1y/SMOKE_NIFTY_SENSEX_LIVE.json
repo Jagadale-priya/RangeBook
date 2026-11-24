@@ -1,0 +1,13 @@
+{
+  "fails": 0,
+  "indexes": [
+    "NIFTY",
+    "SENSEX"
+  ],
+  "desk": "SENSEX_DUAL_FB_BF20_T50",
+  "brackets": {
+    "target": 50.0,
+    "sl": 50.0,
+    "risk": 50.0
+  }
+}

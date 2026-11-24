@@ -1,0 +1,160 @@
+{
+  "source": "csv+kite",
+  "test_start": "2026-10-19",
+  "test_end": "2026-11-18",
+  "sessions": 22,
+  "profiles": {
+    "baseline": {
+      "month": {
+        "calls": 6,
+        "wins": 4,
+        "losses": 2,
+        "hit_rate": 0.6666666666666666,
+        "net_points": 51.60000000000582,
+        "calls_per_day": 1.0
+      },
+      "warm": {
+        "calls": 50,
+        "wins": 23,
+        "losses": 27,
+        "hit_rate": 0.46,
+        "net_points": 101.60000000003492,
+        "calls_per_day": 1.0
+      }
+    },
+    "accurate": {
+      "month": {
+        "calls": 4,
+        "wins": 3,
+        "losses": 1,
+        "hit_rate": 0.75,
+        "net_points": 45.200000000004366,
+        "calls_per_day": 1.0
+      },
+      "warm": {
+        "calls": 35,
+        "wins": 14,
+        "losses": 21,
+        "hit_rate": 0.4,
+        "net_points": 5.000000000021828,
+        "calls_per_day": 1.0
+      }
+    }
+  },
+  "month_summary": {
+    "calls": 4,
+    "wins": 3,
+    "losses": 1,
+    "hit_rate": 0.75,
+    "net_points": 45.200000000004366,
+    "calls_per_day": 1.0
+  },
+  "warm_summary": {
+    "calls": 35,
+    "wins": 14,
+    "losses": 21,
+    "hit_rate": 0.4,
+    "net_points": 5.000000000021828,
+    "calls_per_day": 1.0
+  },
+  "calls_per_day": {
+    "2026-10-27": 1,
+    "2026-10-30": 1,
+    "2026-11-09": 1,
+    "2026-11-18": 1
+  },
+  "reasons": {
+    "target": 3,
+    "stop": 1
+  },
+  "calls": [
+    {
+      "date": "2026-10-27",
+      "direction": "sell",
+      "state": "high|failed_up|below|down|afternoon",
+      "signal_time": "2026-10-27 13:15:00",
+      "entry_time": "2026-10-27 13:16:00",
+      "entry_index": 241,
+      "entry": 22715.25,
+      "stop": 22727.25,
+      "target": 22694.85,
+      "risk": 12.0,
+      "reward": 20.4,
+      "analog_count": 22,
+      "analog_hit_rate": 0.5909,
+      "analog_average_points": 7.15,
+      "profile": "accurate",
+      "indications": "profile=accurate; state=('high', 'failed_up', 'below', 'down', 'afternoon'); vwap=22753.18; sigma=26.28; atr=12.24; swing=down; auction=failed_up; analogs=22; hit_rate=0.591; average=7.15",
+      "exit_time": "2026-10-27 13:22:00",
+      "exit": 22694.85,
+      "reason": "target",
+      "points": 20.400000000001455
+    },
+    {
+      "date": "2026-10-30",
+      "direction": "buy",
+      "state": "high|failed_down|above|up|late_morning",
+      "signal_time": "2026-10-30 11:01:00",
+      "entry_time": "2026-10-30 11:02:00",
+      "entry_index": 107,
+      "entry": 22982.55,
+      "stop": 22970.55,
+      "target": 23002.95,
+      "risk": 12.0,
+      "reward": 20.4,
+      "analog_count": 27,
+      "analog_hit_rate": 0.5556,
+      "analog_average_points": 6.1,
+      "profile": "accurate",
+      "indications": "profile=accurate; state=('high', 'failed_down', 'above', 'up', 'late_morning'); vwap=22952.96; sigma=22.79; atr=10.68; swing=up; auction=failed_down; analogs=27; hit_rate=0.556; average=6.10",
+      "exit_time": "2026-10-30 11:08:00",
+      "exit": 23002.95,
+      "reason": "target",
+      "points": 20.400000000001455
+    },
+    {
+      "date": "2026-11-09",
+      "direction": "buy",
+      "state": "high|failed_down|above|up|late_morning",
+      "signal_time": "2026-11-09 11:28:00",
+      "entry_time": "2026-11-09 11:29:00",
+      "entry_index": 134,
+      "entry": 24928.3,
+      "stop": 24916.3,
+      "target": 24948.7,
+      "risk": 12.0,
+      "reward": 20.4,
+      "analog_count": 28,
+      "analog_hit_rate": 0.5714,
+      "analog_average_points": 6.62,
+      "profile": "accurate",
+      "indications": "profile=accurate; state=('high', 'failed_down', 'above', 'up', 'late_morning'); vwap=24916.06; sigma=28.94; atr=14.40; swing=up; auction=failed_down; analogs=28; hit_rate=0.571; average=6.62",
+      "exit_time": "2026-11-09 11:29:00",
+      "exit": 24948.7,
+      "reason": "target",
+      "points": 20.400000000001455
+    },
+    {
+      "date": "2026-11-18",
+      "direction": "buy",
+      "state": "high|failed_down|above|up|late_morning",
+      "signal_time": "2026-11-18 11:20:00",
+      "entry_time": "2026-11-18 11:21:00",
+      "entry_index": 126,
+      "entry": 25282.1,
+      "stop": 25270.1,
+      "target": 25302.5,
+      "risk": 12.0,
+      "reward": 20.4,
+      "analog_count": 29,
+      "analog_hit_rate": 0.5862,
+      "analog_average_points": 7.09,
+      "profile": "accurate",
+      "indications": "profile=accurate; state=('high', 'failed_down', 'above', 'up', 'late_morning'); vwap=25270.15; sigma=37.66; atr=10.91; swing=up; auction=failed_down; analogs=29; hit_rate=0.586; average=7.09",
+      "exit_time": "2026-11-18 11:23:00",
+      "exit": 25270.1,
+      "reason": "stop",
+      "points": -12.0
+    }
+  ]
+}

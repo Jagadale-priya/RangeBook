@@ -1,0 +1,286 @@
+{
+  "symbol": "SENSEX",
+  "version": "dual_fb_improved_t50",
+  "locked_clip": {
+    "sl": 50.0,
+    "t1": 50.0
+  },
+  "policy": {
+    "name": "DUAL_FB_IMPROVED_P45_FB_BREAK",
+    "mode": "dual_fb_combine_improved",
+    "selector": "p45_fb_break",
+    "dual": "OR-break p>=0.45 first_only=False max_or_ext=None cap=None",
+    "fallback": "OR break-only @ 09:45",
+    "combine": "same hm+side \u2192 1 call dual+fallback tags",
+    "mutual_block": false,
+    "buy_min_p": 0.45,
+    "sell_min_p": 0.45,
+    "allow_sell_cont": true,
+    "buy_max_or_ext": null,
+    "fb_break_only": true,
+    "max_per_day": null,
+    "clip_sl": 50.0,
+    "clip_t1": 50.0,
+    "baseline_1y": {
+      "n": 1021,
+      "hit_pct": 72.58
+    },
+    "baseline_3y": {
+      "n": 2626,
+      "hit_pct": 69.73
+    }
+  },
+  "desks": {
+    "champ_plus": {
+      "desk": "SENSEX_DUAL_FB_IMPROVED_T50",
+      "accurate_tag": "SENSEX_DUAL_FB_IMPROVED_T50",
+      "accuracy_tag": "ACC_RANGE_72_79",
+      "accuracy_lo": 72.62,
+      "accuracy_hi": 79.3,
+      "windows": {
+        "1y": {
+          "n": 909,
+          "sessions": 249,
+          "days_with_call": 214,
+          "coverage_pct": 85.9,
+          "hit_pct": 76.13,
+          "wins": 692,
+          "losses": 217,
+          "dual_only": 786,
+          "fallback_only": 97,
+          "combined": 26,
+          "avg_calls_per_day": 4.25
+        },
+        "3m": {
+          "n": 227,
+          "sessions": 64,
+          "days_with_call": 53,
+          "coverage_pct": 82.8,
+          "hit_pct": 79.3,
+          "wins": 180,
+          "losses": 47,
+          "dual_only": 195,
+          "fallback_only": 29,
+          "combined": 3,
+          "avg_calls_per_day": 4.28
+        },
+        "3y": {
+          "n": 2370,
+          "sessions": 624,
+          "days_with_call": 534,
+          "coverage_pct": 85.6,
+          "hit_pct": 72.62,
+          "wins": 1721,
+          "losses": 649,
+          "dual_only": 2025,
+          "fallback_only": 273,
+          "combined": 72,
+          "avg_calls_per_day": 4.44
+        }
+      },
+      "n_held": 2370,
+      "brackets": {
+        "sl": 50.0,
+        "target": 50.0
+      },
+      "cap": 99
+    }
+  },
+  "book": {
+    "1y": {
+      "n": 909,
+      "hit_pct": 76.13,
+      "coverage_pct": 85.9
+    },
+    "3y": {
+      "n": 2370,
+      "hit_pct": 72.62,
+      "coverage_pct": 85.6
+    },
+    "5y": {
+      "n": 2370,
+      "hit_pct": 72.62,
+      "coverage_pct": 85.6
+    }
+  },
+  "expected": {
+    "1y": {
+      "n": 909,
+      "hit_pct": 76.13
+    },
+    "3y": {
+      "n": 2370,
+      "hit_pct": 72.62
+    },
+    "5y": {
+      "n": 2370,
+      "hit_pct": 72.62
+    }
+  },
+  "calls_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/sensex_final/champ_plus_t50_sl50_calls.json",
+  "variants": [
+    {
+      "name": "baseline_p45_fb_all",
+      "1y_n": 1021,
+      "1y_hit": 72.58,
+      "3y_n": 2626,
+      "3y_hit": 69.73,
+      "3m_hit": 75.49,
+      "3m_n": 257
+    },
+    {
+      "name": "p45_fb_break",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2370,
+      "3y_hit": 72.62,
+      "3m_hit": 79.3,
+      "3m_n": 227
+    },
+    {
+      "name": "p50_fb_all",
+      "1y_n": 1021,
+      "1y_hit": 72.58,
+      "3y_n": 2626,
+      "3y_hit": 69.73,
+      "3m_hit": 75.49,
+      "3m_n": 257
+    },
+    {
+      "name": "p50_fb_break",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2370,
+      "3y_hit": 72.62,
+      "3m_hit": 79.3,
+      "3m_n": 227
+    },
+    {
+      "name": "p52_fb_break",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2370,
+      "3y_hit": 72.62,
+      "3m_hit": 79.3,
+      "3m_n": 227
+    },
+    {
+      "name": "p55_fb_break",
+      "1y_n": 814,
+      "1y_hit": 75.43,
+      "3y_n": 2119,
+      "3y_hit": 72.06,
+      "3m_hit": 78.1,
+      "3m_n": 210
+    },
+    {
+      "name": "p45_first_fb_break",
+      "1y_n": 224,
+      "1y_hit": 67.86,
+      "3y_n": 599,
+      "3y_hit": 60.27,
+      "3m_hit": 74.55,
+      "3m_n": 55
+    },
+    {
+      "name": "p50_first_fb_break",
+      "1y_n": 224,
+      "1y_hit": 67.86,
+      "3y_n": 599,
+      "3y_hit": 60.27,
+      "3m_hit": 74.55,
+      "3m_n": 55
+    },
+    {
+      "name": "p45_ext10_fb_break",
+      "1y_n": 202,
+      "1y_hit": 64.85,
+      "3y_n": 539,
+      "3y_hit": 55.1,
+      "3m_hit": 70.37,
+      "3m_n": 54
+    },
+    {
+      "name": "p45_ext15_fb_break",
+      "1y_n": 248,
+      "1y_hit": 67.34,
+      "3y_n": 640,
+      "3y_hit": 57.97,
+      "3m_hit": 72.88,
+      "3m_n": 59
+    },
+    {
+      "name": "p48_fb_break",
+      "1y_n": 909,
+      "1y_hit": 76.13,
+      "3y_n": 2370,
+      "3y_hit": 72.62,
+      "3m_hit": 79.3,
+      "3m_n": 227
+    },
+    {
+      "name": "p45_fb_break_cap3",
+      "1y_n": 505,
+      "1y_hit": 74.85,
+      "3y_n": 1305,
+      "3y_hit": 68.51,
+      "3m_hit": 81.2,
+      "3m_n": 117
+    },
+    {
+      "name": "p45_fb_break_cap2",
+      "1y_n": 405,
+      "1y_hit": 73.33,
+      "3y_n": 1036,
+      "3y_hit": 66.41,
+      "3m_hit": 78.12,
+      "3m_n": 96
+    },
+    {
+      "name": "p50_fb_break_cap3",
+      "1y_n": 505,
+      "1y_hit": 74.85,
+      "3y_n": 1305,
+      "3y_hit": 68.51,
+      "3m_hit": 81.2,
+      "3m_n": 117
+    },
+    {
+      "name": "dual_only_p45",
+      "1y_n": 812,
+      "1y_hit": 79.8,
+      "3y_n": 2097,
+      "3y_hit": 77.3,
+      "3m_hit": 83.33,
+      "3m_n": 198
+    },
+    {
+      "name": "dual_only_p50",
+      "1y_n": 812,
+      "1y_hit": 79.8,
+      "3y_n": 2097,
+      "3y_hit": 77.3,
+      "3m_hit": 83.33,
+      "3m_n": 198
+    },
+    {
+      "name": "p45_first_fb_all",
+      "1y_n": 341,
+      "1y_hit": 59.82,
+      "3y_n": 860,
+      "3y_hit": 55.12,
+      "3m_hit": 64.71,
+      "3m_n": 85
+    },
+    {
+      "name": "p52_fb_all",
+      "1y_n": 1021,
+      "1y_hit": 72.58,
+      "3y_n": 2626,
+      "3y_hit": 69.73,
+      "3m_hit": 75.49,
+      "3m_n": 257
+    }
+  ],
+  "elapsed_s": 632.1
+}

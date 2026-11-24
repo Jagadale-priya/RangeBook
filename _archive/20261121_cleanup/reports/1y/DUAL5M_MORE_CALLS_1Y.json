@@ -1,0 +1,86 @@
+{
+  "status": "RESEARCH",
+  "not_live": true,
+  "frontier": [
+    {
+      "rule": "BOTH_all_p0_all_any_any_day1",
+      "pre_n": 460,
+      "pre_hit": 55.22,
+      "test_n": 235,
+      "test_hit": 54.47
+    },
+    {
+      "rule": "BOTH_all_p52_all_any_any_day1",
+      "pre_n": 210,
+      "pre_hit": 63.81,
+      "test_n": 97,
+      "test_hit": 49.48
+    },
+    {
+      "rule": "BOTH_all_p52_all_htf_any_day1",
+      "pre_n": 132,
+      "pre_hit": 68.94,
+      "test_n": 69,
+      "test_hit": 52.17
+    },
+    {
+      "rule": "BOTH_all_p52_all_htf_gup_day1",
+      "pre_n": 92,
+      "pre_hit": 70.65,
+      "test_n": 42,
+      "test_hit": 59.52
+    },
+    {
+      "rule": "BOTH_mid_p52_all_any_gup_day1",
+      "pre_n": 79,
+      "pre_hit": 75.95,
+      "test_n": 24,
+      "test_hit": 50.0
+    },
+    {
+      "rule": "BUY_pm_p0_all_htf_any_day1",
+      "pre_n": 22,
+      "pre_hit": 81.82,
+      "test_n": 19,
+      "test_hit": 52.63
+    },
+    {
+      "rule": "BOTH_pm_p52_all_htf_any_day1",
+      "pre_n": 18,
+      "pre_hit": 88.89,
+      "test_n": 17,
+      "test_hit": 52.94
+    },
+    {
+      "rule": "BOTH_mid_p57_all_any_g030_day1",
+      "pre_n": 12,
+      "pre_hit": 91.67,
+      "test_n": 1,
+      "test_hit": 0.0
+    }
+  ],
+  "peek": [
+    {
+      "rule": "BOTH_pm_p0_all_htf_gup_day1",
+      "pre_n": 33,
+      "pre_hit": 54.55,
+      "test_n": 27,
+      "test_hit": 70.37
+    },
+    {
+      "rule": "BOTH_all_p57_all_any_gup_day1",
+      "pre_n": 18,
+      "pre_hit": 72.22,
+      "test_n": 1,
+      "test_hit": 100.0
+    },
+    {
+      "rule": "BOTH_all_p57_all_any_gup_day1",
+      "pre_n": 18,
+      "pre_hit": 72.22,
+      "test_n": 1,
+      "test_hit": 100.0
+    }
+  ],
+  "verdict": "No frozen 5m-dual rule holds 90% on the last year. The fullest frozen book is 235 calls @ 54.47% (BOTH_all_p0_all_any_any_day1)."
+}

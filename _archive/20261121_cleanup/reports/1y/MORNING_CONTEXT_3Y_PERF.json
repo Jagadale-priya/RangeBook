@@ -1,0 +1,703 @@
+{
+  "generated_at": "2026-11-15T15:42:22",
+  "logic_tag": "MORNING_CTX_V1",
+  "sessions_target": 756,
+  "symbols": {
+    "NIFTY": {
+      "symbol": "NIFTY",
+      "window_start": "2023-10-16",
+      "window_end": "2026-11-11",
+      "days": 756,
+      "range_open_inside_pct": 0.5146,
+      "range_pre_inside_pct": 0.3426,
+      "median_width_pct": 0.0126,
+      "gap_always_natural_acc": 0.6825,
+      "close_up_base_rate": 0.5238,
+      "vol_tercile_hit": 0.4616,
+      "high_vol_days": 309,
+      "pred_high_on_realized_high_pct": 0.7152,
+      "pred_low_fut_on_realized_high_pct": 0.1197,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 51,
+          "open_inside_pct": 0.6078,
+          "pre_inside_pct": 0.3725,
+          "median_width_pct": 0.0096,
+          "gap_natural_acc": 0.6078,
+          "vol_hit": 0.3333,
+          "close_up_rate": 0.6078
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.5366,
+          "pre_inside_pct": 0.4146,
+          "median_width_pct": 0.0128,
+          "gap_natural_acc": 0.687,
+          "vol_hit": 0.4512,
+          "close_up_rate": 0.5488
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.4718,
+          "pre_inside_pct": 0.3306,
+          "median_width_pct": 0.0114,
+          "gap_natural_acc": 0.7742,
+          "vol_hit": 0.4435,
+          "close_up_rate": 0.504
+        },
+        {
+          "year": 2026,
+          "days": 211,
+          "open_inside_pct": 0.5166,
+          "pre_inside_pct": 0.2654,
+          "median_width_pct": 0.0135,
+          "gap_natural_acc": 0.5877,
+          "vol_hit": 0.5261,
+          "close_up_rate": 0.4976
+        }
+      ]
+    },
+    "BANKNIFTY": {
+      "symbol": "BANKNIFTY",
+      "window_start": "2023-08-31",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.5066,
+      "range_pre_inside_pct": 0.3571,
+      "median_width_pct": 0.0149,
+      "gap_always_natural_acc": 0.6323,
+      "close_up_base_rate": 0.5251,
+      "vol_tercile_hit": 0.4775,
+      "high_vol_days": 278,
+      "pred_high_on_realized_high_pct": 0.7482,
+      "pred_low_fut_on_realized_high_pct": 0.0935,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 81,
+          "open_inside_pct": 0.5432,
+          "pre_inside_pct": 0.2593,
+          "median_width_pct": 0.0126,
+          "gap_natural_acc": 0.5802,
+          "vol_hit": 0.358,
+          "close_up_rate": 0.5556
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.4919,
+          "pre_inside_pct": 0.4146,
+          "median_width_pct": 0.0165,
+          "gap_natural_acc": 0.6382,
+          "vol_hit": 0.4431,
+          "close_up_rate": 0.5203
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.4758,
+          "pre_inside_pct": 0.3387,
+          "median_width_pct": 0.0122,
+          "gap_natural_acc": 0.7097,
+          "vol_hit": 0.504,
+          "close_up_rate": 0.5444
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.5525,
+          "pre_inside_pct": 0.3481,
+          "median_width_pct": 0.0161,
+          "gap_natural_acc": 0.5414,
+          "vol_hit": 0.5414,
+          "close_up_rate": 0.4917
+        }
+      ]
+    },
+    "RELIANCE": {
+      "symbol": "RELIANCE",
+      "window_start": "2023-08-31",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.4907,
+      "range_pre_inside_pct": 0.381,
+      "median_width_pct": 0.0215,
+      "gap_always_natural_acc": 0.5661,
+      "close_up_base_rate": 0.5093,
+      "vol_tercile_hit": 0.418,
+      "high_vol_days": 274,
+      "pred_high_on_realized_high_pct": 0.6131,
+      "pred_low_fut_on_realized_high_pct": 0.1204,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 81,
+          "open_inside_pct": 0.5432,
+          "pre_inside_pct": 0.3827,
+          "median_width_pct": 0.0164,
+          "gap_natural_acc": 0.6049,
+          "vol_hit": 0.3086,
+          "close_up_rate": 0.5679
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.4837,
+          "pre_inside_pct": 0.374,
+          "median_width_pct": 0.0225,
+          "gap_natural_acc": 0.6138,
+          "vol_hit": 0.439,
+          "close_up_rate": 0.5122
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.4798,
+          "pre_inside_pct": 0.3831,
+          "median_width_pct": 0.0203,
+          "gap_natural_acc": 0.5766,
+          "vol_hit": 0.4274,
+          "close_up_rate": 0.5161
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.4917,
+          "pre_inside_pct": 0.3867,
+          "median_width_pct": 0.0245,
+          "gap_natural_acc": 0.4696,
+          "vol_hit": 0.4254,
+          "close_up_rate": 0.4696
+        }
+      ]
+    },
+    "HDFCBANK": {
+      "symbol": "HDFCBANK",
+      "window_start": "2023-08-31",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.4868,
+      "range_pre_inside_pct": 0.3505,
+      "median_width_pct": 0.0204,
+      "gap_always_natural_acc": 0.4431,
+      "close_up_base_rate": 0.4947,
+      "vol_tercile_hit": 0.4603,
+      "high_vol_days": 295,
+      "pred_high_on_realized_high_pct": 0.6881,
+      "pred_low_fut_on_realized_high_pct": 0.0983,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 81,
+          "open_inside_pct": 0.3827,
+          "pre_inside_pct": 0.3086,
+          "median_width_pct": 0.0162,
+          "gap_natural_acc": 0.4938,
+          "vol_hit": 0.4198,
+          "close_up_rate": 0.5679
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.4715,
+          "pre_inside_pct": 0.3862,
+          "median_width_pct": 0.0215,
+          "gap_natural_acc": 0.4675,
+          "vol_hit": 0.5041,
+          "close_up_rate": 0.5203
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.4597,
+          "pre_inside_pct": 0.3306,
+          "median_width_pct": 0.0174,
+          "gap_natural_acc": 0.4879,
+          "vol_hit": 0.4274,
+          "close_up_rate": 0.5161
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.5912,
+          "pre_inside_pct": 0.3481,
+          "median_width_pct": 0.0236,
+          "gap_natural_acc": 0.326,
+          "vol_hit": 0.4641,
+          "close_up_rate": 0.3978
+        }
+      ]
+    },
+    "INFY": {
+      "symbol": "INFY",
+      "window_start": "2023-08-31",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.5317,
+      "range_pre_inside_pct": 0.3466,
+      "median_width_pct": 0.0247,
+      "gap_always_natural_acc": 0.4087,
+      "close_up_base_rate": 0.4709,
+      "vol_tercile_hit": 0.455,
+      "high_vol_days": 356,
+      "pred_high_on_realized_high_pct": 0.6994,
+      "pred_low_fut_on_realized_high_pct": 0.0562,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 81,
+          "open_inside_pct": 0.4074,
+          "pre_inside_pct": 0.284,
+          "median_width_pct": 0.0189,
+          "gap_natural_acc": 0.4938,
+          "vol_hit": 0.4198,
+          "close_up_rate": 0.4444
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.5163,
+          "pre_inside_pct": 0.3496,
+          "median_width_pct": 0.024,
+          "gap_natural_acc": 0.4715,
+          "vol_hit": 0.4065,
+          "close_up_rate": 0.5081
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.5202,
+          "pre_inside_pct": 0.3629,
+          "median_width_pct": 0.0246,
+          "gap_natural_acc": 0.4153,
+          "vol_hit": 0.4234,
+          "close_up_rate": 0.4879
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.6243,
+          "pre_inside_pct": 0.3481,
+          "median_width_pct": 0.0351,
+          "gap_natural_acc": 0.2762,
+          "vol_hit": 0.5801,
+          "close_up_rate": 0.4088
+        }
+      ]
+    },
+    "TCS": {
+      "symbol": "TCS",
+      "window_start": "2023-08-31",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.4974,
+      "range_pre_inside_pct": 0.3942,
+      "median_width_pct": 0.0231,
+      "gap_always_natural_acc": 0.5198,
+      "close_up_base_rate": 0.459,
+      "vol_tercile_hit": 0.4854,
+      "high_vol_days": 345,
+      "pred_high_on_realized_high_pct": 0.7362,
+      "pred_low_fut_on_realized_high_pct": 0.1043,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 81,
+          "open_inside_pct": 0.4198,
+          "pre_inside_pct": 0.3951,
+          "median_width_pct": 0.0178,
+          "gap_natural_acc": 0.5926,
+          "vol_hit": 0.3704,
+          "close_up_rate": 0.5309
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.4919,
+          "pre_inside_pct": 0.3984,
+          "median_width_pct": 0.023,
+          "gap_natural_acc": 0.5366,
+          "vol_hit": 0.4634,
+          "close_up_rate": 0.4837
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.5202,
+          "pre_inside_pct": 0.4113,
+          "median_width_pct": 0.0202,
+          "gap_natural_acc": 0.5605,
+          "vol_hit": 0.4718,
+          "close_up_rate": 0.4274
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.5083,
+          "pre_inside_pct": 0.3646,
+          "median_width_pct": 0.0324,
+          "gap_natural_acc": 0.4088,
+          "vol_hit": 0.5856,
+          "close_up_rate": 0.4365
+        }
+      ]
+    },
+    "SBIN": {
+      "symbol": "SBIN",
+      "window_start": "2023-08-31",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.4974,
+      "range_pre_inside_pct": 0.3968,
+      "median_width_pct": 0.0239,
+      "gap_always_natural_acc": 0.5794,
+      "close_up_base_rate": 0.5317,
+      "vol_tercile_hit": 0.4616,
+      "high_vol_days": 280,
+      "pred_high_on_realized_high_pct": 0.6107,
+      "pred_low_fut_on_realized_high_pct": 0.1321,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 81,
+          "open_inside_pct": 0.5185,
+          "pre_inside_pct": 0.3704,
+          "median_width_pct": 0.0195,
+          "gap_natural_acc": 0.5185,
+          "vol_hit": 0.3951,
+          "close_up_rate": 0.6296
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.5041,
+          "pre_inside_pct": 0.3902,
+          "median_width_pct": 0.0264,
+          "gap_natural_acc": 0.5407,
+          "vol_hit": 0.4634,
+          "close_up_rate": 0.5163
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.4597,
+          "pre_inside_pct": 0.4476,
+          "median_width_pct": 0.0187,
+          "gap_natural_acc": 0.6734,
+          "vol_hit": 0.5,
+          "close_up_rate": 0.5242
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.5304,
+          "pre_inside_pct": 0.3481,
+          "median_width_pct": 0.0243,
+          "gap_natural_acc": 0.5304,
+          "vol_hit": 0.4365,
+          "close_up_rate": 0.5193
+        }
+      ]
+    },
+    "ICICIBANK": {
+      "symbol": "ICICIBANK",
+      "window_start": "2023-08-31",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.5119,
+      "range_pre_inside_pct": 0.3558,
+      "median_width_pct": 0.0211,
+      "gap_always_natural_acc": 0.4947,
+      "close_up_base_rate": 0.5119,
+      "vol_tercile_hit": 0.4828,
+      "high_vol_days": 283,
+      "pred_high_on_realized_high_pct": 0.6572,
+      "pred_low_fut_on_realized_high_pct": 0.0954,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 81,
+          "open_inside_pct": 0.5062,
+          "pre_inside_pct": 0.2963,
+          "median_width_pct": 0.0177,
+          "gap_natural_acc": 0.5185,
+          "vol_hit": 0.358,
+          "close_up_rate": 0.4815
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.4837,
+          "pre_inside_pct": 0.3902,
+          "median_width_pct": 0.0238,
+          "gap_natural_acc": 0.4756,
+          "vol_hit": 0.5285,
+          "close_up_rate": 0.5569
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.5282,
+          "pre_inside_pct": 0.3871,
+          "median_width_pct": 0.0174,
+          "gap_natural_acc": 0.5363,
+          "vol_hit": 0.5121,
+          "close_up_rate": 0.4879
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.5304,
+          "pre_inside_pct": 0.2928,
+          "median_width_pct": 0.0221,
+          "gap_natural_acc": 0.453,
+          "vol_hit": 0.4365,
+          "close_up_rate": 0.4972
+        }
+      ]
+    },
+    "BAJFINANCE": {
+      "symbol": "BAJFINANCE",
+      "window_start": "2023-08-31",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.4947,
+      "range_pre_inside_pct": 0.3876,
+      "median_width_pct": 0.0276,
+      "gap_always_natural_acc": 0.5066,
+      "close_up_base_rate": 0.5066,
+      "vol_tercile_hit": 0.414,
+      "high_vol_days": 322,
+      "pred_high_on_realized_high_pct": 0.587,
+      "pred_low_fut_on_realized_high_pct": 0.1304,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 81,
+          "open_inside_pct": 0.5062,
+          "pre_inside_pct": 0.3704,
+          "median_width_pct": 0.023,
+          "gap_natural_acc": 0.4568,
+          "vol_hit": 0.4198,
+          "close_up_rate": 0.4568
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.4878,
+          "pre_inside_pct": 0.4228,
+          "median_width_pct": 0.027,
+          "gap_natural_acc": 0.5894,
+          "vol_hit": 0.3943,
+          "close_up_rate": 0.5081
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.4839,
+          "pre_inside_pct": 0.3911,
+          "median_width_pct": 0.0277,
+          "gap_natural_acc": 0.5242,
+          "vol_hit": 0.4435,
+          "close_up_rate": 0.5323
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.5138,
+          "pre_inside_pct": 0.3425,
+          "median_width_pct": 0.0299,
+          "gap_natural_acc": 0.3923,
+          "vol_hit": 0.3978,
+          "close_up_rate": 0.4917
+        }
+      ]
+    },
+    "BHARTIARTL": {
+      "symbol": "BHARTIARTL",
+      "window_start": "2023-08-31",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.4577,
+      "range_pre_inside_pct": 0.3836,
+      "median_width_pct": 0.0242,
+      "gap_always_natural_acc": 0.4577,
+      "close_up_base_rate": 0.5225,
+      "vol_tercile_hit": 0.4418,
+      "high_vol_days": 283,
+      "pred_high_on_realized_high_pct": 0.5901,
+      "pred_low_fut_on_realized_high_pct": 0.1378,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 81,
+          "open_inside_pct": 0.4815,
+          "pre_inside_pct": 0.3827,
+          "median_width_pct": 0.0187,
+          "gap_natural_acc": 0.5185,
+          "vol_hit": 0.5309,
+          "close_up_rate": 0.5062
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.4268,
+          "pre_inside_pct": 0.4065,
+          "median_width_pct": 0.0268,
+          "gap_natural_acc": 0.4431,
+          "vol_hit": 0.5244,
+          "close_up_rate": 0.5407
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.4879,
+          "pre_inside_pct": 0.3548,
+          "median_width_pct": 0.0212,
+          "gap_natural_acc": 0.4919,
+          "vol_hit": 0.4194,
+          "close_up_rate": 0.5403
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.4475,
+          "pre_inside_pct": 0.3923,
+          "median_width_pct": 0.0234,
+          "gap_natural_acc": 0.4033,
+          "vol_hit": 0.3204,
+          "close_up_rate": 0.4807
+        }
+      ]
+    },
+    "AXISBANK": {
+      "symbol": "AXISBANK",
+      "window_start": "2023-08-31",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.5251,
+      "range_pre_inside_pct": 0.4008,
+      "median_width_pct": 0.0245,
+      "gap_always_natural_acc": 0.5106,
+      "close_up_base_rate": 0.4987,
+      "vol_tercile_hit": 0.4008,
+      "high_vol_days": 276,
+      "pred_high_on_realized_high_pct": 0.6051,
+      "pred_low_fut_on_realized_high_pct": 0.0978,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 81,
+          "open_inside_pct": 0.4321,
+          "pre_inside_pct": 0.3086,
+          "median_width_pct": 0.0222,
+          "gap_natural_acc": 0.5926,
+          "vol_hit": 0.3333,
+          "close_up_rate": 0.5802
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.5366,
+          "pre_inside_pct": 0.4106,
+          "median_width_pct": 0.0266,
+          "gap_natural_acc": 0.4919,
+          "vol_hit": 0.4106,
+          "close_up_rate": 0.4919
+        },
+        {
+          "year": 2025,
+          "days": 248,
+          "open_inside_pct": 0.496,
+          "pre_inside_pct": 0.4355,
+          "median_width_pct": 0.0232,
+          "gap_natural_acc": 0.5806,
+          "vol_hit": 0.4395,
+          "close_up_rate": 0.496
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.5912,
+          "pre_inside_pct": 0.3812,
+          "median_width_pct": 0.0259,
+          "gap_natural_acc": 0.4033,
+          "vol_hit": 0.3646,
+          "close_up_rate": 0.4751
+        }
+      ]
+    },
+    "ITC": {
+      "symbol": "ITC",
+      "window_start": "2023-09-01",
+      "window_end": "2026-09-25",
+      "days": 756,
+      "range_open_inside_pct": 0.4735,
+      "range_pre_inside_pct": 0.4061,
+      "median_width_pct": 0.0212,
+      "gap_always_natural_acc": 0.6389,
+      "close_up_base_rate": 0.4656,
+      "vol_tercile_hit": 0.463,
+      "high_vol_days": 248,
+      "pred_high_on_realized_high_pct": 0.5161,
+      "pred_low_fut_on_realized_high_pct": 0.125,
+      "bias_note": "NEUTRAL_DEFAULT \u2014 no directional accuracy claimed",
+      "by_year": [
+        {
+          "year": 2023,
+          "days": 80,
+          "open_inside_pct": 0.4625,
+          "pre_inside_pct": 0.325,
+          "median_width_pct": 0.0187,
+          "gap_natural_acc": 0.6125,
+          "vol_hit": 0.3875,
+          "close_up_rate": 0.5
+        },
+        {
+          "year": 2024,
+          "days": 246,
+          "open_inside_pct": 0.4593,
+          "pre_inside_pct": 0.4106,
+          "median_width_pct": 0.0223,
+          "gap_natural_acc": 0.5732,
+          "vol_hit": 0.4065,
+          "close_up_rate": 0.4715
+        },
+        {
+          "year": 2025,
+          "days": 249,
+          "open_inside_pct": 0.502,
+          "pre_inside_pct": 0.4337,
+          "median_width_pct": 0.017,
+          "gap_natural_acc": 0.7229,
+          "vol_hit": 0.5783,
+          "close_up_rate": 0.4659
+        },
+        {
+          "year": 2026,
+          "days": 181,
+          "open_inside_pct": 0.4586,
+          "pre_inside_pct": 0.3978,
+          "median_width_pct": 0.0225,
+          "gap_natural_acc": 0.6243,
+          "vol_hit": 0.4144,
+          "close_up_rate": 0.442
+        }
+      ]
+    }
+  }
+}

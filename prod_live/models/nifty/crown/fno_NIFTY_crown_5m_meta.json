@@ -1,0 +1,9 @@
+{
+  "symbol": "NIFTY",
+  "path": "C:\\Users\\Priyanka\\Agent\\stock_signal_data\\fno_validate\\research\\crown_5m_packs\\fno_NIFTY_crown_5m.pkl",
+  "buy_qth": 0.5100923718828653,
+  "sell_qth": 0.5163202232047919,
+  "vd": -0.10903095405597468,
+  "test_start_used": "2025-11-06",
+  "runtime_min": 0.16
+}

@@ -1,0 +1,255 @@
+{
+  "symbol": "SENSEX",
+  "version": "modal_v2",
+  "locked_clip": {
+    "sl": 120.0,
+    "t1": 120.0
+  },
+  "default_clip": {
+    "sl": 80.0,
+    "t1": 100.0
+  },
+  "policy": {
+    "name": "LIVE_champion_v2_sell055_t120",
+    "buy_min_p": 0.55,
+    "sell_min_p": 0.55,
+    "buy_first_only": true,
+    "sell_first_only": true,
+    "allow_sell_cont": false,
+    "buy_regimes": [
+      "range",
+      "mixed",
+      "trend",
+      "volatile"
+    ]
+  },
+  "desks": {
+    "proven": {
+      "desk": "SENSEX_PROVEN100_T100SL80",
+      "n_held": 17,
+      "brackets": {
+        "sl": 80.0,
+        "target": 100.0
+      },
+      "windows": {
+        "1y": {
+          "n": 11,
+          "hit_pct": 90.91,
+          "start": "2025-11-19",
+          "end": "2026-11-19",
+          "wins": 10,
+          "losses": 1
+        },
+        "3y": {
+          "n": 17,
+          "hit_pct": 94.12,
+          "start": "2023-11-20",
+          "end": "2026-11-19",
+          "wins": 16,
+          "losses": 1
+        },
+        "5y": {
+          "n": 17,
+          "hit_pct": 94.12,
+          "start": "2021-11-20",
+          "end": "2026-11-19",
+          "wins": 16,
+          "losses": 1
+        }
+      }
+    },
+    "champ_plus": {
+      "desk": "SENSEX_CHAMP_PLUS_T120SL120_CAP3",
+      "accurate_tag": "SENSEX_CHAMP_PLUS_T120SL120_CAP3",
+      "accuracy_tag": "ACC_RANGE_88_94",
+      "accuracy_lo": 88.89,
+      "accuracy_hi": 94.12,
+      "windows": {
+        "1y": {
+          "n": 68,
+          "hit_pct": 94.12,
+          "start": "2025-11-19",
+          "end": "2026-11-19",
+          "wins": 64,
+          "losses": 4
+        },
+        "3y": {
+          "n": 153,
+          "hit_pct": 88.89,
+          "start": "2023-11-20",
+          "end": "2026-11-19",
+          "wins": 136,
+          "losses": 17
+        },
+        "5y": {
+          "n": 153,
+          "hit_pct": 88.89,
+          "start": "2021-11-20",
+          "end": "2026-11-19",
+          "wins": 136,
+          "losses": 17
+        }
+      },
+      "n_held": 153,
+      "brackets": {
+        "sl": 120.0,
+        "target": 120.0
+      },
+      "champ_only_windows": {
+        "1y": {
+          "n": 68,
+          "hit_pct": 94.12,
+          "start": "2025-11-19",
+          "end": "2026-11-19",
+          "wins": 64,
+          "losses": 4
+        }
+      }
+    }
+  },
+  "book": {
+    "1y": {
+      "n": 68,
+      "hit_pct": 94.12,
+      "start": "2025-11-19",
+      "end": "2026-11-19",
+      "wins": 64,
+      "losses": 4
+    },
+    "3y": {
+      "n": 153,
+      "hit_pct": 88.89,
+      "start": "2023-11-20",
+      "end": "2026-11-19",
+      "wins": 136,
+      "losses": 17
+    },
+    "5y": {
+      "n": 153,
+      "hit_pct": 88.89,
+      "start": "2021-11-20",
+      "end": "2026-11-19",
+      "wins": 136,
+      "losses": 17
+    }
+  },
+  "expected": {
+    "1y": {
+      "n": 68,
+      "hit_pct": 94.12
+    },
+    "3y": {
+      "n": 153,
+      "hit_pct": 88.89
+    },
+    "5y": {
+      "n": 153,
+      "hit_pct": 88.89
+    }
+  },
+  "by_month_1y": {
+    "2025-11": {
+      "n": 1,
+      "settled": 1,
+      "hit_pct": 100.0,
+      "wins": 1,
+      "losses": 0
+    },
+    "2025-12": {
+      "n": 6,
+      "settled": 6,
+      "hit_pct": 83.33,
+      "wins": 5,
+      "losses": 1
+    },
+    "2026-01": {
+      "n": 5,
+      "settled": 5,
+      "hit_pct": 100.0,
+      "wins": 5,
+      "losses": 0
+    },
+    "2026-02": {
+      "n": 8,
+      "settled": 8,
+      "hit_pct": 87.5,
+      "wins": 7,
+      "losses": 1
+    },
+    "2026-03": {
+      "n": 5,
+      "settled": 5,
+      "hit_pct": 100.0,
+      "wins": 5,
+      "losses": 0
+    },
+    "2026-04": {
+      "n": 4,
+      "settled": 4,
+      "hit_pct": 100.0,
+      "wins": 4,
+      "losses": 0
+    },
+    "2026-05": {
+      "n": 5,
+      "settled": 5,
+      "hit_pct": 80.0,
+      "wins": 4,
+      "losses": 1
+    },
+    "2026-06": {
+      "n": 9,
+      "settled": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0
+    },
+    "2026-07": {
+      "n": 4,
+      "settled": 4,
+      "hit_pct": 100.0,
+      "wins": 4,
+      "losses": 0
+    },
+    "2026-08": {
+      "n": 9,
+      "settled": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0
+    },
+    "2026-09": {
+      "n": 4,
+      "settled": 4,
+      "hit_pct": 100.0,
+      "wins": 4,
+      "losses": 0
+    },
+    "2026-10": {
+      "n": 8,
+      "settled": 8,
+      "hit_pct": 87.5,
+      "wins": 7,
+      "losses": 1
+    }
+  },
+  "calls_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/sensex_final/champ_plus_t120_sl120_calls.json",
+  "proven_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/sensex_final/proven100_calls.json",
+  "elapsed_s": 1.6,
+  "vs_prior": {
+    "prior_desk": "SENSEX_CHAMP_PLUS_T100SL100_CAP3",
+    "prior_1y": {
+      "n": 38,
+      "hit_pct": 94.74,
+      "note": "SELL\u22650.70 \u00b1100 path"
+    },
+    "new_1y": {
+      "n": 68,
+      "hit_pct": 94.12,
+      "start": "2025-11-19",
+      "end": "2026-11-19",
+      "wins": 64,
+      "losses": 4
+    }
+  }
+}

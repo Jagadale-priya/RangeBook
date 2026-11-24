@@ -1,0 +1,11 @@
+date,status,direction,balance_high,balance_low,balance_width,signal_time,entry_time,entry,initial_stop,exit_time,exit,points,max_favorable,reason,probability
+2026-11-05,no_call,buy,24442.2,24296.3,145.90000000000146,2026-11-05 12:45:00,,,,,,,,price_ran_away_before_pullback,
+2026-11-06,no_call,,24673.55,24388.05,285.5,,,,,,,,,balance_width_out_of_range,
+2026-11-08,no_call,,,,,,,,,,,,,missing_balance,
+2026-11-09,no_call,,25084.05,24874.85,209.20000000000073,,,,,,,,,balance_width_out_of_range,
+2026-11-11,no_call,,25424.35,25263.8,160.54999999999927,,,,,,,,,balance_width_out_of_range,
+2026-11-12,no_call,,25384.8,25142.95,241.84999999999854,,,,,,,,,balance_width_out_of_range,
+2026-11-13,stop,buy,25229.4,25077.55,151.85000000000218,2026-11-13 10:30:00,2026-11-13 10:45:00,25242.25,25214.4,2026-11-13 10:55:00,25214.4,-27.849999999998545,1.8499999999985448,stop,
+2026-11-16,no_call,,25337.6,25195.35,142.25,,,,,,,,,no_pullback_after_break,
+2026-11-17,stop,buy,25386.75,25267.3,119.45000000000073,2026-11-17 10:15:00,2026-11-17 10:40:00,25389.95,25371.75,2026-11-17 12:30:00,25476.95,87.0,111.39999999999782,stop,
+2026-11-18,no_call,,25390.8,25206.2,184.59999999999854,,,,,,,,,balance_width_out_of_range,

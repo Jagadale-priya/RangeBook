@@ -1,0 +1,98 @@
+{
+  "symbol": "SENSEX",
+  "version": "dual_2pd_t50",
+  "locked_clip": {
+    "sl": 50.0,
+    "t1": 50.0
+  },
+  "policy": {
+    "name": "DUAL_ONLY_CHRONO_FIRST2",
+    "mode": "dual_2pd",
+    "selector": "chrono_first2",
+    "dual": "OR-break p>=0.45 BUY/SELL \u00b7 no or_ext \u00b7 sell cont \u00b7 first 2 by time combine",
+    "fallback": null,
+    "buy_min_p": 0.45,
+    "sell_min_p": 0.45,
+    "allow_sell_cont": true,
+    "buy_max_or_ext": null,
+    "max_per_day": 2,
+    "clip_sl": 50.0,
+    "clip_t1": 50.0
+  },
+  "desks": {
+    "champ_plus": {
+      "desk": "SENSEX_DUAL_2PD_T50SL50",
+      "accurate_tag": "SENSEX_DUAL_2PD_T50SL50",
+      "accuracy_tag": "ACC_RANGE_77_90",
+      "accuracy_lo": 77.06,
+      "accuracy_hi": 89.55,
+      "windows": {
+        "1y": {
+          "n": 308,
+          "hit_pct": 82.14,
+          "coverage_pct": 71.1,
+          "sessions": 249,
+          "avg_calls_per_day": 1.74,
+          "days_with_call": 177,
+          "avg_vs_sessions": 1.24
+        },
+        "3m": {
+          "n": 67,
+          "hit_pct": 89.55,
+          "coverage_pct": 60.9,
+          "sessions": 64,
+          "avg_calls_per_day": 1.72,
+          "days_with_call": 39,
+          "avg_vs_sessions": 1.05
+        },
+        "3y": {
+          "n": 763,
+          "hit_pct": 77.06,
+          "coverage_pct": 70.0,
+          "sessions": 624,
+          "avg_calls_per_day": 1.75,
+          "days_with_call": 437,
+          "avg_vs_sessions": 1.22
+        }
+      },
+      "n_held": 763,
+      "brackets": {
+        "sl": 50.0,
+        "target": 50.0
+      },
+      "cap": 2
+    }
+  },
+  "book": {
+    "1y": {
+      "n": 308,
+      "hit_pct": 82.14,
+      "coverage_pct": 71.1
+    },
+    "3y": {
+      "n": 763,
+      "hit_pct": 77.06,
+      "coverage_pct": 70.0
+    },
+    "5y": {
+      "n": 763,
+      "hit_pct": 77.06,
+      "coverage_pct": 70.0
+    }
+  },
+  "expected": {
+    "1y": {
+      "n": 308,
+      "hit_pct": 82.14
+    },
+    "3y": {
+      "n": 763,
+      "hit_pct": 77.06
+    },
+    "5y": {
+      "n": 763,
+      "hit_pct": 77.06
+    }
+  },
+  "calls_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/sensex_final/champ_plus_t50_sl50_calls.json"
+}

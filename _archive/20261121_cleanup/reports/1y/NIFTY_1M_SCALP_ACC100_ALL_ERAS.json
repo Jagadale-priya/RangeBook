@@ -1,0 +1,2820 @@
+{
+  "eras": [
+    [
+      "E2024",
+      "2024-01-02",
+      "2024-12-31"
+    ],
+    [
+      "E2025",
+      "2025-01-01",
+      "2025-12-31"
+    ],
+    [
+      "E2026A",
+      "2026-01-01",
+      "2026-08-05"
+    ],
+    [
+      "E2026B",
+      "2026-08-06",
+      "2026-11-06"
+    ],
+    [
+      "FWD",
+      "2026-11-09",
+      "2026-11-16"
+    ]
+  ],
+  "books": {
+    "T10": {
+      "t1": 10.0,
+      "n_survivors": 221,
+      "variants": {
+        "ACC100_ALL": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        },
+        "ACC100_SOFT": {
+          "n_micros": 9,
+          "total_calls": 61,
+          "era_stats": {
+            "E2024": {
+              "n": 32,
+              "hit_pct": 100.0,
+              "days": 31
+            },
+            "E2025": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "days": 17
+            },
+            "E2026A": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "days": 10
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "days": 1
+            }
+          },
+          "verify": {
+            "E2024": {
+              "n": 32,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2025": {
+              "n": 17,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026A": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "all_win": true
+            },
+            "FWD": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "all_win": true
+            }
+          },
+          "micros": [
+            {
+              "st": "cap12",
+              "k": "('GEOM', 'SELL', 'balanced', 1, 'early', 'b<45', 'sl12-16', 'lo', 'adv_hi', 'ba<0.5', 'st1')",
+              "era_n": {
+                "E2024": 4,
+                "E2025": 4,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 9,
+              "avg_sl": 12.0,
+              "avg_adv": 0.591,
+              "avg_body": 0.247
+            },
+            {
+              "st": "p75",
+              "k": "('dark_cloud', 'SELL', 1, 'morning', 'adv_lo', 'ba>0.8', 'sl8-12', 'mid')",
+              "era_n": {
+                "E2024": 4,
+                "E2025": 2,
+                "E2026A": 2,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 8,
+              "avg_sl": 7.55,
+              "avg_adv": 0.052,
+              "avg_body": 0.813
+            },
+            {
+              "st": "cap10",
+              "k": "('three_outside_dn', 'SELL', 'reversal', 1, 'midday', 'b70+', 'sl12-16', 'adv_mid')",
+              "era_n": {
+                "E2024": 4,
+                "E2025": 2,
+                "E2026A": 2,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 8,
+              "avg_sl": 10.0,
+              "avg_adv": 0.194,
+              "avg_body": 0.76
+            },
+            {
+              "st": "sig",
+              "k": "('bear_run2', 'SELL', 'continuation', 1, 'midday', 'b70+', 'sl16-20', 'lo', 'adv_lo', 'ba>0.8', 'st1')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 2,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 1
+              },
+              "total_n": 7,
+              "avg_sl": 10.21,
+              "avg_adv": 0.077,
+              "avg_body": 0.81
+            },
+            {
+              "st": "p75",
+              "k": "('bull_engulf', 'BUY', 1, 'late', 'adv_lo', 'ba<0.5', 'sl4-8', 'lo')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 2,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 6,
+              "avg_sl": 4.61,
+              "avg_adv": 0.062,
+              "avg_body": 0.425
+            },
+            {
+              "st": "sig",
+              "k": "('GEOM', 'SELL', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.5', 'st2')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 2,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 6,
+              "avg_sl": 7.28,
+              "avg_adv": 0.066,
+              "avg_body": 0.819
+            },
+            {
+              "st": "p75",
+              "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl8-12', 'mid', 'adv_mid', 'ba<0.5', 'st1')",
+              "era_n": {
+                "E2024": 4,
+                "E2025": 1,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 6,
+              "avg_sl": 7.16,
+              "avg_adv": 0.187,
+              "avg_body": 0.776
+            },
+            {
+              "st": "cap8",
+              "k": "('bull_run2', 'BUY', 'reversal', 1, 'morning', 'b55+', 'sl16-20', 'adv_mid')",
+              "era_n": {
+                "E2024": 4,
+                "E2025": 1,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 6,
+              "avg_sl": 8.0,
+              "avg_adv": 0.232,
+              "avg_body": 0.647
+            },
+            {
+              "st": "sig",
+              "k": "('bull_engulf', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'st0')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 1,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 5,
+              "avg_sl": 10.76,
+              "avg_adv": 0.065,
+              "avg_body": 0.903
+            }
+          ],
+          "sample_calls": [
+            {
+              "era": "E2024",
+              "day": "2024-01-18",
+              "hm": "11:44",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "cap8",
+              "sl": 8.0,
+              "mfe": 71.9
+            },
+            {
+              "era": "E2024",
+              "day": "2024-01-20",
+              "hm": "13:29",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 107.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-01-25",
+              "hm": "10:41",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 7.91,
+              "mfe": 68.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-02-02",
+              "hm": "10:00",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "p75",
+              "sl": 7.2,
+              "mfe": 197.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-02-09",
+              "hm": "09:59",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 50.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-02-28",
+              "hm": "10:24",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 208.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-03-02",
+              "hm": "11:49",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 7.27,
+              "mfe": 31.9
+            },
+            {
+              "era": "E2024",
+              "day": "2024-04-19",
+              "hm": "10:31",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "cap8",
+              "sl": 8.0,
+              "mfe": 123.8
+            },
+            {
+              "era": "E2024",
+              "day": "2024-05-03",
+              "hm": "09:43",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 7.9,
+              "mfe": 10.3
+            },
+            {
+              "era": "E2024",
+              "day": "2024-05-06",
+              "hm": "12:25",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 10.85,
+              "mfe": 80.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-06-03",
+              "hm": "10:30",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 8.66,
+              "mfe": 57.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-06-25",
+              "hm": "14:27",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "p75",
+              "sl": 6.0,
+              "mfe": 74.7
+            },
+            {
+              "era": "E2024",
+              "day": "2024-07-01",
+              "hm": "10:15",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 11.25,
+              "mfe": 57.1
+            },
+            {
+              "era": "E2024",
+              "day": "2024-07-10",
+              "hm": "12:26",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 47.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-07-18",
+              "hm": "09:28",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 25.8
+            },
+            {
+              "era": "E2024",
+              "day": "2024-07-22",
+              "hm": "10:59",
+              "decision": "SELL",
+              "primary": "bear_run3",
+              "st": "sig",
+              "sl": 9.45,
+              "mfe": 103.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-08-06",
+              "hm": "11:47",
+              "decision": "SELL",
+              "primary": "marubozu_bear",
+              "st": "sig",
+              "sl": 5.45,
+              "mfe": 179.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-08-13",
+              "hm": "13:41",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 9.95,
+              "mfe": 111.3
+            },
+            {
+              "era": "E2024",
+              "day": "2024-08-20",
+              "hm": "14:23",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "p75",
+              "sl": 4.35,
+              "mfe": 24.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-09-11",
+              "hm": "10:59",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "cap8",
+              "sl": 8.0,
+              "mfe": 58.1
+            },
+            {
+              "era": "E2024",
+              "day": "2024-09-19",
+              "hm": "10:20",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "p75",
+              "sl": 7.43,
+              "mfe": 16.5
+            },
+            {
+              "era": "E2024",
+              "day": "2024-09-24",
+              "hm": "10:14",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "p75",
+              "sl": 6.15,
+              "mfe": 25.3
+            },
+            {
+              "era": "E2024",
+              "day": "2024-10-11",
+              "hm": "11:04",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 6.9,
+              "mfe": 32.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-10-22",
+              "hm": "13:00",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 111.5
+            },
+            {
+              "era": "E2024",
+              "day": "2024-10-23",
+              "hm": "10:46",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "cap8",
+              "sl": 8.0,
+              "mfe": 90.9
+            },
+            {
+              "era": "E2024",
+              "day": "2024-11-07",
+              "hm": "10:10",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 40.5
+            },
+            {
+              "era": "E2024",
+              "day": "2024-11-19",
+              "hm": "14:17",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "p75",
+              "sl": 4.42,
+              "mfe": 12.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-02",
+              "hm": "11:48",
+              "decision": "SELL",
+              "primary": "belt_bear",
+              "st": "sig",
+              "sl": 6.6,
+              "mfe": 20.7
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-10",
+              "hm": "10:11",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 11.1,
+              "mfe": 12.5
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-10",
+              "hm": "13:07",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 52.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-17",
+              "hm": "12:18",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 11.55,
+              "mfe": 49.1
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-27",
+              "hm": "09:40",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "p75",
+              "sl": 7.31,
+              "mfe": 104.0
+            },
+            {
+              "era": "E2025",
+              "day": "2025-01-21",
+              "hm": "10:44",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 8.96,
+              "mfe": 75.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-02-05",
+              "hm": "12:22",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 29.1
+            },
+            {
+              "era": "E2025",
+              "day": "2025-02-06",
+              "hm": "09:31",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 92.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-04-09",
+              "hm": "09:24",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 75.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-05-05",
+              "hm": "14:25",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "p75",
+              "sl": 4.0,
+              "mfe": 49.7
+            },
+            {
+              "era": "E2025",
+              "day": "2025-06-13",
+              "hm": "14:19",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "p75",
+              "sl": 4.0,
+              "mfe": 106.6
+            },
+            {
+              "era": "E2025",
+              "day": "2025-07-09",
+              "hm": "11:55",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "cap8",
+              "sl": 8.0,
+              "mfe": 23.4
+            },
+            {
+              "era": "E2025",
+              "day": "2025-07-31",
+              "hm": "11:09",
+              "decision": "SELL",
+              "primary": "bear_run3",
+              "st": "sig",
+              "sl": 11.45,
+              "mfe": 18.1
+            },
+            {
+              "era": "E2025",
+              "day": "2025-08-07",
+              "hm": "13:21",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 8.45,
+              "mfe": 40.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-08-18",
+              "hm": "10:44",
+              "decision": "SELL",
+              "primary": "three_crows",
+              "st": "sig",
+              "sl": 4.15,
+              "mfe": 127.4
+            },
+            {
+              "era": "E2025",
+              "day": "2025-09-11",
+              "hm": "09:48",
+              "decision": "BUY",
+              "primary": "three_outside_up",
+              "st": "p75",
+              "sl": 8.21,
+              "mfe": 12.0
+            },
+            {
+              "era": "E2025",
+              "day": "2025-09-25",
+              "hm": "11:30",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 6.19,
+              "mfe": 64.7
+            },
+            {
+              "era": "E2025",
+              "day": "2025-10-16",
+              "hm": "10:16",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 11.9,
+              "mfe": 55.2
+            },
+            {
+              "era": "E2025",
+              "day": "2025-10-28",
+              "hm": "13:41",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 11.35,
+              "mfe": 102.0
+            },
+            {
+              "era": "E2025",
+              "day": "2025-10-30",
+              "hm": "09:28",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 86.8
+            },
+            {
+              "era": "E2025",
+              "day": "2025-11-03",
+              "hm": "09:24",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 29.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-11-27",
+              "hm": "13:36",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 12.1
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-02-17",
+              "hm": "10:03",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "p75",
+              "sl": 6.68,
+              "mfe": 85.5
+            }
+          ]
+        },
+        "ACC100_Y25Y26": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        },
+        "ACC100_FWD1": {
+          "n_micros": 1,
+          "total_calls": 7,
+          "era_stats": {
+            "E2024": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "days": 3
+            },
+            "E2025": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "days": 2
+            },
+            "E2026A": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "days": 1
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "days": 1
+            }
+          },
+          "verify": {
+            "E2024": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2025": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026A": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "all_win": true
+            },
+            "FWD": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "all_win": true
+            }
+          },
+          "micros": [
+            {
+              "st": "sig",
+              "k": "('bear_run2', 'SELL', 'continuation', 1, 'midday', 'b70+', 'sl16-20', 'lo', 'adv_lo', 'ba>0.8', 'st1')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 2,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 1
+              },
+              "total_n": 7,
+              "avg_sl": 10.21,
+              "avg_adv": 0.077,
+              "avg_body": 0.81
+            }
+          ],
+          "sample_calls": [
+            {
+              "era": "E2024",
+              "day": "2024-05-06",
+              "hm": "12:25",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 10.85,
+              "mfe": 80.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-08-13",
+              "hm": "13:41",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 9.95,
+              "mfe": 111.3
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-17",
+              "hm": "12:18",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 11.55,
+              "mfe": 49.1
+            },
+            {
+              "era": "E2025",
+              "day": "2025-08-07",
+              "hm": "13:21",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 8.45,
+              "mfe": 40.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-10-28",
+              "hm": "13:41",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 11.35,
+              "mfe": 102.0
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-06-01",
+              "hm": "13:01",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 8.5,
+              "mfe": 144.6
+            },
+            {
+              "era": "FWD",
+              "day": "2026-11-13",
+              "hm": "12:08",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 10.8,
+              "mfe": 38.6
+            }
+          ]
+        },
+        "ACC100_Q": {
+          "n_micros": 6,
+          "total_calls": 40,
+          "era_stats": {
+            "E2024": {
+              "n": 21,
+              "hit_pct": 100.0,
+              "days": 20
+            },
+            "E2025": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "days": 10
+            },
+            "E2026A": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "days": 8
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "days": 1
+            }
+          },
+          "verify": {
+            "E2024": {
+              "n": 21,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2025": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026A": {
+              "n": 8,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "all_win": true
+            },
+            "FWD": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "all_win": true
+            }
+          },
+          "micros": [
+            {
+              "st": "p75",
+              "k": "('dark_cloud', 'SELL', 1, 'morning', 'adv_lo', 'ba>0.8', 'sl8-12', 'mid')",
+              "era_n": {
+                "E2024": 4,
+                "E2025": 2,
+                "E2026A": 2,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 8,
+              "avg_sl": 7.55,
+              "avg_adv": 0.052,
+              "avg_body": 0.813
+            },
+            {
+              "st": "cap10",
+              "k": "('three_outside_dn', 'SELL', 'reversal', 1, 'midday', 'b70+', 'sl12-16', 'adv_mid')",
+              "era_n": {
+                "E2024": 4,
+                "E2025": 2,
+                "E2026A": 2,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 8,
+              "avg_sl": 10.0,
+              "avg_adv": 0.194,
+              "avg_body": 0.76
+            },
+            {
+              "st": "sig",
+              "k": "('bear_run2', 'SELL', 'continuation', 1, 'midday', 'b70+', 'sl16-20', 'lo', 'adv_lo', 'ba>0.8', 'st1')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 2,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 1
+              },
+              "total_n": 7,
+              "avg_sl": 10.21,
+              "avg_adv": 0.077,
+              "avg_body": 0.81
+            },
+            {
+              "st": "sig",
+              "k": "('GEOM', 'SELL', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.5', 'st2')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 2,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 6,
+              "avg_sl": 7.28,
+              "avg_adv": 0.066,
+              "avg_body": 0.819
+            },
+            {
+              "st": "p75",
+              "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl8-12', 'mid', 'adv_mid', 'ba<0.5', 'st1')",
+              "era_n": {
+                "E2024": 4,
+                "E2025": 1,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 6,
+              "avg_sl": 7.16,
+              "avg_adv": 0.187,
+              "avg_body": 0.776
+            },
+            {
+              "st": "sig",
+              "k": "('bull_engulf', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.8', 'st0')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 1,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 5,
+              "avg_sl": 10.76,
+              "avg_adv": 0.065,
+              "avg_body": 0.903
+            }
+          ],
+          "sample_calls": [
+            {
+              "era": "E2024",
+              "day": "2024-01-20",
+              "hm": "13:29",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 107.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-01-25",
+              "hm": "10:41",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 7.91,
+              "mfe": 68.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-02-02",
+              "hm": "10:00",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "p75",
+              "sl": 7.2,
+              "mfe": 197.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-03-02",
+              "hm": "11:49",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 7.27,
+              "mfe": 31.9
+            },
+            {
+              "era": "E2024",
+              "day": "2024-05-03",
+              "hm": "09:43",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 7.9,
+              "mfe": 10.3
+            },
+            {
+              "era": "E2024",
+              "day": "2024-05-06",
+              "hm": "12:25",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 10.85,
+              "mfe": 80.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-06-03",
+              "hm": "10:30",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 8.66,
+              "mfe": 57.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-07-01",
+              "hm": "10:15",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 11.25,
+              "mfe": 57.1
+            },
+            {
+              "era": "E2024",
+              "day": "2024-07-10",
+              "hm": "12:26",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 47.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-07-22",
+              "hm": "10:59",
+              "decision": "SELL",
+              "primary": "bear_run3",
+              "st": "sig",
+              "sl": 9.45,
+              "mfe": 103.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-08-06",
+              "hm": "11:47",
+              "decision": "SELL",
+              "primary": "marubozu_bear",
+              "st": "sig",
+              "sl": 5.45,
+              "mfe": 179.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-08-13",
+              "hm": "13:41",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 9.95,
+              "mfe": 111.3
+            },
+            {
+              "era": "E2024",
+              "day": "2024-09-19",
+              "hm": "10:20",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "p75",
+              "sl": 7.43,
+              "mfe": 16.5
+            },
+            {
+              "era": "E2024",
+              "day": "2024-09-24",
+              "hm": "10:14",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "p75",
+              "sl": 6.15,
+              "mfe": 25.3
+            },
+            {
+              "era": "E2024",
+              "day": "2024-10-11",
+              "hm": "11:04",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 6.9,
+              "mfe": 32.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-10-22",
+              "hm": "13:00",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 111.5
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-02",
+              "hm": "11:48",
+              "decision": "SELL",
+              "primary": "belt_bear",
+              "st": "sig",
+              "sl": 6.6,
+              "mfe": 20.7
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-10",
+              "hm": "10:11",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 11.1,
+              "mfe": 12.5
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-10",
+              "hm": "13:07",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 52.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-17",
+              "hm": "12:18",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 11.55,
+              "mfe": 49.1
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-27",
+              "hm": "09:40",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "p75",
+              "sl": 7.31,
+              "mfe": 104.0
+            },
+            {
+              "era": "E2025",
+              "day": "2025-01-21",
+              "hm": "10:44",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 8.96,
+              "mfe": 75.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-02-05",
+              "hm": "12:22",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 29.1
+            },
+            {
+              "era": "E2025",
+              "day": "2025-07-31",
+              "hm": "11:09",
+              "decision": "SELL",
+              "primary": "bear_run3",
+              "st": "sig",
+              "sl": 11.45,
+              "mfe": 18.1
+            },
+            {
+              "era": "E2025",
+              "day": "2025-08-07",
+              "hm": "13:21",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 8.45,
+              "mfe": 40.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-08-18",
+              "hm": "10:44",
+              "decision": "SELL",
+              "primary": "three_crows",
+              "st": "sig",
+              "sl": 4.15,
+              "mfe": 127.4
+            },
+            {
+              "era": "E2025",
+              "day": "2025-09-11",
+              "hm": "09:48",
+              "decision": "BUY",
+              "primary": "three_outside_up",
+              "st": "p75",
+              "sl": 8.21,
+              "mfe": 12.0
+            },
+            {
+              "era": "E2025",
+              "day": "2025-09-25",
+              "hm": "11:30",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 6.19,
+              "mfe": 64.7
+            },
+            {
+              "era": "E2025",
+              "day": "2025-10-16",
+              "hm": "10:16",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 11.9,
+              "mfe": 55.2
+            },
+            {
+              "era": "E2025",
+              "day": "2025-10-28",
+              "hm": "13:41",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 11.35,
+              "mfe": 102.0
+            },
+            {
+              "era": "E2025",
+              "day": "2025-11-27",
+              "hm": "13:36",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 12.1
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-02-17",
+              "hm": "10:03",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "p75",
+              "sl": 6.68,
+              "mfe": 85.5
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-03-11",
+              "hm": "12:06",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 97.7
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-05-21",
+              "hm": "11:52",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 7.31,
+              "mfe": 136.7
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-06-01",
+              "hm": "13:01",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 8.5,
+              "mfe": 144.6
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-06-03",
+              "hm": "11:33",
+              "decision": "SELL",
+              "primary": "dark_cloud",
+              "st": "p75",
+              "sl": 7.16,
+              "mfe": 69.0
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-06-30",
+              "hm": "13:45",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap10",
+              "sl": 10.0,
+              "mfe": 108.8
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-07-13",
+              "hm": "11:14",
+              "decision": "SELL",
+              "primary": "marubozu_bear",
+              "st": "sig",
+              "sl": 6.55,
+              "mfe": 23.5
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-07-29",
+              "hm": "10:00",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 11.65,
+              "mfe": 46.6
+            },
+            {
+              "era": "FWD",
+              "day": "2026-11-13",
+              "hm": "12:08",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "sig",
+              "sl": 10.8,
+              "mfe": 38.6
+            }
+          ]
+        },
+        "ACC100_CORE": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        }
+      }
+    },
+    "T15": {
+      "t1": 15.0,
+      "n_survivors": 165,
+      "variants": {
+        "ACC100_ALL": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        },
+        "ACC100_SOFT": {
+          "n_micros": 7,
+          "total_calls": 47,
+          "era_stats": {
+            "E2024": {
+              "n": 25,
+              "hit_pct": 100.0,
+              "days": 24
+            },
+            "E2025": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "days": 11
+            },
+            "E2026A": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "days": 10
+            },
+            "E2026B": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "days": 1
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {
+            "E2024": {
+              "n": 25,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2025": {
+              "n": 11,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026A": {
+              "n": 10,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026B": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "all_win": true
+            }
+          },
+          "micros": [
+            {
+              "st": "cap12",
+              "k": "('GEOM', 'SELL', 'balanced', 1, 'early', 'b<45', 'sl12-16', 'lo', 'adv_hi', 'ba<0.5', 'st1')",
+              "era_n": {
+                "E2024": 4,
+                "E2025": 4,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 9,
+              "avg_sl": 12.0,
+              "avg_adv": 0.591,
+              "avg_body": 0.247
+            },
+            {
+              "st": "prev",
+              "k": "('bull_run2', 'BUY', 'balanced', 'early', 'b45+', 'sl12-16', 'adv_hi')",
+              "era_n": {
+                "E2024": 5,
+                "E2025": 1,
+                "E2026A": 2,
+                "E2026B": 1,
+                "FWD": 0
+              },
+              "total_n": 9,
+              "avg_sl": 13.63,
+              "avg_adv": 0.453,
+              "avg_body": 0.503
+            },
+            {
+              "st": "prev",
+              "k": "('belt_maru', 'BUY', 1, 'close', 'b55+', 'sl12-16', 'adv_hi', 'st1')",
+              "era_n": {
+                "E2024": 4,
+                "E2025": 1,
+                "E2026A": 3,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 8,
+              "avg_sl": 13.49,
+              "avg_adv": 0.384,
+              "avg_body": 0.612
+            },
+            {
+              "st": "prev",
+              "k": "('GEOM', 'SELL', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.5', 'st2')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 2,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 6,
+              "avg_sl": 13.8,
+              "avg_adv": 0.066,
+              "avg_body": 0.819
+            },
+            {
+              "st": "p60",
+              "k": "('GEOM', 'BUY', 'continuation', 0, 'morning', 'b<45', 'sl16-20', 'mid', 'adv_lo', 'ba<0.5', 'st1')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 1,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 5,
+              "avg_sl": 11.2,
+              "avg_adv": 0.1,
+              "avg_body": 0.212
+            },
+            {
+              "st": "sig",
+              "k": "('GEOM', 'BUY', 'reversal', 1, 'early', 'b70+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.8', 'st0')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 1,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 5,
+              "avg_sl": 12.02,
+              "avg_adv": 0.207,
+              "avg_body": 0.753
+            },
+            {
+              "st": "prev",
+              "k": "('GEOM', 'SELL', 'continuation', 1, 'early', 'b55+', 'sl12-16', 'mid', 'adv_mid', 'ba>0.5', 'st1')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 1,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 5,
+              "avg_sl": 13.71,
+              "avg_adv": 0.224,
+              "avg_body": 0.667
+            }
+          ],
+          "sample_calls": [
+            {
+              "era": "E2024",
+              "day": "2024-01-30",
+              "hm": "10:17",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "prev",
+              "sl": 13.3,
+              "mfe": 97.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-02-02",
+              "hm": "09:31",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "prev",
+              "sl": 13.9,
+              "mfe": 122.7
+            },
+            {
+              "era": "E2024",
+              "day": "2024-02-09",
+              "hm": "09:59",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 50.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-02-14",
+              "hm": "14:58",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "prev",
+              "sl": 13.55,
+              "mfe": 87.8
+            },
+            {
+              "era": "E2024",
+              "day": "2024-02-21",
+              "hm": "09:20",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "prev",
+              "sl": 12.95,
+              "mfe": 50.8
+            },
+            {
+              "era": "E2024",
+              "day": "2024-02-28",
+              "hm": "10:24",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 208.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-03-14",
+              "hm": "10:21",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "prev",
+              "sl": 13.15,
+              "mfe": 167.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-04-01",
+              "hm": "09:30",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 11.8,
+              "mfe": 26.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-04-01",
+              "hm": "09:48",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 11.85,
+              "mfe": 33.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-04-29",
+              "hm": "14:50",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "prev",
+              "sl": 13.15,
+              "mfe": 142.1
+            },
+            {
+              "era": "E2024",
+              "day": "2024-05-02",
+              "hm": "09:41",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "prev",
+              "sl": 14.0,
+              "mfe": 61.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-05-07",
+              "hm": "11:45",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "p60",
+              "sl": 11.64,
+              "mfe": 49.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-06-03",
+              "hm": "11:43",
+              "decision": "BUY",
+              "primary": "three_outside_up",
+              "st": "p60",
+              "sl": 9.69,
+              "mfe": 46.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-07-12",
+              "hm": "10:17",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "prev",
+              "sl": 14.8,
+              "mfe": 215.3
+            },
+            {
+              "era": "E2024",
+              "day": "2024-07-18",
+              "hm": "09:28",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 25.8
+            },
+            {
+              "era": "E2024",
+              "day": "2024-07-22",
+              "hm": "10:59",
+              "decision": "SELL",
+              "primary": "bear_run3",
+              "st": "prev",
+              "sl": 13.4,
+              "mfe": 103.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-08-06",
+              "hm": "11:47",
+              "decision": "SELL",
+              "primary": "marubozu_bear",
+              "st": "prev",
+              "sl": 12.3,
+              "mfe": 179.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-10-07",
+              "hm": "09:29",
+              "decision": "SELL",
+              "primary": "bear_engulf",
+              "st": "prev",
+              "sl": 14.65,
+              "mfe": 279.1
+            },
+            {
+              "era": "E2024",
+              "day": "2024-10-11",
+              "hm": "10:04",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "prev",
+              "sl": 12.35,
+              "mfe": 27.9
+            },
+            {
+              "era": "E2024",
+              "day": "2024-11-06",
+              "hm": "14:54",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "prev",
+              "sl": 12.65,
+              "mfe": 41.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-11-07",
+              "hm": "10:10",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 40.5
+            },
+            {
+              "era": "E2024",
+              "day": "2024-11-19",
+              "hm": "09:43",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "sig",
+              "sl": 11.5,
+              "mfe": 93.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-02",
+              "hm": "11:48",
+              "decision": "SELL",
+              "primary": "belt_bear",
+              "st": "prev",
+              "sl": 14.2,
+              "mfe": 20.7
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-18",
+              "hm": "10:38",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "p60",
+              "sl": 10.11,
+              "mfe": 24.3
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-23",
+              "hm": "14:51",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "prev",
+              "sl": 14.5,
+              "mfe": 124.9
+            },
+            {
+              "era": "E2025",
+              "day": "2025-02-06",
+              "hm": "09:31",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 92.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-03-07",
+              "hm": "14:43",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "prev",
+              "sl": 12.1,
+              "mfe": 85.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-04-09",
+              "hm": "09:24",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 75.5
+            },
+            {
+              "era": "E2025",
+              "day": "2025-05-15",
+              "hm": "11:42",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "p60",
+              "sl": 14.82,
+              "mfe": 363.3
+            },
+            {
+              "era": "E2025",
+              "day": "2025-07-03",
+              "hm": "10:22",
+              "decision": "BUY",
+              "primary": "bull_engulf",
+              "st": "sig",
+              "sl": 13.75,
+              "mfe": 30.2
+            },
+            {
+              "era": "E2025",
+              "day": "2025-07-31",
+              "hm": "11:09",
+              "decision": "SELL",
+              "primary": "bear_run3",
+              "st": "prev",
+              "sl": 14.7,
+              "mfe": 18.1
+            },
+            {
+              "era": "E2025",
+              "day": "2025-08-18",
+              "hm": "10:44",
+              "decision": "SELL",
+              "primary": "three_crows",
+              "st": "prev",
+              "sl": 14.35,
+              "mfe": 127.4
+            },
+            {
+              "era": "E2025",
+              "day": "2025-08-22",
+              "hm": "10:15",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "prev",
+              "sl": 14.9,
+              "mfe": 61.8
+            },
+            {
+              "era": "E2025",
+              "day": "2025-08-25",
+              "hm": "09:27",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "prev",
+              "sl": 13.75,
+              "mfe": 35.0
+            },
+            {
+              "era": "E2025",
+              "day": "2025-10-30",
+              "hm": "09:28",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 86.8
+            },
+            {
+              "era": "E2025",
+              "day": "2025-11-03",
+              "hm": "09:24",
+              "decision": "SELL",
+              "primary": "bear_run2",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 29.5
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-01-12",
+              "hm": "14:50",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "prev",
+              "sl": 14.9,
+              "mfe": 125.8
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-02-20",
+              "hm": "14:31",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "prev",
+              "sl": 13.15,
+              "mfe": 172.4
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-03-04",
+              "hm": "14:39",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "prev",
+              "sl": 13.9,
+              "mfe": 118.9
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-03-05",
+              "hm": "10:20",
+              "decision": "SELL",
+              "primary": "three_outside_dn",
+              "st": "cap12",
+              "sl": 12.0,
+              "mfe": 54.8
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-03-24",
+              "hm": "11:51",
+              "decision": "BUY",
+              "primary": "hammer",
+              "st": "p60",
+              "sl": 9.75,
+              "mfe": 284.5
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-05-12",
+              "hm": "09:41",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "prev",
+              "sl": 14.15,
+              "mfe": 36.6
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-07-09",
+              "hm": "09:59",
+              "decision": "BUY",
+              "primary": "belt_bull",
+              "st": "sig",
+              "sl": 11.2,
+              "mfe": 90.0
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-07-13",
+              "hm": "11:14",
+              "decision": "SELL",
+              "primary": "marubozu_bear",
+              "st": "prev",
+              "sl": 13.85,
+              "mfe": 23.5
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-07-20",
+              "hm": "09:30",
+              "decision": "SELL",
+              "primary": "bear_engulf",
+              "st": "prev",
+              "sl": 12.75,
+              "mfe": 25.5
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-07-22",
+              "hm": "10:03",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "prev",
+              "sl": 12.1,
+              "mfe": 27.9
+            },
+            {
+              "era": "E2026B",
+              "day": "2026-09-28",
+              "hm": "09:46",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "prev",
+              "sl": 14.5,
+              "mfe": 15.7
+            }
+          ]
+        },
+        "ACC100_Y25Y26": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        },
+        "ACC100_FWD1": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        },
+        "ACC100_Q": {
+          "n_micros": 1,
+          "total_calls": 6,
+          "era_stats": {
+            "E2024": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "days": 3
+            },
+            "E2025": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "days": 2
+            },
+            "E2026A": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "days": 1
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {
+            "E2024": {
+              "n": 3,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2025": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026A": {
+              "n": 1,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "all_win": true
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "all_win": true
+            }
+          },
+          "micros": [
+            {
+              "st": "prev",
+              "k": "('GEOM', 'SELL', 'reversal', 0, 'morning', 'b70+', 'sl12-16', 'mid', 'adv_lo', 'ba>0.5', 'st2')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 2,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 6,
+              "avg_sl": 13.8,
+              "avg_adv": 0.066,
+              "avg_body": 0.819
+            }
+          ],
+          "sample_calls": [
+            {
+              "era": "E2024",
+              "day": "2024-07-22",
+              "hm": "10:59",
+              "decision": "SELL",
+              "primary": "bear_run3",
+              "st": "prev",
+              "sl": 13.4,
+              "mfe": 103.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-08-06",
+              "hm": "11:47",
+              "decision": "SELL",
+              "primary": "marubozu_bear",
+              "st": "prev",
+              "sl": 12.3,
+              "mfe": 179.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-02",
+              "hm": "11:48",
+              "decision": "SELL",
+              "primary": "belt_bear",
+              "st": "prev",
+              "sl": 14.2,
+              "mfe": 20.7
+            },
+            {
+              "era": "E2025",
+              "day": "2025-07-31",
+              "hm": "11:09",
+              "decision": "SELL",
+              "primary": "bear_run3",
+              "st": "prev",
+              "sl": 14.7,
+              "mfe": 18.1
+            },
+            {
+              "era": "E2025",
+              "day": "2025-08-18",
+              "hm": "10:44",
+              "decision": "SELL",
+              "primary": "three_crows",
+              "st": "prev",
+              "sl": 14.35,
+              "mfe": 127.4
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-07-13",
+              "hm": "11:14",
+              "decision": "SELL",
+              "primary": "marubozu_bear",
+              "st": "prev",
+              "sl": 13.85,
+              "mfe": 23.5
+            }
+          ]
+        },
+        "ACC100_CORE": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        }
+      }
+    },
+    "T20": {
+      "t1": 20.0,
+      "n_survivors": 81,
+      "variants": {
+        "ACC100_ALL": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        },
+        "ACC100_SOFT": {
+          "n_micros": 2,
+          "total_calls": 10,
+          "era_stats": {
+            "E2024": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "days": 6
+            },
+            "E2025": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "days": 2
+            },
+            "E2026A": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "days": 2
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {
+            "E2024": {
+              "n": 6,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2025": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026A": {
+              "n": 2,
+              "hit_pct": 100.0,
+              "all_win": true
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "all_win": true
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "all_win": true
+            }
+          },
+          "micros": [
+            {
+              "st": "p75",
+              "k": "('GEOM', 'BUY', 'continuation', 0, 'morning', 'b<45', 'sl16-20', 'mid', 'adv_lo', 'ba<0.5', 'st1')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 1,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 5,
+              "avg_sl": 14.0,
+              "avg_adv": 0.1,
+              "avg_body": 0.212
+            },
+            {
+              "st": "prev",
+              "k": "('three', 'BUY', 'continuation', 0, 'am', 'b55+', 'sl16-20', 'adv_mid')",
+              "era_n": {
+                "E2024": 3,
+                "E2025": 1,
+                "E2026A": 1,
+                "E2026B": 0,
+                "FWD": 0
+              },
+              "total_n": 5,
+              "avg_sl": 16.99,
+              "avg_adv": 0.232,
+              "avg_body": 0.63
+            }
+          ],
+          "sample_calls": [
+            {
+              "era": "E2024",
+              "day": "2024-05-07",
+              "hm": "11:45",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "p75",
+              "sl": 14.55,
+              "mfe": 49.2
+            },
+            {
+              "era": "E2024",
+              "day": "2024-05-28",
+              "hm": "10:18",
+              "decision": "BUY",
+              "primary": "three_outside_up",
+              "st": "prev",
+              "sl": 16.1,
+              "mfe": 23.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-06-03",
+              "hm": "11:43",
+              "decision": "BUY",
+              "primary": "three_outside_up",
+              "st": "p75",
+              "sl": 12.11,
+              "mfe": 46.0
+            },
+            {
+              "era": "E2024",
+              "day": "2024-09-06",
+              "hm": "10:28",
+              "decision": "BUY",
+              "primary": "three_outside_up",
+              "st": "prev",
+              "sl": 17.35,
+              "mfe": 35.4
+            },
+            {
+              "era": "E2024",
+              "day": "2024-10-24",
+              "hm": "09:59",
+              "decision": "BUY",
+              "primary": "three_outside_up",
+              "st": "prev",
+              "sl": 16.05,
+              "mfe": 42.1
+            },
+            {
+              "era": "E2024",
+              "day": "2024-12-18",
+              "hm": "10:38",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "p75",
+              "sl": 12.64,
+              "mfe": 24.3
+            },
+            {
+              "era": "E2025",
+              "day": "2025-01-17",
+              "hm": "11:53",
+              "decision": "BUY",
+              "primary": "three_soldiers",
+              "st": "prev",
+              "sl": 16.8,
+              "mfe": 100.6
+            },
+            {
+              "era": "E2025",
+              "day": "2025-05-15",
+              "hm": "11:42",
+              "decision": "BUY",
+              "primary": "bull_run2",
+              "st": "p75",
+              "sl": 18.53,
+              "mfe": 363.3
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-02-01",
+              "hm": "09:27",
+              "decision": "BUY",
+              "primary": "three_outside_up",
+              "st": "prev",
+              "sl": 18.65,
+              "mfe": 125.8
+            },
+            {
+              "era": "E2026A",
+              "day": "2026-03-24",
+              "hm": "11:51",
+              "decision": "BUY",
+              "primary": "hammer",
+              "st": "p75",
+              "sl": 12.19,
+              "mfe": 284.5
+            }
+          ]
+        },
+        "ACC100_Y25Y26": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        },
+        "ACC100_FWD1": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        },
+        "ACC100_Q": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        },
+        "ACC100_CORE": {
+          "n_micros": 0,
+          "total_calls": 0,
+          "era_stats": {
+            "E2024": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2025": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026A": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "E2026B": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            },
+            "FWD": {
+              "n": 0,
+              "hit_pct": 0,
+              "days": 0
+            }
+          },
+          "verify": {},
+          "micros": [],
+          "sample_calls": []
+        }
+      }
+    }
+  },
+  "elapsed_s": 310.4
+}

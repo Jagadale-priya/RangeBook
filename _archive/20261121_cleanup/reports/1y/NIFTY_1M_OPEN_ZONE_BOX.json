@@ -1,0 +1,426 @@
+{
+  "window": [
+    "2026-10-15",
+    "2026-11-16"
+  ],
+  "summaries": [
+    {
+      "method": "FIRST_ORIGIN",
+      "n": 27,
+      "swing_pct": 59.26,
+      "break_pct": 37.04,
+      "decisive_pct": 96.3,
+      "weak_pct": 3.7,
+      "avg_bounce_swing": 47.8,
+      "swing_n": 16,
+      "break_n": 10,
+      "origin_in_zone_pct": 9.52,
+      "origin_n": 21,
+      "UP_swing": 57.14,
+      "UP_break": 35.71,
+      "UP_n": 14,
+      "DOWN_swing": 61.54,
+      "DOWN_break": 38.46,
+      "DOWN_n": 13
+    },
+    {
+      "method": "OPEN_ATR",
+      "n": 36,
+      "swing_pct": 63.89,
+      "break_pct": 30.56,
+      "decisive_pct": 94.44,
+      "weak_pct": 5.56,
+      "avg_bounce_swing": 51.56,
+      "swing_n": 23,
+      "break_n": 11,
+      "origin_in_zone_pct": 28.57,
+      "origin_n": 21,
+      "UP_swing": 50.0,
+      "UP_break": 44.44,
+      "UP_n": 18,
+      "DOWN_swing": 77.78,
+      "DOWN_break": 16.67,
+      "DOWN_n": 18
+    },
+    {
+      "method": "OR15",
+      "n": 31,
+      "swing_pct": 64.52,
+      "break_pct": 35.48,
+      "decisive_pct": 100.0,
+      "weak_pct": 0.0,
+      "avg_bounce_swing": 40.83,
+      "swing_n": 20,
+      "break_n": 11,
+      "origin_in_zone_pct": 19.05,
+      "origin_n": 21,
+      "UP_swing": 52.63,
+      "UP_break": 47.37,
+      "UP_n": 19,
+      "DOWN_swing": 83.33,
+      "DOWN_break": 16.67,
+      "DOWN_n": 12
+    },
+    {
+      "method": "OR30",
+      "n": 26,
+      "swing_pct": 57.69,
+      "break_pct": 42.31,
+      "decisive_pct": 100.0,
+      "weak_pct": 0.0,
+      "avg_bounce_swing": 36.22,
+      "swing_n": 15,
+      "break_n": 11,
+      "origin_in_zone_pct": 14.29,
+      "origin_n": 21,
+      "UP_swing": 53.33,
+      "UP_break": 46.67,
+      "UP_n": 15,
+      "DOWN_swing": 63.64,
+      "DOWN_break": 36.36,
+      "DOWN_n": 11
+    },
+    {
+      "method": "OR30_BOX",
+      "n": 26,
+      "swing_pct": 57.69,
+      "break_pct": 42.31,
+      "decisive_pct": 100.0,
+      "weak_pct": 0.0,
+      "avg_bounce_swing": 36.22,
+      "swing_n": 15,
+      "break_n": 11,
+      "origin_in_zone_pct": 14.29,
+      "origin_n": 21,
+      "UP_swing": 53.33,
+      "UP_break": 46.67,
+      "UP_n": 15,
+      "DOWN_swing": 63.64,
+      "DOWN_break": 36.36,
+      "DOWN_n": 11
+    }
+  ],
+  "n_events": 220,
+  "origin_rows_sample": [
+    {
+      "method": "OR15",
+      "day": "2026-10-15",
+      "hit": true,
+      "side": "UP",
+      "origin": 22744.35,
+      "pts": 175.25
+    },
+    {
+      "method": "OR15",
+      "day": "2026-10-16",
+      "hit": false,
+      "side": null,
+      "origin": 22913.8,
+      "pts": 236.05
+    },
+    {
+      "method": "OR15",
+      "day": "2026-10-19",
+      "hit": false,
+      "side": null,
+      "origin": 22845.25,
+      "pts": 275.65
+    },
+    {
+      "method": "OR15",
+      "day": "2026-10-21",
+      "hit": false,
+      "side": null,
+      "origin": 22989.25,
+      "pts": 286.4
+    },
+    {
+      "method": "OR15",
+      "day": "2026-10-22",
+      "hit": false,
+      "side": null,
+      "origin": 22785.0,
+      "pts": 195.2
+    },
+    {
+      "method": "OR15",
+      "day": "2026-10-23",
+      "hit": false,
+      "side": null,
+      "origin": 22730.9,
+      "pts": 271.65
+    },
+    {
+      "method": "OR15",
+      "day": "2026-10-26",
+      "hit": false,
+      "side": null,
+      "origin": 22413.25,
+      "pts": 292.9
+    },
+    {
+      "method": "OR15",
+      "day": "2026-10-27",
+      "hit": false,
+      "side": null,
+      "origin": 22678.55,
+      "pts": 137.85
+    },
+    {
+      "method": "OR15",
+      "day": "2026-10-28",
+      "hit": false,
+      "side": null,
+      "origin": 22661.45,
+      "pts": 163.75
+    },
+    {
+      "method": "OR15",
+      "day": "2026-10-29",
+      "hit": true,
+      "side": "UP",
+      "origin": 22734.45,
+      "pts": 139.7
+    },
+    {
+      "method": "OR15",
+      "day": "2026-10-30",
+      "hit": false,
+      "side": null,
+      "origin": 23000.25,
+      "pts": 330.45
+    },
+    {
+      "method": "OR15",
+      "day": "2026-11-02",
+      "hit": true,
+      "side": "DOWN",
+      "origin": 23207.05,
+      "pts": 425.0
+    },
+    {
+      "method": "OR15",
+      "day": "2026-11-03",
+      "hit": false,
+      "side": null,
+      "origin": 23671.1,
+      "pts": 275.25
+    },
+    {
+      "method": "OR15",
+      "day": "2026-11-04",
+      "hit": false,
+      "side": null,
+      "origin": 23854.8,
+      "pts": 495.2
+    },
+    {
+      "method": "OR15",
+      "day": "2026-11-05",
+      "hit": false,
+      "side": null,
+      "origin": 24422.1,
+      "pts": 157.8
+    },
+    {
+      "method": "OR15",
+      "day": "2026-11-06",
+      "hit": false,
+      "side": null,
+      "origin": 24774.65,
+      "pts": 333.15
+    },
+    {
+      "method": "OR15",
+      "day": "2026-11-09",
+      "hit": false,
+      "side": null,
+      "origin": 24989.25,
+      "pts": 435.1
+    },
+    {
+      "method": "OR15",
+      "day": "2026-11-11",
+      "hit": false,
+      "side": null,
+      "origin": 25193.85,
+      "pts": 162.0
+    },
+    {
+      "method": "OR15",
+      "day": "2026-11-12",
+      "hit": false,
+      "side": null,
+      "origin": 25283.5,
+      "pts": 166.15
+    },
+    {
+      "method": "OR15",
+      "day": "2026-11-13",
+      "hit": false,
+      "side": null,
+      "origin": 25054.4,
+      "pts": 283.2
+    },
+    {
+      "method": "OR15",
+      "day": "2026-11-16",
+      "hit": true,
+      "side": "UP",
+      "origin": 25309.55,
+      "pts": 119.3
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-15",
+      "hit": false,
+      "side": null,
+      "origin": 22744.35,
+      "pts": 175.25
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-16",
+      "hit": false,
+      "side": null,
+      "origin": 23141.55,
+      "pts": 170.2
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-19",
+      "hit": false,
+      "side": null,
+      "origin": 22845.25,
+      "pts": 275.65
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-21",
+      "hit": false,
+      "side": null,
+      "origin": 22989.25,
+      "pts": 286.4
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-22",
+      "hit": false,
+      "side": null,
+      "origin": 22785.0,
+      "pts": 195.2
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-23",
+      "hit": false,
+      "side": null,
+      "origin": 22572.75,
+      "pts": 159.5
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-26",
+      "hit": false,
+      "side": null,
+      "origin": 22706.15,
+      "pts": 118.0
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-27",
+      "hit": false,
+      "side": null,
+      "origin": 22678.55,
+      "pts": 137.85
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-28",
+      "hit": false,
+      "side": null,
+      "origin": 22661.45,
+      "pts": 163.75
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-29",
+      "hit": false,
+      "side": null,
+      "origin": 22734.45,
+      "pts": 139.7
+    },
+    {
+      "method": "OR30",
+      "day": "2026-10-30",
+      "hit": true,
+      "side": "UP",
+      "origin": 23000.25,
+      "pts": 330.45
+    },
+    {
+      "method": "OR30",
+      "day": "2026-11-02",
+      "hit": true,
+      "side": "DOWN",
+      "origin": 23207.05,
+      "pts": 425.0
+    },
+    {
+      "method": "OR30",
+      "day": "2026-11-03",
+      "hit": false,
+      "side": null,
+      "origin": 23671.1,
+      "pts": 275.25
+    },
+    {
+      "method": "OR30",
+      "day": "2026-11-04",
+      "hit": false,
+      "side": null,
+      "origin": 23854.8,
+      "pts": 495.2
+    },
+    {
+      "method": "OR30",
+      "day": "2026-11-05",
+      "hit": false,
+      "side": null,
+      "origin": 24422.1,
+      "pts": 157.8
+    },
+    {
+      "method": "OR30",
+      "day": "2026-11-06",
+      "hit": false,
+      "side": null,
+      "origin": 24774.65,
+      "pts": 333.15
+    },
+    {
+      "method": "OR30",
+      "day": "2026-11-09",
+      "hit": false,
+      "side": null,
+      "origin": 24989.25,
+      "pts": 435.1
+    },
+    {
+      "method": "OR30",
+      "day": "2026-11-11",
+      "hit": false,
+      "side": null,
+      "origin": 25193.85,
+      "pts": 162.0
+    },
+    {
+      "method": "OR30",
+      "day": "2026-11-12",
+      "hit": false,
+      "side": null,
+      "origin": 25283.5,
+      "pts": 166.15
+    }
+  ]
+}

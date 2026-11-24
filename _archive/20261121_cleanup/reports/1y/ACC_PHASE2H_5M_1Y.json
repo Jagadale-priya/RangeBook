@@ -1,0 +1,177 @@
+{
+  "status": "RESEARCH",
+  "not_live": true,
+  "phase": "2h",
+  "dual_model": "5m_train",
+  "selection": {
+    "start": "2023-11-16",
+    "end": "2025-11-14"
+  },
+  "test": {
+    "start": "2025-11-15",
+    "end": "2026-11-15"
+  },
+  "results": {
+    "90.0": {
+      "pre": {
+        "n": 65,
+        "hit_pct": 93.85,
+        "wins": 61,
+        "losses": 4,
+        "points": 1760.0,
+        "days": 65,
+        "by_track": {
+          "crown_5m": {
+            "n": 32,
+            "hit_pct": 93.75,
+            "points": 780.0
+          },
+          "dual5m": {
+            "n": 22,
+            "hit_pct": 90.91,
+            "points": 540.0
+          },
+          "good_prod2": {
+            "n": 11,
+            "hit_pct": 100.0,
+            "points": 440.0
+          }
+        }
+      },
+      "test_1y": {
+        "n": 45,
+        "hit_pct": 66.67,
+        "wins": 30,
+        "losses": 15,
+        "points": 510.0,
+        "days": 45,
+        "by_track": {
+          "crown_5m": {
+            "n": 24,
+            "hit_pct": 58.33,
+            "points": 100.0
+          },
+          "dual5m": {
+            "n": 13,
+            "hit_pct": 61.54,
+            "points": 90.0
+          },
+          "good_prod2": {
+            "n": 8,
+            "hit_pct": 100.0,
+            "points": 320.0
+          }
+        }
+      },
+      "n_streams": 9,
+      "streams": [
+        "H_CR30_BUY_p60_all_htf_nogap_raw",
+        "H_CR30_SELL_p55_pm_htf_g030_first",
+        "H_D5_BOTH_p60_am1130_any_g030_raw",
+        "H_D5_BOTH_p52_pm_htf_nogap_raw",
+        "H_CR20_BUY_p0_am1130_any_nogap_raw",
+        "H_GD40_BOTH_p55_mid_any_g030_raw",
+        "H_GD40_BOTH_p0_mid_any_gup040_raw",
+        "H_D5_BOTH_p60_all_any_gup040_raw",
+        "H_CR30_BOTH_p0_am1130_htf_g030_raw"
+      ]
+    },
+    "92.0": {
+      "pre": {
+        "n": 27,
+        "hit_pct": 96.3,
+        "wins": 26,
+        "losses": 1,
+        "points": 750.0,
+        "days": 27,
+        "by_track": {
+          "crown_5m": {
+            "n": 18,
+            "hit_pct": 94.44,
+            "points": 390.0
+          },
+          "good_prod2": {
+            "n": 9,
+            "hit_pct": 100.0,
+            "points": 360.0
+          }
+        }
+      },
+      "test_1y": {
+        "n": 16,
+        "hit_pct": 68.75,
+        "wins": 11,
+        "losses": 5,
+        "points": 210.0,
+        "days": 16,
+        "by_track": {
+          "crown_5m": {
+            "n": 10,
+            "hit_pct": 50.0,
+            "points": -30.0
+          },
+          "good_prod2": {
+            "n": 6,
+            "hit_pct": 100.0,
+            "points": 240.0
+          }
+        }
+      },
+      "n_streams": 3,
+      "streams": [
+        "H_CR20_BUY_p0_am1130_any_nogap_raw",
+        "H_GD40_BOTH_p55_mid_any_g030_raw",
+        "H_CR30_BUY_p60_all_htf_nogap_raw"
+      ]
+    },
+    "95.0": {
+      "pre": {
+        "n": 18,
+        "hit_pct": 100.0,
+        "wins": 18,
+        "losses": 0,
+        "points": 540.0,
+        "days": 18,
+        "by_track": {
+          "crown_5m": {
+            "n": 9,
+            "hit_pct": 100.0,
+            "points": 180.0
+          },
+          "good_prod2": {
+            "n": 9,
+            "hit_pct": 100.0,
+            "points": 360.0
+          }
+        }
+      },
+      "test_1y": {
+        "n": 9,
+        "hit_pct": 100.0,
+        "wins": 9,
+        "losses": 0,
+        "points": 300.0,
+        "days": 9,
+        "by_track": {
+          "crown_5m": {
+            "n": 3,
+            "hit_pct": 100.0,
+            "points": 60.0
+          },
+          "good_prod2": {
+            "n": 6,
+            "hit_pct": 100.0,
+            "points": 240.0
+          }
+        }
+      },
+      "n_streams": 2,
+      "streams": [
+        "H_CR20_BUY_p0_am1130_any_nogap_raw",
+        "H_GD40_BOTH_p55_mid_any_g030_raw"
+      ]
+    }
+  },
+  "verdict": "5m model alone stays near 50-56% on the test year. Only the floor-95 path mix (not the 5m head) held 9 calls at 100%. Larger books fell to 45@66.67 and 16@68.75. RESEARCH only.",
+  "elapsed_s": 9.1
+}

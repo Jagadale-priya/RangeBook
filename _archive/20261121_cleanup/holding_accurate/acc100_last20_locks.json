@@ -1,0 +1,80 @@
+{
+  "nifty": {
+    "desk": "NIFTY_ACC100_DENSE_WF",
+    "gate": {
+      "cap": 1,
+      "pmin": 0.55,
+      "tracks": [
+        "champion",
+        "good_prod2",
+        "proven_research"
+      ],
+      "hm_lo": "10:00",
+      "hm_hi": "14:00",
+      "max_or_ext": null,
+      "first_only": false,
+      "sides": null,
+      "buy_p": null,
+      "sell_p": null
+    },
+    "full6m": {
+      "n": 19,
+      "wins": 19,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 570.0,
+      "sessions": 19,
+      "buy_n": 5,
+      "sell_n": 14
+    },
+    "test2m": {
+      "n": 8,
+      "wins": 8,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 240.0,
+      "sessions": 8,
+      "buy_n": 2,
+      "sell_n": 6
+    },
+    "evidence": "19@100% on 6m \u00b7 8@100% on WF holdout \u00b7 vs Cap6 236@74.15%",
+    "note": "Densest WF-stable 100% on last 6m live sessions; Cap>1 does not add calls"
+  },
+  "sensex": {
+    "desk": "SENSEX_ACC100_DENSE_WF",
+    "gate": {
+      "cap": 1,
+      "pmin": 0.5,
+      "tracks": null,
+      "hm_lo": "10:00",
+      "hm_hi": "14:00",
+      "max_or_ext": null,
+      "first_only": true,
+      "sides": null,
+      "buy_p": null,
+      "sell_p": null
+    },
+    "full6m": {
+      "n": 22,
+      "wins": 22,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 1100.0,
+      "sessions": 22,
+      "buy_n": 5,
+      "sell_n": 17
+    },
+    "test2m": {
+      "n": 6,
+      "wins": 6,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 300.0,
+      "sessions": 6,
+      "buy_n": 1,
+      "sell_n": 5
+    },
+    "evidence": "22@100% on 6m \u00b7 6@100% holdout \u00b7 vs T50 22@90.91%",
+    "note": "Densest WF-stable 100% on last 6m Sensex live sessions"
+  }
+}

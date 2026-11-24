@@ -1,0 +1,1113 @@
+{
+  "window": [
+    "2025-11-17",
+    "2026-11-16"
+  ],
+  "hold_lo": "2026-08-01",
+  "train_days": 175,
+  "hold_days": 73,
+  "gates": [
+    {
+      "gate": "raw",
+      "train": {
+        "n": 41383,
+        "wins": 13248,
+        "hit": 32.01,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 236.474,
+        "avg_sl": 5.94,
+        "avg_t1": 20.04,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 66,
+        "hit": 37.71,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.37,
+        "avg_t1": 21.49,
+        "all_win": false
+      },
+      "hold": {
+        "n": 17070,
+        "wins": 5262,
+        "hit": 30.83,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 233.836,
+        "avg_sl": 5.63,
+        "avg_t1": 19.96,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 26,
+        "hit": 35.62,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.28,
+        "avg_t1": 22.12,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "ema15_align",
+      "train": {
+        "n": 29981,
+        "wins": 9431,
+        "hit": 31.46,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 171.32,
+        "avg_sl": 6.14,
+        "avg_t1": 21.79,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 59,
+        "hit": 33.71,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.31,
+        "avg_t1": 24.89,
+        "all_win": false
+      },
+      "hold": {
+        "n": 12339,
+        "wins": 3787,
+        "hit": 30.69,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 169.027,
+        "avg_sl": 5.81,
+        "avg_t1": 21.68,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 27,
+        "hit": 36.99,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.3,
+        "avg_t1": 25.62,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "ema21_align",
+      "train": {
+        "n": 28618,
+        "wins": 8882,
+        "hit": 31.04,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 163.531,
+        "avg_sl": 6.13,
+        "avg_t1": 22.12,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 63,
+        "hit": 36.0,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.26,
+        "avg_t1": 25.09,
+        "all_win": false
+      },
+      "hold": {
+        "n": 11777,
+        "wins": 3589,
+        "hit": 30.47,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 161.329,
+        "avg_sl": 5.8,
+        "avg_t1": 22.01,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 25,
+        "hit": 34.25,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.33,
+        "avg_t1": 25.68,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "ema34_align",
+      "train": {
+        "n": 26876,
+        "wins": 8202,
+        "hit": 30.52,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 153.577,
+        "avg_sl": 6.1,
+        "avg_t1": 22.62,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 64,
+        "hit": 36.57,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.26,
+        "avg_t1": 25.14,
+        "all_win": false
+      },
+      "hold": {
+        "n": 11122,
+        "wins": 3308,
+        "hit": 29.74,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 152.356,
+        "avg_sl": 5.77,
+        "avg_t1": 22.46,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 27,
+        "hit": 36.99,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.28,
+        "avg_t1": 25.68,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "ema50_align",
+      "train": {
+        "n": 25762,
+        "wins": 7764,
+        "hit": 30.14,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 147.211,
+        "avg_sl": 6.08,
+        "avg_t1": 23.0,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 61,
+        "hit": 34.86,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.25,
+        "avg_t1": 25.2,
+        "all_win": false
+      },
+      "hold": {
+        "n": 10684,
+        "wins": 3113,
+        "hit": 29.14,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 146.356,
+        "avg_sl": 5.74,
+        "avg_t1": 22.83,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 26,
+        "hit": 35.62,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.28,
+        "avg_t1": 25.75,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "stack15_with",
+      "train": {
+        "n": 18928,
+        "wins": 5224,
+        "hit": 27.6,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 108.16,
+        "avg_sl": 6.02,
+        "avg_t1": 25.37,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 65,
+        "hit": 37.14,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.22,
+        "avg_t1": 25.6,
+        "all_win": false
+      },
+      "hold": {
+        "n": 7926,
+        "wins": 2197,
+        "hit": 27.72,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 108.575,
+        "avg_sl": 5.71,
+        "avg_t1": 25.02,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 28,
+        "hit": 38.36,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.17,
+        "avg_t1": 26.1,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "stack21_with",
+      "train": {
+        "n": 17731,
+        "wins": 4761,
+        "hit": 26.85,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 101.32,
+        "avg_sl": 6.0,
+        "avg_t1": 26.22,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 62,
+        "hit": 35.43,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.07,
+        "avg_t1": 27.0,
+        "all_win": false
+      },
+      "hold": {
+        "n": 7475,
+        "wins": 2015,
+        "hit": 26.96,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 102.397,
+        "avg_sl": 5.7,
+        "avg_t1": 25.73,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 26,
+        "hit": 35.62,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.09,
+        "avg_t1": 26.58,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "stack34_with",
+      "train": {
+        "n": 16802,
+        "wins": 4679,
+        "hit": 27.85,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 96.011,
+        "avg_sl": 5.97,
+        "avg_t1": 25.45,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 61,
+        "hit": 34.86,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 6.98,
+        "avg_t1": 26.8,
+        "all_win": false
+      },
+      "hold": {
+        "n": 7167,
+        "wins": 1917,
+        "hit": 26.75,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 98.178,
+        "avg_sl": 5.64,
+        "avg_t1": 25.02,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 29,
+        "hit": 39.73,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.1,
+        "avg_t1": 26.71,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "pull15",
+      "train": {
+        "n": 2167,
+        "wins": 635,
+        "hit": 29.3,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 12.383,
+        "avg_sl": 5.16,
+        "avg_t1": 17.77,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 56,
+        "hit": 32.0,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 6.07,
+        "avg_t1": 18.77,
+        "all_win": false
+      },
+      "hold": {
+        "n": 1065,
+        "wins": 311,
+        "hit": 29.2,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 14.589,
+        "avg_sl": 4.81,
+        "avg_t1": 17.59,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 25,
+        "hit": 34.25,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 5.92,
+        "avg_t1": 18.77,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "pull21",
+      "train": {
+        "n": 1880,
+        "wins": 572,
+        "hit": 30.43,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 10.743,
+        "avg_sl": 5.22,
+        "avg_t1": 16.22,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 68,
+        "hit": 38.86,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 5.91,
+        "avg_t1": 16.43,
+        "all_win": false
+      },
+      "hold": {
+        "n": 902,
+        "wins": 299,
+        "hit": 33.15,
+        "days": 72,
+        "cover": 98.6,
+        "cpd": 12.356,
+        "avg_sl": 4.89,
+        "avg_t1": 16.14,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 72,
+        "wins": 31,
+        "hit": 43.06,
+        "days": 72,
+        "cover": 98.6,
+        "cpd": 0.986,
+        "avg_sl": 5.82,
+        "avg_t1": 17.08,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "pull34",
+      "train": {
+        "n": 1459,
+        "wins": 502,
+        "hit": 34.41,
+        "days": 173,
+        "cover": 98.9,
+        "cpd": 8.337,
+        "avg_sl": 5.41,
+        "avg_t1": 15.16,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 173,
+        "wins": 68,
+        "hit": 39.31,
+        "days": 173,
+        "cover": 98.9,
+        "cpd": 0.989,
+        "avg_sl": 6.12,
+        "avg_t1": 15.26,
+        "all_win": false
+      },
+      "hold": {
+        "n": 693,
+        "wins": 217,
+        "hit": 31.31,
+        "days": 71,
+        "cover": 97.3,
+        "cpd": 9.493,
+        "avg_sl": 5.04,
+        "avg_t1": 15.12,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 71,
+        "wins": 26,
+        "hit": 36.62,
+        "days": 71,
+        "cover": 97.3,
+        "cpd": 0.973,
+        "avg_sl": 5.71,
+        "avg_t1": 15.35,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "hard15",
+      "train": {
+        "n": 16896,
+        "wins": 4670,
+        "hit": 27.64,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 96.549,
+        "avg_sl": 6.07,
+        "avg_t1": 26.19,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 65,
+        "hit": 37.14,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.22,
+        "avg_t1": 26.0,
+        "all_win": false
+      },
+      "hold": {
+        "n": 7095,
+        "wins": 1952,
+        "hit": 27.51,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 97.192,
+        "avg_sl": 5.76,
+        "avg_t1": 25.84,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 26,
+        "hit": 35.62,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.14,
+        "avg_t1": 26.71,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "hard21",
+      "train": {
+        "n": 16039,
+        "wins": 4248,
+        "hit": 26.49,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 91.651,
+        "avg_sl": 6.04,
+        "avg_t1": 27.06,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 62,
+        "hit": 35.43,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.09,
+        "avg_t1": 27.43,
+        "all_win": false
+      },
+      "hold": {
+        "n": 6772,
+        "wins": 1805,
+        "hit": 26.65,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 92.767,
+        "avg_sl": 5.74,
+        "avg_t1": 26.57,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 25,
+        "hit": 34.25,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.17,
+        "avg_t1": 27.4,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "hard34",
+      "train": {
+        "n": 14742,
+        "wins": 4009,
+        "hit": 27.19,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 84.24,
+        "avg_sl": 6.0,
+        "avg_t1": 26.27,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 57,
+        "hit": 32.57,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 6.99,
+        "avg_t1": 27.11,
+        "all_win": false
+      },
+      "hold": {
+        "n": 6248,
+        "wins": 1668,
+        "hit": 26.7,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 85.589,
+        "avg_sl": 5.69,
+        "avg_t1": 25.83,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 29,
+        "hit": 39.73,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.17,
+        "avg_t1": 27.4,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "hard50",
+      "train": {
+        "n": 17336,
+        "wins": 4649,
+        "hit": 26.82,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 99.063,
+        "avg_sl": 6.0,
+        "avg_t1": 26.37,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 59,
+        "hit": 33.71,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.08,
+        "avg_t1": 27.09,
+        "all_win": false
+      },
+      "hold": {
+        "n": 7317,
+        "wins": 1964,
+        "hit": 26.84,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 100.233,
+        "avg_sl": 5.7,
+        "avg_t1": 25.86,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 25,
+        "hit": 34.25,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.17,
+        "avg_t1": 27.05,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "clean21",
+      "train": {
+        "n": 5882,
+        "wins": 1666,
+        "hit": 28.32,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 33.611,
+        "avg_sl": 6.69,
+        "avg_t1": 28.61,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 54,
+        "hit": 30.86,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.69,
+        "avg_t1": 28.69,
+        "all_win": false
+      },
+      "hold": {
+        "n": 2395,
+        "wins": 711,
+        "hit": 29.69,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 32.808,
+        "avg_sl": 6.43,
+        "avg_t1": 28.18,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 30,
+        "hit": 41.1,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.59,
+        "avg_t1": 28.49,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "clean34",
+      "train": {
+        "n": 5179,
+        "wins": 1500,
+        "hit": 28.96,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 29.594,
+        "avg_sl": 6.68,
+        "avg_t1": 28.04,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 51,
+        "hit": 29.14,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.52,
+        "avg_t1": 27.89,
+        "all_win": false
+      },
+      "hold": {
+        "n": 2092,
+        "wins": 611,
+        "hit": 29.21,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 28.658,
+        "avg_sl": 6.4,
+        "avg_t1": 27.65,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 35,
+        "hit": 47.95,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.48,
+        "avg_t1": 28.7,
+        "all_win": false
+      }
+    },
+    {
+      "gate": "clean50",
+      "train": {
+        "n": 10235,
+        "wins": 2930,
+        "hit": 28.63,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 58.486,
+        "avg_sl": 6.5,
+        "avg_t1": 26.93,
+        "all_win": false
+      },
+      "train_1d": {
+        "n": 175,
+        "wins": 60,
+        "hit": 34.29,
+        "days": 175,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.34,
+        "avg_t1": 27.17,
+        "all_win": false
+      },
+      "hold": {
+        "n": 4072,
+        "wins": 1197,
+        "hit": 29.4,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 55.781,
+        "avg_sl": 6.23,
+        "avg_t1": 26.54,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 26,
+        "hit": 35.62,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 7.37,
+        "avg_t1": 27.47,
+        "all_win": false
+      }
+    }
+  ],
+  "books": {
+    "hard34": {
+      "n_micros": 57,
+      "train_1d": {
+        "n": 169,
+        "wins": 169,
+        "hit": 100.0,
+        "days": 169,
+        "cover": 96.6,
+        "cpd": 0.966,
+        "avg_sl": 9.84,
+        "avg_t1": 27.99,
+        "all_win": true
+      },
+      "hold": {
+        "n": 3936,
+        "wins": 1091,
+        "hit": 27.72,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 53.918,
+        "avg_sl": 9.2,
+        "avg_t1": 27.78,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 28,
+        "hit": 38.36,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 10.23,
+        "avg_t1": 28.22,
+        "all_win": false
+      }
+    },
+    "hard50": {
+      "n_micros": 60,
+      "train_1d": {
+        "n": 172,
+        "wins": 172,
+        "hit": 100.0,
+        "days": 172,
+        "cover": 98.3,
+        "cpd": 0.983,
+        "avg_sl": 9.95,
+        "avg_t1": 28.11,
+        "all_win": true
+      },
+      "hold": {
+        "n": 4431,
+        "wins": 1224,
+        "hit": 27.62,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 60.699,
+        "avg_sl": 9.26,
+        "avg_t1": 27.81,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 30,
+        "hit": 41.1,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 10.23,
+        "avg_t1": 28.22,
+        "all_win": false
+      }
+    },
+    "clean34": {
+      "n_micros": 46,
+      "train_1d": {
+        "n": 129,
+        "wins": 129,
+        "hit": 100.0,
+        "days": 129,
+        "cover": 73.7,
+        "cpd": 0.737,
+        "avg_sl": 9.74,
+        "avg_t1": 27.75,
+        "all_win": true
+      },
+      "hold": {
+        "n": 1746,
+        "wins": 505,
+        "hit": 28.92,
+        "days": 72,
+        "cover": 98.6,
+        "cpd": 23.918,
+        "avg_sl": 9.85,
+        "avg_t1": 28.61,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 72,
+        "wins": 31,
+        "hit": 43.06,
+        "days": 72,
+        "cover": 98.6,
+        "cpd": 0.986,
+        "avg_sl": 10.64,
+        "avg_t1": 28.61,
+        "all_win": false
+      }
+    },
+    "clean50": {
+      "n_micros": 60,
+      "train_1d": {
+        "n": 169,
+        "wins": 169,
+        "hit": 100.0,
+        "days": 169,
+        "cover": 96.6,
+        "cpd": 0.966,
+        "avg_sl": 9.79,
+        "avg_t1": 27.4,
+        "all_win": true
+      },
+      "hold": {
+        "n": 3077,
+        "wins": 902,
+        "hit": 29.31,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 42.151,
+        "avg_sl": 9.66,
+        "avg_t1": 27.51,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 28,
+        "hit": 38.36,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 10.63,
+        "avg_t1": 28.15,
+        "all_win": false
+      }
+    },
+    "hard21": {
+      "n_micros": 58,
+      "train_1d": {
+        "n": 169,
+        "wins": 169,
+        "hit": 100.0,
+        "days": 169,
+        "cover": 96.6,
+        "cpd": 0.966,
+        "avg_sl": 9.83,
+        "avg_t1": 28.34,
+        "all_win": true
+      },
+      "hold": {
+        "n": 4619,
+        "wins": 1266,
+        "hit": 27.41,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 63.274,
+        "avg_sl": 8.9,
+        "avg_t1": 27.17,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 29,
+        "hit": 39.73,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 10.09,
+        "avg_t1": 28.22,
+        "all_win": false
+      }
+    },
+    "pull34": {
+      "n_micros": 62,
+      "train_1d": {
+        "n": 104,
+        "wins": 104,
+        "hit": 100.0,
+        "days": 104,
+        "cover": 59.4,
+        "cpd": 0.594,
+        "avg_sl": 5.99,
+        "avg_t1": 15.38,
+        "all_win": true
+      },
+      "hold": {
+        "n": 196,
+        "wins": 59,
+        "hit": 30.1,
+        "days": 65,
+        "cover": 89.0,
+        "cpd": 2.685,
+        "avg_sl": 6.48,
+        "avg_t1": 15.13,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 65,
+        "wins": 21,
+        "hit": 32.31,
+        "days": 65,
+        "cover": 89.0,
+        "cpd": 0.89,
+        "avg_sl": 6.98,
+        "avg_t1": 15.31,
+        "all_win": false
+      }
+    },
+    "stack34_with": {
+      "n_micros": 60,
+      "train_1d": {
+        "n": 173,
+        "wins": 173,
+        "hit": 100.0,
+        "days": 173,
+        "cover": 98.9,
+        "cpd": 0.989,
+        "avg_sl": 9.81,
+        "avg_t1": 27.72,
+        "all_win": true
+      },
+      "hold": {
+        "n": 4020,
+        "wins": 1117,
+        "hit": 27.79,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 55.068,
+        "avg_sl": 9.19,
+        "avg_t1": 27.62,
+        "all_win": false
+      },
+      "hold_1d": {
+        "n": 73,
+        "wins": 28,
+        "hit": 38.36,
+        "days": 73,
+        "cover": 100.0,
+        "cpd": 1.0,
+        "avg_sl": 10.19,
+        "avg_t1": 27.95,
+        "all_win": false
+      }
+    }
+  },
+  "best_book": "clean34",
+  "elapsed_s": 67.1
+}

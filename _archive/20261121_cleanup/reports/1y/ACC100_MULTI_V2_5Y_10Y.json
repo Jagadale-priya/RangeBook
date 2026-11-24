@@ -1,0 +1,339 @@
+{
+  "desk": "ACC100_MULTI_V2",
+  "status": "HOLDING",
+  "end": "2026-11-13",
+  "windows": {
+    "3y": {
+      "start": "2023-11-14",
+      "end": "2026-11-13",
+      "sessions": 743,
+      "n": 118,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 4041.0,
+      "wins": 118,
+      "losses": 0,
+      "by_track": {
+        "champion": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "points": 409.0
+        },
+        "crown_5m": {
+          "n": 32,
+          "hit_pct": 100.0,
+          "points": 740.0
+        },
+        "good_prod2": {
+          "n": 31,
+          "hit_pct": 100.0,
+          "points": 1020.0
+        },
+        "proven_100": {
+          "n": 43,
+          "hit_pct": 100.0,
+          "points": 1872.0
+        }
+      },
+      "by_holding_tag": {
+        "ACC100_CHAMP_BUY_P70_AM1130": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 211.0
+        },
+        "ACC100_CROWN_BUY_AM1130_T20": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "ACC100_CROWN_T20_P60_AM1130_FIRST": {
+          "n": 1,
+          "hit_pct": 100.0,
+          "points": 20.0
+        },
+        "ACC100_CROWN_T20_PM_HTF_GAPDN055": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 140.0
+        },
+        "ACC100_CROWN_T20_SELL_P62_PM": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 120.0
+        },
+        "ACC100_CROWN_T35_AM1130_HTF_P55": {
+          "n": 4,
+          "hit_pct": 100.0,
+          "points": 140.0
+        },
+        "ACC100_CROWN_T40_SELL_AM11_GAP040": {
+          "n": 2,
+          "hit_pct": 100.0,
+          "points": 80.0
+        },
+        "ACC100_GOOD_BUY_LATEMID_GAP045_T30": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "points": 270.0
+        },
+        "ACC100_GOOD_T30_P57_AM1130": {
+          "n": 11,
+          "hit_pct": 100.0,
+          "points": 330.0
+        },
+        "ACC100_GOOD_T35_BUY_P55_MID": {
+          "n": 2,
+          "hit_pct": 100.0,
+          "points": 70.0
+        },
+        "ACC100_GOOD_T35_SELL_MID_HTF_GAPUP045": {
+          "n": 2,
+          "hit_pct": 100.0,
+          "points": 70.0
+        },
+        "ACC100_GOOD_T40_MID_GAP040": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 280.0
+        },
+        "PROVEN15_PLUS_CONFIRM_T30": {
+          "n": 8,
+          "hit_pct": 100.0,
+          "points": 258.0
+        },
+        "proven_100": {
+          "n": 41,
+          "hit_pct": 100.0,
+          "points": 1812.0
+        }
+      }
+    },
+    "5y": {
+      "start": "2021-11-14",
+      "end": "2026-11-13",
+      "sessions": 1238,
+      "n": 171,
+      "hit_pct": 100.0,
+      "perfect": true,
+      "points": 5827.0,
+      "wins": 171,
+      "losses": 0,
+      "by_track": {
+        "champion": {
+          "n": 16,
+          "hit_pct": 100.0,
+          "points": 534.0
+        },
+        "crown_5m": {
+          "n": 32,
+          "hit_pct": 100.0,
+          "points": 740.0
+        },
+        "good_prod2": {
+          "n": 58,
+          "hit_pct": 100.0,
+          "points": 1915.0
+        },
+        "proven_100": {
+          "n": 65,
+          "hit_pct": 100.0,
+          "points": 2638.0
+        }
+      },
+      "by_holding_tag": {
+        "ACC100_CHAMP_BUY_P70_AM1130": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 246.0
+        },
+        "ACC100_CROWN_BUY_AM1130_T20": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "ACC100_CROWN_T20_P60_AM1130_FIRST": {
+          "n": 1,
+          "hit_pct": 100.0,
+          "points": 20.0
+        },
+        "ACC100_CROWN_T20_PM_HTF_GAPDN055": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 140.0
+        },
+        "ACC100_CROWN_T20_SELL_P62_PM": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 120.0
+        },
+        "ACC100_CROWN_T35_AM1130_HTF_P55": {
+          "n": 4,
+          "hit_pct": 100.0,
+          "points": 140.0
+        },
+        "ACC100_CROWN_T40_SELL_AM11_GAP040": {
+          "n": 2,
+          "hit_pct": 100.0,
+          "points": 80.0
+        },
+        "ACC100_GOOD_BUY_LATEMID_GAP045_T30": {
+          "n": 18,
+          "hit_pct": 100.0,
+          "points": 540.0
+        },
+        "ACC100_GOOD_T30_P57_AM1130": {
+          "n": 18,
+          "hit_pct": 100.0,
+          "points": 540.0
+        },
+        "ACC100_GOOD_T35_BUY_P55_MID": {
+          "n": 2,
+          "hit_pct": 100.0,
+          "points": 70.0
+        },
+        "ACC100_GOOD_T35_SELL_MID_HTF_GAPUP045": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 245.0
+        },
+        "ACC100_GOOD_T40_MID_GAP040": {
+          "n": 13,
+          "hit_pct": 100.0,
+          "points": 520.0
+        },
+        "PROVEN15_PLUS_CONFIRM_T30": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "points": 378.0
+        },
+        "proven_100": {
+          "n": 62,
+          "hit_pct": 100.0,
+          "points": 2548.0
+        }
+      }
+    },
+    "10y": {
+      "start": "2016-11-15",
+      "end": "2026-11-13",
+      "sessions": 2469,
+      "n": 227,
+      "hit_pct": 97.8,
+      "perfect": false,
+      "points": 7388.0,
+      "wins": 222,
+      "losses": 5,
+      "by_track": {
+        "champion": {
+          "n": 31,
+          "hit_pct": 93.55,
+          "points": 876.0
+        },
+        "crown_5m": {
+          "n": 32,
+          "hit_pct": 100.0,
+          "points": 740.0
+        },
+        "good_prod2": {
+          "n": 74,
+          "hit_pct": 100.0,
+          "points": 2465.0
+        },
+        "proven_100": {
+          "n": 90,
+          "hit_pct": 96.67,
+          "points": 3307.0
+        }
+      },
+      "by_holding_tag": {
+        "ACC100_CHAMP_BUY_P70_AM1130": {
+          "n": 10,
+          "hit_pct": 100.0,
+          "points": 338.0
+        },
+        "ACC100_CROWN_BUY_AM1130_T20": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "points": 240.0
+        },
+        "ACC100_CROWN_T20_P60_AM1130_FIRST": {
+          "n": 1,
+          "hit_pct": 100.0,
+          "points": 20.0
+        },
+        "ACC100_CROWN_T20_PM_HTF_GAPDN055": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 140.0
+        },
+        "ACC100_CROWN_T20_SELL_P62_PM": {
+          "n": 6,
+          "hit_pct": 100.0,
+          "points": 120.0
+        },
+        "ACC100_CROWN_T35_AM1130_HTF_P55": {
+          "n": 4,
+          "hit_pct": 100.0,
+          "points": 140.0
+        },
+        "ACC100_CROWN_T40_SELL_AM11_GAP040": {
+          "n": 2,
+          "hit_pct": 100.0,
+          "points": 80.0
+        },
+        "ACC100_GOOD_BUY_LATEMID_GAP045_T30": {
+          "n": 25,
+          "hit_pct": 100.0,
+          "points": 750.0
+        },
+        "ACC100_GOOD_T30_P57_AM1130": {
+          "n": 20,
+          "hit_pct": 100.0,
+          "points": 600.0
+        },
+        "ACC100_GOOD_T35_BUY_P55_MID": {
+          "n": 2,
+          "hit_pct": 100.0,
+          "points": 70.0
+        },
+        "ACC100_GOOD_T35_SELL_MID_HTF_GAPUP045": {
+          "n": 7,
+          "hit_pct": 100.0,
+          "points": 245.0
+        },
+        "ACC100_GOOD_T40_MID_GAP040": {
+          "n": 20,
+          "hit_pct": 100.0,
+          "points": 800.0
+        },
+        "PROVEN15_PLUS_CONFIRM_T30": {
+          "n": 26,
+          "hit_pct": 92.31,
+          "points": 689.0
+        },
+        "proven_100": {
+          "n": 85,
+          "hit_pct": 96.47,
+          "points": 3156.0
+        }
+      }
+    }
+  },
+  "coverage": {
+    "dual15_proven_range": [
+      "2017-05-10",
+      "2026-10-29",
+      85
+    ],
+    "dual15_champ_n": 335,
+    "dual5_n": 224,
+    "good_n": 879,
+    "crown_path_range": [
+      "2024-05-16",
+      "2026-11-06",
+      244
+    ],
+    "crown_note": "Crown streams only fire where pool crown exists (~2024-05+). Pre-crown years = proven/confirm/good/champ only."
+  },
+  "elapsed_s": 6516.7
+}

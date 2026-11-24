@@ -1,0 +1,246 @@
+{
+  "tag": "MORNING_CALIBRATED_V1",
+  "promote": false,
+  "range_held": true,
+  "bias_held": true,
+  "gap_held": false,
+  "bias_rule": "fuse_us_asia abs>=6.5",
+  "bias_tests": {
+    "1y": {
+      "days_all": 252,
+      "days_spoken": 16,
+      "coverage": 0.0635,
+      "spoken_acc": 0.75
+    },
+    "3y": {
+      "days_all": 756,
+      "days_spoken": 46,
+      "coverage": 0.0608,
+      "spoken_acc": 0.7174
+    },
+    "5y": {
+      "days_all": 1260,
+      "days_spoken": 101,
+      "coverage": 0.0802,
+      "spoken_acc": 0.7228
+    }
+  },
+  "gap_lean_tests": {
+    "1y": {
+      "days_all": 252,
+      "days_spoken": 74,
+      "coverage": 0.2937,
+      "spoken_acc": 0.4054
+    },
+    "3y": {
+      "days_all": 756,
+      "days_spoken": 207,
+      "coverage": 0.2738,
+      "spoken_acc": 0.3865
+    },
+    "5y": {
+      "days_all": 1260,
+      "days_spoken": 379,
+      "coverage": 0.3008,
+      "spoken_acc": 0.4512
+    }
+  },
+  "range": {
+    "1y": {
+      "days": 252,
+      "full_containment_acc": 0.9643,
+      "median_width_pct": 0.041,
+      "method": "pre915_atr35x_dn120"
+    },
+    "3y": {
+      "days": 756,
+      "full_containment_acc": 0.9656,
+      "median_width_pct": 0.0403,
+      "method": "pre915_atr35x_dn120"
+    },
+    "5y": {
+      "days": 1260,
+      "full_containment_acc": 0.9722,
+      "median_width_pct": 0.0419,
+      "method": "pre915_atr35x_dn120"
+    }
+  },
+  "walk_folds": [
+    {
+      "fold": 1,
+      "train_end": "2018-05-31",
+      "test_start": "2018-06-01",
+      "test_end": "2020-02-10",
+      "days_all": 416,
+      "days_spoken": 23,
+      "coverage": 0.0553,
+      "spoken_acc": 0.5217
+    },
+    {
+      "fold": 2,
+      "train_end": "2020-02-10",
+      "test_start": "2020-02-11",
+      "test_end": "2021-10-14",
+      "days_all": 416,
+      "days_spoken": 47,
+      "coverage": 0.113,
+      "spoken_acc": 0.6596
+    },
+    {
+      "fold": 3,
+      "train_end": "2021-10-14",
+      "test_start": "2021-10-18",
+      "test_end": "2023-06-20",
+      "days_all": 416,
+      "days_spoken": 48,
+      "coverage": 0.1154,
+      "spoken_acc": 0.7292
+    },
+    {
+      "fold": 4,
+      "train_end": "2023-06-20",
+      "test_start": "2023-06-21",
+      "test_end": "2025-02-25",
+      "days_all": 416,
+      "days_spoken": 19,
+      "coverage": 0.0457,
+      "spoken_acc": 0.8947
+    },
+    {
+      "fold": 5,
+      "train_end": "2025-02-25",
+      "test_start": "2025-02-27",
+      "test_end": "2026-11-05",
+      "days_all": 416,
+      "days_spoken": 32,
+      "coverage": 0.0769,
+      "spoken_acc": 0.625
+    }
+  ],
+  "walk_min": 0.5217,
+  "walk_mean": 0.686,
+  "walk_ok": false,
+  "rolling": [
+    {
+      "start": "2022-12-15",
+      "end": "2023-12-21",
+      "days_all": 252,
+      "days_spoken": 15,
+      "coverage": 0.0595,
+      "spoken_acc": 0.8667
+    },
+    {
+      "start": "2023-03-16",
+      "end": "2024-03-26",
+      "days_all": 252,
+      "days_spoken": 10,
+      "coverage": 0.0397,
+      "spoken_acc": 0.8
+    },
+    {
+      "start": "2023-06-20",
+      "end": "2024-07-01",
+      "days_all": 252,
+      "days_spoken": 9,
+      "coverage": 0.0357,
+      "spoken_acc": 0.7778
+    },
+    {
+      "start": "2023-09-20",
+      "end": "2024-09-30",
+      "days_all": 252,
+      "days_spoken": 15,
+      "coverage": 0.0595,
+      "spoken_acc": 0.8667
+    },
+    {
+      "start": "2023-12-22",
+      "end": "2025-01-01",
+      "days_all": 252,
+      "days_spoken": 10,
+      "coverage": 0.0397,
+      "spoken_acc": 0.9
+    },
+    {
+      "start": "2024-03-27",
+      "end": "2025-04-03",
+      "days_all": 252,
+      "days_spoken": 13,
+      "coverage": 0.0516,
+      "spoken_acc": 0.9231
+    },
+    {
+      "start": "2024-07-02",
+      "end": "2025-07-07",
+      "days_all": 252,
+      "days_spoken": 21,
+      "coverage": 0.0833,
+      "spoken_acc": 0.7619
+    },
+    {
+      "start": "2024-10-01",
+      "end": "2025-10-07",
+      "days_all": 252,
+      "days_spoken": 15,
+      "coverage": 0.0595,
+      "spoken_acc": 0.5333
+    },
+    {
+      "start": "2025-01-02",
+      "end": "2026-01-07",
+      "days_all": 252,
+      "days_spoken": 19,
+      "coverage": 0.0754,
+      "spoken_acc": 0.5263
+    },
+    {
+      "start": "2025-04-04",
+      "end": "2026-04-15",
+      "days_all": 252,
+      "days_spoken": 22,
+      "coverage": 0.0873,
+      "spoken_acc": 0.5909
+    },
+    {
+      "start": "2025-07-08",
+      "end": "2026-07-16",
+      "days_all": 252,
+      "days_spoken": 19,
+      "coverage": 0.0754,
+      "spoken_acc": 0.6316
+    },
+    {
+      "start": "2025-10-08",
+      "end": "2026-10-15",
+      "days_all": 252,
+      "days_spoken": 18,
+      "coverage": 0.0714,
+      "spoken_acc": 0.7222
+    }
+  ],
+  "rolling_mean": 0.6758,
+  "roll_ok": false,
+  "news_study": {
+    "days": 29,
+    "base": {
+      "days_all": 29,
+      "days_spoken": 1,
+      "coverage": 0.0345,
+      "spoken_acc": 1.0
+    },
+    "with_news_veto": {
+      "days_all": 29,
+      "days_spoken": 1,
+      "coverage": 0.0345,
+      "spoken_acc": 1.0
+    },
+    "veto_days": 0
+  },
+  "product": {
+    "expected_high_low": "GUARANTEED ~96% containment",
+    "bias": "GUARANTEED >=70% when speaking (US+Asia fuse |s|>=6.5); else NEUTRAL",
+    "gap": "NOT guaranteed \u2014 emit gap_lean from same fuse at lower th, labeled lean",
+    "news": "Always analyze India+global headlines; veto bias if strong opposite news",
+    "confidence": "HIGH when bias held fires; LOW for gap_lean; ABSTAIN otherwise"
+  }
+}

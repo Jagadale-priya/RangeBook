@@ -1,0 +1,1075 @@
+{
+  "meta": {
+    "session_start": "2026-11-01",
+    "session_end": "2026-11-15",
+    "n_ui": 10,
+    "n_raw": 30,
+    "n_multi": 3,
+    "n_notify": 10,
+    "blocked_distinct": 0,
+    "emitted": 0,
+    "dry_run": true,
+    "registry": {
+      "status": "FINAL",
+      "lane": "LIVE",
+      "nifty_fno_books_only": [
+        {
+          "book": "p2f",
+          "modes": [
+            "day",
+            "cap2"
+          ],
+          "day_desks": [
+            "ACC100_MULTI_V11",
+            "ACC_WIDE_P92_P2F",
+            "ACC_WIDE_P90_P2F",
+            "ACC_WIDE_P85_P2F",
+            "ACC_WIDE_P85B_P2F",
+            "ACC_WIDE_P80_P2F",
+            "ACC_WIDE_P75_P2F"
+          ],
+          "cap2_desks": [
+            "ACC100_MULTI_V5_CAP2_P2F",
+            "ACC_WIDE_P92_CAP2_P2F",
+            "ACC_WIDE_P90_CAP2_P2F",
+            "ACC_WIDE_P85_CAP2_P2F"
+          ]
+        },
+        {
+          "book": "p2g_10m",
+          "modes": [
+            "day"
+          ],
+          "desks": [
+            "ACC100_MULTI_V12_P2G_10M",
+            "ACC_WIDE_P92_P2G_10M",
+            "ACC_WIDE_P90_P2G_10M",
+            "ACC_WIDE_P85_P2G_10M",
+            "ACC_WIDE_P85B_P2G_10M",
+            "ACC_WIDE_P80_P2G_10M",
+            "ACC_WIDE_P75_P2G_10M"
+          ],
+          "expected_5y": {
+            "ACC100_MULTI_V12_P2G_10M": {
+              "n": 256,
+              "hit_pct": 98.05
+            },
+            "ACC_WIDE_P92_P2G_10M": {
+              "n": 174,
+              "hit_pct": 92.53
+            },
+            "ACC_WIDE_P90_P2G_10M": {
+              "n": 320,
+              "hit_pct": 94.69
+            },
+            "ACC_WIDE_P85_P2G_10M": {
+              "n": 283,
+              "hit_pct": 90.11
+            },
+            "ACC_WIDE_P85B_P2G_10M": {
+              "n": 418,
+              "hit_pct": 88.76
+            },
+            "ACC_WIDE_P80_P2G_10M": {
+              "n": 431,
+              "hit_pct": 83.53
+            },
+            "ACC_WIDE_P75_P2G_10M": {
+              "n": 472,
+              "hit_pct": 82.42
+            }
+          }
+        },
+        {
+          "book": "champ_plus",
+          "modes": [
+            "cap4"
+          ],
+          "desks": [
+            "CHAMP_PLUS_T30SL30_CAP4"
+          ],
+          "accuracy_tag": "ACC_RANGE_93_100",
+          "expected": {
+            "1y": {
+              "n": 374,
+              "hit_pct": 99.47
+            },
+            "3y": {
+              "n": 1028,
+              "hit_pct": 99.61
+            },
+            "5y": {
+              "n": 1689,
+              "hit_pct": 93.19
+            }
+          }
+        }
+      ],
+      "excluded": [
+        "STACK_PLUS_CROWN_HTF_CAP2",
+        "AGREE_15M_ANY5"
+      ],
+      "ui": "same (day,side,hm) \u2192 1 call \u00b7 all tags \u00b7 highest accuracy desk first \u00b7 never block",
+      "desk_priority": [
+        "ACC100_MULTI_V11",
+        "ACC100_MULTI_V5_CAP2_P2F",
+        "ACC100_MULTI_V12_P2G_10M",
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P92_CAP2_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P90_CAP2_P2F",
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85_CAP2_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2F",
+        "ACC_WIDE_P75_P2G_10M"
+      ]
+    },
+    "policy": "final_3books_collapse_same_entry_tags_accuracy_first_never_block"
+  },
+  "ui_calls": [
+    {
+      "day": "2026-11-02",
+      "hm": "13:00",
+      "side": "SELL",
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "tags": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_RANGE_93_100",
+        "ACC_FLOOR_95p12",
+        "ACC_BAND_B_HIGH_90",
+        "LOGIC_CHAMP_PLUS",
+        "LANE_LIVE"
+      ],
+      "entry": 23262.05,
+      "stop_loss": 23292.05,
+      "target_1": 23232.05,
+      "win": true,
+      "multi_desk": false
+    },
+    {
+      "day": "2026-11-03",
+      "hm": "10:10",
+      "side": "BUY",
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "tags": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_WIDE_P75_P2G_10M",
+        "ACC_RANGE_93_100",
+        "ACC_RANGE_81_84",
+        "ACC_FLOOR_82p71",
+        "ACC_FLOOR_95p12",
+        "ACC_BAND_D_VOL_80",
+        "ACC_BAND_B_HIGH_90",
+        "LOGIC_P2G",
+        "LOGIC_CHAMP_PLUS",
+        "LANE_LIVE"
+      ],
+      "entry": 23631.6,
+      "stop_loss": 23601.6,
+      "target_1": 23661.6,
+      "win": true,
+      "multi_desk": true
+    },
+    {
+      "day": "2026-11-04",
+      "hm": "10:20",
+      "side": "SELL",
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "tags": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_RANGE_93_100",
+        "ACC_FLOOR_95p12",
+        "ACC_BAND_B_HIGH_90",
+        "LOGIC_CHAMP_PLUS",
+        "LANE_LIVE"
+      ],
+      "entry": 23843.45,
+      "stop_loss": 23873.45,
+      "target_1": 23813.45,
+      "win": true,
+      "multi_desk": false
+    },
+    {
+      "day": "2026-11-05",
+      "hm": "12:10",
+      "side": "BUY",
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "tags": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_WIDE_P75_P2G_10M",
+        "ACC_RANGE_93_100",
+        "ACC_RANGE_81_84",
+        "ACC_FLOOR_82p71",
+        "ACC_FLOOR_95p12",
+        "ACC_BAND_D_VOL_80",
+        "ACC_BAND_B_HIGH_90",
+        "LOGIC_P2G",
+        "LOGIC_CHAMP_PLUS",
+        "LANE_LIVE"
+      ],
+      "entry": 24411.95,
+      "stop_loss": 24381.95,
+      "target_1": 24441.95,
+      "win": true,
+      "multi_desk": true
+    },
+    {
+      "day": "2026-11-06",
+      "hm": "10:10",
+      "side": "BUY",
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "tags": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_RANGE_93_100",
+        "ACC_FLOOR_95p12",
+        "ACC_BAND_B_HIGH_90",
+        "LOGIC_CHAMP_PLUS",
+        "LANE_LIVE"
+      ],
+      "entry": 24642.25,
+      "stop_loss": 24612.25,
+      "target_1": 24672.25,
+      "win": true,
+      "multi_desk": false
+    },
+    {
+      "day": "2026-11-06",
+      "hm": "11:20",
+      "side": "BUY",
+      "accurate_tag": "ACC100_MULTI_V11",
+      "accuracy_tag": "ACC_RANGE_98_100",
+      "desks_satisfied": [
+        "ACC100_MULTI_V11",
+        "ACC100_MULTI_V5_CAP2_P2F",
+        "ACC100_MULTI_V12_P2G_10M",
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P92_CAP2_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P90_CAP2_P2F",
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85_CAP2_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2F",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "tags": [
+        "ACC100_MULTI_V11",
+        "ACC100_MULTI_V5_CAP2_P2F",
+        "ACC100_MULTI_V12_P2G_10M",
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P92_CAP2_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P90_CAP2_P2F",
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85_CAP2_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2F",
+        "ACC_WIDE_P75_P2G_10M",
+        "ACC_RANGE_98_100",
+        "ACC_RANGE_94_100",
+        "ACC_RANGE_93_100",
+        "ACC_RANGE_92_100",
+        "ACC_RANGE_91_100",
+        "ACC_RANGE_89_96",
+        "ACC_RANGE_88_95",
+        "ACC_RANGE_86_97",
+        "ACC_RANGE_84_90",
+        "ACC_RANGE_83_100",
+        "ACC_RANGE_81_89",
+        "ACC_RANGE_81_85",
+        "ACC_RANGE_81_84",
+        "ACC_RANGE_76_85",
+        "ACC_RANGE_75_83",
+        "ACC_FLOOR_100",
+        "ACC_FLOOR_99p24",
+        "ACC_FLOOR_95p4",
+        "ACC_FLOOR_89p69",
+        "ACC_FLOOR_88p4",
+        "ACC_FLOOR_84p72",
+        "ACC_FLOOR_82p71",
+        "ACC_FLOOR_95p12",
+        "ACC_BAND_A_PERFECT_3Y5Y",
+        "ACC_BAND_B_HIGH_90",
+        "ACC_BAND_C_MID_85",
+        "ACC_BAND_D_VOL_80",
+        "ACC_BAND_E_VOL_75",
+        "LOGIC_P1",
+        "LOGIC_P2F",
+        "LOGIC_P2G",
+        "LOGIC_CHAMP_PLUS",
+        "LANE_LIVE",
+        "MODE_CAP2",
+        "ACC100_CROWN_BUY_AM1130_T20"
+      ],
+      "entry": 24598.1,
+      "stop_loss": 24578.1,
+      "target_1": 24618.1,
+      "win": true,
+      "multi_desk": true
+    },
+    {
+      "day": "2026-11-09",
+      "hm": "11:00",
+      "side": "SELL",
+      "accurate_tag": "ACC_WIDE_P75_P2G_10M",
+      "accuracy_tag": "ACC_RANGE_81_84",
+      "desks_satisfied": [
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "tags": [
+        "ACC_WIDE_P75_P2G_10M",
+        "ACC_RANGE_81_84",
+        "ACC_FLOOR_82p71",
+        "ACC_BAND_D_VOL_80",
+        "LOGIC_P2G",
+        "LANE_LIVE"
+      ],
+      "entry": 24866.2,
+      "stop_loss": 24896.2,
+      "target_1": 24836.2,
+      "win": false,
+      "multi_desk": false
+    },
+    {
+      "day": "2026-11-09",
+      "hm": "11:30",
+      "side": "BUY",
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "tags": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_RANGE_93_100",
+        "ACC_FLOOR_95p12",
+        "ACC_BAND_B_HIGH_90",
+        "LOGIC_CHAMP_PLUS",
+        "LANE_LIVE"
+      ],
+      "entry": 24979.75,
+      "stop_loss": 24949.75,
+      "target_1": 25009.75,
+      "win": true,
+      "multi_desk": false
+    },
+    {
+      "day": "2026-11-11",
+      "hm": "12:20",
+      "side": "SELL",
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "tags": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_RANGE_93_100",
+        "ACC_FLOOR_95p12",
+        "ACC_BAND_B_HIGH_90",
+        "LOGIC_CHAMP_PLUS",
+        "LANE_LIVE"
+      ],
+      "entry": 25331.7,
+      "stop_loss": 25361.7,
+      "target_1": 25301.7,
+      "win": true,
+      "multi_desk": false
+    },
+    {
+      "day": "2026-11-12",
+      "hm": "09:50",
+      "side": "BUY",
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "tags": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_RANGE_93_100",
+        "ACC_FLOOR_95p12",
+        "ACC_BAND_B_HIGH_90",
+        "LOGIC_CHAMP_PLUS",
+        "LANE_LIVE"
+      ],
+      "entry": 25352.25,
+      "stop_loss": 25322.25,
+      "target_1": 25382.25,
+      "win": true,
+      "multi_desk": false
+    }
+  ],
+  "notifications": [
+    {
+      "kind": "accuracy_call",
+      "channel": "FINAL_NIFTY_3BOOKS",
+      "stock": "NIFTY",
+      "day": "2026-11-02",
+      "hm": "13:00",
+      "decision": "SELL",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "accuracy_tags_only": [
+        "ACC_RANGE_93_100"
+      ],
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "multi_desk": false,
+      "entry": 23262.05,
+      "stop_loss": 23292.05,
+      "target_1": 23232.05,
+      "option": {
+        "underlying": "NIFTY",
+        "right": "PE",
+        "strike": 23250.0,
+        "tradingsymbol": "NIFTY26NOV23250PE",
+        "entry_spot": 23262.05,
+        "atm_ce": {
+          "tradingsymbol": "NIFTY26NOV23250CE",
+          "exchange": "NFO",
+          "strike": 23250.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "atm_pe": {
+          "tradingsymbol": "NIFTY26NOV23250PE",
+          "exchange": "NFO",
+          "strike": 23250.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "links": {
+          "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=23262.05",
+          "api_contracts": "/fno/contracts/NIFTY?spot=23262.05",
+          "nse_option_chain": "https://www.nseindia.com/option-chain",
+          "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV23250PE?exchange=NSE"
+        }
+      },
+      "option_chain_links": {
+        "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=23262.05",
+        "api_contracts": "/fno/contracts/NIFTY?spot=23262.05",
+        "nse_option_chain": "https://www.nseindia.com/option-chain",
+        "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV23250PE?exchange=NSE"
+      },
+      "title": "ACC_RANGE_93_100",
+      "message": "NIFTY SELL \u00b7 13:00 \u00b7 day 2026-11-02 \u00b7 entry 23262.05 \u00b7 SL 23292.05 \u00b7 T 23232.05 \u00b7 ATM PE 23250.0 \u00b7 NIFTY26NOV23250PE",
+      "message_with_oc": "NIFTY SELL \u00b7 13:00 \u00b7 day 2026-11-02 \u00b7 entry 23262.05 \u00b7 SL 23292.05 \u00b7 T 23232.05 \u00b7 ATM PE 23250.0 \u00b7 NIFTY26NOV23250PE\nOption Chain: desk /dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=23262.05 \u00b7 NSE https://www.nseindia.com/option-chain \u00b7 Groww https://groww.in/charts/options/nifty/NIFTY26NOV23250PE?exchange=NSE",
+      "dedupe_key": "acc:NIFTY:2026-11-02:SELL:13:00:ACC_RANGE_93_100",
+      "blocked": false,
+      "dry_run": true
+    },
+    {
+      "kind": "accuracy_call",
+      "channel": "FINAL_NIFTY_3BOOKS",
+      "stock": "NIFTY",
+      "day": "2026-11-03",
+      "hm": "10:10",
+      "decision": "BUY",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "accuracy_tags_only": [
+        "ACC_RANGE_93_100",
+        "ACC_RANGE_81_84"
+      ],
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "multi_desk": true,
+      "entry": 23631.6,
+      "stop_loss": 23601.6,
+      "target_1": 23661.6,
+      "option": {
+        "underlying": "NIFTY",
+        "right": "CE",
+        "strike": 23650.0,
+        "tradingsymbol": "NIFTY26NOV23650CE",
+        "entry_spot": 23631.6,
+        "atm_ce": {
+          "tradingsymbol": "NIFTY26NOV23650CE",
+          "exchange": "NFO",
+          "strike": 23650.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "atm_pe": {
+          "tradingsymbol": "NIFTY26NOV23650PE",
+          "exchange": "NFO",
+          "strike": 23650.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "links": {
+          "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=23631.60",
+          "api_contracts": "/fno/contracts/NIFTY?spot=23631.60",
+          "nse_option_chain": "https://www.nseindia.com/option-chain",
+          "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV23650CE?exchange=NSE"
+        }
+      },
+      "option_chain_links": {
+        "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=23631.60",
+        "api_contracts": "/fno/contracts/NIFTY?spot=23631.60",
+        "nse_option_chain": "https://www.nseindia.com/option-chain",
+        "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV23650CE?exchange=NSE"
+      },
+      "title": "ACC_RANGE_93_100",
+      "message": "NIFTY BUY \u00b7 10:10 \u00b7 day 2026-11-03 \u00b7 entry 23631.6 \u00b7 SL 23601.6 \u00b7 T 23661.6 \u00b7 ATM CE 23650.0 \u00b7 NIFTY26NOV23650CE",
+      "message_with_oc": "NIFTY BUY \u00b7 10:10 \u00b7 day 2026-11-03 \u00b7 entry 23631.6 \u00b7 SL 23601.6 \u00b7 T 23661.6 \u00b7 ATM CE 23650.0 \u00b7 NIFTY26NOV23650CE\nOption Chain: desk /dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=23631.60 \u00b7 NSE https://www.nseindia.com/option-chain \u00b7 Groww https://groww.in/charts/options/nifty/NIFTY26NOV23650CE?exchange=NSE",
+      "dedupe_key": "acc:NIFTY:2026-11-03:BUY:10:10:ACC_RANGE_93_100",
+      "blocked": false,
+      "dry_run": true
+    },
+    {
+      "kind": "accuracy_call",
+      "channel": "FINAL_NIFTY_3BOOKS",
+      "stock": "NIFTY",
+      "day": "2026-11-04",
+      "hm": "10:20",
+      "decision": "SELL",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "accuracy_tags_only": [
+        "ACC_RANGE_93_100"
+      ],
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "multi_desk": false,
+      "entry": 23843.45,
+      "stop_loss": 23873.45,
+      "target_1": 23813.45,
+      "option": {
+        "underlying": "NIFTY",
+        "right": "PE",
+        "strike": 23850.0,
+        "tradingsymbol": "NIFTY26NOV23850PE",
+        "entry_spot": 23843.45,
+        "atm_ce": {
+          "tradingsymbol": "NIFTY26NOV23850CE",
+          "exchange": "NFO",
+          "strike": 23850.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "atm_pe": {
+          "tradingsymbol": "NIFTY26NOV23850PE",
+          "exchange": "NFO",
+          "strike": 23850.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "links": {
+          "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=23843.45",
+          "api_contracts": "/fno/contracts/NIFTY?spot=23843.45",
+          "nse_option_chain": "https://www.nseindia.com/option-chain",
+          "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV23850PE?exchange=NSE"
+        }
+      },
+      "option_chain_links": {
+        "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=23843.45",
+        "api_contracts": "/fno/contracts/NIFTY?spot=23843.45",
+        "nse_option_chain": "https://www.nseindia.com/option-chain",
+        "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV23850PE?exchange=NSE"
+      },
+      "title": "ACC_RANGE_93_100",
+      "message": "NIFTY SELL \u00b7 10:20 \u00b7 day 2026-11-04 \u00b7 entry 23843.45 \u00b7 SL 23873.45 \u00b7 T 23813.45 \u00b7 ATM PE 23850.0 \u00b7 NIFTY26NOV23850PE",
+      "message_with_oc": "NIFTY SELL \u00b7 10:20 \u00b7 day 2026-11-04 \u00b7 entry 23843.45 \u00b7 SL 23873.45 \u00b7 T 23813.45 \u00b7 ATM PE 23850.0 \u00b7 NIFTY26NOV23850PE\nOption Chain: desk /dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=23843.45 \u00b7 NSE https://www.nseindia.com/option-chain \u00b7 Groww https://groww.in/charts/options/nifty/NIFTY26NOV23850PE?exchange=NSE",
+      "dedupe_key": "acc:NIFTY:2026-11-04:SELL:10:20:ACC_RANGE_93_100",
+      "blocked": false,
+      "dry_run": true
+    },
+    {
+      "kind": "accuracy_call",
+      "channel": "FINAL_NIFTY_3BOOKS",
+      "stock": "NIFTY",
+      "day": "2026-11-05",
+      "hm": "12:10",
+      "decision": "BUY",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "accuracy_tags_only": [
+        "ACC_RANGE_93_100",
+        "ACC_RANGE_81_84"
+      ],
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "multi_desk": true,
+      "entry": 24411.95,
+      "stop_loss": 24381.95,
+      "target_1": 24441.95,
+      "option": {
+        "underlying": "NIFTY",
+        "right": "CE",
+        "strike": 24400.0,
+        "tradingsymbol": "NIFTY26NOV24400CE",
+        "entry_spot": 24411.95,
+        "atm_ce": {
+          "tradingsymbol": "NIFTY26NOV24400CE",
+          "exchange": "NFO",
+          "strike": 24400.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "atm_pe": {
+          "tradingsymbol": "NIFTY26NOV24400PE",
+          "exchange": "NFO",
+          "strike": 24400.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "links": {
+          "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24411.95",
+          "api_contracts": "/fno/contracts/NIFTY?spot=24411.95",
+          "nse_option_chain": "https://www.nseindia.com/option-chain",
+          "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV24400CE?exchange=NSE"
+        }
+      },
+      "option_chain_links": {
+        "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24411.95",
+        "api_contracts": "/fno/contracts/NIFTY?spot=24411.95",
+        "nse_option_chain": "https://www.nseindia.com/option-chain",
+        "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV24400CE?exchange=NSE"
+      },
+      "title": "ACC_RANGE_93_100",
+      "message": "NIFTY BUY \u00b7 12:10 \u00b7 day 2026-11-05 \u00b7 entry 24411.95 \u00b7 SL 24381.95 \u00b7 T 24441.95 \u00b7 ATM CE 24400.0 \u00b7 NIFTY26NOV24400CE",
+      "message_with_oc": "NIFTY BUY \u00b7 12:10 \u00b7 day 2026-11-05 \u00b7 entry 24411.95 \u00b7 SL 24381.95 \u00b7 T 24441.95 \u00b7 ATM CE 24400.0 \u00b7 NIFTY26NOV24400CE\nOption Chain: desk /dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24411.95 \u00b7 NSE https://www.nseindia.com/option-chain \u00b7 Groww https://groww.in/charts/options/nifty/NIFTY26NOV24400CE?exchange=NSE",
+      "dedupe_key": "acc:NIFTY:2026-11-05:BUY:12:10:ACC_RANGE_93_100",
+      "blocked": false,
+      "dry_run": true
+    },
+    {
+      "kind": "accuracy_call",
+      "channel": "FINAL_NIFTY_3BOOKS",
+      "stock": "NIFTY",
+      "day": "2026-11-06",
+      "hm": "10:10",
+      "decision": "BUY",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "accuracy_tags_only": [
+        "ACC_RANGE_93_100"
+      ],
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "multi_desk": false,
+      "entry": 24642.25,
+      "stop_loss": 24612.25,
+      "target_1": 24672.25,
+      "option": {
+        "underlying": "NIFTY",
+        "right": "CE",
+        "strike": 24650.0,
+        "tradingsymbol": "NIFTY26NOV24650CE",
+        "entry_spot": 24642.25,
+        "atm_ce": {
+          "tradingsymbol": "NIFTY26NOV24650CE",
+          "exchange": "NFO",
+          "strike": 24650.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "atm_pe": {
+          "tradingsymbol": "NIFTY26NOV24650PE",
+          "exchange": "NFO",
+          "strike": 24650.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "links": {
+          "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24642.25",
+          "api_contracts": "/fno/contracts/NIFTY?spot=24642.25",
+          "nse_option_chain": "https://www.nseindia.com/option-chain",
+          "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV24650CE?exchange=NSE"
+        }
+      },
+      "option_chain_links": {
+        "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24642.25",
+        "api_contracts": "/fno/contracts/NIFTY?spot=24642.25",
+        "nse_option_chain": "https://www.nseindia.com/option-chain",
+        "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV24650CE?exchange=NSE"
+      },
+      "title": "ACC_RANGE_93_100",
+      "message": "NIFTY BUY \u00b7 10:10 \u00b7 day 2026-11-06 \u00b7 entry 24642.25 \u00b7 SL 24612.25 \u00b7 T 24672.25 \u00b7 ATM CE 24650.0 \u00b7 NIFTY26NOV24650CE",
+      "message_with_oc": "NIFTY BUY \u00b7 10:10 \u00b7 day 2026-11-06 \u00b7 entry 24642.25 \u00b7 SL 24612.25 \u00b7 T 24672.25 \u00b7 ATM CE 24650.0 \u00b7 NIFTY26NOV24650CE\nOption Chain: desk /dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24642.25 \u00b7 NSE https://www.nseindia.com/option-chain \u00b7 Groww https://groww.in/charts/options/nifty/NIFTY26NOV24650CE?exchange=NSE",
+      "dedupe_key": "acc:NIFTY:2026-11-06:BUY:10:10:ACC_RANGE_93_100",
+      "blocked": false,
+      "dry_run": true
+    },
+    {
+      "kind": "accuracy_call",
+      "channel": "FINAL_NIFTY_3BOOKS",
+      "stock": "NIFTY",
+      "day": "2026-11-06",
+      "hm": "11:20",
+      "decision": "BUY",
+      "accuracy_tag": "ACC_RANGE_98_100",
+      "accuracy_tags_only": [
+        "ACC_RANGE_98_100",
+        "ACC_RANGE_94_100",
+        "ACC_RANGE_93_100",
+        "ACC_RANGE_92_100",
+        "ACC_RANGE_91_100",
+        "ACC_RANGE_89_96",
+        "ACC_RANGE_88_95",
+        "ACC_RANGE_86_97",
+        "ACC_RANGE_84_90",
+        "ACC_RANGE_83_100",
+        "ACC_RANGE_81_89",
+        "ACC_RANGE_81_85",
+        "ACC_RANGE_81_84",
+        "ACC_RANGE_76_85",
+        "ACC_RANGE_75_83"
+      ],
+      "accurate_tag": "ACC100_MULTI_V11",
+      "desks_satisfied": [
+        "ACC100_MULTI_V11",
+        "ACC100_MULTI_V5_CAP2_P2F",
+        "ACC100_MULTI_V12_P2G_10M",
+        "CHAMP_PLUS_T30SL30_CAP4",
+        "ACC_WIDE_P90_P2G_10M",
+        "ACC_WIDE_P92_P2F",
+        "ACC_WIDE_P92_CAP2_P2F",
+        "ACC_WIDE_P90_P2F",
+        "ACC_WIDE_P90_CAP2_P2F",
+        "ACC_WIDE_P85B_P2G_10M",
+        "ACC_WIDE_P85_P2G_10M",
+        "ACC_WIDE_P85_P2F",
+        "ACC_WIDE_P85_CAP2_P2F",
+        "ACC_WIDE_P85B_P2F",
+        "ACC_WIDE_P92_P2G_10M",
+        "ACC_WIDE_P80_P2F",
+        "ACC_WIDE_P80_P2G_10M",
+        "ACC_WIDE_P75_P2F",
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "multi_desk": true,
+      "entry": 24598.1,
+      "stop_loss": 24578.1,
+      "target_1": 24618.1,
+      "option": {
+        "underlying": "NIFTY",
+        "right": "CE",
+        "strike": 24600.0,
+        "tradingsymbol": "NIFTY26NOV24600CE",
+        "entry_spot": 24598.1,
+        "atm_ce": {
+          "tradingsymbol": "NIFTY26NOV24600CE",
+          "exchange": "NFO",
+          "strike": 24600.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "atm_pe": {
+          "tradingsymbol": "NIFTY26NOV24600PE",
+          "exchange": "NFO",
+          "strike": 24600.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "links": {
+          "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24598.10",
+          "api_contracts": "/fno/contracts/NIFTY?spot=24598.10",
+          "nse_option_chain": "https://www.nseindia.com/option-chain",
+          "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV24600CE?exchange=NSE"
+        }
+      },
+      "option_chain_links": {
+        "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24598.10",
+        "api_contracts": "/fno/contracts/NIFTY?spot=24598.10",
+        "nse_option_chain": "https://www.nseindia.com/option-chain",
+        "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV24600CE?exchange=NSE"
+      },
+      "title": "ACC_RANGE_98_100",
+      "message": "NIFTY BUY \u00b7 11:20 \u00b7 day 2026-11-06 \u00b7 entry 24598.1 \u00b7 SL 24578.1 \u00b7 T 24618.1 \u00b7 ATM CE 24600.0 \u00b7 NIFTY26NOV24600CE",
+      "message_with_oc": "NIFTY BUY \u00b7 11:20 \u00b7 day 2026-11-06 \u00b7 entry 24598.1 \u00b7 SL 24578.1 \u00b7 T 24618.1 \u00b7 ATM CE 24600.0 \u00b7 NIFTY26NOV24600CE\nOption Chain: desk /dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24598.10 \u00b7 NSE https://www.nseindia.com/option-chain \u00b7 Groww https://groww.in/charts/options/nifty/NIFTY26NOV24600CE?exchange=NSE",
+      "dedupe_key": "acc:NIFTY:2026-11-06:BUY:11:20:ACC_RANGE_98_100",
+      "blocked": false,
+      "dry_run": true
+    },
+    {
+      "kind": "accuracy_call",
+      "channel": "FINAL_NIFTY_3BOOKS",
+      "stock": "NIFTY",
+      "day": "2026-11-09",
+      "hm": "11:00",
+      "decision": "SELL",
+      "accuracy_tag": "ACC_RANGE_81_84",
+      "accuracy_tags_only": [
+        "ACC_RANGE_81_84"
+      ],
+      "accurate_tag": "ACC_WIDE_P75_P2G_10M",
+      "desks_satisfied": [
+        "ACC_WIDE_P75_P2G_10M"
+      ],
+      "multi_desk": false,
+      "entry": 24866.2,
+      "stop_loss": 24896.2,
+      "target_1": 24836.2,
+      "option": {
+        "underlying": "NIFTY",
+        "right": "PE",
+        "strike": 24850.0,
+        "tradingsymbol": "NIFTY26NOV24850PE",
+        "entry_spot": 24866.2,
+        "atm_ce": {
+          "tradingsymbol": "NIFTY26NOV24850CE",
+          "exchange": "NFO",
+          "strike": 24850.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "atm_pe": {
+          "tradingsymbol": "NIFTY26NOV24850PE",
+          "exchange": "NFO",
+          "strike": 24850.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "links": {
+          "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24866.20",
+          "api_contracts": "/fno/contracts/NIFTY?spot=24866.20",
+          "nse_option_chain": "https://www.nseindia.com/option-chain",
+          "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV24850PE?exchange=NSE"
+        }
+      },
+      "option_chain_links": {
+        "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24866.20",
+        "api_contracts": "/fno/contracts/NIFTY?spot=24866.20",
+        "nse_option_chain": "https://www.nseindia.com/option-chain",
+        "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV24850PE?exchange=NSE"
+      },
+      "title": "ACC_RANGE_81_84",
+      "message": "NIFTY SELL \u00b7 11:00 \u00b7 day 2026-11-09 \u00b7 entry 24866.2 \u00b7 SL 24896.2 \u00b7 T 24836.2 \u00b7 ATM PE 24850.0 \u00b7 NIFTY26NOV24850PE",
+      "message_with_oc": "NIFTY SELL \u00b7 11:00 \u00b7 day 2026-11-09 \u00b7 entry 24866.2 \u00b7 SL 24896.2 \u00b7 T 24836.2 \u00b7 ATM PE 24850.0 \u00b7 NIFTY26NOV24850PE\nOption Chain: desk /dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24866.20 \u00b7 NSE https://www.nseindia.com/option-chain \u00b7 Groww https://groww.in/charts/options/nifty/NIFTY26NOV24850PE?exchange=NSE",
+      "dedupe_key": "acc:NIFTY:2026-11-09:SELL:11:00:ACC_RANGE_81_84",
+      "blocked": false,
+      "dry_run": true
+    },
+    {
+      "kind": "accuracy_call",
+      "channel": "FINAL_NIFTY_3BOOKS",
+      "stock": "NIFTY",
+      "day": "2026-11-09",
+      "hm": "11:30",
+      "decision": "BUY",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "accuracy_tags_only": [
+        "ACC_RANGE_93_100"
+      ],
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "multi_desk": false,
+      "entry": 24979.75,
+      "stop_loss": 24949.75,
+      "target_1": 25009.75,
+      "option": {
+        "underlying": "NIFTY",
+        "right": "CE",
+        "strike": 25000.0,
+        "tradingsymbol": "NIFTY26NOV25000CE",
+        "entry_spot": 24979.75,
+        "atm_ce": {
+          "tradingsymbol": "NIFTY26NOV25000CE",
+          "exchange": "NFO",
+          "strike": 25000.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "atm_pe": {
+          "tradingsymbol": "NIFTY26NOV25000PE",
+          "exchange": "NFO",
+          "strike": 25000.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "links": {
+          "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24979.75",
+          "api_contracts": "/fno/contracts/NIFTY?spot=24979.75",
+          "nse_option_chain": "https://www.nseindia.com/option-chain",
+          "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV25000CE?exchange=NSE"
+        }
+      },
+      "option_chain_links": {
+        "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24979.75",
+        "api_contracts": "/fno/contracts/NIFTY?spot=24979.75",
+        "nse_option_chain": "https://www.nseindia.com/option-chain",
+        "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV25000CE?exchange=NSE"
+      },
+      "title": "ACC_RANGE_93_100",
+      "message": "NIFTY BUY \u00b7 11:30 \u00b7 day 2026-11-09 \u00b7 entry 24979.75 \u00b7 SL 24949.75 \u00b7 T 25009.75 \u00b7 ATM CE 25000.0 \u00b7 NIFTY26NOV25000CE",
+      "message_with_oc": "NIFTY BUY \u00b7 11:30 \u00b7 day 2026-11-09 \u00b7 entry 24979.75 \u00b7 SL 24949.75 \u00b7 T 25009.75 \u00b7 ATM CE 25000.0 \u00b7 NIFTY26NOV25000CE\nOption Chain: desk /dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=24979.75 \u00b7 NSE https://www.nseindia.com/option-chain \u00b7 Groww https://groww.in/charts/options/nifty/NIFTY26NOV25000CE?exchange=NSE",
+      "dedupe_key": "acc:NIFTY:2026-11-09:BUY:11:30:ACC_RANGE_93_100",
+      "blocked": false,
+      "dry_run": true
+    },
+    {
+      "kind": "accuracy_call",
+      "channel": "FINAL_NIFTY_3BOOKS",
+      "stock": "NIFTY",
+      "day": "2026-11-11",
+      "hm": "12:20",
+      "decision": "SELL",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "accuracy_tags_only": [
+        "ACC_RANGE_93_100"
+      ],
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "multi_desk": false,
+      "entry": 25331.7,
+      "stop_loss": 25361.7,
+      "target_1": 25301.7,
+      "option": {
+        "underlying": "NIFTY",
+        "right": "PE",
+        "strike": 25350.0,
+        "tradingsymbol": "NIFTY26NOV25350PE",
+        "entry_spot": 25331.7,
+        "atm_ce": {
+          "tradingsymbol": "NIFTY26NOV25350CE",
+          "exchange": "NFO",
+          "strike": 25350.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "atm_pe": {
+          "tradingsymbol": "NIFTY26NOV25350PE",
+          "exchange": "NFO",
+          "strike": 25350.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "links": {
+          "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=25331.70",
+          "api_contracts": "/fno/contracts/NIFTY?spot=25331.70",
+          "nse_option_chain": "https://www.nseindia.com/option-chain",
+          "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV25350PE?exchange=NSE"
+        }
+      },
+      "option_chain_links": {
+        "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=25331.70",
+        "api_contracts": "/fno/contracts/NIFTY?spot=25331.70",
+        "nse_option_chain": "https://www.nseindia.com/option-chain",
+        "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV25350PE?exchange=NSE"
+      },
+      "title": "ACC_RANGE_93_100",
+      "message": "NIFTY SELL \u00b7 12:20 \u00b7 day 2026-11-11 \u00b7 entry 25331.7 \u00b7 SL 25361.7 \u00b7 T 25301.7 \u00b7 ATM PE 25350.0 \u00b7 NIFTY26NOV25350PE",
+      "message_with_oc": "NIFTY SELL \u00b7 12:20 \u00b7 day 2026-11-11 \u00b7 entry 25331.7 \u00b7 SL 25361.7 \u00b7 T 25301.7 \u00b7 ATM PE 25350.0 \u00b7 NIFTY26NOV25350PE\nOption Chain: desk /dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=25331.70 \u00b7 NSE https://www.nseindia.com/option-chain \u00b7 Groww https://groww.in/charts/options/nifty/NIFTY26NOV25350PE?exchange=NSE",
+      "dedupe_key": "acc:NIFTY:2026-11-11:SELL:12:20:ACC_RANGE_93_100",
+      "blocked": false,
+      "dry_run": true
+    },
+    {
+      "kind": "accuracy_call",
+      "channel": "FINAL_NIFTY_3BOOKS",
+      "stock": "NIFTY",
+      "day": "2026-11-12",
+      "hm": "09:50",
+      "decision": "BUY",
+      "accuracy_tag": "ACC_RANGE_93_100",
+      "accuracy_tags_only": [
+        "ACC_RANGE_93_100"
+      ],
+      "accurate_tag": "CHAMP_PLUS_T30SL30_CAP4",
+      "desks_satisfied": [
+        "CHAMP_PLUS_T30SL30_CAP4"
+      ],
+      "multi_desk": false,
+      "entry": 25352.25,
+      "stop_loss": 25322.25,
+      "target_1": 25382.25,
+      "option": {
+        "underlying": "NIFTY",
+        "right": "CE",
+        "strike": 25350.0,
+        "tradingsymbol": "NIFTY26NOV25350CE",
+        "entry_spot": 25352.25,
+        "atm_ce": {
+          "tradingsymbol": "NIFTY26NOV25350CE",
+          "exchange": "NFO",
+          "strike": 25350.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "atm_pe": {
+          "tradingsymbol": "NIFTY26NOV25350PE",
+          "exchange": "NFO",
+          "strike": 25350.0,
+          "lot_size": 65,
+          "expiry": "2026-11-23"
+        },
+        "links": {
+          "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=25352.25",
+          "api_contracts": "/fno/contracts/NIFTY?spot=25352.25",
+          "nse_option_chain": "https://www.nseindia.com/option-chain",
+          "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV25350CE?exchange=NSE"
+        }
+      },
+      "option_chain_links": {
+        "desk_option_chain": "/dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=25352.25",
+        "api_contracts": "/fno/contracts/NIFTY?spot=25352.25",
+        "nse_option_chain": "https://www.nseindia.com/option-chain",
+        "groww_chart": "https://groww.in/charts/options/nifty/NIFTY26NOV25350CE?exchange=NSE"
+      },
+      "title": "ACC_RANGE_93_100",
+      "message": "NIFTY BUY \u00b7 09:50 \u00b7 day 2026-11-12 \u00b7 entry 25352.25 \u00b7 SL 25322.25 \u00b7 T 25382.25 \u00b7 ATM CE 25350.0 \u00b7 NIFTY26NOV25350CE",
+      "message_with_oc": "NIFTY BUY \u00b7 09:50 \u00b7 day 2026-11-12 \u00b7 entry 25352.25 \u00b7 SL 25322.25 \u00b7 T 25382.25 \u00b7 ATM CE 25350.0 \u00b7 NIFTY26NOV25350CE\nOption Chain: desk /dashboard/?stock=NIFTY&tab=fno&sub=contracts&spot=25352.25 \u00b7 NSE https://www.nseindia.com/option-chain \u00b7 Groww https://groww.in/charts/options/nifty/NIFTY26NOV25350CE?exchange=NSE",
+      "dedupe_key": "acc:NIFTY:2026-11-12:BUY:09:50:ACC_RANGE_93_100",
+      "blocked": false,
+      "dry_run": true
+    }
+  ]
+}

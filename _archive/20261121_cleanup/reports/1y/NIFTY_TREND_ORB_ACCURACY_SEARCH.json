@@ -1,0 +1,1153 @@
+{
+  "source": "kite",
+  "holdout_n": 20,
+  "holdout_span": [
+    "2026-10-22",
+    "2026-11-18"
+  ],
+  "best_trend": {
+    "family": "trend",
+    "stage": 2,
+    "gate": {
+      "name": "s2_w25-160_sig1330_ext999_risk35_eext20_vw0_ch20",
+      "min_width": 25.0,
+      "max_width": 160.0,
+      "last_signal": "13:30",
+      "max_break_ext": 999.0,
+      "max_risk": 35.0,
+      "max_entry_ext": 20.0,
+      "min_vwap_sep": 0.0,
+      "stop_buffer": 15.0,
+      "max_chase": 20.0
+    },
+    "freeze": {
+      "sessions": 60.0,
+      "calls": 22.0,
+      "wins": 9.0,
+      "losses": 13.0,
+      "hit_rate": 0.4090909090909091,
+      "average_winner": 21.077777777777456,
+      "average_loser": -8.046153846154294,
+      "winner_loser_ratio": 2.619609092840265,
+      "net_points": 85.09999999999127,
+      "no_call_days": 38.0
+    },
+    "hold": {
+      "sessions": 20.0,
+      "calls": 3.0,
+      "wins": 1.0,
+      "losses": 2.0,
+      "hit_rate": 0.3333333333333333,
+      "average_winner": 86.0,
+      "average_loser": -22.599999999998545,
+      "winner_loser_ratio": 3.805309734513519,
+      "net_points": 40.80000000000291,
+      "no_call_days": 17.0
+    },
+    "score": 79.81696969697012
+  },
+  "best_orb": {
+    "family": "orb",
+    "stage": 1,
+    "gate": {
+      "name": "w45-100",
+      "min_width": 45,
+      "max_width": 100,
+      "last_signal": "14:45",
+      "at_level_only": false,
+      "max_entry_ext": 10.0
+    },
+    "freeze": {
+      "sessions": 60.0,
+      "calls": 33.0,
+      "wins": 17.0,
+      "losses": 16.0,
+      "hit_rate": 0.5151515151515151,
+      "average_winner": 17.167647058823444,
+      "average_loser": -17.034375000000182,
+      "winner_loser_ratio": 1.0078237128643264,
+      "net_points": 19.299999999995634,
+      "no_call_days": 27.0
+    },
+    "hold": {
+      "sessions": 20.0,
+      "calls": 3.0,
+      "wins": 1.0,
+      "losses": 2.0,
+      "hit_rate": 0.3333333333333333,
+      "average_winner": 19.0,
+      "average_loser": -19.5,
+      "winner_loser_ratio": 0.9743589743589743,
+      "net_points": -20.0,
+      "no_call_days": 17.0
+    },
+    "score": 58.73426573426573
+  },
+  "baseline_trend": {
+    "family": "trend",
+    "stage": 1,
+    "gate": {
+      "name": "baseline",
+      "min_width": 25.0,
+      "max_width": 160.0,
+      "last_signal": "13:30",
+      "max_break_ext": 999.0,
+      "max_risk": 40.0,
+      "max_entry_ext": 999.0,
+      "min_vwap_sep": 0.0,
+      "stop_buffer": 15.0,
+      "max_chase": 25.0
+    },
+    "freeze": {
+      "sessions": 60.0,
+      "calls": 24.0,
+      "wins": 9.0,
+      "losses": 14.0,
+      "hit_rate": 0.375,
+      "average_winner": 21.077777777777456,
+      "average_loser": -8.107142857143117,
+      "winner_loser_ratio": 2.599902104747797,
+      "net_points": 76.19999999999345,
+      "no_call_days": 36.0
+    },
+    "hold": {
+      "sessions": 20.0,
+      "calls": 3.0,
+      "wins": 1.0,
+      "losses": 2.0,
+      "hit_rate": 0.3333333333333333,
+      "average_winner": 86.0,
+      "average_loser": -22.599999999998545,
+      "winner_loser_ratio": 3.805309734513519,
+      "net_points": 40.80000000000291,
+      "no_call_days": 17.0
+    },
+    "score": 78.45333333333377
+  },
+  "baseline_orb": {
+    "family": "orb",
+    "stage": 1,
+    "gate": {
+      "name": "baseline",
+      "min_width": 30.0,
+      "max_width": 90.0,
+      "last_signal": "14:45",
+      "at_level_only": false,
+      "max_entry_ext": 10.0
+    },
+    "freeze": {
+      "sessions": 60.0,
+      "calls": 30.0,
+      "wins": 16.0,
+      "losses": 14.0,
+      "hit_rate": 0.5333333333333333,
+      "average_winner": 16.987499999999955,
+      "average_loser": -17.003571428571377,
+      "winner_loser_ratio": 0.9990548204158793,
+      "net_points": 33.75,
+      "no_call_days": 30.0
+    },
+    "hold": {
+      "sessions": 20.0,
+      "calls": 1.0,
+      "wins": 0.0,
+      "losses": 1.0,
+      "hit_rate": 0.0,
+      "average_winner": null,
+      "average_loser": -18.049999999999272,
+      "winner_loser_ratio": null,
+      "net_points": -18.049999999999272,
+      "no_call_days": 19.0
+    },
+    "score": -1000000000.0
+  },
+  "trend_top": [
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk35_eext20_vw0_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 35.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 0.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 22.0,
+        "wins": 9.0,
+        "losses": 13.0,
+        "hit_rate": 0.4090909090909091,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.046153846154294,
+        "winner_loser_ratio": 2.619609092840265,
+        "net_points": 85.09999999999127,
+        "no_call_days": 38.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.81696969697012
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk35_eext20_vw5_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 35.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 5.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 22.0,
+        "wins": 9.0,
+        "losses": 13.0,
+        "hit_rate": 0.4090909090909091,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.046153846154294,
+        "winner_loser_ratio": 2.619609092840265,
+        "net_points": 85.09999999999127,
+        "no_call_days": 38.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.81696969697012
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk35_eext20_vw10_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 35.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 10.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 22.0,
+        "wins": 9.0,
+        "losses": 13.0,
+        "hit_rate": 0.4090909090909091,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.046153846154294,
+        "winner_loser_ratio": 2.619609092840265,
+        "net_points": 85.09999999999127,
+        "no_call_days": 38.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.81696969697012
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk35_eext20_vw15_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 35.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 15.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 22.0,
+        "wins": 9.0,
+        "losses": 13.0,
+        "hit_rate": 0.4090909090909091,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.046153846154294,
+        "winner_loser_ratio": 2.619609092840265,
+        "net_points": 85.09999999999127,
+        "no_call_days": 38.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.81696969697012
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk40_eext20_vw0_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 40.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 0.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 22.0,
+        "wins": 9.0,
+        "losses": 13.0,
+        "hit_rate": 0.4090909090909091,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.046153846154294,
+        "winner_loser_ratio": 2.619609092840265,
+        "net_points": 85.09999999999127,
+        "no_call_days": 38.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.81696969697012
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk40_eext20_vw5_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 40.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 5.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 22.0,
+        "wins": 9.0,
+        "losses": 13.0,
+        "hit_rate": 0.4090909090909091,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.046153846154294,
+        "winner_loser_ratio": 2.619609092840265,
+        "net_points": 85.09999999999127,
+        "no_call_days": 38.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.81696969697012
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk40_eext20_vw10_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 40.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 10.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 22.0,
+        "wins": 9.0,
+        "losses": 13.0,
+        "hit_rate": 0.4090909090909091,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.046153846154294,
+        "winner_loser_ratio": 2.619609092840265,
+        "net_points": 85.09999999999127,
+        "no_call_days": 38.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.81696969697012
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk40_eext20_vw15_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 40.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 15.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 22.0,
+        "wins": 9.0,
+        "losses": 13.0,
+        "hit_rate": 0.4090909090909091,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.046153846154294,
+        "winner_loser_ratio": 2.619609092840265,
+        "net_points": 85.09999999999127,
+        "no_call_days": 38.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.81696969697012
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk25_eext15_vw0_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 25.0,
+        "max_entry_ext": 15.0,
+        "min_vwap_sep": 0.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 21.0,
+        "wins": 6.0,
+        "losses": 12.0,
+        "hit_rate": 0.2857142857142857,
+        "average_winner": 15.616666666666182,
+        "average_loser": -7.341666666667152,
+        "winner_loser_ratio": 2.1271282633369104,
+        "net_points": 5.599999999991269,
+        "no_call_days": 39.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 1.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -16.349999999998545,
+        "winner_loser_ratio": 5.2599388379209575,
+        "net_points": 69.65000000000146,
+        "no_call_days": 17.0
+      },
+      "score": 79.20940476190498
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk25_eext15_vw5_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 25.0,
+        "max_entry_ext": 15.0,
+        "min_vwap_sep": 5.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 21.0,
+        "wins": 6.0,
+        "losses": 12.0,
+        "hit_rate": 0.2857142857142857,
+        "average_winner": 15.616666666666182,
+        "average_loser": -7.341666666667152,
+        "winner_loser_ratio": 2.1271282633369104,
+        "net_points": 5.599999999991269,
+        "no_call_days": 39.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 1.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -16.349999999998545,
+        "winner_loser_ratio": 5.2599388379209575,
+        "net_points": 69.65000000000146,
+        "no_call_days": 17.0
+      },
+      "score": 79.20940476190498
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk25_eext15_vw10_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 25.0,
+        "max_entry_ext": 15.0,
+        "min_vwap_sep": 10.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 21.0,
+        "wins": 6.0,
+        "losses": 12.0,
+        "hit_rate": 0.2857142857142857,
+        "average_winner": 15.616666666666182,
+        "average_loser": -7.341666666667152,
+        "winner_loser_ratio": 2.1271282633369104,
+        "net_points": 5.599999999991269,
+        "no_call_days": 39.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 1.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -16.349999999998545,
+        "winner_loser_ratio": 5.2599388379209575,
+        "net_points": 69.65000000000146,
+        "no_call_days": 17.0
+      },
+      "score": 79.20940476190498
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk25_eext15_vw15_ch20",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 25.0,
+        "max_entry_ext": 15.0,
+        "min_vwap_sep": 15.0,
+        "stop_buffer": 15.0,
+        "max_chase": 20.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 21.0,
+        "wins": 6.0,
+        "losses": 12.0,
+        "hit_rate": 0.2857142857142857,
+        "average_winner": 15.616666666666182,
+        "average_loser": -7.341666666667152,
+        "winner_loser_ratio": 2.1271282633369104,
+        "net_points": 5.599999999991269,
+        "no_call_days": 39.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 1.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -16.349999999998545,
+        "winner_loser_ratio": 5.2599388379209575,
+        "net_points": 69.65000000000146,
+        "no_call_days": 17.0
+      },
+      "score": 79.20940476190498
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk35_eext20_vw0_ch25",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 35.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 0.0,
+        "stop_buffer": 15.0,
+        "max_chase": 25.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 23.0,
+        "wins": 9.0,
+        "losses": 14.0,
+        "hit_rate": 0.391304347826087,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.107142857143117,
+        "winner_loser_ratio": 2.599902104747797,
+        "net_points": 76.19999999999345,
+        "no_call_days": 37.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.10550724637724
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk35_eext20_vw5_ch25",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 35.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 5.0,
+        "stop_buffer": 15.0,
+        "max_chase": 25.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 23.0,
+        "wins": 9.0,
+        "losses": 14.0,
+        "hit_rate": 0.391304347826087,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.107142857143117,
+        "winner_loser_ratio": 2.599902104747797,
+        "net_points": 76.19999999999345,
+        "no_call_days": 37.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.10550724637724
+    },
+    {
+      "family": "trend",
+      "stage": 2,
+      "gate": {
+        "name": "s2_w25-160_sig1330_ext999_risk35_eext20_vw10_ch25",
+        "min_width": 25.0,
+        "max_width": 160.0,
+        "last_signal": "13:30",
+        "max_break_ext": 999.0,
+        "max_risk": 35.0,
+        "max_entry_ext": 20.0,
+        "min_vwap_sep": 10.0,
+        "stop_buffer": 15.0,
+        "max_chase": 25.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 23.0,
+        "wins": 9.0,
+        "losses": 14.0,
+        "hit_rate": 0.391304347826087,
+        "average_winner": 21.077777777777456,
+        "average_loser": -8.107142857143117,
+        "winner_loser_ratio": 2.599902104747797,
+        "net_points": 76.19999999999345,
+        "no_call_days": 37.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 86.0,
+        "average_loser": -22.599999999998545,
+        "winner_loser_ratio": 3.805309734513519,
+        "net_points": 40.80000000000291,
+        "no_call_days": 17.0
+      },
+      "score": 79.10550724637724
+    }
+  ],
+  "orb_top": [
+    {
+      "family": "orb",
+      "stage": 1,
+      "gate": {
+        "name": "w45-100",
+        "min_width": 45,
+        "max_width": 100,
+        "last_signal": "14:45",
+        "at_level_only": false,
+        "max_entry_ext": 10.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 33.0,
+        "wins": 17.0,
+        "losses": 16.0,
+        "hit_rate": 0.5151515151515151,
+        "average_winner": 17.167647058823444,
+        "average_loser": -17.034375000000182,
+        "winner_loser_ratio": 1.0078237128643264,
+        "net_points": 19.299999999995634,
+        "no_call_days": 27.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 19.0,
+        "average_loser": -19.5,
+        "winner_loser_ratio": 0.9743589743589743,
+        "net_points": -20.0,
+        "no_call_days": 17.0
+      },
+      "score": 58.73426573426573
+    },
+    {
+      "family": "orb",
+      "stage": 1,
+      "gate": {
+        "name": "w35-100",
+        "min_width": 35,
+        "max_width": 100,
+        "last_signal": "14:45",
+        "at_level_only": false,
+        "max_entry_ext": 10.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 35.0,
+        "wins": 18.0,
+        "losses": 17.0,
+        "hit_rate": 0.5142857142857142,
+        "average_winner": 16.433333333333294,
+        "average_loser": -16.84411764705895,
+        "winner_loser_ratio": 0.9756125953087617,
+        "net_points": 9.44999999999709,
+        "no_call_days": 25.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 19.0,
+        "average_loser": -19.5,
+        "winner_loser_ratio": 0.9743589743589743,
+        "net_points": -20.0,
+        "no_call_days": 17.0
+      },
+      "score": 58.699633699633694
+    },
+    {
+      "family": "orb",
+      "stage": 1,
+      "gate": {
+        "name": "w40-100",
+        "min_width": 40,
+        "max_width": 100,
+        "last_signal": "14:45",
+        "at_level_only": false,
+        "max_entry_ext": 10.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 35.0,
+        "wins": 18.0,
+        "losses": 17.0,
+        "hit_rate": 0.5142857142857142,
+        "average_winner": 16.433333333333294,
+        "average_loser": -16.84411764705895,
+        "winner_loser_ratio": 0.9756125953087617,
+        "net_points": 9.44999999999709,
+        "no_call_days": 25.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 19.0,
+        "average_loser": -19.5,
+        "winner_loser_ratio": 0.9743589743589743,
+        "net_points": -20.0,
+        "no_call_days": 17.0
+      },
+      "score": 58.699633699633694
+    },
+    {
+      "family": "orb",
+      "stage": 1,
+      "gate": {
+        "name": "w30-100",
+        "min_width": 30,
+        "max_width": 100,
+        "last_signal": "14:45",
+        "at_level_only": false,
+        "max_entry_ext": 10.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 35.0,
+        "wins": 18.0,
+        "losses": 17.0,
+        "hit_rate": 0.5142857142857142,
+        "average_winner": 16.433333333333294,
+        "average_loser": -16.84411764705895,
+        "winner_loser_ratio": 0.9756125953087617,
+        "net_points": 9.44999999999709,
+        "no_call_days": 25.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 19.0,
+        "average_loser": -19.5,
+        "winner_loser_ratio": 0.9743589743589743,
+        "net_points": -20.0,
+        "no_call_days": 17.0
+      },
+      "score": 58.699633699633694
+    },
+    {
+      "family": "orb",
+      "stage": 1,
+      "gate": {
+        "name": "w40-100_early",
+        "min_width": 40,
+        "max_width": 100,
+        "last_signal": "12:00",
+        "at_level_only": false,
+        "max_entry_ext": 10.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 27.0,
+        "wins": 13.0,
+        "losses": 14.0,
+        "hit_rate": 0.48148148148148145,
+        "average_winner": 19.0,
+        "average_loser": -17.796428571428674,
+        "winner_loser_ratio": 1.0676299418021211,
+        "net_points": -2.150000000001455,
+        "no_call_days": 33.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 3.0,
+        "wins": 1.0,
+        "losses": 2.0,
+        "hit_rate": 0.3333333333333333,
+        "average_winner": 19.0,
+        "average_loser": -19.5,
+        "winner_loser_ratio": 0.9743589743589743,
+        "net_points": -20.0,
+        "no_call_days": 17.0
+      },
+      "score": 57.387464387464384
+    },
+    {
+      "family": "orb",
+      "stage": 1,
+      "gate": {
+        "name": "w40-110",
+        "min_width": 40,
+        "max_width": 110,
+        "last_signal": "14:45",
+        "at_level_only": false,
+        "max_entry_ext": 10.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 41.0,
+        "wins": 20.0,
+        "losses": 21.0,
+        "hit_rate": 0.4878048780487805,
+        "average_winner": 16.689999999999962,
+        "average_loser": -16.90476190476208,
+        "winner_loser_ratio": 0.9872957746478749,
+        "net_points": -21.200000000004366,
+        "no_call_days": 19.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 4.0,
+        "wins": 1.0,
+        "losses": 3.0,
+        "hit_rate": 0.25,
+        "average_winner": 19.0,
+        "average_loser": -18.800000000000484,
+        "winner_loser_ratio": 1.0106382978723145,
+        "net_points": -37.400000000001455,
+        "no_call_days": 16.0
+      },
+      "score": 46.98730150492952
+    },
+    {
+      "family": "orb",
+      "stage": 1,
+      "gate": {
+        "name": "baseline",
+        "min_width": 30.0,
+        "max_width": 90.0,
+        "last_signal": "14:45",
+        "at_level_only": false,
+        "max_entry_ext": 10.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 30.0,
+        "wins": 16.0,
+        "losses": 14.0,
+        "hit_rate": 0.5333333333333333,
+        "average_winner": 16.987499999999955,
+        "average_loser": -17.003571428571377,
+        "winner_loser_ratio": 0.9990548204158793,
+        "net_points": 33.75,
+        "no_call_days": 30.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 1.0,
+        "wins": 0.0,
+        "losses": 1.0,
+        "hit_rate": 0.0,
+        "average_winner": null,
+        "average_loser": -18.049999999999272,
+        "winner_loser_ratio": null,
+        "net_points": -18.049999999999272,
+        "no_call_days": 19.0
+      },
+      "score": -1000000000.0
+    },
+    {
+      "family": "orb",
+      "stage": 1,
+      "gate": {
+        "name": "at_level",
+        "min_width": 30.0,
+        "max_width": 90.0,
+        "last_signal": "14:45",
+        "at_level_only": true,
+        "max_entry_ext": 10.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 4.0,
+        "wins": 1.0,
+        "losses": 3.0,
+        "hit_rate": 0.25,
+        "average_winner": 19.0,
+        "average_loser": -13.0,
+        "winner_loser_ratio": 1.4615384615384615,
+        "net_points": -20.0,
+        "no_call_days": 56.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 0.0,
+        "wins": 0.0,
+        "losses": 0.0,
+        "hit_rate": null,
+        "average_winner": null,
+        "average_loser": null,
+        "winner_loser_ratio": null,
+        "net_points": 0.0,
+        "no_call_days": 20.0
+      },
+      "score": -1000000000.0
+    },
+    {
+      "family": "orb",
+      "stage": 1,
+      "gate": {
+        "name": "at_level_w40-100",
+        "min_width": 40,
+        "max_width": 100,
+        "last_signal": "14:45",
+        "at_level_only": true,
+        "max_entry_ext": 10.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 6.0,
+        "wins": 3.0,
+        "losses": 3.0,
+        "hit_rate": 0.5,
+        "average_winner": 19.0,
+        "average_loser": -13.0,
+        "winner_loser_ratio": 1.4615384615384615,
+        "net_points": 18.0,
+        "no_call_days": 54.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 0.0,
+        "wins": 0.0,
+        "losses": 0.0,
+        "hit_rate": null,
+        "average_winner": null,
+        "average_loser": null,
+        "winner_loser_ratio": null,
+        "net_points": 0.0,
+        "no_call_days": 20.0
+      },
+      "score": -1000000000.0
+    },
+    {
+      "family": "orb",
+      "stage": 1,
+      "gate": {
+        "name": "early_1130",
+        "min_width": 30.0,
+        "max_width": 90.0,
+        "last_signal": "11:30",
+        "at_level_only": false,
+        "max_entry_ext": 10.0
+      },
+      "freeze": {
+        "sessions": 60.0,
+        "calls": 22.0,
+        "wins": 10.0,
+        "losses": 12.0,
+        "hit_rate": 0.45454545454545453,
+        "average_winner": 19.0,
+        "average_loser": -18.041666666666668,
+        "winner_loser_ratio": 1.0531177829099307,
+        "net_points": -26.5,
+        "no_call_days": 38.0
+      },
+      "hold": {
+        "sessions": 20.0,
+        "calls": 1.0,
+        "wins": 0.0,
+        "losses": 1.0,
+        "hit_rate": 0.0,
+        "average_winner": null,
+        "average_loser": -18.049999999999272,
+        "winner_loser_ratio": null,
+        "net_points": -18.049999999999272,
+        "no_call_days": 19.0
+      },
+      "score": -1000000000.0
+    }
+  ]
+}

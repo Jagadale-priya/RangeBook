@@ -1,0 +1,472 @@
+{
+  "status": "HOLDING",
+  "not_live": true,
+  "keep_all": [
+    "ACC100_MULTI_V1",
+    "ACC100_MULTI_V2",
+    "ACC100_MULTI_V3",
+    "ACC100_MULTI_V4",
+    "ACC100_MULTI_V5",
+    "ACC_WIDE_P92",
+    "ACC_WIDE_P90",
+    "ACC_WIDE_P85",
+    "ACC_WIDE_P85B",
+    "ACC_WIDE_P80",
+    "ACC_WIDE_P75",
+    "ACC_WIDE_P80_CAP2",
+    "ACC_WIDE_P75_CAP2"
+  ],
+  "windows": {
+    "1y": "2025-11-13",
+    "3y": "2023-11-14",
+    "5y": "2021-11-14",
+    "10y": "2016-11-15"
+  },
+  "end": "2026-11-13",
+  "results": {
+    "ACC100_MULTI_V1": {
+      "1y": {
+        "n": 34,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 1399.0,
+        "wins": 34,
+        "losses": 0
+      },
+      "3y": {
+        "n": 70,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 2580.0,
+        "wins": 70,
+        "losses": 0
+      },
+      "5y": {
+        "n": 104,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 3706.0,
+        "wins": 104,
+        "losses": 0
+      },
+      "10y": {
+        "n": 148,
+        "hit_pct": 96.62,
+        "perfect": false,
+        "points": 4835.0,
+        "wins": 143,
+        "losses": 5
+      }
+    },
+    "ACC100_MULTI_V2": {
+      "1y": {
+        "n": 47,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 1779.0,
+        "wins": 47,
+        "losses": 0
+      },
+      "3y": {
+        "n": 118,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 4041.0,
+        "wins": 118,
+        "losses": 0
+      },
+      "5y": {
+        "n": 171,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 5827.0,
+        "wins": 171,
+        "losses": 0
+      },
+      "10y": {
+        "n": 227,
+        "hit_pct": 97.8,
+        "perfect": false,
+        "points": 7388.0,
+        "wins": 222,
+        "losses": 5
+      }
+    },
+    "ACC100_MULTI_V3": {
+      "1y": {
+        "n": 49,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 1834.0,
+        "wins": 49,
+        "losses": 0
+      },
+      "3y": {
+        "n": 122,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 4146.0,
+        "wins": 122,
+        "losses": 0
+      },
+      "5y": {
+        "n": 181,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 6154.0,
+        "wins": 181,
+        "losses": 0
+      },
+      "10y": {
+        "n": 238,
+        "hit_pct": 97.9,
+        "perfect": false,
+        "points": 7745.0,
+        "wins": 233,
+        "losses": 5
+      }
+    },
+    "ACC100_MULTI_V4": {
+      "1y": {
+        "n": 50,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 1874.0,
+        "wins": 50,
+        "losses": 0
+      },
+      "3y": {
+        "n": 123,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 4186.0,
+        "wins": 123,
+        "losses": 0
+      },
+      "5y": {
+        "n": 182,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 6194.0,
+        "wins": 182,
+        "losses": 0
+      },
+      "10y": {
+        "n": 240,
+        "hit_pct": 97.92,
+        "perfect": false,
+        "points": 7825.0,
+        "wins": 235,
+        "losses": 5
+      }
+    },
+    "ACC100_MULTI_V5": {
+      "1y": {
+        "n": 54,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 2015.0,
+        "wins": 54,
+        "losses": 0
+      },
+      "3y": {
+        "n": 141,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 4866.0,
+        "wins": 141,
+        "losses": 0
+      },
+      "5y": {
+        "n": 202,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 6982.0,
+        "wins": 202,
+        "losses": 0
+      },
+      "10y": {
+        "n": 273,
+        "hit_pct": 98.17,
+        "perfect": false,
+        "points": 9048.0,
+        "wins": 268,
+        "losses": 5
+      }
+    },
+    "ACC_WIDE_P92": {
+      "1y": {
+        "n": 52,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 1949.0,
+        "wins": 52,
+        "losses": 0
+      },
+      "3y": {
+        "n": 131,
+        "hit_pct": 99.24,
+        "perfect": false,
+        "points": 4411.0,
+        "wins": 130,
+        "losses": 1
+      },
+      "5y": {
+        "n": 199,
+        "hit_pct": 97.49,
+        "perfect": false,
+        "points": 6469.0,
+        "wins": 194,
+        "losses": 5
+      },
+      "10y": {
+        "n": 292,
+        "hit_pct": 91.1,
+        "perfect": false,
+        "points": 8220.0,
+        "wins": 266,
+        "losses": 26
+      }
+    },
+    "ACC_WIDE_P90": {
+      "1y": {
+        "n": 65,
+        "hit_pct": 100.0,
+        "perfect": true,
+        "points": 2486.0,
+        "wins": 65,
+        "losses": 0
+      },
+      "3y": {
+        "n": 174,
+        "hit_pct": 95.4,
+        "perfect": false,
+        "points": 5661.0,
+        "wins": 166,
+        "losses": 8
+      },
+      "5y": {
+        "n": 259,
+        "hit_pct": 94.98,
+        "perfect": false,
+        "points": 8279.0,
+        "wins": 246,
+        "losses": 13
+      },
+      "10y": {
+        "n": 405,
+        "hit_pct": 89.88,
+        "perfect": false,
+        "points": 11292.0,
+        "wins": 364,
+        "losses": 41
+      }
+    },
+    "ACC_WIDE_P85": {
+      "1y": {
+        "n": 86,
+        "hit_pct": 94.19,
+        "perfect": false,
+        "points": 2948.0,
+        "wins": 81,
+        "losses": 5
+      },
+      "3y": {
+        "n": 223,
+        "hit_pct": 89.69,
+        "perfect": false,
+        "points": 6298.0,
+        "wins": 200,
+        "losses": 23
+      },
+      "5y": {
+        "n": 326,
+        "hit_pct": 89.88,
+        "perfect": false,
+        "points": 9239.0,
+        "wins": 293,
+        "losses": 33
+      },
+      "10y": {
+        "n": 525,
+        "hit_pct": 84.0,
+        "perfect": false,
+        "points": 12561.0,
+        "wins": 441,
+        "losses": 84
+      }
+    },
+    "ACC_WIDE_P85B": {
+      "1y": {
+        "n": 99,
+        "hit_pct": 92.93,
+        "perfect": false,
+        "points": 3245.0,
+        "wins": 92,
+        "losses": 7
+      },
+      "3y": {
+        "n": 250,
+        "hit_pct": 88.4,
+        "perfect": false,
+        "points": 6748.0,
+        "wins": 221,
+        "losses": 29
+      },
+      "5y": {
+        "n": 364,
+        "hit_pct": 88.19,
+        "perfect": false,
+        "points": 9833.0,
+        "wins": 321,
+        "losses": 43
+      },
+      "10y": {
+        "n": 598,
+        "hit_pct": 81.1,
+        "perfect": false,
+        "points": 13145.0,
+        "wins": 485,
+        "losses": 113
+      }
+    },
+    "ACC_WIDE_P80": {
+      "1y": {
+        "n": 109,
+        "hit_pct": 89.91,
+        "perfect": false,
+        "points": 3330.0,
+        "wins": 98,
+        "losses": 11
+      },
+      "3y": {
+        "n": 301,
+        "hit_pct": 84.72,
+        "perfect": false,
+        "points": 7400.0,
+        "wins": 255,
+        "losses": 46
+      },
+      "5y": {
+        "n": 442,
+        "hit_pct": 83.48,
+        "perfect": false,
+        "points": 10595.0,
+        "wins": 369,
+        "losses": 73
+      },
+      "10y": {
+        "n": 723,
+        "hit_pct": 76.63,
+        "perfect": false,
+        "points": 13792.0,
+        "wins": 554,
+        "losses": 169
+      }
+    },
+    "ACC_WIDE_P75": {
+      "1y": {
+        "n": 116,
+        "hit_pct": 87.93,
+        "perfect": false,
+        "points": 3350.0,
+        "wins": 102,
+        "losses": 14
+      },
+      "3y": {
+        "n": 347,
+        "hit_pct": 82.71,
+        "perfect": false,
+        "points": 8035.0,
+        "wins": 287,
+        "losses": 60
+      },
+      "5y": {
+        "n": 514,
+        "hit_pct": 81.71,
+        "perfect": false,
+        "points": 11700.0,
+        "wins": 420,
+        "losses": 94
+      },
+      "10y": {
+        "n": 833,
+        "hit_pct": 75.15,
+        "perfect": false,
+        "points": 15057.0,
+        "wins": 626,
+        "losses": 207
+      }
+    },
+    "ACC_WIDE_P80_CAP2": {
+      "1y": {
+        "n": 195,
+        "hit_pct": 93.33,
+        "perfect": false,
+        "points": 6561.0,
+        "wins": 182,
+        "losses": 13
+      },
+      "3y": {
+        "n": 525,
+        "hit_pct": 86.29,
+        "perfect": false,
+        "points": 13999.0,
+        "wins": 453,
+        "losses": 72
+      },
+      "5y": {
+        "n": 770,
+        "hit_pct": 84.94,
+        "perfect": false,
+        "points": 19882.0,
+        "wins": 654,
+        "losses": 116
+      },
+      "10y": {
+        "n": 1278,
+        "hit_pct": 77.7,
+        "perfect": false,
+        "points": 26027.0,
+        "wins": 993,
+        "losses": 285
+      }
+    },
+    "ACC_WIDE_P75_CAP2": {
+      "1y": {
+        "n": 219,
+        "hit_pct": 89.5,
+        "perfect": false,
+        "points": 6711.0,
+        "wins": 196,
+        "losses": 23
+      },
+      "3y": {
+        "n": 626,
+        "hit_pct": 83.39,
+        "perfect": false,
+        "points": 15344.0,
+        "wins": 522,
+        "losses": 104
+      },
+      "5y": {
+        "n": 933,
+        "hit_pct": 82.21,
+        "perfect": false,
+        "points": 22257.0,
+        "wins": 767,
+        "losses": 166
+      },
+      "10y": {
+        "n": 1510,
+        "hit_pct": 75.5,
+        "perfect": false,
+        "points": 28362.0,
+        "wins": 1140,
+        "losses": 370
+      }
+    }
+  },
+  "elapsed_s": 1.7,
+  "note": "10y path-true on cached dual+path; crown streams sparse pre-2024-05"
+}

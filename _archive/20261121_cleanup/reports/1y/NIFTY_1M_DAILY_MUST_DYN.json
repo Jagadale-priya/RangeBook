@@ -1,0 +1,3556 @@
+{
+  "meta": {
+    "cal_lo": "2025-07-02",
+    "cal_hi": "2026-08-05",
+    "test_lo": "2026-08-06",
+    "test_hi": "2026-11-06",
+    "champion": {
+      "bracket": "pat_sl4.0_t0.35_f8.0",
+      "kind": "pat",
+      "params": {
+        "sl_k": 4.0,
+        "t1_k": 0.35,
+        "t1_floor": 8.0,
+        "t1_cap": 40.0,
+        "sl_min": 5.0
+      },
+      "calibrate": {
+        "n": 270,
+        "wins": 238,
+        "hit_pct": 88.15,
+        "avg_sl": 101.17,
+        "avg_t1": 11.34,
+        "avg_rr": 8.65,
+        "med_sl": 91.2,
+        "med_t1": 9.91
+      },
+      "last3m": {
+        "n": 64,
+        "wins": 58,
+        "hit_pct": 90.62,
+        "avg_sl": 96.75,
+        "avg_t1": 11.68,
+        "avg_rr": 7.93,
+        "med_sl": 78.4,
+        "med_t1": 9.86
+      },
+      "cal_miss": [
+        "2025-07-03",
+        "2025-07-28",
+        "2025-08-20",
+        "2025-09-10",
+        "2025-09-29",
+        "2025-09-30",
+        "2025-10-07",
+        "2025-10-31"
+      ],
+      "l3m_miss": [
+        "2026-08-10",
+        "2026-08-20",
+        "2026-08-24",
+        "2026-08-28",
+        "2026-09-16",
+        "2026-10-06"
+      ],
+      "last3m_calls": [
+        {
+          "day": "2026-08-06",
+          "hm": "09:22",
+          "decision": "BUY",
+          "primary": "bull_run3",
+          "entry": 24643.55,
+          "sl": 72.6,
+          "t1": 8.0,
+          "rr": 9.07,
+          "win": true,
+          "outcome": "t1",
+          "atr": 14.45,
+          "body_abs": 1.5,
+          "sl_candle": 5.45,
+          "rsi_14": 86.95214105793649
+        },
+        {
+          "day": "2026-08-07",
+          "hm": "09:23",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "entry": 24613.65,
+          "sl": 81.0,
+          "t1": 8.66,
+          "rr": 9.35,
+          "win": true,
+          "outcome": "t1",
+          "atr": 13.42,
+          "body_abs": 7.0,
+          "sl_candle": 10.15,
+          "rsi_14": 43.96624472573889
+        },
+        {
+          "day": "2026-08-10",
+          "hm": "09:20",
+          "decision": "BUY",
+          "primary": "bull_run3",
+          "entry": 24609.65,
+          "sl": 90.0,
+          "t1": 11.83,
+          "rr": 7.61,
+          "win": false,
+          "outcome": "sl",
+          "atr": 9.37,
+          "body_abs": 6.8,
+          "sl_candle": 6.8,
+          "rsi_14": 93.8384679433796
+        },
+        {
+          "day": "2026-08-11",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "entry": 24496.7,
+          "sl": 79.6,
+          "t1": 8.0,
+          "rr": 9.95,
+          "win": true,
+          "outcome": "t1",
+          "atr": 10.52,
+          "body_abs": 6.8,
+          "sl_candle": 8.0,
+          "rsi_14": 22.036139268400035
+        },
+        {
+          "day": "2026-08-12",
+          "hm": "09:21",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 24405.45,
+          "sl": 71.8,
+          "t1": 10.24,
+          "rr": 7.01,
+          "win": true,
+          "outcome": "t1",
+          "atr": 11.86,
+          "body_abs": 11.2,
+          "sl_candle": 17.95,
+          "rsi_14": 32.362204724409224
+        },
+        {
+          "day": "2026-08-13",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 24344.9,
+          "sl": 54.6,
+          "t1": 8.0,
+          "rr": 6.82,
+          "win": true,
+          "outcome": "t1",
+          "atr": 18.61,
+          "body_abs": 9.9,
+          "sl_candle": 9.9,
+          "rsi_14": 45.41484716157227
+        },
+        {
+          "day": "2026-08-14",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 24319.0,
+          "sl": 34.8,
+          "t1": 8.0,
+          "rr": 4.35,
+          "win": true,
+          "outcome": "t1",
+          "atr": 11.01,
+          "body_abs": 4.7,
+          "sl_candle": 5.4,
+          "rsi_14": 37.31067602512046
+        },
+        {
+          "day": "2026-08-17",
+          "hm": "09:21",
+          "decision": "SELL",
+          "primary": "shooting_star",
+          "entry": 24303.45,
+          "sl": 27.0,
+          "t1": 8.0,
+          "rr": 3.38,
+          "win": true,
+          "outcome": "t1",
+          "atr": 10.34,
+          "body_abs": 2.25,
+          "sl_candle": 6.75,
+          "rsi_14": 24.14486921529229
+        },
+        {
+          "day": "2026-08-18",
+          "hm": "09:24",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "entry": 24244.35,
+          "sl": 58.0,
+          "t1": 8.0,
+          "rr": 7.25,
+          "win": true,
+          "outcome": "t1",
+          "atr": 12.52,
+          "body_abs": 5.4,
+          "sl_candle": 7.15,
+          "rsi_14": 13.99471897396964
+        },
+        {
+          "day": "2026-08-19",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 24113.7,
+          "sl": 27.0,
+          "t1": 8.0,
+          "rr": 3.38,
+          "win": true,
+          "outcome": "t1",
+          "atr": 9.59,
+          "body_abs": 6.05,
+          "sl_candle": 6.75,
+          "rsi_14": 13.258897418004594
+        },
+        {
+          "day": "2026-08-20",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "entry": 24192.5,
+          "sl": 28.0,
+          "t1": 8.0,
+          "rr": 3.5,
+          "win": false,
+          "outcome": "sl",
+          "atr": 9.98,
+          "body_abs": 3.1,
+          "sl_candle": 3.35,
+          "rsi_14": 86.17743151545487
+        },
+        {
+          "day": "2026-08-21",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "marubozu_bear",
+          "entry": 24222.1,
+          "sl": 135.4,
+          "t1": 11.85,
+          "rr": 11.43,
+          "win": true,
+          "outcome": "t1",
+          "atr": 9.33,
+          "body_abs": 15.45,
+          "sl_candle": 16.4,
+          "rsi_14": 55.36261491317663
+        },
+        {
+          "day": "2026-08-24",
+          "hm": "09:23",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "entry": 24306.55,
+          "sl": 31.2,
+          "t1": 8.0,
+          "rr": 3.9,
+          "win": false,
+          "outcome": "sl",
+          "atr": 8.53,
+          "body_abs": 0.8,
+          "sl_candle": 2.05,
+          "rsi_14": 90.93500570125691
+        },
+        {
+          "day": "2026-08-25",
+          "hm": "09:21",
+          "decision": "BUY",
+          "primary": "bull_run3",
+          "entry": 24193.0,
+          "sl": 103.6,
+          "t1": 10.9,
+          "rr": 9.5,
+          "win": true,
+          "outcome": "t1",
+          "atr": 13.39,
+          "body_abs": 2.6,
+          "sl_candle": 5.2,
+          "rsi_14": 52.991202346041334
+        },
+        {
+          "day": "2026-08-26",
+          "hm": "09:21",
+          "decision": "BUY",
+          "primary": "three_outside_up",
+          "entry": 24344.1,
+          "sl": 138.4,
+          "t1": 13.04,
+          "rr": 10.62,
+          "win": true,
+          "outcome": "t1",
+          "atr": 13.81,
+          "body_abs": 9.6,
+          "sl_candle": 13.5,
+          "rsi_14": 84.43260958623506
+        },
+        {
+          "day": "2026-08-27",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "entry": 24243.95,
+          "sl": 74.6,
+          "t1": 8.0,
+          "rr": 9.32,
+          "win": true,
+          "outcome": "t1",
+          "atr": 15.0,
+          "body_abs": 5.35,
+          "sl_candle": 9.7,
+          "rsi_14": 42.96391202220798
+        },
+        {
+          "day": "2026-08-28",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run3",
+          "entry": 24112.05,
+          "sl": 57.6,
+          "t1": 8.0,
+          "rr": 7.2,
+          "win": false,
+          "outcome": "sl",
+          "atr": 10.7,
+          "body_abs": 0.95,
+          "sl_candle": 6.4,
+          "rsi_14": 38.307349665924654
+        },
+        {
+          "day": "2026-08-31",
+          "hm": "09:21",
+          "decision": "SELL",
+          "primary": "dark_cloud",
+          "entry": 24072.85,
+          "sl": 49.0,
+          "t1": 10.34,
+          "rr": 4.74,
+          "win": true,
+          "outcome": "t1",
+          "atr": 16.95,
+          "body_abs": 12.25,
+          "sl_candle": 12.25,
+          "rsi_14": 34.82337549062359
+        },
+        {
+          "day": "2026-09-01",
+          "hm": "09:22",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 24041.6,
+          "sl": 37.8,
+          "t1": 8.0,
+          "rr": 4.73,
+          "win": true,
+          "outcome": "t1",
+          "atr": 11.58,
+          "body_abs": 7.3,
+          "sl_candle": 9.45,
+          "rsi_14": 45.659809332663976
+        },
+        {
+          "day": "2026-09-02",
+          "hm": "09:21",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 23816.85,
+          "sl": 72.2,
+          "t1": 8.94,
+          "rr": 8.07,
+          "win": true,
+          "outcome": "t1",
+          "atr": 16.85,
+          "body_abs": 11.75,
+          "sl_candle": 11.75,
+          "rsi_14": 26.5405560332471
+        },
+        {
+          "day": "2026-09-03",
+          "hm": "09:22",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "entry": 23974.75,
+          "sl": 58.4,
+          "t1": 8.0,
+          "rr": 7.3,
+          "win": true,
+          "outcome": "t1",
+          "atr": 13.59,
+          "body_abs": 5.9,
+          "sl_candle": 5.9,
+          "rsi_14": 82.42766407903974
+        },
+        {
+          "day": "2026-09-04",
+          "hm": "09:25",
+          "decision": "BUY",
+          "primary": "belt_bull",
+          "entry": 23920.35,
+          "sl": 41.2,
+          "t1": 8.0,
+          "rr": 5.15,
+          "win": true,
+          "outcome": "t1",
+          "atr": 13.66,
+          "body_abs": 3.8,
+          "sl_candle": 3.9,
+          "rsi_14": 56.57096643752519
+        },
+        {
+          "day": "2026-09-07",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "evening_star",
+          "entry": 23847.35,
+          "sl": 61.0,
+          "t1": 8.0,
+          "rr": 7.62,
+          "win": true,
+          "outcome": "t1",
+          "atr": 12.11,
+          "body_abs": 12.0,
+          "sl_candle": 12.0,
+          "rsi_14": 15.531023981726705
+        },
+        {
+          "day": "2026-09-08",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "entry": 23690.5,
+          "sl": 29.0,
+          "t1": 8.0,
+          "rr": 3.62,
+          "win": true,
+          "outcome": "t1",
+          "atr": 9.75,
+          "body_abs": 3.1,
+          "sl_candle": 4.9,
+          "rsi_14": 20.24722932651703
+        },
+        {
+          "day": "2026-09-09",
+          "hm": "09:22",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 23502.45,
+          "sl": 50.2,
+          "t1": 8.0,
+          "rr": 6.27,
+          "win": true,
+          "outcome": "t1",
+          "atr": 9.7,
+          "body_abs": 6.25,
+          "sl_candle": 7.5,
+          "rsi_14": 13.16916488222651
+        },
+        {
+          "day": "2026-09-10",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "entry": 23444.1,
+          "sl": 112.8,
+          "t1": 11.51,
+          "rr": 9.8,
+          "win": true,
+          "outcome": "t1",
+          "atr": 14.05,
+          "body_abs": 16.2,
+          "sl_candle": 16.2,
+          "rsi_14": 43.860823017730986
+        },
+        {
+          "day": "2026-09-11",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "hanging_man",
+          "entry": 23256.75,
+          "sl": 20.4,
+          "t1": 8.85,
+          "rr": 2.3,
+          "win": true,
+          "outcome": "t1",
+          "atr": 14.15,
+          "body_abs": 2.25,
+          "sl_candle": 2.7,
+          "rsi_14": 31.06060606060582
+        },
+        {
+          "day": "2026-09-15",
+          "hm": "09:22",
+          "decision": "SELL",
+          "primary": "belt_bear",
+          "entry": 23484.75,
+          "sl": 77.2,
+          "t1": 8.0,
+          "rr": 9.65,
+          "win": true,
+          "outcome": "t1",
+          "atr": 18.58,
+          "body_abs": 16.6,
+          "sl_candle": 16.8,
+          "rsi_14": 62.39700374531871
+        },
+        {
+          "day": "2026-09-16",
+          "hm": "09:22",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "entry": 23254.6,
+          "sl": 76.6,
+          "t1": 8.0,
+          "rr": 9.57,
+          "win": false,
+          "outcome": "sl",
+          "atr": 19.51,
+          "body_abs": 8.7,
+          "sl_candle": 15.85,
+          "rsi_14": 65.69356992940305
+        },
+        {
+          "day": "2026-09-17",
+          "hm": "09:26",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "entry": 23237.45,
+          "sl": 41.2,
+          "t1": 8.0,
+          "rr": 5.15,
+          "win": true,
+          "outcome": "t1",
+          "atr": 17.55,
+          "body_abs": 3.85,
+          "sl_candle": 5.05,
+          "rsi_14": 57.00737618545815
+        },
+        {
+          "day": "2026-09-18",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 23311.15,
+          "sl": 148.2,
+          "t1": 15.1,
+          "rr": 9.81,
+          "win": true,
+          "outcome": "t1",
+          "atr": 10.8,
+          "body_abs": 12.65,
+          "sl_candle": 14.0,
+          "rsi_14": 56.20384047267457
+        },
+        {
+          "day": "2026-09-21",
+          "hm": "09:25",
+          "decision": "BUY",
+          "primary": "bull_engulf",
+          "entry": 23386.1,
+          "sl": 46.2,
+          "t1": 8.0,
+          "rr": 5.77,
+          "win": true,
+          "outcome": "t1",
+          "atr": 15.71,
+          "body_abs": 9.45,
+          "sl_candle": 10.85,
+          "rsi_14": 78.38357921744549
+        },
+        {
+          "day": "2026-09-22",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "entry": 23438.1,
+          "sl": 71.6,
+          "t1": 8.0,
+          "rr": 8.95,
+          "win": true,
+          "outcome": "t1",
+          "atr": 9.27,
+          "body_abs": 8.8,
+          "sl_candle": 13.9,
+          "rsi_14": 54.690721649483784
+        },
+        {
+          "day": "2026-09-23",
+          "hm": "09:34",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "entry": 23373.5,
+          "sl": 36.4,
+          "t1": 8.0,
+          "rr": 4.55,
+          "win": true,
+          "outcome": "t1",
+          "atr": 8.52,
+          "body_abs": 4.45,
+          "sl_candle": 7.15,
+          "rsi_14": 23.81691233514529
+        },
+        {
+          "day": "2026-09-24",
+          "hm": "09:21",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "entry": 23238.8,
+          "sl": 73.0,
+          "t1": 8.77,
+          "rr": 8.33,
+          "win": true,
+          "outcome": "t1",
+          "atr": 14.1,
+          "body_abs": 10.95,
+          "sl_candle": 15.85,
+          "rsi_14": 13.035131503167847
+        },
+        {
+          "day": "2026-09-25",
+          "hm": "09:20",
+          "decision": "BUY",
+          "primary": "hammer",
+          "entry": 23077.25,
+          "sl": 47.0,
+          "t1": 13.05,
+          "rr": 3.6,
+          "win": true,
+          "outcome": "t1",
+          "atr": 11.99,
+          "body_abs": 3.25,
+          "sl_candle": 11.75,
+          "rsi_14": 45.22584333905156
+        },
+        {
+          "day": "2026-09-28",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "belt_bear",
+          "entry": 22927.2,
+          "sl": 201.0,
+          "t1": 19.35,
+          "rr": 10.38,
+          "win": true,
+          "outcome": "t1",
+          "atr": 15.86,
+          "body_abs": 24.5,
+          "sl_candle": 24.6,
+          "rsi_14": 6.962296486718145
+        },
+        {
+          "day": "2026-09-29",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_kicker",
+          "entry": 22675.25,
+          "sl": 172.6,
+          "t1": 15.79,
+          "rr": 10.93,
+          "win": true,
+          "outcome": "t1",
+          "atr": 10.47,
+          "body_abs": 7.55,
+          "sl_candle": 10.2,
+          "rsi_14": 0.22026431718062156
+        },
+        {
+          "day": "2026-09-30",
+          "hm": "09:20",
+          "decision": "BUY",
+          "primary": "bull_run3",
+          "entry": 22720.35,
+          "sl": 160.2,
+          "t1": 14.98,
+          "rr": 10.69,
+          "win": true,
+          "outcome": "t1",
+          "atr": 13.28,
+          "body_abs": 17.5,
+          "sl_candle": 19.1,
+          "rsi_14": 63.70786516853878
+        },
+        {
+          "day": "2026-10-01",
+          "hm": "09:21",
+          "decision": "SELL",
+          "primary": "bear_run3",
+          "entry": 22540.75,
+          "sl": 121.4,
+          "t1": 12.35,
+          "rr": 9.83,
+          "win": true,
+          "outcome": "t1",
+          "atr": 13.71,
+          "body_abs": 5.85,
+          "sl_candle": 10.45,
+          "rsi_14": 24.174327545115574
+        },
+        {
+          "day": "2026-10-05",
+          "hm": "09:21",
+          "decision": "SELL",
+          "primary": "belt_bear",
+          "entry": 22517.8,
+          "sl": 160.0,
+          "t1": 16.85,
+          "rr": 9.49,
+          "win": true,
+          "outcome": "t1",
+          "atr": 14.61,
+          "body_abs": 23.35,
+          "sl_candle": 23.5,
+          "rsi_14": 67.45260087506054
+        },
+        {
+          "day": "2026-10-06",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "entry": 22569.35,
+          "sl": 118.0,
+          "t1": 10.97,
+          "rr": 10.75,
+          "win": false,
+          "outcome": "sl",
+          "atr": 10.98,
+          "body_abs": 15.4,
+          "sl_candle": 18.25,
+          "rsi_14": 70.59538274604989
+        },
+        {
+          "day": "2026-10-07",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 22610.7,
+          "sl": 73.2,
+          "t1": 8.0,
+          "rr": 9.15,
+          "win": true,
+          "outcome": "t1",
+          "atr": 15.39,
+          "body_abs": 12.95,
+          "sl_candle": 13.15,
+          "rsi_14": 28.86210983800858
+        },
+        {
+          "day": "2026-10-08",
+          "hm": "09:22",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "entry": 22526.5,
+          "sl": 96.6,
+          "t1": 9.94,
+          "rr": 9.72,
+          "win": true,
+          "outcome": "t1",
+          "atr": 17.1,
+          "body_abs": 10.55,
+          "sl_candle": 11.25,
+          "rsi_14": 27.009563194623837
+        },
+        {
+          "day": "2026-10-09",
+          "hm": "09:20",
+          "decision": "BUY",
+          "primary": "marubozu_bull",
+          "entry": 22339.5,
+          "sl": 90.2,
+          "t1": 19.21,
+          "rr": 4.69,
+          "win": true,
+          "outcome": "t1",
+          "atr": 14.39,
+          "body_abs": 19.65,
+          "sl_candle": 19.9,
+          "rsi_14": 77.154793315743
+        },
+        {
+          "day": "2026-10-12",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run3",
+          "entry": 22586.0,
+          "sl": 206.6,
+          "t1": 21.75,
+          "rr": 9.5,
+          "win": true,
+          "outcome": "t1",
+          "atr": 14.57,
+          "body_abs": 0.55,
+          "sl_candle": 9.05,
+          "rsi_14": 62.70502144839722
+        },
+        {
+          "day": "2026-10-13",
+          "hm": "09:22",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "entry": 22450.2,
+          "sl": 163.6,
+          "t1": 14.75,
+          "rr": 11.09,
+          "win": true,
+          "outcome": "t1",
+          "atr": 28.44,
+          "body_abs": 14.3,
+          "sl_candle": 22.25,
+          "rsi_14": 73.23575535807723
+        },
+        {
+          "day": "2026-10-14",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run3",
+          "entry": 22677.95,
+          "sl": 150.0,
+          "t1": 17.69,
+          "rr": 8.48,
+          "win": true,
+          "outcome": "t1",
+          "atr": 20.51,
+          "body_abs": 7.5,
+          "sl_candle": 7.5,
+          "rsi_14": 44.34537775692213
+        },
+        {
+          "day": "2026-10-15",
+          "hm": "09:23",
+          "decision": "BUY",
+          "primary": "bull_engulf",
+          "entry": 22716.25,
+          "sl": 143.0,
+          "t1": 14.98,
+          "rr": 9.55,
+          "win": true,
+          "outcome": "t1",
+          "atr": 23.23,
+          "body_abs": 28.9,
+          "sl_candle": 35.75,
+          "rsi_14": 71.05871474803452
+        },
+        {
+          "day": "2026-10-16",
+          "hm": "09:25",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 22979.0,
+          "sl": 69.6,
+          "t1": 8.49,
+          "rr": 8.2,
+          "win": true,
+          "outcome": "t1",
+          "atr": 25.22,
+          "body_abs": 8.9,
+          "sl_candle": 9.95,
+          "rsi_14": 57.25701542464215
+        },
+        {
+          "day": "2026-10-19",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "entry": 23123.9,
+          "sl": 205.4,
+          "t1": 19.04,
+          "rr": 10.79,
+          "win": true,
+          "outcome": "t1",
+          "atr": 20.1,
+          "body_abs": 29.7,
+          "sl_candle": 34.05,
+          "rsi_14": 51.746258018532295
+        },
+        {
+          "day": "2026-10-21",
+          "hm": "09:21",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "entry": 23071.95,
+          "sl": 140.6,
+          "t1": 16.87,
+          "rr": 8.33,
+          "win": true,
+          "outcome": "t1",
+          "atr": 17.56,
+          "body_abs": 4.6,
+          "sl_candle": 5.4,
+          "rsi_14": 88.52427184466048
+        },
+        {
+          "day": "2026-10-22",
+          "hm": "09:21",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 22590.55,
+          "sl": 143.8,
+          "t1": 13.82,
+          "rr": 10.4,
+          "win": true,
+          "outcome": "t1",
+          "atr": 29.0,
+          "body_abs": 25.0,
+          "sl_candle": 25.45,
+          "rsi_14": 32.55484784147164
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run3",
+          "entry": 22708.0,
+          "sl": 267.4,
+          "t1": 24.94,
+          "rr": 10.72,
+          "win": true,
+          "outcome": "t1",
+          "atr": 16.62,
+          "body_abs": 20.65,
+          "sl_candle": 39.65,
+          "rsi_14": 60.61459667093469
+        },
+        {
+          "day": "2026-10-26",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run3",
+          "entry": 22438.15,
+          "sl": 122.8,
+          "t1": 14.87,
+          "rr": 8.26,
+          "win": true,
+          "outcome": "t1",
+          "atr": 21.15,
+          "body_abs": 0.9,
+          "sl_candle": 4.35,
+          "rsi_14": 37.2286600293781
+        },
+        {
+          "day": "2026-10-27",
+          "hm": "09:22",
+          "decision": "BUY",
+          "primary": "bull_run3",
+          "entry": 22711.5,
+          "sl": 210.6,
+          "t1": 18.43,
+          "rr": 11.43,
+          "win": true,
+          "outcome": "t1",
+          "atr": 18.33,
+          "body_abs": 15.1,
+          "sl_candle": 21.55,
+          "rsi_14": 48.72090343397113
+        },
+        {
+          "day": "2026-10-28",
+          "hm": "09:22",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "entry": 22572.3,
+          "sl": 163.4,
+          "t1": 18.2,
+          "rr": 8.98,
+          "win": true,
+          "outcome": "t1",
+          "atr": 27.11,
+          "body_abs": 40.35,
+          "sl_candle": 40.85,
+          "rsi_14": 21.691452606277934
+        },
+        {
+          "day": "2026-10-29",
+          "hm": "09:23",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "entry": 22710.45,
+          "sl": 122.8,
+          "t1": 19.65,
+          "rr": 6.25,
+          "win": true,
+          "outcome": "t1",
+          "atr": 19.52,
+          "body_abs": 17.85,
+          "sl_candle": 23.15,
+          "rsi_14": 51.39366170294056
+        },
+        {
+          "day": "2026-10-30",
+          "hm": "09:23",
+          "decision": "SELL",
+          "primary": "marubozu_bear",
+          "entry": 22941.9,
+          "sl": 101.6,
+          "t1": 9.78,
+          "rr": 10.39,
+          "win": true,
+          "outcome": "t1",
+          "atr": 12.99,
+          "body_abs": 20.1,
+          "sl_candle": 20.75,
+          "rsi_14": 50.521541950114035
+        },
+        {
+          "day": "2026-11-02",
+          "hm": "09:27",
+          "decision": "BUY",
+          "primary": "hammer",
+          "entry": 23258.95,
+          "sl": 48.8,
+          "t1": 8.0,
+          "rr": 6.1,
+          "win": true,
+          "outcome": "t1",
+          "atr": 18.98,
+          "body_abs": 1.9,
+          "sl_candle": 7.3,
+          "rsi_14": 84.48651365387781
+        },
+        {
+          "day": "2026-11-03",
+          "hm": "09:20",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "entry": 23587.95,
+          "sl": 108.8,
+          "t1": 10.82,
+          "rr": 10.06,
+          "win": true,
+          "outcome": "t1",
+          "atr": 24.04,
+          "body_abs": 10.2,
+          "sl_candle": 12.5,
+          "rsi_14": 50.0
+        },
+        {
+          "day": "2026-11-04",
+          "hm": "09:20",
+          "decision": "BUY",
+          "primary": "bull_run3",
+          "entry": 23886.85,
+          "sl": 157.0,
+          "t1": 14.39,
+          "rr": 10.91,
+          "win": true,
+          "outcome": "t1",
+          "atr": 22.34,
+          "body_abs": 16.7,
+          "sl_candle": 17.15,
+          "rsi_14": 88.2905138339932
+        },
+        {
+          "day": "2026-11-05",
+          "hm": "09:20",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "entry": 24347.55,
+          "sl": 75.0,
+          "t1": 8.0,
+          "rr": 9.38,
+          "win": true,
+          "outcome": "t1",
+          "atr": 17.42,
+          "body_abs": 7.15,
+          "sl_candle": 15.95,
+          "rsi_14": 97.42139049069696
+        },
+        {
+          "day": "2026-11-06",
+          "hm": "09:21",
+          "decision": "SELL",
+          "primary": "hanging_man",
+          "entry": 24518.35,
+          "sl": 83.4,
+          "t1": 18.67,
+          "rr": 4.47,
+          "win": true,
+          "outcome": "t1",
+          "atr": 26.12,
+          "body_abs": 7.8,
+          "sl_candle": 8.2,
+          "rsi_14": 43.728635287930175
+        }
+      ],
+      "mode": "first_trend_skip",
+      "tag": "near"
+    },
+    "dynamic": true,
+    "research_only": true,
+    "not_live": true
+  },
+  "packs": {
+    "best_trend_560_720": {
+      "perfect": [],
+      "near": [
+        {
+          "bracket": "candle_sl6.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 235,
+            "hit_pct": 87.04,
+            "avg_sl": 102.5,
+            "avg_t1": 13.42,
+            "avg_rr": 7.56,
+            "med_sl": 92.55,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 59,
+            "hit_pct": 92.19,
+            "avg_sl": 99.58,
+            "avg_t1": 13.11,
+            "avg_rr": 7.47,
+            "med_sl": 83.7,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10"
+          ]
+        },
+        {
+          "bracket": "cwick_sl6.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 235,
+            "hit_pct": 87.04,
+            "avg_sl": 102.5,
+            "avg_t1": 13.42,
+            "avg_rr": 7.56,
+            "med_sl": 92.55,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 59,
+            "hit_pct": 92.19,
+            "avg_sl": 99.58,
+            "avg_t1": 13.11,
+            "avg_rr": 7.47,
+            "med_sl": 83.7,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10"
+          ]
+        },
+        {
+          "bracket": "candle_sl6.0_t1.0_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 1.0,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 234,
+            "hit_pct": 86.67,
+            "avg_sl": 102.5,
+            "avg_t1": 16.45,
+            "avg_rr": 6.21,
+            "med_sl": 92.55,
+            "med_t1": 14.68
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 99.58,
+            "avg_t1": 15.8,
+            "avg_rr": 6.24,
+            "med_sl": 83.7,
+            "med_t1": 12.88
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-10-22"
+          ]
+        },
+        {
+          "bracket": "cwick_sl6.0_t1.0_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 1.0,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 234,
+            "hit_pct": 86.67,
+            "avg_sl": 102.5,
+            "avg_t1": 16.45,
+            "avg_rr": 6.21,
+            "med_sl": 92.55,
+            "med_t1": 14.68
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 99.58,
+            "avg_t1": 15.8,
+            "avg_rr": 6.24,
+            "med_sl": 83.7,
+            "med_t1": 12.88
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-10-22"
+          ]
+        },
+        {
+          "bracket": "candle_sl6.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 233,
+            "hit_pct": 86.3,
+            "avg_sl": 102.5,
+            "avg_t1": 13.92,
+            "avg_rr": 7.22,
+            "med_sl": 92.55,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 99.58,
+            "avg_t1": 13.76,
+            "avg_rr": 7.03,
+            "med_sl": 83.7,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-09-17"
+          ]
+        },
+        {
+          "bracket": "cwick_sl6.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 233,
+            "hit_pct": 86.3,
+            "avg_sl": 102.5,
+            "avg_t1": 13.92,
+            "avg_rr": 7.22,
+            "med_sl": 92.55,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 99.58,
+            "avg_t1": 13.76,
+            "avg_rr": 7.03,
+            "med_sl": 83.7,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-09-17"
+          ]
+        }
+      ],
+      "sane": [
+        {
+          "bracket": "pat_sl2.5_t0.5_f8.0",
+          "kind": "pat",
+          "params": {
+            "sl_k": 2.5,
+            "t1_k": 0.5,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 219,
+            "hit_pct": 81.11,
+            "avg_sl": 57.85,
+            "avg_t1": 12.65,
+            "avg_rr": 4.48,
+            "med_sl": 50.81,
+            "med_t1": 10.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 53,
+            "hit_pct": 82.81,
+            "avg_sl": 59.65,
+            "avg_t1": 12.91,
+            "avg_rr": 4.5,
+            "med_sl": 47.25,
+            "med_t1": 10.19
+          },
+          "cal_miss": [
+            "2025-07-15",
+            "2025-07-16",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-28",
+            "2025-07-30",
+            "2025-08-13",
+            "2025-08-14"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        },
+        {
+          "bracket": "candle_sl4.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 218,
+            "hit_pct": 80.74,
+            "avg_sl": 68.33,
+            "avg_t1": 13.42,
+            "avg_rr": 5.04,
+            "med_sl": 61.7,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 53,
+            "hit_pct": 82.81,
+            "avg_sl": 66.38,
+            "avg_t1": 13.11,
+            "avg_rr": 4.98,
+            "med_sl": 55.8,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        },
+        {
+          "bracket": "cwick_sl4.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 218,
+            "hit_pct": 80.74,
+            "avg_sl": 68.33,
+            "avg_t1": 13.42,
+            "avg_rr": 5.04,
+            "med_sl": 61.7,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 53,
+            "hit_pct": 82.81,
+            "avg_sl": 66.38,
+            "avg_t1": 13.11,
+            "avg_rr": 4.98,
+            "med_sl": 55.8,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        },
+        {
+          "bracket": "candle_sl4.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 217,
+            "hit_pct": 80.37,
+            "avg_sl": 68.33,
+            "avg_t1": 13.92,
+            "avg_rr": 4.81,
+            "med_sl": 61.7,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 52,
+            "hit_pct": 81.25,
+            "avg_sl": 66.38,
+            "avg_t1": 13.76,
+            "avg_rr": 4.69,
+            "med_sl": 55.8,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-17"
+          ]
+        },
+        {
+          "bracket": "cwick_sl4.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 217,
+            "hit_pct": 80.37,
+            "avg_sl": 68.33,
+            "avg_t1": 13.92,
+            "avg_rr": 4.81,
+            "med_sl": 61.7,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 52,
+            "hit_pct": 81.25,
+            "avg_sl": 66.38,
+            "avg_t1": 13.76,
+            "avg_rr": 4.69,
+            "med_sl": 55.8,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-17"
+          ]
+        },
+        {
+          "bracket": "candle_sl4.0_t1.0_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 1.0,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 214,
+            "hit_pct": 79.26,
+            "avg_sl": 68.33,
+            "avg_t1": 16.45,
+            "avg_rr": 4.14,
+            "med_sl": 61.7,
+            "med_t1": 14.68
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 52,
+            "hit_pct": 81.25,
+            "avg_sl": 66.38,
+            "avg_t1": 15.8,
+            "avg_rr": 4.16,
+            "med_sl": 55.8,
+            "med_t1": 12.88
+          },
+          "cal_miss": [
+            "2025-07-03",
+            "2025-07-10",
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        }
+      ]
+    },
+    "best_any_560_720": {
+      "perfect": [],
+      "near": [
+        {
+          "bracket": "candle_sl6.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 235,
+            "hit_pct": 87.04,
+            "avg_sl": 102.5,
+            "avg_t1": 13.42,
+            "avg_rr": 7.56,
+            "med_sl": 92.55,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 59,
+            "hit_pct": 92.19,
+            "avg_sl": 99.58,
+            "avg_t1": 13.11,
+            "avg_rr": 7.47,
+            "med_sl": 83.7,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10"
+          ]
+        },
+        {
+          "bracket": "cwick_sl6.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 235,
+            "hit_pct": 87.04,
+            "avg_sl": 102.5,
+            "avg_t1": 13.42,
+            "avg_rr": 7.56,
+            "med_sl": 92.55,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 59,
+            "hit_pct": 92.19,
+            "avg_sl": 99.58,
+            "avg_t1": 13.11,
+            "avg_rr": 7.47,
+            "med_sl": 83.7,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10"
+          ]
+        },
+        {
+          "bracket": "candle_sl6.0_t1.0_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 1.0,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 234,
+            "hit_pct": 86.67,
+            "avg_sl": 102.5,
+            "avg_t1": 16.45,
+            "avg_rr": 6.21,
+            "med_sl": 92.55,
+            "med_t1": 14.68
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 99.58,
+            "avg_t1": 15.8,
+            "avg_rr": 6.24,
+            "med_sl": 83.7,
+            "med_t1": 12.88
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-10-22"
+          ]
+        },
+        {
+          "bracket": "cwick_sl6.0_t1.0_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 1.0,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 234,
+            "hit_pct": 86.67,
+            "avg_sl": 102.5,
+            "avg_t1": 16.45,
+            "avg_rr": 6.21,
+            "med_sl": 92.55,
+            "med_t1": 14.68
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 99.58,
+            "avg_t1": 15.8,
+            "avg_rr": 6.24,
+            "med_sl": 83.7,
+            "med_t1": 12.88
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-10-22"
+          ]
+        },
+        {
+          "bracket": "candle_sl6.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 233,
+            "hit_pct": 86.3,
+            "avg_sl": 102.5,
+            "avg_t1": 13.92,
+            "avg_rr": 7.22,
+            "med_sl": 92.55,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 99.58,
+            "avg_t1": 13.76,
+            "avg_rr": 7.03,
+            "med_sl": 83.7,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-09-17"
+          ]
+        },
+        {
+          "bracket": "cwick_sl6.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 233,
+            "hit_pct": 86.3,
+            "avg_sl": 102.5,
+            "avg_t1": 13.92,
+            "avg_rr": 7.22,
+            "med_sl": 92.55,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 99.58,
+            "avg_t1": 13.76,
+            "avg_rr": 7.03,
+            "med_sl": 83.7,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-09-17"
+          ]
+        }
+      ],
+      "sane": [
+        {
+          "bracket": "pat_sl2.5_t0.5_f8.0",
+          "kind": "pat",
+          "params": {
+            "sl_k": 2.5,
+            "t1_k": 0.5,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 219,
+            "hit_pct": 81.11,
+            "avg_sl": 57.85,
+            "avg_t1": 12.65,
+            "avg_rr": 4.48,
+            "med_sl": 50.81,
+            "med_t1": 10.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 53,
+            "hit_pct": 82.81,
+            "avg_sl": 59.65,
+            "avg_t1": 12.91,
+            "avg_rr": 4.5,
+            "med_sl": 47.25,
+            "med_t1": 10.19
+          },
+          "cal_miss": [
+            "2025-07-15",
+            "2025-07-16",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-28",
+            "2025-07-30",
+            "2025-08-13",
+            "2025-08-14"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        },
+        {
+          "bracket": "candle_sl4.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 218,
+            "hit_pct": 80.74,
+            "avg_sl": 68.33,
+            "avg_t1": 13.42,
+            "avg_rr": 5.04,
+            "med_sl": 61.7,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 53,
+            "hit_pct": 82.81,
+            "avg_sl": 66.38,
+            "avg_t1": 13.11,
+            "avg_rr": 4.98,
+            "med_sl": 55.8,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        },
+        {
+          "bracket": "cwick_sl4.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 218,
+            "hit_pct": 80.74,
+            "avg_sl": 68.33,
+            "avg_t1": 13.42,
+            "avg_rr": 5.04,
+            "med_sl": 61.7,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 53,
+            "hit_pct": 82.81,
+            "avg_sl": 66.38,
+            "avg_t1": 13.11,
+            "avg_rr": 4.98,
+            "med_sl": 55.8,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        },
+        {
+          "bracket": "candle_sl4.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 217,
+            "hit_pct": 80.37,
+            "avg_sl": 68.33,
+            "avg_t1": 13.92,
+            "avg_rr": 4.81,
+            "med_sl": 61.7,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 52,
+            "hit_pct": 81.25,
+            "avg_sl": 66.38,
+            "avg_t1": 13.76,
+            "avg_rr": 4.69,
+            "med_sl": 55.8,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-17"
+          ]
+        },
+        {
+          "bracket": "cwick_sl4.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 217,
+            "hit_pct": 80.37,
+            "avg_sl": 68.33,
+            "avg_t1": 13.92,
+            "avg_rr": 4.81,
+            "med_sl": 61.7,
+            "med_t1": 11.74
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 52,
+            "hit_pct": 81.25,
+            "avg_sl": 66.38,
+            "avg_t1": 13.76,
+            "avg_rr": 4.69,
+            "med_sl": 55.8,
+            "med_t1": 10.3
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22",
+            "2025-07-23",
+            "2025-07-28"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-17"
+          ]
+        },
+        {
+          "bracket": "candle_sl4.0_t1.0_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 1.0,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 214,
+            "hit_pct": 79.26,
+            "avg_sl": 68.33,
+            "avg_t1": 16.45,
+            "avg_rr": 4.14,
+            "med_sl": 61.7,
+            "med_t1": 14.68
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 52,
+            "hit_pct": 81.25,
+            "avg_sl": 66.38,
+            "avg_t1": 15.8,
+            "avg_rr": 4.16,
+            "med_sl": 55.8,
+            "med_t1": 12.88
+          },
+          "cal_miss": [
+            "2025-07-03",
+            "2025-07-10",
+            "2025-07-14",
+            "2025-07-15",
+            "2025-07-17",
+            "2025-07-18",
+            "2025-07-21",
+            "2025-07-22"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        }
+      ]
+    },
+    "best_trend_575_700": {
+      "perfect": [],
+      "near": [
+        {
+          "bracket": "candle_sl6.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 234,
+            "hit_pct": 86.67,
+            "avg_sl": 99.7,
+            "avg_t1": 13.07,
+            "avg_rr": 7.54,
+            "med_sl": 90.15,
+            "med_t1": 11.42
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 98.32,
+            "avg_t1": 12.95,
+            "avg_rr": 7.47,
+            "med_sl": 83.7,
+            "med_t1": 10.24
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10",
+            "2025-09-22"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-11-04"
+          ]
+        },
+        {
+          "bracket": "cwick_sl6.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 234,
+            "hit_pct": 86.67,
+            "avg_sl": 99.7,
+            "avg_t1": 13.07,
+            "avg_rr": 7.54,
+            "med_sl": 90.15,
+            "med_t1": 11.42
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 98.32,
+            "avg_t1": 12.95,
+            "avg_rr": 7.47,
+            "med_sl": 83.7,
+            "med_t1": 10.24
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10",
+            "2025-09-22"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-11-04"
+          ]
+        },
+        {
+          "bracket": "candle_sl6.0_t1.0_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 1.0,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 232,
+            "hit_pct": 85.93,
+            "avg_sl": 99.7,
+            "avg_t1": 15.97,
+            "avg_rr": 6.21,
+            "med_sl": 90.15,
+            "med_t1": 14.28
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 57,
+            "hit_pct": 89.06,
+            "avg_sl": 98.32,
+            "avg_t1": 15.6,
+            "avg_rr": 6.24,
+            "med_sl": 83.7,
+            "med_t1": 12.8
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-16",
+            "2025-07-17",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-10-22",
+            "2026-11-04"
+          ]
+        },
+        {
+          "bracket": "cwick_sl6.0_t1.0_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 1.0,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 232,
+            "hit_pct": 85.93,
+            "avg_sl": 99.7,
+            "avg_t1": 15.97,
+            "avg_rr": 6.21,
+            "med_sl": 90.15,
+            "med_t1": 14.28
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 57,
+            "hit_pct": 89.06,
+            "avg_sl": 98.32,
+            "avg_t1": 15.6,
+            "avg_rr": 6.24,
+            "med_sl": 83.7,
+            "med_t1": 12.8
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-16",
+            "2025-07-17",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-10-22",
+            "2026-11-04"
+          ]
+        },
+        {
+          "bracket": "candle_sl6.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 232,
+            "hit_pct": 85.93,
+            "avg_sl": 99.7,
+            "avg_t1": 13.63,
+            "avg_rr": 7.15,
+            "med_sl": 90.15,
+            "med_t1": 11.42
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 57,
+            "hit_pct": 89.06,
+            "avg_sl": 98.32,
+            "avg_t1": 13.62,
+            "avg_rr": 7.02,
+            "med_sl": 83.7,
+            "med_t1": 10.24
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-16",
+            "2025-07-17",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-09-17",
+            "2026-11-04"
+          ]
+        },
+        {
+          "bracket": "cwick_sl6.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 6.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 232,
+            "hit_pct": 85.93,
+            "avg_sl": 99.7,
+            "avg_t1": 13.63,
+            "avg_rr": 7.15,
+            "med_sl": 90.15,
+            "med_t1": 11.42
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 57,
+            "hit_pct": 89.06,
+            "avg_sl": 98.32,
+            "avg_t1": 13.62,
+            "avg_rr": 7.02,
+            "med_sl": 83.7,
+            "med_t1": 10.24
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-16",
+            "2025-07-17",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-10"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-04",
+            "2026-09-10",
+            "2026-09-17",
+            "2026-11-04"
+          ]
+        }
+      ],
+      "sane": [
+        {
+          "bracket": "pat_sl2.5_t0.5_f8.0",
+          "kind": "pat",
+          "params": {
+            "sl_k": 2.5,
+            "t1_k": 0.5,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 218,
+            "hit_pct": 80.74,
+            "avg_sl": 56.71,
+            "avg_t1": 12.46,
+            "avg_rr": 4.45,
+            "med_sl": 48.69,
+            "med_t1": 10.38
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 53,
+            "hit_pct": 82.81,
+            "avg_sl": 58.47,
+            "avg_t1": 12.8,
+            "avg_rr": 4.46,
+            "med_sl": 46.75,
+            "med_t1": 10.16
+          },
+          "cal_miss": [
+            "2025-07-17",
+            "2025-07-28",
+            "2025-07-30",
+            "2025-08-13",
+            "2025-08-14",
+            "2025-09-03",
+            "2025-09-09",
+            "2025-09-22"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        },
+        {
+          "bracket": "candle_sl4.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 218,
+            "hit_pct": 80.74,
+            "avg_sl": 66.46,
+            "avg_t1": 13.07,
+            "avg_rr": 5.03,
+            "med_sl": 60.1,
+            "med_t1": 11.42
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 53,
+            "hit_pct": 82.81,
+            "avg_sl": 65.54,
+            "avg_t1": 12.95,
+            "avg_rr": 4.98,
+            "med_sl": 55.8,
+            "med_t1": 10.24
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-21",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-07-30",
+            "2025-08-14",
+            "2025-09-03"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        },
+        {
+          "bracket": "cwick_sl4.0_t0.8_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 218,
+            "hit_pct": 80.74,
+            "avg_sl": 66.46,
+            "avg_t1": 13.07,
+            "avg_rr": 5.03,
+            "med_sl": 60.1,
+            "med_t1": 11.42
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 53,
+            "hit_pct": 82.81,
+            "avg_sl": 65.54,
+            "avg_t1": 12.95,
+            "avg_rr": 4.98,
+            "med_sl": 55.8,
+            "med_t1": 10.24
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-17",
+            "2025-07-21",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-07-30",
+            "2025-08-14",
+            "2025-09-03"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        },
+        {
+          "bracket": "candle_sl4.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 216,
+            "hit_pct": 80.0,
+            "avg_sl": 66.46,
+            "avg_t1": 13.63,
+            "avg_rr": 4.77,
+            "med_sl": 60.1,
+            "med_t1": 11.42
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 52,
+            "hit_pct": 81.25,
+            "avg_sl": 65.54,
+            "avg_t1": 13.62,
+            "avg_rr": 4.68,
+            "med_sl": 55.8,
+            "med_t1": 10.24
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-16",
+            "2025-07-17",
+            "2025-07-21",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-07-30",
+            "2025-08-14"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-17"
+          ]
+        },
+        {
+          "bracket": "cwick_sl4.0_t0.8_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.8,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 216,
+            "hit_pct": 80.0,
+            "avg_sl": 66.46,
+            "avg_t1": 13.63,
+            "avg_rr": 4.77,
+            "med_sl": 60.1,
+            "med_t1": 11.42
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 52,
+            "hit_pct": 81.25,
+            "avg_sl": 65.54,
+            "avg_t1": 13.62,
+            "avg_rr": 4.68,
+            "med_sl": 55.8,
+            "med_t1": 10.24
+          },
+          "cal_miss": [
+            "2025-07-14",
+            "2025-07-16",
+            "2025-07-17",
+            "2025-07-21",
+            "2025-07-23",
+            "2025-07-28",
+            "2025-07-30",
+            "2025-08-14"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-17"
+          ]
+        },
+        {
+          "bracket": "candle_sl4.0_t1.0_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 1.0,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 213,
+            "hit_pct": 78.89,
+            "avg_sl": 66.46,
+            "avg_t1": 15.97,
+            "avg_rr": 4.14,
+            "med_sl": 60.1,
+            "med_t1": 14.28
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 52,
+            "hit_pct": 81.25,
+            "avg_sl": 65.54,
+            "avg_t1": 15.6,
+            "avg_rr": 4.16,
+            "med_sl": 55.8,
+            "med_t1": 12.8
+          },
+          "cal_miss": [
+            "2025-07-03",
+            "2025-07-10",
+            "2025-07-14",
+            "2025-07-16",
+            "2025-07-17",
+            "2025-07-21",
+            "2025-07-23",
+            "2025-07-28"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-13",
+            "2026-08-14",
+            "2026-09-01",
+            "2026-09-04",
+            "2026-09-09",
+            "2026-09-10",
+            "2026-09-21"
+          ]
+        }
+      ]
+    },
+    "first_trend_skip": {
+      "perfect": [],
+      "near": [
+        {
+          "bracket": "pat_sl4.0_t0.35_f8.0",
+          "kind": "pat",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.35,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 238,
+            "hit_pct": 88.15,
+            "avg_sl": 101.17,
+            "avg_t1": 11.34,
+            "avg_rr": 8.65,
+            "med_sl": 91.2,
+            "med_t1": 9.91
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 96.75,
+            "avg_t1": 11.68,
+            "avg_rr": 7.93,
+            "med_sl": 78.4,
+            "med_t1": 9.86
+          },
+          "cal_miss": [
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-10",
+            "2025-09-29",
+            "2025-09-30",
+            "2025-10-07",
+            "2025-10-31"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-24",
+            "2026-08-28",
+            "2026-09-16",
+            "2026-10-06"
+          ]
+        },
+        {
+          "bracket": "pat_sl4.0_t0.35_f10.0",
+          "kind": "pat",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.35,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 236,
+            "hit_pct": 87.41,
+            "avg_sl": 101.17,
+            "avg_t1": 12.14,
+            "avg_rr": 8.06,
+            "med_sl": 91.2,
+            "med_t1": 10.0
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 96.75,
+            "avg_t1": 12.6,
+            "avg_rr": 7.32,
+            "med_sl": 78.4,
+            "med_t1": 10.0
+          },
+          "cal_miss": [
+            "2025-07-02",
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-10",
+            "2025-09-29",
+            "2025-09-30",
+            "2025-10-07"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-24",
+            "2026-08-28",
+            "2026-09-16",
+            "2026-10-06"
+          ]
+        },
+        {
+          "bracket": "pat_sl4.0_t0.5_f8.0",
+          "kind": "pat",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.5,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 235,
+            "hit_pct": 87.04,
+            "avg_sl": 101.17,
+            "avg_t1": 15.49,
+            "avg_rr": 6.37,
+            "med_sl": 91.2,
+            "med_t1": 14.15
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 96.75,
+            "avg_t1": 15.76,
+            "avg_rr": 5.97,
+            "med_sl": 78.4,
+            "med_t1": 14.09
+          },
+          "cal_miss": [
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-10",
+            "2025-09-23",
+            "2025-09-29",
+            "2025-09-30",
+            "2025-10-07"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-24",
+            "2026-08-28",
+            "2026-09-16",
+            "2026-10-06"
+          ]
+        },
+        {
+          "bracket": "pat_sl4.0_t0.5_f10.0",
+          "kind": "pat",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.5,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 234,
+            "hit_pct": 86.67,
+            "avg_sl": 101.17,
+            "avg_t1": 15.74,
+            "avg_rr": 6.23,
+            "med_sl": 91.2,
+            "med_t1": 14.15
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 96.75,
+            "avg_t1": 16.18,
+            "avg_rr": 5.77,
+            "med_sl": 78.4,
+            "med_t1": 14.09
+          },
+          "cal_miss": [
+            "2025-07-02",
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-10",
+            "2025-09-23",
+            "2025-09-29",
+            "2025-09-30"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-24",
+            "2026-08-28",
+            "2026-09-16",
+            "2026-10-06"
+          ]
+        },
+        {
+          "bracket": "pat_sl4.0_t0.35_f12.0",
+          "kind": "pat",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.35,
+            "t1_floor": 12.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 234,
+            "hit_pct": 86.67,
+            "avg_sl": 101.17,
+            "avg_t1": 13.35,
+            "avg_rr": 7.35,
+            "med_sl": 91.2,
+            "med_t1": 12.0
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 96.75,
+            "avg_t1": 13.75,
+            "avg_rr": 6.75,
+            "med_sl": 78.4,
+            "med_t1": 12.0
+          },
+          "cal_miss": [
+            "2025-07-02",
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-10",
+            "2025-09-23",
+            "2025-09-29",
+            "2025-09-30"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-24",
+            "2026-08-28",
+            "2026-09-16",
+            "2026-10-06"
+          ]
+        },
+        {
+          "bracket": "pat_sl4.0_t0.5_f12.0",
+          "kind": "pat",
+          "params": {
+            "sl_k": 4.0,
+            "t1_k": 0.5,
+            "t1_floor": 12.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 233,
+            "hit_pct": 86.3,
+            "avg_sl": 101.17,
+            "avg_t1": 16.28,
+            "avg_rr": 6.0,
+            "med_sl": 91.2,
+            "med_t1": 14.15
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 58,
+            "hit_pct": 90.62,
+            "avg_sl": 96.75,
+            "avg_t1": 16.92,
+            "avg_rr": 5.46,
+            "med_sl": 78.4,
+            "med_t1": 14.09
+          },
+          "cal_miss": [
+            "2025-07-02",
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-10",
+            "2025-09-23",
+            "2025-09-29",
+            "2025-09-30"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-24",
+            "2026-08-28",
+            "2026-09-16",
+            "2026-10-06"
+          ]
+        }
+      ],
+      "sane": [
+        {
+          "bracket": "pat_sl2.5_t0.35_f8.0",
+          "kind": "pat",
+          "params": {
+            "sl_k": 2.5,
+            "t1_k": 0.35,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 223,
+            "hit_pct": 82.59,
+            "avg_sl": 63.23,
+            "avg_t1": 11.34,
+            "avg_rr": 5.41,
+            "med_sl": 57.01,
+            "med_t1": 9.91
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 55,
+            "hit_pct": 85.94,
+            "avg_sl": 60.47,
+            "avg_t1": 11.68,
+            "avg_rr": 4.96,
+            "med_sl": 49.0,
+            "med_t1": 9.86
+          },
+          "cal_miss": [
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-08-25",
+            "2025-09-02",
+            "2025-09-10",
+            "2025-09-15",
+            "2025-09-29"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-12",
+            "2026-08-20",
+            "2026-08-24",
+            "2026-08-25",
+            "2026-08-28",
+            "2026-09-16",
+            "2026-10-05"
+          ]
+        },
+        {
+          "bracket": "cwick_sl5.0_t0.8_f12.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 5.0,
+            "t1_k": 0.8,
+            "t1_floor": 12.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 222,
+            "hit_pct": 82.22,
+            "avg_sl": 67.1,
+            "avg_t1": 13.2,
+            "avg_rr": 4.95,
+            "med_sl": 60.12,
+            "med_t1": 12.0
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 55,
+            "hit_pct": 85.94,
+            "avg_sl": 66.39,
+            "avg_t1": 13.38,
+            "avg_rr": 4.74,
+            "med_sl": 55.25,
+            "med_t1": 12.0
+          },
+          "cal_miss": [
+            "2025-07-02",
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-02",
+            "2025-09-10",
+            "2025-09-15",
+            "2025-09-23"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-24",
+            "2026-08-25",
+            "2026-08-28",
+            "2026-09-04",
+            "2026-09-16",
+            "2026-10-06"
+          ]
+        },
+        {
+          "bracket": "candle_sl5.0_t0.8_f12.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 5.0,
+            "t1_k": 0.8,
+            "t1_floor": 12.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 222,
+            "hit_pct": 82.22,
+            "avg_sl": 67.1,
+            "avg_t1": 13.13,
+            "avg_rr": 4.96,
+            "med_sl": 60.12,
+            "med_t1": 12.0
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 55,
+            "hit_pct": 85.94,
+            "avg_sl": 66.39,
+            "avg_t1": 13.35,
+            "avg_rr": 4.75,
+            "med_sl": 55.25,
+            "med_t1": 12.0
+          },
+          "cal_miss": [
+            "2025-07-02",
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-02",
+            "2025-09-10",
+            "2025-09-15",
+            "2025-09-23"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-24",
+            "2026-08-25",
+            "2026-08-28",
+            "2026-09-04",
+            "2026-09-16",
+            "2026-10-06"
+          ]
+        },
+        {
+          "bracket": "candle_sl5.0_t1.2_f8.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 5.0,
+            "t1_k": 1.2,
+            "t1_floor": 8.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 223,
+            "hit_pct": 82.59,
+            "avg_sl": 67.1,
+            "avg_t1": 13.92,
+            "avg_rr": 4.9,
+            "med_sl": 60.12,
+            "med_t1": 11.19
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 54,
+            "hit_pct": 84.38,
+            "avg_sl": 66.39,
+            "avg_t1": 13.9,
+            "avg_rr": 4.68,
+            "med_sl": 55.25,
+            "med_t1": 10.5
+          },
+          "cal_miss": [
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-02",
+            "2025-09-10",
+            "2025-09-15",
+            "2025-09-23",
+            "2025-09-30"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-21",
+            "2026-08-24",
+            "2026-08-25",
+            "2026-08-28",
+            "2026-09-04",
+            "2026-09-16"
+          ]
+        },
+        {
+          "bracket": "cwick_sl5.0_t1.0_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 5.0,
+            "t1_k": 1.0,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": true
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 222,
+            "hit_pct": 82.22,
+            "avg_sl": 67.1,
+            "avg_t1": 13.32,
+            "avg_rr": 4.95,
+            "med_sl": 60.12,
+            "med_t1": 10.0
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 54,
+            "hit_pct": 84.38,
+            "avg_sl": 66.39,
+            "avg_t1": 13.58,
+            "avg_rr": 4.69,
+            "med_sl": 55.25,
+            "med_t1": 10.35
+          },
+          "cal_miss": [
+            "2025-07-02",
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-02",
+            "2025-09-10",
+            "2025-09-15",
+            "2025-09-29"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-21",
+            "2026-08-24",
+            "2026-08-25",
+            "2026-08-28",
+            "2026-09-04",
+            "2026-09-16"
+          ]
+        },
+        {
+          "bracket": "candle_sl5.0_t1.0_f10.0",
+          "kind": "candle",
+          "params": {
+            "sl_k": 5.0,
+            "t1_k": 1.0,
+            "t1_floor": 10.0,
+            "t1_cap": 40.0,
+            "sl_min": 5.0,
+            "use_wick": false
+          },
+          "calibrate": {
+            "n": 270,
+            "wins": 222,
+            "hit_pct": 82.22,
+            "avg_sl": 67.1,
+            "avg_t1": 13.13,
+            "avg_rr": 4.99,
+            "med_sl": 60.12,
+            "med_t1": 10.0
+          },
+          "last3m": {
+            "n": 64,
+            "wins": 54,
+            "hit_pct": 84.38,
+            "avg_sl": 66.39,
+            "avg_t1": 13.3,
+            "avg_rr": 4.76,
+            "med_sl": 55.25,
+            "med_t1": 10.0
+          },
+          "cal_miss": [
+            "2025-07-02",
+            "2025-07-03",
+            "2025-07-28",
+            "2025-08-20",
+            "2025-09-02",
+            "2025-09-10",
+            "2025-09-15",
+            "2025-09-29"
+          ],
+          "l3m_miss": [
+            "2026-08-10",
+            "2026-08-20",
+            "2026-08-21",
+            "2026-08-24",
+            "2026-08-25",
+            "2026-08-28",
+            "2026-09-04",
+            "2026-09-16"
+          ]
+        }
+      ]
+    }
+  }
+}

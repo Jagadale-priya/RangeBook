@@ -1,0 +1,128 @@
+{
+  "window": {
+    "start": "2026-10-08",
+    "end": "2026-11-19",
+    "sessions": 30
+  },
+  "gates": "proven BUY \u00b7 first_break \u00b7 range/mixed \u00b7 or_ext<=0.10 \u00b7 p>=0.62 \u00b7 \u00b130",
+  "locked_max_hm": "13:00",
+  "open_max_hm": "15:30",
+  "locked": {
+    "n": 2,
+    "settled": 2,
+    "hit_pct": 100.0,
+    "wins": 2,
+    "losses": 0,
+    "points": 60.0
+  },
+  "open_no_1300_cut": {
+    "n": 2,
+    "settled": 2,
+    "hit_pct": 100.0,
+    "wins": 2,
+    "losses": 0,
+    "points": 60.0
+  },
+  "after_1300_only": {
+    "n": 0,
+    "settled": 0,
+    "hit_pct": null,
+    "wins": 0,
+    "losses": 0,
+    "points": 0
+  },
+  "added_by_removing_cut": {
+    "n": 0,
+    "settled": 0,
+    "hit_pct": null,
+    "wins": 0,
+    "losses": 0,
+    "points": 0
+  },
+  "locked_calls": [
+    {
+      "day": "2026-10-28",
+      "hm": "12:30",
+      "decision": "BUY",
+      "track": "proven_100",
+      "p_t1": 0.6829,
+      "entry": 22663.25,
+      "first_break": true,
+      "regime": "mixed",
+      "or_ext": 0.034,
+      "mins": 750,
+      "after_1300": false,
+      "win": true,
+      "points": 30.0,
+      "outcome": "t1_before_sl",
+      "stop_loss": 22633.25,
+      "target_1": 22693.25,
+      "sl_pts": 30.0,
+      "t1_pts": 30.0
+    },
+    {
+      "day": "2026-10-29",
+      "hm": "09:45",
+      "decision": "BUY",
+      "track": "proven_100",
+      "p_t1": 0.6829,
+      "entry": 22729.9,
+      "first_break": true,
+      "regime": "range",
+      "or_ext": 0.0118,
+      "mins": 585,
+      "after_1300": false,
+      "win": true,
+      "points": 30.0,
+      "outcome": "t1_before_sl",
+      "stop_loss": 22699.9,
+      "target_1": 22759.9,
+      "sl_pts": 30.0,
+      "t1_pts": 30.0
+    }
+  ],
+  "open_calls": [
+    {
+      "day": "2026-10-28",
+      "hm": "12:30",
+      "decision": "BUY",
+      "track": "proven_100",
+      "p_t1": 0.6829,
+      "entry": 22663.25,
+      "first_break": true,
+      "regime": "mixed",
+      "or_ext": 0.034,
+      "mins": 750,
+      "after_1300": false,
+      "win": true,
+      "points": 30.0,
+      "outcome": "t1_before_sl",
+      "stop_loss": 22633.25,
+      "target_1": 22693.25,
+      "sl_pts": 30.0,
+      "t1_pts": 30.0
+    },
+    {
+      "day": "2026-10-29",
+      "hm": "09:45",
+      "decision": "BUY",
+      "track": "proven_100",
+      "p_t1": 0.6829,
+      "entry": 22729.9,
+      "first_break": true,
+      "regime": "range",
+      "or_ext": 0.0118,
+      "mins": 585,
+      "after_1300": false,
+      "win": true,
+      "points": 30.0,
+      "outcome": "t1_before_sl",
+      "stop_loss": 22699.9,
+      "target_1": 22759.9,
+      "sl_pts": 30.0,
+      "t1_pts": 30.0
+    }
+  ],
+  "after_1300_calls": [],
+  "added_calls": []
+}

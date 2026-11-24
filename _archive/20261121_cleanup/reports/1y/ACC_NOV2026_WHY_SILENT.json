@@ -1,0 +1,28 @@
+{
+  "window": {"start": "2026-11-01", "end": "2026-11-15"},
+  "cache_end": "2026-11-13",
+  "verdict": "Only 2026-11-06 fired; other Nov sessions have zero path/dual rows in research cache",
+  "fired": [
+    {
+      "day": "2026-11-06",
+      "hm": "11:20",
+      "side": "BUY",
+      "stream": "ACC100_CROWN_BUY_AM1130_T20",
+      "p_t1": 0.5551,
+      "points": 20.0,
+      "win": true,
+      "desks": "all nested P1→P2F (same crown base)"
+    }
+  ],
+  "sessions_in_cache": [
+    "2026-11-02", "2026-11-03", "2026-11-04", "2026-11-05", "2026-11-06",
+    "2026-11-08", "2026-11-09", "2026-11-11", "2026-11-12", "2026-11-13"
+  ],
+  "silent_sessions": [
+    "2026-11-02", "2026-11-03", "2026-11-04", "2026-11-05",
+    "2026-11-08", "2026-11-09", "2026-11-11", "2026-11-12", "2026-11-13"
+  ],
+  "silent_reason": "good=0 crown=0 champ=0 dual15=0 dual5=0 — no stream/desk match possible",
+  "oct_p2f_p100_days": 11,
+  "nov_p2f_p100_days": 1
+}

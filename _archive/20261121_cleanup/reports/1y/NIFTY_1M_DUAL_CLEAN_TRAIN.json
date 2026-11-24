@@ -1,0 +1,156 @@
+{
+  "research_only": true,
+  "meta": {
+    "n_bars": 461926,
+    "n_days": 1235,
+    "bar_start": "2021-01-01 09:15:00+05:30",
+    "bar_end": "2025-12-30 15:29:00+05:30",
+    "download_note": null,
+    "n_raw": 1759,
+    "n_clean": 1701,
+    "clean_reasons": {
+      "ok": 1701,
+      "drop_entry_clock": 48,
+      "drop_chase_ext": 2,
+      "drop_noisy_bar": 7,
+      "drop_outcome:same_bar_both": 1
+    },
+    "pre_drops": {},
+    "research_only": true,
+    "not_live": true
+  },
+  "heads": {
+    "BUY": {
+      "available": true,
+      "side": "BUY",
+      "n_train": 615,
+      "n_cal": 93,
+      "train_through_day": "2024-09-10",
+      "feature_names": [
+        "ret_1",
+        "ret_3",
+        "ret_6",
+        "rsi_14",
+        "vwap_dist",
+        "range_pos",
+        "candle_score",
+        "body_frac",
+        "bar_range_pct",
+        "or_width",
+        "or_ext",
+        "mins_entry",
+        "first_break",
+        "gap_pct",
+        "session_chg",
+        "pat_doji",
+        "pat_hammer",
+        "pat_engulf",
+        "slope_3",
+        "atr_ratio",
+        "noise_vs_sl",
+        "side"
+      ],
+      "params": {
+        "max_depth": 2,
+        "max_iter": 40,
+        "min_samples_leaf": 40,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.05
+      },
+      "select_log_loss": 0.7073,
+      "fit_auc": 0.696,
+      "calib_auc": 0.574,
+      "score_flipped": false,
+      "trainer": "nifty_1m_dual_clean_v1",
+      "research_only": true,
+      "not_live": true
+    },
+    "SELL": {
+      "available": true,
+      "side": "SELL",
+      "n_train": 646,
+      "n_cal": 97,
+      "train_through_day": "2024-09-10",
+      "feature_names": [
+        "ret_1",
+        "ret_3",
+        "ret_6",
+        "rsi_14",
+        "vwap_dist",
+        "range_pos",
+        "candle_score",
+        "body_frac",
+        "bar_range_pct",
+        "or_width",
+        "or_ext",
+        "mins_entry",
+        "first_break",
+        "gap_pct",
+        "session_chg",
+        "pat_doji",
+        "pat_hammer",
+        "pat_engulf",
+        "slope_3",
+        "atr_ratio",
+        "noise_vs_sl",
+        "side"
+      ],
+      "params": {
+        "max_depth": 2,
+        "max_iter": 40,
+        "min_samples_leaf": 40,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.05
+      },
+      "select_log_loss": 0.6874,
+      "fit_auc": 0.683,
+      "calib_auc": 0.535,
+      "score_flipped": false,
+      "trainer": "nifty_1m_dual_clean_v1",
+      "research_only": true,
+      "not_live": true
+    }
+  },
+  "books": {
+    "CHAMP_FB_P52": {
+      "n": 102,
+      "wins": 54,
+      "hit_pct": 52.94
+    },
+    "CHAMP_FB_P55": {
+      "n": 67,
+      "wins": 35,
+      "hit_pct": 52.24
+    },
+    "CHAMP_FB_P58": {
+      "n": 55,
+      "wins": 28,
+      "hit_pct": 50.91
+    },
+    "CHAMP_FB_P60": {
+      "n": 34,
+      "wins": 17,
+      "hit_pct": 50.0
+    },
+    "BUY_FB_P55": {
+      "n": 56,
+      "wins": 29,
+      "hit_pct": 51.79
+    },
+    "SELL_FB_P55": {
+      "n": 11,
+      "wins": 6,
+      "hit_pct": 54.55
+    },
+    "PROVEN_CLEAN_P62": {
+      "n": 6,
+      "wins": 6,
+      "hit_pct": 100.0
+    }
+  },
+  "oos_agg": {
+    "n": 440,
+    "wins": 242,
+    "hit_pct": 55.0
+  }
+}

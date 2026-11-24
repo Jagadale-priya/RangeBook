@@ -1,0 +1,561 @@
+{
+  "brackets": {
+    "sl": 30.0,
+    "t1": 30.0
+  },
+  "holdout_sessions": 40,
+  "min_gates": {
+    "freeze_n": 20,
+    "hold_n": 5,
+    "freeze_hit": 85.0,
+    "hold_hit": 80.0
+  },
+  "results": [
+    {
+      "gate": "sx_like_bf15_0945",
+      "params": {
+        "name": "sx_like_bf15_0945",
+        "min_bf": 0.15,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45"
+        ],
+        "first_break_only": false,
+        "require_green": false,
+        "min_uplift_from_open": 0.0,
+        "break_prior_highs": 0,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 73,
+        "wins": 23,
+        "hit_pct": 31.51,
+        "open": 0,
+        "strong_day_n": 45,
+        "strong_day_hit": 35.56
+      },
+      "holdout": {
+        "n": 9,
+        "wins": 4,
+        "hit_pct": 44.44,
+        "open": 0,
+        "strong_day_n": 9,
+        "strong_day_hit": 44.44
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 9,
+      "holdout_strong_catch_pct": 64.3,
+      "pass": false
+    },
+    {
+      "gate": "sx_like_bf20_0945",
+      "params": {
+        "name": "sx_like_bf20_0945",
+        "min_bf": 0.2,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45"
+        ],
+        "first_break_only": false,
+        "require_green": false,
+        "min_uplift_from_open": 0.0,
+        "break_prior_highs": 0,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 66,
+        "wins": 20,
+        "hit_pct": 30.3,
+        "open": 0,
+        "strong_day_n": 43,
+        "strong_day_hit": 32.56
+      },
+      "holdout": {
+        "n": 6,
+        "wins": 2,
+        "hit_pct": 33.33,
+        "open": 0,
+        "strong_day_n": 6,
+        "strong_day_hit": 33.33
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 6,
+      "holdout_strong_catch_pct": 42.9,
+      "pass": false
+    },
+    {
+      "gate": "sx_like_bf25_0945",
+      "params": {
+        "name": "sx_like_bf25_0945",
+        "min_bf": 0.25,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45"
+        ],
+        "first_break_only": false,
+        "require_green": false,
+        "min_uplift_from_open": 0.0,
+        "break_prior_highs": 0,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 56,
+        "wins": 15,
+        "hit_pct": 26.79,
+        "open": 0,
+        "strong_day_n": 37,
+        "strong_day_hit": 32.43
+      },
+      "holdout": {
+        "n": 6,
+        "wins": 2,
+        "hit_pct": 33.33,
+        "open": 0,
+        "strong_day_n": 6,
+        "strong_day_hit": 33.33
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 6,
+      "holdout_strong_catch_pct": 42.9,
+      "pass": false
+    },
+    {
+      "gate": "cont_bf20_green_after_first",
+      "params": {
+        "name": "cont_bf20_green_after_first",
+        "min_bf": 0.2,
+        "max_bf": 9.0,
+        "hm_list": [
+          "10:00",
+          "10:15",
+          "10:30"
+        ],
+        "first_break_only": false,
+        "require_green": true,
+        "min_uplift_from_open": 100.0,
+        "break_prior_highs": 0,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 57,
+        "wins": 18,
+        "hit_pct": 31.58,
+        "open": 0,
+        "strong_day_n": 49,
+        "strong_day_hit": 34.69
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 2,
+        "hit_pct": 28.57,
+        "open": 0,
+        "strong_day_n": 7,
+        "strong_day_hit": 28.57
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 7,
+      "holdout_strong_catch_pct": 50.0,
+      "pass": false
+    },
+    {
+      "gate": "first_bf15_green_0945",
+      "params": {
+        "name": "first_bf15_green_0945",
+        "min_bf": 0.15,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45"
+        ],
+        "first_break_only": true,
+        "require_green": true,
+        "min_uplift_from_open": 0.0,
+        "break_prior_highs": 0,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 16,
+        "wins": 1,
+        "hit_pct": 6.25,
+        "open": 0,
+        "strong_day_n": 11,
+        "strong_day_hit": 9.09
+      },
+      "holdout": {
+        "n": 4,
+        "wins": 1,
+        "hit_pct": 25.0,
+        "open": 0,
+        "strong_day_n": 4,
+        "strong_day_hit": 25.0
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 4,
+      "holdout_strong_catch_pct": 28.6,
+      "pass": false
+    },
+    {
+      "gate": "first_bf20_green_0930_1000",
+      "params": {
+        "name": "first_bf20_green_0930_1000",
+        "min_bf": 0.2,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:30",
+          "09:45",
+          "10:00"
+        ],
+        "first_break_only": true,
+        "require_green": true,
+        "min_uplift_from_open": 0.0,
+        "break_prior_highs": 0,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 72,
+        "wins": 15,
+        "hit_pct": 20.83,
+        "open": 0,
+        "strong_day_n": 50,
+        "strong_day_hit": 22.0
+      },
+      "holdout": {
+        "n": 7,
+        "wins": 0,
+        "hit_pct": 0.0,
+        "open": 0,
+        "strong_day_n": 6,
+        "strong_day_hit": 0.0
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 6,
+      "holdout_strong_catch_pct": 42.9,
+      "pass": false
+    },
+    {
+      "gate": "first_bf20_prior2",
+      "params": {
+        "name": "first_bf20_prior2",
+        "min_bf": 0.2,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45",
+          "10:00",
+          "10:15"
+        ],
+        "first_break_only": true,
+        "require_green": true,
+        "min_uplift_from_open": 0.0,
+        "break_prior_highs": 2,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 30,
+        "wins": 8,
+        "hit_pct": 26.67,
+        "open": 0,
+        "strong_day_n": 21,
+        "strong_day_hit": 23.81
+      },
+      "holdout": {
+        "n": 4,
+        "wins": 0,
+        "hit_pct": 0.0,
+        "open": 0,
+        "strong_day_n": 3,
+        "strong_day_hit": 0.0
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 3,
+      "holdout_strong_catch_pct": 21.4,
+      "pass": false
+    },
+    {
+      "gate": "first_bf20_prior1",
+      "params": {
+        "name": "first_bf20_prior1",
+        "min_bf": 0.2,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45",
+          "10:00"
+        ],
+        "first_break_only": true,
+        "require_green": true,
+        "min_uplift_from_open": 0.0,
+        "break_prior_highs": 1,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 23,
+        "wins": 5,
+        "hit_pct": 21.74,
+        "open": 0,
+        "strong_day_n": 18,
+        "strong_day_hit": 22.22
+      },
+      "holdout": {
+        "n": 4,
+        "wins": 0,
+        "hit_pct": 0.0,
+        "open": 0,
+        "strong_day_n": 3,
+        "strong_day_hit": 0.0
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 3,
+      "holdout_strong_catch_pct": 21.4,
+      "pass": false
+    },
+    {
+      "gate": "first_bf22_green_0945",
+      "params": {
+        "name": "first_bf22_green_0945",
+        "min_bf": 0.22,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45"
+        ],
+        "first_break_only": true,
+        "require_green": true,
+        "min_uplift_from_open": 0.0,
+        "break_prior_highs": 0,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 13,
+        "wins": 1,
+        "hit_pct": 7.69,
+        "open": 0,
+        "strong_day_n": 10,
+        "strong_day_hit": 10.0
+      },
+      "holdout": {
+        "n": 3,
+        "wins": 0,
+        "hit_pct": 0.0,
+        "open": 0,
+        "strong_day_n": 3,
+        "strong_day_hit": 0.0
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 3,
+      "holdout_strong_catch_pct": 21.4,
+      "pass": false
+    },
+    {
+      "gate": "first_bf20_green_0945",
+      "params": {
+        "name": "first_bf20_green_0945",
+        "min_bf": 0.2,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45"
+        ],
+        "first_break_only": true,
+        "require_green": true,
+        "min_uplift_from_open": 0.0,
+        "break_prior_highs": 0,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 14,
+        "wins": 1,
+        "hit_pct": 7.14,
+        "open": 0,
+        "strong_day_n": 11,
+        "strong_day_hit": 9.09
+      },
+      "holdout": {
+        "n": 3,
+        "wins": 0,
+        "hit_pct": 0.0,
+        "open": 0,
+        "strong_day_n": 3,
+        "strong_day_hit": 0.0
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 3,
+      "holdout_strong_catch_pct": 21.4,
+      "pass": false
+    },
+    {
+      "gate": "first_bf20_green_uplift80",
+      "params": {
+        "name": "first_bf20_green_uplift80",
+        "min_bf": 0.2,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45",
+          "10:00",
+          "10:15"
+        ],
+        "first_break_only": true,
+        "require_green": true,
+        "min_uplift_from_open": 80.0,
+        "break_prior_highs": 0,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 20,
+        "wins": 5,
+        "hit_pct": 25.0,
+        "open": 0,
+        "strong_day_n": 17,
+        "strong_day_hit": 23.53
+      },
+      "holdout": {
+        "n": 3,
+        "wins": 0,
+        "hit_pct": 0.0,
+        "open": 0,
+        "strong_day_n": 2,
+        "strong_day_hit": 0.0
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 2,
+      "holdout_strong_catch_pct": 14.3,
+      "pass": false
+    },
+    {
+      "gate": "first_bf18_green_width80_220",
+      "params": {
+        "name": "first_bf18_green_width80_220",
+        "min_bf": 0.18,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45"
+        ],
+        "first_break_only": true,
+        "require_green": true,
+        "min_uplift_from_open": 0.0,
+        "break_prior_highs": 0,
+        "max_or_width": 220.0,
+        "min_or_width": 80.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 9,
+        "wins": 0,
+        "hit_pct": 0.0,
+        "open": 0,
+        "strong_day_n": 8,
+        "strong_day_hit": 0.0
+      },
+      "holdout": {
+        "n": 2,
+        "wins": 0,
+        "hit_pct": 0.0,
+        "open": 0,
+        "strong_day_n": 2,
+        "strong_day_hit": 0.0
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 2,
+      "holdout_strong_catch_pct": 14.3,
+      "pass": false
+    },
+    {
+      "gate": "first_bf20_green_uplift120",
+      "params": {
+        "name": "first_bf20_green_uplift120",
+        "min_bf": 0.2,
+        "max_bf": 9.0,
+        "hm_list": [
+          "09:45",
+          "10:00",
+          "10:15",
+          "10:30"
+        ],
+        "first_break_only": true,
+        "require_green": true,
+        "min_uplift_from_open": 120.0,
+        "break_prior_highs": 0,
+        "max_or_width": 9999.0,
+        "min_or_width": 0.0,
+        "buy_only": true
+      },
+      "freeze": {
+        "n": 10,
+        "wins": 2,
+        "hit_pct": 20.0,
+        "open": 0,
+        "strong_day_n": 10,
+        "strong_day_hit": 20.0
+      },
+      "holdout": {
+        "n": 1,
+        "wins": 0,
+        "hit_pct": 0.0,
+        "open": 0,
+        "strong_day_n": 1,
+        "strong_day_hit": 0.0
+      },
+      "holdout_strong_days": 14,
+      "holdout_strong_caught": 1,
+      "holdout_strong_catch_pct": 7.1,
+      "pass": false
+    }
+  ],
+  "best_pass": null,
+  "best_accuracy": {
+    "gate": "sx_like_bf15_0945",
+    "params": {
+      "name": "sx_like_bf15_0945",
+      "min_bf": 0.15,
+      "max_bf": 9.0,
+      "hm_list": [
+        "09:45"
+      ],
+      "first_break_only": false,
+      "require_green": false,
+      "min_uplift_from_open": 0.0,
+      "break_prior_highs": 0,
+      "max_or_width": 9999.0,
+      "min_or_width": 0.0,
+      "buy_only": true
+    },
+    "freeze": {
+      "n": 73,
+      "wins": 23,
+      "hit_pct": 31.51,
+      "open": 0,
+      "strong_day_n": 45,
+      "strong_day_hit": 35.56
+    },
+    "holdout": {
+      "n": 9,
+      "wins": 4,
+      "hit_pct": 44.44,
+      "open": 0,
+      "strong_day_n": 9,
+      "strong_day_hit": 44.44
+    },
+    "holdout_strong_days": 14,
+    "holdout_strong_caught": 9,
+    "holdout_strong_catch_pct": 64.3,
+    "pass": false
+  },
+  "note": "Morning strong OR BUY research for dual side_score_miss fills. Outcome = T1 before SL on 5m path (\u00b130)."
+}

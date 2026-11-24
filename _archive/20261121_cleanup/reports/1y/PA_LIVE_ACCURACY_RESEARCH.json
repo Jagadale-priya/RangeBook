@@ -1,0 +1,712 @@
+{
+  "base": {
+    "n": 42,
+    "wins": 29,
+    "losses": 13,
+    "hit_pct": 69.05,
+    "avg_R": 0.41,
+    "avg_pts": 7.15,
+    "sum_pts": 300.5,
+    "hit_1R_pct": 69.05,
+    "hit_2R_pct": 16.67,
+    "by_setup": {
+      "BREAK_HOLD": {
+        "n": 23,
+        "hit": 78.3
+      },
+      "OR_RETEST": {
+        "n": 11,
+        "hit": 36.4
+      },
+      "SWEEP_RECLAIM": {
+        "n": 8,
+        "hit": 87.5
+      }
+    }
+  },
+  "autopsy": {
+    "n_win": 29,
+    "n_loss": 13,
+    "win": {
+      "liq_favor%": 27.6,
+      "mid%": 3.4,
+      "hit_1R%": 100.0,
+      "sweep%": 24.1,
+      "or%": 13.8,
+      "break%": 62.1,
+      "prior_exhaust%": 0.0,
+      "avg_rr": 2.966,
+      "avg_risk": 17.09,
+      "avg_body": 0.721,
+      "avg_mfe": 28.626,
+      "avg_mae": 6.222,
+      "avg_near_res_atr": 0.288,
+      "tod": {
+        "mid_1030_1230": 17,
+        "early_pm_1230_1400": 8,
+        "open_930_1030": 1,
+        "late_1400_plus": 3
+      },
+      "exit": {
+        "trail_sl": 29
+      },
+      "setup": {
+        "SWEEP_RECLAIM": 7,
+        "BREAK_HOLD": 18,
+        "OR_RETEST": 4
+      }
+    },
+    "loss": {
+      "liq_favor%": 23.1,
+      "mid%": 0.0,
+      "hit_1R%": 0.0,
+      "sweep%": 7.7,
+      "or%": 53.8,
+      "break%": 38.5,
+      "prior_exhaust%": 0.0,
+      "avg_rr": 3.435,
+      "avg_risk": 17.342,
+      "avg_body": 0.697,
+      "avg_mfe": 7.246,
+      "avg_mae": 19.9,
+      "avg_near_res_atr": 0.16,
+      "tod": {
+        "mid_1030_1230": 5,
+        "late_1400_plus": 2,
+        "early_pm_1230_1400": 2,
+        "open_930_1030": 4
+      },
+      "exit": {
+        "sl": 13
+      },
+      "setup": {
+        "OR_RETEST": 7,
+        "SWEEP_RECLAIM": 1,
+        "BREAK_HOLD": 5
+      }
+    }
+  },
+  "ranked": [
+    {
+      "name": "BASE_full_v1",
+      "n": 42,
+      "wins": 29,
+      "losses": 13,
+      "hit_pct": 69.05,
+      "avg_R": 0.41,
+      "avg_pts": 7.15,
+      "sum_pts": 300.5,
+      "hit_1R_pct": 69.05,
+      "hit_2R_pct": 16.67,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 23,
+          "hit": 78.3
+        },
+        "OR_RETEST": {
+          "n": 11,
+          "hit": 36.4
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "rr18",
+      "n": 41,
+      "wins": 29,
+      "losses": 12,
+      "hit_pct": 70.73,
+      "avg_R": 0.445,
+      "avg_pts": 7.71,
+      "sum_pts": 316.2,
+      "hit_1R_pct": 70.73,
+      "hit_2R_pct": 17.07,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 23,
+          "hit": 78.3
+        },
+        "OR_RETEST": {
+          "n": 10,
+          "hit": 40.0
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "rr20",
+      "n": 40,
+      "wins": 29,
+      "losses": 11,
+      "hit_pct": 72.5,
+      "avg_R": 0.481,
+      "avg_pts": 8.31,
+      "sum_pts": 332.4,
+      "hit_1R_pct": 72.5,
+      "hit_2R_pct": 17.5,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 23,
+          "hit": 78.3
+        },
+        "OR_RETEST": {
+          "n": 9,
+          "hit": 44.4
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "v3_trail_base",
+      "n": 42,
+      "wins": 28,
+      "losses": 14,
+      "hit_pct": 66.67,
+      "avg_R": 0.396,
+      "avg_pts": 6.83,
+      "sum_pts": 286.75,
+      "hit_1R_pct": 69.05,
+      "hit_2R_pct": 19.05,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 23,
+          "hit": 78.3
+        },
+        "OR_RETEST": {
+          "n": 11,
+          "hit": 27.3
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "no_or",
+      "n": 32,
+      "wins": 26,
+      "losses": 6,
+      "hit_pct": 81.25,
+      "avg_R": 0.676,
+      "avg_pts": 12.44,
+      "sum_pts": 397.95,
+      "hit_1R_pct": 81.25,
+      "hit_2R_pct": 21.88,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 24,
+          "hit": 79.2
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "no_or_rr18",
+      "n": 32,
+      "wins": 26,
+      "losses": 6,
+      "hit_pct": 81.25,
+      "avg_R": 0.676,
+      "avg_pts": 12.44,
+      "sum_pts": 397.95,
+      "hit_1R_pct": 81.25,
+      "hit_2R_pct": 21.88,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 24,
+          "hit": 79.2
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "sweep_break",
+      "n": 32,
+      "wins": 26,
+      "losses": 6,
+      "hit_pct": 81.25,
+      "avg_R": 0.676,
+      "avg_pts": 12.44,
+      "sum_pts": 397.95,
+      "hit_1R_pct": 81.25,
+      "hit_2R_pct": 21.88,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 24,
+          "hit": 79.2
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "body60",
+      "n": 39,
+      "wins": 26,
+      "losses": 13,
+      "hit_pct": 66.67,
+      "avg_R": 0.381,
+      "avg_pts": 6.75,
+      "sum_pts": 263.25,
+      "hit_1R_pct": 66.67,
+      "hit_2R_pct": 17.95,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 20,
+          "hit": 75.0
+        },
+        "OR_RETEST": {
+          "n": 11,
+          "hit": 36.4
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "body60_no_or",
+      "n": 29,
+      "wins": 23,
+      "losses": 6,
+      "hit_pct": 79.31,
+      "avg_R": 0.663,
+      "avg_pts": 12.44,
+      "sum_pts": 360.7,
+      "hit_1R_pct": 79.31,
+      "hit_2R_pct": 24.14,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 21,
+          "hit": 76.2
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "open_1000",
+      "n": 41,
+      "wins": 29,
+      "losses": 12,
+      "hit_pct": 70.73,
+      "avg_R": 0.445,
+      "avg_pts": 7.83,
+      "sum_pts": 321.0,
+      "hit_1R_pct": 70.73,
+      "hit_2R_pct": 17.07,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 23,
+          "hit": 78.3
+        },
+        "OR_RETEST": {
+          "n": 10,
+          "hit": 40.0
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "open_1000_no_or",
+      "n": 32,
+      "wins": 26,
+      "losses": 6,
+      "hit_pct": 81.25,
+      "avg_R": 0.676,
+      "avg_pts": 12.44,
+      "sum_pts": 397.95,
+      "hit_1R_pct": 81.25,
+      "hit_2R_pct": 21.88,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 24,
+          "hit": 79.2
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "cut_1400",
+      "n": 37,
+      "wins": 26,
+      "losses": 11,
+      "hit_pct": 70.27,
+      "avg_R": 0.414,
+      "avg_pts": 7.17,
+      "sum_pts": 265.25,
+      "hit_1R_pct": 70.27,
+      "hit_2R_pct": 16.22,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 20,
+          "hit": 80.0
+        },
+        "OR_RETEST": {
+          "n": 9,
+          "hit": 33.3
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "mid_session",
+      "n": 29,
+      "wins": 24,
+      "losses": 5,
+      "hit_pct": 82.76,
+      "avg_R": 0.675,
+      "avg_pts": 12.35,
+      "sum_pts": 358.15,
+      "hit_1R_pct": 82.76,
+      "hit_2R_pct": 20.69,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 21,
+          "hit": 81.0
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "cd14",
+      "n": 37,
+      "wins": 24,
+      "losses": 13,
+      "hit_pct": 64.86,
+      "avg_R": 0.286,
+      "avg_pts": 4.84,
+      "sum_pts": 179.05,
+      "hit_1R_pct": 64.86,
+      "hit_2R_pct": 13.51,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 21,
+          "hit": 76.2
+        },
+        "OR_RETEST": {
+          "n": 10,
+          "hit": 30.0
+        },
+        "SWEEP_RECLAIM": {
+          "n": 6,
+          "hit": 83.3
+        }
+      }
+    },
+    {
+      "name": "cd14_no_or",
+      "n": 27,
+      "wins": 21,
+      "losses": 6,
+      "hit_pct": 77.78,
+      "avg_R": 0.57,
+      "avg_pts": 10.4,
+      "sum_pts": 280.7,
+      "hit_1R_pct": 77.78,
+      "hit_2R_pct": 18.52,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 21,
+          "hit": 76.2
+        },
+        "SWEEP_RECLAIM": {
+          "n": 6,
+          "hit": 83.3
+        }
+      }
+    },
+    {
+      "name": "flip18",
+      "n": 42,
+      "wins": 29,
+      "losses": 13,
+      "hit_pct": 69.05,
+      "avg_R": 0.41,
+      "avg_pts": 7.15,
+      "sum_pts": 300.5,
+      "hit_1R_pct": 69.05,
+      "hit_2R_pct": 16.67,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 23,
+          "hit": 78.3
+        },
+        "OR_RETEST": {
+          "n": 11,
+          "hit": 36.4
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "full_v3",
+      "n": 44,
+      "wins": 32,
+      "losses": 12,
+      "hit_pct": 72.73,
+      "avg_R": 0.482,
+      "avg_pts": 8.01,
+      "sum_pts": 352.65,
+      "hit_1R_pct": 72.73,
+      "hit_2R_pct": 18.18,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 24,
+          "hit": 75.0
+        },
+        "OR_RETEST": {
+          "n": 11,
+          "hit": 54.5
+        },
+        "SWEEP_RECLAIM": {
+          "n": 9,
+          "hit": 88.9
+        }
+      }
+    },
+    {
+      "name": "full_v3_no_or",
+      "n": 34,
+      "wins": 27,
+      "losses": 7,
+      "hit_pct": 79.41,
+      "avg_R": 0.656,
+      "avg_pts": 11.59,
+      "sum_pts": 394.15,
+      "hit_1R_pct": 79.41,
+      "hit_2R_pct": 23.53,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 25,
+          "hit": 76.0
+        },
+        "SWEEP_RECLAIM": {
+          "n": 9,
+          "hit": 88.9
+        }
+      }
+    },
+    {
+      "name": "no_trap",
+      "n": 95,
+      "wins": 62,
+      "losses": 33,
+      "hit_pct": 65.26,
+      "avg_R": 0.409,
+      "avg_pts": 6.77,
+      "sum_pts": 643.5,
+      "hit_1R_pct": 66.32,
+      "hit_2R_pct": 15.79,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 42,
+          "hit": 66.7
+        },
+        "OR_RETEST": {
+          "n": 25,
+          "hit": 52.0
+        },
+        "SWEEP_RECLAIM": {
+          "n": 28,
+          "hit": 75.0
+        }
+      }
+    },
+    {
+      "name": "acc_A",
+      "n": 30,
+      "wins": 24,
+      "losses": 6,
+      "hit_pct": 80.0,
+      "avg_R": 0.68,
+      "avg_pts": 12.57,
+      "sum_pts": 377.05,
+      "hit_1R_pct": 80.0,
+      "hit_2R_pct": 23.33,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 23,
+          "hit": 78.3
+        },
+        "SWEEP_RECLAIM": {
+          "n": 7,
+          "hit": 85.7
+        }
+      }
+    },
+    {
+      "name": "acc_B",
+      "n": 29,
+      "wins": 24,
+      "losses": 5,
+      "hit_pct": 82.76,
+      "avg_R": 0.675,
+      "avg_pts": 12.35,
+      "sum_pts": 358.15,
+      "hit_1R_pct": 82.76,
+      "hit_2R_pct": 20.69,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 21,
+          "hit": 81.0
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    },
+    {
+      "name": "acc_C",
+      "n": 26,
+      "wins": 20,
+      "losses": 6,
+      "hit_pct": 76.92,
+      "avg_R": 0.571,
+      "avg_pts": 10.52,
+      "sum_pts": 273.65,
+      "hit_1R_pct": 76.92,
+      "hit_2R_pct": 19.23,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 20,
+          "hit": 75.0
+        },
+        "SWEEP_RECLAIM": {
+          "n": 6,
+          "hit": 83.3
+        }
+      }
+    },
+    {
+      "name": "acc_D",
+      "n": 34,
+      "wins": 27,
+      "losses": 7,
+      "hit_pct": 79.41,
+      "avg_R": 0.656,
+      "avg_pts": 11.59,
+      "sum_pts": 394.15,
+      "hit_1R_pct": 79.41,
+      "hit_2R_pct": 23.53,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 25,
+          "hit": 76.0
+        },
+        "SWEEP_RECLAIM": {
+          "n": 9,
+          "hit": 88.9
+        }
+      }
+    },
+    {
+      "name": "acc_E",
+      "n": 25,
+      "wins": 20,
+      "losses": 5,
+      "hit_pct": 80.0,
+      "avg_R": 0.645,
+      "avg_pts": 11.95,
+      "sum_pts": 298.65,
+      "hit_1R_pct": 80.0,
+      "hit_2R_pct": 24.0,
+      "by_setup": {
+        "BREAK_HOLD": {
+          "n": 17,
+          "hit": 76.5
+        },
+        "SWEEP_RECLAIM": {
+          "n": 8,
+          "hit": 87.5
+        }
+      }
+    }
+  ],
+  "best": {
+    "name": "mid_session",
+    "n": 29,
+    "wins": 24,
+    "losses": 5,
+    "hit_pct": 82.76,
+    "avg_R": 0.675,
+    "avg_pts": 12.35,
+    "sum_pts": 358.15,
+    "hit_1R_pct": 82.76,
+    "hit_2R_pct": 20.69,
+    "by_setup": {
+      "BREAK_HOLD": {
+        "n": 21,
+        "hit": 81.0
+      },
+      "SWEEP_RECLAIM": {
+        "n": 8,
+        "hit": 87.5
+      }
+    }
+  },
+  "best_hit": {
+    "name": "mid_session",
+    "n": 29,
+    "wins": 24,
+    "losses": 5,
+    "hit_pct": 82.76,
+    "avg_R": 0.675,
+    "avg_pts": 12.35,
+    "sum_pts": 358.15,
+    "hit_1R_pct": 82.76,
+    "hit_2R_pct": 20.69,
+    "by_setup": {
+      "BREAK_HOLD": {
+        "n": 21,
+        "hit": 81.0
+      },
+      "SWEEP_RECLAIM": {
+        "n": 8,
+        "hit": 87.5
+      }
+    }
+  },
+  "window": {
+    "start": "2026-10-22",
+    "end": "2026-11-20",
+    "n": 22
+  }
+}

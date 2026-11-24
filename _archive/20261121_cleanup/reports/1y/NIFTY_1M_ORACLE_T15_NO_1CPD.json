@@ -1,0 +1,389 @@
+{
+  "window": [
+    "2026-10-15",
+    "2026-11-16"
+  ],
+  "n_days": 22,
+  "rows": [
+    {
+      "name": "ALL textbook sess",
+      "all": {
+        "n": 4349,
+        "hit": 38.77,
+        "cpd": 197.68,
+        "w": 1686,
+        "l": 2663,
+        "avg_pts": -0.68
+      },
+      "gap15": {
+        "n": 420,
+        "hit": 36.9,
+        "cpd": 19.09,
+        "w": 155,
+        "l": 265,
+        "avg_pts": -1.13
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD",
+      "all": {
+        "n": 1235,
+        "hit": 60.73,
+        "cpd": 56.14,
+        "w": 750,
+        "l": 485,
+        "avg_pts": -0.08
+      },
+      "gap15": {
+        "n": 250,
+        "hit": 61.6,
+        "cpd": 11.36,
+        "w": 154,
+        "l": 96,
+        "avg_pts": 1.28
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme",
+      "all": {
+        "n": 746,
+        "hit": 57.37,
+        "cpd": 33.91,
+        "w": 428,
+        "l": 318,
+        "avg_pts": 0.33
+      },
+      "gap15": {
+        "n": 200,
+        "hit": 56.5,
+        "cpd": 9.09,
+        "w": 113,
+        "l": 87,
+        "avg_pts": 1.23
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + AD",
+      "all": {
+        "n": 994,
+        "hit": 62.17,
+        "cpd": 45.18,
+        "w": 618,
+        "l": 376,
+        "avg_pts": -0.2
+      },
+      "gap15": {
+        "n": 227,
+        "hit": 63.88,
+        "cpd": 10.32,
+        "w": 145,
+        "l": 82,
+        "avg_pts": 1.74
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + AD",
+      "all": {
+        "n": 544,
+        "hit": 59.74,
+        "cpd": 24.73,
+        "w": 325,
+        "l": 219,
+        "avg_pts": 0.6
+      },
+      "gap15": {
+        "n": 160,
+        "hit": 61.25,
+        "cpd": 7.27,
+        "w": 98,
+        "l": 62,
+        "avg_pts": 2.73
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + AD + into_extreme",
+      "all": {
+        "n": 450,
+        "hit": 65.11,
+        "cpd": 20.45,
+        "w": 293,
+        "l": 157,
+        "avg_pts": -1.16
+      },
+      "gap15": {
+        "n": 108,
+        "hit": 69.44,
+        "cpd": 4.91,
+        "w": 75,
+        "l": 33,
+        "avg_pts": 0.47
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + clear",
+      "all": {
+        "n": 162,
+        "hit": 61.73,
+        "cpd": 7.36,
+        "w": 100,
+        "l": 62,
+        "avg_pts": -0.39
+      },
+      "gap15": {
+        "n": 67,
+        "hit": 65.67,
+        "cpd": 3.05,
+        "w": 44,
+        "l": 23,
+        "avg_pts": 2.67
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + clear",
+      "all": {
+        "n": 162,
+        "hit": 61.73,
+        "cpd": 7.36,
+        "w": 100,
+        "l": 62,
+        "avg_pts": -0.39
+      },
+      "gap15": {
+        "n": 67,
+        "hit": 65.67,
+        "cpd": 3.05,
+        "w": 44,
+        "l": 23,
+        "avg_pts": 2.67
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + clear + AD",
+      "all": {
+        "n": 128,
+        "hit": 60.16,
+        "cpd": 5.82,
+        "w": 77,
+        "l": 51,
+        "avg_pts": -1.66
+      },
+      "gap15": {
+        "n": 53,
+        "hit": 66.04,
+        "cpd": 2.41,
+        "w": 35,
+        "l": 18,
+        "avg_pts": 2.59
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + ctrl",
+      "all": {
+        "n": 549,
+        "hit": 58.47,
+        "cpd": 24.95,
+        "w": 321,
+        "l": 228,
+        "avg_pts": 0.56
+      },
+      "gap15": {
+        "n": 176,
+        "hit": 60.8,
+        "cpd": 8.0,
+        "w": 107,
+        "l": 69,
+        "avg_pts": 2.55
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + AD + ctrl",
+      "all": {
+        "n": 771,
+        "hit": 62.65,
+        "cpd": 35.05,
+        "w": 483,
+        "l": 288,
+        "avg_pts": 0.05
+      },
+      "gap15": {
+        "n": 208,
+        "hit": 64.9,
+        "cpd": 9.45,
+        "w": 135,
+        "l": 73,
+        "avg_pts": 2.31
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + AD + ctrl",
+      "all": {
+        "n": 424,
+        "hit": 60.14,
+        "cpd": 19.27,
+        "w": 255,
+        "l": 169,
+        "avg_pts": 0.7
+      },
+      "gap15": {
+        "n": 144,
+        "hit": 62.5,
+        "cpd": 6.55,
+        "w": 90,
+        "l": 54,
+        "avg_pts": 3.1
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + clear + AD + ctrl",
+      "all": {
+        "n": 104,
+        "hit": 61.54,
+        "cpd": 4.73,
+        "w": 64,
+        "l": 40,
+        "avg_pts": -1.59
+      },
+      "gap15": {
+        "n": 50,
+        "hit": 66.0,
+        "cpd": 2.27,
+        "w": 33,
+        "l": 17,
+        "avg_pts": 2.47
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + di8",
+      "all": {
+        "n": 996,
+        "hit": 62.15,
+        "cpd": 45.27,
+        "w": 619,
+        "l": 377,
+        "avg_pts": -0.24
+      },
+      "gap15": {
+        "n": 214,
+        "hit": 61.21,
+        "cpd": 9.73,
+        "w": 131,
+        "l": 83,
+        "avg_pts": 0.09
+      },
+      "peek": false
+    },
+    {
+      "name": "HELD + !extreme + di8",
+      "all": {
+        "n": 559,
+        "hit": 58.68,
+        "cpd": 25.41,
+        "w": 328,
+        "l": 231,
+        "avg_pts": 0.08
+      },
+      "gap15": {
+        "n": 153,
+        "hit": 57.52,
+        "cpd": 6.95,
+        "w": 88,
+        "l": 65,
+        "avg_pts": 0.84
+      },
+      "peek": false
+    },
+    {
+      "name": "TierAB",
+      "all": {
+        "n": 74,
+        "hit": 59.46,
+        "cpd": 3.36,
+        "w": 44,
+        "l": 30,
+        "avg_pts": 2.43
+      },
+      "gap15": {
+        "n": 58,
+        "hit": 60.34,
+        "cpd": 2.64,
+        "w": 35,
+        "l": 23,
+        "avg_pts": 2.52
+      },
+      "peek": false
+    },
+    {
+      "name": "TierAB + !extreme",
+      "all": {
+        "n": 74,
+        "hit": 59.46,
+        "cpd": 3.36,
+        "w": 44,
+        "l": 30,
+        "avg_pts": 2.43
+      },
+      "gap15": {
+        "n": 58,
+        "hit": 60.34,
+        "cpd": 2.64,
+        "w": 35,
+        "l": 23,
+        "avg_pts": 2.52
+      },
+      "peek": false
+    },
+    {
+      "name": "TierA only",
+      "all": {
+        "n": 17,
+        "hit": 64.71,
+        "cpd": 0.77,
+        "w": 11,
+        "l": 6,
+        "avg_pts": 3.3
+      },
+      "gap15": {
+        "n": 16,
+        "hit": 68.75,
+        "cpd": 0.73,
+        "w": 11,
+        "l": 5,
+        "avg_pts": 4.41
+      },
+      "peek": false
+    },
+    {
+      "name": "Oracle T15 (hindsight all wins)",
+      "all": {
+        "n": 1686,
+        "hit": 100.0,
+        "cpd": 76.64,
+        "w": 1686,
+        "l": 0,
+        "avg_pts": 15.0
+      },
+      "gap15": {
+        "n": 314,
+        "hit": 100.0,
+        "cpd": 14.27,
+        "w": 314,
+        "l": 0,
+        "avg_pts": 15.0
+      },
+      "peek": true
+    }
+  ]
+}

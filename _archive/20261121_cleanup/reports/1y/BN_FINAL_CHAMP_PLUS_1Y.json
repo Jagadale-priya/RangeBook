@@ -1,0 +1,163 @@
+{
+  "symbol": "BANKNIFTY",
+  "locked_clip": {
+    "sl": 75.0,
+    "t1": 75.0
+  },
+  "default_clip": {
+    "sl": 60.0,
+    "t1": 75.0
+  },
+  "desks": {
+    "proven": {
+      "desk": "BN_PROVEN100_T75SL60",
+      "accurate_tag": "BN_PROVEN100_T75SL60",
+      "accuracy_tag": "ACC_RANGE_100_100",
+      "windows": {
+        "1y": {
+          "n": 9,
+          "hit_pct": 100.0,
+          "start": "2025-10-24",
+          "end": "2026-11-15"
+        },
+        "3y": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "start": "2023-11-16",
+          "end": "2026-11-15"
+        },
+        "5y": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "start": "2021-11-16",
+          "end": "2026-11-15"
+        }
+      },
+      "n_held": 12,
+      "brackets": {
+        "sl": 60.0,
+        "target": 75.0
+      }
+    },
+    "champ_plus": {
+      "desk": "BN_CHAMP_PLUS_T75SL75_CAP3",
+      "accurate_tag": "BN_CHAMP_PLUS_T75SL75_CAP3",
+      "accuracy_tag": "ACC_RANGE_92_100",
+      "accuracy_lo": 92.11,
+      "accuracy_hi": 100.0,
+      "windows": {
+        "1y": {
+          "n": 27,
+          "hit_pct": 100.0,
+          "start": "2025-10-24",
+          "end": "2026-11-15"
+        },
+        "3y": {
+          "n": 38,
+          "hit_pct": 92.11,
+          "start": "2023-11-16",
+          "end": "2026-11-15"
+        },
+        "5y": {
+          "n": 38,
+          "hit_pct": 92.11,
+          "start": "2021-11-16",
+          "end": "2026-11-15"
+        }
+      },
+      "n_held": 38,
+      "brackets": {
+        "sl": 75.0,
+        "target": 75.0
+      },
+      "champ_only_windows": {
+        "1y": {
+          "n": 27,
+          "hit_pct": 100.0,
+          "start": "2025-10-24",
+          "end": "2026-11-15"
+        },
+        "3y": {
+          "n": 38,
+          "hit_pct": 92.11,
+          "start": "2023-11-16",
+          "end": "2026-11-15"
+        },
+        "5y": {
+          "n": 38,
+          "hit_pct": 92.11,
+          "start": "2021-11-16",
+          "end": "2026-11-15"
+        }
+      }
+    }
+  },
+  "book": {
+    "1y": {
+      "n": 27,
+      "hit_pct": 100.0,
+      "start": "2025-10-24",
+      "end": "2026-11-15"
+    },
+    "3y": {
+      "n": 38,
+      "hit_pct": 92.11,
+      "start": "2023-11-16",
+      "end": "2026-11-15"
+    },
+    "5y": {
+      "n": 38,
+      "hit_pct": 92.11,
+      "start": "2021-11-16",
+      "end": "2026-11-15"
+    }
+  },
+  "expected": {
+    "1y": {
+      "n": 27,
+      "hit_pct": 100.0
+    },
+    "3y": {
+      "n": 38,
+      "hit_pct": 92.11
+    },
+    "5y": {
+      "n": 38,
+      "hit_pct": 92.11
+    }
+  },
+  "baseline_dual": {
+    "tier": "strict_100_buy_only",
+    "recommended_name": "PROVEN_BUY_strict100_first_ext015",
+    "recommended_policy": {
+      "buy_min_p": 0.5,
+      "sell_min_p": 9.0,
+      "buy_first_only": true,
+      "max_per_day": 1,
+      "sell_cont_mode": "block",
+      "skip_after_sl": true,
+      "name": "PROVEN_BUY_strict100_first_ext015",
+      "buy_max_or_ext": 0.15,
+      "sell_first_only": true
+    },
+    "full_n": 12,
+    "full_hit_pct": 100.0,
+    "buy_n": 12,
+    "sell_n": 0,
+    "strict_perfect_wf": true,
+    "resolved_perfect_wf": true,
+    "champion_hit_pct": 93.1,
+    "baseline_hit_pct": 52.8,
+    "summary": "BANKNIFTY freeze-OOS: BUY first-break is the edge. Proven = BUY first or_ext\u22640.15 \u2192 12/12 T1 WF. Champion = BUY first any regime \u2192 29 calls ~93% T1. Baseline allows SELL-cont for volume (~53%)."
+  },
+  "elapsed_sec": 0.8,
+  "calls_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/banknifty_final/champ_plus_t75_sl75_calls.json",
+  "proven_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/banknifty_final/proven100_calls.json",
+  "window": "1y",
+  "window_stats": {
+    "n": 27,
+    "hit_pct": 100.0,
+    "start": "2025-10-24",
+    "end": "2026-11-15"
+  }
+}

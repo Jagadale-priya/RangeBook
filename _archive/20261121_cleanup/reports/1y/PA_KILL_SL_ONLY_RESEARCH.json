@@ -1,0 +1,455 @@
+{
+  "base_cfg": "pa_sr_acc_mid",
+  "base": {
+    "n": 29,
+    "wins": 24,
+    "losses": 5,
+    "hit_pct": 82.76,
+    "avg_R": 0.675,
+    "avg_pts": 12.35,
+    "sum_pts": 358.15,
+    "hit_1R_pct": 82.76,
+    "hit_2R_pct": 20.69,
+    "by_setup": {
+      "BREAK_HOLD": {
+        "n": 21,
+        "hit": 81.0
+      },
+      "SWEEP_RECLAIM": {
+        "n": 8,
+        "hit": 87.5
+      }
+    }
+  },
+  "n_wins": 24,
+  "n_hard_sl": 5,
+  "autopsy": [
+    {
+      "feat": "close_to_opp",
+      "win%": 83.3,
+      "sl%": 100.0,
+      "lift_sl": 16.700000000000003
+    },
+    {
+      "feat": "very_close_opp",
+      "win%": 66.7,
+      "sl%": 100.0,
+      "lift_sl": 33.3
+    },
+    {
+      "feat": "wick_against",
+      "win%": 8.3,
+      "sl%": 0.0,
+      "lift_sl": -8.3
+    },
+    {
+      "feat": "body_lt60",
+      "win%": 12.5,
+      "sl%": 0.0,
+      "lift_sl": -12.5
+    },
+    {
+      "feat": "close_weak",
+      "win%": 8.3,
+      "sl%": 0.0,
+      "lift_sl": -8.3
+    },
+    {
+      "feat": "opp_majority",
+      "win%": 12.5,
+      "sl%": 0.0,
+      "lift_sl": -12.5
+    },
+    {
+      "feat": "htf_against",
+      "win%": 0.0,
+      "sl%": 0.0,
+      "lift_sl": 0
+    },
+    {
+      "feat": "tod_early",
+      "win%": 0.0,
+      "sl%": 0.0,
+      "lift_sl": 0
+    },
+    {
+      "feat": "tod_late",
+      "win%": 12.5,
+      "sl%": 0.0,
+      "lift_sl": -12.5
+    },
+    {
+      "feat": "rr_lt18",
+      "win%": 0.0,
+      "sl%": 0.0,
+      "lift_sl": 0
+    },
+    {
+      "feat": "rr_lt20",
+      "win%": 0.0,
+      "sl%": 0.0,
+      "lift_sl": 0
+    },
+    {
+      "feat": "no_liq",
+      "win%": 66.7,
+      "sl%": 60.0,
+      "lift_sl": -6.700000000000003
+    },
+    {
+      "feat": "liq_favor",
+      "win%": 33.3,
+      "sl%": 40.0,
+      "lift_sl": 6.700000000000003
+    },
+    {
+      "feat": "trap",
+      "win%": 0.0,
+      "sl%": 0.0,
+      "lift_sl": 0
+    },
+    {
+      "feat": "far_from_base",
+      "win%": 37.5,
+      "sl%": 20.0,
+      "lift_sl": -17.5
+    },
+    {
+      "feat": "risk_ge18",
+      "win%": 54.2,
+      "sl%": 40.0,
+      "lift_sl": -14.200000000000003
+    }
+  ],
+  "offline": [
+    {
+      "name": "close_to_opp",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 20,
+      "sl_killed": 5,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 100.0
+    },
+    {
+      "name": "very_close_opp",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 16,
+      "sl_killed": 5,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 100.0
+    },
+    {
+      "name": "wick_against",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 2,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "body_lt60",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 3,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "body_lt65",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 7,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "close_weak",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 2,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "opp_majority",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 3,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "htf_against",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 0,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": true,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "tod_early",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 0,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": true,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "tod_late",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 3,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "rr_lt18",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 0,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": true,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "rr_lt20",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 0,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": true,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "rr_lt25",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 20,
+      "sl_killed": 4,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 80.0
+    },
+    {
+      "name": "risk_ge18",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 13,
+      "sl_killed": 2,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 40.0
+    },
+    {
+      "name": "far_from_base",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 9,
+      "sl_killed": 1,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 20.0
+    },
+    {
+      "name": "no_liq_and_close_opp",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 13,
+      "sl_killed": 3,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 60.0
+    },
+    {
+      "name": "no_liq_and_wick",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 2,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "wick_and_close_opp",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 2,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "body60_and_close_opp",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 2,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "close_weak_and_opp",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 2,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "opp_maj_and_no_liq",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 3,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "early_and_break",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 0,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": true,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "late_and_no_liq",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 2,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "rr20_and_wick",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 0,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": true,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "rr20_and_close_opp",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 0,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": true,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "sl_stack_A",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 13,
+      "sl_killed": 3,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 60.0
+    },
+    {
+      "name": "sl_stack_B",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 4,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "sl_stack_C",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 10,
+      "sl_killed": 3,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 60.0
+    },
+    {
+      "name": "sl_stack_D",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 2,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "sl_stack_E",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 2,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    },
+    {
+      "name": "sl_stack_F",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 17,
+      "sl_killed": 5,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 100.0
+    },
+    {
+      "name": "sl_stack_G",
+      "win_total": 24,
+      "sl_total": 5,
+      "win_killed": 2,
+      "sl_killed": 0,
+      "other_loss_killed": 0,
+      "winner_safe": false,
+      "sl_kill_pct": 0.0
+    }
+  ],
+  "safe": [],
+  "near": [],
+  "live": [],
+  "best": null,
+  "window": {
+    "start": "2026-10-22",
+    "end": "2026-11-20",
+    "n": 22
+  }
+}

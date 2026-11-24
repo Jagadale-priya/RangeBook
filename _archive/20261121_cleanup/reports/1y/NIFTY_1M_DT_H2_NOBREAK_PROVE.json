@@ -1,0 +1,1287 @@
+{
+  "mode": "research_only",
+  "logic": "double_top_SECOND_LEG_down_only",
+  "structure": "H1 -> first_down(valley) -> H2 -> strong_second_down -> entry",
+  "note": "First valley is NEVER an entry. Only 2nd move after H2.",
+  "window": {
+    "start": "2025-12-26",
+    "end": "2026-11-16",
+    "oos_from": "2026-06-10"
+  },
+  "gates": {
+    "MIN_N": 30,
+    "MIN_HIT": 35.0,
+    "MIN_EXP": 0.2,
+    "MIN_T": 1.5
+  },
+  "signal_stats": [
+    {
+      "ma": 20,
+      "tol": 0.35,
+      "body_k": 0.85,
+      "dts": 1630,
+      "leg2": 538,
+      "leg2_retest": 339
+    },
+    {
+      "ma": 20,
+      "tol": 0.35,
+      "body_k": 1.0,
+      "dts": 1630,
+      "leg2": 491,
+      "leg2_retest": 308
+    },
+    {
+      "ma": 20,
+      "tol": 0.55,
+      "body_k": 0.85,
+      "dts": 1826,
+      "leg2": 612,
+      "leg2_retest": 389
+    },
+    {
+      "ma": 20,
+      "tol": 0.55,
+      "body_k": 1.0,
+      "dts": 1826,
+      "leg2": 558,
+      "leg2_retest": 351
+    },
+    {
+      "ma": 20,
+      "tol": 0.8,
+      "body_k": 0.85,
+      "dts": 2266,
+      "leg2": 792,
+      "leg2_retest": 484
+    },
+    {
+      "ma": 20,
+      "tol": 0.8,
+      "body_k": 1.0,
+      "dts": 2266,
+      "leg2": 725,
+      "leg2_retest": 439
+    },
+    {
+      "ma": 34,
+      "tol": 0.35,
+      "body_k": 0.85,
+      "dts": 1630,
+      "leg2": 536,
+      "leg2_retest": 300
+    },
+    {
+      "ma": 34,
+      "tol": 0.35,
+      "body_k": 1.0,
+      "dts": 1630,
+      "leg2": 490,
+      "leg2_retest": 264
+    },
+    {
+      "ma": 34,
+      "tol": 0.55,
+      "body_k": 0.85,
+      "dts": 1826,
+      "leg2": 610,
+      "leg2_retest": 337
+    },
+    {
+      "ma": 34,
+      "tol": 0.55,
+      "body_k": 1.0,
+      "dts": 1826,
+      "leg2": 558,
+      "leg2_retest": 300
+    },
+    {
+      "ma": 34,
+      "tol": 0.8,
+      "body_k": 0.85,
+      "dts": 2266,
+      "leg2": 790,
+      "leg2_retest": 438
+    },
+    {
+      "ma": 34,
+      "tol": 0.8,
+      "body_k": 1.0,
+      "dts": 2266,
+      "leg2": 726,
+      "leg2_retest": 392
+    }
+  ],
+  "n_books": 1008,
+  "n_proven": 0,
+  "n_promising": 69,
+  "setup_summary": {
+    "leg2": {
+      "best_book": "SELL_leg2_ema20_tol55_k100_sl6_t40",
+      "best_verdict": "NOT_PROVEN",
+      "best_oos": {
+        "n": 92,
+        "hit": 27.17,
+        "exp_R": 1.128,
+        "t": 3.16,
+        "wins": 25,
+        "losses": 67,
+        "avg_pts": 6.77
+      },
+      "max_sl_proven": null,
+      "min_sl_proven": null,
+      "max_t_proven": null,
+      "best_R_book": "SELL_leg2_ema20_tol55_k100_sl6_t40",
+      "mae_p80": 81.65,
+      "mfe_p50": 40.98,
+      "mfe_p80": 104.25,
+      "n_proven": 0,
+      "n_tested": 504
+    },
+    "leg2_retest": {
+      "best_book": "SELL_leg2_retest_ema20_tol55_k100_sl6_t40",
+      "best_verdict": "NOT_PROVEN",
+      "best_oos": {
+        "n": 76,
+        "hit": 30.26,
+        "exp_R": 1.32,
+        "t": 3.25,
+        "wins": 23,
+        "losses": 53,
+        "avg_pts": 7.92
+      },
+      "max_sl_proven": null,
+      "min_sl_proven": null,
+      "max_t_proven": null,
+      "best_R_book": "SELL_leg2_retest_ema20_tol55_k100_sl6_t40",
+      "mae_p80": 76.2,
+      "mfe_p50": 36.75,
+      "mfe_p80": 94.3,
+      "n_proven": 0,
+      "n_tested": 504
+    }
+  },
+  "top": [
+    {
+      "book": "SELL_leg2_retest_ema20_tol55_k100_sl6_t15",
+      "verdict": "PROMISING",
+      "n": 151,
+      "train": {
+        "n": 75,
+        "hit": 33.33,
+        "exp_R": 0.167,
+        "t": 0.87,
+        "wins": 25,
+        "losses": 50,
+        "avg_pts": 1.0
+      },
+      "oos": {
+        "n": 76,
+        "hit": 52.63,
+        "exp_R": 0.842,
+        "t": 4.17,
+        "wins": 40,
+        "losses": 36,
+        "avg_pts": 5.05
+      },
+      "sl_pts": 6.0,
+      "t1": 15.0,
+      "mae_p80": 76.2,
+      "mfe_p50": 36.75,
+      "mfe_p80": 94.3
+    },
+    {
+      "book": "SELL_leg2_retest_ema20_tol35_k100_sl6_t15",
+      "verdict": "PROMISING",
+      "n": 143,
+      "train": {
+        "n": 70,
+        "hit": 34.29,
+        "exp_R": 0.2,
+        "t": 1.0,
+        "wins": 24,
+        "losses": 46,
+        "avg_pts": 1.2
+      },
+      "oos": {
+        "n": 73,
+        "hit": 50.68,
+        "exp_R": 0.774,
+        "t": 3.75,
+        "wins": 37,
+        "losses": 36,
+        "avg_pts": 4.64
+      },
+      "sl_pts": 6.0,
+      "t1": 15.0,
+      "mae_p80": 73.6,
+      "mfe_p50": 35.85,
+      "mfe_p80": 94.26
+    },
+    {
+      "book": "SELL_leg2_retest_ema20_tol35_k85_sl6_t15",
+      "verdict": "PROMISING",
+      "n": 153,
+      "train": {
+        "n": 75,
+        "hit": 32.0,
+        "exp_R": 0.12,
+        "t": 0.63,
+        "wins": 24,
+        "losses": 51,
+        "avg_pts": 0.72
+      },
+      "oos": {
+        "n": 78,
+        "hit": 48.72,
+        "exp_R": 0.705,
+        "t": 3.54,
+        "wins": 38,
+        "losses": 40,
+        "avg_pts": 4.23
+      },
+      "sl_pts": 6.0,
+      "t1": 15.0,
+      "mae_p80": 71.65,
+      "mfe_p50": 34.7,
+      "mfe_p80": 88.71
+    },
+    {
+      "book": "SELL_leg2_retest_ema20_tol55_k100_sl6_t12",
+      "verdict": "PROMISING",
+      "n": 151,
+      "train": {
+        "n": 75,
+        "hit": 38.67,
+        "exp_R": 0.16,
+        "t": 0.94,
+        "wins": 29,
+        "losses": 46,
+        "avg_pts": 0.96
+      },
+      "oos": {
+        "n": 76,
+        "hit": 56.58,
+        "exp_R": 0.697,
+        "t": 4.06,
+        "wins": 43,
+        "losses": 33,
+        "avg_pts": 4.18
+      },
+      "sl_pts": 6.0,
+      "t1": 12.0,
+      "mae_p80": 76.2,
+      "mfe_p50": 36.75,
+      "mfe_p80": 94.3
+    },
+    {
+      "book": "SELL_leg2_retest_ema20_tol35_k85_sl6_t12",
+      "verdict": "PROMISING",
+      "n": 153,
+      "train": {
+        "n": 75,
+        "hit": 38.67,
+        "exp_R": 0.16,
+        "t": 0.94,
+        "wins": 29,
+        "losses": 46,
+        "avg_pts": 0.96
+      },
+      "oos": {
+        "n": 78,
+        "hit": 55.13,
+        "exp_R": 0.654,
+        "t": 3.85,
+        "wins": 43,
+        "losses": 35,
+        "avg_pts": 3.92
+      },
+      "sl_pts": 6.0,
+      "t1": 12.0,
+      "mae_p80": 71.65,
+      "mfe_p50": 34.7,
+      "mfe_p80": 88.71
+    },
+    {
+      "book": "SELL_leg2_retest_ema20_tol35_k100_sl6_t12",
+      "verdict": "PROMISING",
+      "n": 143,
+      "train": {
+        "n": 70,
+        "hit": 37.14,
+        "exp_R": 0.114,
+        "t": 0.65,
+        "wins": 26,
+        "losses": 44,
+        "avg_pts": 0.69
+      },
+      "oos": {
+        "n": 73,
+        "hit": 54.79,
+        "exp_R": 0.644,
+        "t": 3.66,
+        "wins": 40,
+        "losses": 33,
+        "avg_pts": 3.86
+      },
+      "sl_pts": 6.0,
+      "t1": 12.0,
+      "mae_p80": 73.6,
+      "mfe_p50": 35.85,
+      "mfe_p80": 94.26
+    },
+    {
+      "book": "SELL_leg2_retest_ema20_tol55_k85_sl6_t12",
+      "verdict": "PROMISING",
+      "n": 159,
+      "train": {
+        "n": 79,
+        "hit": 37.97,
+        "exp_R": 0.139,
+        "t": 0.84,
+        "wins": 30,
+        "losses": 49,
+        "avg_pts": 0.84
+      },
+      "oos": {
+        "n": 80,
+        "hit": 53.75,
+        "exp_R": 0.613,
+        "t": 3.64,
+        "wins": 43,
+        "losses": 37,
+        "avg_pts": 3.67
+      },
+      "sl_pts": 6.0,
+      "t1": 12.0,
+      "mae_p80": 75.25,
+      "mfe_p50": 36.25,
+      "mfe_p80": 89.46
+    },
+    {
+      "book": "SELL_leg2_retest_ema20_tol80_k85_sl6_t12",
+      "verdict": "PROMISING",
+      "n": 175,
+      "train": {
+        "n": 87,
+        "hit": 36.78,
+        "exp_R": 0.103,
+        "t": 0.66,
+        "wins": 32,
+        "losses": 55,
+        "avg_pts": 0.62
+      },
+      "oos": {
+        "n": 88,
+        "hit": 52.27,
+        "exp_R": 0.568,
+        "t": 3.54,
+        "wins": 46,
+        "losses": 42,
+        "avg_pts": 3.41
+      },
+      "sl_pts": 6.0,
+      "t1": 12.0,
+      "mae_p80": 76.2,
+      "mfe_p50": 36.75,
+      "mfe_p80": 89.05
+    },
+    {
+      "book": "SELL_leg2_retest_ema20_tol55_k100_sl10_t12",
+      "verdict": "PROMISING",
+      "n": 151,
+      "train": {
+        "n": 75,
+        "hit": 50.67,
+        "exp_R": 0.115,
+        "t": 0.9,
+        "wins": 38,
+        "losses": 37,
+        "avg_pts": 1.15
+      },
+      "oos": {
+        "n": 76,
+        "hit": 65.79,
+        "exp_R": 0.447,
+        "t": 3.71,
+        "wins": 50,
+        "losses": 26,
+        "avg_pts": 4.47
+      },
+      "sl_pts": 10.0,
+      "t1": 12.0,
+      "mae_p80": 76.2,
+      "mfe_p50": 36.75,
+      "mfe_p80": 94.3
+    },
+    {
+      "book": "SELL_leg2_ema34_tol35_k100_sl10_t25",
+      "verdict": "PROMISING",
+      "n": 181,
+      "train": {
+        "n": 90,
+        "hit": 32.22,
+        "exp_R": 0.128,
+        "t": 0.74,
+        "wins": 29,
+        "losses": 61,
+        "avg_pts": 1.28
+      },
+      "oos": {
+        "n": 91,
+        "hit": 40.66,
+        "exp_R": 0.441,
+        "t": 2.44,
+        "wins": 37,
+        "losses": 54,
+        "avg_pts": 4.41
+      },
+      "sl_pts": 10.0,
+      "t1": 25.0,
+      "mae_p80": 78.55,
+      "mfe_p50": 38.8,
+      "mfe_p80": 98.6
+    },
+    {
+      "book": "SELL_leg2_retest_ema20_tol35_k100_sl10_t12",
+      "verdict": "PROMISING",
+      "n": 143,
+      "train": {
+        "n": 70,
+        "hit": 50.0,
+        "exp_R": 0.1,
+        "t": 0.76,
+        "wins": 35,
+        "losses": 35,
+        "avg_pts": 1.0
+      },
+      "oos": {
+        "n": 73,
+        "hit": 64.38,
+        "exp_R": 0.416,
+        "t": 3.35,
+        "wins": 47,
+        "losses": 26,
+        "avg_pts": 4.16
+      },
+      "sl_pts": 10.0,
+      "t1": 12.0,
+      "mae_p80": 73.6,
+      "mfe_p50": 35.85,
+      "mfe_p80": 94.26
+    },
+    {
+      "book": "SELL_leg2_retest_ema20_tol35_k100_sl15_t30",
+      "verdict": "PROMISING",
+      "n": 143,
+      "train": {
+        "n": 70,
+        "hit": 37.14,
+        "exp_R": 0.114,
+        "t": 0.65,
+        "wins": 26,
+        "losses": 44,
+        "avg_pts": 1.71
+      },
+      "oos": {
+        "n": 73,
+        "hit": 45.21,
+        "exp_R": 0.399,
+        "t": 2.29,
+        "wins": 33,
+        "losses": 40,
+        "avg_pts": 5.98
+      },
+      "sl_pts": 15.0,
+      "t1": 30.0,
+      "mae_p80": 73.6,
+      "mfe_p50": 35.85,
+      "mfe_p80": 94.26
+    },
+    {
+      "book": "SELL_leg2_ema20_tol35_k100_sl8_t18",
+      "verdict": "PROMISING",
+      "n": 182,
+      "train": {
+        "n": 91,
+        "hit": 35.16,
+        "exp_R": 0.143,
+        "t": 0.87,
+        "wins": 32,
+        "losses": 59,
+        "avg_pts": 1.14
+      },
+      "oos": {
+        "n": 91,
+        "hit": 41.76,
+        "exp_R": 0.377,
+        "t": 2.24,
+        "wins": 38,
+        "losses": 53,
+        "avg_pts": 3.02
+      },
+      "sl_pts": 8.0,
+      "t1": 18.0,
+      "mae_p80": 79.15,
+      "mfe_p50": 38.85,
+      "mfe_p80": 98.6
+    },
+    {
+      "book": "SELL_leg2_ema20_tol35_k100_sl10_t18",
+      "verdict": "PROMISING",
+      "n": 182,
+      "train": {
+        "n": 91,
+        "hit": 39.56,
+        "exp_R": 0.108,
+        "t": 0.75,
+        "wins": 36,
+        "losses": 55,
+        "avg_pts": 1.08
+      },
+      "oos": {
+        "n": 91,
+        "hit": 48.35,
+        "exp_R": 0.372,
+        "t": 2.54,
+        "wins": 44,
+        "losses": 47,
+        "avg_pts": 3.72
+      },
+      "sl_pts": 10.0,
+      "t1": 18.0,
+      "mae_p80": 79.15,
+      "mfe_p50": 38.85,
+      "mfe_p80": 98.6
+    },
+    {
+      "book": "SELL_leg2_ema34_tol35_k100_sl8_t18",
+      "verdict": "PROMISING",
+      "n": 181,
+      "train": {
+        "n": 90,
+        "hit": 35.56,
+        "exp_R": 0.156,
+        "t": 0.94,
+        "wins": 32,
+        "losses": 58,
+        "avg_pts": 1.24
+      },
+      "oos": {
+        "n": 91,
+        "hit": 40.66,
+        "exp_R": 0.341,
+        "t": 2.04,
+        "wins": 37,
+        "losses": 54,
+        "avg_pts": 2.73
+      },
+      "sl_pts": 8.0,
+      "t1": 18.0,
+      "mae_p80": 78.55,
+      "mfe_p50": 38.8,
+      "mfe_p80": 98.6
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k85_sl12_t30",
+      "verdict": "PROMISING",
+      "n": 135,
+      "train": {
+        "n": 67,
+        "hit": 34.33,
+        "exp_R": 0.201,
+        "t": 0.99,
+        "wins": 23,
+        "losses": 44,
+        "avg_pts": 2.42
+      },
+      "oos": {
+        "n": 68,
+        "hit": 36.76,
+        "exp_R": 0.33,
+        "t": 1.61,
+        "wins": 25,
+        "losses": 43,
+        "avg_pts": 3.96
+      },
+      "sl_pts": 12.0,
+      "t1": 30.0,
+      "mae_p80": 70.21,
+      "mfe_p50": 35.67,
+      "mfe_p80": 89.4
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k85_sl12_t25",
+      "verdict": "PROMISING",
+      "n": 135,
+      "train": {
+        "n": 67,
+        "hit": 35.82,
+        "exp_R": 0.104,
+        "t": 0.57,
+        "wins": 24,
+        "losses": 43,
+        "avg_pts": 1.25
+      },
+      "oos": {
+        "n": 68,
+        "hit": 42.65,
+        "exp_R": 0.315,
+        "t": 1.69,
+        "wins": 29,
+        "losses": 39,
+        "avg_pts": 3.78
+      },
+      "sl_pts": 12.0,
+      "t1": 25.0,
+      "mae_p80": 70.21,
+      "mfe_p50": 35.67,
+      "mfe_p80": 89.4
+    },
+    {
+      "book": "SELL_leg2_ema34_tol35_k100_sl10_t18",
+      "verdict": "PROMISING",
+      "n": 181,
+      "train": {
+        "n": 90,
+        "hit": 40.0,
+        "exp_R": 0.12,
+        "t": 0.83,
+        "wins": 36,
+        "losses": 54,
+        "avg_pts": 1.2
+      },
+      "oos": {
+        "n": 91,
+        "hit": 46.15,
+        "exp_R": 0.311,
+        "t": 2.12,
+        "wins": 42,
+        "losses": 49,
+        "avg_pts": 3.11
+      },
+      "sl_pts": 10.0,
+      "t1": 18.0,
+      "mae_p80": 78.55,
+      "mfe_p50": 38.8,
+      "mfe_p80": 98.6
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k85_sl15_t25",
+      "verdict": "PROMISING",
+      "n": 135,
+      "train": {
+        "n": 67,
+        "hit": 41.79,
+        "exp_R": 0.115,
+        "t": 0.71,
+        "wins": 28,
+        "losses": 39,
+        "avg_pts": 1.72
+      },
+      "oos": {
+        "n": 68,
+        "hit": 47.06,
+        "exp_R": 0.29,
+        "t": 1.8,
+        "wins": 32,
+        "losses": 36,
+        "avg_pts": 4.35
+      },
+      "sl_pts": 15.0,
+      "t1": 25.0,
+      "mae_p80": 70.21,
+      "mfe_p50": 35.67,
+      "mfe_p80": 89.4
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k100_sl10_t25",
+      "verdict": "PROMISING",
+      "n": 125,
+      "train": {
+        "n": 62,
+        "hit": 32.26,
+        "exp_R": 0.129,
+        "t": 0.62,
+        "wins": 20,
+        "losses": 42,
+        "avg_pts": 1.29
+      },
+      "oos": {
+        "n": 63,
+        "hit": 36.51,
+        "exp_R": 0.278,
+        "t": 1.3,
+        "wins": 23,
+        "losses": 40,
+        "avg_pts": 2.78
+      },
+      "sl_pts": 10.0,
+      "t1": 25.0,
+      "mae_p80": 72.52,
+      "mfe_p50": 36.75,
+      "mfe_p80": 94.68
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k85_sl15_t30",
+      "verdict": "PROMISING",
+      "n": 135,
+      "train": {
+        "n": 67,
+        "hit": 40.3,
+        "exp_R": 0.209,
+        "t": 1.15,
+        "wins": 27,
+        "losses": 40,
+        "avg_pts": 3.13
+      },
+      "oos": {
+        "n": 68,
+        "hit": 39.71,
+        "exp_R": 0.276,
+        "t": 1.57,
+        "wins": 27,
+        "losses": 41,
+        "avg_pts": 4.15
+      },
+      "sl_pts": 15.0,
+      "t1": 30.0,
+      "mae_p80": 70.21,
+      "mfe_p50": 35.67,
+      "mfe_p80": 89.4
+    },
+    {
+      "book": "SELL_leg2_ema34_tol35_k100_sl8_t12",
+      "verdict": "PROMISING",
+      "n": 181,
+      "train": {
+        "n": 90,
+        "hit": 44.44,
+        "exp_R": 0.111,
+        "t": 0.84,
+        "wins": 40,
+        "losses": 50,
+        "avg_pts": 0.89
+      },
+      "oos": {
+        "n": 91,
+        "hit": 49.45,
+        "exp_R": 0.236,
+        "t": 1.79,
+        "wins": 45,
+        "losses": 46,
+        "avg_pts": 1.89
+      },
+      "sl_pts": 8.0,
+      "t1": 12.0,
+      "mae_p80": 78.55,
+      "mfe_p50": 38.8,
+      "mfe_p80": 98.6
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k85_sl12_t12",
+      "verdict": "PROMISING",
+      "n": 135,
+      "train": {
+        "n": 67,
+        "hit": 55.22,
+        "exp_R": 0.104,
+        "t": 0.85,
+        "wins": 37,
+        "losses": 30,
+        "avg_pts": 1.25
+      },
+      "oos": {
+        "n": 68,
+        "hit": 61.76,
+        "exp_R": 0.235,
+        "t": 1.98,
+        "wins": 42,
+        "losses": 26,
+        "avg_pts": 2.82
+      },
+      "sl_pts": 12.0,
+      "t1": 12.0,
+      "mae_p80": 70.21,
+      "mfe_p50": 35.67,
+      "mfe_p80": 89.4
+    },
+    {
+      "book": "SELL_leg2_ema20_tol55_k85_sl6_t15",
+      "verdict": "PROMISING",
+      "n": 193,
+      "train": {
+        "n": 99,
+        "hit": 32.32,
+        "exp_R": 0.131,
+        "t": 0.79,
+        "wins": 32,
+        "losses": 67,
+        "avg_pts": 0.79
+      },
+      "oos": {
+        "n": 94,
+        "hit": 35.11,
+        "exp_R": 0.229,
+        "t": 1.32,
+        "wins": 33,
+        "losses": 61,
+        "avg_pts": 1.37
+      },
+      "sl_pts": 6.0,
+      "t1": 15.0,
+      "mae_p80": 80.14,
+      "mfe_p50": 40.35,
+      "mfe_p80": 99.22
+    },
+    {
+      "book": "SELL_leg2_ema34_tol55_k85_sl6_t15",
+      "verdict": "PROMISING",
+      "n": 192,
+      "train": {
+        "n": 98,
+        "hit": 32.65,
+        "exp_R": 0.143,
+        "t": 0.86,
+        "wins": 32,
+        "losses": 66,
+        "avg_pts": 0.86
+      },
+      "oos": {
+        "n": 94,
+        "hit": 35.11,
+        "exp_R": 0.229,
+        "t": 1.32,
+        "wins": 33,
+        "losses": 61,
+        "avg_pts": 1.37
+      },
+      "sl_pts": 6.0,
+      "t1": 15.0,
+      "mae_p80": 80.11,
+      "mfe_p50": 40.33,
+      "mfe_p80": 99.13
+    },
+    {
+      "book": "SELL_leg2_ema20_tol35_k85_sl6_t12",
+      "verdict": "PROMISING",
+      "n": 188,
+      "train": {
+        "n": 95,
+        "hit": 38.95,
+        "exp_R": 0.168,
+        "t": 1.12,
+        "wins": 37,
+        "losses": 58,
+        "avg_pts": 1.01
+      },
+      "oos": {
+        "n": 93,
+        "hit": 40.86,
+        "exp_R": 0.226,
+        "t": 1.47,
+        "wins": 38,
+        "losses": 55,
+        "avg_pts": 1.35
+      },
+      "sl_pts": 6.0,
+      "t1": 12.0,
+      "mae_p80": 78.91,
+      "mfe_p50": 37.7,
+      "mfe_p80": 93.39
+    },
+    {
+      "book": "SELL_leg2_ema34_tol35_k85_sl6_t12",
+      "verdict": "PROMISING",
+      "n": 187,
+      "train": {
+        "n": 94,
+        "hit": 39.36,
+        "exp_R": 0.181,
+        "t": 1.19,
+        "wins": 37,
+        "losses": 57,
+        "avg_pts": 1.09
+      },
+      "oos": {
+        "n": 93,
+        "hit": 40.86,
+        "exp_R": 0.226,
+        "t": 1.47,
+        "wins": 38,
+        "losses": 55,
+        "avg_pts": 1.35
+      },
+      "sl_pts": 6.0,
+      "t1": 12.0,
+      "mae_p80": 78.7,
+      "mfe_p50": 37.58,
+      "mfe_p80": 92.85
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k100_sl12_t25",
+      "verdict": "PROMISING",
+      "n": 125,
+      "train": {
+        "n": 62,
+        "hit": 41.94,
+        "exp_R": 0.293,
+        "t": 1.5,
+        "wins": 26,
+        "losses": 36,
+        "avg_pts": 3.52
+      },
+      "oos": {
+        "n": 63,
+        "hit": 39.68,
+        "exp_R": 0.223,
+        "t": 1.17,
+        "wins": 25,
+        "losses": 38,
+        "avg_pts": 2.68
+      },
+      "sl_pts": 12.0,
+      "t1": 25.0,
+      "mae_p80": 72.52,
+      "mfe_p50": 36.75,
+      "mfe_p80": 94.68
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k85_sl20_t25",
+      "verdict": "PROMISING",
+      "n": 135,
+      "train": {
+        "n": 67,
+        "hit": 52.24,
+        "exp_R": 0.189,
+        "t": 1.38,
+        "wins": 35,
+        "losses": 32,
+        "avg_pts": 3.79
+      },
+      "oos": {
+        "n": 68,
+        "hit": 51.47,
+        "exp_R": 0.216,
+        "t": 1.61,
+        "wins": 35,
+        "losses": 33,
+        "avg_pts": 4.31
+      },
+      "sl_pts": 20.0,
+      "t1": 25.0,
+      "mae_p80": 70.21,
+      "mfe_p50": 35.67,
+      "mfe_p80": 89.4
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol55_k85_sl20_t25",
+      "verdict": "PROMISING",
+      "n": 142,
+      "train": {
+        "n": 72,
+        "hit": 48.61,
+        "exp_R": 0.107,
+        "t": 0.81,
+        "wins": 35,
+        "losses": 37,
+        "avg_pts": 2.14
+      },
+      "oos": {
+        "n": 70,
+        "hit": 51.43,
+        "exp_R": 0.213,
+        "t": 1.61,
+        "wins": 36,
+        "losses": 34,
+        "avg_pts": 4.26
+      },
+      "sl_pts": 20.0,
+      "t1": 25.0,
+      "mae_p80": 79.83,
+      "mfe_p50": 36.75,
+      "mfe_p80": 89.4
+    },
+    {
+      "book": "SELL_leg2_ema20_tol55_k85_sl6_t12",
+      "verdict": "PROMISING",
+      "n": 193,
+      "train": {
+        "n": 99,
+        "hit": 38.38,
+        "exp_R": 0.152,
+        "t": 1.03,
+        "wins": 38,
+        "losses": 61,
+        "avg_pts": 0.91
+      },
+      "oos": {
+        "n": 94,
+        "hit": 40.43,
+        "exp_R": 0.213,
+        "t": 1.39,
+        "wins": 38,
+        "losses": 56,
+        "avg_pts": 1.28
+      },
+      "sl_pts": 6.0,
+      "t1": 12.0,
+      "mae_p80": 80.14,
+      "mfe_p50": 40.35,
+      "mfe_p80": 99.22
+    },
+    {
+      "book": "SELL_leg2_ema34_tol55_k85_sl6_t12",
+      "verdict": "PROMISING",
+      "n": 192,
+      "train": {
+        "n": 98,
+        "hit": 38.78,
+        "exp_R": 0.163,
+        "t": 1.1,
+        "wins": 38,
+        "losses": 60,
+        "avg_pts": 0.98
+      },
+      "oos": {
+        "n": 94,
+        "hit": 40.43,
+        "exp_R": 0.213,
+        "t": 1.39,
+        "wins": 38,
+        "losses": 56,
+        "avg_pts": 1.28
+      },
+      "sl_pts": 6.0,
+      "t1": 12.0,
+      "mae_p80": 80.11,
+      "mfe_p50": 40.33,
+      "mfe_p80": 99.13
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k100_sl12_t30",
+      "verdict": "PROMISING",
+      "n": 125,
+      "train": {
+        "n": 62,
+        "hit": 40.32,
+        "exp_R": 0.411,
+        "t": 1.87,
+        "wins": 25,
+        "losses": 37,
+        "avg_pts": 4.94
+      },
+      "oos": {
+        "n": 63,
+        "hit": 33.33,
+        "exp_R": 0.213,
+        "t": 1.02,
+        "wins": 21,
+        "losses": 42,
+        "avg_pts": 2.56
+      },
+      "sl_pts": 12.0,
+      "t1": 30.0,
+      "mae_p80": 72.52,
+      "mfe_p50": 36.75,
+      "mfe_p80": 94.68
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol55_k85_sl20_t30",
+      "verdict": "PROMISING",
+      "n": 142,
+      "train": {
+        "n": 72,
+        "hit": 43.06,
+        "exp_R": 0.119,
+        "t": 0.81,
+        "wins": 31,
+        "losses": 41,
+        "avg_pts": 2.37
+      },
+      "oos": {
+        "n": 70,
+        "hit": 42.86,
+        "exp_R": 0.201,
+        "t": 1.4,
+        "wins": 30,
+        "losses": 40,
+        "avg_pts": 4.02
+      },
+      "sl_pts": 20.0,
+      "t1": 30.0,
+      "mae_p80": 79.83,
+      "mfe_p50": 36.75,
+      "mfe_p80": 89.4
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k100_sl10_t18",
+      "verdict": "PROMISING",
+      "n": 125,
+      "train": {
+        "n": 62,
+        "hit": 43.55,
+        "exp_R": 0.219,
+        "t": 1.23,
+        "wins": 27,
+        "losses": 35,
+        "avg_pts": 2.19
+      },
+      "oos": {
+        "n": 63,
+        "hit": 42.86,
+        "exp_R": 0.2,
+        "t": 1.14,
+        "wins": 27,
+        "losses": 36,
+        "avg_pts": 2.0
+      },
+      "sl_pts": 10.0,
+      "t1": 18.0,
+      "mae_p80": 72.52,
+      "mfe_p50": 36.75,
+      "mfe_p80": 94.68
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k85_sl20_t30",
+      "verdict": "PROMISING",
+      "n": 135,
+      "train": {
+        "n": 67,
+        "hit": 47.76,
+        "exp_R": 0.239,
+        "t": 1.57,
+        "wins": 32,
+        "losses": 35,
+        "avg_pts": 4.79
+      },
+      "oos": {
+        "n": 68,
+        "hit": 42.65,
+        "exp_R": 0.2,
+        "t": 1.37,
+        "wins": 29,
+        "losses": 39,
+        "avg_pts": 3.99
+      },
+      "sl_pts": 20.0,
+      "t1": 30.0,
+      "mae_p80": 70.21,
+      "mfe_p50": 35.67,
+      "mfe_p80": 89.4
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k85_sl15_t12",
+      "verdict": "PROMISING",
+      "n": 135,
+      "train": {
+        "n": 67,
+        "hit": 61.19,
+        "exp_R": 0.101,
+        "t": 0.94,
+        "wins": 41,
+        "losses": 26,
+        "avg_pts": 1.52
+      },
+      "oos": {
+        "n": 68,
+        "hit": 66.18,
+        "exp_R": 0.191,
+        "t": 1.84,
+        "wins": 45,
+        "losses": 23,
+        "avg_pts": 2.87
+      },
+      "sl_pts": 15.0,
+      "t1": 12.0,
+      "mae_p80": 70.21,
+      "mfe_p50": 35.67,
+      "mfe_p80": 89.4
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k100_sl10_t20",
+      "verdict": "PROMISING",
+      "n": 125,
+      "train": {
+        "n": 62,
+        "hit": 40.32,
+        "exp_R": 0.21,
+        "t": 1.11,
+        "wins": 25,
+        "losses": 37,
+        "avg_pts": 2.1
+      },
+      "oos": {
+        "n": 63,
+        "hit": 39.68,
+        "exp_R": 0.19,
+        "t": 1.02,
+        "wins": 25,
+        "losses": 38,
+        "avg_pts": 1.9
+      },
+      "sl_pts": 10.0,
+      "t1": 20.0,
+      "mae_p80": 72.52,
+      "mfe_p50": 36.75,
+      "mfe_p80": 94.68
+    },
+    {
+      "book": "SELL_leg2_retest_ema34_tol35_k100_sl10_t12",
+      "verdict": "PROMISING",
+      "n": 125,
+      "train": {
+        "n": 62,
+        "hit": 50.0,
+        "exp_R": 0.1,
+        "t": 0.71,
+        "wins": 31,
+        "losses": 31,
+        "avg_pts": 1.0
+      },
+      "oos": {
+        "n": 63,
+        "hit": 53.97,
+        "exp_R": 0.187,
+        "t": 1.34,
+        "wins": 34,
+        "losses": 29,
+        "avg_pts": 1.87
+      },
+      "sl_pts": 10.0,
+      "t1": 12.0,
+      "mae_p80": 72.52,
+      "mfe_p50": 36.75,
+      "mfe_p80": 94.68
+    },
+    {
+      "book": "SELL_leg2_ema20_tol35_k85_sl8_t12",
+      "verdict": "PROMISING",
+      "n": 188,
+      "train": {
+        "n": 95,
+        "hit": 46.32,
+        "exp_R": 0.158,
+        "t": 1.23,
+        "wins": 44,
+        "losses": 51,
+        "avg_pts": 1.26
+      },
+      "oos": {
+        "n": 93,
+        "hit": 47.31,
+        "exp_R": 0.183,
+        "t": 1.4,
+        "wins": 44,
+        "losses": 49,
+        "avg_pts": 1.46
+      },
+      "sl_pts": 8.0,
+      "t1": 12.0,
+      "mae_p80": 78.91,
+      "mfe_p50": 37.7,
+      "mfe_p80": 93.39
+    }
+  ],
+  "proven": []
+}

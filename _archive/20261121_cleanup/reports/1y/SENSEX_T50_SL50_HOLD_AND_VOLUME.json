@@ -1,0 +1,1709 @@
+{
+  "symbol": "SENSEX",
+  "version": "t50_sl50_hold",
+  "locked_clip": {
+    "sl": 50.0,
+    "t1": 50.0
+  },
+  "policy": {
+    "name": "ACC100_WIDE_T50",
+    "buy_min_p": 0.55,
+    "sell_min_p": 0.7,
+    "buy_first_only": true,
+    "sell_first_only": true,
+    "allow_sell_cont": false,
+    "buy_max_or_ext": 0.15,
+    "buy_regimes": [
+      "range",
+      "mixed",
+      "trend",
+      "volatile"
+    ]
+  },
+  "desks": {
+    "champ_plus": {
+      "desk": "SENSEX_CHAMP_PLUS_T50SL50_CAP3",
+      "accurate_tag": "SENSEX_CHAMP_PLUS_T50SL50_CAP3",
+      "accuracy_tag": "ACC_RANGE_80_100",
+      "accuracy_lo": 80.0,
+      "accuracy_hi": 100.0,
+      "windows": {
+        "1y": {
+          "n": 36,
+          "hit_pct": 86.11,
+          "start": "2025-11-19",
+          "end": "2026-11-19"
+        },
+        "3y": {
+          "n": 55,
+          "hit_pct": 80.0,
+          "start": "2023-11-20",
+          "end": "2026-11-19"
+        },
+        "5y": {
+          "n": 55,
+          "hit_pct": 80.0,
+          "start": "2023-11-20",
+          "end": "2026-11-19"
+        },
+        "3m": {
+          "n": 12,
+          "hit_pct": 100.0,
+          "start": "2026-08-19",
+          "end": "2026-11-19"
+        }
+      },
+      "n_held": 55,
+      "brackets": {
+        "sl": 50.0,
+        "target": 50.0
+      }
+    }
+  },
+  "book": {
+    "1y": {
+      "n": 36,
+      "hit_pct": 86.11,
+      "start": "2025-11-19",
+      "end": "2026-11-19"
+    },
+    "3y": {
+      "n": 55,
+      "hit_pct": 80.0,
+      "start": "2023-11-20",
+      "end": "2026-11-19"
+    },
+    "5y": {
+      "n": 55,
+      "hit_pct": 80.0,
+      "start": "2023-11-20",
+      "end": "2026-11-19"
+    }
+  },
+  "expected": {
+    "1y": {
+      "n": 36,
+      "hit_pct": 86.11
+    },
+    "3y": {
+      "n": 55,
+      "hit_pct": 80.0
+    },
+    "5y": {
+      "n": 55,
+      "hit_pct": 80.0
+    }
+  },
+  "calls_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/sensex_final/champ_plus_t50_sl50_calls.json",
+  "volume_research": {
+    "picks": {
+      "max_n_hit70": {
+        "policy": {
+          "name": "b0.5_s0.55_borNone_c_C4",
+          "buy_min_p": 0.5,
+          "sell_min_p": 0.55,
+          "buy_first_only": true,
+          "sell_first_only": true,
+          "allow_sell_cont": true,
+          "cont_sell_min_p": 0.55,
+          "cont_min_or_ext": 0.1,
+          "cont_max_or_ext": 0.5,
+          "cont_max_mins": 840,
+          "buy_max_or_ext": null,
+          "buy_regimes": [
+            "range",
+            "mixed",
+            "trend",
+            "volatile"
+          ]
+        },
+        "cap": 4,
+        "n_1y": 258,
+        "hit_1y": 80.62,
+        "n_3y": 612,
+        "hit_3y": 77.12,
+        "n_3m": 57,
+        "hit_3m": 89.47,
+        "expect_1y": 30.62,
+        "side_1y": {
+          "BUY": 27,
+          "SELL": 231
+        }
+      },
+      "max_n_hit75": {
+        "policy": {
+          "name": "b0.5_s0.55_borNone_c_C4",
+          "buy_min_p": 0.5,
+          "sell_min_p": 0.55,
+          "buy_first_only": true,
+          "sell_first_only": true,
+          "allow_sell_cont": true,
+          "cont_sell_min_p": 0.55,
+          "cont_min_or_ext": 0.1,
+          "cont_max_or_ext": 0.5,
+          "cont_max_mins": 840,
+          "buy_max_or_ext": null,
+          "buy_regimes": [
+            "range",
+            "mixed",
+            "trend",
+            "volatile"
+          ]
+        },
+        "cap": 4,
+        "n_1y": 258,
+        "hit_1y": 80.62,
+        "n_3y": 612,
+        "hit_3y": 77.12,
+        "n_3m": 57,
+        "hit_3m": 89.47,
+        "expect_1y": 30.62,
+        "side_1y": {
+          "BUY": 27,
+          "SELL": 231
+        }
+      },
+      "max_n_hit80": {
+        "policy": {
+          "name": "b0.5_s0.55_borNone_c_C4",
+          "buy_min_p": 0.5,
+          "sell_min_p": 0.55,
+          "buy_first_only": true,
+          "sell_first_only": true,
+          "allow_sell_cont": true,
+          "cont_sell_min_p": 0.55,
+          "cont_min_or_ext": 0.1,
+          "cont_max_or_ext": 0.5,
+          "cont_max_mins": 840,
+          "buy_max_or_ext": null,
+          "buy_regimes": [
+            "range",
+            "mixed",
+            "trend",
+            "volatile"
+          ]
+        },
+        "cap": 4,
+        "n_1y": 258,
+        "hit_1y": 80.62,
+        "n_3y": 612,
+        "hit_3y": 77.12,
+        "n_3m": 57,
+        "hit_3m": 89.47,
+        "expect_1y": 30.62,
+        "side_1y": {
+          "BUY": 27,
+          "SELL": 231
+        }
+      },
+      "max_n_hit85": {
+        "policy": {
+          "name": "b0.55_s0.55_bor0.25_f_C2",
+          "buy_min_p": 0.55,
+          "sell_min_p": 0.55,
+          "buy_first_only": true,
+          "sell_first_only": true,
+          "allow_sell_cont": false,
+          "cont_sell_min_p": 0.55,
+          "cont_min_or_ext": 0.1,
+          "cont_max_or_ext": 0.5,
+          "cont_max_mins": 840,
+          "buy_max_or_ext": 0.25,
+          "buy_regimes": [
+            "range",
+            "mixed",
+            "trend",
+            "volatile"
+          ]
+        },
+        "cap": 2,
+        "n_1y": 68,
+        "hit_1y": 85.29,
+        "n_3y": 152,
+        "hit_3y": 78.29,
+        "n_3m": 17,
+        "hit_3m": 100.0,
+        "expect_1y": 35.29,
+        "side_1y": {
+          "BUY": 13,
+          "SELL": 55
+        }
+      },
+      "best_hit_n30": {
+        "policy": {
+          "name": "b0.55_s0.65_bor0.25_f_C2",
+          "buy_min_p": 0.55,
+          "sell_min_p": 0.65,
+          "buy_first_only": true,
+          "sell_first_only": true,
+          "allow_sell_cont": false,
+          "cont_sell_min_p": 0.65,
+          "cont_min_or_ext": 0.1,
+          "cont_max_or_ext": 0.5,
+          "cont_max_mins": 840,
+          "buy_max_or_ext": 0.25,
+          "buy_regimes": [
+            "range",
+            "mixed",
+            "trend",
+            "volatile"
+          ]
+        },
+        "cap": 2,
+        "n_1y": 48,
+        "hit_1y": 87.5,
+        "n_3y": 83,
+        "hit_3y": 78.31,
+        "n_3m": 14,
+        "hit_3m": 100.0,
+        "expect_1y": 37.5,
+        "side_1y": {
+          "BUY": 13,
+          "SELL": 35
+        }
+      },
+      "best_hit_n50": {
+        "policy": {
+          "name": "b0.5_s0.65_borNone_f_C2",
+          "buy_min_p": 0.5,
+          "sell_min_p": 0.65,
+          "buy_first_only": true,
+          "sell_first_only": true,
+          "allow_sell_cont": false,
+          "cont_sell_min_p": 0.65,
+          "cont_min_or_ext": 0.1,
+          "cont_max_or_ext": 0.5,
+          "cont_max_mins": 840,
+          "buy_max_or_ext": null,
+          "buy_regimes": [
+            "range",
+            "mixed",
+            "trend",
+            "volatile"
+          ]
+        },
+        "cap": 2,
+        "n_1y": 62,
+        "hit_1y": 85.48,
+        "n_3y": 116,
+        "hit_3y": 77.59,
+        "n_3m": 17,
+        "hit_3m": 100.0,
+        "expect_1y": 35.48,
+        "side_1y": {
+          "BUY": 27,
+          "SELL": 35
+        }
+      },
+      "best_hit_n80": {
+        "policy": {
+          "name": "b0.5_s0.55_borNone_f_C2",
+          "buy_min_p": 0.5,
+          "sell_min_p": 0.55,
+          "buy_first_only": true,
+          "sell_first_only": true,
+          "allow_sell_cont": false,
+          "cont_sell_min_p": 0.55,
+          "cont_min_or_ext": 0.1,
+          "cont_max_or_ext": 0.5,
+          "cont_max_mins": 840,
+          "buy_max_or_ext": null,
+          "buy_regimes": [
+            "range",
+            "mixed",
+            "trend",
+            "volatile"
+          ]
+        },
+        "cap": 2,
+        "n_1y": 82,
+        "hit_1y": 84.15,
+        "n_3y": 185,
+        "hit_3y": 77.84,
+        "n_3m": 20,
+        "hit_3m": 100.0,
+        "expect_1y": 34.15,
+        "side_1y": {
+          "BUY": 27,
+          "SELL": 55
+        }
+      }
+    },
+    "recommended_volume": {
+      "policy": {
+        "name": "b0.5_s0.55_borNone_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 258,
+      "hit_1y": 80.62,
+      "n_3y": 612,
+      "hit_3y": 77.12,
+      "n_3m": 57,
+      "hit_3m": 89.47,
+      "expect_1y": 30.62,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 231
+      }
+    },
+    "note": "Volume desks are research; live hold is ACC100-WIDE \u00b150"
+  },
+  "elapsed_s": 210.6,
+  "base": {
+    "1y": {
+      "n": 36,
+      "hit_pct": 86.11,
+      "wins": 31,
+      "losses": 5,
+      "expect_pts": 36.11,
+      "by_side": {
+        "BUY": 11,
+        "SELL": 25
+      }
+    },
+    "3y": {
+      "n": 55,
+      "hit_pct": 80.0,
+      "wins": 44,
+      "losses": 11,
+      "expect_pts": 30.0,
+      "by_side": {
+        "BUY": 17,
+        "SELL": 38
+      }
+    },
+    "3m": {
+      "n": 12,
+      "hit_pct": 100.0,
+      "wins": 12,
+      "losses": 0,
+      "expect_pts": 50.0,
+      "by_side": {
+        "BUY": 3,
+        "SELL": 9
+      }
+    },
+    "by_month_1y": {
+      "2025-12": {
+        "n": 1,
+        "settled": 1,
+        "hit_pct": 100.0,
+        "wins": 1,
+        "losses": 0
+      },
+      "2026-01": {
+        "n": 4,
+        "settled": 4,
+        "hit_pct": 100.0,
+        "wins": 4,
+        "losses": 0
+      },
+      "2026-02": {
+        "n": 4,
+        "settled": 4,
+        "hit_pct": 50.0,
+        "wins": 2,
+        "losses": 2
+      },
+      "2026-03": {
+        "n": 1,
+        "settled": 1,
+        "hit_pct": 0.0,
+        "wins": 0,
+        "losses": 1
+      },
+      "2026-04": {
+        "n": 2,
+        "settled": 2,
+        "hit_pct": 50.0,
+        "wins": 1,
+        "losses": 1
+      },
+      "2026-05": {
+        "n": 3,
+        "settled": 3,
+        "hit_pct": 100.0,
+        "wins": 3,
+        "losses": 0
+      },
+      "2026-06": {
+        "n": 5,
+        "settled": 5,
+        "hit_pct": 80.0,
+        "wins": 4,
+        "losses": 1
+      },
+      "2026-07": {
+        "n": 1,
+        "settled": 1,
+        "hit_pct": 100.0,
+        "wins": 1,
+        "losses": 0
+      },
+      "2026-08": {
+        "n": 6,
+        "settled": 6,
+        "hit_pct": 100.0,
+        "wins": 6,
+        "losses": 0
+      },
+      "2026-09": {
+        "n": 3,
+        "settled": 3,
+        "hit_pct": 100.0,
+        "wins": 3,
+        "losses": 0
+      },
+      "2026-10": {
+        "n": 6,
+        "settled": 6,
+        "hit_pct": 100.0,
+        "wins": 6,
+        "losses": 0
+      }
+    }
+  },
+  "volume_picks": {
+    "max_n_hit70": {
+      "policy": {
+        "name": "b0.5_s0.55_borNone_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 258,
+      "hit_1y": 80.62,
+      "n_3y": 612,
+      "hit_3y": 77.12,
+      "n_3m": 57,
+      "hit_3m": 89.47,
+      "expect_1y": 30.62,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 231
+      }
+    },
+    "max_n_hit75": {
+      "policy": {
+        "name": "b0.5_s0.55_borNone_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 258,
+      "hit_1y": 80.62,
+      "n_3y": 612,
+      "hit_3y": 77.12,
+      "n_3m": 57,
+      "hit_3m": 89.47,
+      "expect_1y": 30.62,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 231
+      }
+    },
+    "max_n_hit80": {
+      "policy": {
+        "name": "b0.5_s0.55_borNone_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 258,
+      "hit_1y": 80.62,
+      "n_3y": 612,
+      "hit_3y": 77.12,
+      "n_3m": 57,
+      "hit_3m": 89.47,
+      "expect_1y": 30.62,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 231
+      }
+    },
+    "max_n_hit85": {
+      "policy": {
+        "name": "b0.55_s0.55_bor0.25_f_C2",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.25,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 2,
+      "n_1y": 68,
+      "hit_1y": 85.29,
+      "n_3y": 152,
+      "hit_3y": 78.29,
+      "n_3m": 17,
+      "hit_3m": 100.0,
+      "expect_1y": 35.29,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 55
+      }
+    },
+    "best_hit_n30": {
+      "policy": {
+        "name": "b0.55_s0.65_bor0.25_f_C2",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.25,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 2,
+      "n_1y": 48,
+      "hit_1y": 87.5,
+      "n_3y": 83,
+      "hit_3y": 78.31,
+      "n_3m": 14,
+      "hit_3m": 100.0,
+      "expect_1y": 37.5,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 35
+      }
+    },
+    "best_hit_n50": {
+      "policy": {
+        "name": "b0.5_s0.65_borNone_f_C2",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.65,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.65,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 2,
+      "n_1y": 62,
+      "hit_1y": 85.48,
+      "n_3y": 116,
+      "hit_3y": 77.59,
+      "n_3m": 17,
+      "hit_3m": 100.0,
+      "expect_1y": 35.48,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 35
+      }
+    },
+    "best_hit_n80": {
+      "policy": {
+        "name": "b0.5_s0.55_borNone_f_C2",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": false,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 2,
+      "n_1y": 82,
+      "hit_1y": 84.15,
+      "n_3y": 185,
+      "hit_3y": 77.84,
+      "n_3m": 20,
+      "hit_3m": 100.0,
+      "expect_1y": 34.15,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 55
+      }
+    }
+  },
+  "top_hit80": [
+    {
+      "policy": {
+        "name": "b0.5_s0.55_borNone_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 258,
+      "hit_1y": 80.62,
+      "n_3y": 612,
+      "hit_3y": 77.12,
+      "n_3m": 57,
+      "hit_3m": 89.47,
+      "expect_1y": 30.62,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.52_s0.55_borNone_c_C4",
+        "buy_min_p": 0.52,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 258,
+      "hit_1y": 80.62,
+      "n_3y": 612,
+      "hit_3y": 77.12,
+      "n_3m": 57,
+      "hit_3m": 89.47,
+      "expect_1y": 30.62,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.55_bor0.4_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.4,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 257,
+      "hit_1y": 80.54,
+      "n_3y": 610,
+      "hit_3y": 77.05,
+      "n_3m": 56,
+      "hit_3m": 89.29,
+      "expect_1y": 30.54,
+      "side_1y": {
+        "BUY": 26,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.52_s0.55_bor0.4_c_C4",
+        "buy_min_p": 0.52,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.4,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 257,
+      "hit_1y": 80.54,
+      "n_3y": 610,
+      "hit_3y": 77.05,
+      "n_3m": 56,
+      "hit_3m": 89.29,
+      "expect_1y": 30.54,
+      "side_1y": {
+        "BUY": 26,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.55_bor0.25_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.25,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 254,
+      "hit_1y": 80.31,
+      "n_3y": 601,
+      "hit_3y": 77.2,
+      "n_3m": 55,
+      "hit_3m": 89.09,
+      "expect_1y": 30.31,
+      "side_1y": {
+        "BUY": 23,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.52_s0.55_bor0.25_c_C4",
+        "buy_min_p": 0.52,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.25,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 254,
+      "hit_1y": 80.31,
+      "n_3y": 601,
+      "hit_3y": 77.2,
+      "n_3m": 55,
+      "hit_3m": 89.09,
+      "expect_1y": 30.31,
+      "side_1y": {
+        "BUY": 23,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.55_bor0.15_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.15,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 247,
+      "hit_1y": 80.16,
+      "n_3y": 588,
+      "hit_3y": 77.04,
+      "n_3m": 54,
+      "hit_3m": 88.89,
+      "expect_1y": 30.16,
+      "side_1y": {
+        "BUY": 16,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.52_s0.55_bor0.15_c_C4",
+        "buy_min_p": 0.52,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.15,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 247,
+      "hit_1y": 80.16,
+      "n_3y": 588,
+      "hit_3y": 77.04,
+      "n_3m": 54,
+      "hit_3m": 88.89,
+      "expect_1y": 30.16,
+      "side_1y": {
+        "BUY": 16,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_bor0.25_c_C4",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.25,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 244,
+      "hit_1y": 80.74,
+      "n_3y": 579,
+      "hit_3y": 77.2,
+      "n_3m": 54,
+      "hit_3m": 88.89,
+      "expect_1y": 30.74,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_bor0.4_c_C4",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.4,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 244,
+      "hit_1y": 80.74,
+      "n_3y": 580,
+      "hit_3y": 77.24,
+      "n_3m": 54,
+      "hit_3m": 88.89,
+      "expect_1y": 30.74,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_borNone_c_C4",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 244,
+      "hit_1y": 80.74,
+      "n_3y": 580,
+      "hit_3y": 77.24,
+      "n_3m": 54,
+      "hit_3m": 88.89,
+      "expect_1y": 30.74,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_bor0.15_c_C4",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.15,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 242,
+      "hit_1y": 80.58,
+      "n_3y": 575,
+      "hit_3y": 77.22,
+      "n_3m": 53,
+      "hit_3m": 88.68,
+      "expect_1y": 30.58,
+      "side_1y": {
+        "BUY": 11,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_bor0.25_c_C2",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.25,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 2,
+      "n_1y": 185,
+      "hit_1y": 80.0,
+      "n_3y": 428,
+      "hit_3y": 77.1,
+      "n_3m": 40,
+      "hit_3m": 90.0,
+      "expect_1y": 30.0,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 172
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_bor0.4_c_C2",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.4,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 2,
+      "n_1y": 185,
+      "hit_1y": 80.0,
+      "n_3y": 429,
+      "hit_3y": 77.16,
+      "n_3m": 40,
+      "hit_3m": 90.0,
+      "expect_1y": 30.0,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 172
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_borNone_c_C2",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 2,
+      "n_1y": 185,
+      "hit_1y": 80.0,
+      "n_3y": 429,
+      "hit_3y": 77.16,
+      "n_3m": 40,
+      "hit_3m": 90.0,
+      "expect_1y": 30.0,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 172
+      }
+    }
+  ],
+  "top_vol": [
+    {
+      "policy": {
+        "name": "b0.5_s0.55_borNone_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 258,
+      "hit_1y": 80.62,
+      "n_3y": 612,
+      "hit_3y": 77.12,
+      "n_3m": 57,
+      "hit_3m": 89.47,
+      "expect_1y": 30.62,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.52_s0.55_borNone_c_C4",
+        "buy_min_p": 0.52,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 258,
+      "hit_1y": 80.62,
+      "n_3y": 612,
+      "hit_3y": 77.12,
+      "n_3m": 57,
+      "hit_3m": 89.47,
+      "expect_1y": 30.62,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.55_bor0.4_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.4,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 257,
+      "hit_1y": 80.54,
+      "n_3y": 610,
+      "hit_3y": 77.05,
+      "n_3m": 56,
+      "hit_3m": 89.29,
+      "expect_1y": 30.54,
+      "side_1y": {
+        "BUY": 26,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.52_s0.55_bor0.4_c_C4",
+        "buy_min_p": 0.52,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.4,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 257,
+      "hit_1y": 80.54,
+      "n_3y": 610,
+      "hit_3y": 77.05,
+      "n_3m": 56,
+      "hit_3m": 89.29,
+      "expect_1y": 30.54,
+      "side_1y": {
+        "BUY": 26,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.55_bor0.25_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.25,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 254,
+      "hit_1y": 80.31,
+      "n_3y": 601,
+      "hit_3y": 77.2,
+      "n_3m": 55,
+      "hit_3m": 89.09,
+      "expect_1y": 30.31,
+      "side_1y": {
+        "BUY": 23,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.52_s0.55_bor0.25_c_C4",
+        "buy_min_p": 0.52,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.25,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 254,
+      "hit_1y": 80.31,
+      "n_3y": 601,
+      "hit_3y": 77.2,
+      "n_3m": 55,
+      "hit_3m": 89.09,
+      "expect_1y": 30.31,
+      "side_1y": {
+        "BUY": 23,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.55_bor0.15_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.15,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 247,
+      "hit_1y": 80.16,
+      "n_3y": 588,
+      "hit_3y": 77.04,
+      "n_3m": 54,
+      "hit_3m": 88.89,
+      "expect_1y": 30.16,
+      "side_1y": {
+        "BUY": 16,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.52_s0.55_bor0.15_c_C4",
+        "buy_min_p": 0.52,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.15,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 247,
+      "hit_1y": 80.16,
+      "n_3y": 588,
+      "hit_3y": 77.04,
+      "n_3m": 54,
+      "hit_3m": 88.89,
+      "expect_1y": 30.16,
+      "side_1y": {
+        "BUY": 16,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_bor0.25_c_C4",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.25,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 244,
+      "hit_1y": 80.74,
+      "n_3y": 579,
+      "hit_3y": 77.2,
+      "n_3m": 54,
+      "hit_3m": 88.89,
+      "expect_1y": 30.74,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_bor0.4_c_C4",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.4,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 244,
+      "hit_1y": 80.74,
+      "n_3y": 580,
+      "hit_3y": 77.24,
+      "n_3m": 54,
+      "hit_3m": 88.89,
+      "expect_1y": 30.74,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_borNone_c_C4",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 244,
+      "hit_1y": 80.74,
+      "n_3y": 580,
+      "hit_3y": 77.24,
+      "n_3m": 54,
+      "hit_3m": 88.89,
+      "expect_1y": 30.74,
+      "side_1y": {
+        "BUY": 13,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.55_s0.55_bor0.15_c_C4",
+        "buy_min_p": 0.55,
+        "sell_min_p": 0.55,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.55,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.15,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 242,
+      "hit_1y": 80.58,
+      "n_3y": 575,
+      "hit_3y": 77.22,
+      "n_3m": 53,
+      "hit_3m": 88.68,
+      "expect_1y": 30.58,
+      "side_1y": {
+        "BUY": 11,
+        "SELL": 231
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.58_borNone_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.58,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.58,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 237,
+      "hit_1y": 79.75,
+      "n_3y": 571,
+      "hit_3y": 76.53,
+      "n_3m": 53,
+      "hit_3m": 90.57,
+      "expect_1y": 29.75,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 210
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.52_s0.58_borNone_c_C4",
+        "buy_min_p": 0.52,
+        "sell_min_p": 0.58,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.58,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": null,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 237,
+      "hit_1y": 79.75,
+      "n_3y": 571,
+      "hit_3y": 76.53,
+      "n_3m": 53,
+      "hit_3m": 90.57,
+      "expect_1y": 29.75,
+      "side_1y": {
+        "BUY": 27,
+        "SELL": 210
+      }
+    },
+    {
+      "policy": {
+        "name": "b0.5_s0.58_bor0.4_c_C4",
+        "buy_min_p": 0.5,
+        "sell_min_p": 0.58,
+        "buy_first_only": true,
+        "sell_first_only": true,
+        "allow_sell_cont": true,
+        "cont_sell_min_p": 0.58,
+        "cont_min_or_ext": 0.1,
+        "cont_max_or_ext": 0.5,
+        "cont_max_mins": 840,
+        "buy_max_or_ext": 0.4,
+        "buy_regimes": [
+          "range",
+          "mixed",
+          "trend",
+          "volatile"
+        ]
+      },
+      "cap": 4,
+      "n_1y": 236,
+      "hit_1y": 79.66,
+      "n_3y": 569,
+      "hit_3y": 76.45,
+      "n_3m": 52,
+      "hit_3m": 90.38,
+      "expect_1y": 29.66,
+      "side_1y": {
+        "BUY": 26,
+        "SELL": 210
+      }
+    }
+  ]
+}

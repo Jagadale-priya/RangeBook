@@ -1,0 +1,841 @@
+{
+  "desk": "SENSEX_DUAL_FB_BF20_T50",
+  "logic": {
+    "dual": "p_t1>=0.45 all OR-break \u00b7 no or_ext \u00b7 sell cont",
+    "fallback": "OR break-only break_frac>=0.2",
+    "combine": "same hm+side \u2192 1 COMBINED call",
+    "clip": {
+      "sl": 50.0,
+      "t1": 50.0
+    }
+  },
+  "window": {
+    "start": "2021-01-01",
+    "end": "2026-10-30"
+  },
+  "tape": "C:/Users/Priyanka/Agent/stock_signal_data/fno_validate/SENSEX_15m_12y.csv",
+  "overall": {
+    "n": 5271,
+    "sessions": 1446,
+    "days_with_call": 1122,
+    "hit_pct": 43.77,
+    "wins": 2307,
+    "losses": 2964,
+    "dual_only": 4860,
+    "fallback_only": 249,
+    "combined": 162,
+    "points": -32850.0
+  },
+  "by_year": {
+    "2021": {
+      "n": 897,
+      "hit_pct": 45.6,
+      "wins": 409,
+      "losses": 488,
+      "dual_only": 833,
+      "fallback_only": 39,
+      "combined": 25,
+      "points": -3950.0
+    },
+    "2022": {
+      "n": 928,
+      "hit_pct": 42.13,
+      "wins": 391,
+      "losses": 537,
+      "dual_only": 849,
+      "fallback_only": 43,
+      "combined": 36,
+      "points": -7300.0
+    },
+    "2023": {
+      "n": 896,
+      "hit_pct": 47.1,
+      "wins": 422,
+      "losses": 474,
+      "dual_only": 828,
+      "fallback_only": 42,
+      "combined": 26,
+      "points": -2600.0
+    },
+    "2024": {
+      "n": 931,
+      "hit_pct": 38.67,
+      "wins": 360,
+      "losses": 571,
+      "dual_only": 850,
+      "fallback_only": 52,
+      "combined": 29,
+      "points": -10550.0
+    },
+    "2025": {
+      "n": 890,
+      "hit_pct": 43.37,
+      "wins": 386,
+      "losses": 504,
+      "dual_only": 814,
+      "fallback_only": 48,
+      "combined": 28,
+      "points": -5900.0
+    },
+    "2026": {
+      "n": 729,
+      "hit_pct": 46.5,
+      "wins": 339,
+      "losses": 390,
+      "dual_only": 686,
+      "fallback_only": 25,
+      "combined": 18,
+      "points": -2550.0
+    }
+  },
+  "by_month": {
+    "2021-01": {
+      "n": 98,
+      "hit_pct": 43.88,
+      "wins": 43,
+      "losses": 55,
+      "dual_only": 93,
+      "fallback_only": 3,
+      "combined": 2,
+      "points": -600.0
+    },
+    "2021-02": {
+      "n": 58,
+      "hit_pct": 41.38,
+      "wins": 24,
+      "losses": 34,
+      "dual_only": 54,
+      "fallback_only": 2,
+      "combined": 2,
+      "points": -500.0
+    },
+    "2021-03": {
+      "n": 100,
+      "hit_pct": 45.0,
+      "wins": 45,
+      "losses": 55,
+      "dual_only": 96,
+      "fallback_only": 3,
+      "combined": 1,
+      "points": -500.0
+    },
+    "2021-04": {
+      "n": 57,
+      "hit_pct": 56.14,
+      "wins": 32,
+      "losses": 25,
+      "dual_only": 50,
+      "fallback_only": 5,
+      "combined": 2,
+      "points": 350.0
+    },
+    "2021-05": {
+      "n": 49,
+      "hit_pct": 42.86,
+      "wins": 21,
+      "losses": 28,
+      "dual_only": 45,
+      "fallback_only": 2,
+      "combined": 2,
+      "points": -350.0
+    },
+    "2021-06": {
+      "n": 87,
+      "hit_pct": 43.68,
+      "wins": 38,
+      "losses": 49,
+      "dual_only": 83,
+      "fallback_only": 2,
+      "combined": 2,
+      "points": -550.0
+    },
+    "2021-07": {
+      "n": 66,
+      "hit_pct": 53.03,
+      "wins": 35,
+      "losses": 31,
+      "dual_only": 62,
+      "fallback_only": 2,
+      "combined": 2,
+      "points": 200.0
+    },
+    "2021-08": {
+      "n": 51,
+      "hit_pct": 43.14,
+      "wins": 22,
+      "losses": 29,
+      "dual_only": 45,
+      "fallback_only": 4,
+      "combined": 2,
+      "points": -350.0
+    },
+    "2021-09": {
+      "n": 90,
+      "hit_pct": 43.33,
+      "wins": 39,
+      "losses": 51,
+      "dual_only": 83,
+      "fallback_only": 4,
+      "combined": 3,
+      "points": -600.0
+    },
+    "2021-10": {
+      "n": 55,
+      "hit_pct": 43.64,
+      "wins": 24,
+      "losses": 31,
+      "dual_only": 50,
+      "fallback_only": 3,
+      "combined": 2,
+      "points": -350.0
+    },
+    "2021-11": {
+      "n": 83,
+      "hit_pct": 43.37,
+      "wins": 36,
+      "losses": 47,
+      "dual_only": 80,
+      "fallback_only": 3,
+      "combined": 0,
+      "points": -550.0
+    },
+    "2021-12": {
+      "n": 103,
+      "hit_pct": 48.54,
+      "wins": 50,
+      "losses": 53,
+      "dual_only": 92,
+      "fallback_only": 6,
+      "combined": 5,
+      "points": -150.0
+    },
+    "2022-01": {
+      "n": 72,
+      "hit_pct": 45.83,
+      "wins": 33,
+      "losses": 39,
+      "dual_only": 65,
+      "fallback_only": 4,
+      "combined": 3,
+      "points": -300.0
+    },
+    "2022-02": {
+      "n": 78,
+      "hit_pct": 46.15,
+      "wins": 36,
+      "losses": 42,
+      "dual_only": 74,
+      "fallback_only": 3,
+      "combined": 1,
+      "points": -300.0
+    },
+    "2022-03": {
+      "n": 85,
+      "hit_pct": 37.65,
+      "wins": 32,
+      "losses": 53,
+      "dual_only": 79,
+      "fallback_only": 3,
+      "combined": 3,
+      "points": -1050.0
+    },
+    "2022-04": {
+      "n": 64,
+      "hit_pct": 40.62,
+      "wins": 26,
+      "losses": 38,
+      "dual_only": 59,
+      "fallback_only": 3,
+      "combined": 2,
+      "points": -600.0
+    },
+    "2022-05": {
+      "n": 93,
+      "hit_pct": 40.86,
+      "wins": 38,
+      "losses": 55,
+      "dual_only": 88,
+      "fallback_only": 2,
+      "combined": 3,
+      "points": -850.0
+    },
+    "2022-06": {
+      "n": 82,
+      "hit_pct": 29.27,
+      "wins": 24,
+      "losses": 58,
+      "dual_only": 75,
+      "fallback_only": 5,
+      "combined": 2,
+      "points": -1700.0
+    },
+    "2022-07": {
+      "n": 62,
+      "hit_pct": 45.16,
+      "wins": 28,
+      "losses": 34,
+      "dual_only": 54,
+      "fallback_only": 4,
+      "combined": 4,
+      "points": -300.0
+    },
+    "2022-08": {
+      "n": 65,
+      "hit_pct": 35.38,
+      "wins": 23,
+      "losses": 42,
+      "dual_only": 60,
+      "fallback_only": 3,
+      "combined": 2,
+      "points": -950.0
+    },
+    "2022-09": {
+      "n": 80,
+      "hit_pct": 45.0,
+      "wins": 36,
+      "losses": 44,
+      "dual_only": 69,
+      "fallback_only": 6,
+      "combined": 5,
+      "points": -400.0
+    },
+    "2022-10": {
+      "n": 64,
+      "hit_pct": 51.56,
+      "wins": 33,
+      "losses": 31,
+      "dual_only": 60,
+      "fallback_only": 1,
+      "combined": 3,
+      "points": 100.0
+    },
+    "2022-11": {
+      "n": 77,
+      "hit_pct": 42.86,
+      "wins": 33,
+      "losses": 44,
+      "dual_only": 68,
+      "fallback_only": 5,
+      "combined": 4,
+      "points": -550.0
+    },
+    "2022-12": {
+      "n": 106,
+      "hit_pct": 46.23,
+      "wins": 49,
+      "losses": 57,
+      "dual_only": 98,
+      "fallback_only": 4,
+      "combined": 4,
+      "points": -400.0
+    },
+    "2023-01": {
+      "n": 109,
+      "hit_pct": 53.21,
+      "wins": 58,
+      "losses": 51,
+      "dual_only": 100,
+      "fallback_only": 6,
+      "combined": 3,
+      "points": 350.0
+    },
+    "2023-02": {
+      "n": 95,
+      "hit_pct": 48.42,
+      "wins": 46,
+      "losses": 49,
+      "dual_only": 88,
+      "fallback_only": 4,
+      "combined": 3,
+      "points": -150.0
+    },
+    "2023-03": {
+      "n": 101,
+      "hit_pct": 49.5,
+      "wins": 50,
+      "losses": 51,
+      "dual_only": 92,
+      "fallback_only": 4,
+      "combined": 5,
+      "points": -50.0
+    },
+    "2023-04": {
+      "n": 42,
+      "hit_pct": 38.1,
+      "wins": 16,
+      "losses": 26,
+      "dual_only": 38,
+      "fallback_only": 2,
+      "combined": 2,
+      "points": -500.0
+    },
+    "2023-05": {
+      "n": 63,
+      "hit_pct": 57.14,
+      "wins": 36,
+      "losses": 27,
+      "dual_only": 58,
+      "fallback_only": 2,
+      "combined": 3,
+      "points": 450.0
+    },
+    "2023-06": {
+      "n": 64,
+      "hit_pct": 51.56,
+      "wins": 33,
+      "losses": 31,
+      "dual_only": 60,
+      "fallback_only": 3,
+      "combined": 1,
+      "points": 100.0
+    },
+    "2023-07": {
+      "n": 66,
+      "hit_pct": 48.48,
+      "wins": 32,
+      "losses": 34,
+      "dual_only": 59,
+      "fallback_only": 4,
+      "combined": 3,
+      "points": -100.0
+    },
+    "2023-08": {
+      "n": 100,
+      "hit_pct": 38.0,
+      "wins": 38,
+      "losses": 62,
+      "dual_only": 98,
+      "fallback_only": 1,
+      "combined": 1,
+      "points": -1200.0
+    },
+    "2023-09": {
+      "n": 82,
+      "hit_pct": 53.66,
+      "wins": 44,
+      "losses": 38,
+      "dual_only": 76,
+      "fallback_only": 4,
+      "combined": 2,
+      "points": 300.0
+    },
+    "2023-10": {
+      "n": 68,
+      "hit_pct": 41.18,
+      "wins": 28,
+      "losses": 40,
+      "dual_only": 61,
+      "fallback_only": 4,
+      "combined": 3,
+      "points": -600.0
+    },
+    "2023-11": {
+      "n": 52,
+      "hit_pct": 32.69,
+      "wins": 17,
+      "losses": 35,
+      "dual_only": 50,
+      "fallback_only": 2,
+      "combined": 0,
+      "points": -900.0
+    },
+    "2023-12": {
+      "n": 54,
+      "hit_pct": 44.44,
+      "wins": 24,
+      "losses": 30,
+      "dual_only": 48,
+      "fallback_only": 6,
+      "combined": 0,
+      "points": -300.0
+    },
+    "2024-01": {
+      "n": 100,
+      "hit_pct": 36.0,
+      "wins": 36,
+      "losses": 64,
+      "dual_only": 92,
+      "fallback_only": 5,
+      "combined": 3,
+      "points": -1400.0
+    },
+    "2024-02": {
+      "n": 78,
+      "hit_pct": 41.03,
+      "wins": 32,
+      "losses": 46,
+      "dual_only": 71,
+      "fallback_only": 2,
+      "combined": 5,
+      "points": -700.0
+    },
+    "2024-03": {
+      "n": 56,
+      "hit_pct": 46.43,
+      "wins": 26,
+      "losses": 30,
+      "dual_only": 48,
+      "fallback_only": 4,
+      "combined": 4,
+      "points": -200.0
+    },
+    "2024-04": {
+      "n": 63,
+      "hit_pct": 47.62,
+      "wins": 30,
+      "losses": 33,
+      "dual_only": 58,
+      "fallback_only": 4,
+      "combined": 1,
+      "points": -150.0
+    },
+    "2024-05": {
+      "n": 101,
+      "hit_pct": 38.61,
+      "wins": 39,
+      "losses": 62,
+      "dual_only": 93,
+      "fallback_only": 4,
+      "combined": 4,
+      "points": -1150.0
+    },
+    "2024-06": {
+      "n": 44,
+      "hit_pct": 22.73,
+      "wins": 10,
+      "losses": 34,
+      "dual_only": 41,
+      "fallback_only": 2,
+      "combined": 1,
+      "points": -1200.0
+    },
+    "2024-07": {
+      "n": 67,
+      "hit_pct": 29.85,
+      "wins": 20,
+      "losses": 47,
+      "dual_only": 61,
+      "fallback_only": 6,
+      "combined": 0,
+      "points": -1350.0
+    },
+    "2024-08": {
+      "n": 60,
+      "hit_pct": 38.33,
+      "wins": 23,
+      "losses": 37,
+      "dual_only": 53,
+      "fallback_only": 6,
+      "combined": 1,
+      "points": -700.0
+    },
+    "2024-09": {
+      "n": 77,
+      "hit_pct": 36.36,
+      "wins": 28,
+      "losses": 49,
+      "dual_only": 68,
+      "fallback_only": 6,
+      "combined": 3,
+      "points": -1050.0
+    },
+    "2024-10": {
+      "n": 113,
+      "hit_pct": 41.59,
+      "wins": 47,
+      "losses": 66,
+      "dual_only": 106,
+      "fallback_only": 5,
+      "combined": 2,
+      "points": -950.0
+    },
+    "2024-11": {
+      "n": 85,
+      "hit_pct": 35.29,
+      "wins": 30,
+      "losses": 55,
+      "dual_only": 80,
+      "fallback_only": 3,
+      "combined": 2,
+      "points": -1250.0
+    },
+    "2024-12": {
+      "n": 87,
+      "hit_pct": 44.83,
+      "wins": 39,
+      "losses": 48,
+      "dual_only": 79,
+      "fallback_only": 5,
+      "combined": 3,
+      "points": -450.0
+    },
+    "2025-01": {
+      "n": 98,
+      "hit_pct": 42.86,
+      "wins": 42,
+      "losses": 56,
+      "dual_only": 87,
+      "fallback_only": 7,
+      "combined": 4,
+      "points": -700.0
+    },
+    "2025-02": {
+      "n": 96,
+      "hit_pct": 35.42,
+      "wins": 34,
+      "losses": 62,
+      "dual_only": 87,
+      "fallback_only": 5,
+      "combined": 4,
+      "points": -1400.0
+    },
+    "2025-03": {
+      "n": 68,
+      "hit_pct": 47.06,
+      "wins": 32,
+      "losses": 36,
+      "dual_only": 60,
+      "fallback_only": 5,
+      "combined": 3,
+      "points": -200.0
+    },
+    "2025-04": {
+      "n": 47,
+      "hit_pct": 38.3,
+      "wins": 18,
+      "losses": 29,
+      "dual_only": 43,
+      "fallback_only": 2,
+      "combined": 2,
+      "points": -550.0
+    },
+    "2025-05": {
+      "n": 75,
+      "hit_pct": 32.0,
+      "wins": 24,
+      "losses": 51,
+      "dual_only": 67,
+      "fallback_only": 6,
+      "combined": 2,
+      "points": -1350.0
+    },
+    "2025-06": {
+      "n": 57,
+      "hit_pct": 47.37,
+      "wins": 27,
+      "losses": 30,
+      "dual_only": 51,
+      "fallback_only": 4,
+      "combined": 2,
+      "points": -150.0
+    },
+    "2025-07": {
+      "n": 102,
+      "hit_pct": 51.96,
+      "wins": 53,
+      "losses": 49,
+      "dual_only": 99,
+      "fallback_only": 2,
+      "combined": 1,
+      "points": 200.0
+    },
+    "2025-08": {
+      "n": 62,
+      "hit_pct": 41.94,
+      "wins": 26,
+      "losses": 36,
+      "dual_only": 57,
+      "fallback_only": 2,
+      "combined": 3,
+      "points": -500.0
+    },
+    "2025-09": {
+      "n": 86,
+      "hit_pct": 46.51,
+      "wins": 40,
+      "losses": 46,
+      "dual_only": 80,
+      "fallback_only": 5,
+      "combined": 1,
+      "points": -300.0
+    },
+    "2025-10": {
+      "n": 61,
+      "hit_pct": 40.98,
+      "wins": 25,
+      "losses": 36,
+      "dual_only": 54,
+      "fallback_only": 5,
+      "combined": 2,
+      "points": -550.0
+    },
+    "2025-11": {
+      "n": 41,
+      "hit_pct": 41.46,
+      "wins": 17,
+      "losses": 24,
+      "dual_only": 38,
+      "fallback_only": 3,
+      "combined": 0,
+      "points": -350.0
+    },
+    "2025-12": {
+      "n": 97,
+      "hit_pct": 49.48,
+      "wins": 48,
+      "losses": 49,
+      "dual_only": 91,
+      "fallback_only": 2,
+      "combined": 4,
+      "points": -50.0
+    },
+    "2026-01": {
+      "n": 69,
+      "hit_pct": 47.83,
+      "wins": 33,
+      "losses": 36,
+      "dual_only": 66,
+      "fallback_only": 1,
+      "combined": 2,
+      "points": -150.0
+    },
+    "2026-02": {
+      "n": 85,
+      "hit_pct": 35.29,
+      "wins": 30,
+      "losses": 55,
+      "dual_only": 80,
+      "fallback_only": 2,
+      "combined": 3,
+      "points": -1250.0
+    },
+    "2026-03": {
+      "n": 62,
+      "hit_pct": 38.71,
+      "wins": 24,
+      "losses": 38,
+      "dual_only": 59,
+      "fallback_only": 1,
+      "combined": 2,
+      "points": -700.0
+    },
+    "2026-04": {
+      "n": 67,
+      "hit_pct": 40.3,
+      "wins": 27,
+      "losses": 40,
+      "dual_only": 59,
+      "fallback_only": 5,
+      "combined": 3,
+      "points": -650.0
+    },
+    "2026-05": {
+      "n": 63,
+      "hit_pct": 44.44,
+      "wins": 28,
+      "losses": 35,
+      "dual_only": 58,
+      "fallback_only": 3,
+      "combined": 2,
+      "points": -350.0
+    },
+    "2026-06": {
+      "n": 81,
+      "hit_pct": 46.91,
+      "wins": 38,
+      "losses": 43,
+      "dual_only": 75,
+      "fallback_only": 2,
+      "combined": 4,
+      "points": -250.0
+    },
+    "2026-07": {
+      "n": 48,
+      "hit_pct": 47.92,
+      "wins": 23,
+      "losses": 25,
+      "dual_only": 44,
+      "fallback_only": 4,
+      "combined": 0,
+      "points": -100.0
+    },
+    "2026-08": {
+      "n": 94,
+      "hit_pct": 53.19,
+      "wins": 50,
+      "losses": 44,
+      "dual_only": 92,
+      "fallback_only": 2,
+      "combined": 0,
+      "points": 300.0
+    },
+    "2026-09": {
+      "n": 77,
+      "hit_pct": 58.44,
+      "wins": 45,
+      "losses": 32,
+      "dual_only": 76,
+      "fallback_only": 0,
+      "combined": 1,
+      "points": 650.0
+    },
+    "2026-10": {
+      "n": 83,
+      "hit_pct": 49.4,
+      "wins": 41,
+      "losses": 42,
+      "dual_only": 77,
+      "fallback_only": 5,
+      "combined": 1,
+      "points": -50.0
+    }
+  },
+  "overlap_5m_vs_15m": {
+    "window": {
+      "start": "2024-05-16",
+      "end": "2026-10-30"
+    },
+    "on_5m": {
+      "n": 2286,
+      "sessions": 610,
+      "days_with_call": 497,
+      "hit_pct": 73.93,
+      "wins": 1690,
+      "losses": 596,
+      "dual_only": 2043,
+      "fallback_only": 189,
+      "combined": 54,
+      "points": 54700.0
+    },
+    "on_15m": {
+      "n": 2205,
+      "sessions": 611,
+      "days_with_call": 472,
+      "hit_pct": 42.81,
+      "wins": 944,
+      "losses": 1261,
+      "dual_only": 2037,
+      "fallback_only": 108,
+      "combined": 60,
+      "points": -15850.0
+    }
+  },
+  "prior_2018_2020": {
+    "n": 2582,
+    "sessions": 697,
+    "days_with_call": 535,
+    "hit_pct": 49.26,
+    "wins": 1272,
+    "losses": 1310,
+    "dual_only": 2404,
+    "fallback_only": 125,
+    "combined": 53,
+    "points": -1900.0
+  },
+  "why_inconsistent": [
+    "Lock metrics (~77% 1y) were path-scored on 5m kite; 2018-2020 used 15m_12y only.",
+    "Fixed \u00b150 pts is a larger % of Sensex in 2018-20 (~35k) than 2024-26 (~75k+).",
+    "Dual packs/candidates are modern-era models; older regimes (esp. 2020 crash) differ.",
+    "OR on 15m first bar \u2260 5m opening-range used in live research."
+  ]
+}

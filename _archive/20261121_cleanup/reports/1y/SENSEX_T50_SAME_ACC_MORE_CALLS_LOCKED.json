@@ -1,0 +1,675 @@
+{
+  "symbol": "SENSEX",
+  "version": "t50_same_acc_more",
+  "locked_clip": {
+    "sl": 50.0,
+    "t1": 50.0
+  },
+  "policy": {
+    "name": "HOLD_T50_SAME_ACC_MORE",
+    "buy_min_p": 0.55,
+    "sell_min_p": 0.62,
+    "buy_first_only": true,
+    "sell_first_only": true,
+    "allow_sell_cont": false,
+    "buy_max_or_ext": 0.1,
+    "buy_regimes": [
+      "range",
+      "mixed",
+      "trend",
+      "volatile"
+    ]
+  },
+  "desks": {
+    "champ_plus": {
+      "desk": "SENSEX_CHAMP_PLUS_T50SL50_CAP3",
+      "accurate_tag": "SENSEX_CHAMP_PLUS_T50SL50_CAP3",
+      "accuracy_tag": "ACC_RANGE_80_100",
+      "accuracy_lo": 80.43,
+      "accuracy_hi": 100.0,
+      "windows": {
+        "1y": {
+          "n": 61,
+          "hit_pct": 86.89,
+          "start": "2025-11-19",
+          "end": "2026-11-19"
+        },
+        "3y": {
+          "n": 138,
+          "hit_pct": 80.43,
+          "start": "2023-11-20",
+          "end": "2026-11-19"
+        },
+        "5y": {
+          "n": 138,
+          "hit_pct": 80.43,
+          "start": "2023-11-20",
+          "end": "2026-11-19"
+        },
+        "3m": {
+          "n": 15,
+          "hit_pct": 100.0,
+          "start": "2026-08-19",
+          "end": "2026-11-19"
+        }
+      },
+      "n_held": 138,
+      "brackets": {
+        "sl": 50.0,
+        "target": 50.0
+      }
+    }
+  },
+  "book": {
+    "1y": {
+      "n": 61,
+      "hit_pct": 86.89,
+      "start": "2025-11-19",
+      "end": "2026-11-19"
+    },
+    "3y": {
+      "n": 138,
+      "hit_pct": 80.43,
+      "start": "2023-11-20",
+      "end": "2026-11-19"
+    },
+    "5y": {
+      "n": 138,
+      "hit_pct": 80.43,
+      "start": "2023-11-20",
+      "end": "2026-11-19"
+    }
+  },
+  "expected": {
+    "1y": {
+      "n": 61,
+      "hit_pct": 86.89
+    },
+    "3y": {
+      "n": 138,
+      "hit_pct": 80.43
+    },
+    "5y": {
+      "n": 138,
+      "hit_pct": 80.43
+    }
+  },
+  "calls_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/sensex_final/champ_plus_t50_sl50_calls.json",
+  "elapsed_s": 0.5,
+  "by_month_1y": {
+    "2025-11": {
+      "n": 1,
+      "settled": 1,
+      "hit_pct": 100.0,
+      "wins": 1,
+      "losses": 0
+    },
+    "2025-12": {
+      "n": 6,
+      "settled": 6,
+      "hit_pct": 83.33,
+      "wins": 5,
+      "losses": 1
+    },
+    "2026-01": {
+      "n": 5,
+      "settled": 5,
+      "hit_pct": 100.0,
+      "wins": 5,
+      "losses": 0
+    },
+    "2026-02": {
+      "n": 6,
+      "settled": 6,
+      "hit_pct": 66.67,
+      "wins": 4,
+      "losses": 2
+    },
+    "2026-03": {
+      "n": 4,
+      "settled": 4,
+      "hit_pct": 75.0,
+      "wins": 3,
+      "losses": 1
+    },
+    "2026-04": {
+      "n": 3,
+      "settled": 3,
+      "hit_pct": 66.67,
+      "wins": 2,
+      "losses": 1
+    },
+    "2026-05": {
+      "n": 5,
+      "settled": 5,
+      "hit_pct": 80.0,
+      "wins": 4,
+      "losses": 1
+    },
+    "2026-06": {
+      "n": 8,
+      "settled": 8,
+      "hit_pct": 87.5,
+      "wins": 7,
+      "losses": 1
+    },
+    "2026-07": {
+      "n": 4,
+      "settled": 4,
+      "hit_pct": 75.0,
+      "wins": 3,
+      "losses": 1
+    },
+    "2026-08": {
+      "n": 9,
+      "settled": 9,
+      "hit_pct": 100.0,
+      "wins": 9,
+      "losses": 0
+    },
+    "2026-09": {
+      "n": 3,
+      "settled": 3,
+      "hit_pct": 100.0,
+      "wins": 3,
+      "losses": 0
+    },
+    "2026-10": {
+      "n": 7,
+      "settled": 7,
+      "hit_pct": 100.0,
+      "wins": 7,
+      "losses": 0
+    }
+  },
+  "calls_1y": [
+    {
+      "day": "2025-11-20",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2025-12-01",
+      "hm": "10:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2025-12-02",
+      "hm": "11:45",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2025-12-03",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -50.0
+    },
+    {
+      "day": "2025-12-10",
+      "hm": "12:15",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2025-12-16",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2025-12-17",
+      "hm": "10:00",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-01-09",
+      "hm": "10:45",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-01-20",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-01-22",
+      "hm": "10:15",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-01-23",
+      "hm": "11:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-01-29",
+      "hm": "13:00",
+      "decision": "BUY",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-02-01",
+      "hm": "12:00",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -50.0
+    },
+    {
+      "day": "2026-02-19",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": false,
+      "points": -50.0
+    },
+    {
+      "day": "2026-02-24",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-02-25",
+      "hm": "12:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-02-26",
+      "hm": "11:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-02-27",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-03-06",
+      "hm": "12:15",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-03-11",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-03-13",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-03-30",
+      "hm": "13:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": false,
+      "points": -50.0
+    },
+    {
+      "day": "2026-04-16",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-04-22",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": false,
+      "points": -50.0
+    },
+    {
+      "day": "2026-04-24",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-05-06",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.7105,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-05-14",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-05-19",
+      "hm": "14:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-05-21",
+      "hm": "10:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-05-29",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -50.0
+    },
+    {
+      "day": "2026-06-01",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-06-02",
+      "hm": "09:30",
+      "decision": "BUY",
+      "p_t1": 0.95,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-06-03",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": false,
+      "points": -50.0
+    },
+    {
+      "day": "2026-06-05",
+      "hm": "10:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-06-09",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-06-11",
+      "hm": "09:30",
+      "decision": "BUY",
+      "p_t1": 0.95,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-06-15",
+      "hm": "12:00",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-06-29",
+      "hm": "11:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-07-06",
+      "hm": "09:30",
+      "decision": "BUY",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-07-08",
+      "hm": "12:00",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-07-22",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": false,
+      "points": -50.0
+    },
+    {
+      "day": "2026-07-23",
+      "hm": "12:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-08-04",
+      "hm": "10:15",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-08-11",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-08-12",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.7493,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-08-17",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-08-24",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-08-25",
+      "hm": "14:30",
+      "decision": "BUY",
+      "p_t1": 0.568,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-08-26",
+      "hm": "10:15",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-08-27",
+      "hm": "10:00",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-08-31",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-09-07",
+      "hm": "10:00",
+      "decision": "SELL",
+      "p_t1": 0.6324,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-09-15",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-09-18",
+      "hm": "14:00",
+      "decision": "BUY",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-10-01",
+      "hm": "12:15",
+      "decision": "SELL",
+      "p_t1": 0.6667,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-10-05",
+      "hm": "10:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-10-08",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-10-12",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-10-19",
+      "hm": "11:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "10:00",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0
+    }
+  ]
+}

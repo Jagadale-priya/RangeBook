@@ -1,0 +1,15 @@
+{
+  "desk": "CHAMP_PLUS_T30SL30_CAP6",
+  "cap": 6,
+  "causal": true,
+  "expected": {
+    "1y": {
+      "n": 467,
+      "hit_pct": 75.16
+    },
+    "5y": {
+      "n": 2105,
+      "hit_pct": 78.43
+    }
+  }
+}

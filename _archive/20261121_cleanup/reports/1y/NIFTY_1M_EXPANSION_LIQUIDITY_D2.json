@@ -1,0 +1,291 @@
+{
+  "rows": [
+    {
+      "book": "D2_b1.0_any_am_3r",
+      "verdict": "PROMISING",
+      "train": {
+        "n": 697,
+        "hit": 36.44,
+        "exp_R": 0.458,
+        "t": 6.28,
+        "wins": 254,
+        "losses": 443,
+        "avg_pts": -1.02
+      },
+      "oos": {
+        "n": 593,
+        "hit": 34.06,
+        "exp_R": 0.37,
+        "t": 4.75,
+        "wins": 202,
+        "losses": 391,
+        "avg_pts": -0.31
+      },
+      "n": 1290
+    },
+    {
+      "book": "D2_b1.0_any_mid_3r",
+      "verdict": "PROMISING",
+      "train": {
+        "n": 835,
+        "hit": 32.81,
+        "exp_R": 0.313,
+        "t": 4.81,
+        "wins": 274,
+        "losses": 561,
+        "avg_pts": -1.09
+      },
+      "oos": {
+        "n": 686,
+        "hit": 32.22,
+        "exp_R": 0.289,
+        "t": 4.04,
+        "wins": 221,
+        "losses": 465,
+        "avg_pts": -0.81
+      },
+      "n": 1521
+    },
+    {
+      "book": "D2_b1.5_sw_mid_3r",
+      "verdict": "PROMISING",
+      "train": {
+        "n": 145,
+        "hit": 40.69,
+        "exp_R": 0.628,
+        "t": 3.83,
+        "wins": 59,
+        "losses": 86,
+        "avg_pts": 0.08
+      },
+      "oos": {
+        "n": 75,
+        "hit": 32.0,
+        "exp_R": 0.28,
+        "t": 1.29,
+        "wins": 24,
+        "losses": 51,
+        "avg_pts": -1.13
+      },
+      "n": 220
+    },
+    {
+      "book": "D2_b1.5_any_am_t15",
+      "verdict": "PROMISING",
+      "train": {
+        "n": 321,
+        "hit": 40.5,
+        "exp_R": 0.129,
+        "t": 1.68,
+        "wins": 130,
+        "losses": 191,
+        "avg_pts": 0.99
+      },
+      "oos": {
+        "n": 232,
+        "hit": 42.24,
+        "exp_R": 0.193,
+        "t": 2.09,
+        "wins": 98,
+        "losses": 134,
+        "avg_pts": 1.56
+      },
+      "n": 553
+    },
+    {
+      "book": "D2_b1.2_any_am_t15",
+      "verdict": "PROMISING",
+      "train": {
+        "n": 564,
+        "hit": 40.43,
+        "exp_R": 0.121,
+        "t": 2.09,
+        "wins": 228,
+        "losses": 336,
+        "avg_pts": 0.96
+      },
+      "oos": {
+        "n": 469,
+        "hit": 41.79,
+        "exp_R": 0.179,
+        "t": 2.77,
+        "wins": 196,
+        "losses": 273,
+        "avg_pts": 1.44
+      },
+      "n": 1033
+    },
+    {
+      "book": "D2_b1.0_any_am_t15",
+      "verdict": "PROMISING",
+      "train": {
+        "n": 714,
+        "hit": 41.32,
+        "exp_R": 0.138,
+        "t": 2.7,
+        "wins": 295,
+        "losses": 419,
+        "avg_pts": 1.19
+      },
+      "oos": {
+        "n": 630,
+        "hit": 41.75,
+        "exp_R": 0.174,
+        "t": 3.14,
+        "wins": 263,
+        "losses": 367,
+        "avg_pts": 1.43
+      },
+      "n": 1344
+    },
+    {
+      "book": "D2_b1.0_sw_am_t15",
+      "verdict": "PROMISING",
+      "train": {
+        "n": 296,
+        "hit": 45.61,
+        "exp_R": 0.25,
+        "t": 3.12,
+        "wins": 135,
+        "losses": 161,
+        "avg_pts": 2.27
+      },
+      "oos": {
+        "n": 235,
+        "hit": 40.43,
+        "exp_R": 0.14,
+        "t": 1.54,
+        "wins": 95,
+        "losses": 140,
+        "avg_pts": 1.16
+      },
+      "n": 531
+    },
+    {
+      "book": "D2_b1.0_sw_all_t15",
+      "verdict": "PROMISING",
+      "train": {
+        "n": 694,
+        "hit": 40.2,
+        "exp_R": 0.118,
+        "t": 2.26,
+        "wins": 279,
+        "losses": 415,
+        "avg_pts": 1.11
+      },
+      "oos": {
+        "n": 546,
+        "hit": 39.01,
+        "exp_R": 0.112,
+        "t": 1.88,
+        "wins": 213,
+        "losses": 333,
+        "avg_pts": 0.91
+      },
+      "n": 1240
+    },
+    {
+      "book": "D2_b1.0_sw_am_3r",
+      "verdict": "NOT_PROVEN",
+      "train": {
+        "n": 287,
+        "hit": 43.9,
+        "exp_R": 0.756,
+        "t": 6.44,
+        "wins": 126,
+        "losses": 161,
+        "avg_pts": 0.34
+      },
+      "oos": {
+        "n": 210,
+        "hit": 31.9,
+        "exp_R": 0.297,
+        "t": 2.31,
+        "wins": 67,
+        "losses": 143,
+        "avg_pts": -1.15
+      },
+      "n": 497
+    },
+    {
+      "book": "D2_b1.0_any_all_3r",
+      "verdict": "NOT_PROVEN",
+      "train": {
+        "n": 1507,
+        "hit": 33.64,
+        "exp_R": 0.346,
+        "t": 7.11,
+        "wins": 507,
+        "losses": 1000,
+        "avg_pts": -1.26
+      },
+      "oos": {
+        "n": 1279,
+        "hit": 31.9,
+        "exp_R": 0.279,
+        "t": 5.36,
+        "wins": 408,
+        "losses": 871,
+        "avg_pts": -0.83
+      },
+      "n": 2786
+    },
+    {
+      "book": "D2_b1.2_any_am_3r",
+      "verdict": "NOT_PROVEN",
+      "train": {
+        "n": 550,
+        "hit": 38.55,
+        "exp_R": 0.542,
+        "t": 6.52,
+        "wins": 212,
+        "losses": 338,
+        "avg_pts": -0.34
+      },
+      "oos": {
+        "n": 430,
+        "hit": 31.16,
+        "exp_R": 0.251,
+        "t": 2.81,
+        "wins": 134,
+        "losses": 296,
+        "avg_pts": -1.12
+      },
+      "n": 980
+    },
+    {
+      "book": "D2_b1.2_sw_am_3r",
+      "verdict": "NOT_PROVEN",
+      "train": {
+        "n": 224,
+        "hit": 42.86,
+        "exp_R": 0.714,
+        "t": 5.39,
+        "wins": 96,
+        "losses": 128,
+        "avg_pts": 0.74
+      },
+      "oos": {
+        "n": 147,
+        "hit": 29.93,
+        "exp_R": 0.212,
+        "t": 1.4,
+        "wins": 44,
+        "losses": 103,
+        "avg_pts": -1.64
+      },
+      "n": 371
+    }
+  ],
+  "proven": [],
+  "promising": [
+    "D2_b1.0_any_am_3r",
+    "D2_b1.0_any_mid_3r",
+    "D2_b1.5_sw_mid_3r",
+    "D2_b1.5_any_am_t15",
+    "D2_b1.2_any_am_t15",
+    "D2_b1.0_any_am_t15",
+    "D2_b1.0_sw_am_t15",
+    "D2_b1.0_sw_all_t15"
+  ]
+}

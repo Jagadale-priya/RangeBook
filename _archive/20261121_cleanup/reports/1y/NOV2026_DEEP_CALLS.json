@@ -1,0 +1,381 @@
+{
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-15"
+  },
+  "sessions": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13"
+  ],
+  "stack_source": "pool_fallback",
+  "summary": {
+    "live": {
+      "n": 1,
+      "scored": 1,
+      "wins": 1,
+      "losses": 0,
+      "hit_pct": 100.0,
+      "points": 0.0
+    },
+    "fill": {
+      "n": 4,
+      "scored": 4,
+      "wins": 3,
+      "losses": 1,
+      "hit_pct": 75.0,
+      "points": 70.0
+    },
+    "desk": {
+      "n": 5,
+      "scored": 5,
+      "wins": 4,
+      "losses": 1,
+      "hit_pct": 80.0,
+      "points": 70.0
+    }
+  },
+  "live_stack": [
+    {
+      "day": "2026-11-06",
+      "hm": "11:20",
+      "decision": "BUY",
+      "track": "crown_5m",
+      "priority": 2,
+      "p_t1": 0.5551,
+      "win": true,
+      "points": 0.0,
+      "lane": "LIVE",
+      "desk_tag": "STACK_PLUS_CROWN_HTF_CAP2",
+      "tags": [
+        "STACK_PLUS_CROWN_HTF_CAP2",
+        "crown_5m",
+        "LOGIC_LIVE",
+        "SOURCE_POOL"
+      ]
+    }
+  ],
+  "empty_fills": [
+    {
+      "day": "2026-11-02",
+      "hm": "10:30",
+      "decision": "SELL",
+      "entry": 23335.4,
+      "open": 23222.3,
+      "prior_close": 23053.1,
+      "gap_pct": 0.734,
+      "risk": 35.0,
+      "t1": 23300.4,
+      "sl": 23370.4,
+      "track": "empty_fade_gap055_t35",
+      "priority": 5,
+      "holding_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "accurate": false,
+      "accurate_tag": null,
+      "p_t1": 0.5,
+      "win": true,
+      "points": 35.0,
+      "outcome": "t1_before_sl",
+      "desk_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "lane": "HOLDING",
+      "logic_level": "EMPTY_FILL",
+      "tags": [
+        "EMPTY_FILL_FADE1030_GAP055_T35",
+        "LOGIC_EMPTY_FILL",
+        "ONE_DAY_CALL"
+      ]
+    },
+    {
+      "day": "2026-11-03",
+      "hm": "10:30",
+      "decision": "SELL",
+      "entry": 23667.0,
+      "open": 23582.25,
+      "prior_close": 23440.8,
+      "gap_pct": 0.6034,
+      "risk": 35.0,
+      "t1": 23632.0,
+      "sl": 23702.0,
+      "track": "empty_fade_gap055_t35",
+      "priority": 5,
+      "holding_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "accurate": false,
+      "accurate_tag": null,
+      "p_t1": 0.5,
+      "win": true,
+      "points": 35.0,
+      "outcome": "t1_before_sl",
+      "desk_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "lane": "HOLDING",
+      "logic_level": "EMPTY_FILL",
+      "tags": [
+        "EMPTY_FILL_FADE1030_GAP055_T35",
+        "LOGIC_EMPTY_FILL",
+        "ONE_DAY_CALL"
+      ]
+    },
+    {
+      "day": "2026-11-05",
+      "hm": "10:30",
+      "decision": "BUY",
+      "entry": 24372.8,
+      "open": 24378.05,
+      "prior_close": 23960.6,
+      "gap_pct": 1.7422,
+      "risk": 35.0,
+      "t1": 24407.8,
+      "sl": 24337.8,
+      "track": "empty_fade_gap055_t35",
+      "priority": 5,
+      "holding_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "accurate": false,
+      "accurate_tag": null,
+      "p_t1": 0.5,
+      "win": true,
+      "points": 35.0,
+      "outcome": "t1_before_sl",
+      "desk_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "lane": "HOLDING",
+      "logic_level": "EMPTY_FILL",
+      "tags": [
+        "EMPTY_FILL_FADE1030_GAP055_T35",
+        "LOGIC_EMPTY_FILL",
+        "ONE_DAY_CALL"
+      ]
+    },
+    {
+      "day": "2026-11-11",
+      "hm": "10:30",
+      "decision": "SELL",
+      "entry": 25357.55,
+      "open": 25337.8,
+      "prior_close": 25044.65,
+      "gap_pct": 1.1705,
+      "risk": 35.0,
+      "t1": 25322.55,
+      "sl": 25392.55,
+      "track": "empty_fade_gap055_t35",
+      "priority": 5,
+      "holding_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "accurate": false,
+      "accurate_tag": null,
+      "p_t1": 0.5,
+      "win": false,
+      "points": -35.0,
+      "outcome": "sl_before_t1",
+      "desk_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "lane": "HOLDING",
+      "logic_level": "EMPTY_FILL",
+      "tags": [
+        "EMPTY_FILL_FADE1030_GAP055_T35",
+        "LOGIC_EMPTY_FILL",
+        "ONE_DAY_CALL"
+      ]
+    }
+  ],
+  "holding_desk": [
+    {
+      "day": "2026-11-02",
+      "hm": "10:30",
+      "decision": "SELL",
+      "entry": 23335.4,
+      "open": 23222.3,
+      "prior_close": 23053.1,
+      "gap_pct": 0.734,
+      "risk": 35.0,
+      "t1": 23300.4,
+      "sl": 23370.4,
+      "track": "empty_fade_gap055_t35",
+      "priority": 5,
+      "holding_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "accurate": false,
+      "accurate_tag": null,
+      "p_t1": 0.5,
+      "win": true,
+      "points": 35.0,
+      "outcome": "t1_before_sl",
+      "desk_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "lane": "HOLDING",
+      "logic_level": "EMPTY_FILL",
+      "tags": [
+        "EMPTY_FILL_FADE1030_GAP055_T35",
+        "LOGIC_EMPTY_FILL",
+        "ONE_DAY_CALL"
+      ]
+    },
+    {
+      "day": "2026-11-03",
+      "hm": "10:30",
+      "decision": "SELL",
+      "entry": 23667.0,
+      "open": 23582.25,
+      "prior_close": 23440.8,
+      "gap_pct": 0.6034,
+      "risk": 35.0,
+      "t1": 23632.0,
+      "sl": 23702.0,
+      "track": "empty_fade_gap055_t35",
+      "priority": 5,
+      "holding_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "accurate": false,
+      "accurate_tag": null,
+      "p_t1": 0.5,
+      "win": true,
+      "points": 35.0,
+      "outcome": "t1_before_sl",
+      "desk_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "lane": "HOLDING",
+      "logic_level": "EMPTY_FILL",
+      "tags": [
+        "EMPTY_FILL_FADE1030_GAP055_T35",
+        "LOGIC_EMPTY_FILL",
+        "ONE_DAY_CALL"
+      ]
+    },
+    {
+      "day": "2026-11-05",
+      "hm": "10:30",
+      "decision": "BUY",
+      "entry": 24372.8,
+      "open": 24378.05,
+      "prior_close": 23960.6,
+      "gap_pct": 1.7422,
+      "risk": 35.0,
+      "t1": 24407.8,
+      "sl": 24337.8,
+      "track": "empty_fade_gap055_t35",
+      "priority": 5,
+      "holding_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "accurate": false,
+      "accurate_tag": null,
+      "p_t1": 0.5,
+      "win": true,
+      "points": 35.0,
+      "outcome": "t1_before_sl",
+      "desk_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "lane": "HOLDING",
+      "logic_level": "EMPTY_FILL",
+      "tags": [
+        "EMPTY_FILL_FADE1030_GAP055_T35",
+        "LOGIC_EMPTY_FILL",
+        "ONE_DAY_CALL"
+      ]
+    },
+    {
+      "day": "2026-11-06",
+      "hm": "11:20",
+      "decision": "BUY",
+      "track": "crown_5m",
+      "priority": 2,
+      "p_t1": 0.5551,
+      "win": true,
+      "points": 0.0,
+      "lane": "LIVE",
+      "desk_tag": "STACK_PLUS_CROWN_HTF_CAP2",
+      "tags": [
+        "STACK_PLUS_CROWN_HTF_CAP2",
+        "crown_5m",
+        "LOGIC_LIVE",
+        "SOURCE_POOL"
+      ]
+    },
+    {
+      "day": "2026-11-11",
+      "hm": "10:30",
+      "decision": "SELL",
+      "entry": 25357.55,
+      "open": 25337.8,
+      "prior_close": 25044.65,
+      "gap_pct": 1.1705,
+      "risk": 35.0,
+      "t1": 25322.55,
+      "sl": 25392.55,
+      "track": "empty_fade_gap055_t35",
+      "priority": 5,
+      "holding_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "accurate": false,
+      "accurate_tag": null,
+      "p_t1": 0.5,
+      "win": false,
+      "points": -35.0,
+      "outcome": "sl_before_t1",
+      "desk_tag": "EMPTY_FILL_FADE1030_GAP055_T35",
+      "lane": "HOLDING",
+      "logic_level": "EMPTY_FILL",
+      "tags": [
+        "EMPTY_FILL_FADE1030_GAP055_T35",
+        "LOGIC_EMPTY_FILL",
+        "ONE_DAY_CALL"
+      ]
+    }
+  ],
+  "daily_gap": {
+    "2026-11-02": {
+      "open": 23222.3,
+      "close": 23440.8,
+      "prior_close": 23053.1,
+      "gap_pct": 0.734
+    },
+    "2026-11-03": {
+      "open": 23582.25,
+      "close": 23810.85,
+      "prior_close": 23440.8,
+      "gap_pct": 0.6034
+    },
+    "2026-11-04": {
+      "open": 23742.25,
+      "close": 23960.6,
+      "prior_close": 23810.85,
+      "gap_pct": -0.2881
+    },
+    "2026-11-05": {
+      "open": 24378.05,
+      "close": 24536.6,
+      "prior_close": 23960.6,
+      "gap_pct": 1.7422
+    },
+    "2026-11-06": {
+      "open": 24538.2,
+      "close": 25030.35,
+      "prior_close": 24536.6,
+      "gap_pct": 0.0065
+    },
+    "2026-11-08": {
+      "open": 25070.45,
+      "close": 24986.4,
+      "prior_close": 25030.35,
+      "gap_pct": 0.1602
+    },
+    "2026-11-09": {
+      "open": 25076.4,
+      "close": 25044.65,
+      "prior_close": 25030.35,
+      "gap_pct": 0.184
+    },
+    "2026-11-11": {
+      "open": 25337.8,
+      "close": 25255.05,
+      "prior_close": 25044.65,
+      "gap_pct": 1.1705
+    },
+    "2026-11-12": {
+      "open": 25213.5,
+      "close": 25299.35,
+      "prior_close": 25255.05,
+      "gap_pct": -0.1645
+    },
+    "2026-11-13": {
+      "open": 25209.85,
+      "close": 25165.75,
+      "prior_close": 25299.35,
+      "gap_pct": -0.3538
+    }
+  }
+}

@@ -1,0 +1,1016 @@
+{
+  "tag_live": "STACK_PLUS_CROWN_HTF_CAP2",
+  "accurate_tag": "AGREE_15M_ANY5",
+  "desk_tag": "STACK_PLUS_AGREE_15M_ANY5",
+  "window": {
+    "start": "2026-07-24",
+    "end": "2026-10-23",
+    "sessions": 51
+  },
+  "live_stack": {
+    "n": 64,
+    "hit_pct": 81.25,
+    "wins": 52,
+    "losses": 12,
+    "points": 1272.0,
+    "days": 41,
+    "by_track": {
+      "champion": {
+        "n": 9,
+        "hit_pct": 88.89,
+        "points": 267.0
+      },
+      "crown_5m": {
+        "n": 20,
+        "hit_pct": 85.0,
+        "points": 0.0
+      },
+      "good_prod2": {
+        "n": 23,
+        "hit_pct": 65.22,
+        "points": 438.0
+      },
+      "proven_100": {
+        "n": 12,
+        "hit_pct": 100.0,
+        "points": 567.0
+      }
+    },
+    "day_cov_pct": 80.4,
+    "days_no_call": 10
+  },
+  "accurate_on_stack": {
+    "n": 15,
+    "hit_pct": 100.0,
+    "wins": 15,
+    "losses": 0,
+    "points": 519.0,
+    "days": 15,
+    "by_track": {
+      "champion": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 157.0
+      },
+      "crown_5m": {
+        "n": 3,
+        "hit_pct": 100.0,
+        "points": 0.0
+      },
+      "proven_100": {
+        "n": 8,
+        "hit_pct": 100.0,
+        "points": 362.0
+      }
+    },
+    "day_cov_pct": 29.4
+  },
+  "other_on_stack": {
+    "n": 49,
+    "hit_pct": 75.51,
+    "wins": 37,
+    "losses": 12,
+    "points": 753.0,
+    "days": 40,
+    "by_track": {
+      "champion": {
+        "n": 5,
+        "hit_pct": 80.0,
+        "points": 110.0
+      },
+      "crown_5m": {
+        "n": 17,
+        "hit_pct": 82.35,
+        "points": 0.0
+      },
+      "good_prod2": {
+        "n": 23,
+        "hit_pct": 65.22,
+        "points": 438.0
+      },
+      "proven_100": {
+        "n": 4,
+        "hit_pct": 100.0,
+        "points": 205.0
+      }
+    }
+  },
+  "desk_combo": {
+    "n": 64,
+    "hit_pct": 81.25,
+    "wins": 52,
+    "losses": 12,
+    "points": 1272.0,
+    "days": 41,
+    "by_track": {
+      "champion": {
+        "n": 9,
+        "hit_pct": 88.89,
+        "points": 267.0
+      },
+      "crown_5m": {
+        "n": 20,
+        "hit_pct": 85.0,
+        "points": 0.0
+      },
+      "good_prod2": {
+        "n": 23,
+        "hit_pct": 65.22,
+        "points": 438.0
+      },
+      "proven_100": {
+        "n": 12,
+        "hit_pct": 100.0,
+        "points": 567.0
+      }
+    },
+    "day_cov_pct": 80.4,
+    "agree_extras": 0
+  },
+  "monthly_live": [
+    {
+      "month": "2026-07",
+      "sessions": 3,
+      "n": 2,
+      "hit_pct": 0.0,
+      "wins": 0,
+      "losses": 2,
+      "points": -63.0,
+      "days_with_call": 2,
+      "days_no_call": 1,
+      "accurate_n": 0,
+      "accurate_hit_pct": null,
+      "accurate_wins": 0,
+      "accurate_losses": 0,
+      "accurate_points": 0.0,
+      "other_n": 2,
+      "other_hit_pct": 0.0,
+      "by_track": {
+        "good_prod2": {
+          "n": 2,
+          "hit_pct": 0.0,
+          "points": -63.0,
+          "accurate_n": 0,
+          "accurate_hit_pct": null
+        }
+      },
+      "calls": [
+        {
+          "day": "2026-07-24",
+          "hm": "10:00",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": false,
+          "points": -63.0,
+          "p_t1": 0.5234,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-07-29",
+          "hm": "10:30",
+          "decision": "BUY",
+          "track": "good_prod2",
+          "win": null,
+          "points": 0.0,
+          "p_t1": 0.5277,
+          "accurate": false,
+          "accurate_tag": null
+        }
+      ]
+    },
+    {
+      "month": "2026-08",
+      "sessions": 17,
+      "n": 18,
+      "hit_pct": 77.78,
+      "wins": 14,
+      "losses": 4,
+      "points": 214.0,
+      "days_with_call": 13,
+      "days_no_call": 4,
+      "accurate_n": 4,
+      "accurate_hit_pct": 100.0,
+      "accurate_wins": 4,
+      "accurate_losses": 0,
+      "accurate_points": 90.0,
+      "other_n": 14,
+      "other_hit_pct": 71.43,
+      "by_track": {
+        "champion": {
+          "n": 3,
+          "hit_pct": 100.0,
+          "points": 90.0,
+          "accurate_n": 1,
+          "accurate_hit_pct": 100.0
+        },
+        "crown_5m": {
+          "n": 5,
+          "hit_pct": 80.0,
+          "points": 0.0,
+          "accurate_n": 1,
+          "accurate_hit_pct": 100.0
+        },
+        "good_prod2": {
+          "n": 7,
+          "hit_pct": 57.1,
+          "points": 26.0,
+          "accurate_n": 0,
+          "accurate_hit_pct": null
+        },
+        "proven_100": {
+          "n": 3,
+          "hit_pct": 100.0,
+          "points": 98.0,
+          "accurate_n": 2,
+          "accurate_hit_pct": 100.0
+        }
+      },
+      "calls": [
+        {
+          "day": "2026-08-04",
+          "hm": "14:15",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5835,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-04",
+          "hm": "14:20",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5699,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-05",
+          "hm": "13:50",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5844,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-08-05",
+          "hm": "13:55",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5459,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-10",
+          "hm": "09:30",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": false,
+          "points": -40.0,
+          "p_t1": 0.5204,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-11",
+          "hm": "09:30",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 30.0,
+          "p_t1": 0.9167,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-08-11",
+          "hm": "12:15",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": false,
+          "points": 0.0,
+          "p_t1": 0.5397,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-12",
+          "hm": "10:45",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": true,
+          "points": 43.0,
+          "p_t1": 0.5258,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-17",
+          "hm": "10:15",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": false,
+          "points": -34.0,
+          "p_t1": 0.5534,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-18",
+          "hm": "10:45",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": true,
+          "points": 37.0,
+          "p_t1": 0.5269,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-19",
+          "hm": "09:30",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 30.0,
+          "p_t1": 0.9167,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-08-19",
+          "hm": "10:15",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": true,
+          "points": 30.0,
+          "p_t1": 0.5283,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-24",
+          "hm": "09:45",
+          "decision": "SELL",
+          "track": "champion",
+          "win": true,
+          "points": 30.0,
+          "p_t1": 0.9167,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-25",
+          "hm": "14:30",
+          "decision": "BUY",
+          "track": "champion",
+          "win": true,
+          "points": 30.0,
+          "p_t1": 0.6829,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-26",
+          "hm": "10:15",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 38.0,
+          "p_t1": 0.9167,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-27",
+          "hm": "09:45",
+          "decision": "SELL",
+          "track": "champion",
+          "win": true,
+          "points": 30.0,
+          "p_t1": 0.9167,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-08-27",
+          "hm": "10:00",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": true,
+          "points": 30.0,
+          "p_t1": 0.5788,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-08-31",
+          "hm": "09:30",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": false,
+          "points": -40.0,
+          "p_t1": 0.5357,
+          "accurate": false,
+          "accurate_tag": null
+        }
+      ]
+    },
+    {
+      "month": "2026-09",
+      "sessions": 18,
+      "n": 22,
+      "hit_pct": 72.73,
+      "wins": 16,
+      "losses": 6,
+      "points": 445.0,
+      "days_with_call": 14,
+      "days_no_call": 5,
+      "accurate_n": 6,
+      "accurate_hit_pct": 100.0,
+      "accurate_wins": 6,
+      "accurate_losses": 0,
+      "accurate_points": 195.0,
+      "other_n": 16,
+      "other_hit_pct": 62.5,
+      "by_track": {
+        "champion": {
+          "n": 4,
+          "hit_pct": 75.0,
+          "points": 71.0,
+          "accurate_n": 2,
+          "accurate_hit_pct": 100.0
+        },
+        "crown_5m": {
+          "n": 5,
+          "hit_pct": 60.0,
+          "points": 0.0,
+          "accurate_n": 1,
+          "accurate_hit_pct": 100.0
+        },
+        "good_prod2": {
+          "n": 9,
+          "hit_pct": 66.7,
+          "points": 207.0,
+          "accurate_n": 0,
+          "accurate_hit_pct": null
+        },
+        "proven_100": {
+          "n": 4,
+          "hit_pct": 100.0,
+          "points": 167.0,
+          "accurate_n": 3,
+          "accurate_hit_pct": 100.0
+        }
+      },
+      "calls": [
+        {
+          "day": "2026-09-01",
+          "hm": "11:00",
+          "decision": "BUY",
+          "track": "champion",
+          "win": true,
+          "points": 34.0,
+          "p_t1": 0.6829,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-01",
+          "hm": "12:55",
+          "decision": "BUY",
+          "track": "crown_5m",
+          "win": false,
+          "points": 0.0,
+          "p_t1": 0.6067,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-03",
+          "hm": "13:25",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5242,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-03",
+          "hm": "13:35",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5562,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-09-04",
+          "hm": "10:15",
+          "decision": "BUY",
+          "track": "champion",
+          "win": true,
+          "points": 33.0,
+          "p_t1": 0.6829,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-09-04",
+          "hm": "10:45",
+          "decision": "BUY",
+          "track": "good_prod2",
+          "win": true,
+          "points": 30.0,
+          "p_t1": 0.5213,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-07",
+          "hm": "10:00",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": true,
+          "points": 30.0,
+          "p_t1": 0.5365,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-07",
+          "hm": "11:15",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": null,
+          "points": 0.0,
+          "p_t1": 0.5208,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-08",
+          "hm": "11:45",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": null,
+          "points": 0.0,
+          "p_t1": 0.5355,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-11",
+          "hm": "10:00",
+          "decision": "BUY",
+          "track": "good_prod2",
+          "win": true,
+          "points": 57.0,
+          "p_t1": 0.5333,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-15",
+          "hm": "09:30",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 48.0,
+          "p_t1": 0.9167,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-09-15",
+          "hm": "12:50",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5754,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-17",
+          "hm": "09:45",
+          "decision": "BUY",
+          "track": "champion",
+          "win": true,
+          "points": 33.0,
+          "p_t1": 0.7547,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-09-17",
+          "hm": "11:30",
+          "decision": "BUY",
+          "track": "good_prod2",
+          "win": true,
+          "points": 48.0,
+          "p_t1": 0.5218,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-22",
+          "hm": "11:30",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": true,
+          "points": 36.0,
+          "p_t1": 0.5226,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-23",
+          "hm": "10:45",
+          "decision": "BUY",
+          "track": "proven_100",
+          "win": true,
+          "points": 38.0,
+          "p_t1": 0.6829,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-23",
+          "hm": "13:30",
+          "decision": "BUY",
+          "track": "crown_5m",
+          "win": false,
+          "points": 0.0,
+          "p_t1": 0.5356,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-24",
+          "hm": "11:45",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 43.0,
+          "p_t1": 0.9167,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-09-25",
+          "hm": "14:15",
+          "decision": "BUY",
+          "track": "champion",
+          "win": false,
+          "points": -29.0,
+          "p_t1": 0.6829,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-28",
+          "hm": "10:15",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": true,
+          "points": 46.0,
+          "p_t1": 0.5368,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-09-29",
+          "hm": "09:30",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 38.0,
+          "p_t1": 0.9167,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-09-29",
+          "hm": "10:00",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": false,
+          "points": -40.0,
+          "p_t1": 0.531,
+          "accurate": false,
+          "accurate_tag": null
+        }
+      ]
+    },
+    {
+      "month": "2026-10",
+      "sessions": 13,
+      "n": 22,
+      "hit_pct": 100.0,
+      "wins": 22,
+      "losses": 0,
+      "points": 676.0,
+      "days_with_call": 12,
+      "days_no_call": 1,
+      "accurate_n": 5,
+      "accurate_hit_pct": 100.0,
+      "accurate_wins": 5,
+      "accurate_losses": 0,
+      "accurate_points": 234.0,
+      "other_n": 17,
+      "other_hit_pct": 100.0,
+      "by_track": {
+        "champion": {
+          "n": 2,
+          "hit_pct": 100.0,
+          "points": 106.0,
+          "accurate_n": 1,
+          "accurate_hit_pct": 100.0
+        },
+        "crown_5m": {
+          "n": 10,
+          "hit_pct": 100.0,
+          "points": 0.0,
+          "accurate_n": 1,
+          "accurate_hit_pct": 100.0
+        },
+        "good_prod2": {
+          "n": 5,
+          "hit_pct": 100.0,
+          "points": 268.0,
+          "accurate_n": 0,
+          "accurate_hit_pct": null
+        },
+        "proven_100": {
+          "n": 5,
+          "hit_pct": 100.0,
+          "points": 302.0,
+          "accurate_n": 3,
+          "accurate_hit_pct": 100.0
+        }
+      },
+      "calls": [
+        {
+          "day": "2026-10-01",
+          "hm": "12:15",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 45.0,
+          "p_t1": 0.9167,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-10-01",
+          "hm": "12:30",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": true,
+          "points": 49.0,
+          "p_t1": 0.527,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-05",
+          "hm": "10:30",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 68.0,
+          "p_t1": 0.9167,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-05",
+          "hm": "12:30",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5336,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-06",
+          "hm": "09:45",
+          "decision": "BUY",
+          "track": "champion",
+          "win": true,
+          "points": 45.0,
+          "p_t1": 0.6829,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-06",
+          "hm": "12:10",
+          "decision": "BUY",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5826,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-08",
+          "hm": "09:30",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 50.0,
+          "p_t1": 0.9167,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-10-08",
+          "hm": "14:40",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5267,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-09",
+          "hm": "10:00",
+          "decision": "BUY",
+          "track": "good_prod2",
+          "win": true,
+          "points": 40.0,
+          "p_t1": 0.5271,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-12",
+          "hm": "11:00",
+          "decision": "SELL",
+          "track": "good_prod2",
+          "win": true,
+          "points": 49.0,
+          "p_t1": 0.5269,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-12",
+          "hm": "12:35",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5547,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-10-13",
+          "hm": "12:15",
+          "decision": "BUY",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5198,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-13",
+          "hm": "13:20",
+          "decision": "BUY",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.523,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-15",
+          "hm": "09:45",
+          "decision": "BUY",
+          "track": "good_prod2",
+          "win": true,
+          "points": 69.0,
+          "p_t1": 0.5434,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-15",
+          "hm": "10:30",
+          "decision": "BUY",
+          "track": "good_prod2",
+          "win": true,
+          "points": 61.0,
+          "p_t1": 0.5497,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-16",
+          "hm": "12:25",
+          "decision": "BUY",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5603,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-19",
+          "hm": "12:00",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 78.0,
+          "p_t1": 0.7375,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-10-19",
+          "hm": "14:45",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5487,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-21",
+          "hm": "10:00",
+          "decision": "SELL",
+          "track": "proven_100",
+          "win": true,
+          "points": 61.0,
+          "p_t1": 0.9167,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-21",
+          "hm": "14:05",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5308,
+          "accurate": false,
+          "accurate_tag": null
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "09:30",
+          "decision": "SELL",
+          "track": "champion",
+          "win": true,
+          "points": 61.0,
+          "p_t1": 0.9167,
+          "accurate": true,
+          "accurate_tag": "AGREE_15M_ANY5"
+        },
+        {
+          "day": "2026-10-23",
+          "hm": "13:00",
+          "decision": "SELL",
+          "track": "crown_5m",
+          "win": true,
+          "points": 0.0,
+          "p_t1": 0.5726,
+          "accurate": false,
+          "accurate_tag": null
+        }
+      ]
+    }
+  ],
+  "agree_extras_calls": []
+}

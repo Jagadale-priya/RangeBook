@@ -1,0 +1,803 @@
+{
+  "champ_15m": {
+    "raw": {
+      "n": 39,
+      "wins": 36,
+      "losses": 3,
+      "hit_rate": 0.9230769230769231,
+      "net_points": 1288.0,
+      "by_desk": {
+        "15m": {
+          "n": 39,
+          "wins": 36,
+          "net": 1288.0,
+          "hit_rate": 0.9230769230769231
+        }
+      },
+      "by_side": {
+        "SELL": {
+          "n": 17,
+          "wins": 16,
+          "net": 591.0,
+          "hit_rate": 0.9411764705882353
+        },
+        "BUY": {
+          "n": 22,
+          "wins": 20,
+          "net": 697.0,
+          "hit_rate": 0.9090909090909091
+        }
+      },
+      "sessions": 39
+    },
+    "gates": [
+      {
+        "gate": "accurate_champ",
+        "summary": {
+          "n": 32,
+          "wins": 31,
+          "losses": 1,
+          "hit_rate": 0.96875,
+          "net_points": 1194.0,
+          "by_desk": {
+            "15m": {
+              "n": 32,
+              "wins": 31,
+              "net": 1194.0,
+              "hit_rate": 0.96875
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 15,
+              "wins": 14,
+              "net": 522.0,
+              "hit_rate": 0.9333333333333333
+            },
+            "BUY": {
+              "n": 17,
+              "wins": 17,
+              "net": 672.0,
+              "hit_rate": 1.0
+            }
+          },
+          "sessions": 32,
+          "gate": "accurate_champ",
+          "ok": true
+        }
+      },
+      {
+        "gate": "sell_only_strong",
+        "summary": {
+          "n": 18,
+          "wins": 17,
+          "losses": 1,
+          "hit_rate": 0.9444444444444444,
+          "net_points": 629.0,
+          "by_desk": {
+            "15m": {
+              "n": 18,
+              "wins": 17,
+              "net": 629.0,
+              "hit_rate": 0.9444444444444444
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 18,
+              "wins": 17,
+              "net": 629.0,
+              "hit_rate": 0.9444444444444444
+            }
+          },
+          "sessions": 18,
+          "gate": "sell_only_strong",
+          "ok": true
+        }
+      },
+      {
+        "gate": "live_like",
+        "summary": {
+          "n": 39,
+          "wins": 36,
+          "losses": 3,
+          "hit_rate": 0.9230769230769231,
+          "net_points": 1288.0,
+          "by_desk": {
+            "15m": {
+              "n": 39,
+              "wins": 36,
+              "net": 1288.0,
+              "hit_rate": 0.9230769230769231
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 17,
+              "wins": 16,
+              "net": 591.0,
+              "hit_rate": 0.9411764705882353
+            },
+            "BUY": {
+              "n": 22,
+              "wins": 20,
+              "net": 697.0,
+              "hit_rate": 0.9090909090909091
+            }
+          },
+          "sessions": 39,
+          "gate": "live_like",
+          "ok": true
+        }
+      },
+      {
+        "gate": "p_up",
+        "summary": {
+          "n": 39,
+          "wins": 36,
+          "losses": 3,
+          "hit_rate": 0.9230769230769231,
+          "net_points": 1288.0,
+          "by_desk": {
+            "15m": {
+              "n": 39,
+              "wins": 36,
+              "net": 1288.0,
+              "hit_rate": 0.9230769230769231
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 17,
+              "wins": 16,
+              "net": 591.0,
+              "hit_rate": 0.9411764705882353
+            },
+            "BUY": {
+              "n": 22,
+              "wins": 20,
+              "net": 697.0,
+              "hit_rate": 0.9090909090909091
+            }
+          },
+          "sessions": 39,
+          "gate": "p_up",
+          "ok": true
+        }
+      },
+      {
+        "gate": "first_only",
+        "summary": {
+          "n": 39,
+          "wins": 36,
+          "losses": 3,
+          "hit_rate": 0.9230769230769231,
+          "net_points": 1288.0,
+          "by_desk": {
+            "15m": {
+              "n": 39,
+              "wins": 36,
+              "net": 1288.0,
+              "hit_rate": 0.9230769230769231
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 17,
+              "wins": 16,
+              "net": 591.0,
+              "hit_rate": 0.9411764705882353
+            },
+            "BUY": {
+              "n": 22,
+              "wins": 20,
+              "net": 697.0,
+              "hit_rate": 0.9090909090909091
+            }
+          },
+          "sessions": 39,
+          "gate": "first_only",
+          "ok": true
+        }
+      },
+      {
+        "gate": "tight_ext",
+        "summary": {
+          "n": 39,
+          "wins": 36,
+          "losses": 3,
+          "hit_rate": 0.9230769230769231,
+          "net_points": 1288.0,
+          "by_desk": {
+            "15m": {
+              "n": 39,
+              "wins": 36,
+              "net": 1288.0,
+              "hit_rate": 0.9230769230769231
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 17,
+              "wins": 16,
+              "net": 591.0,
+              "hit_rate": 0.9411764705882353
+            },
+            "BUY": {
+              "n": 22,
+              "wins": 20,
+              "net": 697.0,
+              "hit_rate": 0.9090909090909091
+            }
+          },
+          "sessions": 39,
+          "gate": "tight_ext",
+          "ok": true
+        }
+      },
+      {
+        "gate": "buy_range_mixed",
+        "summary": {
+          "n": 22,
+          "wins": 20,
+          "losses": 2,
+          "hit_rate": 0.9090909090909091,
+          "net_points": 697.0,
+          "by_desk": {
+            "15m": {
+              "n": 22,
+              "wins": 20,
+              "net": 697.0,
+              "hit_rate": 0.9090909090909091
+            }
+          },
+          "by_side": {
+            "BUY": {
+              "n": 22,
+              "wins": 20,
+              "net": 697.0,
+              "hit_rate": 0.9090909090909091
+            }
+          },
+          "sessions": 22,
+          "gate": "buy_range_mixed",
+          "ok": true
+        }
+      }
+    ]
+  },
+  "champ_5m": {
+    "raw": {
+      "n": 17,
+      "wins": 6,
+      "losses": 11,
+      "hit_rate": 0.35294117647058826,
+      "net_points": -141.0,
+      "by_desk": {
+        "5m": {
+          "n": 17,
+          "wins": 6,
+          "net": -141.0,
+          "hit_rate": 0.35294117647058826
+        }
+      },
+      "by_side": {
+        "BUY": {
+          "n": 8,
+          "wins": 3,
+          "net": -51.0,
+          "hit_rate": 0.375
+        },
+        "SELL": {
+          "n": 9,
+          "wins": 3,
+          "net": -90.0,
+          "hit_rate": 0.3333333333333333
+        }
+      },
+      "sessions": 17
+    },
+    "gates": [
+      {
+        "gate": "buy_range_mixed",
+        "summary": {
+          "n": 9,
+          "wins": 4,
+          "losses": 5,
+          "hit_rate": 0.4444444444444444,
+          "net_points": 3.0,
+          "by_desk": {
+            "5m": {
+              "n": 9,
+              "wins": 4,
+              "net": 3.0,
+              "hit_rate": 0.4444444444444444
+            }
+          },
+          "by_side": {
+            "BUY": {
+              "n": 9,
+              "wins": 4,
+              "net": 3.0,
+              "hit_rate": 0.4444444444444444
+            }
+          },
+          "sessions": 9,
+          "gate": "buy_range_mixed",
+          "ok": false
+        }
+      },
+      {
+        "gate": "sell_only_strong",
+        "summary": {
+          "n": 10,
+          "wins": 4,
+          "losses": 6,
+          "hit_rate": 0.4,
+          "net_points": -61.0,
+          "by_desk": {
+            "5m": {
+              "n": 10,
+              "wins": 4,
+              "net": -61.0,
+              "hit_rate": 0.4
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 10,
+              "wins": 4,
+              "net": -61.0,
+              "hit_rate": 0.4
+            }
+          },
+          "sessions": 10,
+          "gate": "sell_only_strong",
+          "ok": false
+        }
+      },
+      {
+        "gate": "accurate_champ",
+        "summary": {
+          "n": 13,
+          "wins": 5,
+          "losses": 8,
+          "hit_rate": 0.38461538461538464,
+          "net_points": -92.0,
+          "by_desk": {
+            "5m": {
+              "n": 13,
+              "wins": 5,
+              "net": -92.0,
+              "hit_rate": 0.38461538461538464
+            }
+          },
+          "by_side": {
+            "BUY": {
+              "n": 7,
+              "wins": 3,
+              "net": -25.0,
+              "hit_rate": 0.42857142857142855
+            },
+            "SELL": {
+              "n": 6,
+              "wins": 2,
+              "net": -67.0,
+              "hit_rate": 0.3333333333333333
+            }
+          },
+          "sessions": 13,
+          "gate": "accurate_champ",
+          "ok": false
+        }
+      },
+      {
+        "gate": "live_like",
+        "summary": {
+          "n": 17,
+          "wins": 6,
+          "losses": 11,
+          "hit_rate": 0.35294117647058826,
+          "net_points": -141.0,
+          "by_desk": {
+            "5m": {
+              "n": 17,
+              "wins": 6,
+              "net": -141.0,
+              "hit_rate": 0.35294117647058826
+            }
+          },
+          "by_side": {
+            "BUY": {
+              "n": 8,
+              "wins": 3,
+              "net": -51.0,
+              "hit_rate": 0.375
+            },
+            "SELL": {
+              "n": 9,
+              "wins": 3,
+              "net": -90.0,
+              "hit_rate": 0.3333333333333333
+            }
+          },
+          "sessions": 17,
+          "gate": "live_like",
+          "ok": false
+        }
+      },
+      {
+        "gate": "p_up",
+        "summary": {
+          "n": 17,
+          "wins": 6,
+          "losses": 11,
+          "hit_rate": 0.35294117647058826,
+          "net_points": -141.0,
+          "by_desk": {
+            "5m": {
+              "n": 17,
+              "wins": 6,
+              "net": -141.0,
+              "hit_rate": 0.35294117647058826
+            }
+          },
+          "by_side": {
+            "BUY": {
+              "n": 8,
+              "wins": 3,
+              "net": -51.0,
+              "hit_rate": 0.375
+            },
+            "SELL": {
+              "n": 9,
+              "wins": 3,
+              "net": -90.0,
+              "hit_rate": 0.3333333333333333
+            }
+          },
+          "sessions": 17,
+          "gate": "p_up",
+          "ok": false
+        }
+      },
+      {
+        "gate": "first_only",
+        "summary": {
+          "n": 17,
+          "wins": 6,
+          "losses": 11,
+          "hit_rate": 0.35294117647058826,
+          "net_points": -141.0,
+          "by_desk": {
+            "5m": {
+              "n": 17,
+              "wins": 6,
+              "net": -141.0,
+              "hit_rate": 0.35294117647058826
+            }
+          },
+          "by_side": {
+            "BUY": {
+              "n": 8,
+              "wins": 3,
+              "net": -51.0,
+              "hit_rate": 0.375
+            },
+            "SELL": {
+              "n": 9,
+              "wins": 3,
+              "net": -90.0,
+              "hit_rate": 0.3333333333333333
+            }
+          },
+          "sessions": 17,
+          "gate": "first_only",
+          "ok": false
+        }
+      },
+      {
+        "gate": "tight_ext",
+        "summary": {
+          "n": 17,
+          "wins": 6,
+          "losses": 11,
+          "hit_rate": 0.35294117647058826,
+          "net_points": -141.0,
+          "by_desk": {
+            "5m": {
+              "n": 17,
+              "wins": 6,
+              "net": -141.0,
+              "hit_rate": 0.35294117647058826
+            }
+          },
+          "by_side": {
+            "BUY": {
+              "n": 8,
+              "wins": 3,
+              "net": -51.0,
+              "hit_rate": 0.375
+            },
+            "SELL": {
+              "n": 9,
+              "wins": 3,
+              "net": -90.0,
+              "hit_rate": 0.3333333333333333
+            }
+          },
+          "sessions": 17,
+          "gate": "tight_ext",
+          "ok": false
+        }
+      }
+    ]
+  },
+  "champ_10m": {
+    "raw": {
+      "n": 11,
+      "wins": 4,
+      "losses": 7,
+      "hit_rate": 0.36363636363636365,
+      "net_points": -162.0,
+      "by_desk": {
+        "10m": {
+          "n": 11,
+          "wins": 4,
+          "net": -162.0,
+          "hit_rate": 0.36363636363636365
+        }
+      },
+      "by_side": {
+        "SELL": {
+          "n": 6,
+          "wins": 3,
+          "net": -37.0,
+          "hit_rate": 0.5
+        },
+        "BUY": {
+          "n": 5,
+          "wins": 1,
+          "net": -125.0,
+          "hit_rate": 0.2
+        }
+      },
+      "sessions": 11
+    },
+    "gates": [
+      {
+        "gate": "sell_only_strong",
+        "summary": {
+          "n": 6,
+          "wins": 3,
+          "losses": 3,
+          "hit_rate": 0.5,
+          "net_points": -20.0,
+          "by_desk": {
+            "10m": {
+              "n": 6,
+              "wins": 3,
+              "net": -20.0,
+              "hit_rate": 0.5
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 6,
+              "wins": 3,
+              "net": -20.0,
+              "hit_rate": 0.5
+            }
+          },
+          "sessions": 6,
+          "gate": "sell_only_strong",
+          "ok": false
+        }
+      },
+      {
+        "gate": "p_up",
+        "summary": {
+          "n": 10,
+          "wins": 4,
+          "losses": 6,
+          "hit_rate": 0.4,
+          "net_points": -117.0,
+          "by_desk": {
+            "10m": {
+              "n": 10,
+              "wins": 4,
+              "net": -117.0,
+              "hit_rate": 0.4
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 5,
+              "wins": 3,
+              "net": 8.0,
+              "hit_rate": 0.6
+            },
+            "BUY": {
+              "n": 5,
+              "wins": 1,
+              "net": -125.0,
+              "hit_rate": 0.2
+            }
+          },
+          "sessions": 10,
+          "gate": "p_up",
+          "ok": false
+        }
+      },
+      {
+        "gate": "first_only",
+        "summary": {
+          "n": 10,
+          "wins": 4,
+          "losses": 6,
+          "hit_rate": 0.4,
+          "net_points": -117.0,
+          "by_desk": {
+            "10m": {
+              "n": 10,
+              "wins": 4,
+              "net": -117.0,
+              "hit_rate": 0.4
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 5,
+              "wins": 3,
+              "net": 8.0,
+              "hit_rate": 0.6
+            },
+            "BUY": {
+              "n": 5,
+              "wins": 1,
+              "net": -125.0,
+              "hit_rate": 0.2
+            }
+          },
+          "sessions": 10,
+          "gate": "first_only",
+          "ok": false
+        }
+      },
+      {
+        "gate": "tight_ext",
+        "summary": {
+          "n": 10,
+          "wins": 4,
+          "losses": 6,
+          "hit_rate": 0.4,
+          "net_points": -117.0,
+          "by_desk": {
+            "10m": {
+              "n": 10,
+              "wins": 4,
+              "net": -117.0,
+              "hit_rate": 0.4
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 5,
+              "wins": 3,
+              "net": 8.0,
+              "hit_rate": 0.6
+            },
+            "BUY": {
+              "n": 5,
+              "wins": 1,
+              "net": -125.0,
+              "hit_rate": 0.2
+            }
+          },
+          "sessions": 10,
+          "gate": "tight_ext",
+          "ok": false
+        }
+      },
+      {
+        "gate": "accurate_champ",
+        "summary": {
+          "n": 10,
+          "wins": 4,
+          "losses": 6,
+          "hit_rate": 0.4,
+          "net_points": -117.0,
+          "by_desk": {
+            "10m": {
+              "n": 10,
+              "wins": 4,
+              "net": -117.0,
+              "hit_rate": 0.4
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 5,
+              "wins": 3,
+              "net": 8.0,
+              "hit_rate": 0.6
+            },
+            "BUY": {
+              "n": 5,
+              "wins": 1,
+              "net": -125.0,
+              "hit_rate": 0.2
+            }
+          },
+          "sessions": 10,
+          "gate": "accurate_champ",
+          "ok": false
+        }
+      },
+      {
+        "gate": "live_like",
+        "summary": {
+          "n": 11,
+          "wins": 4,
+          "losses": 7,
+          "hit_rate": 0.36363636363636365,
+          "net_points": -162.0,
+          "by_desk": {
+            "10m": {
+              "n": 11,
+              "wins": 4,
+              "net": -162.0,
+              "hit_rate": 0.36363636363636365
+            }
+          },
+          "by_side": {
+            "SELL": {
+              "n": 6,
+              "wins": 3,
+              "net": -37.0,
+              "hit_rate": 0.5
+            },
+            "BUY": {
+              "n": 5,
+              "wins": 1,
+              "net": -125.0,
+              "hit_rate": 0.2
+            }
+          },
+          "sessions": 11,
+          "gate": "live_like",
+          "ok": false
+        }
+      },
+      {
+        "gate": "buy_range_mixed",
+        "summary": {
+          "n": 5,
+          "wins": 1,
+          "losses": 4,
+          "hit_rate": 0.2,
+          "net_points": -125.0,
+          "by_desk": {
+            "10m": {
+              "n": 5,
+              "wins": 1,
+              "net": -125.0,
+              "hit_rate": 0.2
+            }
+          },
+          "by_side": {
+            "BUY": {
+              "n": 5,
+              "wins": 1,
+              "net": -125.0,
+              "hit_rate": 0.2
+            }
+          },
+          "sessions": 5,
+          "gate": "buy_range_mixed",
+          "ok": false
+        }
+      }
+    ]
+  }
+}

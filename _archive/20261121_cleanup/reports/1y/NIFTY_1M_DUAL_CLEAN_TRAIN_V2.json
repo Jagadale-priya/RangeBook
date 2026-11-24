@@ -1,0 +1,195 @@
+{
+  "research_only": true,
+  "meta": {
+    "n_bars": 461926,
+    "n_days": 1235,
+    "bar_start": "2021-01-01 09:15:00+05:30",
+    "bar_end": "2025-12-30 15:29:00+05:30",
+    "download_note": null,
+    "n_raw": 1759,
+    "n_clean": 208,
+    "clean_reasons": {
+      "drop_entry_clock": 1016,
+      "drop_not_first_break": 351,
+      "ok": 208,
+      "drop_chase_ext": 117,
+      "drop_noisy_bar": 65,
+      "drop_body_against": 1,
+      "drop_outcome:same_bar_both": 1
+    },
+    "pre_drops": {},
+    "gates": {
+      "min_or_width": 20.0,
+      "max_noise_vs_sl": 1.25,
+      "min_future_bars": 5,
+      "min_entry_mins": 600,
+      "max_entry_mins": 870,
+      "max_or_ext": 0.2,
+      "require_first_break": true,
+      "require_body_align": true,
+      "forbid_both_sides": true
+    },
+    "gate_profile": "V2_STRICT",
+    "research_only": true,
+    "not_live": true
+  },
+  "heads": {
+    "BUY": {
+      "available": true,
+      "side": "BUY",
+      "n_train": 88,
+      "n_cal": 14,
+      "train_through_day": "2024-09-10",
+      "feature_names": [
+        "ret_1",
+        "ret_3",
+        "ret_6",
+        "rsi_14",
+        "vwap_dist",
+        "range_pos",
+        "candle_score",
+        "body_frac",
+        "bar_range_pct",
+        "or_width",
+        "or_ext",
+        "mins_entry",
+        "first_break",
+        "gap_pct",
+        "session_chg",
+        "pat_doji",
+        "pat_hammer",
+        "pat_engulf",
+        "slope_3",
+        "atr_ratio",
+        "noise_vs_sl",
+        "side"
+      ],
+      "params": {
+        "max_depth": 2,
+        "max_iter": 40,
+        "min_samples_leaf": 40,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.05
+      },
+      "select_log_loss": 0.692,
+      "fit_auc": 0.67,
+      "calib_auc": 0.5,
+      "score_flipped": false,
+      "trainer": "nifty_1m_dual_clean_v1",
+      "research_only": true,
+      "not_live": true
+    },
+    "SELL": {
+      "available": true,
+      "side": "SELL",
+      "n_train": 80,
+      "n_cal": 12,
+      "train_through_day": "2024-09-10",
+      "feature_names": [
+        "ret_1",
+        "ret_3",
+        "ret_6",
+        "rsi_14",
+        "vwap_dist",
+        "range_pos",
+        "candle_score",
+        "body_frac",
+        "bar_range_pct",
+        "or_width",
+        "or_ext",
+        "mins_entry",
+        "first_break",
+        "gap_pct",
+        "session_chg",
+        "pat_doji",
+        "pat_hammer",
+        "pat_engulf",
+        "slope_3",
+        "atr_ratio",
+        "noise_vs_sl",
+        "side"
+      ],
+      "params": {
+        "max_depth": 2,
+        "max_iter": 40,
+        "min_samples_leaf": 40,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.05
+      },
+      "select_log_loss": 0.6892,
+      "fit_auc": 0.692,
+      "calib_auc": 0.5,
+      "score_flipped": false,
+      "trainer": "nifty_1m_dual_clean_v1",
+      "research_only": true,
+      "not_live": true
+    }
+  },
+  "books": {
+    "CHAMP_FB_P52": {
+      "n": 20,
+      "wins": 11,
+      "hit_pct": 55.0
+    },
+    "CHAMP_FB_P55": {
+      "n": 19,
+      "wins": 11,
+      "hit_pct": 57.89
+    },
+    "CHAMP_FB_P58": {
+      "n": 16,
+      "wins": 10,
+      "hit_pct": 62.5
+    },
+    "CHAMP_FB_P60": {
+      "n": 15,
+      "wins": 9,
+      "hit_pct": 60.0
+    },
+    "CHAMP_FB_P62": {
+      "n": 2,
+      "wins": 0,
+      "hit_pct": 0.0
+    },
+    "CHAMP_FB_P66": {
+      "n": 1,
+      "wins": 0,
+      "hit_pct": 0.0
+    },
+    "BUY_FB_P55": {
+      "n": 10,
+      "wins": 5,
+      "hit_pct": 50.0
+    },
+    "SELL_FB_P55": {
+      "n": 9,
+      "wins": 6,
+      "hit_pct": 66.67
+    },
+    "ALL_DAY_UNIQUE": {
+      "n": 40,
+      "wins": 27,
+      "hit_pct": 67.5
+    },
+    "PROVEN_CLEAN_P58": {
+      "n": 10,
+      "wins": 10,
+      "hit_pct": 100.0
+    },
+    "PROVEN_CLEAN_P62": {
+      "n": 2,
+      "wins": 0,
+      "hit_pct": 0.0
+    },
+    "PROVEN_CLEAN_P66": {
+      "n": 1,
+      "wins": 0,
+      "hit_pct": 0.0
+    }
+  },
+  "oos_agg": {
+    "n": 40,
+    "wins": 27,
+    "hit_pct": 67.5
+  }
+}

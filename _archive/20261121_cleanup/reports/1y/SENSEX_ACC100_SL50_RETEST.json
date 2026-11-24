@@ -1,0 +1,2467 @@
+{
+  "gates": "WIDE",
+  "sl": 50,
+  "headline": {
+    "3m": {
+      "n": 12,
+      "hit": 100.0
+    },
+    "1y": {
+      "n": 36,
+      "hit": 86.11
+    },
+    "3y": {
+      "n": 55,
+      "hit": 80.0
+    }
+  },
+  "grid": [
+    {
+      "desk": "WIDE",
+      "clip": "50/50",
+      "window": "3m",
+      "n": 12,
+      "hit": 100.0,
+      "wins": 12,
+      "losses": 0,
+      "expect": 50.0,
+      "by_month": {
+        "2026-08": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 12
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/50",
+      "window": "1y",
+      "n": 36,
+      "hit": 86.11,
+      "wins": 31,
+      "losses": 5,
+      "expect": 36.11,
+      "by_month": {
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 50.0,
+          "wins": 2,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 31,
+        "sl_before_t1": 3,
+        "same_bar_both": 2
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/50",
+      "window": "3y",
+      "n": 55,
+      "hit": 80.0,
+      "wins": 44,
+      "losses": 11,
+      "expect": 30.0,
+      "by_month": {
+        "2024-05": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 66.67,
+          "wins": 2,
+          "losses": 1
+        },
+        "2024-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-01": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2025-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-04": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-09": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2025-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 50.0,
+          "wins": 2,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 44,
+        "sl_before_t1": 7,
+        "same_bar_both": 4
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/80",
+      "window": "3m",
+      "n": 12,
+      "hit": 91.67,
+      "wins": 11,
+      "losses": 1,
+      "expect": 69.17,
+      "by_month": {
+        "2026-08": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 11,
+        "sl_before_t1": 1
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/80",
+      "window": "1y",
+      "n": 36,
+      "hit": 80.56,
+      "wins": 29,
+      "losses": 7,
+      "expect": 54.72,
+      "by_month": {
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 50.0,
+          "wins": 2,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 29,
+        "sl_before_t1": 7
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/80",
+      "window": "3y",
+      "n": 55,
+      "hit": 74.55,
+      "wins": 41,
+      "losses": 14,
+      "expect": 46.91,
+      "by_month": {
+        "2024-05": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 66.67,
+          "wins": 2,
+          "losses": 1
+        },
+        "2024-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-01": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2025-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-04": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-09": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2025-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 50.0,
+          "wins": 2,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "sl_before_t1": 12,
+        "t1_before_sl": 41,
+        "same_bar_both": 2
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/100",
+      "window": "3m",
+      "n": 12,
+      "hit": 91.67,
+      "wins": 11,
+      "losses": 1,
+      "expect": 87.5,
+      "by_month": {
+        "2026-08": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 11,
+        "sl_before_t1": 1
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/100",
+      "window": "1y",
+      "n": 36,
+      "hit": 80.56,
+      "wins": 29,
+      "losses": 7,
+      "expect": 70.83,
+      "by_month": {
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 50.0,
+          "wins": 2,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 29,
+        "sl_before_t1": 7
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/100",
+      "window": "3y",
+      "n": 55,
+      "hit": 74.55,
+      "wins": 41,
+      "losses": 14,
+      "expect": 61.82,
+      "by_month": {
+        "2024-05": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 66.67,
+          "wins": 2,
+          "losses": 1
+        },
+        "2024-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-01": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2025-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-04": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-09": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2025-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 50.0,
+          "wins": 2,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "sl_before_t1": 14,
+        "t1_before_sl": 41
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/120",
+      "window": "3m",
+      "n": 12,
+      "hit": 91.67,
+      "wins": 11,
+      "losses": 1,
+      "expect": 105.83,
+      "by_month": {
+        "2026-08": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 11,
+        "sl_before_t1": 1
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/120",
+      "window": "1y",
+      "n": 36,
+      "hit": 80.56,
+      "wins": 29,
+      "losses": 7,
+      "expect": 86.94,
+      "by_month": {
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 50.0,
+          "wins": 2,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 29,
+        "sl_before_t1": 7
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/120",
+      "window": "3y",
+      "n": 55,
+      "hit": 74.55,
+      "wins": 41,
+      "losses": 14,
+      "expect": 76.73,
+      "by_month": {
+        "2024-05": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 66.67,
+          "wins": 2,
+          "losses": 1
+        },
+        "2024-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-01": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2025-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-04": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-09": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2025-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 50.0,
+          "wins": 2,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "sl_before_t1": 14,
+        "t1_before_sl": 41
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/150",
+      "window": "3m",
+      "n": 12,
+      "hit": 91.67,
+      "wins": 11,
+      "losses": 1,
+      "expect": 133.33,
+      "by_month": {
+        "2026-08": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 11,
+        "sl_before_t1": 1
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/150",
+      "window": "1y",
+      "n": 36,
+      "hit": 80.56,
+      "wins": 29,
+      "losses": 7,
+      "expect": 111.11,
+      "by_month": {
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 50.0,
+          "wins": 2,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 29,
+        "sl_before_t1": 7
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "50/150",
+      "window": "3y",
+      "n": 55,
+      "hit": 74.55,
+      "wins": 41,
+      "losses": 14,
+      "expect": 99.09,
+      "by_month": {
+        "2024-05": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 66.67,
+          "wins": 2,
+          "losses": 1
+        },
+        "2024-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2024-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-01": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2025-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-04": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-09": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2025-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 50.0,
+          "wins": 2,
+          "losses": 2
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 0.0,
+          "wins": 0,
+          "losses": 1
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 50.0,
+          "wins": 1,
+          "losses": 1
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 80.0,
+          "wins": 4,
+          "losses": 1
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "sl_before_t1": 14,
+        "t1_before_sl": 41
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "100/100",
+      "window": "3m",
+      "n": 12,
+      "hit": 91.67,
+      "wins": 11,
+      "losses": 1,
+      "expect": 83.33,
+      "by_month": {
+        "2026-08": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 11,
+        "sl_before_t1": 1
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "100/100",
+      "window": "1y",
+      "n": 36,
+      "hit": 94.44,
+      "wins": 34,
+      "losses": 2,
+      "expect": 88.89,
+      "by_month": {
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 34,
+        "sl_before_t1": 2
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "100/100",
+      "window": "3y",
+      "n": 55,
+      "hit": 96.36,
+      "wins": 53,
+      "losses": 2,
+      "expect": 92.73,
+      "by_month": {
+        "2024-05": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2024-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-01": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2025-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-04": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-09": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2025-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 75.0,
+          "wins": 3,
+          "losses": 1
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 83.33,
+          "wins": 5,
+          "losses": 1
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 53,
+        "sl_before_t1": 2
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "150/150",
+      "window": "3m",
+      "n": 12,
+      "hit": 100.0,
+      "wins": 12,
+      "losses": 0,
+      "expect": 150.0,
+      "by_month": {
+        "2026-08": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 12
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "150/150",
+      "window": "1y",
+      "n": 36,
+      "hit": 100.0,
+      "wins": 36,
+      "losses": 0,
+      "expect": 150.0,
+      "by_month": {
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 36
+      }
+    },
+    {
+      "desk": "WIDE",
+      "clip": "150/150",
+      "window": "3y",
+      "n": 55,
+      "hit": 100.0,
+      "wins": 55,
+      "losses": 0,
+      "expect": 150.0,
+      "by_month": {
+        "2024-05": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-06": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2024-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-09": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2024-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-01": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2025-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-04": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-08": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-09": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2025-10": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-11": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2025-12": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-01": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-02": {
+          "n": 4,
+          "settled": 4,
+          "hit_pct": 100.0,
+          "wins": 4,
+          "losses": 0
+        },
+        "2026-03": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-04": {
+          "n": 2,
+          "settled": 2,
+          "hit_pct": 100.0,
+          "wins": 2,
+          "losses": 0
+        },
+        "2026-05": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-06": {
+          "n": 5,
+          "settled": 5,
+          "hit_pct": 100.0,
+          "wins": 5,
+          "losses": 0
+        },
+        "2026-07": {
+          "n": 1,
+          "settled": 1,
+          "hit_pct": 100.0,
+          "wins": 1,
+          "losses": 0
+        },
+        "2026-08": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        },
+        "2026-09": {
+          "n": 3,
+          "settled": 3,
+          "hit_pct": 100.0,
+          "wins": 3,
+          "losses": 0
+        },
+        "2026-10": {
+          "n": 6,
+          "settled": 6,
+          "hit_pct": 100.0,
+          "wins": 6,
+          "losses": 0
+        }
+      },
+      "outcomes": {
+        "t1_before_sl": 55
+      }
+    }
+  ],
+  "calls_3m": [
+    {
+      "day": "2026-08-24",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-25",
+      "hm": "14:30",
+      "decision": "BUY",
+      "p_t1": 0.568,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-08-26",
+      "hm": "10:15",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-01",
+      "hm": "11:00",
+      "decision": "BUY",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-15",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-09-18",
+      "hm": "14:00",
+      "decision": "BUY",
+      "p_t1": 0.5714,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-05",
+      "hm": "10:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-08",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-12",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-19",
+      "hm": "11:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-21",
+      "hm": "10:00",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    },
+    {
+      "day": "2026-10-23",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "win": true,
+      "points": 50.0,
+      "outcome": "t1_before_sl"
+    }
+  ],
+  "losses_1y": [
+    {
+      "day": "2026-02-10",
+      "hm": "09:30",
+      "decision": "BUY",
+      "p_t1": 0.5714,
+      "outcome": "sl_before_t1",
+      "points": -50.0
+    },
+    {
+      "day": "2026-02-19",
+      "hm": "09:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "outcome": "same_bar_both",
+      "points": -50.0
+    },
+    {
+      "day": "2026-03-30",
+      "hm": "13:30",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "outcome": "sl_before_t1",
+      "points": -50.0
+    },
+    {
+      "day": "2026-04-21",
+      "hm": "09:45",
+      "decision": "BUY",
+      "p_t1": 0.5714,
+      "outcome": "sl_before_t1",
+      "points": -50.0
+    },
+    {
+      "day": "2026-06-03",
+      "hm": "09:45",
+      "decision": "SELL",
+      "p_t1": 0.75,
+      "outcome": "same_bar_both",
+      "points": -50.0
+    }
+  ]
+}

@@ -1,0 +1,1639 @@
+{
+  "select_before": "2025-11-16",
+  "lengths": {
+    "15": {
+      "base_pre": {
+        "n": 19098,
+        "win": 5812,
+        "loss": 13286,
+        "hit": 30.43,
+        "loss_pct": 69.57
+      },
+      "base_test": {
+        "n": 3872,
+        "win": 1199,
+        "loss": 2673,
+        "hit": 30.97,
+        "loss_pct": 69.03
+      },
+      "slices": [
+        {
+          "rule": "rr_under_1.25",
+          "pre": {
+            "n": 2767,
+            "win": 1302,
+            "loss": 1465,
+            "hit": 47.05,
+            "loss_pct": 52.95
+          },
+          "test": {
+            "n": 592,
+            "win": 296,
+            "loss": 296,
+            "hit": 50.0,
+            "loss_pct": 50.0
+          }
+        },
+        {
+          "rule": "rr_1.25_2",
+          "pre": {
+            "n": 6054,
+            "win": 2363,
+            "loss": 3691,
+            "hit": 39.03,
+            "loss_pct": 60.97
+          },
+          "test": {
+            "n": 1215,
+            "win": 469,
+            "loss": 746,
+            "hit": 38.6,
+            "loss_pct": 61.4
+          }
+        },
+        {
+          "rule": "rr_over_3",
+          "pre": {
+            "n": 5715,
+            "win": 892,
+            "loss": 4823,
+            "hit": 15.61,
+            "loss_pct": 84.39
+          },
+          "test": {
+            "n": 1165,
+            "win": 201,
+            "loss": 964,
+            "hit": 17.25,
+            "loss_pct": 82.75
+          }
+        },
+        {
+          "rule": "risk_under_6",
+          "pre": {
+            "n": 2445,
+            "win": 600,
+            "loss": 1845,
+            "hit": 24.54,
+            "loss_pct": 75.46
+          },
+          "test": {
+            "n": 270,
+            "win": 52,
+            "loss": 218,
+            "hit": 19.26,
+            "loss_pct": 80.74
+          }
+        },
+        {
+          "rule": "risk_over_25",
+          "pre": {
+            "n": 2462,
+            "win": 820,
+            "loss": 1642,
+            "hit": 33.31,
+            "loss_pct": 66.69
+          },
+          "test": {
+            "n": 767,
+            "win": 264,
+            "loss": 503,
+            "hit": 34.42,
+            "loss_pct": 65.58
+          }
+        },
+        {
+          "rule": "chop_ge_6",
+          "pre": {
+            "n": 2407,
+            "win": 770,
+            "loss": 1637,
+            "hit": 31.99,
+            "loss_pct": 68.01
+          },
+          "test": {
+            "n": 469,
+            "win": 147,
+            "loss": 322,
+            "hit": 31.34,
+            "loss_pct": 68.66
+          }
+        },
+        {
+          "rule": "slope_against",
+          "pre": {
+            "n": 14254,
+            "win": 4154,
+            "loss": 10100,
+            "hit": 29.14,
+            "loss_pct": 70.86
+          },
+          "test": {
+            "n": 2893,
+            "win": 863,
+            "loss": 2030,
+            "hit": 29.83,
+            "loss_pct": 70.17
+          }
+        },
+        {
+          "rule": "slope_with_strong",
+          "pre": {
+            "n": 3245,
+            "win": 1129,
+            "loss": 2116,
+            "hit": 34.79,
+            "loss_pct": 65.21
+          },
+          "test": {
+            "n": 709,
+            "win": 240,
+            "loss": 469,
+            "hit": 33.85,
+            "loss_pct": 66.15
+          }
+        },
+        {
+          "rule": "open_hour",
+          "pre": {
+            "n": 1094,
+            "win": 342,
+            "loss": 752,
+            "hit": 31.26,
+            "loss_pct": 68.74
+          },
+          "test": {
+            "n": 223,
+            "win": 74,
+            "loss": 149,
+            "hit": 33.18,
+            "loss_pct": 66.82
+          }
+        },
+        {
+          "rule": "midday",
+          "pre": {
+            "n": 7079,
+            "win": 2192,
+            "loss": 4887,
+            "hit": 30.96,
+            "loss_pct": 69.04
+          },
+          "test": {
+            "n": 1390,
+            "win": 435,
+            "loss": 955,
+            "hit": 31.29,
+            "loss_pct": 68.71
+          }
+        },
+        {
+          "rule": "after_14",
+          "pre": {
+            "n": 3719,
+            "win": 1116,
+            "loss": 2603,
+            "hit": 30.01,
+            "loss_pct": 69.99
+          },
+          "test": {
+            "n": 788,
+            "win": 255,
+            "loss": 533,
+            "hit": 32.36,
+            "loss_pct": 67.64
+          }
+        },
+        {
+          "rule": "extended",
+          "pre": {
+            "n": 469,
+            "win": 103,
+            "loss": 366,
+            "hit": 21.96,
+            "loss_pct": 78.04
+          },
+          "test": {
+            "n": 70,
+            "win": 17,
+            "loss": 53,
+            "hit": 24.29,
+            "loss_pct": 75.71
+          }
+        },
+        {
+          "rule": "tight_to_ma",
+          "pre": {
+            "n": 3235,
+            "win": 882,
+            "loss": 2353,
+            "hit": 27.26,
+            "loss_pct": 72.74
+          },
+          "test": {
+            "n": 722,
+            "win": 192,
+            "loss": 530,
+            "hit": 26.59,
+            "loss_pct": 73.41
+          }
+        },
+        {
+          "rule": "dip_le_4",
+          "pre": {
+            "n": 5154,
+            "win": 1478,
+            "loss": 3676,
+            "hit": 28.68,
+            "loss_pct": 71.32
+          },
+          "test": {
+            "n": 990,
+            "win": 277,
+            "loss": 713,
+            "hit": 27.98,
+            "loss_pct": 72.02
+          }
+        },
+        {
+          "rule": "dip_ge_20",
+          "pre": {
+            "n": 3274,
+            "win": 809,
+            "loss": 2465,
+            "hit": 24.71,
+            "loss_pct": 75.29
+          },
+          "test": {
+            "n": 719,
+            "win": 201,
+            "loss": 518,
+            "hit": 27.96,
+            "loss_pct": 72.04
+          }
+        },
+        {
+          "rule": "against_5m",
+          "pre": {
+            "n": 2471,
+            "win": 625,
+            "loss": 1846,
+            "hit": 25.29,
+            "loss_pct": 74.71
+          },
+          "test": {
+            "n": 508,
+            "win": 127,
+            "loss": 381,
+            "hit": 25.0,
+            "loss_pct": 75.0
+          }
+        },
+        {
+          "rule": "with_5m",
+          "pre": {
+            "n": 9985,
+            "win": 3249,
+            "loss": 6736,
+            "hit": 32.54,
+            "loss_pct": 67.46
+          },
+          "test": {
+            "n": 2046,
+            "win": 666,
+            "loss": 1380,
+            "hit": 32.55,
+            "loss_pct": 67.45
+          }
+        },
+        {
+          "rule": "session_low_third",
+          "pre": {
+            "n": 6111,
+            "win": 1837,
+            "loss": 4274,
+            "hit": 30.06,
+            "loss_pct": 69.94
+          },
+          "test": {
+            "n": 1390,
+            "win": 431,
+            "loss": 959,
+            "hit": 31.01,
+            "loss_pct": 68.99
+          }
+        },
+        {
+          "rule": "session_high_third",
+          "pre": {
+            "n": 7108,
+            "win": 2055,
+            "loss": 5053,
+            "hit": 28.91,
+            "loss_pct": 71.09
+          },
+          "test": {
+            "n": 1410,
+            "win": 435,
+            "loss": 975,
+            "hit": 30.85,
+            "loss_pct": 69.15
+          }
+        },
+        {
+          "rule": "buy",
+          "pre": {
+            "n": 9003,
+            "win": 2779,
+            "loss": 6224,
+            "hit": 30.87,
+            "loss_pct": 69.13
+          },
+          "test": {
+            "n": 1923,
+            "win": 568,
+            "loss": 1355,
+            "hit": 29.54,
+            "loss_pct": 70.46
+          }
+        },
+        {
+          "rule": "sell",
+          "pre": {
+            "n": 10095,
+            "win": 3033,
+            "loss": 7062,
+            "hit": 30.04,
+            "loss_pct": 69.96
+          },
+          "test": {
+            "n": 1949,
+            "win": 631,
+            "loss": 1318,
+            "hit": 32.38,
+            "loss_pct": 67.62
+          }
+        }
+      ],
+      "kept_after_loss_slices": {
+        "pre": {
+          "n": 13144,
+          "win": 4844,
+          "loss": 8300,
+          "hit": 36.85,
+          "loss_pct": 63.15
+        },
+        "test": {
+          "n": 2672,
+          "win": 985,
+          "loss": 1687,
+          "hit": 36.86,
+          "loss_pct": 63.14
+        },
+        "refused": [
+          "rr_over_3",
+          "extended"
+        ],
+        "refused_pre": {
+          "n": 5954,
+          "win": 968,
+          "loss": 4986,
+          "hit": 16.26,
+          "loss_pct": 83.74
+        },
+        "refused_test": {
+          "n": 1200,
+          "win": 214,
+          "loss": 986,
+          "hit": 17.83,
+          "loss_pct": 82.17
+        }
+      }
+    },
+    "10": {
+      "base_pre": {
+        "n": 24841,
+        "win": 7336,
+        "loss": 17505,
+        "hit": 29.53,
+        "loss_pct": 70.47
+      },
+      "base_test": {
+        "n": 5110,
+        "win": 1516,
+        "loss": 3594,
+        "hit": 29.67,
+        "loss_pct": 70.33
+      },
+      "slices": [
+        {
+          "rule": "rr_under_1.25",
+          "pre": {
+            "n": 3128,
+            "win": 1477,
+            "loss": 1651,
+            "hit": 47.22,
+            "loss_pct": 52.78
+          },
+          "test": {
+            "n": 688,
+            "win": 337,
+            "loss": 351,
+            "hit": 48.98,
+            "loss_pct": 51.02
+          }
+        },
+        {
+          "rule": "rr_1.25_2",
+          "pre": {
+            "n": 7297,
+            "win": 2833,
+            "loss": 4464,
+            "hit": 38.82,
+            "loss_pct": 61.18
+          },
+          "test": {
+            "n": 1493,
+            "win": 557,
+            "loss": 936,
+            "hit": 37.31,
+            "loss_pct": 62.69
+          }
+        },
+        {
+          "rule": "rr_over_3",
+          "pre": {
+            "n": 8244,
+            "win": 1298,
+            "loss": 6946,
+            "hit": 15.74,
+            "loss_pct": 84.26
+          },
+          "test": {
+            "n": 1731,
+            "win": 287,
+            "loss": 1444,
+            "hit": 16.58,
+            "loss_pct": 83.42
+          }
+        },
+        {
+          "rule": "risk_under_6",
+          "pre": {
+            "n": 2918,
+            "win": 680,
+            "loss": 2238,
+            "hit": 23.3,
+            "loss_pct": 76.7
+          },
+          "test": {
+            "n": 324,
+            "win": 72,
+            "loss": 252,
+            "hit": 22.22,
+            "loss_pct": 77.78
+          }
+        },
+        {
+          "rule": "risk_over_25",
+          "pre": {
+            "n": 2709,
+            "win": 879,
+            "loss": 1830,
+            "hit": 32.45,
+            "loss_pct": 67.55
+          },
+          "test": {
+            "n": 867,
+            "win": 293,
+            "loss": 574,
+            "hit": 33.79,
+            "loss_pct": 66.21
+          }
+        },
+        {
+          "rule": "chop_ge_6",
+          "pre": {
+            "n": 4148,
+            "win": 1287,
+            "loss": 2861,
+            "hit": 31.03,
+            "loss_pct": 68.97
+          },
+          "test": {
+            "n": 822,
+            "win": 269,
+            "loss": 553,
+            "hit": 32.73,
+            "loss_pct": 67.27
+          }
+        },
+        {
+          "rule": "slope_against",
+          "pre": {
+            "n": 18712,
+            "win": 5296,
+            "loss": 13416,
+            "hit": 28.3,
+            "loss_pct": 71.7
+          },
+          "test": {
+            "n": 3822,
+            "win": 1113,
+            "loss": 2709,
+            "hit": 29.12,
+            "loss_pct": 70.88
+          }
+        },
+        {
+          "rule": "slope_with_strong",
+          "pre": {
+            "n": 4322,
+            "win": 1450,
+            "loss": 2872,
+            "hit": 33.55,
+            "loss_pct": 66.45
+          },
+          "test": {
+            "n": 978,
+            "win": 300,
+            "loss": 678,
+            "hit": 30.67,
+            "loss_pct": 69.33
+          }
+        },
+        {
+          "rule": "open_hour",
+          "pre": {
+            "n": 1831,
+            "win": 574,
+            "loss": 1257,
+            "hit": 31.35,
+            "loss_pct": 68.65
+          },
+          "test": {
+            "n": 377,
+            "win": 118,
+            "loss": 259,
+            "hit": 31.3,
+            "loss_pct": 68.7
+          }
+        },
+        {
+          "rule": "midday",
+          "pre": {
+            "n": 9048,
+            "win": 2760,
+            "loss": 6288,
+            "hit": 30.5,
+            "loss_pct": 69.5
+          },
+          "test": {
+            "n": 1815,
+            "win": 532,
+            "loss": 1283,
+            "hit": 29.31,
+            "loss_pct": 70.69
+          }
+        },
+        {
+          "rule": "after_14",
+          "pre": {
+            "n": 4844,
+            "win": 1358,
+            "loss": 3486,
+            "hit": 28.03,
+            "loss_pct": 71.97
+          },
+          "test": {
+            "n": 1080,
+            "win": 339,
+            "loss": 741,
+            "hit": 31.39,
+            "loss_pct": 68.61
+          }
+        },
+        {
+          "rule": "extended",
+          "pre": {
+            "n": 181,
+            "win": 44,
+            "loss": 137,
+            "hit": 24.31,
+            "loss_pct": 75.69
+          },
+          "test": {
+            "n": 42,
+            "win": 11,
+            "loss": 31,
+            "hit": 26.19,
+            "loss_pct": 73.81
+          }
+        },
+        {
+          "rule": "tight_to_ma",
+          "pre": {
+            "n": 3904,
+            "win": 994,
+            "loss": 2910,
+            "hit": 25.46,
+            "loss_pct": 74.54
+          },
+          "test": {
+            "n": 851,
+            "win": 222,
+            "loss": 629,
+            "hit": 26.09,
+            "loss_pct": 73.91
+          }
+        },
+        {
+          "rule": "dip_le_4",
+          "pre": {
+            "n": 5903,
+            "win": 1675,
+            "loss": 4228,
+            "hit": 28.38,
+            "loss_pct": 71.62
+          },
+          "test": {
+            "n": 1183,
+            "win": 347,
+            "loss": 836,
+            "hit": 29.33,
+            "loss_pct": 70.67
+          }
+        },
+        {
+          "rule": "dip_ge_20",
+          "pre": {
+            "n": 2032,
+            "win": 429,
+            "loss": 1603,
+            "hit": 21.11,
+            "loss_pct": 78.89
+          },
+          "test": {
+            "n": 484,
+            "win": 109,
+            "loss": 375,
+            "hit": 22.52,
+            "loss_pct": 77.48
+          }
+        },
+        {
+          "rule": "against_5m",
+          "pre": {
+            "n": 2397,
+            "win": 604,
+            "loss": 1793,
+            "hit": 25.2,
+            "loss_pct": 74.8
+          },
+          "test": {
+            "n": 508,
+            "win": 142,
+            "loss": 366,
+            "hit": 27.95,
+            "loss_pct": 72.05
+          }
+        },
+        {
+          "rule": "with_5m",
+          "pre": {
+            "n": 14088,
+            "win": 4335,
+            "loss": 9753,
+            "hit": 30.77,
+            "loss_pct": 69.23
+          },
+          "test": {
+            "n": 2854,
+            "win": 893,
+            "loss": 1961,
+            "hit": 31.29,
+            "loss_pct": 68.71
+          }
+        },
+        {
+          "rule": "session_low_third",
+          "pre": {
+            "n": 7937,
+            "win": 2293,
+            "loss": 5644,
+            "hit": 28.89,
+            "loss_pct": 71.11
+          },
+          "test": {
+            "n": 1860,
+            "win": 551,
+            "loss": 1309,
+            "hit": 29.62,
+            "loss_pct": 70.38
+          }
+        },
+        {
+          "rule": "session_high_third",
+          "pre": {
+            "n": 9296,
+            "win": 2630,
+            "loss": 6666,
+            "hit": 28.29,
+            "loss_pct": 71.71
+          },
+          "test": {
+            "n": 1841,
+            "win": 542,
+            "loss": 1299,
+            "hit": 29.44,
+            "loss_pct": 70.56
+          }
+        },
+        {
+          "rule": "buy",
+          "pre": {
+            "n": 11722,
+            "win": 3579,
+            "loss": 8143,
+            "hit": 30.53,
+            "loss_pct": 69.47
+          },
+          "test": {
+            "n": 2573,
+            "win": 735,
+            "loss": 1838,
+            "hit": 28.57,
+            "loss_pct": 71.43
+          }
+        },
+        {
+          "rule": "sell",
+          "pre": {
+            "n": 13119,
+            "win": 3757,
+            "loss": 9362,
+            "hit": 28.64,
+            "loss_pct": 71.36
+          },
+          "test": {
+            "n": 2537,
+            "win": 781,
+            "loss": 1756,
+            "hit": 30.78,
+            "loss_pct": 69.22
+          }
+        }
+      ],
+      "kept_after_loss_slices": {
+        "pre": {
+          "n": 15608,
+          "win": 5749,
+          "loss": 9859,
+          "hit": 36.83,
+          "loss_pct": 63.17
+        },
+        "test": {
+          "n": 3171,
+          "win": 1161,
+          "loss": 2010,
+          "hit": 36.61,
+          "loss_pct": 63.39
+        },
+        "refused": [
+          "rr_over_3",
+          "dip_ge_20"
+        ],
+        "refused_pre": {
+          "n": 9233,
+          "win": 1587,
+          "loss": 7646,
+          "hit": 17.19,
+          "loss_pct": 82.81
+        },
+        "refused_test": {
+          "n": 1939,
+          "win": 355,
+          "loss": 1584,
+          "hit": 18.31,
+          "loss_pct": 81.69
+        }
+      }
+    },
+    "20": {
+      "base_pre": {
+        "n": 15768,
+        "win": 4968,
+        "loss": 10800,
+        "hit": 31.51,
+        "loss_pct": 68.49
+      },
+      "base_test": {
+        "n": 3118,
+        "win": 970,
+        "loss": 2148,
+        "hit": 31.11,
+        "loss_pct": 68.89
+      },
+      "slices": [
+        {
+          "rule": "rr_under_1.25",
+          "pre": {
+            "n": 2505,
+            "win": 1206,
+            "loss": 1299,
+            "hit": 48.14,
+            "loss_pct": 51.86
+          },
+          "test": {
+            "n": 518,
+            "win": 250,
+            "loss": 268,
+            "hit": 48.26,
+            "loss_pct": 51.74
+          }
+        },
+        {
+          "rule": "rr_1.25_2",
+          "pre": {
+            "n": 5301,
+            "win": 2057,
+            "loss": 3244,
+            "hit": 38.8,
+            "loss_pct": 61.2
+          },
+          "test": {
+            "n": 1009,
+            "win": 386,
+            "loss": 623,
+            "hit": 38.26,
+            "loss_pct": 61.74
+          }
+        },
+        {
+          "rule": "rr_over_3",
+          "pre": {
+            "n": 4322,
+            "win": 686,
+            "loss": 3636,
+            "hit": 15.87,
+            "loss_pct": 84.13
+          },
+          "test": {
+            "n": 868,
+            "win": 142,
+            "loss": 726,
+            "hit": 16.36,
+            "loss_pct": 83.64
+          }
+        },
+        {
+          "rule": "risk_under_6",
+          "pre": {
+            "n": 2262,
+            "win": 578,
+            "loss": 1684,
+            "hit": 25.55,
+            "loss_pct": 74.45
+          },
+          "test": {
+            "n": 252,
+            "win": 56,
+            "loss": 196,
+            "hit": 22.22,
+            "loss_pct": 77.78
+          }
+        },
+        {
+          "rule": "risk_over_25",
+          "pre": {
+            "n": 2149,
+            "win": 737,
+            "loss": 1412,
+            "hit": 34.3,
+            "loss_pct": 65.7
+          },
+          "test": {
+            "n": 619,
+            "win": 219,
+            "loss": 400,
+            "hit": 35.38,
+            "loss_pct": 64.62
+          }
+        },
+        {
+          "rule": "chop_ge_6",
+          "pre": {
+            "n": 1642,
+            "win": 590,
+            "loss": 1052,
+            "hit": 35.93,
+            "loss_pct": 64.07
+          },
+          "test": {
+            "n": 343,
+            "win": 121,
+            "loss": 222,
+            "hit": 35.28,
+            "loss_pct": 64.72
+          }
+        },
+        {
+          "rule": "slope_against",
+          "pre": {
+            "n": 11504,
+            "win": 3411,
+            "loss": 8093,
+            "hit": 29.65,
+            "loss_pct": 70.35
+          },
+          "test": {
+            "n": 2307,
+            "win": 693,
+            "loss": 1614,
+            "hit": 30.04,
+            "loss_pct": 69.96
+          }
+        },
+        {
+          "rule": "slope_with_strong",
+          "pre": {
+            "n": 2813,
+            "win": 1016,
+            "loss": 1797,
+            "hit": 36.12,
+            "loss_pct": 63.88
+          },
+          "test": {
+            "n": 563,
+            "win": 201,
+            "loss": 362,
+            "hit": 35.7,
+            "loss_pct": 64.3
+          }
+        },
+        {
+          "rule": "open_hour",
+          "pre": {
+            "n": 699,
+            "win": 217,
+            "loss": 482,
+            "hit": 31.04,
+            "loss_pct": 68.96
+          },
+          "test": {
+            "n": 129,
+            "win": 40,
+            "loss": 89,
+            "hit": 31.01,
+            "loss_pct": 68.99
+          }
+        },
+        {
+          "rule": "midday",
+          "pre": {
+            "n": 5968,
+            "win": 1934,
+            "loss": 4034,
+            "hit": 32.41,
+            "loss_pct": 67.59
+          },
+          "test": {
+            "n": 1115,
+            "win": 340,
+            "loss": 775,
+            "hit": 30.49,
+            "loss_pct": 69.51
+          }
+        },
+        {
+          "rule": "after_14",
+          "pre": {
+            "n": 3152,
+            "win": 969,
+            "loss": 2183,
+            "hit": 30.74,
+            "loss_pct": 69.26
+          },
+          "test": {
+            "n": 657,
+            "win": 218,
+            "loss": 439,
+            "hit": 33.18,
+            "loss_pct": 66.82
+          }
+        },
+        {
+          "rule": "extended",
+          "pre": {
+            "n": 524,
+            "win": 137,
+            "loss": 387,
+            "hit": 26.15,
+            "loss_pct": 73.85
+          },
+          "test": {
+            "n": 96,
+            "win": 28,
+            "loss": 68,
+            "hit": 29.17,
+            "loss_pct": 70.83
+          }
+        },
+        {
+          "rule": "tight_to_ma",
+          "pre": {
+            "n": 2927,
+            "win": 892,
+            "loss": 2035,
+            "hit": 30.47,
+            "loss_pct": 69.53
+          },
+          "test": {
+            "n": 607,
+            "win": 178,
+            "loss": 429,
+            "hit": 29.32,
+            "loss_pct": 70.68
+          }
+        },
+        {
+          "rule": "dip_le_4",
+          "pre": {
+            "n": 4694,
+            "win": 1421,
+            "loss": 3273,
+            "hit": 30.27,
+            "loss_pct": 69.73
+          },
+          "test": {
+            "n": 892,
+            "win": 247,
+            "loss": 645,
+            "hit": 27.69,
+            "loss_pct": 72.31
+          }
+        },
+        {
+          "rule": "dip_ge_20",
+          "pre": {
+            "n": 3751,
+            "win": 1022,
+            "loss": 2729,
+            "hit": 27.25,
+            "loss_pct": 72.75
+          },
+          "test": {
+            "n": 777,
+            "win": 227,
+            "loss": 550,
+            "hit": 29.21,
+            "loss_pct": 70.79
+          }
+        },
+        {
+          "rule": "against_5m",
+          "pre": {
+            "n": 2422,
+            "win": 648,
+            "loss": 1774,
+            "hit": 26.75,
+            "loss_pct": 73.25
+          },
+          "test": {
+            "n": 468,
+            "win": 114,
+            "loss": 354,
+            "hit": 24.36,
+            "loss_pct": 75.64
+          }
+        },
+        {
+          "rule": "with_5m",
+          "pre": {
+            "n": 7777,
+            "win": 2610,
+            "loss": 5167,
+            "hit": 33.56,
+            "loss_pct": 66.44
+          },
+          "test": {
+            "n": 1556,
+            "win": 499,
+            "loss": 1057,
+            "hit": 32.07,
+            "loss_pct": 67.93
+          }
+        },
+        {
+          "rule": "session_low_third",
+          "pre": {
+            "n": 4991,
+            "win": 1556,
+            "loss": 3435,
+            "hit": 31.18,
+            "loss_pct": 68.82
+          },
+          "test": {
+            "n": 1118,
+            "win": 359,
+            "loss": 759,
+            "hit": 32.11,
+            "loss_pct": 67.89
+          }
+        },
+        {
+          "rule": "session_high_third",
+          "pre": {
+            "n": 5883,
+            "win": 1770,
+            "loss": 4113,
+            "hit": 30.09,
+            "loss_pct": 69.91
+          },
+          "test": {
+            "n": 1152,
+            "win": 346,
+            "loss": 806,
+            "hit": 30.03,
+            "loss_pct": 69.97
+          }
+        },
+        {
+          "rule": "buy",
+          "pre": {
+            "n": 7380,
+            "win": 2378,
+            "loss": 5002,
+            "hit": 32.22,
+            "loss_pct": 67.78
+          },
+          "test": {
+            "n": 1542,
+            "win": 458,
+            "loss": 1084,
+            "hit": 29.7,
+            "loss_pct": 70.3
+          }
+        },
+        {
+          "rule": "sell",
+          "pre": {
+            "n": 8388,
+            "win": 2590,
+            "loss": 5798,
+            "hit": 30.88,
+            "loss_pct": 69.12
+          },
+          "test": {
+            "n": 1576,
+            "win": 512,
+            "loss": 1064,
+            "hit": 32.49,
+            "loss_pct": 67.51
+          }
+        }
+      ],
+      "kept_after_loss_slices": {
+        "pre": {
+          "n": 11446,
+          "win": 4282,
+          "loss": 7164,
+          "hit": 37.41,
+          "loss_pct": 62.59
+        },
+        "test": {
+          "n": 2250,
+          "win": 828,
+          "loss": 1422,
+          "hit": 36.8,
+          "loss_pct": 63.2
+        },
+        "refused": [
+          "rr_over_3"
+        ],
+        "refused_pre": {
+          "n": 4322,
+          "win": 686,
+          "loss": 3636,
+          "hit": 15.87,
+          "loss_pct": 84.13
+        },
+        "refused_test": {
+          "n": 868,
+          "win": 142,
+          "loss": 726,
+          "hit": 16.36,
+          "loss_pct": 83.64
+        }
+      }
+    },
+    "30": {
+      "base_pre": {
+        "n": 11822,
+        "win": 3931,
+        "loss": 7891,
+        "hit": 33.25,
+        "loss_pct": 66.75
+      },
+      "base_test": {
+        "n": 2350,
+        "win": 748,
+        "loss": 1602,
+        "hit": 31.83,
+        "loss_pct": 68.17
+      },
+      "slices": [
+        {
+          "rule": "rr_under_1.25",
+          "pre": {
+            "n": 2082,
+            "win": 1024,
+            "loss": 1058,
+            "hit": 49.18,
+            "loss_pct": 50.82
+          },
+          "test": {
+            "n": 423,
+            "win": 197,
+            "loss": 226,
+            "hit": 46.57,
+            "loss_pct": 53.43
+          }
+        },
+        {
+          "rule": "rr_1.25_2",
+          "pre": {
+            "n": 4292,
+            "win": 1724,
+            "loss": 2568,
+            "hit": 40.17,
+            "loss_pct": 59.83
+          },
+          "test": {
+            "n": 853,
+            "win": 309,
+            "loss": 544,
+            "hit": 36.23,
+            "loss_pct": 63.77
+          }
+        },
+        {
+          "rule": "rr_over_3",
+          "pre": {
+            "n": 2727,
+            "win": 443,
+            "loss": 2284,
+            "hit": 16.24,
+            "loss_pct": 83.76
+          },
+          "test": {
+            "n": 557,
+            "win": 110,
+            "loss": 447,
+            "hit": 19.75,
+            "loss_pct": 80.25
+          }
+        },
+        {
+          "rule": "risk_under_6",
+          "pre": {
+            "n": 1995,
+            "win": 516,
+            "loss": 1479,
+            "hit": 25.86,
+            "loss_pct": 74.14
+          },
+          "test": {
+            "n": 238,
+            "win": 50,
+            "loss": 188,
+            "hit": 21.01,
+            "loss_pct": 78.99
+          }
+        },
+        {
+          "rule": "risk_over_25",
+          "pre": {
+            "n": 1661,
+            "win": 604,
+            "loss": 1057,
+            "hit": 36.36,
+            "loss_pct": 63.64
+          },
+          "test": {
+            "n": 462,
+            "win": 154,
+            "loss": 308,
+            "hit": 33.33,
+            "loss_pct": 66.67
+          }
+        },
+        {
+          "rule": "chop_ge_6",
+          "pre": {
+            "n": 1147,
+            "win": 408,
+            "loss": 739,
+            "hit": 35.57,
+            "loss_pct": 64.43
+          },
+          "test": {
+            "n": 229,
+            "win": 80,
+            "loss": 149,
+            "hit": 34.93,
+            "loss_pct": 65.07
+          }
+        },
+        {
+          "rule": "slope_against",
+          "pre": {
+            "n": 8210,
+            "win": 2565,
+            "loss": 5645,
+            "hit": 31.24,
+            "loss_pct": 68.76
+          },
+          "test": {
+            "n": 1645,
+            "win": 504,
+            "loss": 1141,
+            "hit": 30.64,
+            "loss_pct": 69.36
+          }
+        },
+        {
+          "rule": "slope_with_strong",
+          "pre": {
+            "n": 2303,
+            "win": 868,
+            "loss": 1435,
+            "hit": 37.69,
+            "loss_pct": 62.31
+          },
+          "test": {
+            "n": 474,
+            "win": 172,
+            "loss": 302,
+            "hit": 36.29,
+            "loss_pct": 63.71
+          }
+        },
+        {
+          "rule": "open_hour",
+          "pre": {
+            "n": 218,
+            "win": 75,
+            "loss": 143,
+            "hit": 34.4,
+            "loss_pct": 65.6
+          },
+          "test": {
+            "n": 46,
+            "win": 18,
+            "loss": 28,
+            "hit": 39.13,
+            "loss_pct": 60.87
+          }
+        },
+        {
+          "rule": "midday",
+          "pre": {
+            "n": 4619,
+            "win": 1570,
+            "loss": 3049,
+            "hit": 33.99,
+            "loss_pct": 66.01
+          },
+          "test": {
+            "n": 877,
+            "win": 266,
+            "loss": 611,
+            "hit": 30.33,
+            "loss_pct": 69.67
+          }
+        },
+        {
+          "rule": "after_14",
+          "pre": {
+            "n": 2503,
+            "win": 838,
+            "loss": 1665,
+            "hit": 33.48,
+            "loss_pct": 66.52
+          },
+          "test": {
+            "n": 521,
+            "win": 179,
+            "loss": 342,
+            "hit": 34.36,
+            "loss_pct": 65.64
+          }
+        },
+        {
+          "rule": "extended",
+          "pre": {
+            "n": 504,
+            "win": 139,
+            "loss": 365,
+            "hit": 27.58,
+            "loss_pct": 72.42
+          },
+          "test": {
+            "n": 97,
+            "win": 32,
+            "loss": 65,
+            "hit": 32.99,
+            "loss_pct": 67.01
+          }
+        },
+        {
+          "rule": "tight_to_ma",
+          "pre": {
+            "n": 2299,
+            "win": 727,
+            "loss": 1572,
+            "hit": 31.62,
+            "loss_pct": 68.38
+          },
+          "test": {
+            "n": 506,
+            "win": 136,
+            "loss": 370,
+            "hit": 26.88,
+            "loss_pct": 73.12
+          }
+        },
+        {
+          "rule": "dip_le_4",
+          "pre": {
+            "n": 3946,
+            "win": 1264,
+            "loss": 2682,
+            "hit": 32.03,
+            "loss_pct": 67.97
+          },
+          "test": {
+            "n": 781,
+            "win": 259,
+            "loss": 522,
+            "hit": 33.16,
+            "loss_pct": 66.84
+          }
+        },
+        {
+          "rule": "dip_ge_20",
+          "pre": {
+            "n": 2892,
+            "win": 907,
+            "loss": 1985,
+            "hit": 31.36,
+            "loss_pct": 68.64
+          },
+          "test": {
+            "n": 610,
+            "win": 178,
+            "loss": 432,
+            "hit": 29.18,
+            "loss_pct": 70.82
+          }
+        },
+        {
+          "rule": "against_5m",
+          "pre": {
+            "n": 2169,
+            "win": 606,
+            "loss": 1563,
+            "hit": 27.94,
+            "loss_pct": 72.06
+          },
+          "test": {
+            "n": 407,
+            "win": 121,
+            "loss": 286,
+            "hit": 29.73,
+            "loss_pct": 70.27
+          }
+        },
+        {
+          "rule": "with_5m",
+          "pre": {
+            "n": 5307,
+            "win": 1883,
+            "loss": 3424,
+            "hit": 35.48,
+            "loss_pct": 64.52
+          },
+          "test": {
+            "n": 1050,
+            "win": 323,
+            "loss": 727,
+            "hit": 30.76,
+            "loss_pct": 69.24
+          }
+        },
+        {
+          "rule": "session_low_third",
+          "pre": {
+            "n": 3662,
+            "win": 1224,
+            "loss": 2438,
+            "hit": 33.42,
+            "loss_pct": 66.58
+          },
+          "test": {
+            "n": 839,
+            "win": 269,
+            "loss": 570,
+            "hit": 32.06,
+            "loss_pct": 67.94
+          }
+        },
+        {
+          "rule": "session_high_third",
+          "pre": {
+            "n": 4451,
+            "win": 1442,
+            "loss": 3009,
+            "hit": 32.4,
+            "loss_pct": 67.6
+          },
+          "test": {
+            "n": 872,
+            "win": 279,
+            "loss": 593,
+            "hit": 32.0,
+            "loss_pct": 68.0
+          }
+        },
+        {
+          "rule": "buy",
+          "pre": {
+            "n": 5499,
+            "win": 1889,
+            "loss": 3610,
+            "hit": 34.35,
+            "loss_pct": 65.65
+          },
+          "test": {
+            "n": 1171,
+            "win": 355,
+            "loss": 816,
+            "hit": 30.32,
+            "loss_pct": 69.68
+          }
+        },
+        {
+          "rule": "sell",
+          "pre": {
+            "n": 6323,
+            "win": 2042,
+            "loss": 4281,
+            "hit": 32.29,
+            "loss_pct": 67.71
+          },
+          "test": {
+            "n": 1179,
+            "win": 393,
+            "loss": 786,
+            "hit": 33.33,
+            "loss_pct": 66.67
+          }
+        }
+      ],
+      "kept_after_loss_slices": {
+        "pre": {
+          "n": 9095,
+          "win": 3488,
+          "loss": 5607,
+          "hit": 38.35,
+          "loss_pct": 61.65
+        },
+        "test": {
+          "n": 1793,
+          "win": 638,
+          "loss": 1155,
+          "hit": 35.58,
+          "loss_pct": 64.42
+        },
+        "refused": [
+          "rr_over_3"
+        ],
+        "refused_pre": {
+          "n": 2727,
+          "win": 443,
+          "loss": 2284,
+          "hit": 16.24,
+          "loss_pct": 83.76
+        },
+        "refused_test": {
+          "n": 557,
+          "win": 110,
+          "loss": 447,
+          "hit": 19.75,
+          "loss_pct": 80.25
+        }
+      }
+    }
+  }
+}

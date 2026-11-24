@@ -1,0 +1,1062 @@
+{
+  "fwd_lo": "2026-11-09",
+  "fwd_hi": "2026-11-16",
+  "fwd_days": [
+    "2026-11-09",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-16"
+  ],
+  "books": {
+    "HELD10": {
+      "t1": 10.0,
+      "sl_max": 12.0,
+      "gap": 8,
+      "n_micros": 296,
+      "train_cal": {
+        "n": 795,
+        "wins": 795,
+        "hit_pct": 100.0,
+        "days": 253,
+        "zero": 18,
+        "cpd": 3.14,
+        "cpd_all": 2.93,
+        "avg_sl": 8.44,
+        "hist": {
+          "1": 43,
+          "2": 50,
+          "3": 67,
+          "4": 47,
+          "5": 24,
+          "6": 13,
+          "7": 7,
+          "8": 2
+        },
+        "miss_days": []
+      },
+      "train_l3m": {
+        "n": 352,
+        "wins": 352,
+        "hit_pct": 100.0,
+        "days": 63,
+        "zero": 1,
+        "cpd": 5.59,
+        "cpd_all": 5.5,
+        "avg_sl": 7.97,
+        "hist": {
+          "1": 2,
+          "2": 8,
+          "3": 5,
+          "4": 8,
+          "5": 6,
+          "6": 12,
+          "7": 6,
+          "8": 6,
+          "9": 7,
+          "10": 2,
+          "12": 1
+        },
+        "miss_days": []
+      },
+      "fwd": {
+        "n": 28,
+        "wins": 14,
+        "hit_pct": 50.0,
+        "days": 5,
+        "zero": 0,
+        "cpd": 5.6,
+        "cpd_all": 5.6,
+        "avg_sl": 9.26,
+        "hist": {
+          "4": 1,
+          "6": 4
+        },
+        "miss_days": [
+          "2026-11-09",
+          "2026-11-11",
+          "2026-11-12",
+          "2026-11-13",
+          "2026-11-16"
+        ]
+      },
+      "fwd_calls": [
+        {
+          "day": "2026-11-09",
+          "hm": "10:49",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": true,
+          "mfe": 168.0,
+          "mae": 40.15
+        },
+        {
+          "day": "2026-11-09",
+          "hm": "11:06",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "cap8",
+          "sl": 8.0,
+          "win": true,
+          "mfe": 11.6,
+          "mae": 196.6
+        },
+        {
+          "day": "2026-11-09",
+          "hm": "13:48",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": false,
+          "mfe": 467.0,
+          "mae": 12.65
+        },
+        {
+          "day": "2026-11-09",
+          "hm": "15:00",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "cap8",
+          "sl": 8.0,
+          "win": true,
+          "mfe": 429.9,
+          "mae": 6.25
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "10:07",
+          "decision": "SELL",
+          "primary": "bear_run3",
+          "st": "p75",
+          "sl": 5.74,
+          "win": true,
+          "mfe": 28.0,
+          "mae": 41.9
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "10:33",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "st": "p75",
+          "sl": 8.36,
+          "win": false,
+          "mfe": 36.3,
+          "mae": 75.75
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "10:52",
+          "decision": "SELL",
+          "primary": "belt_bear",
+          "st": "prev",
+          "sl": 9.0,
+          "win": false,
+          "mfe": 96.1,
+          "mae": 32.7
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "11:15",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "p75",
+          "sl": 10.28,
+          "win": true,
+          "mfe": 12.9,
+          "mae": 119.75
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "12:19",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": false,
+          "mfe": 169.6,
+          "mae": 13.55
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "13:38",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "cap8",
+          "sl": 8.0,
+          "win": true,
+          "mfe": 122.6,
+          "mae": 94.45
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "09:25",
+          "decision": "BUY",
+          "primary": "bull_run3",
+          "st": "cap8",
+          "sl": 8.0,
+          "win": true,
+          "mfe": 71.0,
+          "mae": 32.8
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "09:49",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": false,
+          "mfe": 45.5,
+          "mae": 76.4
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "10:45",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": true,
+          "mfe": 137.2,
+          "mae": 9.45
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "11:10",
+          "decision": "SELL",
+          "primary": "belt_bear",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": true,
+          "mfe": 103.3,
+          "mae": 5.45
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "13:50",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": false,
+          "mfe": 17.4,
+          "mae": 204.4
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "14:04",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "st": "p75",
+          "sl": 9.64,
+          "win": false,
+          "mfe": 173.8,
+          "mae": 48.05
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "09:59",
+          "decision": "SELL",
+          "primary": "bear_run3",
+          "st": "sig",
+          "sl": 10.25,
+          "win": false,
+          "mfe": 65.8,
+          "mae": 46.0
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "10:30",
+          "decision": "BUY",
+          "primary": "bull_engulf",
+          "st": "cap10",
+          "sl": 9.7,
+          "win": true,
+          "mfe": 44.2,
+          "mae": 120.45
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "11:43",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "st": "sig",
+          "sl": 6.3,
+          "win": true,
+          "mfe": 80.8,
+          "mae": 0.2
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "12:45",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": false,
+          "mfe": 48.4,
+          "mae": 34.95
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "13:31",
+          "decision": "BUY",
+          "primary": "tweezer_bot",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": true,
+          "mfe": 192.2,
+          "mae": 64.15
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "13:47",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "cap8",
+          "sl": 8.0,
+          "win": true,
+          "mfe": 39.8,
+          "mae": 216.45
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "10:24",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "st": "cap8",
+          "sl": 8.0,
+          "win": false,
+          "mfe": 80.2,
+          "mae": 31.0
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "10:37",
+          "decision": "BUY",
+          "primary": "inv_hammer",
+          "st": "prev",
+          "sl": 4.4,
+          "win": true,
+          "mfe": 84.9,
+          "mae": 26.35
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "11:05",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": false,
+          "mfe": 55.1,
+          "mae": 39.4
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "12:37",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "st": "sig",
+          "sl": 9.7,
+          "win": false,
+          "mfe": 81.4,
+          "mae": 20.25
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "14:35",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "cap8",
+          "sl": 8.0,
+          "win": false,
+          "mfe": 61.5,
+          "mae": 29.1
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "14:59",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": false,
+          "mfe": 10.8,
+          "mae": 77.75
+        }
+      ],
+      "held": true
+    },
+    "HELD15": {
+      "t1": 15.0,
+      "sl_max": 15.0,
+      "gap": 4,
+      "n_micros": 211,
+      "train_cal": {
+        "n": 545,
+        "wins": 545,
+        "hit_pct": 100.0,
+        "days": 229,
+        "zero": 42,
+        "cpd": 2.38,
+        "cpd_all": 2.01,
+        "avg_sl": 10.11,
+        "hist": {
+          "1": 69,
+          "2": 68,
+          "3": 54,
+          "4": 21,
+          "5": 10,
+          "6": 6,
+          "8": 1
+        },
+        "miss_days": []
+      },
+      "train_l3m": {
+        "n": 256,
+        "wins": 256,
+        "hit_pct": 100.0,
+        "days": 63,
+        "zero": 1,
+        "cpd": 4.06,
+        "cpd_all": 4.0,
+        "avg_sl": 9.86,
+        "hist": {
+          "1": 12,
+          "2": 6,
+          "3": 10,
+          "4": 9,
+          "5": 7,
+          "6": 10,
+          "7": 4,
+          "8": 3,
+          "9": 1,
+          "10": 1
+        },
+        "miss_days": []
+      },
+      "fwd": {
+        "n": 27,
+        "wins": 12,
+        "hit_pct": 44.44,
+        "days": 5,
+        "zero": 0,
+        "cpd": 5.4,
+        "cpd_all": 5.4,
+        "avg_sl": 10.16,
+        "hist": {
+          "2": 1,
+          "3": 1,
+          "6": 1,
+          "8": 2
+        },
+        "miss_days": [
+          "2026-11-09",
+          "2026-11-11",
+          "2026-11-12",
+          "2026-11-13",
+          "2026-11-16"
+        ]
+      },
+      "fwd_calls": [
+        {
+          "day": "2026-11-09",
+          "hm": "10:12",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": false,
+          "mfe": 82.2,
+          "mae": 139.0
+        },
+        {
+          "day": "2026-11-09",
+          "hm": "10:49",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "cap15",
+          "sl": 15.0,
+          "win": true,
+          "mfe": 168.0,
+          "mae": 40.15
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "10:33",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "st": "p75",
+          "sl": 8.36,
+          "win": false,
+          "mfe": 36.3,
+          "mae": 75.75
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "10:52",
+          "decision": "SELL",
+          "primary": "belt_bear",
+          "st": "prev",
+          "sl": 9.0,
+          "win": false,
+          "mfe": 96.1,
+          "mae": 32.7
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "11:15",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "p75",
+          "sl": 10.28,
+          "win": false,
+          "mfe": 12.9,
+          "mae": 119.75
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "11:43",
+          "decision": "SELL",
+          "primary": "hanging_man",
+          "st": "p60",
+          "sl": 4.95,
+          "win": false,
+          "mfe": 177.9,
+          "mae": 9.75
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "13:14",
+          "decision": "SELL",
+          "primary": "dark_cloud",
+          "st": "p75",
+          "sl": 6.56,
+          "win": false,
+          "mfe": 181.5,
+          "mae": 19.55
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "13:38",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "cap8",
+          "sl": 8.0,
+          "win": false,
+          "mfe": 122.6,
+          "mae": 94.45
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "14:12",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "p75",
+          "sl": 10.12,
+          "win": true,
+          "mfe": 144.1,
+          "mae": 121.8
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "14:57",
+          "decision": "SELL",
+          "primary": "marubozu_bear",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": true,
+          "mfe": 61.2,
+          "mae": 228.2
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "10:09",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "cap15",
+          "sl": 15.0,
+          "win": true,
+          "mfe": 125.2,
+          "mae": 8.35
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "10:45",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": true,
+          "mfe": 137.2,
+          "mae": 9.45
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "11:10",
+          "decision": "SELL",
+          "primary": "belt_bear",
+          "st": "p60",
+          "sl": 9.93,
+          "win": true,
+          "mfe": 103.3,
+          "mae": 5.45
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "12:29",
+          "decision": "SELL",
+          "primary": "dark_cloud",
+          "st": "p75",
+          "sl": 7.35,
+          "win": true,
+          "mfe": 24.4,
+          "mae": 48.3
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "13:29",
+          "decision": "SELL",
+          "primary": "dark_cloud",
+          "st": "p60",
+          "sl": 4.0,
+          "win": false,
+          "mfe": 5.8,
+          "mae": 61.5
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "13:50",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "st": "cap15",
+          "sl": 15.0,
+          "win": false,
+          "mfe": 17.4,
+          "mae": 204.4
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "09:33",
+          "decision": "BUY",
+          "primary": "three_outside_up",
+          "st": "p75",
+          "sl": 14.18,
+          "win": true,
+          "mfe": 108.4,
+          "mae": 2.55
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "10:05",
+          "decision": "BUY",
+          "primary": "three_outside_up",
+          "st": "cap15",
+          "sl": 15.0,
+          "win": false,
+          "mfe": 35.1,
+          "mae": 82.6
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "10:26",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "sig",
+          "sl": 13.05,
+          "win": false,
+          "mfe": 108.9,
+          "mae": 55.75
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "10:30",
+          "decision": "BUY",
+          "primary": "bull_engulf",
+          "st": "cap10",
+          "sl": 9.7,
+          "win": true,
+          "mfe": 44.2,
+          "mae": 120.45
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "11:15",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": false,
+          "mfe": 83.0,
+          "mae": 26.25
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "12:45",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": false,
+          "mfe": 48.4,
+          "mae": 34.95
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "13:17",
+          "decision": "SELL",
+          "primary": "dark_cloud",
+          "st": "p75",
+          "sl": 6.64,
+          "win": false,
+          "mfe": 60.8,
+          "mae": 26.35
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "13:47",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "cap8",
+          "sl": 8.0,
+          "win": true,
+          "mfe": 39.8,
+          "mae": 216.45
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "10:37",
+          "decision": "BUY",
+          "primary": "inv_hammer",
+          "st": "prev",
+          "sl": 4.4,
+          "win": true,
+          "mfe": 84.9,
+          "mae": 26.35
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "14:26",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "p75",
+          "sl": 13.69,
+          "win": true,
+          "mfe": 73.3,
+          "mae": 17.3
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "14:40",
+          "decision": "SELL",
+          "primary": "bear_run3",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": false,
+          "mfe": 9.3,
+          "mae": 81.3
+        }
+      ],
+      "held": true
+    },
+    "HELD20": {
+      "t1": 20.0,
+      "sl_max": 20.0,
+      "gap": 4,
+      "n_micros": 128,
+      "train_cal": {
+        "n": 304,
+        "wins": 304,
+        "hit_pct": 100.0,
+        "days": 190,
+        "zero": 81,
+        "cpd": 1.6,
+        "cpd_all": 1.12,
+        "avg_sl": 10.48,
+        "hist": {
+          "1": 116,
+          "2": 41,
+          "3": 27,
+          "4": 5,
+          "5": 1
+        },
+        "miss_days": []
+      },
+      "train_l3m": {
+        "n": 148,
+        "wins": 148,
+        "hit_pct": 100.0,
+        "days": 56,
+        "zero": 8,
+        "cpd": 2.64,
+        "cpd_all": 2.31,
+        "avg_sl": 10.24,
+        "hist": {
+          "1": 18,
+          "2": 12,
+          "3": 9,
+          "4": 11,
+          "5": 4,
+          "6": 1,
+          "9": 1
+        },
+        "miss_days": []
+      },
+      "fwd": {
+        "n": 20,
+        "wins": 8,
+        "hit_pct": 40.0,
+        "days": 5,
+        "zero": 0,
+        "cpd": 4.0,
+        "cpd_all": 4.0,
+        "avg_sl": 10.59,
+        "hist": {
+          "2": 2,
+          "3": 1,
+          "5": 1,
+          "8": 1
+        },
+        "miss_days": [
+          "2026-11-09",
+          "2026-11-11",
+          "2026-11-13",
+          "2026-11-16"
+        ]
+      },
+      "fwd_calls": [
+        {
+          "day": "2026-11-09",
+          "hm": "10:12",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": false,
+          "mfe": 82.2,
+          "mae": 139.0
+        },
+        {
+          "day": "2026-11-09",
+          "hm": "12:00",
+          "decision": "SELL",
+          "primary": "bear_run3",
+          "st": "sig",
+          "sl": 17.35,
+          "win": true,
+          "mfe": 99.7,
+          "mae": 20.25
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "10:33",
+          "decision": "BUY",
+          "primary": "bull_kicker",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": false,
+          "mfe": 36.3,
+          "mae": 75.75
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "10:52",
+          "decision": "SELL",
+          "primary": "belt_bear",
+          "st": "prev",
+          "sl": 9.0,
+          "win": false,
+          "mfe": 96.1,
+          "mae": 32.7
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "11:15",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "p75",
+          "sl": 10.28,
+          "win": false,
+          "mfe": 12.9,
+          "mae": 119.75
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "11:43",
+          "decision": "SELL",
+          "primary": "hanging_man",
+          "st": "p60",
+          "sl": 4.95,
+          "win": false,
+          "mfe": 177.9,
+          "mae": 9.75
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "12:11",
+          "decision": "SELL",
+          "primary": "belt_bear",
+          "st": "sig",
+          "sl": 17.0,
+          "win": true,
+          "mfe": 189.2,
+          "mae": 1.65
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "13:14",
+          "decision": "SELL",
+          "primary": "dark_cloud",
+          "st": "p75",
+          "sl": 6.56,
+          "win": false,
+          "mfe": 181.5,
+          "mae": 19.55
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "14:12",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "p75",
+          "sl": 10.12,
+          "win": true,
+          "mfe": 144.1,
+          "mae": 121.8
+        },
+        {
+          "day": "2026-11-11",
+          "hm": "14:36",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "prev",
+          "sl": 15.7,
+          "win": false,
+          "mfe": 124.5,
+          "mae": 165.0
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "10:45",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "cap10",
+          "sl": 10.0,
+          "win": true,
+          "mfe": 137.2,
+          "mae": 9.45
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "11:10",
+          "decision": "SELL",
+          "primary": "belt_bear",
+          "st": "p60",
+          "sl": 9.93,
+          "win": true,
+          "mfe": 103.3,
+          "mae": 5.45
+        },
+        {
+          "day": "2026-11-12",
+          "hm": "12:29",
+          "decision": "SELL",
+          "primary": "dark_cloud",
+          "st": "p75",
+          "sl": 7.35,
+          "win": true,
+          "mfe": 24.4,
+          "mae": 48.3
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "10:26",
+          "decision": "SELL",
+          "primary": "bear_engulf",
+          "st": "sig",
+          "sl": 13.05,
+          "win": false,
+          "mfe": 108.9,
+          "mae": 55.75
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "10:30",
+          "decision": "BUY",
+          "primary": "bull_engulf",
+          "st": "cap10",
+          "sl": 9.7,
+          "win": true,
+          "mfe": 44.2,
+          "mae": 120.45
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "11:15",
+          "decision": "SELL",
+          "primary": "bear_run2",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": false,
+          "mfe": 83.0,
+          "mae": 26.25
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "12:45",
+          "decision": "SELL",
+          "primary": "three_outside_dn",
+          "st": "cap12",
+          "sl": 12.0,
+          "win": false,
+          "mfe": 48.4,
+          "mae": 34.95
+        },
+        {
+          "day": "2026-11-13",
+          "hm": "13:17",
+          "decision": "SELL",
+          "primary": "dark_cloud",
+          "st": "p75",
+          "sl": 6.64,
+          "win": false,
+          "mfe": 60.8,
+          "mae": 26.35
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "10:37",
+          "decision": "BUY",
+          "primary": "inv_hammer",
+          "st": "prev",
+          "sl": 4.4,
+          "win": false,
+          "mfe": 84.9,
+          "mae": 26.35
+        },
+        {
+          "day": "2026-11-16",
+          "hm": "14:26",
+          "decision": "BUY",
+          "primary": "bull_run2",
+          "st": "p75",
+          "sl": 13.69,
+          "win": true,
+          "mfe": 73.3,
+          "mae": 17.3
+        }
+      ],
+      "held": true
+    }
+  },
+  "locked": [
+    "HELD10",
+    "HELD15",
+    "HELD20"
+  ]
+}

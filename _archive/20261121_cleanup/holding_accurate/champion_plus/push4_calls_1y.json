@@ -1,0 +1,2098 @@
+[
+  {
+    "day": "2025-10-27",
+    "hm": "09:30",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5411
+  },
+  {
+    "day": "2025-10-27",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2025-10-28",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-10-29",
+    "hm": "10:15",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2025-10-29",
+    "hm": "10:20",
+    "side": "BUY",
+    "win": false,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2025-10-30",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": false,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-10-30",
+    "hm": "10:30",
+    "side": "SELL",
+    "win": false,
+    "track": "good_prod2",
+    "p_t1": 0.5429
+  },
+  {
+    "day": "2025-10-30",
+    "hm": "11:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5291
+  },
+  {
+    "day": "2025-10-31",
+    "hm": "10:20",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-10-31",
+    "hm": "10:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5331
+  },
+  {
+    "day": "2025-11-03",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": false,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2025-11-04",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2025-11-04",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5393
+  },
+  {
+    "day": "2025-11-04",
+    "hm": "10:10",
+    "side": "SELL",
+    "win": false,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-11-04",
+    "hm": "11:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5294
+  },
+  {
+    "day": "2025-11-06",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-11-06",
+    "hm": "10:15",
+    "side": "SELL",
+    "win": false,
+    "track": "good_prod2",
+    "p_t1": 0.5292
+  },
+  {
+    "day": "2025-11-07",
+    "hm": "11:10",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2025-11-07",
+    "hm": "12:00",
+    "side": "BUY",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2025-11-10",
+    "hm": "10:10",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2025-11-11",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5572
+  },
+  {
+    "day": "2025-11-11",
+    "hm": "10:30",
+    "side": "SELL",
+    "win": false,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-11-11",
+    "hm": "11:00",
+    "side": "SELL",
+    "win": false,
+    "track": "good_prod2",
+    "p_t1": 0.5559
+  },
+  {
+    "day": "2025-11-12",
+    "hm": "10:30",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5226
+  },
+  {
+    "day": "2025-11-13",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2025-11-14",
+    "hm": "10:20",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-11-14",
+    "hm": "13:30",
+    "side": "SELL",
+    "win": false,
+    "track": "champion",
+    "p_t1": 0.7309
+  },
+  {
+    "day": "2025-11-17",
+    "hm": "12:30",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2025-11-18",
+    "hm": "11:40",
+    "side": "BUY",
+    "win": false,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2025-11-19",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2025-11-19",
+    "hm": "12:00",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5242
+  },
+  {
+    "day": "2025-11-20",
+    "hm": "10:20",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2025-11-21",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.2
+  },
+  {
+    "day": "2025-11-24",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": false,
+    "track": "good_prod2",
+    "p_t1": 0.5332
+  },
+  {
+    "day": "2025-11-24",
+    "hm": "11:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5592
+  },
+  {
+    "day": "2025-11-24",
+    "hm": "14:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.2
+  },
+  {
+    "day": "2025-11-25",
+    "hm": "10:50",
+    "side": "SELL",
+    "win": false,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-11-25",
+    "hm": "14:45",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2025-11-26",
+    "hm": "09:45",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5353
+  },
+  {
+    "day": "2025-11-26",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2025-11-27",
+    "hm": "12:30",
+    "side": "SELL",
+    "win": false,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-11-28",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": false,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2025-12-01",
+    "hm": "09:45",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2025-12-01",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-12-01",
+    "hm": "11:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5608
+  },
+  {
+    "day": "2025-12-02",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": false,
+    "track": "good_prod2",
+    "p_t1": 0.5223
+  },
+  {
+    "day": "2025-12-02",
+    "hm": "10:10",
+    "side": "SELL",
+    "win": false,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-12-02",
+    "hm": "11:15",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5361
+  },
+  {
+    "day": "2025-12-03",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5213
+  },
+  {
+    "day": "2025-12-03",
+    "hm": "10:30",
+    "side": "SELL",
+    "win": false,
+    "track": "good_prod2",
+    "p_t1": 0.5242
+  },
+  {
+    "day": "2025-12-04",
+    "hm": "09:30",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2025-12-04",
+    "hm": "10:10",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2025-12-05",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2025-12-05",
+    "hm": "10:30",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5296
+  },
+  {
+    "day": "2025-12-08",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-12-09",
+    "hm": "11:00",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2025-12-10",
+    "hm": "09:30",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2025-12-10",
+    "hm": "12:00",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2025-12-11",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2025-12-11",
+    "hm": "10:10",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2025-12-11",
+    "hm": "11:30",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5472
+  },
+  {
+    "day": "2025-12-15",
+    "hm": "10:10",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2025-12-16",
+    "hm": "09:45",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2025-12-17",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5404
+  },
+  {
+    "day": "2025-12-18",
+    "hm": "10:10",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2025-12-18",
+    "hm": "10:15",
+    "side": "BUY",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2025-12-19",
+    "hm": "09:20",
+    "side": "BUY",
+    "win": true,
+    "track": "dual5_research",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2025-12-23",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2025-12-24",
+    "hm": "11:40",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-12-26",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5326
+  },
+  {
+    "day": "2025-12-26",
+    "hm": "11:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-12-29",
+    "hm": "09:45",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2025-12-29",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2025-12-29",
+    "hm": "10:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5413
+  },
+  {
+    "day": "2025-12-31",
+    "hm": "10:30",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-01-02",
+    "hm": "09:30",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-01-02",
+    "hm": "10:40",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-01-05",
+    "hm": "13:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-01-08",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-01-08",
+    "hm": "10:10",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.2
+  },
+  {
+    "day": "2026-01-08",
+    "hm": "10:15",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5683
+  },
+  {
+    "day": "2026-01-08",
+    "hm": "11:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5465
+  },
+  {
+    "day": "2026-01-09",
+    "hm": "10:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5226
+  },
+  {
+    "day": "2026-01-09",
+    "hm": "11:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-01-09",
+    "hm": "11:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5338
+  },
+  {
+    "day": "2026-01-12",
+    "hm": "12:20",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-01-13",
+    "hm": "12:40",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.2
+  },
+  {
+    "day": "2026-01-14",
+    "hm": "13:30",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-01-16",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-01-19",
+    "hm": "13:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-01-20",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5391
+  },
+  {
+    "day": "2026-01-21",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.3344
+  },
+  {
+    "day": "2026-01-22",
+    "hm": "10:15",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.6393
+  },
+  {
+    "day": "2026-01-23",
+    "hm": "11:30",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-01-23",
+    "hm": "11:35",
+    "side": "SELL",
+    "win": true,
+    "track": "dual5_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-01-29",
+    "hm": "12:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-02-01",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-02-01",
+    "hm": "10:10",
+    "side": "BUY",
+    "win": true,
+    "track": "dual5_research",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-02-02",
+    "hm": "10:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-02-09",
+    "hm": "10:30",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2026-02-13",
+    "hm": "13:40",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-02-17",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-02-17",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-02-17",
+    "hm": "11:00",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5208
+  },
+  {
+    "day": "2026-02-18",
+    "hm": "14:10",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-02-18",
+    "hm": "14:15",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-02-19",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-02-19",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-02-25",
+    "hm": "12:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-02-26",
+    "hm": "11:30",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-02-26",
+    "hm": "11:40",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-02-27",
+    "hm": "09:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5283
+  },
+  {
+    "day": "2026-02-27",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.2
+  },
+  {
+    "day": "2026-03-02",
+    "hm": "10:30",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-03-06",
+    "hm": "12:15",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-03-11",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-03-12",
+    "hm": "11:30",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5487
+  },
+  {
+    "day": "2026-03-13",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-03-13",
+    "hm": "11:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5542
+  },
+  {
+    "day": "2026-03-16",
+    "hm": "14:20",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-03-17",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-03-18",
+    "hm": "10:40",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-03-24",
+    "hm": "12:30",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-03-25",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.625
+  },
+  {
+    "day": "2026-03-30",
+    "hm": "10:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-04-02",
+    "hm": "12:20",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-04-06",
+    "hm": "12:40",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-04-13",
+    "hm": "10:15",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5413
+  },
+  {
+    "day": "2026-04-16",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-04-17",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-04-21",
+    "hm": "09:45",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-04-29",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-04-30",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-05-04",
+    "hm": "12:10",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-05-05",
+    "hm": "10:20",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-05-06",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5338
+  },
+  {
+    "day": "2026-05-07",
+    "hm": "12:30",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-05-12",
+    "hm": "10:15",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5303
+  },
+  {
+    "day": "2026-05-12",
+    "hm": "10:20",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-05-12",
+    "hm": "12:15",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5685
+  },
+  {
+    "day": "2026-05-14",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-05-15",
+    "hm": "14:20",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-05-19",
+    "hm": "14:30",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-05-19",
+    "hm": "14:40",
+    "side": "SELL",
+    "win": true,
+    "track": "dual5_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-05-19",
+    "hm": "15:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-05-21",
+    "hm": "10:45",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-05-21",
+    "hm": "10:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-05-22",
+    "hm": "09:45",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-05-22",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-05-25",
+    "hm": "14:30",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-05-26",
+    "hm": "12:40",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-05-29",
+    "hm": "12:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5269
+  },
+  {
+    "day": "2026-06-01",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-06-02",
+    "hm": "11:00",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5574
+  },
+  {
+    "day": "2026-06-03",
+    "hm": "10:30",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-06-04",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-06-08",
+    "hm": "09:30",
+    "side": "BUY",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-06-09",
+    "hm": "09:45",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-06-09",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-06-09",
+    "hm": "11:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5746
+  },
+  {
+    "day": "2026-06-10",
+    "hm": "10:45",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.523
+  },
+  {
+    "day": "2026-06-11",
+    "hm": "10:10",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-06-12",
+    "hm": "13:30",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-06-15",
+    "hm": "12:10",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-06-17",
+    "hm": "09:30",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.95
+  },
+  {
+    "day": "2026-06-18",
+    "hm": "15:00",
+    "side": "BUY",
+    "win": false,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-06-23",
+    "hm": "11:40",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-06-24",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2026-06-25",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-06-29",
+    "hm": "12:10",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-07-01",
+    "hm": "09:30",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-07-01",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2026-07-03",
+    "hm": "13:30",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-07-06",
+    "hm": "10:20",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5117
+  },
+  {
+    "day": "2026-07-06",
+    "hm": "10:45",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5222
+  },
+  {
+    "day": "2026-07-07",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-07-08",
+    "hm": "12:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5395
+  },
+  {
+    "day": "2026-07-08",
+    "hm": "12:20",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-07-13",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2026-07-15",
+    "hm": "12:30",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-07-16",
+    "hm": "13:15",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-07-17",
+    "hm": "09:30",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-07-21",
+    "hm": "10:10",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-07-21",
+    "hm": "10:15",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-07-21",
+    "hm": "11:15",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5269
+  },
+  {
+    "day": "2026-07-22",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-07-23",
+    "hm": "12:30",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-07-29",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2026-07-29",
+    "hm": "10:30",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5277
+  },
+  {
+    "day": "2026-07-31",
+    "hm": "11:20",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-08-03",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2026-08-04",
+    "hm": "10:30",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-08-05",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-08-05",
+    "hm": "11:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5203
+  },
+  {
+    "day": "2026-08-11",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-08-12",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-08-12",
+    "hm": "10:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5258
+  },
+  {
+    "day": "2026-08-17",
+    "hm": "10:10",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-08-17",
+    "hm": "10:15",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5534
+  },
+  {
+    "day": "2026-08-18",
+    "hm": "10:10",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-08-19",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-08-19",
+    "hm": "10:15",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5283
+  },
+  {
+    "day": "2026-08-24",
+    "hm": "09:45",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-08-24",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-08-25",
+    "hm": "14:30",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-08-26",
+    "hm": "10:15",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-08-26",
+    "hm": "10:20",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-08-27",
+    "hm": "09:45",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-08-27",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5788
+  },
+  {
+    "day": "2026-08-27",
+    "hm": "10:10",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-08-31",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5357
+  },
+  {
+    "day": "2026-09-01",
+    "hm": "10:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-09-01",
+    "hm": "11:00",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-09-03",
+    "hm": "12:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5331
+  },
+  {
+    "day": "2026-09-04",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-09-04",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "dual5_research",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-09-04",
+    "hm": "10:15",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-09-04",
+    "hm": "10:45",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5213
+  },
+  {
+    "day": "2026-09-07",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5
+  },
+  {
+    "day": "2026-09-07",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5365
+  },
+  {
+    "day": "2026-09-08",
+    "hm": "11:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5355
+  },
+  {
+    "day": "2026-09-11",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5333
+  },
+  {
+    "day": "2026-09-15",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-09-15",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.2
+  },
+  {
+    "day": "2026-09-15",
+    "hm": "10:15",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5421
+  },
+  {
+    "day": "2026-09-17",
+    "hm": "09:45",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.7547
+  },
+  {
+    "day": "2026-09-17",
+    "hm": "11:30",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5218
+  },
+  {
+    "day": "2026-09-21",
+    "hm": "11:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2026-09-22",
+    "hm": "10:30",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-09-22",
+    "hm": "11:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5226
+  },
+  {
+    "day": "2026-09-23",
+    "hm": "10:40",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-09-23",
+    "hm": "10:45",
+    "side": "BUY",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-09-24",
+    "hm": "11:45",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-09-24",
+    "hm": "11:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual5_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-09-25",
+    "hm": "14:15",
+    "side": "BUY",
+    "win": false,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-09-28",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-09-28",
+    "hm": "10:15",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5368
+  },
+  {
+    "day": "2026-09-29",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-09-30",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-10-01",
+    "hm": "12:10",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-10-01",
+    "hm": "12:15",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-10-01",
+    "hm": "12:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.527
+  },
+  {
+    "day": "2026-10-05",
+    "hm": "10:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-10-06",
+    "hm": "09:45",
+    "side": "BUY",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.6829
+  },
+  {
+    "day": "2026-10-08",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-10-08",
+    "hm": "10:30",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5325
+  },
+  {
+    "day": "2026-10-08",
+    "hm": "11:45",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.548
+  },
+  {
+    "day": "2026-10-09",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-10-09",
+    "hm": "10:00",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5271
+  },
+  {
+    "day": "2026-10-12",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-10-12",
+    "hm": "11:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5269
+  },
+  {
+    "day": "2026-10-13",
+    "hm": "14:00",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-10-15",
+    "hm": "09:45",
+    "side": "BUY",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5434
+  },
+  {
+    "day": "2026-10-15",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.45
+  },
+  {
+    "day": "2026-10-16",
+    "hm": "09:50",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-10-19",
+    "hm": "12:00",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.7375
+  },
+  {
+    "day": "2026-10-21",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-10-21",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "proven_research",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-10-22",
+    "hm": "10:20",
+    "side": "BUY",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.5437
+  },
+  {
+    "day": "2026-10-23",
+    "hm": "09:30",
+    "side": "SELL",
+    "win": true,
+    "track": "champion",
+    "p_t1": 0.9167
+  },
+  {
+    "day": "2026-10-23",
+    "hm": "09:50",
+    "side": "SELL",
+    "win": true,
+    "track": "dual10m",
+    "p_t1": 0.4615
+  },
+  {
+    "day": "2026-10-23",
+    "hm": "10:00",
+    "side": "SELL",
+    "win": true,
+    "track": "good_prod2",
+    "p_t1": 0.5697
+  }
+]

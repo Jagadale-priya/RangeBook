@@ -1,0 +1,111 @@
+{
+  "symbol": "SENSEX",
+  "version": "dual_fb_combine_t50",
+  "locked_clip": {
+    "sl": 50.0,
+    "t1": 50.0
+  },
+  "policy": {
+    "name": "DUAL_AND_FALLBACK_COMBINE",
+    "mode": "dual_fb_combine",
+    "dual": "OR-break p>=0.45 BUY/SELL \u00b7 no or_ext \u00b7 sell cont \u00b7 all duals",
+    "fallback": "OR @ 09:45 every session (always evaluated)",
+    "combine": "if dual and fallback same hm+side \u2192 1 call with both tags",
+    "mutual_block": false,
+    "buy_min_p": 0.45,
+    "sell_min_p": 0.45,
+    "allow_sell_cont": true,
+    "buy_max_or_ext": null,
+    "max_per_day": null,
+    "clip_sl": 50.0,
+    "clip_t1": 50.0
+  },
+  "desks": {
+    "champ_plus": {
+      "desk": "SENSEX_DUAL_FB_COMBINE_T50",
+      "accurate_tag": "SENSEX_DUAL_FB_COMBINE_T50",
+      "accuracy_tag": "ACC_RANGE_69_75",
+      "accuracy_lo": 69.73,
+      "accuracy_hi": 75.49,
+      "windows": {
+        "1y": {
+          "n": 1021,
+          "sessions": 249,
+          "days_with_call": 249,
+          "coverage_pct": 100.0,
+          "hit_pct": 72.58,
+          "wins": 741,
+          "losses": 280,
+          "dual_only": 772,
+          "fallback_only": 209,
+          "combined": 40,
+          "avg_calls_per_day": 4.1
+        },
+        "3m": {
+          "n": 257,
+          "sessions": 64,
+          "days_with_call": 64,
+          "coverage_pct": 100.0,
+          "hit_pct": 75.49,
+          "wins": 194,
+          "losses": 63,
+          "dual_only": 193,
+          "fallback_only": 59,
+          "combined": 5,
+          "avg_calls_per_day": 4.02
+        },
+        "3y": {
+          "n": 2626,
+          "sessions": 624,
+          "days_with_call": 624,
+          "coverage_pct": 100.0,
+          "hit_pct": 69.73,
+          "wins": 1831,
+          "losses": 795,
+          "dual_only": 2002,
+          "fallback_only": 529,
+          "combined": 95,
+          "avg_calls_per_day": 4.21
+        }
+      },
+      "n_held": 2626,
+      "brackets": {
+        "sl": 50.0,
+        "target": 50.0
+      },
+      "cap": 99
+    }
+  },
+  "book": {
+    "1y": {
+      "n": 1021,
+      "hit_pct": 72.58,
+      "coverage_pct": 100.0
+    },
+    "3y": {
+      "n": 2626,
+      "hit_pct": 69.73,
+      "coverage_pct": 100.0
+    },
+    "5y": {
+      "n": 2626,
+      "hit_pct": 69.73,
+      "coverage_pct": 100.0
+    }
+  },
+  "expected": {
+    "1y": {
+      "n": 1021,
+      "hit_pct": 72.58
+    },
+    "3y": {
+      "n": 2626,
+      "hit_pct": 69.73
+    },
+    "5y": {
+      "n": 2626,
+      "hit_pct": 69.73
+    }
+  },
+  "calls_path": "C:/Users/Priyanka/Agent/prod_live/holding_accurate/sensex_final/champ_plus_t50_sl50_calls.json"
+}
